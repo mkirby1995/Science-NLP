@@ -1,775 +1,0 @@
-See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/268569753
-
-Interplanetary CubeSat Architecture and Missions
-
-Conference Paper · September 2012
-DOI: 10.2514/6.2012-5218
-
-CITATIONS
-3
-17 authors, including:
-Robert Staehle California Institute of Technology 42 PUBLICATIONS 83 CITATIONS
-SEE PROFILE
-
-READS
-349
-Hamid Hemmati Facebook 120 PUBLICATIONS 1,545 CITATIONS
-SEE PROFILE
-
-Some of the authors of this publication are also working on these related projects: MarsDrop Microlanders for Affordable Access to Many Sites on Mars View project Low Energy and Periodic Orbits View project
-
-All content following this page was uploaded by Robert Staehle on 26 July 2016.
-The user has requested enhancement of the downloaded file.
-
-Interplanetary  CubeSat  
-
-  Architecture  and  Missions  
-  
-Space  2012  
-American  Ins;tute  of  Aeronau;cs  &  Astronau;cs  (AIAA)  
-2012  September  12  
-Pasadena,  CA  
-Robert L. Staehle, Diana Blaney, Hamid Hemmati, Dayton Jones, Andrew Klesh, Joseph Lazio, Paulett Liewer, Martin Wen-Yu Lo, Pantazis Mouroulis, Neil Murphy, Paula J. Pingree, Thor Wilson, Chen-Wan Yen Jet Propulsion Laboratory, California Institute of Technology
-
-Jordi Puig-Suari, Austin Williams California Polytechnic University, San Luis Obispo
-
-Tomas Svitek
-
-Stellar Exploration
-
-  Report  on  Phase  1  of  a  NASA  Innova;ve  
-
-Bruce Betts, Louis Friedman The Planetary Society
-
-Advanced  Concepts  (NIAC)  task.       No  mission  described  herein  has  been   approved  or  funded.  
-
-Brian Anderson, Channing Chow
-
-University of Southern California
-
-© 2012 California Institute of Technology. U.S. Government sponsorship acknowledged. Published by AIAA with perm1ission.
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Six  Technology  Challenges  
-1.  Interplanetary   environment  
-
-6.  Maximizing   downlink  info  content  
-5.Instruments  
-
-Taxonomy   · Launch  off  C3>0  ~ballis;c  traj  
-­ Cruiser  
-· Depart  from  "Mothership",   10s  to  100s  m/sec  
-­ Companion   ­ Orbiter   ­ Lander   ­ Impactor  
-· Self--propelled                                                      
-              1  ­  10  km/sec/yr  
-­ Electric   ­ Solar  Sail  
-
-2.  Telecommunica;ons  
-3.  Propulsion   (where  needed)  
-
-4.  Naviga;on  
-2
-Pre-decisional ­ for planning and discussion purposes only
-
-Example  Missions  
-A. Mineral Mapping of Asteroids [Small Body Science] B. Solar System Escape [Tech Demo] C. Earth-Sun System [Space- and Helio-physics]
-e.g., Sub-L1 Space Weather Monitor D. Phobos Sample Return [Solar System Science] E. Earth-Moon L2 Radio-Quiet Observatory [Astrophysics] F. Out-of-Ecliptic [Space Physics, Heliophysics]
-3
-Pre-decisional ­ for planning and discussion purposes only
-
-One  Preliminary  Configura;on  
-
-Tomas Svitek, 2012/3/17
-
-4
-
-Pre-decisional ­ for planning and discussion purposes only
-
-1.  Interplanetary  environment  
-· Select based on LEO experience · Multiple computers · Asymmetric redundant data paths · Watchdog timers
-CubeSat  at  LEO   CubeSat  at  GEO  
-5
-Pre-decisional ­ for planning and discussion purposes only
-
-2.  Telecommunica;ons  
-
-Projected Data Rate (kb/s)
-
-Expected Lasercomm Data Rate
-
-Improvements afforded by larger
-
-ground telescope diameters,
-
-greater laser power on CubeSat,
-
-and higher quantum efficiency ground detectors.
-
-But... RF can deliver 10 b/s
-
-20
-
-out to 0.2 AU with
-
-S-band, using
-15
-Universal Software
-
-10
-
-Radio Peripheral
-
-(USRP), and 34
-
-5
-
-meter dish. Onboard
-
-HGA can yield higher
-
-2012
-
-2017
-
-2022
-
-2032
-
-rate.
-
-6
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Proposed  Lasercom  Link  Budget  
-
-Assumptions:
-· Communications range: · Flight laser average output power: · Flight transmit/receive aperture diameter: · Flight laser pointing loss: · Modulation: · Code & Code-rate: · Ground telescope diameter: · Ground telescope obscuration: · Ground detector diameter: · Link Margin:
-
-2 AU 0.5W 6 cm 5.6 to 9 dB (as a result of 20-25 urad mis-pointing) PPM 256 (PPM = Pulse Position Modulation) SCPPM, 0.66 5 m (Hale) 1.8 m 4 mm 3 dB
-
-Link Budget Summary*
-
-Daytime Pointing stability (urad) Detector efficiency (%) Sky radiance (W/cm2/sr/nm) Daytime SEP (°) Zenith angle (°) r0 (cm) Data-rate (kb/s)
-
-Worst 25 50
-9.70E-04 50 75 3
-~0.003
-
-Nominal 20 60
-2.60E-04 60 55 4 0.4
-
-Best 10 70 2.60E-04 60 55 6 3.6
-
-Hamid Hemmati, 2012 March
-
-Night-time Pointing stability (urad) Detector efficiency (%) Sky radiance (W/cm2/sr/um) Zenith angle (°) r0 (cm) @ 500 nm @ zenith Data-rate (kb/s)
-
-Worst 25 50 0 75 4
-~0.039
-
-Nominal 20 60 0 55 6 1.1
-
-Best 10 70 0 55 8 8.7
-
-*Substantially higher data-rates may be achieved by using the LBT (11.8 m) telescope in Arizona Pre-decisional ­ for planning and discussion purposes only
-
-Laser Telecom Uplink and Downlink Options
-
---------------Downlink--------------
-
----Uplink---
-
-5 m
-Hale
-Hamid Hemmati, 2012 March
-
-11.8 m
-Large Binocular Telescope (LBT)
-
-1 m
-Optical Communications Telescope Laboratory (OCTL)
-
-Pre-decisional ­ for planning and discussion purposes only
-
-OPTICAL ASSEMBLY CONFIGURATION CONCEPTS
-Several options are being traded:
-· Conventional optical design, reduced in dimensions as much as possible · Beam-pointing would be accomplished with the aid of a two-axis fast steering mirror
-· An array of laser transmitters and receivers behind a transmit/receive aperture · Beam pointing would be accomplished by activating a specific laser in the array
-· A near-monolithic optical system using holographic optical elements · Beam pointing would be accomplished via a two-axis fast steering mirror
-Laser transmitter
-Holographic optical element
-Steering mirror
-
-Conventional optics, 6-cm diameter aperture
-Hamid Hemmati, 2012 March
-
-Laser array transmission/reception 6-cm diameter aperture
-(Ref.: Toyoshima et al, www.intechopen.com/download/pdf/9003)
-Pre-decisional ­ for planning and discussion purposes only
-
-Off axis parabolic reflector
-Monolithic (compact) assembly. 6-cm diameter aperture
-(Ref. Terabeam, U.S. Patent # 6,724,508)
-
-Beam Pointing Assembly Concept For Lasercom
-· Assumed to be body-mounted · No coarse pointing gimbal · Spacecraft would coarse point the terminal to about 3 to 9 mrad (for telecom, deep-space spacecraft typically point the RF antenna to <3 mrad) (9 mrad ~0.5°)
-· Incorporates a 1° (17.5 mrad) class field-of-view (FOV) camera that could acquire an Earth beacon laser signal in the presence of the 3-9 mrad disturbance (peak-to-peak) · A 1000 pixel CCD array, for example, would have a FOV of 17 milli-radians
-· With adequate beacon signal signal-to-noise ratio, should be able to centroid to 1/10th pixel accuracy
-· Depending on the disturbance spectrum of the platform, an FSM would be incorporate into the flight system to keep the downlink beam pointed back to Earth with mis-point of 10-20 micro-radian (i.e. 3-6 micro-rad rms)
-
-Hamid Hemmati, 2012 March
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Electronics Concept for Lasercom  
-JPL-developed small form-factor modem using flight grade parts
-
-JPL-developed processor board developed and flown on CubeSat
-
-Hamid Hemmati, 2012 March Hamid Hemmati, 2012 March
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Monolithic optical transceiver for CubeSat 1U form factor
-
-Hamid Hemmati, 2012 March
-
-Pre-decisional ­ for planning and discussion purposes only
-
-3.  Propulsion  
-
-13
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Solar  Sail  Earth  Escape  Trajectories     from  GEO  
-· Sail  at  85%  Efficiency   · 5.6m  sail  at  4.6  kg   · 10m  &  20m  sail  at  10  kg   · Benefits  of  lunar  gravity  assist  not  accounted  
-...if  you  can't  find  a  ride     to  Earth  escape  or  beder  
-
-Brian Anderson (USC) and Martin Lo
-
-14
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Earth  Escape  5.6m  Solar  Sail,  3.5  Yrs.  
-
-Brian Anderson (USC) and Martin Lo
-
-15
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Earth  Escape  10m  Solar  Sail,  2.35  Yrs  
-Brian Anderson (USC) and Martin Lo 16
-Pre-decisional ­ for planning and discussion purposes only
-
-Earth  Escape  20m  Solar  Sail,  0.6  Yrs.  
-Brian Anderson (USC) and Martin Lo 17
-Pre-decisional ­ for planning and discussion purposes only
-
-Interplanetary  Superhighway  Trajectory  Technology  Roadmap  
-· Earth--Moon  Example  (Doedel  et  al.)  
-­ Orbit  Families  Around  L1,L2,L3,L4,L5  
-
-  
-4.  Naviga;on  
-
-· Currently  Only  Halo  Orbit  Families  Are  Used  
-­ Only  around  Earth--Moon  L1  and  L2  
-· Many  Iden;fied  Families  Yet  To  Be  Used   · Many  Other  Families  Yet  To  Be  Iden;fied  &  Mapped   · Families  for  Other  Planets  and  Moons  To  Be  Mapped  
-
-Martin Lo, 2012 March
-
-18
-
-Pre-decisional ­ for planning and discussion purposes only
-
-5.Instruments  
-
-Lens/immersion medium
-
-Overview
-The spectrometer is a miniaturized version of the compact Dyson design form that is currently under development at JPL and elsewhere. Our work will extend our concept from the PRISM airborne spectrometer, tested in early 2012, and a fast, wide-field imaging spectrometer demonstrated as a laboratory breadboard through NASA's PIDDP program.
-
-Detector
-Instrument Electronics
-
-· Detector similar to the one flown on PRISM (Portable Remote Imaging Spectrometer)
-
-· Data processing based on a heritage design
-
-· Consumes ~1W of average power
-
-· Detector interface and data storage
-
-would be a new design feature
-
-Pantazis Mouroulis 2011
-
-19
-
-Pre-decisional ­ for planning and discussion purposes only
-
-6.  Maximizing  downlink   informa;on  content  
-CubeSat Onboard processing Validation Experiment (COVE)* · Funded by NASA Earth Science Technology
-Office (ESTO) · JPL payload aboard University of Michigan's
-M-Cubed CubeSat · Launched 2011 Oct 28 with NPP
-· Intended to demonstrate Xilinx V5QV FPGA with an algorithm to reduce output data rate from MSPI's 9 multi-angle cameras by more than 200x.
-· ?Executed unintentional first autonomous docking with Montana State's E1P CubeSat?
-· Funded for re-build/re-flight.
-* Dmitriy L. Bekker, Paula J. Pingree, Thomas A. Werne, Thor O. Wilson, Brian R. Franklin, The COVE Payload ­ A Reconfigurable FPGA-Based Processor for CubeSats, USU SmallSat Conf, Logan, UT 2012 August.
-20
-Pre-decisional ­ for planning and discussion purposes only
-
-A Workable Interplanetary CubeSat System Architecture emerges from the maturation of six key technologies
-LightSail 1tm: Planetary Society, Stellar Exploration,
-CalPoly-SLO
-RAX-2: University of Michigan
-21
-Pre-decisional ­ for planning and discussion purposes only
-
-Example  Missions  
-A. Mineral Mapping of Asteroids [Small Body Science] B. Solar System Escape [Tech Demo] C. Earth-Sun System [Space- and Helio-physics]
-e.g., Sub-L1 Space Weather Monitor D. Phobos Sample Return [Solar System Science] E. Earth-Moon L2 Radio-Quiet Observatory [Astrophysics] F. Out-of-Ecliptic [Space Physics, Heliophysics]
-22
-Pre-decisional ­ for planning and discussion purposes only
-
-Mineral  Mapping  of  Asteroids*  
-
-Proposed Mission overview
-· 6U CubeSat launched on a GEO satellite or Mars-bound mission as a secondary payload.
-· solar sail to reach near Earth asteroids.
-Proposed Science objectives
-Map surface composition of ~3 asteroids at 1-20 m spatial resolution.
-
-Trajectory overview
-· Launch to Earth escape (C3>0), or · Spiral 2-3 years from GEO to Earth
-escape. · Use Moon, Mars & Earth flybys following
-Earth escape. · Slow flyby or rendezvous at succession
-of near-Earth asteroids, 1-2 years between asteroids.
-
-Instrument summary
-· ~spatial IFOV of 0.5 mrad · spatial sampling 0.5 m -10 m depending
-on the encounter range. · Spectral sampling 10 nm · Imaging Spectrometer, 0.4 ­ 1.7 µm.
-Perhaps extend to 2.5 µm w/ HOT-BIRD or other advanced detector and achievable cooling.
-
-CubeSat bus
-6U CubeSat: 2U imaging spectrometer instrument 2U solar sail 1U optical communications 1U satellite bus subsystems
-
-Diana Blaney, Pantazis Mouroulis, Thor Wilson, 2012 March
-
-23
-
-*Proposed Mission
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Proposed  Mission  Overview  
-Why Asteroids? Important targets for understanding: · Presolar processes recorded in the materials of
-primitive bodies · Condensation, accretion, and other formative
-processes in the solar nebula Effects and timing of secondary processes on the evolution of primitive bodies · Assess the nature and chronology of planetesimal differentiation. Targets of interest for future human exploration
-
-Large Number of Near Earth Asteroids (NEA) CubeSat approach to NEA exploration could enable a program of inexpensive exploration of a large number of diverse NEA.
-
-Measurement Approach Close flybys of Near Earth Asteroid
-(NEA) with spacecraft imaging spectrometer to map surface mineralogy at geologic scales. Data collected then stored on board and returned to Earth post-encounter.
-
-Building an Image Cube: Moon Mineralogy Mapper Example
-Example infrared spectra of the materials in the meteorite Allende from Sunshine et al. 2008.
-
-Diana Blaney, Pantazis Mouroulis 2012 March
-
-24
-
-Pre-decisional ­ for planning and discu!ssion purposes only
-
-Proposed  Solar  System  Escape  Technology  Demonstra;on*    
-
-· Would use large area/ low mass
-
-spacecraft for high speed trajectory 20X20 m sail
-
-· Low perihelion · Explore interplanetary environment,
-
-¢ 2 kg
-10 yrs
-
-heliosheath and perhaps heliopause
-
-· Test communications, power, pointing and miniaturized instrument technologies
-
-20X20 m sail 10 kg 31 yrs
-
-¢
-100 AU -
-
-Instrumentation
-
-Technology Steps
-
-· Plasma, solar wind
-
-· Larger, lighter sail · Tolerate high thermal load (0.3 or 0.2 AU)
-
-· Energetic particles & cosmic rays · (Option) Printed s/c** components on sail
-
-· Magnetometer
-
-surface · Solar cells & rf antenna
-
-· Cameras to observe sail interaction with environment
-
-· Electrochromic actuators for stabilization
-· Batteries
-
-**per Kendra Short/JPL NIAC · Very low duty cycle tracking
-
-"Printable Spacecraft", 2011-12 · ?Radioisotope power to be evaluated?
-
-Louis Friedman, Paulett Liewer, Chen-Wan Yen,
-
-25
-
-Robert Staehle 2012 April
-
-Pre-decisional ­ for planning and discussion purposes only *Proposed Mission
-
-Minimum solar distance = 0.2 AU...if you can take the heat!
-20X20 m sail 2 kg
-100AU in 10 yrs
-20X20 m sail 10 kg
-100 AU in 31 yrs
-26
-Pre-decisional ­ for planning and discussion purposes only
-
-Solar Sail Possibilities
-
-· Current  technology  
-
-1  g  @1  AU  è  theore;cal  ~300  m/sec/yr  
-
-· Ikaros  (2010:  1  g),  LightSail[tm]  1  (2013?:  6  g),    
-
-· Electrochromic  surfaces  for  2--axis  control  
-
-· Switch  to  Kapton[tm]    from  Mylar[tm]    would  yield  mul;--year  life    
-
-· Next  5--10  year  projec;on  (2021:  20  g)   · Tip  vanes  configured  to  provide  3--axis  electrochromic  control  without  moving   parts.   · Material  thickness  decrease  2--3X  to  enable  larger  sail  packed  into  limited   CubeSat  volume.   · Advanced  (more  expensive)  material  booms  to  enable  longer  boom  to  handle   larger  sail  for  same  boom  mass  &  volume.  
-
-· Next  10--20  years  (2026:  <100  g?)  
-
-· Even  thinner  materials,  sublima;ng  substrate,  more  advanced  booms.  
-
-· High  temp  materials  to  allow  close  solar  approach,  high  V  in  short  ;me.  
-
-· (a  91  g  (at  1  AU)  sail  star;ng  from  0.3  AU  reaches  100  AU  in  17  yrs;  0.2  AU  è  13  yrs)  
-
-· Most  spacecraw  func;ons  printed  on  inner  part  of  sail.*  
-
-  
-
-*  As  discussed  at  Kendra  Short/JPL  2012/3/19  NIAC  Printable  Spacecraw  Workshop    
-
-Tomas Svitek, Louis Friedman, Bruce Betts, Chen-Wan Yen, Robert Staehle 2012 March
-
-27
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Earth--Sun  Sunward--of--L1  Solar  Monitor  *  
-
-Proposed Mission Overview
-Measure strong Coronal Mass Ejections or other space weather from Sunward-of-L1 position to provide additional warning time to Earth.
-Science Objectives
-Plasma and magnetometer readings of solar wind from sunward-of-L1 position to compare with L1 values from ACE or follow-on.
-
-Trajectory Overview
-· GEO Launch. · Spiral to lunar flyby for Earth
-escape to Earth-Sun L1 at ~0.01 AU from Earth. · Solar Sail supplies constant thrust to move and hold s/c 0.02 AU from Earth.
-
-Instrument
-1U Deployable magnetometer and plasma instrument (density & velocity) -field direction especially important.
-Enabling Technology
-Solar Sail control and navigation. Deep space tracking. Small instrumentation.
-
-CubeSat Bus Concept
-6U CubeSat: 1U instrument 2U solar sail 2U avionics, telecom 1U attitude control
-rf link closes easily at 0.02 AU to modest high gain antenna on Earth
-
-Bruce Betts, Andy Klesh, 2012 April
-
-28
-
-*Proposed Mission
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Solar  Polar  Imager  CubeSat  Constella;on*  
-
-Proposed Mission Overview Trajectory Overview
-
-6 S/C in highly inclined constellation.
-
-·
-
-Out-of-Ecliptic Vertical Orbit, ~0.99 AU, or
-
-go close to Sun and crank inclination.
-
-·
-
-Use solar sail to reach high inclination.
-
-Proposed Science Objectives ·
-
-Spiral, Earth & Moon flybys to nearly Earth escape. Enter Vertical Family of orbits at Earth-Sun L1. Inclination target ~75°.
-
-Dynamo: Helioseismology & magnetic
-
-· Begin science right after
-
-fields of polar regions.
-
-launch.
-
-Polar view of corona, CMEs, solar radiance · Vertical trajectory family Sun
-
-Link high latitude solar wind & energetic
-
-remains to be explored.
-
-particles to coronal sources.
-
-· Time: tbd
-
-Earth
-
-Instrument Details (6 S/C)
-S/C1: Plasma + Mag Field S/C2: Energetic Particles + Mag Field S/C3: Cosmic Rays, S/C4: Magnetograph/Doppler Imager S/C5: EUV Imager S/C6: Coronagraph/heliospheric imager
-Enabling Technology
-Solar Sail Miniaturized Instruments New Vertical Orbit Trajectory Technology
-
-CubeSat Bus Concept 6 CubeSat Constellation:
-6U CubeSat: 1U for bus 2U for instruments 2U for solar sail 1U for optical communications
-Paulett Llewer, Neil Murphy, Martin Lo, 2012 March 29
-
-*Proposed Mission
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Possible  Alterna;ve  Trajectory:    
-
-go  to  Venus  first  
-
-· Ver;cal  L1/L2  family  reaches  all  inclina;on  
-
-­ Target  ~75°  inclina;on  
-
-­ Orbital  Period:  ~  Venus  
-
-­ Time  to  target  inclina;on:  tbd  
-
-· Launch:  Piggyback  on  
-­ GEO:  tbd  Days  Transfer  to  Escape   ­ Venus  Mission:  tbd  Days  Transfer   ­ Science  begins  awer  launch  
-
-· tbd  Venus  flybys  raise  inclina;on  
-
-Venus
-
-Martin Lo, Channing Chow 2012 March
-
-30
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Far-out concept: Can two Interplanetary CubeSats retrieve a sample from Phobos or Deimos?
-
-Robert Staehle, Louis Friedman 2012 May
-
-31
-
-Art: Ryan Sellers/CalPoly SLO
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Conceptual  Phobos  Sample  Return*  
-
-Proposed  Mission  /Science  objec<ves  
-· Two  6U  CubeSats  launched  to  GEO  or  >  C3.   · Collect  Phobos  regolith  200  ­  500  g  sample.       · Based  on  extant  images  and  spectroscopy,  
-sample  assumed  to  include  Mar;an  dust.     · Mar;an  dust  represents  surface  to  cratering  
-depth  from  large  impacts.   · Phobos  dust/grains  record  evolu;on  of  
-asteroid  into  Mars  satellite.   · Return  sample  to  Earth  for  detailed  analysis.  
-  
-
-Trajectory  phases  (all  low  thrust)  
-1) Launch  as  secondary  payload.   2) Earth  escape  through  lunar  flyby.     3) Capture  to  Mars  orbit  rendezvous  w/  Phobos.   4) "Collector"  CubeSat  "sedles"  to  surface,  impact  
-at  10--20  cm/sec  would  collect  sample.   5) Spring  or  small  thruster  would  eject  sample  can  
-upward  >  Phobos  Vescape  into  Mars  orbit.   6) "Return"  CubeSat  pursues  sample  can,  
-rendezvous,  capture,  spiral  out  of  Mars  orbit,  to  
-Earth.   7) Capture,  retrieval  near  Earth--Moon  L2  or  tbd.  
-
-Instrumenta<on     
-· Target  the  landing  from  exis;ng  imagery.   · Simple  Visible  Camera  to  ID  descent  loca;on,  
-provide  high  res  (~1  mm)  at  "sedling  site."   · Sample  collec;on  mechanism  ----  for  dust  
-lexcita;onz  (impact,  gas  pressuriza;on)  and   lcollec;onz  (s;cky  surface,  trap)  ----  details  TBD  
-  
-Tomas Svitek, Robert Staehle, 2012 April
-
-CubeSat  bus  &  architecture  
-
-  
-
-6U  CubeSats  configured  with  approx  
-
-· 2U  solar  sail  
-
-· 1U  op;cal  telecomm  
-
-· 1U  for  satellite  bus  +  Vis  camera.  
-
-· Collector:  2U  sample  collec;on,  can  +  
-
-spring  or  thruster  to  boost  <~  12  m/sec  
-
-· Return:  2U  rendezvous  sensor,  precision  
-
-thrusters,  capture  mechanism  
-
-  
-
-32
-
-*Proposed Mission
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Radio  Quiet  Lunar  CubeSat:  RAQL*  
-
-Proposed Mission Overview
-Assess radio quiet volume in shielded zone behind the Moon for future redshifted 21 cm cosmology missions.
-Proposed Mission Objectives
-·Usable volume behind the Moon for high sensitivity 21 cm cosmology observations determines utility of lunar surface vs. orbiting missions
-
-Trajectory Overview
-·GEO Launch ·Spiral to Earth Escape to Moon ·Flyby Loose Capture into HEO (Highly
-Elliptical Orbit) at Moon ·Spiral Mapping Orbit Behind Moon ·Solar Sail Navigation & Control
-LL2
-
-Instrument Details
-·Radio antenna and receiving system
-­ Would operate in HF/VHF band ­ Antenna implemented on solar sail (TBD)
-Enabling Technology
-Small, low-mass receiver Solar Sail as radio antenna Trajectory
-
-CubeSat Bus Summary
-6U CubeSat configured with: 2U for antenna electronics, 2U for solar sail, 1U for communications?, and 1U for satellite bus. Other Features ·Data Rate < 10 Mbps ·Onboard processing?
-
-Joseph Lazio, Dayton Jones, Martin Lo, 2012 March
-
-33
-
-*Proposed Mission
-
-Pre-decisional ­ for planning and discussion purposes only
-
-Mission  Ra;onale  
-
-50 Myr since Big
-Bang
-
-Por;on  of  radio  spectrum  relevant  for  21  cm  observa;ons  of   Cosmic  Dawn  and  Dark  Ages  
-· Yellow  =  reserved  for  radio  astronomy  
-
-330 Myr since Big
-Bang
-
-radio brightness
-
-Data from Radio Astronomy Explorer-2, when it passed behind the Moon, illustrating cessation of terrestrial emissions ·Apollo command modules lost
-communications when behind the Moon. Ø Measurements not at frequencies
-relevant for 21 cm observations
-
-RAE-2 behind Moon
-
-34
-
-Joseph Lazio, Dayton Jones 2012 April
-Pre-decisional ­ for planning and discussion purposes only
-
-time
-
-Some  Plausible  Interplanetary  CubeSat  Mission   Concepts  to  Support  Human  Explora;on  
-· Solar  Storm  Advance  Warning     · Radio--quiet  Zone  Mapper  for  Earth--Moon  L2  
-Region     · Lunar  Surface  Water  Ice  Mapper     · Lunar  Subsurface  Ice  Prospectors     · Near--Earth  Asteroid  Composi;on  Mapper     · Near--Earth  Asteroid  NanoSat  Lander     · Phobos  Sample  Return    
-35
-Pre-decisional ­ for planning and discussion purposes only
-
-One  workable  configura;on...  
-Camera
-Instrument #2
-
-Fixed solar panels
-Driven solar arrays
-
-Instrument #1
-Star tracker Baderies  under  star   tracker  
-Cold-gas
-
-Attitude Determination & Control
-Upper  right  1U:     radios,  C&DH,  EPS  
-
-Deployer
-
-Bodom:  S--band  patch  
-
-Helical  UHF  patch  
-
-36
-
-Pre-decisional ­ for planning and discussion purposes only
-
-The  world  is  ready  for  Interplanetary  CubeSats.  
-· Interplanetary CubeSats could perform a wide variety of exciting missions at much lower cost than today's Solar System exploration missions, but with much narrower scope per mission.
-· Interplanetary CubeSats are much more challenging than "typical" LEO CubeSats, but the required technologies and skill sets are developing for the first steps beyond Earth.
-· Scientists who would like to use the new capability are excited.
-· Institutions that can provide the new capability are excited.
-· Continuing technology investments could yield a broad and rapid increase in the community of institutions having the capability to perform affordable, independent science investigations in interplanetary space.
-· NASA could enable dramatic new capability by making launch slots and funding available to support CubeSats on all launches to C3 >~0, and as hosted riders aboard some fraction of geostationary satellites.
-37
-Pre-decisional ­ for planning and discussion purposes only
-
-Interplanetary  CubeSat  
-
-  Architecture  and  Missions  
-
-?Questions?
-
-  
-
-Corresponding author:
-robert.l.staehle@jpl.nasa.gov
-
-818 354-1176
-
-Robert L. Staehle, Diana Blaney, Hamid Hemmati, Dayton Jones, Andrew Klesh, Joseph Lazio, Paulett Liewer, Martin Wen-Yu Lo, Pantazis Mouroulis, Neil Murphy, Paula J. Pingree, Thor Wilson, Chen-Wan Yen Jet Propulsion Laboratory, California Institute of Technology
-
-Jordi Puig-Suari, Austin Williams California Polytechnic University, San Luis Obispo
-
-Bruce Betts, Louis Friedman The Planetary Society
-
-Tomas Svitek Stellar Exploration
-
-Brian Anderson, Channing Chow
-
-University of Southern California
-
-38
-
-Pre-decisional ­ for planning and discussion purposes only
-
-View publication stats
-
-

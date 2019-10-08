@@ -1,949 +1,0 @@
-The Compositional Structure of the Asteroid Belt
-F. E. DeMeo Massachusetts Institute of Technology
-C. M. O'D. Alexander Carnegie Institution of Washington
-K. J. Walsh and C. R. Chapman Southwest Research Institute
-R. P. Binzel Massachusetts Institute of Technology
-Abstract: The past decade has brought major improvements in large-scale asteroid discovery and characterization with over half a million known asteroids and over 100,000 with some measurement of physical characterization. This explosion of data has allowed us to create a new global picture of the Main Asteroid Belt. Put in context with meteorite measurements and dynamical models, a new and more complete picture of Solar System evolution has emerged. The question has changed from "What was the original compositional gradient of the Asteroid Belt?" to "What was the original compositional gradient of small bodies across the entire Solar System?" No longer is the leading theory that two belts of planetesimals are primordial, but instead those belts were formed and sculpted through evolutionary processes after Solar System formation. This article reviews the advancements on the fronts of asteroid compositional characterization, meteorite measurements, and dynamical theories in the context of the heliocentric distribution of asteroid compositions seen in the Main Belt today. This chapter also reviews the major outstanding questions relating to asteroid compositions and distributions and summarizes the progress and current state of understanding of these questions to form the big picture of the formation and evolution of asteroids in the Main Belt. Finally, we briefly review the relevance of asteroids and their compositions in their greater context within our Solar System and beyond.
-
-1. Introduction: By the early 1990s in the era of Asteroids II, roughly 10,000 asteroids had been
-discovered, only a fraction of the total number of asteroids that are now known to exist. At that time, asteroids were discovered by visually inspecting photographic plates for light trails. In the 1990s, many of the major automated discovery surveys came online. By the year 2000 around the time of Asteroids III, ~20,000 asteroids were known (see Figure 1). Today (in 2015, Asteroids IV) there are roughly 700,000 asteroids with known orbits, revealing much new information about the Asteroid Belt's dynamic past. About 100,000 asteroids have measurements that tell us about their surface compositions (Ivezic et al., 2001, Szabo et al., 2004, Nesvorny et al., 2005, Carvano et al., 2010), providing a broader view of the Asteroid Belt than ever before. With the explosion of asteroid discoveries over the past decade (Fig. 1) and the conclusion of two of the largest asteroid physical measurement surveys, the Sloan Digital Sky Survey (SDSS; Ivezic et al., 2001) and the Wide-field Infrared Survey Explorer (WISE; Mainzer et al., 2011), it is timely to reflect upon recent advances, leaving us well poised for the next generation of major surveys including Gaia (Mignard et al., 2007) and the Large Synoptic Survey Telescope (LSST; Ivezic et al., 2007, Jones et al., 2009).
-This Chapter reviews our current understanding of the compositions of asteroids in the Main Belt from asteroidal, meteoritic, and dynamical perspectives. Our view of the Asteroid Belt has changed dramatically since the "big picture" chapters from Asteroids I and II (Chapman 1979, Gradie et al., 1989, Bell 1989). In the context of this chapter, the use of the term "compositional trends" is more akin to taxonomic rather than mineralogical trends and the "compositions" discussed here refer more to broad trends of observational data than any derived mineralogical information. In Section 2, we review the current tools used to compositionally (taxonomically) characterize and classify asteroids and meteorites, and the dynamical tools that help us interpret the current orbital distribution of the asteroids. We also review the current distribution of asteroid classes in the main Asteroid Belt. Section 3 focuses on how the current observational constraints strengthen or weaken leading dynamical theories. In Section 4, we summarize the meteoritic evidence for asteroid compositions, as well as when and how asteroids formed. In Section 5, we compile the major compositional questions in asteroid science and review the progress made toward answering many of them to provide a broad view of asteroid compositions and their locations in the Belt. Section 6 looks at asteroids in their greater context for Earth, the Solar System, and beyond. The Appendix lists the major outstanding questions relevant to asteroid compositions and distributions. The Appendix also briefly summarizes the current state of knowledge and suggests future work to solve these problems. Many of these questions are noted specifically in this chapter and are addressed, and most are covered in more detail in other chapters.
-Figure 1: Asteroid Discoveries
-2. The Observational Perspective
-2.1 Asteroid Composition Tools
-
-The surface properties (grain size, mineralogy, degree of space weathering, etc.) of an asteroid can be inferred through spectral and photometric measurements at wavelengths from the ultraviolet (UV) to the infrared. Thermal emission at longer wavelengths is used to calculate surface albedos that are related to surface compositions (see chapter by Mainzer et al.). Absorption features in reflectance spectra from UV to mid-infrared wavelengths and emission features in the mid-infrared range can be used to identify minerals and other compounds on the surface of an asteroid or meteorite (see chapter by Reddy et al.). For example, olivine and pyroxene have readily identifiable absorption features located at one and, for pyroxene, two microns.
-While mineralogical analysis is most appropriate for detailed studies of bodies with distinct features, relatively few asteroids have the high quality spectra that are required for this. On the other hand, taxonomic classifications can be made using lower quality or lower resolution spectra, providing a rapid characterization of asteroid spectra and a common language for comparing them. Hence, taxonomic information is available for orders of magnitude more than the number of asteroids for which detailed spectra have been measured. At the time of Asteroids III, the majority of reflectance spectra were taken at visible wavelengths to one micron, and were classified according to the Bus or Tholen taxonomies (Bus & Binzel 2002b, Tholen & Barucci, 1989). The mafic silicaterich asteroids with available near-infrared spectra at the time were classified mineralogically by the Gaffey system (Gaffey et al., 1993). By the early 2000s, nearinfrared spectrometers became available, such as SpeX on the NASA IRTF (Rayner et al., 2003). An extension of the Bus taxonomy, the so-called Bus-DeMeo taxonomy, was created to classify both the visible and near-infrared data in such a way as to be as consistent with the Bus taxonomy as possible (DeMeo et al., 2009). A comparison of each of these major taxonomies is presented in Table 1.
-Table 1 Near Here Asteroid spectra are traditionally divided into three major complexes and each of the complexes is divided into individual classes (also called "types"). The S-complex, originally named for its expected silicaceous composition (Chapman et al., 1975), is characterized by spectra with moderate silicate absorption features at 1 and 2 microns. The C-complex, historically named in connection with carbonaceous chondrite meteorites, have low albedo surfaces with spectra that have flat or low slopes and are subtly featured to featureless. Subtle features have absorptions of only a few percent, one of the most notable being the 0.7-micron feature indicating the presence of phyllosilicates likely due to aqueous alteration (Vilas & Gaffey 1989). The X-complex is characterized by moderately sloped and subtly-featured or featureless spectra. It has long been known that the X-complex is compositionally degenerate because it comprises the darkest and brightest surfaces of all asteroids, with albedos as low as a few percent to as high as 50 %. The Tholen taxonomy distinguished the X-complex by albedo, breaking it up into the E, M, and P classes that ranged from high to low albedo. Additionally, there are spectral classes that do not fit within these three main complexes. These spectra typically have more extreme or distinct characteristics and are much less common than the major complexes. These include the spectrally featureless and very red-sloped D-types, the spectrally olivine-dominated A-types with the broad, deep one-micron feature, the spectrally pyroxene-dominated V-types with a deep, narrow one-micron feature and a deep, broad two-micron feature. Additionally, there are the K,
-
-L, T, O, Q, and R-types. A visual summary of the visible and near-infrared spectral classes is provided in Figure 2. A description of the spectral features can be found in Bus & Binzel 2002b and DeMeo et al., 2009.
-Figure 2: Asteroid Taxonomy The accuracy of an asteroid's classification depends on the quality of the data. Also, repeated observations of a single object may show spectral (hence perhaps taxonomic) differences that may be intrinsic (due to rare mineralogical or grain size variations on different portions of the body), may reflect real but uncorrected variations due to photometric viewing geometry, or may reflect instrumental or observational artifacts. We emphasize the advice from the chapter by Bus et al., in Asteroids III, "We should not feel compelled to decide which label is `correct,' but should rather accept these distinct labels as a consequence of our growing knowledge about that object." For example, an object classified by visible wavelength measurements alone may `change its type' when the wavelength coverage is extended to the near-infrared, or when an albedo measurement becomes available. An improved answer as more information becomes available is simply the scientific method at work. One of the biggest challenges remains how to determine surface compositions from asteroid spectra and spectral types. Most materials on an asteroid's surface do not produce distinct, identifiable features in a reflectance spectrum. Furthermore, an asteroid spectrum is not only a product of composition, but is also affected by factors such as grain size, temperature, viewing geometry, and space weathering processes (see chapter by Reddy et al.). The compositional interpretation of many asteroid classes has broadened over time. While the S-complex has been linked to ordinary chondrite meteorites and the C-complex to carbonaceous chondrites, there is strong evidence that these spectral classes are not compositionally uniform. There is a range of different types of ordinary and carbonaceous chondrites, and there are additional meteorite classes that also may comprise subsets of the S- and C-complexes. This must be accounted for when interpreting spectra. In addition to the visible and near-infrared, asteroid spectra are now also measured beyond 2.5 microns and into the mid-infrared. Asteroid spectra at these wavelengths are categorized by the presence of and shape of a 3-micron absorption feature indicating hydrated minerals or phyllosilicates (Takir & Emery 2012, Rivkin et al., this volume). There are four distinct spectral groups of 3-micron features. Beyond the 3-micron feature, the mid-infrared range (7-25 microns) holds a wealth of information (Emery et al., 2006) because many minerals have diagnostic features at these wavelengths. There are multiple deterrents to analyzing these longer wavelengths: instrument design sensitivity requirements are challenged by measurements taken at ambient temperatures; observations are constrained by the lower solar flux; and available laboratory experimentation to interpret the spectra is currently limited in number (e.g. Vernazza et al., 2010, 2012).
-2.2 The Historical Perspective Initial measurements from the 1940s through the 1970s found that the surface
-brightness and colors of asteroids trend from medium albedo and moderate spectral slopes (S-complex) for bodies in the inner part of the Main Asteroid Belt to lower albedo and neutral spectral slopes (C-complex) toward the outer part of the Main Belt (Fisher
-
-1941, Kitamura 1959, Wood & Kuiper 1963, Chapman et al., 1971, Chapman et al., 1975). The diversity was a great surprise and the trend with distance motivated further observations.
-The hundreds of observations available with even greater wavelength coverage in the 1980s then revealed distinct peaks in relative abundance for each of the major classes of asteroids at certain distances throughout the Belt (Zellner et al., 1985, Gradie & Tedesco 1982, Gradie et al., 1989). Because the asteroids were grouped systematically with heliocentric distance, it was concluded that the asteroids formed close to their current locations. In the context of a relatively static Solar System, where the asteroids were assumed to have formed nearly in place, the variation in the compositions of these asteroids was interpreted to represent the original thermal gradient across the Main Belt from the time of planetesimal formation (see question C1 of Appendix A). While this fundamental trend among the largest asteroids has remained robust, both our interpretation of surface properties and the dynamical models explaining this structure have evolved.
-Two major surveys from the late 1990s to early 2000s (Bus & Binzel 2002, Lazzaro et al., 2004) provided spectroscopic data for around 2,000 asteroids. While much of the ensuing analysis focused on asteroid families, two works investigated taxonomic distributions with orbital properties. Bus & Binzel (2002) note a more detailed distribution than Gradie & Tedesco, finding double peaks for the S- and C-complex with distance from the Sun. Mothe-Diniz et al., (2003) found that the distribution of Ccomplex objects was different for higher versus lower inclinations. These authors were also the first to show the presence of S-complex asteroids at distances as far as 3 AU in their dataset of asteroids larger than 15 km and found a fairly even distribution of Scomplex out to that distance.
-2.3 Recent Progress The next major survey released was the Sloan Digital Sky Survey. Although it
-was designed for extragalactic studies, it made crude spectral observations of over a hundred thousand moving objects in the field. These data were released in several Moving Object Catalogs (Ivezic et al., 2001, Parker et al., 2008). Combined with the more recent NEOWISE survey that produced over a hundred thousand diameters and albedo estimates (Mainzer et al., 2011, Masiero et al., 2011) there now exists a treasure trove of physical measurements to analyze. Many of the advances in understanding the compositions of asteroids in the Main Belt since Asteroids III have stemmed from these datasets, as well as targeted spectroscopic surveys or targeted follow up studies of objects in these two large datasets. Here we describe taxonomic trends beginning in the Hungaria region and extending out to the Jupiter Trojans. Figure 3 shows the distribution of the asteroid class in each heliocentric distance region and multiple size regimes. We use the terms "Inner," "Middle," and "Outer" Main Belt to refer to the three regions of the Main Belt carved by the 6 secular, 3:1 and 5:2 mean-motion resonances (the 6 starts near 2 AU and the 3:1 and 5:2 are located at 2.5 and 2.82 AU, respectively).
-The Hungaria region (1.8-2.0 AU, i~20 degrees) is dominated by high albedo (>0.3, Tholen & Barucci, 1989) E-type asteroids that have moderate spectral slopes and often display a 0.49-micron absorption feature (Gradie & Tedesco 1982, Bus & Binzel 2002b). These E-types are considered members of the Hungaria asteroid family (Gaffey
-
-et al., 1992) with (434) Hungaria being the brightest member. In the Hungaria region, however, there are a variety of compositional types, including S- and C-complex objects (Carvano et al., 2001).
-In the Inner Main Belt (2.0-2.5 AU), the dominant players are (4) Vesta (V-type) and a number large S-complex asteroids. C-complex are rare in the Inner Belt at large sizes (D>100 km) where they comprise only 6% of the total mass, but they make up a quarter of the mass at medium sizes (20 km<D<100 km), and are almost equal to the Scomplex by mass at the smallest sizes (5 km<D<20 km). At the same time, the fractions of medium-sloped spectral types (M and P) decrease at smaller sizes. Newly discovered in the Inner Main Belt are D-type asteroids defined by their very red spectral slopes, which had only previously been seen at larger distances aside from a few NEOs that have dynamical origins in the Outer Belt and beyond (Carvano et al., 2010, DeMeo & Carry 2014, DeMeo & Binzel 2008). These objects are discussed later in Section 5.2.
-An interesting effect of viewing the Inner Main Belt by mass (previous analyses have viewed such statistics by number, not by mass) is the relative insignificance of the Vesta family, the products of a large collision with Vesta, in the Inner Belt (Binzel & Xu 1993). Indeed, only a handful of all Vesta family members, called Vestoids, are larger than 5 km, so their mass contribution even among 5-20 km diameter bodies is miniscule (1% of that size range and region, DeMeo & Carry 2014). Vestoids are significant contributors to the Inner Belt in terms of the total number observed (Parker et al., 2008, Masiero et al., 2013), but it is their high albedo, close distance, and spectral distinctiveness that have biased their discovery and classification.
-In the Middle Main Belt (2.5-2.82 AU), Ceres (C-type in the Bus-DeMeo taxonomy) and Pallas (B-type) are the largest objects and they comprise roughly 31% and 7%, respectively, of the entire Main Belt by mass. The broad taxonomic makeup of the Inner and Middle Belt at the smallest sizes is essentially identical.
-In the Outer Main Belt (2.82-3.3 AU), the C-complex dominates by mass with Hygeia being the largest and most massive member. Despite the fact that the relative fraction of S-complex asteroids is small in the Outer Main Belt, their total mass is still quite significant given that the mass in the Outer Belt is 2-10 times greater than in the Inner Belt at each size range.
-A- and V-types, respectively olivine-dominated and basaltic asteroids, are present in small numbers throughout the Main Belt, aside from those associated with Vesta (Lazzaro et al., 2000, Moskovitz et al., 2008, Sanchez et al., 2014). Their discovery in the Middle and Outer Belts was surprising since differentiated bodies or fragments of them were not expected in the context of the classical understanding of asteroid differentiation. Significant advances have been made since Asteroids III in understanding the complexity of both the asteroid differentiation process and of the mechanisms that displace material through out the Solar System (see chapters by Scheinberg et al., Scott et al., Morbidelli et al.).
-Families play a very important role in the architecture and composition of the Main Belt. The chapter by Masiero et al., covers this topic in detail. It will be valuable for future work to incorporate the size-frequency distribution of asteroid families into studies of the radial distance distribution of asteroids in the Main Belt to fully interpret the results, particularly at small asteroid sizes.
-
-The taxonomic makeup of the largest Hildas (~4 AU) and Trojans (5.2 AU) remain predominantly P-type and D-type, respectively. The trends at smaller sizes are discussed in Section 5.2. The chapter by Emery et al., is dedicated to the Trojan population, covering the compositional and physical characteristics as well as the dynamical history.
-Figure 3 Here
-3. The Dynamical Perspective 3.1 Dynamical Tools
-Determination of an asteroid's orbit immediately tells you where it is currently spending its time in the Solar System, and the combination of the distributions of known orbits and physical properties provide powerful clues to the evolution of the Solar System (Appendix Questions A2 and A3). However, there are many more asteroids with known orbits than there are with physical characterization, and at times we are left to gain context based on their orbits alone. The dominant perturber in the Solar System is Jupiter and its effects are made clear by the large depleted Kirkwood gaps in the asteroid population owing to its mean motion resonances. Given the dominance of Jupiter's perturbations for asteroid orbits, one can take advantage of its similarity to the restricted three-body problem to generate some quasi-conserved quantities. The most common measure is the Tisserand parameter TJ, which is calculated with respect to Jupiter and can help to distinguish between different classes of small body orbits. This is primarily used to separate Jupiter Family Comets (2 < TJ <3) from nearly isotropic comets (TJ <2), but is also commonly used to try to uncover dormant comets in the NEO population (Levison et al., 1994, Bottke et al., 2002b, DeMeo & Binzel 2008) and separate Main Belt Comets from the ordinary comet population (Jewitt et al., this volume).
-Orbits are typically calculated and reported for what the asteroid's Keplerian orbit would be at a specific epoch in the presence only of the Sun. This calculated "osculating orbit" does not incorporate any information about short or long-term oscillations of the orbit owing to the perturbations of the giant planets. The "proper elements" of an asteroid represent quasi-integrals of motion, meaning that they are nearly constant in time, and can be calculated or estimated using various numerical and analytical tools (Knezevic et al., 2002). The difference between an asteroid's osculating and proper orbital elements can be substantial ­ tens of percent in a, e and i. The proper elements of an asteroid are representative of its long-term orbit and are essential in studies of dynamically related clusters or families of asteroids (see Nesvorný et al., in this volume, Bendjoya et al., 2002, Zappala, 2002).
-An important dynamical process affecting the entire Main Asteroid Belt is the Yarkovsky effect (see Bottke et al., 2002a and Bottke et al., 2006). This is a sizedependent drift in a body's semimajor axis caused by the re-emission of absorbed solar radiation. It is the main driver that pushes Main Belt asteroids into resonances and can then become NEOs or be driven to extreme orbits that could have them impact a planet or the Sun, or be ejected from the Solar System. Smaller objects move more rapidly, where drift rates scale roughly as 1/D, which means that where we find smaller objects now may simply be a waypoint on a drift across the Asteroid Belt (where a 1 km body might drift roughly 10-4 AU in 1 Myr). A similar point of confusion for small objects is that the
-
-collisional lifetimes are much shorter than the age of the Solar System at sizes smaller than 10-30 km (Bottke et al., in this volume). Between the effects of the Yarkovsky drift and collisional evolution, we can really trust the orbits of only the 500 or so largest bodies (D> 50 km) as tracers of the early structures of the Asteroid Belt.
-As the Yarkovsky effect pushes asteroids around, some will inevitably reach an orbital resonance (a mean motion resonance with Jupiter or other powerful secular resonances; see Nesvorny et al., 2002). While the effects of this may vary, a typical response is an increase in the asteroid's orbital eccentricity. As the eccentricity increases to large values it can cause the body to cross the orbit of Jupiter, which can easily result in its ejection from the Solar System. If the asteroid first has an interaction with the terrestrial planets it is possible that its orbit can be altered in a way to pull it out of the Main Asteroid Belt and reside almost entirely within the inner Solar System. In nearEarth space, the orbital dynamics are controlled by the chaotic interactions with the terrestrial planets and thus the population is transient, with only a 10 Myr lifetime (Gladman et al., 2000). Numerical models of the evolution from the Main Belt to nearEarth orbits have largely recovered the flux of bodies moving through different resonant passageways and can explain the size of the NEO population (Bottke et al., 2000, Bottke et al., 2002b). Furthermore, the NEO model of Bottke et al., 2002b provides a dynamical tool to make statistical links between NEAs and the most likely resonant pathway they traveled from the Main Asteroid Belt. Some NEOs can be probabilistically linked to specific regions of the Main Belt, allowing for links to be made between bodies and their regions or possible parent asteroid families (e.g., Campins et al., 2010).
-Even the orbits of the largest bodies have likely been altered substantially early in Solar System history. As models of Solar System evolution have matured, the effects of the possible "late" (after ~400 Myr or so) movements of the giant planets have been studied in the most detail (see Morbidelli et al., in this volume). Specifically, some traces of giant planet migration are still found in the Main Asteroid Belt by way of depletions near primordial mean motion resonances with Jupiter (Minton and Malhotra 2009), though some types of migrations can be ruled out by clear patterns of depletion and orbital changes that would still be noticeable in today's Asteroid Belt (Morbidelli et al., 2010). As the possible late migration of the giant planets has been studied in more detail, it is clear that many small bodies could be affected. The violent instability of the giant planets has been found to provide ideal dyanamical pathways to capture the Trojan asteroids at Jupiter (Morbidelli et al., 2005, Nesvorny et al., 2013), capture the irregular satellites of the giant planets (Nesvorny et al., 2014), implant D- and P-type asteroids from the primordial Kuiper Belt into the Main Asteroid Belt (Levison et al., 2009) and sculpt the Kuiper Belt (Levison et al., 2008, Batygin et al., 2012). An example of the effects of planetary migration would have on small bodies and the asteroid belt is shown in Fig. 4.
-The distribution of asteroid orbits, their physical properties and the total mass depletion in the Asteroid Belt region are all used as constraints on early Solar System evolution ­ as discussed below (and in more detail in the chapter by Morbidelli et al.).
-3.2 Dynamical Overview of the Main Belt
-
-The Asteroid Belt today is estimated to contain approximately ~5×10-4 Earth masses, which is approximately three times the mass of its most massive asteroid (1) Ceres (Krasinsky et al., 2002). This is in contrast to the nearly one Earth mass of material that would be expected to inhabit this region given a smooth distribution of the solid material found in the planets (Weidenschilling 1977). Similarly, classical models of planetesimal formation suggest that the current mass in the Asteroid Belt today would not be enough to have grown the largest asteroids and thus there has been a depletion of mass since the Asteroid Belt formed (see Weidenschilling & Jackson, 1993). As discussed in detail in the chapter by Morbidelli et al., (and below), there are multiple proposed methods to remove so much mass from the Asteroid Belt, and there are also new models for planetesimal formation that may allow the formation of large asteroids directly from small pebbles in the solar nebula (Johanson et al., in this volume).
-The orbital distribution of the Asteroid Belt finds that most of the dynamically stable phase space of a,e,i is filled, with orbital eccentricities ranging from 0 to 0.35 and inclinations from 0 to about 30 degrees. Meanwhile, every theory for planetesimal formation relies on the damping effects of the gaseous solar nebula to reduce relative velocities and increase accretion rates (see Johansen et al., chapter in this book).. This implies that, at least immediately following their formation, planetesimals would have been on circular and co-planar orbits and were dynamically excited into their current orbits at some later time.
-The loss of mass, the observed dynamical excitement and taxonomic mixing are presumed to be closely linked to the dynamical evolution of the Solar System ­ including the formation and migration of the terrestrial and giant planets. As described in more detail in the chapter by Morbidelli et al., models typically attack all three constraints with one mechanism. Studies of sweeping secular resonances due to the dissipation of the solar nebula suffer dual problems of needing long (20 Myr) timescales of gas dissipation to deplete enough bodies, and then typically fail to reproduce the inclination distributions (see O'Brien et al., 2007). The inclination distribution is also a problem for models that invoke stranded planetary embryos that excite and deplete the primordial Asteroid Belt (see O'Brien et al., 2006). Here there is depletion of low inclination bodies owing to their low-velocity encounters with planetary embryos, and again a mis-match with the observed distributions. Collisional   processes   are   also   important   constraints.      While   even   very   massive   Asteroid   Belts   (e.g.   with   1000   times   more   mass   than   today)   would  have  collisionally  ground  away  most  mass  and  reached  a  total  mass  similar  to   that   found   today   (Chapman   &   Davis   1975), the remnants and scars of such dramatic and long-term collisional evolution would likely be more visible in our studies today (see also the chapter by Bottke et al.).
-Partly due to models inability to simultaneously match constraints with the terrestrial planets (the mass of Mars) and with the Asteroid Belt (orbital distributions and water delivery), a recently proposed model, the Grand Tack Model, invokes a scattering implantation of nearly the entire Asteroid Belt population from different parent populations (Walsh et al., 2011). This dramatic migration of the giant planets causes widespread depletion and then mixing of remnant populations in the dynamically stable Asteroid Belt. When Jupiter is migrating inwards it completely depletes all objects native to the current Asteroid Belt. During its outward migration it scatters some remnants of this population back into the Asteroid Belt, and then during the outermost stretches of its
-
-migration it also scatters in bodies from more primitive reservoirs between and beyond the formation region of the Giant Planets. This mechanism is distinct from others as it implies separate parent populations for some of the major different compositional classes found in the Asteroid Belt, and also because it results in a low-mass Asteroid Belt from very early on in Solar System history. While it provides first-order matches to these three Asteroid Belt constraints (mass depletion, orbital and taxonomic distributions), they were not a prediction of the model ­ rather they were a necessary constraint for the model to be viable. Going forward, each of these can be investigated more closely and hopefully limit or rule out some of the free parameters in the current Grand Tack scenario (growth and migration parameters of the giant planets).
-Already, the Grand Tack relies on some assistance from what is thought to follow in Solar System history. The eccentricity distribution in the Grand Tack model is elevated compared to what is observed today (Walsh et al., 2012). However, the motion of the giant planets during the "Nice Model", expected to happen roughly 400 Myr later, will alter the orbits of the Asteroid Belt while having minimal affect on taxonomic distributions or total mass (eccentricities are the primary orbital element altered, and total mass is only depleted by a factor of 2-3; Morbidelli et al., 2010 --- though the Nice Model is credited with implanting D- and P- types bodies in the Main Belt). In fact, Minton and Malhotra 2011 find that a very excited Asteroid Belt (elevated eccentricities) is a good fit when considering very simple models of giant planet migration that could come later. However, the models regarding later giant planet migration is a field of active study, and so each new iteration may require a reinvestigation of this aspect of the Grand Tack's Asteroid Belt fits.
-If the Grand Tack relies on later events, it begs the question of how much we can use different mechanisms to explain different constraints ­ and are there ways to mesh Asteroid Belt constraints with other models of planet formation? Already planet formation models are increasingly using the Asteroid Belt as a constraint for their model outcomes, both for delivering water-rich asteroid material to the growing planets (Morbidelli et al., 2000), and also for using their orbits to rule out other modes of planet migration (Minton and Malhotra 2009, Walsh and Morbidelli 2011).
-Meanwhile recent advances in planetesimal formation (see chapter by Johansen et al.) imply the possibility of a different initial distribution of mass in the early Solar System than previously considered. It is possible that planetesimal formation relies on clumps of "pebbles" collapsing, which could lead to a small number of planetesimals amidst a huge number of remnant pebbles ­ where only a few of the formed planetesimals are large enough to rapidly accrete the remaining pebbles (see Ormel and Klahr 2010). One could envision scenarios where the Asteroid Belt never had much mass, and thus dynamical and taxonomic stirring would be constraints independent of mass loss.
-4. The Meteorite Perspective 4.1 Meteorite Composition tools
-The parent asteroids of most meteorites would have formed at different times and/or places in an evolving solar nebula. This will have had profound effects on the initial compositions and subsequent histories of the asteroids that are reflected in the way meteorites are classified.
-
-Radial thermal gradients in the disk will have dictated gross differences in compositions upon accretion, such as rock/ice ratios. However, it is evident from the meteorite record that more transient processes were also important in the thermal processing of dust and that radial transport brought together materials with different thermal histories. The thermal processing of dust has left its imprint on the major and trace element compositions that show clear variations associated with their volatility. Estimates of the relative volatilities of the elements are traditionally based on thermodynamic equilibrium calculations of their 50% condensation temperatures from a gas of solar composition at a total pressure of 10-4 bars (e.g., Lodders, 2003). There is also evidence in meteorites for the fractionation of elements in the nebula according to their chemical affinities (lithophile ­ rock-loving, siderophile ­ Fe-metal-loving, and chalcophile ­ sulfide-loving). Physical processes that separated solid/melt from gas and silicates from metal seem the most likely causes for these variations.
-After accretion, asteroids were subject to internal heating, largely due to the decay of the short-lived radionuclide 26Al (t1/2720,000 years) that was inherited from the protosolar molecular cloud. Thus, asteroids that formed early will tend to have been more internally heated than those that formed later, although other parameters will also have influenced internal temperatures. The least heated meteorites (<150 °C) normally exhibit varying degrees of aqueous alteration. Thermally metamorphosed meteorites have been more severely heated (up to 800-900°C), which will have dehydrated them if they were not dry already, and they exhibit varying degrees of recrystallization and chemical reequilibration between minerals. Finally, there are meteorites that came from bodies that underwent melting and, in many cases, differentiation that produced metal-sulfide cores and silicate mantles.
-The classification of meteorites has recently been reviewed in considerable depth (Krot et al., 2014), and so is only briefly summarized here. The most basic separation of meteorites is into unmelted (chondrites) and melted ones (non-chondrites). The chondrites are generally assumed to come from parent bodies that were smaller and/or formed later that those of the non-chondrites, although it is possible that some chondrites are the unmelted crusts of differentiated bodies (Weiss and Elkins-Tanton, 2013). For further subdividing meteorites, the most useful classification tools reflect the meteorites' nebular (primary) and parent body (secondary) characteristics ­ both physical and chemical. It is important to note that the causes of the variations in primary and secondary features are not always well understood, but that makes them no less useful as classification tools. Superimposed on the primary and secondary characteristics there can be shock features and brecciation associated with later large impacts, as well as terrestrial weathering. A complete classification scheme must also account for these effects, but they will not be considered here.
-For classification based on bulk chemistries, it is usually sufficient to use a few representative element ratios that reflect the major fractionations that influenced meteorite compositions. The CI chondrites enjoy a unique status among meteorites because their bulk compositions are identical within error to the rock-forming component of the solar photosphere. Since all objects are thought to have ultimately evolved from the solar composition, elemental compositions and ratios are usually normalized to (divided by) the CI composition.
-
-Oxygen isotopes have proved to be a very useful classification tool because, in addition to the mass dependent fractionations produced by most physical and chemical processes, meteorites exhibit mass independent variations (changes in 16O abundance relative 17O and 18O). Recently, other isotope systems, most notably Cr, have begun to be used as additional classification tools.
-A significant number of meteorites do not fit easily into the established groups. Since by convention groups must be composed of five or more members, these meteorites are classified as ungrouped. Each meteorite group is generally assumed to come from a single asteroidal parent body that had a uniform composition at the time of its formation. Nevertheless, it cannot be ruled out that members of a group come from a number of asteroids that formed at similar times and places (e.g., Vernazza et al., 2014; Appendix Question B2). Assuming that a group comes from a single parent body and that ungrouped meteorites come from separate parent bodies, meteorites appear to be samples of 100-150 distinct parent bodies (Burbine et al., 2002; Appendix Question B1).
-Chondrites
-The chondrites are composed of three major components ­ refractory inclusions and chondrules, both of which formed at high temperatures, are embedded in a fine-grained matrix. Refractory inclusions are a diverse group of objects, broadly divided into Ca-Alrich inclusions (CAIs) and amoeboid olivine aggregates (AOAs). The inclusions are the oldest known Solar System solids and, in some cases, formed by condensation from a hot gas, while others formed by melting and evaporation of pre-existing solids (MacPherson, 2014). Chondrules appear to have typically formed 1-3 Myr after refractory inclusions as molten silicate-metal droplets in brief (hours to days) heating events in very `dust-rich' environments. Being so fine grained, the matrix is very susceptible to parent body modification, but seems to originally have been dominated by a mix of fine-grained (<510 µm) crystalline and amorphous silicates. Matrix also contains the bulk of the most volatile elements in chondrites, all of the organic matter and presolar circumstellar grains found in them, and probably originally contained the ices accreted by most chondrite groups.
-Almost all chondrites belong to one of five classes that have been further subdivided into a number of groups (Table 2). Each group is defined by a narrow range of primary physical features (e.g., chondrule sizes, abundances, types, etc.), elemental compositions and O (and Cr) isotopic compositions.
-After accretion, varying degrees of aqueous alteration and/or thermal metamorphism in the parent bodies led to the modification of the primary features of all chondrites. The extent of this modification is reflected in a chondrite's petrologic type - a chondrite that was unaffected by either aqueous alteration or thermal metamorphism is assigned a petrologic type of 3.0, while petrologic types 3-6 reflect increasing degrees of thermal metamorphism and types 3-1 reflect increasing extents of aqueous alteration. A meteorite's petrologic type is normally given after its chemical group (e.g., CI1, LL3.0 and H6).
-Table 2 Here
-
-Non-Chondrites
-As with the chondrites, the non-chondritic meteorites are classified according to the properties of their components (mineralogy, grain size, etc.), as well as by their bulk chemical and isotopic compositions (Table 3). Except for those from the Moon and Mars, it is generally assumed that non-chondritic meteorites evolved from originally chondritelike objects. They are divided into (i) primitive achondrites that have seen very intensive metamorphism, as well as relatively low degrees of partial melting and melt extraction, and (ii) differentiated meteorites that underwent extensive melting and differentiation. The differentiated meteorites are further divided on the basis of their Fe-metal contents into achondrites (metal-poor), stony-irons, and irons.
-Primitive achondrites sometimes contain relict chondrules, which are chondrules that have survived metamorphism and partial melting of its host rock. However, they have not been conclusively linked to any known chondrite groups. Only one primitive achondrite, the ungrouped Tafassasset, has geochemical affinities to carbonaceous chondrites (Gardner-Vandy et al., 2012). Similarly, only one achondrite, the ungrouped basaltic achondrite NWA 011and several paired specimens from the same fall, seems to have formed by melting of a carbonaceous chondrite-like body (Warren, 2011).
-Stony irons ­ Mesosiderites are breccias composed of diverse silicate clasts that are intimately mixed with roughly equal amounts of Fe,Ni-metal and sulfide. Pallasites are composed of Fe,Ni-metal/sulfide that is intergrown with similar proportions of relatively coarse grained olivine and pyroxene crystals. There are three recognized sub-types that probably came from at least three different parent bodies. Traditionally, it has been assumed that pallasites are core-mantle boundary samples. However, recent studies indicate that the main-group pallasites experienced a range of cooling rates, which would not be expected if they come from the core-mantle boundary of a single body (Yang et al., 2010b).
-Irons ­ Iron meteorites are divided into 14 chemical groups, although ~15% of irons remain ungrouped. The chemical groups fall into one of two categories, magmatic and non-magmatic. The magmatic irons exhibit intragroup chemical variations that are consistent with fractionation between solid and liquid metal that presumably occurred during crystallization of planetesimal cores. The chemical variations within the nonmagmatic iron groups are more difficult to understand and they tend to contain abundant silicate clasts. These irons may have formed in melt pools during failed core formation, but are more likely the products of impacts. Many of the ungrouped irons are also probably impact melts, particularly the smaller ones.
-Table 3 Here
-4.2 When and how big did asteroids form?
-As discussed in detail below, the formation of chondrites seems to have occurred between roughly 2 and 4 Myr after CAIs (Appendix Question A1). CAIs are the oldest dated objects in meteorites (4,567.3±0.2 Myr; Connelly et al., 2012) and are generally considered to provide the best estimate of the time of Solar System formation, although
-
-Boss et al., (2012) have suggested that most CAIs formed toward the end of the Fu Orionis outburst phase of young stellar evolution. Meteorites from differentiated objects seem to have formed slightly earlier than chondrites, although the uncertainties in their ages do allow for significant overlap with chondrite formation and it is possible that some chondrites represent the unmelted crusts of differentiated objects. Some carbonaceous chondrites, such as the CKs, formed roughly contemporaneously with the other chondrite classes, but others may have formed up to 1 Myr later.The absence of chondrites that formed later than 3-4 Myr after CAIs suggests that planetesimal formation effectively ceased at this time in the chondrite forming regions, possibly marking the dissipation of the gas disk. If the carbonaceous chondrites were scattered into the Asteroid Belt from the outer Solar System, this must have occurred after the formation of the youngest carbonaceous chondrites.
-At present, there is no way to measure the accretion ages of chondrites directly, although there is evidence from their short-lived 53Mn-Cr systematics that the H and EH chondrite parent bodies had formed ~2 Myr after CAIs (Polnau and Lugmair, 2001; Shukolyukov and Lugmair, 2004). In principle, the youngest chondrules in a chondrite group provide an upper limit to the age of their parent body. Most studies have dated individual chondrules using the 26Al-Mg system on the assumption that the 26Al/27Al ratio of ~5x10-5 seen in most undisturbed CAIs represents the homogeneous initial ratio of the Solar System (e.g., Bizzarro et al., 2004; Hutcheon et al., 2009; Jacobsen et al. 2008; Kita and Ushikubo, 2012; Ushikubo et al., 2013; Villeneuve et al., 2009). The assumption of a homogeneous 26Al/27Al ratio in the solar nebula has been questioned by some (Larsen et al., 2011; Schiller et al., 2015), but at present the balance of evidence supports a homogeneous distribution (Kita et al., 2013; Wasserburg et al. 2012). A few chondrule studies have also used the 53Mn-Cr (Kita et al., 2005), the 182Hf-W (Kleine et al., 2008) and the Pb-Pb systems (Amelin and Krot, 2007; Amelin et al., 2002; Connelly et al., 2012; Krot et al., 2005) to date chondrules. Together, these studies suggest that: (1) most chondrules in ordinary and CO chondrites and the ungrouped carbonaceous chondrite Acfer 094 formed between 1 and 3 Myr after CAIs, (2) formation of CV chondrules began almost contemporaneously with CAIs and continued for >3.4 Myr, and (3) chondrules in CR chondrites began forming at about the same time as ordinary and CO chondrules, but the youngest ages are >3-4 Myr after CAIs. Chondrules in the CB chondrites, which are different from those in other chondrite groups, have average ages
-of 4.6±0.5 Myr after CAIs (2 standard error) and seem to have formed in an impact (Krot et al., 2005; Yamashita et al., 2010).
-Taken at face value, these chondrule ages imply that all chondrite parent bodies formed >3-4 Myr after CAIs. However, the apparent spreads in chondrule ages are problematic. Chondrules in a particular chondrite group exhibit a limited range or physical and chemical properties that vary from group to group. At the levels of turbulence that are thought to exist in disks, even in a so-called dead zone, chondrules would be mixed over many AU on timescales of 1-3 Myr (Alexander, 2005; Alexander and Ebel, 2012; Cuzzi et al., 2010). Thus, either chondrite formation was dispersed over a large fraction of the solar nebula, as in the Grand Tack and Nice models, or the quoted ranges in chondrule ages are not real. The latter must be ruled out before concluding the former. Indeed, it has been suggested that most of the reported ranges in Al-Mg ages simply reflect the uncertainties in the measurements (i.e., most chondrules in a chondrite
-
-group could have the same age or a narrow range of ages) (Alexander and Ebel, 2012; Kita and Ushikubo, 2012), and that the youngest ages, indeed perhaps all chondrule ages, have been disturbed by parent body processes (Alexander, 2005; Alexander and Ebel, 2012). It remains to be seen if the range in chondrule Pb-Pb ages also reflect parent body disturbance.
-Given that parent body processes can disturb the radiometric systems that are used to date chondrules, it is essential to study only the least metamorphosed and aqueously altered members of a chondrite group. Even in these chondrites, it is essential to take care to select only those chondrules that can be shown to have undergone no secondary modification. The most careful Al-Mg study of chondrule ages conducted to date has been for the ungrouped carbonaceous chondrite Acfer 094 where 9 of the 10 chondrule ages are within error of a mean of 2.3!!!!..!! Myr (26Al/27Al=5.7±1.0x10-6) after CAIs (Ushikubo et al., 2013). Selecting only similar (type I) chondrules from a previous study of a primitive CO (Kurahashi et al., 2008) gives a mean age of 2.0!!!!..!! Myr (26Al/27Al=7.1±0.8x10-6) after CAIs. The Al-Mg system is more susceptible to modification in the chondrules analyzed in Semarkona, the ordinary chondrite that has been least affected by parent body processes, but the chondrules have a mean age of 2.0!!!!..!! Myr (26Al/27Al=7.3±1.4x10-6) after CAIs (Kita et al., 2000; Villeneuve et al., 2009), that is very similar to those for CO and Acfer 094 chondrules. This Semarkona average chondrule age is consistent with an average age of 1.7±0.7 Myr after CAIs for H chondrite chondrules obtained using the 182Hf-W system (Kleine et al., 2008).
-Additional constraints on the timing of accretion can potentially come from the thermal histories of chondrites since the abundance of the radioactive heat source, 26Al, will have been a function of accretion time. Modeling of mineral ages with different closure temperatures during metamorphism has been used to estimate the accretion time (2-3 Myr after CAIs) and size (~100 km in diameter) of the H ordinary chondrite parent body (Harrison and Grimm, 2010; Henke et al., 2013; Kleine et al., 2008; Trieloff et al., 2003). Alternatively, assuming that the maximum peak temperatures estimated for any member of a chondrite group represents the peak central temperature achieved in their parent body, along with a diameter of 60 km, Sugiura and Fujiya (2014) estimated accretion ages for all chondrite groups (Table 4), including one for the ordinary chondrites of ~2.1 Myr after CAIs. If this accretion age for the ordinary chondrites is approximately correct, it constitutes further evidence that many measured chondrule ages (e.g., those >2.1 Myr) are disturbed. Such estimates depend on many assumptions, not least of which are that we have samples from all depths in the chondrite parent bodies, that the peak temperatures have been accurately determined, that accretion temperatures and initial water ice contents are know, and that the parent body sizes are known. A lack of samples from the deep interior of the CO parent body, for example, could explain why the estimated accretion age of the COs (~2.7 Myr after CAIs) is younger than for the ordinary chondrites despite their average chondrule ages being so similar.
-Further complicating these estimates, some have questioned the simple internal heating models and argue that at least the ordinary chondrite parent bodies are rubble piles produced by early collisions while the bodies were still hot (Ganguly et al., 2013; Scott et al., 2014). Also, there is the suggestion that the CV chondrites, at least, formed in the presence of magnetic fields generated by dynamos in their planetesimal cores (Weiss and Elkins-Tanton, 2013), i.e., that these chondrites are the unheated crusts of
-
-differentiated bodies. If true, the accretion age of the CV parent body would have to have been significantly earlier than estimated by Sugiura and Fujiya (2014). However, to date, no achondrites or iron meteorites have been linked to the CVs.
-Constraints on the timing of aqueous alteration can be established in some chondrites because two products of alteration, fayalitic olivine and carbonates, incorporated shortlived 53Mn. Fayalitic olivine in ordinary chondrites formed at 2.4!!!!..!! after CAIs, while in CV and CO chondrites it formed at 4.2!!!!..!! and 5.1!!!!..!! after CAIs, respectively (Doyle et al., 2015). 4-5 Myr after CAIs is also about the time that carbonates formed in CM and CI chondrites and the ungrouped chondrite Tagish Lake (Fujiya et al., 2012; Fujiya et al., 2013; Jilly et al. 2014). Thermal modeling suggests that the parent bodies of these meteorites formed 3-4 Myr after CAIs.
-Thermal modeling of differentiated bodies is even more problematic than for chondrites because, for instance, the initial bulk composition is not known and how the melts segregate within the bodies can have a profound affect on thermal histories (e.g., Moskovitz & Gaidos 2011; Neumann et al., 2014). Nevertheless, models of varying degrees of sophistication have been used to estimate their accretion times. For instance, core formation on the IIAB, IIAB, IVA, IVB, and IID iron meteorite parent bodies occurred at 0.7±0.3, 1.2±0.3, 1.4±0.5, 2.9±0.5, and 3.1±0.8, Myr after CAIs, respectively (Kruijer et al., 2014). Previous modeling suggested that the accretion of the IVA, IVB, and IID parent bodies occurred, respectively, at 1.0±0.6, 1.3±0.5 and 1.5±0.5 Myr after CAIs (Kruijer et al., 2013). However, Kruijer et al., (2014) have significantly revised the accretion age estimates to ~0.1-0.3 Myr after CAIs for the parent bodies of all these iron meteorites. Estimates for the timing of differentiation and the onset of magma ocean crystallization of the HED parent body (4 Vesta) of 2.5±1.0 Myr (Lugmair and Shukolyukov, 1998; Lugmair and Shukolyukov, 2001; Trinquier et al., 2008) and 0.6!!!!..!! (Schiller et al., 2011), respectively, are broadly consistent with estimates of accretion times for Vesta of <1 Myr after CAIs (Neumann et al., 2014). Core formation in the angrite parent body occurred 2 Myr after CAIs, and its accretion must have occurred 1.5 Myr after CAIs (Kleine et al., 2012).
-Metallographic cooling rates have been used to argue that the iron meteorites formed in still hot cores that had been stripped of their silicate mantles by impacts (Yang et al., 2007, 2008, 2010a,b). The estimated parent body diameters for the best-studied groups are IVA=300±100 km and IVB=140±30 km, and, assuming roughly chondritic compositions, the sizes of the original bodies with their silicate mantles would have been roughly twice these estimates. Thus, the formation of relatively large asteroids began quite early. There is geochemical evidence that an even bigger object, Mars, had reached ~50 % of its present mass in 1.8!!!!..!! Myr after CAIs (Dauphas and Pourmand, 2011; Tang and Dauphas, 2014), i.e., contemporaneously with most chondrites.
-Table 4 Here
-4.3 How did asteroids form?
-Of the chondrites, only the CI chondrites lack clear evidence for chondrules, although even in these highly altered and brecciated rocks mineral fragments suggest that some chondrules or chondrule fragments may have been present at the time of accretion. It is
-
-much harder to say if chondrules were as abundant in the parent bodies of the nonchondritic meteorites, but relict chondrules have been reported in the primitive achondrites, and in silicate inclusions in IIE irons (tentatively linked to H chondrites). Ordinary, R and enstatite chondrites only contain 10-15 vol.% matrix and refractory inclusions are rare in them. It cannot be ruled out that chondrules dominated the dust in their formation regions, but it is also possible that chondrules were preferentially concentrated during planetesimal formation, as predicted by turbulent concentration (Chambers, 2010; Cuzzi et al., 2010) and possibly streaming instability (Johansen et al., this volume) models.
-However, the rarity of primitive meteorites with few or no chondrules suggests another intriguing possibility ­ that chondrule formation and planetesimal formation were linked in someway (Alexander et al., 2008). Metzler (2012) has argued that chondrules in ordinary chondrites were accreted within hours of their formation while they were still hot and plastic. Such a scenario would be consistent with re-accretion of chondrules produced in hit and run collisions between partially molten planetesimals (Asphaug et al., 2011), for instance. However, such a model must overcome some serious problems: (1) accretion of hot chondrules is difficult to reconcile with the contemporaneous accretion of thermally labile material, such as organic matter and water ice, (2) there are a number of geochemical/petrologic objections to making chondrules this way, and (3) it is not clear why only primitive objects that formed in this way are present in our collections. Johnson et al., (2015) also propose that chondrules were produced in collisions, though not rapidly reaccreted, i.e., they are byproducts of planetesimal formation rather than being intimately linked to it. If correct and turbulent concentration and the streaming instability need chondrules to work, then the dominant mechanism(s) for planetesimal formation has still to be identified (Appendix Question A1).
-4.4 Where did asteroids form?
-There is clear isotopic evidence in O, Ti, Cr, Mo and Ru for a distinction between the carbonaceous chondrites and almost all other inner Solar System objects (including Earth, Moon and Mars) for which we have samples (Burkhardt et al., 2011; Warren, 2011). With the exception of O, the subtle isotopic variations appear to be nucleosynthetic in origin. The causes of these differences are still not understood, but presumably they reflect subtle differences in the materials from which the planets/planetesimals formed (Appendix Question A1). These differences are certainly consistent with formation of the carbonaceous chondrites in the outer Solar System (beyond the initial orbit of Jupiter), as in envisioned by the Grand Tack and Nice models, but at present other explanations may also be possible.
-Since objects at or beyond the orbit of Jupiter tend to be water ice-rich, water contents are a potential means for distinguishing between meteorites/asteroids with inner and outer Solar System origins. Some carbonaceous chondrites (CI, CM, and Tagish Lake) were relatively water-rich when they formed, as is evident in the abundant clay minerals that they contain. Other carbonaceous chondrites seem to have accreted some water (CR and CV), but evidence for accretion of water ice in others is limited (CO) or lacking (CK, CH,
-
-CB). Further confusing this issue is that ordinary (Alexander et al., 1989; Grossman et al., 2000) and R chondrites (McCanta et al., 2008) also seem to have accreted water ice.
-If water contents cannot be used to determine whether the carbonaceous chondrite parent bodies formed at greater radial distances than other meteorite parent bodies, perhaps the H isotopes of the water can. There is expected to have been a radial gradient in the D/H ratio of water ice in the disk that reflected mixing between interstellar water (high D/H) and water with low D/H that had re-equilibrated with H2 in the hot inner disk (Albertsson et al., 2014; Jacquet and Robert, 2013; Yang et al., 2013). The D/H ratios of water in all comets are similar to or greater than the terrestrial ratio (Lis et al., 2013), and the terrestrial ratio is almost an order of magnitude higher than the bulk solar value. The only other outer Solar System planetesimals with measured D/H ratios are Saturn's moons Enceladus, whose water like most comets is enriched in D relative to the Earth (Waite Jr et al., 2009), and Titan, whose atmospheric methane D/H is Earth-like (Nixon et al., 2012). On the other hand, the N isotopes of Titan's atmosphere are 15N-enriched compared to the Earth (Mandt et al., 2014), like comets (Rousselot et al., 2014; Shinnaka et al., 2014). While it is still not certain where and how the comets and Saturn's moons formed, their compositions suggest that ice in the outer Solar System had D/H ratios that were greater than or equal to terrestrial. However, except for the CR chondrites, the best estimates of the D/H ratios of water in carbonaceous chondrites at the time of accretion were sub-terrestrial (Alexander et al., 2012). Rather surprisingly, the D/H ratios for water in ordinary and R chondrites are similar to those of the more enriched comets. This probably does not mean that they formed in the outer Solar System. It more likely reflects isotopic fractionation associated with the loss of H2 generated by the oxidation of metal by water in their parent bodies. The effect may have been larger in the ordinary and R chondrites because they had lower initial water/metal ratios. Nevertheless, this process should also have affected the carbonaceous chondrites, so that their initial water D/H ratios were probably somewhat lower than estimated by Alexander et al., (2012).
-In Summary, while carbonaceous chondrites and their asteroidal parent bodies are geochemically distinct from other inner Solar System objects that we have samples of, at present there is no direct evidence that they formed at much greater radial distances from the Sun than other meteorite parent bodies.
-5. Asteroid Compositional Trends In this Section, we explore questions related to the taxonomic distribution of
-asteroids at both the large and small sizes. A number of questions listed in the Appendix are discussed here.
-5.1 What is the source of the compositional gradient in the Main Belt? For the largest asteroids (D>~100km), the trend of taxonomic types as a function
-of distance from the Sun, in the order of S, C, P, D, remains robust. The canonical interpretation of this gradient is that it reflects the compositional variation with distance from the Sun of the dust in the solar nebula (Chapman et al., 1971, 1975, Gradie & Tedesco 1982, Question C1 Appendix). At the time, it was anticipated that (1) dynamical processes might have smeared an originally sharper division between asteroids of
-
-different composition, and (2) that different materials, condensing and accreting earlier or later, might have formed at the same solar distance, also smearing the gradient (Ruzmaikina et al., 1989, Petit et al., 2002).
-These ideas have not been ruled out entirely, but it is now apparent that other processes may have played a greater role in producing this gradient. The largest source of uncertainty is the ongoing challenge to associate many of the asteroid taxonomic types with specific types of meteorites or compositions (Burbine et al., 2002). There are ~40,000 meteorites in our collections, yet only ~100-150 distinct parent bodies have been identified from the collections. There are over 700,000 known asteroids, but only ~100 asteroids with diameters greater than 100 km and 122 notable families (see Nesvorny et al., this volume) that may be considered indicators of the number of parent bodies existing in the Main Belt today (Appendix Question B1). It is also possible, but not yet firmly established, that more than one asteroid could be the source of a single meteorite group (e.g., Vernazza et al., 2014; Appendix Question B2). There is certainly more work needed to understand the links between meteorites and their asteroidal sources. Next, we briefly summarize some of the known and proposed associations.
-It is now clear that a fraction of S-complex objects are ordinary chondrites and that the HEDs are mostly associated with Vesta and its family, but most taxonomic types cannot be robustly associated with specific meteorites or mineralogies. Many asteroid spectra are simply not diagnostic of unique mineral assemblages. E-types have been associated with enstatite chondrites or achondrites, M-types with metallic meteorites, Atypes with pallasites or olivine-rich achondrites, L-types with CAIs, etc., but these connections are not unique or robust (Burbine et al., 2002). It is generally understood that some of the C-complex asteroids (including P- and D-types) are likely associated with carbonaceous chondrites, of which there are many subtypes. It is probable that many of these asteroids do not supply meteorites to Earth because their distant orbits are less likely to be perturbed into Earth-crossing, or if their fragments do enter the atmosphere, they may be too fragile and/or arrive at too high a velocity to survive as a meteorite.
-A major advance toward interpreting the taxonomic gradient is the understanding of processes that move asteroids and their fragments about. Since the time of Asteroids I and II, there is far better understanding of major and minor resonances in the Main Belt (Nesvorny et al., 2002), of how the Yarkovsky effect (and associated YORP effect) works (Bottke et al., 2006), of past dynamical regimes (e.g., the Grand Tack, or Nice models) that may have had profound effects on the distributions of small bodies in the inner and outer Solar System (Morbidelli et al., Chapter), and of how asteroid families produced by catastrophic collisions evolve. It has also been suggested that some Inner Belt asteroids were emplaced as debris from the terrestrial planet region (Bottke et al., 2006), that comets can be implanted into the Main Belt, and even that Ceres might have been implanted from the outer Solar System (McKinnon, 2008).
-The gradient is less obvious for smaller Main Belt asteroids than for larger ones, but this could be attributed to the fact that several processes act more readily on smaller bodies. The idea that the larger asteroids retain some element of a primordial gradient is more tenable, but clearly only one of a number of possibilities, given recent models (Walsh et al., 2011, 2012). It is uncertain whether astronomical observations together with dynamical scenarios can uniquely solve this problem. We need to measure actual compositions as a function of location in the Solar System, whether through better
-
-understanding from meteoritical research or from in situ studies, to resolve the matter. It is still not understood in any quantitative way how meteorites with different oxygen isotopes were distributed in the early Solar System, nor from where they are derived in the modern epoch. Short of a wholly impractical mineralogical and isotopic assay of dozens of asteroids and comets, there does not appear to be a way for this question to be robustly resolved in the near term.
-5.2 Distribution Changes with Size While the smallest asteroids are the least studied due to observational biases, there
-are some interesting possible trends and discoveries that have been noted in the past decade (Appendix Question C2). Among the Hildas and Trojans the relative frequency of D- and P-types changes as a function of size. Grav et al., (2012) find a decrease in spectral slope with decreasing size, which translates to more P-types at smaller sizes. DeMeo & Carry (2014) also note a change in relative fraction between the D- and Ptypes. The cause of this change in spectral slope as a function of size is not yet understood. Possible explanations could include space weathering (Lantz et al., 2013, Brunetto et al., 2014), compositional differences, or grain size effects (e.g., Cloutis et al., 2011a,b).
-Additionally, among the smallest asteroids (D <~15 km) we find very red asteroids, D-types, in the Inner Belt where they were previously not expected (DeMeo et al., 2014). The compositional make up of these bodies and how they arrived in their current locations are under debate. They could have been scattered farther than expected during the late-stage migration modeled by Levison et al., (2009). Perhaps they arrived through another mechanism such as an earlier migration, other planetary scattering, or Yarkovsky drift across the resonances. Ultimately, we cannot rule out the possibility that they are compositionally distinct from other D-types and thus do not require an implantation mechanism.
-DeMeo & Carry (2013, 2014) reported that the relative abundance of C-complex asteroids in the Inner Main Belt is greater at the smaller sizes. There are multiple possible explanations for asteroids of different compositional types to have different size distributions. It could be related to the size-frequency distribution of families, for example C-complex objects may survive longer if they have high porosity, as in the case of Mathilde. Bodies with an ice-component may have shorter lifetimes as both sublimation and collisions are at play (Rivkin et al., 2014). Shocked S-complex objects that have suppressed absorption features could be masquerading as other taxonomic types, including the C- or X-complex (Britt et al., 1989, Reddy et al., 2014, Kohout et al., 2014). Differences could also be attributed to the primordial size distributions of asteroids of different compositional types.
-5.3 What processes can mix wildly different meteorite types into a single tiny body? There has been increased focus recently on asteroids in the size range for
-meteorite delivery, partly due to recent spectacular events such as the fall of 2008 TC3 (Almahata Sitta), the airblast from the Chelyabinsk meteorite in 2013, and several asteroid close approaches, such as 2012 DA14.
-Almahata Sitta presents a new puzzle to the meteorite and asteroid communities because of the diversity of meteorite types that have been mixed into a single small body
-
-(Appendix Question B6). Almahata Sitta is predominantly made of ureilitic lithologies, but contains an unprecedentedly large fraction of a variety of other meteorite types, including enstatite chondrites, ordinary chondrites, and even carbonaceous chondrites (Zolensky et al., 2010). Gayon-Markt et al., (2012) concluded that it could not have been assembled by low velocity collisions among asteroids of diverse types in the Nysa-Polana family region (the suspected source region of Almahata Sitta) in the current dynamical environment. The mixture of two or three different meteorite types could be ascribed to unusual but possible coincidental encounters at the low-velocity tails of their dynamical parameters, but the variety of different materials in this case is so large that it is difficult to appeal to such low-probability events. In addition, Almahata Sitta is not a regolith breccia (it does not contain implanted solar-wind particles), so it was not lying on the surface of an asteroid for an extended period of time. Hence, Gayon-Markt et al., (2012) suggest that the diverse pieces must have been assembled in early times when collisional velocities were much lower.
-Asteroid 2008 TC3 exhibited a seemingly flat reflectance spectrum most closely, but not convincingly resembling F-types (Jenniskens et al., 2009; F-types are from the Tholen taxonomy and would fall under the C-complex in the Bus and Bus-DeMeo taxonomies, see Table 1), where the spectral data had large error bars and did not contain diagnostic absorption features. Ureilites are fairly dark and some of the other incorporated meteorite types exhibited shock-darkening, thus a fairly featureless reflectance spectrum is not unexpected. A wide variety of mineralogies, so long as they contain a fraction of low albedo materials or shock-darkened grains, might show such a spectrum. Thus there is no strong basis for arguing that other asteroids with similar spectra should be similarly composed of heterogeneous materials the way Almahata Sitta is.
-This mystery might be addressed if we could identify a larger proportion of meteorites that resemble Almahata Sitta. Is there a bias against finding meteorites of this type? The Sudanese desert was an especially good background for picking up pieces of the meteorite. Maybe these kinds of meteorite conglomerates are typically even weaker than Almahata Sitta and fragment even higher in the atmosphere, lessening the chance of recovery on the ground (e.g., similar to reasons for why we apparently lack samples of comets). If this is a more common kind of assemblage than we now think, we would be forced to abandon some of our ideas about asteroid family homogeneity (e.g., from the similar colors and albedos of asteroid family members) or about relative velocities among asteroids during early epochs of Solar System history. Given the mismatch in scale between astronomical observation of asteroids and the centimeter-to-meter-scale heterogeneities within Almahata Sitta and other meteorites such as Kaidun (Zolensky 2003), asteroid astronomical techniques are less likely to resolve this mystery than are techniques of meteor and fireball observation and meteorite research in the laboratory.
-5.4 The Missing Mantle Problem The canonical view of asteroid differentiation has been that a fully differentiated
-body should form an iron core, a silicate mantle, and a basalt crust. Olivine and pyroxene are the spectrally dominant materials in the mantle and crust, respectively. Meteorite
-
-collections include a diversity of iron meteorites that imply the existence of over 60 distinct parent bodies (Wasson 1995, Burbine et al., 2002). However, the meteorite and asteroid records lack a substantial population of olivine-dominated or pyroxenedominated bodies (Burbine et al., 1996, Bus & Binzel 2002a, Binzel et al., 2004, Lazzaro et al., 2004, Carvano et al., 2010, DeMeo & Carry 2013), aside from HEDs and Vestoids linked to Vesta (Consolmagno & Drake 1977, Binzel et al., 1993, Prettyman et al., 2012). This has been known as the Missing Mantle Problem, and also as the Missing Dunite Problem (Appendix Question C3). One of the major outstanding questions in asteroid science existing for decades has been this perceived shortage of dunite or olivine in the Asteroid Belt.
-Multiple solutions have been proposed to the missing mantle problem. The "battered to bits" scenario was a leading theory from the 1990s, whereby Burbine et al., (1996) further explored a proposal by Chapman (1986) that the mantle and crustal material of the original differentiated bodies had been ground down to pieces below the limit of our observational capabilities or even so they were too small to be delivered to Earth as meteorites. The primary weakness of this scenario is that the mantle and crustal components should not be substantially structurally weaker than undifferentiated material such as the C- and S-complexes that have survived. Additionally, larger scale spectroscopic surveys have placed even more stringent limits on the abundance of differentiated material and find it exceedingly rare in both the Main Belt and among NEOs that are sourced from the smaller (m- to km-sized) Main Belt population (Bus & Binzel 2002a, Binzel et al., 2004, Lazzaro et al., 2004, Carvano et al., 2010, DeMeo & Carry 2013).
-A more recent suggestion is that the classic view of asteroids differentiating into a pyroxene-rich crust, olivine-rich mantle, and iron core may be incorrect or uncommon (Elkins-Tanton et al., 2011). The differentiation models cause an asteroid's interior to heat and melt due to the decay of 26Al, but the exterior remains unheated and primitive (see chapter by Scheinberg et al.). Thus the unheated crust would hide evidence of a differentiated interior from a remote observer. Weiss et al. (2012) propose that asteroid Lutetia's high density, measured by the Rosetta spacecraft, is evidence of a core due to internal differentiation. Also, recent measurements of the primitive CV meteorite Allende find a directionally stable remnant magnetization that could be explained by the presence of a core dynamo in the parent body's past (Carporzen et al., 2011). As for rethinking the olivine-rich mantle model, the smoking gun has been the lack of evidence for olivine on the surface of Vesta from the Dawn mission (Le Corre et al., 2013). Another test of this differentiation scenario could be observations of asteroid families, whereby family members represent pieces of the parent asteroid's interior. The spectra and albedos of asteroid families tend to be very homogeneous (Parker et al., 2008, Masiero et al., 2011), however, the parent bodies of these families may not have been large enough to differentiate in the first place.
-In addition to improved differentiation models, there is a new dynamical context for small bodies. It is possible, even likely, that bodies that formed iron cores formed closer to the Sun, in the terrestrial planet region (see chapter by Scott). During the tumultuous time of planet formation, these differentiated bodies were catastrophically disrupted, but their remnants were later scattered outward into their current locations in the Main Belt (Bottke et al., 2006). In addition, the so-called Grand Tack models (Walsh
-
-et al., 2011) proposes that within the first few million years of Solar System formation Jupiter migrated inward to the current location of Mars, then due to Saturn's presence turned course and moved back outward, scattering a significant number of bodies out to the location of the Main Belt today. The orbital distribution of basaltic and olivinedominated objects spread across the Main Belt today are consistent with the idea that a small amount of material was scattered into their current locations (e.g., Moskovitz et al., 2008).
-5.5 The Ordinary Chondrite Paradox The ordinary chondrite paradox was a longstanding puzzle in asteroid science
-(Appendix Question B7), whereby the most common meteorite type, the ordinary chondrites, did not spectroscopically match the most common asteroids, the S-complex (Bell 1989). Originally the S-complex asteroids in the Inner Belt were interpreted as igneous bodies that had undergone significant heating and melting, exposing iron, olivine, and pyroxene on the surface (McCord & Gaffey 1974, Chapman 1974). Thus, they were not considered compositionally linked to ordinary chondrites. However, the possibility of an effect, such as space weathering seen on the Moon, that altered ordinary chondrite (OC) spectra to look like S-complex asteroids could not be ruled out (Chapman 1979).
-By the 1990s, the space weathering hypothesis gained traction. Spectral measurements of tens of NEOs demonstrated that the S-complex NEOs spanned the entire spectral slope range from spectrally flat OC meteorites to spectrally red S-complex Main Belt asteroids (Binzel et al., 1996, 2010). The Galileo mission data for Ida revealed that spectral differences were correlated with the age of surface features, and the discovery of Ida's moon Dactyl allowed density estimates that rejected the hypothesis of a core or other large metal components that may have been produced by large-scale melting and differentiation (Chapman 1996). Images and spectra of asteroid (433) Eros from the NEAR mission showed that dark regolith on the wall of the crater Psyche moves downslope exposing younger, brighter material (Veverka et al., 1999; Murchie et al., 2002). The most important result from NEAR-Shoemaker was the conclusion from x-ray fluorescence spectroscopy that the major elemental composition of Eros was that of ordinary chondrites and that body had not differentiated (Nittler et al., 2001). Additional ground-based studies of Itokawa (Binzel et al., 2001) and an increased understanding of the effects of space weathering (Sasaki et al., 2001, Chapman 2004, Brunetto et al., 2006) further strengthened the OC-S-complex link. However, it was not until the sample return from Itokawa by JAXA's Hayabusa spacecraft (Nakamura et al., 2011) that conclusively proved the link. While it became clear that space weathering accounted for much of the spectral slope difference between OC meteorites and S-complex asteroids, other factors including grain size and observational phase angle were also determined to affect spectral slope (see chapter by Reddy et al.). For further discussion of the ordinary chondrite problem see the chapter by Brunetto et al.
-The ordinary chondrite paradox case is now generally considered closed ordinary chondrite compositions are part of the S-complex. There are two large problems remaining, to determine (1) which S-complex asteroids are not OC's and may supply other meteorite types, and (2) how many original parent bodies the OC's come from. The S-complex encompasses a range of spectral characteristics and a diverse set of
-
-compositions (e.g., Gaffey et al., 1993, Dunn et al., 2013). Detailed mineralogical modeling of a large quantity of S-complex spectra, combined with a refined understanding of other factors that affect an asteroids reflectance spectrum, is needed if we are to make further progress. Exploring a broader wavelength range from the UV to mid-infrared would provide additional constraints.
-6. Asteroids in their greater context Studies of asteroids and meteorites reveal their current compositions and
-structure, how and when they formed including the conditions of the Solar System at the time of planet and planetesimal formation. Asteroids, however, are more broadly relevant in our own Solar System and beyond. In this Section we explore asteroids and their relevance to Earth and habitability and the topic of asteroids outside our Solar System. The field of exo-asteroids is growing rapidly and the role asteroids play in creating the conditions for life (particularly the role in delivering water) is now being studied extensively. While these topics play a minor role in this book, one may envision these topics to be mature by the time of Asteroids V.
-6.1 Asteroids relevance to Earth formation and conditions for life No meteorite group or combination of groups can reproduce both the elemental
-and isotopic compositions of the Earth, the planet for which we have the best data (Palme and O'Neill, 2014; Halliday, 2014: Appendix Question D1). Impact erosion and volatile loss during melting/differentiation of planetesimal precursors may explain some of the differences, but it seems that the Earth was at least partially made of materials not present in our meteorite collections.
-The abundances of highly siderophile (metal-loving) elements in the Earth's silicate mantle and crust are much higher than would be predicted since these elements should have gone essentially quantitatively into the Earth's Fe-metal core during differentiation (Walker, 2009). It has been proposed that these elements were added to the Earth after the last major event that enabled exchange between the core and the silicate mantle (Chou, 1978), which is normally taken to be the Moon-forming impact. The age of the Moon-forming impact is still uncertain ­ it must have been earlier than the oldest known lunar crustal rocks that formed 4.36 Byr ago (Borg et al., 2011), and could be as old as 4.507!!!!..!!" Byr (Kleine et al., 2009; Touboul et al., 2007). The isotopic composition of the highly siderophile elements Os and Ru suggest that the material responsible for this so-called late veneer was probably ordinary- or enstatite-chondritelike (i.e., volatile-poor), rather than carbonaceous-chondrite-like (i.e., volatile-rich) (Walker, 2009). The fraction of the Earth's mass that was accreted as a late veneer was of the order of 0.5 % (Walker, 2009). The material accreted during the proposed late heavy bombardment (LHB), an increase in the lunar basin formation rate about 4 Byr ago, would have been a minor component of the late veneer. However, there has been a longstanding debate about how long the LHB lasted or even whether there was a LHB (Chapman et al., 2007; Morbidelli et al., 2012). One model (the Nice model) proposes that the LHB was caused by an episode of giant planet orbital migration that destabilized the inner edge of the Asteroid Belt (Bottke et al., 2012).
-
-The LHB, and the late veneer as a whole, was not a significant source of the Earth's volatiles. Apart from the Os and Ru evidence, and model support that the LHB and the late veneer material were volatile-poor, there is evidence for oceans 4.4-4.3 Byr ago (Cavosie et al., 2005; Mojzsis et al., 2001; Wilde et al., 2001), i.e., 300-400 Myr before the LHB. The Earth's atmosphere is probably even older, ~4.527!!!!"" Byr (Avice and Marty, 2014), which is of a similar age to or possibly older than the Moon. So volatiles were accreted by the Earth quite early and were not lost in any subsequent giant impacts, which is consistent with the new evidence for a wetter Moon than previously suspected (Saal et al., 2013) and with the timing for water accretion measured in eucrites (Sarafian et al., 2014).
-It has been argued that Jupiter family comets (JFCs) like Hartley 2 could have been the main sources of the Earth's water because they have roughly terrestrial water D/H ratios (Hartogh et al., 2011), although the water D/H of another JFC is roughly three times terrestrial (Altwegg et al., 2015). However, at least in the Nice model objects from the scattered disk, the source of the JFCs, would have been scattered into the inner Solar System only during the LHB (Levison et al., 2009), which is too late given the evidence for an atmosphere and oceans 100s of millions of years before the LHB. Also, as mentioned above, the isotopic compositions of Os and Ru suggest that the late veneer material was dominated by ordinary- and enstatite-chondrite-like material. Finally, it is important to remember that the Earth would have accreted whole comets and not just their ice. Comets are organic-rich and judging by the organics in meteorites and interplanetary dust particles, which may be cometary, cometary organic material is very D-rich. Consequently, the bulk D/H even of comets like Hartley 2 are probably significantly more D-rich than their ice and the Earth (Alexander et al., 2012). On the other hand, the bulk H and N isotopic compositions of CI and CM chondrites are quite similar to the Earths (Alexander et al., 2012). In fact, the addition of ~2 wt.% of CI or ~4 wt.% of CM chondrite material can roughly reproduce not only the H and N isotopes, but also the abundances of many of the Earth's most volatile elements (H, C, Cl, Br, I, Ne, Ar and Kr) (Alexander et al., 2012; Marty, 2012).
-6.2 Asteroids outside our Solar System Asteroids play an important role outside of our Solar System as well (Appendix
-Questions D3 & D4). Asteroids are inferred to exist as remnants around white dwarf stars and are used as tracers of the dynamics and physical properties in these systems. Gravitational settling in cool white dwarfs causes all elements heavier than helium to sink to the star's interior. One fourth to one third of cool white dwarfs have heavy elements in their atmospheres that accreted from in-falling asteroids (Alcock et al., 1986, Jura 2008, Jura & Young 2014). These asteroids around white dwarfs are at least 85% by mass oxygen, magnesium, silicate, and iron, resembling rocky planetesimals and bulk Earth in our Solar System (Jura & Young 2014). This observational technique of studying white dwarf atmospheres can also detect asteroid differentiation and evidence of water was detected in "exoasteroid" debris (Farihi et al., 2011, 2013). Studies of cool white dwarfs may enable us to understand asteroid compositions, formation and evolution in other planetary systems.
-Asteroid Belts are present around stars, as evidenced by the collisional dust (equivalent to our own zodiacal dust) observed around other mature stars. Debris disks
-
-are detected by the light emitted by dust grains in the disk at thermal wavelengths (e.g. Lawler et al., 2009, Lawler & Gladman 2012). The peak flux and wavelength of the emitted light provides an estimate for the mass of the disk and its distance from the star. While most known debris disks are Kuiper-Belt-like, located at distances from tens to hundreds of AU, a small number exhibit mid-infrared emission indicating warm dust. Most spectral measurements of debris disks have been taken at infrared wavelengths where the flux ratio of the disk to star is most favorable. Minerals can be identified by emission features (e.g., Christensen et al., 2000) with silicates being the most common and easiest to identify (e.g., Beichman et al., 2005, Lisse et al., 2012, Ballering et al., 2014). Interpretation of these spectra, however, is challenging because many grain properties other than composition (size, shape) can affect the spectrum. Continued studies of debris disks will reveal the diversity of extrasolar asteroid belt configurations and compositions that will provide context for our own Solar System and for understanding the role asteroid belts play in creating the conditions for habitability on Earth-size planets.
-7. The Future: What's next? Potential avenues for future work on specific questions addressed in this chapter are given in Table 5. We highlight a few avenues for future work here:
-· In general, for the future of understanding the compositions and distributions of asteroids there are several techniques and topics that hold promise. While the past decades have focused primarily on the visible and near-infrared wavelength ranges for spectroscopic study, extending to the UV and mid-IR could potentially provide new constraints for asteroid surfaces.
-· The internal structures and geophysics of asteroids remain largely unexplored. Additional studies of densities and differentiation processes will play an important role in understanding asteroid interiors (Carry 2012).
-· Studies of small asteroids (a few km in the Main Belt and a few tens of meters among NEOs) will be a focus in future years as there is much progress to make on the processes relevant to these size ranges. Understanding the compositional makeup and mixture of serendipitous meteorite falls is a young and developing field. The study of shock darkening effects on the surfaces of asteroids and meteorites is another avenue of future work. While the foundations for the shocking process were established decades ago (e.g., Britt & Pieters 1994), there is renewed interest as we observe the smallest asteroids.
-· Ongoing and upcoming space missions will also add great value to our understanding of asteroid compositions. Dawn recently completed its study of Vesta and will have studied Ceres by the time this book is published. OSIRIS-Rex and Hayabusa 2 are scheduled to return samples of primitive asteroids. Gaia is actively taking visible wavelength spectra of tens to hundreds of thousands of asteroids and will provide a large new set of data to the community.
-Just as important as exploring all these interesting avenues of asteroid research is exploring the connections between them. We must understand how each new discovery relates to our current body of knowledge and to the big picture of asteroids, our Solar System, and beyond.
-
-FIGURES
-Fig 1. The cumulative number of known asteroids and the yearly discovery rate are plotted above. The surveys responsible for spikes in detection are marked, the PalomarLeiden (P-L), Trojan (T-1, T-2, T-3), Spacewatch, and LINEAR. Recent years have seen an explosion in asteroid discoveries due to automated telescopic surveys with advanced detection algorithms. By the year 2015, nearly 700,000 asteroids have been discovered.
-
-Bus-DeMeo Taxonomy Key
-
-S-complex
-
-1.5
-
-S1
-
-Sa
-
-Sq
-
-Sr
-
-Sv
-
-0.45
-
-2.45
-
-C-complex
-
-B
-
-C
-
-Cb
-
-Cg
-
-Cgh
-
-Ch
-
-X-complex
-
-X
-
-Xc
-
-Xe
-
-Xk
-
-End Members
-
-D
-
-K
-
-L
-
-T
-
-A
-
-O
-
-Q
-
-R
-
-V
-
-Fig 2. Asteroid Taxonomy Key. The 24 spectral classes of the Bus-DeMeo taxonomy key measured over visible and near-infrared wavelengths. Based on work from DeMeo et al., 2009.
-
-Fig 3. The distribution of asteroid classes by mass in distinct size ranges and distances from the sun. Asteroid mass is grouped according to objects within four size ranges, with diameters of 100­1,000 km, 50­100 km, 20­50 km and 5­20 km. Seven zones are defined as in Fig. 1: Hungaria, inner belt, middle belt, outer belt, Cybele, Hilda and Trojan. The total mass of each zone at each size is labeled and the pie charts mark the fractional mass contribution of each unique spectral class of asteroid. The total mass of Hildas and Trojans are underestimated because of discovery incompleteness. The top row is consistent with results from Gradie & Tedesco 1982 and Gradie et al., 1989. The figure is from DeMeo & Carry 2014.
-
-Fig 4. This cartoon depicts major components of the dynamical history of small bodies in the Solar System based on models. These models may not represent the actual history of the Solar System, but are possible histories. The figure displays periods of radial mixing, mass removal and planet migration-- ultimately arriving at the current distribution of planets and small-body populations. This figure is from DeMeo & Carry 2014.
-TABLES: Table 1: Comparison and explanation of the progression of spectral taxonomies. A simple description of relevant minerals and meteorites for each class is presented. For meteorite and mineral details see Burbine et al., 2002.
-
-Table 2. Summary of the recognized chondrite classes and groups.
-
-Class
-
-Groups
-
-Enstatite (E)
-
-EH, EL
-
-Highly reduced, metamorphosed
-
-types 3-6
-
-Rumuruti (R)
-
-Metamorphosed types 3-6,
-
-some OH-bearing minerals
-
-Ordinary (O)
-
-H, L, LL Metamorphosed types 3-6,
-
-evidence for H2O activity.
-
-Carbonaceous (C)
-
-CI, CM, CR Aqueously altered types 1-3
-
-CO, CV
-
-Metamorphosed types 3,
-
-evidence for H2O activity.
-
-CK
-
-Metamorphosed types 3-6,
-
-evidence for H2O activity.
-
-CH, CB
-
-Metal-rich, impact products
-
-Kakangari (K)
-
-Table 3. Summary of the non-chondrites. Primitive achondrites
-Winonaites Acapulcoites and lodranites Brachinites
-Achondrites Aubrites
-Ureilites
-Angrites HEDs
-Howardites Eucrites1 Diogenites
-Stony irons Mesosiderites Pallasites Main group Eagle Station group Pyroxene group
-Irons2 Magmatic
-
-Related to IAB irons
-Broadly basaltic compositions, related to E chondrites Contain veins of graphite and diamond Basaltic compositions From 4 Vesta Eucrite and diogenite breccias Basaltic compositions Coarse pyroxene and olivine
-Impact breccias Core-mantle boundary material (?) Related to IIIAB irons (?) Related to C chondrites
-IVAs related to L/LL chondrites
-
-IC, IIAB, IID, IIC, IIF, IIG, IIIAB,
-
-IIIE, IIIF, IVA, IVB
-
-Non-magmatic
-
-IIEs related to H chondrites, IABs
-
-IAB, IIE, IIICD
-
-related to winonaites
-
-1A few anomalous eucrites may not be from 4 Vesta.
-
-215% of irons remain ungrouped.
-
-Table 4. The average ages and estimates of the accretion ages of chondrites and various non-chondrites from Sugiura and Fujiya (2014) unless otherwise indicated. The ages are in millions of years after CV CAI formation.
-
-Group
-Chondrites: E
-O
-R CK CO CV CI, CM, CR, TL Non-chondrites: Angrites HEDs Magmatic irons Stony irons Ureilites Acap.+Lodran. Aubrites NWA 011 Tafassasset
-
-Chondrules
-
-Time after CV CAI
-
-2.0+0.5,-0.3a, 1.7±0.7b 2.0+0.3,-0.2d
-
-1.8±0.1
-2.1±0.1, 2-3c 2.1±0.1 2.6±0.2 2.7±0.2 3.0±0.2 3.5±0.5
-
---  
-
-0.5±0.4
-
---  
-
-0.8±0.3
-
---  
-
-0.9±0.3
-
---  
-
-0.9±0.3
-
---  
-
-1.0±0.3
-
---  
-
-1.3±0.3
-
---  
-
-1.5±0.1
-
---  
-
-1.5±0.1
-
---  
-
-1.9±0.2
-
-Other
-    
-                                   1.5e 2.5±1f, 0.6+0.5,-0.4g, <1h 1.0±0.6, 1.3±0.5, 1.5±0.5i
-
-a ­ see text for details. b - Kleine et al., (2008). c - Harrison and
-Grimm (2010); Henke et al., (2013); Kleine et al., (2008); Trieloff et al., (2003). d - see text for details. e ­ Kleine et al., (2012). f Trinquier et al., (2008). g - Schiller et al., (2011). h - Neumann et al., (2014). i - Kruijer et al., (2013).
-
-Appendix A: Major outstanding asteroid compositional questions
-[See Excel File]
-Acknowledgements: We would thank the following authors for fruitful discussions: B. Carry, R. Brunetto, T. Burbine, P. Vernazza, D. Polishook, M. Elvis, C. Lisse, V. Reddy. We thank N. Moskovitz and G. Libourel for helpful reviews that improved the manuscript. This material is based upon work supported by the National Aeronautics and Space Administration under Grant No. NNX12AL26G issued through the Planetary Astronomy Program and through the Hubble Fellowship grant HST-HF-51319.01-A, awarded by the Space Telescope Science Institute, which is operated by the Association of Universities for Research in Astronomy, Inc., for NASA, under contract NAS 5-26555. This material is based upon work supported by the National Science Foundation under Grant No. 0907766 C. M. O'D. Alexander acknowledges partial support from NASA grant NNX14AJ54G and from NASA's Astrobiology Institute. K. J. W. was partially supported by the NASA Planetary Geology and Geophysics Program under grant NNX13AM82G.
-References: Albertsson, T., Semenov, D., Henning, T. (2014) Chemodynamical deuterium
-fractionation in the early solar nebula: The origin of water on Earth and in asteroids and Comets. Astrophys. J., 784, 39. Alcock, C., Fristrom, C. C., Siegelman, R. (1986) On the number of comets around other single stars. Ap J. 302, 462-476. Alexander, C.M.O'D., Barber, D.J., Hutchison, R. (1989) The microstructure of Semarkona and Bishunpur. Geochim. Cosmochim. Acta., 53, 3045-3057. Alexander, C.M.O'D. (2005) From supernovae to planets: The view from meteorites and IDPs. In Chondrites and the Protoplanetary Disk (Krot, A.N., Scott, E.R.D., Reipurth, B., eds.), pp. 972-1002. The Astronomical Society of the Pacific, San Francisco. Alexander, C.M.O'D., Bowden, R., Fogel, M.L., Howard, K.T., Herd, C.D.K., Nittler, L.R., (2012). The provenances of asteroids, and their contributions to the volatile inventories of the terrestrial planets. Science, 337, 721-723.
-
-Alexander, C.M.O'D., Ebel, D.S., (2012) Questions, questions: Can the contradictions between the petrologic, isotopic, thermodynamic, and astrophysical constraints on chondrule formation be resolved? Meteor. Planet. Sci., 47, 1157-1175.
-Alexander, C.M.O'D., Grossman, J.N., Ebel, D.S., Ciesla, F.J., (2008) The formation conditions of chondrules and chondrites. Science, 320, 1617-1619.
-Altwegg, K., Balsiger, H., Bar-Nun, A., Berthelier, J.J., Bieler, A., Bochsler, P., Briois, C., Calmonte, U., Combi, M., De Keyser, J., Eberhardt, P., Fiethe, B., Fuselier, S., Gasc, S., Gombosi, T.I., Hansen, K.C., Hässig, M., Jäckel, A., Kopp, E., Korth, A., LeRoy, L., Mall, U., Marty, B., Mousis, O., Neefs, E., Owen, T., Rème, H., Rubin, M., Sémon, T., Tzou, C.-Y., Waite, H. and Wurz, P. (2015) 67P/Churyumov-Gerasimenko, a Jupiter family comet with a high D/H ratio. Science 347, 1261952.
-Amelin, Y., Krot, A., (2007) Pb isotopic age of the Allende chondrules. Meteor. Planet. Sci., 42, 1321-1335.
-Amelin, Y., Krot, A.N., Hutcheon, I.D., Ulyanov, A.A., (2002) Lead isotopic ages of chondrules and calcium-aluminum-rich inclusions. Science, 297, 1678-1683.
-Asphaug, E., Jutzi, M., Movshovitz, N., (2011) Chondrule formation during planetesimal accretion. Earth Planet. Sci. Lett. 308, 369-379.
-Avice, G. and Marty, B. (2014) The iodine­plutonium­xenon age of the Moon­Earth system revisited. Philosophical Transactions of the Royal Society A 372, 20130260.
-Ballering, N. P., Reike, G. H., Gaspar, A. (2014) Probing the Terrestrial Regions of Planetary Systems: Warm Debris Disks with Emission Features. ApJ. 793, id.57.
-Batygin, K. and Stanley, S. (2014) Non-axisymmetric Flows on Hot Jupiters with Oblique Magnetic Fields. Astrophys. Journal. 794, 10.
-Beichman, C. A. et al. (2005) An Excess Due to Small Grains around the Nearby K0 V Star HD 69830: Asteroid or Cometary Debris? ApJ. 626, 1-61-1069.
-Bell, J. F., Davis, D. R., Hartmann, W. K. & Gaffey, M. J. (1989) Asteroids ­ The big picture. In Asteroids II (Binzel, R. P, Gehrels, T., Matthews M. S., eds.), pp. 921-945 Univ. of Arizona, Tucson.
-Bendjoya, P., Zappala, V. (2002) Asteroid family identification. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-Binzel, R. P. and Xu, S. (1993) Chips off of Asteroid 4 Vesta: Evidence for the parent body of basaltic achondrite meteorites. Science, 260, 186-191.
-Binzel, R. P., Bus, S. J., Burbine, T. H., Sunshine, J. M. (1996) Spectral properties of Near-Earth Asteroids: Evidence for sources of ordinary chondrite meteorites. Science, 273, 946-948.
-Binzel, R. P., Rivkin, A. S., Bus, S. J., Sunshine, J. M. & Burbine T. H. (2001) MUSESC target asteroid (25143) 1998 SF36: A reddened ordinary chondrite. Meteor. Planet. Sci., 36. 1167-1172.
-Binzel, R.P., Rivkin, A.S., Stuart, J.S., Harris, A.W., Bus, S.J., Burbine, T.H., (2004) Observed spectral properties of near-Earth objects: Results for population distribution, source regions, and space weathering processes. Icarus, 170, 259­294.
-Bizzarro, M., Baker, J.A., Haack, H., (2004) Mg isotope evidence for contemporaneous formation of chondrules and refractory inclusions. Nature, 431, 275-278.
-Borg, L.E., Connelly, J.N., Boyet, M., Carlson, R.W., (2011) Chronological evidence that the Moon is either young or did not have a global magma ocean. Nature 477, 70-72.
-
-Boss, A. P., Alexander, C. M. O'D., Podolak, M. (2012) Cosmochemical consequences of particle trajectories during FU Orionis outbursts by the early Sun. Earth and Planet Sci. Let. 345, 18-26.
-Bottke, W. F., Jedicke, R. Morbidelli, A., Petit, J. M., Gladman, B. (2000) Understanding the distribution of Near-Earth Asteroids. Science, 5474, 2190-2194
-Bottke, W. F., et al. (2002a) Debiased orbital and absolute magnitude distribution of Near-Earth Objects. Icarus, 156, 399-433.
-Bottke, W. F., Vokrouhlicky, D., Rubincam, D. P., Broz, M. (2002b) The effect of Yarkovsky thermal forces on the dynamical evolution of asteroids and meteoroids. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-Bottke, W. F., Vokrouhlicky, D., Rubincam, D. P., Nesvorny, D. (2006) The Yarkovsky and Yorp Effects: Implications for Asteroid Dynamics. AREPS, 34, 157-191.
-Bottke, W.F., Vokrouhlický, D., Minton, D., Nesvorný, D., Morbidelli, A., Brasser, R., Simonson, B., Levison, H.F., (2012) An Archaean heavy bombardment from a destabilized extension of the Asteroid Belt. Nature 485, 78-81.
-Bottke, W. F., et al. (2015) The collisional evolution of the main asteroid belt. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Britt, D. T. and Pieters, C. M. (1989) Black chondrite meteorites: An analysis of fall frequency and the distribution of petrologic types. Meteoritics, 24, 255.
-Britt , D. and Pieters, C. (1994) Darkening in black and gas-rich ordinary chondrites: The spectral effects of opaque morphology and distribution. Geochimica et Cosmochimica Acta, 58, 3905-3919. Brunetto, R. et al. (2006) Space weathering of silicates simulated by nanosecond pulse
-UV excimer laser. Icarus, 180, 546-554. Brunetto, R. et al. (2014) Ion irradiation of Allende meteorite probed by visible, IR, and
-Raman spectroscopies. Icarus, 237, 278-292. Brunetto, R. Loeffler, M. J., Nesvorny, D., Sasaki, S., Strazzulla, G., (2015) Asteroid
-surface alteration by space weathering Processes. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson. Burbine, T. H., Meibom, A., Binzel, R. P., (1996) Mantle material in the main belt: battered to bits? Met & Planet. Sci., 31, 607-620. Burbine, T. H., McCoy, T. J., Meibom, A., Gladman, B. & Keil, K. (2002) Meteoritic parent bodies: Their number and identification. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson. Burkhardt, C., Kleine, T., Oberli, F., Pack, A., Bourdon, B., Wieler, R., (2011) Molybdenum isotope anomalies in meteorites: Constraints on solar nebula evolution and origin of the Earth. Earth Planet. Sci. Lett. 312, 390-400. Bus, S.J., Binzel, R.P., (2002a) Phase II of the Small Main-Belt Asteroid Spectroscopic Survey: The observations. Icarus, 158, 106­145. Bus, S.J., Binzel, R.P., (2002b) Phase II of the Small Main-Belt Asteroid Spectroscopic Survey: A feature-based taxonomy. Icarus, 158, 146­177. Bus, S.J., Vilas, F., Barucci, M. A. (2002) Visible-Wavelength Spectroscopy of Asteroids. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-
-Campins, H., Morbidelli, M. Tsiganis, K. de Leon, J. Licandro, J. Lauretta, D. (2010) The Origin of Asteroid 101955 (1999 RQ36) Astrophys. J. Lett., 721, L53-L57
-Carporzen, L. et al. (2011) From the Cover: Magnetic evidence for a partially differentiated carbonaceous chondrite parent body. Proc. Nat. Ac. Sci., 108, 6386-6389.
-Carry, B. (2012) Density of asteroids. Planet. Space Sci., 73, 98-118. Carvano, J. M., Lazzaro, D., Mothe-DIniz, T. Angeli, C., Florczak, M. (2001)
-Spectroscopic Survey of the Hungaria and Phocaea Dynamical Groups. Icarus. 149, 173-189. Carvano, J. M., Hasselmann, H., Lazzaro, D., Mothé-Diniz, T. (2010) SDSS-based taxonomic classification and orbital distribution of Main Belt asteroids. Astron. Astrophys. 510, A43. Cavosie, A.J., Valley, J.W., Wilde, S.A., E.I.M.F, (2005) Magmatic 18O in 4400-3900 Ma detrital zircons: A record of the alteration and recycling of crust in the Early Archean. Earth Planet. Sci. Lett. 235, 663-681. Chambers, J. E., (2010). Planetesimal formation by turbulent concentration. Icarus, 208, 505-517. Chapman, C. R., Johnson, T. V., and McCord, T. B. (1971) A Review of Spectrophotometric Studies of Asteroids. Proc. of IAU Colloq. 12, (Gehrels, T. ed.) Nat. Aero. Space Admin. SP 267. Chapman, C. R., (1974) Asteroid size distribution: Implications for the origin of stonyiron and iron meteorites. Geophys. Res. Lett., 1, 341-344. Chapman, C. R. and Davis, D. R. (1975) Asteroid collisional evolution: evidence for a much larger early population. Science, 190, 553-556. Chapman, C. R., Morrison, D., & Zellner B. (1975) Surface properties of asteroids - A synthesis of polarimetry, radiometry, and spectrophotometry. Icarus, 25, 104-130. Chapman, C. R. (1979) The asteroids: nature, interrelations, origins, and evolution. In Asteroids I (T. Gehrels, ed.) Univ. of Arizona, Tucson. Chapman, C. R. (1986) Implications of the Inferred Compositions of Asteroids for their Collisional Evolution. Mem. S.A.It., 57, 103-114. Chapman, C. R. (1996) S-type asteroids, ordinary chondrites, and space weathering: The evidence from Galileo's fly-bys of Gaspra and Ida. Meteor. Planet. Sci., 31, 699-725. Chapman, C. R. (2004) Space Weathering of Asteroid Surfaces. Ann. Rev. Earth & Planet. Sci., 32, 539-567. Chapman, C.R., Cohen, B.A., Grinspoon, D.H., (2007) What are the real constraints on the existence and magnitude of the late heavy bombardment? Icarus 189, 233-245. Christensen, P. R. et al. (2000) A thermal emission spectral library of rock-forming minerals. Journal of Geophysical Research. 105, 9735-9740. Cloutis, E.A., Hiroi, T., Gaffey, M.J., Alexander, C.M.O.'D., Mann, P. (2011a) Spectral reflectance properties of carbonaceous chondrites: 1. CI chondrites. Icarus, 212, 180209. Cloutis, E. A., Hudon, P., Hiroi, T., Gaffey, M. J., Mann, P. (2011b) Spectral reflectance properties of carbonaceous chondrites: 1. CM chondrites. Icarus, 216, 309-346. Chou, C.-L., (1978) Fractionation of siderophile elements in the Earth's upper mantle. Proc. Lunar Planet. Sci. Conf. 9, 219-230.
-
-Connelly, J.N., Bizzarro, M., Krot, A.N., Nordlund, Å., Wielandt, D., Ivanova, M.A., (2012) The absolute chronology and thermal processing of solids in the solar protoplanetary disk. Science, 338, 651-655.
-Consolmagno, G. J. and Drake, M. J. (1977) Composition and evolution of the eucrite parent body ­ Evidence from rare earth elements. Geochim. Cosmochim. Acta, 41, 1271-1282.
-Cuzzi, J., Hogan, R.C., Bottke, W.F., (2010) Towards initial mass functions for asteroids and Kuiper Belt objects. Icarus, 208, 518-538.
-Dauphas, N., Pourmand, A., (2011) Hf-W-Th evidence for rapid growth of Mars and its status as a planetary embryo. Nature, 473, 489-492.
-DeMeo, F.E., and Binzel, R.P., (2008) Comets in the near-Earth object population. Icarus. 194, 436-449.
-DeMeo, F.E., Binzel, R.P., Slivan, S.M., Bus, S.J., (2009) An extension of the Bus asteroid taxonomy into the near-infrared. Icarus, 202, 160­180.
-DeMeo, F. E. and Carry, B. (2013) The taxonomic distribution of asteroids from multifilter all- sky photometric surveys. Icarus, 226, 723­741.
-DeMeo, F. E. and Carry, B. (2014) Solar System evolution from compositional mapping of the Asteroid Belt. Nature, 505, 629-634.
-DeMeo, F. E., Binzel, R. P., Carry, B., Polishook, D. and Moskovitz, N. A. (2014) Unexpected D-type interlopers in the inner Main Belt. Icarus, 229, 392­399.
-Doyle, P.M., Jogo, K., Nagashima, K., Krot, A.N., Wakita, S., Ciesla, F.J., Hutcheon, I., (2015). Early aqueous activity on the carbonaceous and ordinary chondrite parent asteroids recorded by secondary fayalite. Nat. Commun., In revision.
-Dunn, T.L., Burbine, T.H., Bottke, W.F., Clark, J.P., (2013) Mineralogies and source regions of near-Earth asteroids. Icarus, 222, 273­282.
-Elkins-Tanton, L., Weiss, B. P., Zuber, M. T. (2011) Chondrites as samples of differentiated planetesimals. Earth Planet. Sci. Lett., 305, 1-10.
-Emery, J. P., Cruikshank, D. P., Van Cleve, J. (2006) Thermal emission spectroscopy
-(5.2-38 µm) of three Trojan asteroids with the Spitzer Space Telescope: Detection of fine-grained silicates. Icarus, 182, 496-512. Farihi, J. et al. (2011) Possible Signs of Water and Differentiation in a Rocky Exoplanetary Body. Astrophys. J. Lett. 728, L8. Farihi, J., Gansicke, B. T., Koester, D. (2013) Evidence for water in the rocky debris of a disrupted extrasolar minor planet. Science. 342, 218-220. Fisher, H. (1941) Farbmessungen an kleinen planeten. Astron. Nachr. 272, 127-147. Fujiya, W., Sugiura, N., Hotta, H., Ichimura, K., Sano, Y., (2012) Evidence for the late formation of hydrous asteroids from young meteoritic carbonates. Nat. Commun. 3, 627. Fujiya, W., Sugiura, N., Sano, Y., Hiyagon, H., (2013) Mn-Cr ages of dolomites in CI chondrites and the Tagish Lake ungrouped carbonaceous chondrite. Earth Planet. Sci. Lett. 362, 130-142. Gaffey, M.J., Reed, K. L., Kelley, M. S. (1992) Relationship of E-type Apollo asteroid 3103 (1982 BB) to the enstatite achondrite meteorites and the Hungaria asteroids. Icarus. 100, 95-109. Gaffey, M.J., et al. (1993) Mineralogical variations within the S-type asteroid class. Icarus, 106, 573­ 602.
-
-Ganguly, J., Tirone, M., Chakraborty, S., Domanik, K., (2013) H-chondrite parent asteroid: A multistage cooling, fragmentation and re-accretion history constrained by thermometric studies, diffusion kinetic modeling and geochronological data. Geochim. Cosmochim. Acta, 105, 206-220.
-Gardner-Vandy, K. G. et al. (2012) The Tafassasset primitive achondrite: Insights into initial stages of planetary differentiation. Geochimica et Cosmochimica Acta. 85, 142159.
-Gayon-Markt, J. Delbo, M., Alessandro, M., Marchi, S. (2012) On the origin of the Almahata Sitta meteorite and 2008 TC3 asteroid. Month. Not. Roy. Astron. Soc., 424, 508-518.
-Gladman, B., Michel, P., Froeschle, C. (2000) The Near-Earth object population. Icarus, 146, 176-189.
-Gradie, J. and Tedesco, E. (1982) Compositional structure of the Asteroid Belt. Science, 216, 1405-1407.
-Gradie, J. C., Chapman, C. R. and Tedesco E. F. (1989) Distribution of taxonomic classes and the compositional structure of the Asteroid Belt. In Asteroids II (Binzel, R. P., Gehrels, T., Matthews, M. S., eds.) Univ. of Arizona, Tucson.
-Grav, T., Mainzer, A. K., Bauer, J. M., Nugent, C. R., (2012) WISE/NEOWISE observations of the Jovian Trojan population: Taxonomy. Astrophys. J. 759, id49.
-Grossman, J.N., Alexander, C.M.O'D., Wang, J., Brearley, A.J., (2000) Bleached chondrules: Evidence for widespread aqueous processes on the parent asteroids of ordinary chondrites. Meteor. Planet. Sci. 35, 467-486.
-Halliday, A.N. (2014) The origin and earliest history of the Earth, in: Davis, A.M. (Ed.), Planets, asteriods, comets and the Solar System. Elsevier, Oxford, pp. 149-211
-Harrison, K.P., Grimm, R.E., (2010) Thermal constraints on the early history of the Hchondrite parent body reconsidered. Geochim. Cosmochim. Acta 74, 5410-5423.
-Hartogh, P., Lis, D.C., Bockelée-Morvan, D., de Val-Borro, M., Biver, N., Küppers, M., Emprechtinger, M., Bergin, E.A., Crovisier, J., Rengel, M., Moreno, R., Szutowicz, S., Blake, G.A., (2011) Ocean-like water in the Jupiter-family comet 103P/Hartley 2. Nature 478, 218-220.
-Henke, S., Gail, H.P., Trieloff, M., Schwarz, W.H., (2013) Thermal evolution model for the H chondrite asteroid-instantaneous formation versus protracted accretion. Icarus, 226, 212-228.
-Hiroi, T., Zolensky, M.E. and Pieters, C.M. (2001) The Tagish Lake meteorite: A possible sample from a D-type asteroid. Science 293, 2234-2236.
-Hutcheon, I.D., Marhas, K.K., Krot, A.N., Goswami, J.N., Jones, R.H., (2009) 26Al in plagioclase-rich chondrules in carbonaceous chondrites: Evidence for an extended duration of chondrule formation. Geochim. Cosmochim. Acta, 73, 5080-5099.
-Ivezi, Z. et al. (2001) Solar System Objects Observed in the Sloan Digital Sky Survey Commissioning Data. Astron. J., 122, 2740-2784.
-Ivezic, Z. et al. (2007) LSST: Comprehensive NEO detection, characterization, and orbits. Proc. of IAU Symposium 236. (Valsecchi, G. B., Vokrouhlický, D. and Milani, A., eds) pp.353-362. Cambridge Univ. Press, Cambridge, UK.
-Jacobsen, B., Yin, Q.-Z., Moynier, F., Amelin, Y., Krot, A.N., Nagashima, K., Hutcheon, I.D. and Palme, H. (2008) 26Al-26Mg and 207Pb-206Pb systematics of Allende CAIs: Canonical solar initial 26Al/27Al ratio reinstated. Earth Planet. Sci. Lett., 272, 353-364.
-
-Jacquet, E., Robert, F., (2013) Water transport in protoplanetary disks and the hydrogen isotopic composition of chondrites. Icarus, 223, 722-732.
-Jenniskens, P. et al. (2009) The impact and recovery of 2008 TC3. Nature, 458, 485-488. Jewitt, D., Hsieh, H., Agarwal, J. (2015) The Active Asteroids. In Asteroids IV (Michel,
-P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson. Jilly, C.E., Huss, G.R., Krot, A.N., Nagashima, K., Yin, Q.-Z. and Sugiura, N. (2014)
-53Mn-53Cr dating of aqueously formed carbonates in the CM2 lithology of the Sutter's Mill carbonaceous chondrite. Meteor. Planet. Sci., 49, 2104-2117. Johansen, A., Jacquet, E., Cuzzi, J. N., Morbidelli, A., Gounelle, M. (2015) New paradigms for asteroid formation. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson. Johnson, B.C., Minton, D.A., Melosh, H.J. and Zuber, M.T. (2015) Impact jetting as the origin of chondrules. Nature 517, 339-341. Jones, R. L. et al. (2009) Solar System Science with LSST. Earth Moon Planet. 105, 101105. Jura, M. (2008) Pollution of Single White Dwarfs by Accretion of Many Small Asteroids. AJ. 135, 1785-1792. Jura, M., Young. E. D. (2014) Estrasolar Cosmochemistry. AREPS. 42, 45-67. Kohout, T. et al. (2014) Mineralogy, reflectance spectra, and physical properties of the Chelyabinsk LL5 chondrite - Insight into shock-induced changes in asteroid regoliths. Icarus, 228, 78-85. Kita, N.T., Huss, G.R., Tachibana, S., Amelin, Y., Nyquist, L.E., Hutcheon, I.D., (2005) Constraints on the origin of chondrules and CAIs from short-lived and long-lived radionuclides. In: Chondrites and the Protoplanetary Disk (Krot, A.N., Scott, E.R.D., Reipurth, B. eds.) pp. 558-587, Astron. Soc. of the Pacific, San Francisco. Kita, N.T., Nagahara, H., Togashi, S., Morishita, Y., (2000) A short duration of chondrule formation in the solar nebula: Evidence from 26Al in Semarkona ferromagnesian chondrules. Geochim. Cosmochim. Acta, 64, 3913-3922. Kita, N.T., Ushikubo, T., (2012) Evolution of protoplanetary disk inferred from 26Al chronology of individual chondrules. Meteor. Planet. Sci., 47, 1108-1119. Kita, N.T., Yin, Q.-Z., MacPherson, G.J., Ushikubo, T., Jacobsen, B., Nagashima, K., Kurahashi, E., Krot, A.N. and Jacobsen, S.B. (2013) 26Al-26Mg isotope systematics of the first solids in the early Solar System. Meteor. Planet. Sci., 48, 1383-1400. Kitamura, M. (1959) Photoelectric study of colors of asteroids and meteorites. Publications of the Astronomical Society of Japan. 11, 79. Kleine, T., et al. (2008) Hf--W thermochronometry: Closure temperature and constraints on the accretion and cooling history of the H chondrite parent body. Earth Planet. Sci. Lett., 270, 106-118. Kleine, T., Touboul, M., Bourdon, B., Nimmo, F., Mezger, K., Palme, H., Jacobsen, S.B., Yin, Q.-Z., Halliday, A.N., (2009) Hf-W chronology of the accretion and early evolution of asteroids and terrestrial planets. Geochim. Cosmochim. Acta 73, 51505188. Kleine, T., Hans, U., Irving, A.J., Bourdon, B., (2012) Chronology of the angrite parent body and implications for core formation in protoplanets. Geochim. Cosmochim. Acta 84, 186-203.
-
-Knezevic, Z., Lemaitre, A., Milani, A. (2002) The determination of asteroid proper elements. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-Krasinsky. G. A., Pitjeva, E. V., Vasilyev, M. V., Yagudina, E. I. (2002) Hidden mass in the asteroid belt. Icarus. 158, 98-105.
-Krot, A.N., Keil, K., Scott, E.R.D., Goodrich, C.A. and Weisberg, M.K. (2014) Classification of meteorites and their genetic relationships, in: Davis, A.M. (Ed.), Meteorites and cosmochemical processes. Elsevier-Pergamon, Oxford, pp. 1-63.
-Krot, A.N., Amelin, Y., Cassen, P., Meibom, A., (2005) Young chondrules in CB chondrites from a giant impact in the early Solar System. Nature, 436, 989-992.
-Kruijer, T.S., Fischer-Gödde, M., Kleine, T., Sprung, P., Leya, I., Wieler, R., (2013) Neutron capture on Pt isotopes in iron meteorites and the Hf­W chronology of core formation in planetesimals. Earth Planet. Sci. Lett., 361, 162-172.
-Kruijer, T.S., Kleine, T., Fischer-Godde, M., Burkhardt, C., Rainer, W. (2014) Nucleosynthetic W isotope anomalies and the Hf-W chronometry of Ca-Al-rich inclusions. Earth Planet. Sci. Lett., 403, 317-327.
-Kurahashi, E., Kita, N.T., Nagahara, H., Morishita, Y., (2008) 26Al-26Mg systematics of chondrules in a primitive CO chondrite. Geochim. Cosmochim. Acta, 72, 3865-3882.
-Kurahashi, E., Krot, A.N. and Jacobsen, S.B. (2013) 26Al-26Mg isotope systematics of the first solids in the early Solar System. Meteor. Planet. Sci., 48, 1383-1400.
-Lantz, C., Clark, B. E., Barucci, M. A., Lauretta, D. S. (2013) Evidence for the effects of space weathering spectral signatures on low albedo asteroids. A&A. 554, A138.
-Larsen, K.K., Trinquier, A., Paton, C., Schiller, M., Wielandt, D., Ivanova, M.A., Connelly, J.N., Nordlund, Ö., Krot, A.N. and Bizzarro, M. (2011) Evidence for magnesium isotope heterogeneity in the solar protoplanetary disk. Astrophys. J. 735, L37.
-Lawler, S. M., et al. (2009) Explorations Beyond the Snow Line: Spitzer/IRS Spectra of Debris Disks Around Solar-type Stars. ApJ. 705, 89-111.
-Lawler, S. M. and Gladman, B. (2012) Debris Disks in Kepler Exoplanet Systems. Ap J. 752, id53.
-Lazzaro, D., Angeli, C.A., Carvano, J.M., Mothé-Diniz, T., Duffard, R., Florczak, M., (2004) S3OS2: The visible spectroscopic survey of 820 asteroids. Icarus, 172,179­220.
-Lazzaro, D. et al. (2000) Discovery of a Basaltic Asteroid in the Outer Main Belt. Science, 288, 2033-2035.
-Le Corre, L., et al. (2013) Olivine or impact melt: Nature of the ``Orange'' material on Vesta from Dawn. Icarus. 226, 1568-1594.
-Levison, H.F., Duncan, M.J. (1994) The long-term dynamical behavior of short-period comets. Icarus. 108, 18-36.
-Levison, H. F., Morbidelli, A., Van Laerhoven, C., Gomes Ro., Tsiganis, K. (2008) Origin of the structure of the Kuiper belt during a dynamical instability in the orbits of Uranus and Neptune. Icarus. 196, 258-273.
-Levison, H.F., Bottke, W.F., Gounelle, M., Morbidelli, A., Nesvorný, D., Tsiganis, K., (2009) Contamination of the Asteroid Belt by primordial trans-Neptunian objects. Nature, 460, 364-366.
-
-Lis, D.C., et al. (2013) A Herschel study of D/H in water in the Jupiter-family comet 45P/Honda-Mrkos-Pajdusáková and prospects for D/H measurements with CCAT. Astrophys. J. Lett., 774, L3.
-Lisse, C. M., et al. (2012) Spitzer Evidence for a Late-heavy Bombardment and the Formation of Ureilites in eta Corvi at ~1 Gyr. ApJ. 747, id93.
-Lodders, K. (2003) Solar System abundances and condensation temperatures of the elements. Astrophys. J. 591, 1220-1247.
-Lugmair, G.W., Shukolyukov, A., (1998) Early solar system timescales according to 53Mn-53Cr systematics. Geochim. Cosmochim. Acta 62, 2863-2886.
-Lugmair, G.W., Shukolyukov, A., (2001) Early solar system events and timescales. Meteor. Planet. Sci. 36, 1017-1026.
-Mainzer, A. et al. (2011) Preliminary Results from NEOWISE: An enhancement to the Wide-field Infrared Survey Explorer for Solar System Science. Astrophys. J., 731, id53.
-Mainzer, A., Trilling, D., and Usui, F. (2015) Space-Based infrared studies of asteroids. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-MacPherson, G.J. (2014) Calcium-aluminum-rich inclusions in chondritic meteorites, in: Davis, A.M. (Ed.), Meteorites and cosmochemical processes. Elsevier-Pergamon, Oxford, pp. 139-179.
-Mandt, K.E., Mousis, O., Lunine, J. and Gautier, D. (2014) Protosolar ammonia as the unique source of Titan's nitrogen. Astrophys. J. Lett. 788, L24.
-Marty, B., (2012) The origins and concentrations of water, carbon, nitrogen and noble gases on Earth. Earth Planet. Sci. Lett. 313-314, 56-66.
-Masiero, J. R. et al. (2011) Main Belt asteroids with WISE/NEOWISE. I. Preliminary albedos and diameters. Astrophys. J. 741, 68.
-Masiero, J. R. et al. (2013) Asteroid family identification using the hierarchical clustering method and WISE/NEOWISE physical properties. Astrophys. J., 770, 7.
-Masiero, J. R., DeMeo, F. E., Kasuga, T., Parker, A. H. (2015) Asteroid Family Physical Properties. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-McCanta, M.C., Treiman, A.H., Dyar, M.D., Alexander, C.M.O'D., Rumble III, D., Essene, E.J., (2008) The LaPaz Icefield 04840 meteorite: Mineralogy, metamorphism, and origin of an amphibole- and biotite-bearing R chondrite. Geochim. Cosmochim. Acta, 72, 5757-5780.
-McCord, T. B. and Gaffey M. J. (1974) Asteroids ­ Surface composition from reflection spectroscopy. Science. 186, 352-355.
-McKinnon, W. B. (2008) Could Ceres be a refugee from the Kuiper Belt? Asteroids, Comets, Meteors. LPI Contribution 1405, paper id. 8389.
-Metzler, K., (2012) Ultrarapid chondrite formation by hot chondrule accretion? Evidence from unequilibrated ordinary chondrites. Meteor. Planet. Sci. 47, 2193-2217.
-Mignard, F. (2007) The Gaia mission: Expected applications to asteroid science. Earth, Moon, and Planets, 101, 97-125.
-Minton, D., and Malhotra, R., (2009) A record of planet migration in the main asteroid belt. Nature, 457, 1109-1111.
-
-Minton, D., and Malhotra, R., (2011) Secular Resonance Sweeping of the Main Asteroid Belt During Planet Migration. Astrophys. J. 732, 53.
-Mojzsis, S.J., Harrison, T.M., Pidgeon, R.T., (2001) Oxygen-isotope evidence from ancient zircons for liquid water at the Earth's surface 4,300 Myr ago. Nature 409, 178-181.
-Morbidelli, A. et al. (2000) Source regions and time scales for the delivery of water to Earth. Meteor. Planet. Sci. 35, 1309-1320.
-Morbidelli, A., Levison, H. F., Tsiganis, K., Gomes, R. (2005). Chaotic capture of Jupiter's Trojan asteroids in the early Solar System. Nature. 7041, 462-465.
-Morbidelli, A., Brasser, R., Gomes, R. Levison, H. F., Tsiganis, K. (2010) Evidence from the Asteroid Belt for a Violent Past Evolution of Juipter's Orbit. Astronom. J. 140, 1391-1401.
-Morbidelli, A., Marchi, S., Bottke, W.F., Kring, D.A., (2012) A sawtooth-like timeline for the first billion years of lunar bombardment. Earth Planet. Sci. Lett. 355,Äì356, 144-151.
-Morbidelli, A., Walsh, K. J., O'Brien, D. P., Minton, D. A., Bottke, W. F. (2015) The Dynamical Evolution of the Asteroid Belt. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Moskovitz, N. A. et al. (2008) The distribution of basaltic asteroids in the Main Belt. Icarus, 198, 77-90.
-Moskovitz, N. and Gaidos, E. (2011) Differentiation of planetesimals and the thermal consequences of melt migration. Meteorit. Planet. Sci. 46, 903-918.
-Mothe-Diniz, T., Carvano, J., Lazzaro, D. (2003) Distribution of taxonomic classes in the main belt of asteroids. Icarus. 162, 10-21.
-Murchie, S., et al. (2002) Color variations on Eros from NEAR multispectral imaging. Icarus, 155, 145­168.
-Nakamura T. et al. (2011) Itokawa dust particles: A direct link between S-type asteroids and ordinary chondrites. Science, 333, 1113-1115.
-Nesvorny, D., Ferraz-Mello, S., Holman, M., Morbidelli, A. (2002) Regular and chaotic dynamics in the mean-motion resonances: implications for the structure and evolution of the asteroid belt. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-Nesvorny, D., Jedicke, R., Whitely, R. J., Ivezic, Z. (2005) Evidence for asteroid space weathering from the Sloan Digital Sky Survey. Icarus, 173. 132-152.
-Nesvorny, D., Vokrouhlicky, D., Morbidelli, A. (2013) Capture of Trojans by Jumping Jupiter. Astrophys. J. 768, 45.
-Nesvorny, D., Vokrouhlicky, D., Deienno, R. (2014) Capture of Irregular Satellites at Jupiter. Astrophys. J. 784, 22.
-Nesvorny, D., Broz, M., Carruba, V. (2015) Identifiation and dynamical properties of asteroid families. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Neumann, W., Breuer, D., Spohn, T., (2014) Differentiation of Vesta: Implications for a shallow magma ocean. Earth Planet. Sci. Lett. 395, 267-280.
-Nittler, L. R., et al., (2001) X-ray fluorescence measurements of the surface elemental composition of asteroid 433 Eros. Meteorit. Planet. Sci., 36,1673-1695.
-
-Nixon, C.A., Temelso, B., Vinatier, S., Teanby, N.A., Bézard, B., Achterberg, R.K., Mandt, K.E., Sherrill, C.D., Irwin, P.G.J., Jennings, D.E., Romani, P.N., Coustenis, A., Flasar, F.M., (2012) Isotopic Ratios in Titan's Methane: Measurements and Modeling. Astrophys. J. 749, 159.
-O'Brien, D. P., Morbidelli, A., Levison, H. F. (2006) Terrestrial planet formation with strong dynamical friction. Icarus. 184, 39-58.
-O'Brien, D. P., Morbidelli, A., Bottke, W. F., (2007) The primordial excitation and clearing of the asteroid belt---Revisited. Icarus. 191, 434-452.
-Ormel, C. W. and Klahr, H. H. (2010) The effect of gas drag on the growth of protoplanets. Analytical expressions for the accretion of small bodies in laminar disks. Astronom. & Astrophys. 520, 43.
-Palme, H., O'Neill, H.S.C., (2014) 3.1 - Cosmochemical Estimates of Mantle Composition. In Treatise on Geochemistry (Turekian, H.D. Turekian, K.K. ed.) pp. 139. Elsevier, Oxford.
-Parker, A. et al. (2008) The size distributions of asteroid families in the SDSS Moving Object Catalog 4. Icarus, 198, 138-155.
-Petit, J., Chamber, J., Franklin, F., Nagasawa, M. (2002) Primordial Excitation and Depletion of the Main Belt. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-Polnau, E., Lugmair, G.W., (2001) Mn-Cr isotope systematics in the two ordinary chondrites Richardton (H5) and Ste. Marguerite (H4). Lunar Planet. Sci. Conf. 32, #1527 (abstr.).
-Prettyman, T. H. et al. (2012) Elemental mapping by Dawn reveals exogenic H in Vesta's regolith. Science, 338, 242-244.
-Rayner, J. T. et al. (2003) SpeX: A medium-resolution 0.8-5.5 micron spectrograph and imager for the NASA Infrared Telescope Facility. Pub. of the Astron Soc. of the Pacific. 115, 362-382.
-Reddy, V., et al. (2014) Chelyabinsk meteorite explains unusual spectral properties of Baptistina Asteroid Family. Icarus, 237, 116-130.
-Reddy, V. et al., (2015) Astronomical observations of volatiles on asteroids. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Rivkin, A. S., Asphaug, E., Bottke, W. F. (2014) The case of the missing Ceres family. Icarus. 243, 429-439.
-Rivkin et al. (2015) Mineralogy and surface composition of asteroids. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Rousselot, P., Pirali, O., Jehin, E., Vervloet, M., Hutsemékers, D., Manfroid, J., Cordier, D., Martin-Drumel, M.-A., Gruet, S., Arpigny, C., Decock, A. and Mousis, O. (2014) Toward a unique nitrogen isotopic ratio in cometary ices. Astrophys. J. Lett. 780, L17.
-Ruzmaikina, T. V., Safronov, V. S. & Weidenschilling. S. J., (1989) Radial mixing of material in the asteroidal zone. In Asteroids II (Binzel, R. P., Gehrels, T., Matthews, M. S. eds.) Univ. Arizona Press, Tucson.
-Saal, A.E., Hauri, E.H., Van Orman, J.A., Rutherford, M.J., (2013) Hydrogen isotopes in lunar volcanic glasses and melt inclusions reveal a carbonaceous chondrite heritage. Science 340, 1317-1320.
-
-Sanchez, J. A. et al. (2014) Olivine-dominated asteroids: Mineralogy and origin. Icarus, 228, 288-300.
-Sarafian, A. R., Nielson, S. G., Marschall, H. R., McCubbin, F. M., Monteleone, B. D. (2014) Early accretion of water in the inner solar system from a carbonaceous chondrite-like source. Science. 346, 623-626.
-Sasaki, S., Nakamura, K., Hamabe, Y., Kurahashi, E., Hiroi, T. (2001) Production of iron nanoparticles by laser irradiation in a simulation of lunar-like space weathering. Nature, 410, 555-557.
-Scheinberg, L. et al. (2015) Asteroid differentiation: Hydrous and silicate melting and large scale structure. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Schiller, M., Baker, J., Creech, J., Paton, C., Millet, M.-A., Irving, A., Bizzarro, M., (2011) Rapid timescales for magma ocean crystallization on the howardite-eucritediogenite parent body. Astrophys. J. Lett. 740, L22.
-Schiller, M., Paton, C. and Bizzarro, M. (2015) Evidence for nucleosynthetic enrichment of the protosolar molecular cloud core by multiple supernova events. Geochim. Cosmochim. Acta 149, 88-102
-Scott, E.R.D., Krot, T.V., Goldstein, J.I., Wakita, S., (2014) Thermal and impact history of the H chondrite parent asteroid during metamorphism: Constraints from metallic Fe­Ni. Geochim. Cosmochim. Acta 136, 13-37.
-Scott, E. R. D., et al. (2015) Early impact history and dynamical origin of differentiated meteorites and asteroids. In Asteroids IV (Michel, P., DeMeo, F. E., Bottke, W. F. eds), this volume. Univ. of Arizona, Tucson.
-Shinnaka, Y., Kawakita, H., Kobayashi, H., Nagashima, M. and Boice, D.C. (2014) 14NH2/15NH2 ratio in comet C/2012 S1 (ISON) observed during its outburst in 2013 November. Astrophys. J. Lett. 782, L16.
-Shukolyukov, A., Lugmair, G.W., (2004) Manganese-cromium isotope systematics of enstatite meteorites. Geochim. Cosmochim. Acta 68, 2875-2888.
-Sugiura, N., Fujiya, W., (2014) Correlated accretion ages and 54Cr of meteorite parent bodies and the evolution of the solar nebula. Meteor. Planet. Sci. 49, 772-787.
-Szabó, Gy. M., Ivezic, Z. Juric, M, Lupton, R. Kiss, L. L. (2004) Colour variability of asteroids in the Sloan Digital Sky Survey Moving Object Catalog. Mon. Not. Roy. Astronom. Soc. 348. 987-998.
-Takir, D., Emery, J. P. (2012) Outer Main Belt asteroids: Identification and distribution of four 3-mum spectral groups. Icarus, 219, 641-654.
-Tang, H. and Dauphas, N. (2014) 60Fe­60Ni chronology of core formation in Mars. Earth Planet. Sci. Lett. 390, 264-274.
-Tholen, D. J. and Barucci, M. A. (1989) Asteroid Taxonomy. In Asteroids II (Binzel, R. P., Gehrels, T., Matthews, M. S. eds.) Univ. Arizona Press, Tucson.
-Touboul, M., Kleine, T., Bourdon, B., Palme, H., Wieler, R., (2007) Late formation and prolonged differentiation of the Moon inferred from W isotopes in lunar metals. Nature 450, 1206-1209.
-Trieloff, M., Jessberger, E.K., Herrwerth, I., Hopp, J., Fieni, C., Ghelis, M., BourotDenise, M., Pellas, P., (2003) Structure and thermal history of the H-chondrite parent asteroid revealed by thermochronometry. Nature, 422, 502-506.
-
-Trinquier, A., Birck, J.L., Allègre, C.J., Göpel, C., Ulfbeck, D., (2008) 53Mn-53Cr systematics of the early Solar System revisited. Geochim. Cosmochim. Acta 72, 51465163.
-Ushikubo, T., Nakashima, D., Kimura, M., Tenner, T.J., Kita, N.T., (2013) Contemporaneous formation of chondrules in distinct oxygen isotope reservoirs. Geochim. Cosmochim. Acta 109, 280-295.
-Vernazza, P. et al. (2010) Mid-infrared spectral variability for compositionally similar asteroids: Implications for asteroid particle size distributions. Icarus, 207, 800-809.
-Vernazza, P. et al. (2012) High surface porosity as the origin of emissivity features in asteroid spectra. Icarus, 221, 1162-1172.
-Vernazza, P. et al. (2014) Multiple and fast: The accretion of ordinary chondrite parent bodies. Astrophys. J., 791, id120.
-Veverka, J., Thomas, P. C., Bell, III, J. F., Bell, M., Carcich, B., Clark, B., Harch, A., Joseph, J., Martin, P., Robinson, M., Murchie, S., Izenberg, N., Hawkins, E., Warren, J., Farquhar, R., Cheng, A., Dunham, D., Chapman, C., Merline, W. J., McFadden, L., Wellnitz, D., Malin, M., Owen, Jr., W. M., Miller, J. K., Williams, B. G., Yeomans, D. K., (1999) Imaging of asteroid 433 Eros during NEAR's flyby reconnaissance. Science 285, 562­564.
-Vilas, F. and Gaffey, M. J. (1989) Phyllosilicate absorption features in main-Belt and outer-Belt asteroid reflectance spectra. Science, 246, 790-792.
-Villeneuve, J., Chaussidon, M., Libourel, G., (2009) Homogeneous distribution of 26Al in the Solar System from the Mg isotopic composition of chondrules. Science, 325, 985988.
-Waite Jr, J.H., Lewis, W.S., Magee, B.A., Lunine, J.I., McKinnon, W.B., Glein, C.R., Mousis, O., Young, D.T., Brockwell, T., Westlake, J., Nguyen, M.J., Teolis, B.D., Niemann, H.B., McNutt Jr, R.L., Perry, M., Ip, W.H., (2009) Liquid water on Enceladus from observations of ammonia and 40Ar in the plume. Nature. 460, 487-490.
-Walker, R., (2009) Highly siderphile elements in the Earth, Moon and Mars: Update and implications for planetary accretion and differentiation. Chemie der Erde ­ Geochemistry. 69, 101-125.
-Walsh, K. J. and Morbidelli, A. (2011) The effect of an early planetesimal-driven migration of the giant planets on terrestrial planet formation. Astronom. & Astrophys. 526, 126.
-Walsh, K.J., Morbidelli, A., Raymond, S.N., O'Brien, D.P., Mandell, A.M., (2011) A low mass for Mars from Jupiter's early gas-driven migration. Nature. 475, 206-209.
-Walsh, K. J., Morbidelli, A., Raymond, S. N., O'Brien, D. P., Mandell, A. M. (2012) Populating the asteroid belt from two parent source regions due to the migration of giant planets-"The Grand Tack." Meteor. Planet. Sci., 47, 1941-1947.
-Warren, P.H., (2011) Stable-isotopic anomalies and the accretionary assemblage of the Earth and Mars: A subordinate role for carbonaceous chondrites. Earth Planet. Sci. Lett. 311, 93-100.
-Wasson, J. T., (1995) Sampling the Asteroid Belt: How Biases Make it Difficult to Establish Meteorite-Asteroid Connections. Meteoritics. 30, 595.
-Wasserburg, G.J., Wimpenny, J. and Yin, Q.-Z. (2012) Mg isotopic heterogeneity, Al-Mg isochrons, and canonical 26Al/27Al in the early solar system. Meteor. Planet. Sci., 47, 1980-1997.
-
-Weidenschilling, S. J. (1977) The distribution of mass in the planetary system and solar nebula. Astrophys. & Space Sci. 51, 153-158.
-Weidenschilling, S. J., Jackson, A. A. (1993) Orbital resonances and Poynting-Robertson drag. Icarus. 104, 244-254.
-Weiss, B.P., et al. (2012) Possible evidence for partial differentiation of asteroid Lutetia from Rosetta. Planet. & Space Sci. 66, 137-146.
-Weiss, B.P., and Elkins-Tanton, L.T., (2013) Differentiated planetesimals and the parent bodies of chondrites. Ann. Rev. Earth Planet. Sci. 41, 529-560.
-Wilde, S.A., Valley, J.W., Peck, W.H., Graham, C.M., (2001) Evidence from detrital zircons for the existence of continental crust and oceans on Earth 4.4 Gyr ago. Nature 409, 175-178.
-Wood, X. H. J. and Kuiper G. P. (1963) Photometric Studies of Asteroids. Astrophys. J. 137, 1279-1285.
-Yang, J., Goldstein, J.I., Scott, E.R.D., (2007) Iron meteorite evidence for early formation and catastrophic disruption of protoplanets. Nature 446, 888-891.
-Yang, J., Goldstein, J.I., Scott, E.R.D., (2008) Metallographic cooling rates and origin of IVA iron meteorites. Geochim. Cosmochim. Acta 72, 3043-3061.
-Yang, J., Goldstein, J.I., Michael, J.R., Kotula, P.G., Scott, E.R.D., (2010a). Thermal history and origin of the IVB iron meteorites and their parent body. Geochim. Cosmochim. Acta 74, 4493-4506.
-Yang, J., Goldstein, J.I., Scott, E.R.D., (2010b) Main-group pallasites: Thermal history, relationship to IIIAB irons, and origin. Geochim. Cosmochim. Acta 74, 4471-4492.
-Yang, L., Ciesla, F.J., Alexander, C.M.O'D., (2013) The D/H ratio of water in the solar nebula during its formation and evolution. Icarus 226, 256-267.
-Zappala, V., Cellino, A., dell'Oro, A., Paolicchi, P. (2002) Physical and dynamical properties of asteroid families. In Asteroids III (W. F. Bottke Jr., A. Cellino, P. Paolicchi, R. P. Binzel eds.) Univ. of Arizona, Tucson.
-Zellner, B. Tholen, D. J. Tedesco, E. F. (1985) The eight-color asteroid survey - Results for 589 minor planets. Icarus. 61, 355­416.
-Zolensky, M. (2003) The Kaidun Microbreccia Meteorite: A Harvest from the inner and outer Asteroid Belt. Chemie der Erde ­ Geochemistry. 63, 185-246.
-Zolensky, M., et al., (2010) Mineralogy and petrography of the Almahata Sitta ureilite. Meteor. Planet. Sci. 45, 1618-1637.
-
-Appendix Topic Question
-
-Possible  Solutions
-
-What  Next?
-
-Related  AIV   Chapters
-
-A.  Formation  &  Physical  Evolution  of  Asteroids
-
-1.  Where,  when,  and  how  did   they  form?  
-2.  How  have  they  evolved   physically?
-3.  How  have  they  evolved   dynamically?
-
-Where:  Links  between  asteroids  &  meteorites  help  constrain  the  
-
-conditions  and  location  of  formation.  Dynamical  models  link  where  the   Isotopic  evidence  points  to  carbonaceous  chondrites  being  different  from  
-
-asteroids  are  located  now    to  where  they  originally  formed.  When:  Recent   all  others.  But  they  are  not  all  more  water--rich,  and  their  water  H  isotopes   Section  4,  this  
-
-advances  dating  mateorites  have  constrained  formation  ages.  For   example,    igneous  meteorites  have  crystallization  ages  older  than   chondritic  ones.    So  bodies  that  melted,  melted  early.    Bodies  that  did  not  
-
-are  not  comet/Enceladus--like.  Ages  of  chondrules  and  secondary  minerals   can  be  used  to  estimate  chondrite  formation  ages.  The  almost  ubiquitous   presence  of  chondrules  suggests  that  they  may  have  played  a  role  in  
-
-chapter,   Johansen
-
-melt  formed  later.  How:  A  second  leading  theory    on  formation,  through   planetesimal  formation.
-
-streaming  instability,    has  emerged  since  Asteroids  III.
-
-Asteroid  compositional  changes  are  caused  by  early  heating,  acqueous   Continued  work  on  collisional  and  thermal  modeling,  studies  of  families,  
-
-alteration,  and  the  external  environment  (space  weathering).  Physical   spacecraft  measurements  including  surface  (crater)  observations.  In--situ  
-
-changes  are  caused  by  impacts,  radiation  pressure  (YORP  spinup)  and  close   measurements  and  sample  return  of  non--OC--like  bodies.  Density  
-
-approaches  to  planets  (large  tidal  force).  
-
-measurements  to  understand  interiors.
-
-Brunetto,  Krot,   Scheinberg,   Scott,  Wilson,   Bottke,  Asphaug,   Jutzi
-
-Planetary  migration  likely  plays  a  leading  role  in  early  Solar  System  history.   Planetary  scattering,  collisions,  orbital  drift,  and  orbital  changes  due  to   resonances  dominate  later  history.
-
-Identify  the  current  spread  in  semi--major  axis  of  each  compositional  group   and  use  it  to  constrain  the  different  migration  scenarios.  Search  for  and   characterize  interlopers  for  composition.  Orbital  and  mass  constraints  also   continue  to  inform  dynamical  history.
-
-Section  3,  this   chapter.   Morbidelli,   Vokrouhlicky,   Bottke
-
-B.  Asteroid  &  Meteorite  Compositions
-
-1.  How  many  original  parent   Based  on  the  meteorite  record  and  the  assumption  that  each  meteorite   Meteor  observation  networks  will  provide  insight  on  source  bodies  for  
-
-bodies  are  represented  in  the   group  comes  from  a  single  parent  body  there  are  at  least  100--150  distinct   meteorites.  Continued  work  linking  large  main  belt  asteroids  to  
-
-Burbine  et  al,  AIII
-
-asteroid  belt?
-
-parent  bodies.
-
-meteorites.
-
-1)  The  simplest  assumption  is  that  each  meteorite  group  comes  from  one   Further  research  on  meteorite  composition  will  yield  better  understanding  
-
-2.  Can  a  single  meteorite  group   parent  body.  
-
-of  parent  bodies.  For  example,  high--precision  isotopic  measurements  may  
-
-be  represented  by  more  than   one  parent  body?
-
-2)  More  than  one  object  could  have  formed  at  a  similar  time  and  a  similar   distance  from  the  Sun,  in  which  case  they  might  look  very  similar.  For   instance,  there  could  be  more  original  (>50--100  km)  S--type  asteroids  than  
-
-reveal  if  the  OCs  separate  and  demand  more  than  three  bodies.  Sample   return  will  provide  insight  as  will  a  review  of  how  many  primary  parent   bodies  (those  >  50--100  km)  there  are  in  each  spectral  class.
-
-Burbine  et  al,  AIII
-
-the  3  needed  to  explain  the  three  ordinary  chondrite  groups.  
-
-Comparison  of  meteorites  with  micrometeorites  and  breccias  suggests  
-
-meteorites  may  be  fairly  representative  samples  of  the  major  types  of  
-
-asteroids.  We  still  find  new  types  of  meteorite  (and  presumably  parent  
-
-bodies),  but  differences  tend  to  be  subtle.  However,  the  inherent  "top--
-
-3.  How  well  do  meteorites   sample  the  asteroids?
-
-heavy"  asteroid  size  distribution  means  that  rare,  large  collisions   stochastically  dominate  the  ejected  fragments  by  mass,  resulting  in  an   inherent  possibility  of  large  devations  from  direct  representation  of   asteroid  types  by  meteorite  collections.  If  there  is  more  diversity  in  the  
-
-Characterize  asteroids  at  sizes  relevant  to  meteorite  falls  (~5--50m)  to   compare  with  the  meteorite  collection.  IDPs,  micrometeorites  and  clasts  in   meteorite  regoliths  provide  alternative  samplings  of  the  asteroid  belt  --  
-
-Borovicka,   Jenniskens,   Binzel
-
-how  similar  are  they  to  the  meteorites?
-
-spectra  of  main  belt  asteroids  than  meteorites,  could  much  of  this  diverity  
-
-be  due  to  regolith  processes  (grain  size  and  density  sorting)  and  space  
-
-weathering?  Also,  there  are  biases  associated  with  delivery  efficiency  from  
-
-different  resonances  and  the  robustness  of  the  samples  as  they  past  
-
-through  Earth's  atmosphere.    
-
-A  few  connections  are  robust:  OCs  make  up  part  of  the  S  class.  HEDs  are  
-
-linked  with  V--types  and  the  largest  group  of  isotopically  linked  HEDs  are  
-
-concluded  to  be  from  Vesta.    Isotopically  distinct  HEDs,  as  well  as  the  
-
-diversity  of  other  achondrites,  point  to  a  wide  diversity  of  differentiation  
-
-4.  How  robust  are  our  asteroid-- meteorite  links?
-
-processes  that  remain  poorly  understood.  The  CMs  may  be  linked  with  Ch   and  Cgh  asteroids.    The  weaker  and  fewer  bands  present  in  an  asteroid  
-
-spectrum  the  less  confident  we  are  of  its  composition.  The  C  and  X  
-
-complexes  could  be  extremely  compositionally  diverse,  but  observations  
-
-are  also  affected  by  varying  grain  size,  phase  angle,  regolith  gardening,  
-
-Dynamical  study  of  asteroid  families  has  the  potential  for  addressing  this  
-
-question.    By  determining  the  ages  of  families  and  comparing  with  
-
-meteorite  shock  ages,  and  by  following  the  plausible  dynamical  routes   from  family  to  Earth,  current  best  guesses  of  associations  of  some   meteorite  types  with  families  might  become  more  robust.  The  mid--IR  may  
-
-Vernazza,   Brunetto,   Yoshikawa,  
-
-be  the  next  frontier  for  ground--based  observational  studies.  Meteorite   studies  of  spectral  effects  not  related  to  composition  are  needed.  Asteroid  
-
-Reddy,  Burbine   AIII  Chapter
-
-sample  return  will  provide  valuable  insight  for  featureless  asteroids.  
-
-Serendipitous  observation  and  recovery  of  objects  such  as  2008  TC3  will  
-
-space  weathering  etc.    Shock  darkening,  which  also  mutes  absorption   bands,  can  also  disguise  the  compositional  identity  of  asteroid  surfaces.
-
-also  provide  "free  sample  return."
-
-We  now  understand  that  dynamical  and  weathering  processes  can  be  
-
-relatively  fast,  suggesting  that  NEO  flux  is  just  a  current  snapshot,  
-
-influenced  by  stochastic  events  like  more  recent  disruption  events.    Size  
-
-might  also  matter,  the  speed  at  which  an  asteroid's  orbit  drifts  due  to  the   Survey  Main  Belt  asteroids  at  sizes  similar  to  NEOs  (~1km).  Study  
-
-5.  How  well  do  NEOs  represent   the  Main  Belt  &  beyond?  
-
-Yarkovsky  effect  increases  with  proximity  to  the  sun  and  with  decreasing   diameter.    Yarkovsky  is  more  effective  at  small  sizes  (10  meters  or  smaller)  
-
-dynamical  and  compositional  links  between  NEOs  and  Main  Belt  families   and  specific  regions.  Dynamics  need  to  be  calibrated  by  observations.  New  
-
-Binzel
-
-which  might  dominate  meteorite  samples.    Additionally,  size--dependent   understanding  of  differentiation  processes  is  also  relevant.
-
-delivery  mechanisms  (Yarkovsky)  mean  that  different  size  ranges  could  be  
-
-dominated  by  specific  asteroid  families.      NEO  lifetimes  and  the  NEO  
-
-delivery  models  have  helped  link  NEOs  to  their  main  belt  source  regions.  
-
-6.  What  is  the  diversity  of  
-
-compositions  within  individual   small  asteroids?  What   processes  mix  wildly  different   Collisional,  accretional,  or  both  processes  could  potentially  bring  such   meteorite  types  into  a  single   diverse  materials  together. tiny  body  (e.g.  Almahatta  Sitta,   Kaidun)?    When  did  the  mixing  
-
-Implementation  of  ATLAST--like  telescopic  surveys  of  asteroids/meteoroids  
-
-on  their  final  approach  to  Earth  and  increased  video  surveilance  and   recovery  of  fall  samples  to  understand  the  prevalence  of  and  compositions   of  these  mixes.  Physical  measurements  of  the  smallest  asteroids  (5--100  
-
-Section  5.3  This   Chapter,   Borovicka,  
-
-meter  size).  Sample  return  of  small  asteroids  will  also  provide  constraints. Bottke?
-
-occur?
-
-7.  The  Ordinary  Chondrite   Space  weathering  is  the  primary  reason  for  the  spectral  mismatch.  Lab  
-
-Sec  5.5  This  
-
-Paradox:  Why  does  the  most   experiments  plus  ground--  and  space--based  asteroid  measurements  made   This  question  is  solved.  The  follow  up  questions  are:  What  S--type  asteroids   Chapter  
-
-common  asteroid  type  S--type   great  progress.  Hayabusa's  sample  return  of  Itokawa  provided  conclusive   are  not  OCs?  What  meteorites  do  they  supply?  How  does  the  space  
-
-Vernazza,  
-
-not  match  the  most  common   evidence.  Other  factors  affecting  spectral  slope  include  grain  properties   environment  affect  other  asteroid  types?
-
-Brunetto,  Binzel,  
-
-meteorite  type  OC?
-
-and  observational  phase  angle.
-
-Yoshikawa
-
-8.  What  are  the  interior   compositions  of  asteroids?
-
-Density  measurements  and  asteroid  families  currently  provide  the  most   Density  measurements  particularly  from  multiple  systems.  Although  the   Margot,  
-
-information  about  asteroid  interiors.  How  compositionally  homogenous  or   differentiated  the  medium--to--large  asteroids  are  is  largely  unkown.
-
-porosity  of  asteroid  interiors  must  be  better  constrained  as  well.
-
-Scheeres,  Barucci
-
-1.  What  is  the  source  of  the   1)  It  is  a  primordial  remnant  from  the  temperature  and  compositional   compositional  gradient  in  the   gradient  in  the  disk. main  belt?  Why  are  the  Hildas   and  Trojans  compositionally   homogeneous  compared  to  the   Main  Belt?
-
-Progress  on  early  solar  system  environment  models  and  asteroid   formation  models.  The  best  though  impractical  way  to  solve  this  is  a   mineralogical  and  isotopic  assay  of  dozens  of  asteroids  and  comets.
-
-Section  2.2,  2.3,   5.1  This  Chapter,   Morbidelli,   Johansen,  Emery
-
-itional  Distributions
-
-C.  Asteroid  Compositional  Distributions
-
-1.  What  is  the  source  of  the  
-
-compositional  gradient  in  the   main  belt?  Why  are  the  Hildas   2)  It  is  the  result  of  a  transplantation  of  one  or  more  groups  of  asteroids   and  Trojans  compositionally   that  formed  elsewhere.  3)    Hildas  and  Trojans  actually  are  more   homogeneous  compared  to  the  compositionally  diverse  than  they  appear,  but  they  have  significant  low--
-
-Progress  on  early  solar  system  environment  models  and  asteroid   formation  models.  The  best  though  impractical  way  to  solve  this  is  a   mineralogical  and  isotopic  assay  of  dozens  of  asteroids  and  comets.
-
-Main  Belt?
-
-albedo  materials  that  renders  diagnostic  spectral  features  nearly  invisible.
-
-Section  2.2,  2.3,   5.1  This  Chapter,   Morbidelli,   Johansen,  Emery
-
-2.  How  does  the  distribution  of   Recent  work  has  explored  the  change  in  relative  abundance  of  asteroid   Additional  study  of  the  size  distribution  of  families  in  the  inner  belt.  
-
-asteroids  change  as  a  function   types  as  a  function  of  size.  Many  factors  still  need  to  be  taken  into  account   Ground--based  imaging  and  shape  models  plus  mission  visits  to  primitive  
-
-of  size?  What  is  the  
-
-such  as:  1)  the  size--frequency  distribution  of  families  2)  the  difference  in   bodies.  Constrain  how  prevalent  shocking  is  in  the  main  belt.  Larger  
-
-significance  of    that   distribution?
-
-collisional  lifetimes  per  asteroid  class  3)  Some  compositions  are  masked  at   samples  of  small  asteroids  in  the  MB  (1--20km)  will  help  determine  the  
-
-smaller  sizes  due  to  processes  such  as  collisions  and  "shocking"
-
-distribution  at  smaller  sizes.
-
-Section  5.2  This   Chapter
-
-1)  Asteroids  differentiate  differently  than  expected  --  maybe  don't  form  
-
-3.  The  Missing  Mantle   Problem:  Where  is  all  the  
-
-large  olivine--rich  mantles  and  pyroxene--rich  crusts. 2)  The  parents  of  these  cores  formed  in  the  terrestrial  planet  region.  They  
-
-missing  mantle  material?       were  destroyed  and  only  the  strongest  metallic  fragments  were   Additional  Questions:  Why  are   subsequently  delivered  to  their  current  locations  in  the  main  belt.  
-
-Further  study  of  dynamical  solutions  and  differentiation  modeling.  
-
-V--  and  A--types  scattered   throughout  the  entire  main   belt?
-
-3)  "Battered  to  bits"  --  this  theory  is  currently  less  favored.  Collisional   modeling,  crater  counts,  and  observational  evidence  do  not  support  an   aggressive  regime  of  collisional  destruction  and  battering. 4)  Previous  theories  postulated  olivine  was  hidden  by  weathering  
-
-Continued  study  of  meteorites  to  understand  differentiation.  Continued   search  for  differentiation  in  families,  including  metal  within  large  families.  
-
-Section  5.4  This   Chapter,  Elkins-- Tanton,  Wilson,  
-Scott
-
-processes.  Recent  progress  on  on  space  weathering  disproves  this  
-
-hypothesis.
-
-4.  Where  is  the  water  in  the   asteroid  belt?  How  much  is   Current  evidence:  main  belt  comets,  activated  asteroids,  water   there?  Where  did  these  water-- absorptions,  Ceres  outgassing,  and  possible  exposures  of  ice  on  Ceres. rich  asteroids  form?  
-
-Discover  additional  active  asteroids  and  explore  asteroid--comet  
-
-connections.  Continue  studies  of  extinct  or  dormant  comets  among  NEOs.   Visit  and  map  surfaces  such  as  by  missions  DAWN,  OSIRIS--REx,  and  
-
-Jewitt,  Rivkin,   Krot,  Binzel
-
-Hayabusa  II.  Also,  density  measurements,  radar  sounding  by  spacecraft,  
-
-etc.  might  reveal  ice  buried  beneath  thick  surficial  lag  deposits.
-
-D.  Asteroids  in  their  Greater  Context
-
-1.  Asteroid  belt's  importance   for  Earth  --  do  we  have  
-
-Arguments  exist  for  and  against  enstatites  or  angrites  being  primary   components  of  Earth.  Water  from  Earth's  oceans  are  argued  to  have  been   Continued  studies  of  D/H  ratios  of  meteorites,  comets,  and  asteroids.  
-
-remnants  of  Earth's  building   blocks?  Do  we  have  remnants   of  Earth's  water  source?
-
-delivered  from  asteroids.  Late  veneer.  Isotopic  compositions  show  that  the   known  chondrites  were  not  the  major  building  blocks  of  Earth,  but  the   CI+CM  chondrite--like  material  may  have  been  the  sources  of  Earth's  
-
-Continued  theoretical  studies  of  planet  formation  and  dynamical  studies  of   planet  and  planetessimal  migrations.
-
-Section  6.1,  this   chapter
-
-volatile  materials  as  suggested  by  SMOW  D/H  ratio.
-
-2.  Asteroid  belt's  importance   for  rest  of  our  SS?
-
-Surface  ages  determined  by  impacts  and  cratering  rates.  Main  Belt  and   Kuiper  Belt  orbital  architecture  and  captured  Trojans  and  satellites   constrain  giant  planet  migration.  Study  of  solar  corona  is  enabled  by   asteroids  and  comets  evaporating  during  close  approach  to  the  Sun.
-
-Continue  with  current  progress  on  crater  studies,  dynamical  studies   including  migration.
-
-Beyond  the   scope  of  this  
-book.
-
-Identify  and  characterize  extrasolar  asteroid  belts  (evolved  debris  disks).   Section  6.2  this  
-
-3.  What  role  do  asteroids  play   Collisions  in  massive  asteroid  belts  create  debris  disks  around  old  stars in  other  planetary  systems?
-Asteroids  are  tracers  of  dynamics  and  physical  properties  in  Dusty  White  
-
-Survey  different  planetary  system  architectures  including  asteroid  belt   distances  and  masses.   Identify  and  characterize  dusty  white  dwarf  systems,  and  link  those  
-
-chapter.  Mostly   beyond  the   scope  of  this  
-
-Dwarf  systems.  
-
-systems  to  the  expected  properties  of  precursor  planetary  systems.
-
-book.
-
-4.  What  role  do  asteroids  play   in  creating  the  conditions  for  
-
-Meteorites  are  known  to  contain  water  and  organics  (including  amino   acids),  which  could  be  precursors  for  life.  They  represent  the  initial  
-
-Understand  the  link  or  the  gradient  between  comets  and  wet  asteroids.   Measure  the  D/H  ratio  of  a  wider  array  of  water--rich  small  bodies.  
-
-habitability  on  Earth--size   planets?
-
-conditions  and  compositions  for  forming  terrestrial  planets.  They  could  be   Dynamical  studies  of  delivery.  Understand  consequences  of  delivery  of  too  
-
-responsible  for  water  delivery  and  creating  oceans.  They  could  also  be   much  water.  Studies  of  impact  and  water  retention  on  Earth.  Studies  of  
-
-responsible  for  destroying  life  through  impacts.
-
-ocean--forming  mechanisms  unrelated  to  small  body  delivery.
-
-Beyond  the   scope  of  this  
-book.
-
-5.  What  are  asteroids'   importance  as  hazards  and   resources  to  Earth?
-
-Asteroids  as  a  hazard  have  motivated  increased  attention  to  discovery   Disover  90%  of  PHAs  down  to  140meters.  Understand  the  size  of  the  small   Harris,  Jedicke,  
-
-surveys.  Asteroids  contain  rare--Earth  elements  including  metals  of  value.   NEA  population  (<140  meters).  Evaluate  and  prepare  for  deflection  
-
-Asteroids  contain  water  or  water  components  useful  for  space  travel.
-
-strategies  or  evacuation  plans.  Continue  to  explore  asteroids  as  resources.
-
-Farnocchia
-
-
