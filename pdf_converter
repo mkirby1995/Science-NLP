@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd /Users/mattkirby/Desktop/pdf\ converter/pdf_files
+
+for f in *.pdf
+do
+  pdftotext "$f" /Users/mattkirby/Desktop/pdf\ converter/txt_files/"`basename "$f" .pdf`".txt;
+done
