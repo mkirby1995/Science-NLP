@@ -13,4 +13,6 @@ The `process_and_store.py` script converts these pdf files to `.txt` files, stor
 
 ```python process_and_store.py```
 
-#### Note: It might be in the users interest to delete all the `.pdf` files and `.txt` files contained in the `txt_files` and `pdf_files` folders, along with `documents.json` before doing this with their own PDF documents.
+### The `remove_files.py` script can be used to remove the `.txt` files in the `txt_files` folder, the `documents.json` file, and if line 14 is uncommented the `.pdf` file in the `pdf_files` folder.
+
+```python remove_files.py```
