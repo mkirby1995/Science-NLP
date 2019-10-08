@@ -1,0 +1,1666 @@
+Copyright by
+Hannah Elizabeth McWilliams 2015
+
+The Thesis committee for Hannah Elizabeth McWilliams Certifies that this is the approved version of the following thesis:
+Validating the 1-cm Orbit
+APPROVED BY SUPERVISING COMMITTEE: Srinivas Bettadpur, Supervisor John Ries
+
+Validating the 1-cm Orbit
+by Hannah Elizabeth McWilliams, B.A.
+THESIS Presented to the Faculty of the Graduate School of
+The University of Texas at Austin in Partial Fulfillment of the Requirements for the Degree of
+MASTER OF SCIENCE IN ENGINEERING
+THE UNIVERSITY OF TEXAS AT AUSTIN December 2015
+
+Acknowledgments
+Dr. Srinivas Bettadpur, for lending me his knowledge and expertise throughout the development of this study. His passion for academic investigation was contagious.
+Dr. John Ries, for being my second reader and for providing his advice and expertise on all things SLR.
+Chris McCullough, for always providing thoughtful and helpful answers to my endless supply of questions.
+Rachana Ravi and Corinne Vassallo, for offering their services in editing and mental support.
+Sam Bondurant and my family, for their encouragment and belief in me.
+iv
+
+Validating the 1-cm Orbit
+Hannah Elizabeth McWilliams, M.S.E. The University of Texas at Austin, 2015
+Supervisor: Srinivas Bettadpur
+Determination of three dimensional orbit accuracy to the 1-cm level is a difficult problem for even today's most well-tracked satellites. Gravity fields that are extracted from low earth orbit (LEO) satellites operating near the 1-cm accuracy level provide a better understanding of Earth's systems. The importance of the 1-cm orbit requires a closer look at the means of orbit error validation for these LEO satellites. The focus of this analysis is on the orbits of the Gravity Recovery and Climate Experiment (GRACE) satellite pair. The main methods of validation used on GRACE are the analysis of SLR residuals and the generation of statistics of orbit overlaps. The derivation of a method based on the Guier plane analysis of range residuals is presented along with the results of its application. By combining the analysis of various methods for determining orbit accuracy, the processes for validating the 1-cm orbit are assessed. The results of the three methodologies applied to the SLR residuals for a dynamic orbit indicate that GRACE has radial orbit error of 1.5-cm root-mean-square (RMS) and a three dimensional orbit error of roughly 3-cm RMS. Therefore, it is highly unlikely that GRACE has achieved a 1-cm benchmark. The orbit overlaps study resulted in overly optimistic statistics and cannot be used as a measure of orbit accuracy.
+v
+
+Table of Contents
+
+Acknowledgments
+
+iv
+
+Abstract
+
+v
+
+List of Tables
+
+viii
+
+List of Figures
+
+ix
+
+Chapter 1. Introduction
+
+1
+
+1.1 Precise Orbit Determination . . . . . . . . . . . . . . . . . . . . . . 2
+
+1.1.1 1-cm Benchmark . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+1.2 Description of GRACE . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+1.2.1 MSODP . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+1.3 Thesis Outline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+Chapter 2. Satellite Laser Ranging
+
+7
+
+2.1 SLR as a validation tool . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+2.2 Coverage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+2.3 Independently Computed Ephemerides . . . . . . . . . . . . . . . . 18
+
+2.3.1 Dynamic . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+2.3.2 Kinematic . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+2.3.3 Reduced Dynamic . . . . . . . . . . . . . . . . . . . . . . . 20
+
+2.3.4 Pairwise Differencing . . . . . . . . . . . . . . . . . . . . . 21
+
+Chapter 3. Orbit Error Analysis Methods for SLR
+
+22
+
+3.1 High Elevation Statistics . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+3.2 Guier Plane Analysis . . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+3.2.1 Coordinate Frames . . . . . . . . . . . . . . . . . . . . . . . 25
+
+3.2.1.1 HLZ Coordinate Frame . . . . . . . . . . . . . . . . 25
+
+3.2.1.2 SLC Coordinate Frame . . . . . . . . . . . . . . . . 26
+
+vi
+
+3.2.2 Notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 3.2.3 Algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 3.3 Range Bias and Time Bias . . . . . . . . . . . . . . . . . . . . . . 36 3.4 Direction Cosine Representation . . . . . . . . . . . . . . . . . . . 38 3.5 Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41 3.5.1 Conditioning of Direction Cosine Method . . . . . . . . . . . 42 3.6 Conditioning of Pseudo Guier Plane Method . . . . . . . . . . . . . 43 3.7 Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44
+
+Chapter 4. GRACE orbit error
+
+47
+
+4.1 Orbit Error Statistics from SLR . . . . . . . . . . . . . . . . . . . . 47
+
+4.2 Pairwise Differences Statistics . . . . . . . . . . . . . . . . . . . . . 48
+
+4.3 Orbit Overlaps as a Validation Tool . . . . . . . . . . . . . . . . . . 50
+
+4.3.1 Single Point Differences . . . . . . . . . . . . . . . . . . . . 52
+
+4.3.2 Effect of Perturbed Initial Conditions on Orbital Elements . . 54
+
+4.3.3 6-hour Overlaps . . . . . . . . . . . . . . . . . . . . . . . . 57
+
+4.4 Millimeter Level Orbits . . . . . . . . . . . . . . . . . . . . . . . . 58
+
+Chapter 5. Conclusion
+
+60
+
+5.1 Concluding Remarks . . . . . . . . . . . . . . . . . . . . . . . . . 60
+
+Appendix
+
+62
+
+Bibliography
+
+73
+
+vii
+
+List of Tables
+3.1 reference RMS values for RTN components over the span of three years for GRACE-A . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.2 High elevation radial orbit error statistics over the span of three years for GRACE-A . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.3 Three years: Dynamic-Reduced Dynamic RMS differences for GRCA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+3.4 Three years: Dynamic-Reduced Dynamic RMS differences for GRCB . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+4.1 GRACE-A orbit error RMS statistics for a three-year span . . . . . 48 4.2 GRACE-B orbit error RMS statistics for a three-year span . . . . . 48 4.3 Pairwise differences RMS statistics for a span of one-year . . . . . . 49 4.4 Single point differences for one year . . . . . . . . . . . . . . . . . 53 4.5 6 hour overlap RMS statistics for GRACE-A . . . . . . . . . . . . 57 4.6 One year RMS differences for GRACE-A . . . . . . . . . . . . . . 59
+viii
+
+List of Figures
+2.1 GRACE SLR Retroreflector Array [1] . . . . . . . . . . . . . . . . 8 2.2 RTN coordinate frame geometry . . . . . . . . . . . . . . . . . . . 10 2.3 Sky plot of all observed SLR passes from 2003 through 2005 . . . 13 2.4 Sky plot of all observed SLR passes from 2012 through 2014 for
+GRACE-A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 2.5 Sky plot of all SLR observations for GRACE-A . . . . . . . . . . . 14 2.6 Sky plot of all SLR observations for GRACE-B . . . . . . . . . . . 15 2.8 Geometry of the look angle . . . . . . . . . . . . . . . . . . . . . . 16 2.7 Look angle for GRACE-A spanning three years of SLR observations 16 2.9 Change in argument of latitude of SLR passes for a span of three
+years . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+3.1 Geometry of a pass in the HLZ frame . . . . . . . . . . . . . . . . 26 3.2 Geometry of a pass at the time of closest approach . . . . . . . . . 27 3.3 Partial derivatives of d r(t) with respect to d r(tc) . . . . . . . . . . 34 3.4 Partial derivatives of d r(t) with respect to d `(tc) . . . . . . . . . . 35 3.5 Partial derivatives of d r(t) with respect to d z(tc) . . . . . . . . . . 36 3.6 Three year span of Direction Cosine correlations (GRACE-A) . . . 43 3.7 Three year span of Guier Plane correlations (GRACE-A) . . . . . . 44
+4.1 Arc Overlap: Radial . . . . . . . . . . . . . . . . . . . . . . . . . 51 4.2 Arc Overlap: Transverse . . . . . . . . . . . . . . . . . . . . . . . 51 4.3 Arc Overlap: Normal Component . . . . . . . . . . . . . . . . . . 52 4.4 Error in state due to perturbing effects of J2, drag, and adjusted
+initial conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+.1 Orbit error due to perturbed initial conditions . . . . . . . . . . . . 70 .2 The fit of orbit error to the forced Hill's Equations . . . . . . . . . 71 .3 Original orbit error with contribution from resonant error removed . 72
+ix
+
+Chapter 1
+Introduction
+Orbit determination (OD) is the process of computing the position and velocity of an orbiting object by means of tracking system observables. Geodetic satellites in particular require a high level of accuracy in their OD processes and often have validation requirements on their accuracy assessments. The observation system primarily used in the OD process for such satellites is GPS, while the observable used in validation techniques is typically satellite laser ranging (SLR) residuals.
+The use of GPS as a method of orbit determination was validated in 1994 on the TOPEX/Poseidon mission [2], and it soon became the primary observable for satellite missions requiring precision orbit determination (POD). GPS provides dense tracking data both spatially and temporally, making it the ideal tracking method for POD. The introduction of GPS also allowed new orbit methodologies that relied heavily on observations to become possible beyond the typical dynamic method. The newly available methods are known as kinematic and reduceddynamic, and the main difference between the two is the level of parameterization in their OD process [3].
+SLR, while not nearly as dense as GPS, provides highly accurate range information. Validation is not necessary in every mission that requires POD, but it is
+1
+
+not uncommon [4, 5, 6]. One technique used to process SLR residuals and produce estimates of orbit error is based on the Guier plane navigation method developed by William Guier and George Wieffenbach of the Applied Physics Laboratory. The technique was originally developed for Doppler residuals but is adapted here for range residuals.
+1.1 Precise Orbit Determination
+Ever increasing demands for orbit accuracy have led to improved tracking systems, more sophisticated OD algorithms, and better instrumentation­both on the ground and in orbit. The most stringent requirements on orbit accuracy have created the specialized field of precise orbit determination (POD), which has developed to the point of determining a satellite's orbit to a few centimeters or less.
+Validation is required to substantiate claims of accuracy levels, and the methods of validation have remained fairly constant throughout the history of POD. Most satellites requiring validation are equipped with SLR retro-reflector arrays. These arrays typically consist of multiple corner cube reflectors that send laser signals back to their point of origin in a nearly parallel fashion with minimal scattering. According to the literature, SLR is a commonly used means of validating radial orbit error in particular because SLR residuals from high elevation passes are claimed to be representative of radial error [7],[4],[8]. This validity of this claim is discussed in Chapter 2.
+Validation methods are typically grouped into two categories­external and internal. Representatives from both categories will be included in this study. Exter-
+2
+
+nal methods are those that are independent of the main OD process while internal methods involve analysis of the results of the OD process. SLR is typically used as an external method of validation, meaning that SLR observations are not included in the processing of the orbit. Another means of external validation is considered in this study in the form of independently computed ephemerides. Since the different OD methods use different parameterization, force models, and observations, they can be regarded as independent of the other. Internal methods include the analysis of orbit overlap statistics and orbit fit residuals.
+1.1.1 1-cm Benchmark
+After nearly 60 years of continuous improvement, multiple satellites are approaching or have attained a 1-cm benchmark, which indicates that the satellite position is known to 1-cm RMS. Among those satellites are Jason-1, Jason-2, and GRACE. Jason-1 was launched in 2001 with the goal of achieving the benchmark orbit accuracy of 1-cm. It used GPS and DORIS as its primary orbit determination tools and SLR and altimeter crossovers as validation methods [4], although some groups include SLR as part of the POD processing. It was in a nearly circular orbit with an altitude of roughly 1300 km. It was decommissioned in 2013. Jason-2, currently still active, was an improvement on Jason-1 and had the goal of a 1cm radial orbit as well. Both satellites reportedly achieved their 1-cm radial orbit accuracy goal [8]. The Gravity Field and steady-state Ocean Circulation Explorer (GOCE) also had a 1-cm accuracy goal and came close with 1.84 cm RMS for its reduced-dynamic orbits [9]
+GRACE does not have the means to utilize DORIS or altimeter crossovers to
+3
+
+determine its orbit, relying instead on GPS and SLR only. Past studies of GRACE orbit accuracy have tentatively claimed a 1-cm orbit, but it is the object of this study to determine to what extent the validation techniques can be trusted to provide accuracy information given the characteristics of a low earth orbit (LEO) satellite such as GRACE.
+1.2 Description of GRACE
+The Gravity Recovery and Climate Experiment (GRACE) was launched March 17th, 2002 from Plesetsk Cosmodrome, Russia and inserted into a 500 km altitude, nearly circular, nearly polar orbit. GRACE is an international mission based on a partnership between NASA and the German Aerospace Center, DLR. The system's engineering components are handled by the Jet Propulsion Laboratory (JPL). The German Space Operation Center (GSOC) handles operations, while the GeoForschungsZentrum (GFZ), JPL and the University of Texas Center for Space Research (UTCSR) are involved in the data processing and analysis. The GRACE principal investigator, Dr. Byron Tapley, is located at UTCSR with the responsibility of mission success for NASA [10].
+The GRACE mission consists of a pair of satellites orbiting the Earth with the purpose of measuring the long to medium wavelength gravitational spherical harmonics to unprecedented accuracy. GRACE utilizes a K-band ranging system [11] that measures the changes in inter-satellite range and range rate caused by mass variations on the earth. The mass may change over time primarily due to the movement of air and water on the earth and beneath the earth's surface. Since the
+4
+
+changing mass is equivalent to a changing gravitational field, conclusions can be drawn about Earth's time variable geophysical processes using measurements of variations of Earth's gravity from GRACE [12].
+Mission success in determining high fidelity gravity fields depends on orbit accuracy. Improvement in orbit accuracy can translate into improved gravity field determination, which motivates this study. For primary orbit determination, GRACE uses a dual-frequency BlackJack GPS receiver developed by JPL [11]. A SuperSTAR accelerometer measures the non-gravitational forces, allowing the gravitational forces to be isolated [13]. GRACE is also equipped with an array of four retroreflectors and uses SLR for external orbit accuracy validation.
+1.2.1 MSODP The OD processing at UTCSR for the GRACE mission uses the Multi-
+Satellite Orbit Determination Program (MSODP)­an orbit determination software that utilizes a batch least squares algorithm to produce dynamic orbits [14]. It combines tracking data from GPS, attitude data from the star trackers, and the intersatellite range and range rate from the K/Ka-band ranging system [11]. This data comes in the form of Level-1B products created by NASA JPL [15]. The orbit solutions produced by MSODP have an accuracy that is affected by the force models, parameterization, and arc length [5]. The arc length defines the span of data over which the initial conditions are adjusted [16]. Most reference frames and force models used in MSODP follow the International Earth Rotation and Reference Systems Service (IERS) conventions, and a 24 hour arc length is used.
+5
+
+1.3 Thesis Outline
+Chapter 2 takes a close look at SLR coverage and ranging limitations. The independently computed ephemerides that are used as test cases in Chapters 3 and 4 are also introduced here. The independently computed ephemeris test cases act as an external validation tool as a result of the different OD methods used to compute them. Chapter 3 provides the derivation for two methods of analyzing the orbit error in component form. The two methods include the Guier plane navigation technique as well as a direction cosine approach. A version of the Guier plane method is used as a GRACE orbit accuracy validation procedure and therefore requires an in-depth look at its inherent relationship to pass geometry and ability to back out orbit error. The direction cosine approach is used as an alternative, independent method for deriving orbit error. Also in this chapter are the results of applying the two methods to GRACE dynamic and reduced dynamic orbits using the ephemerides discussed in Chapter 2. The adaptation of the Guier Plane method used to determine radial and transverse error is discussed, along with the question of why these parameters provide good estimates of radial and transverse orbit error. Chapter 4 analyzes arc overlaps as a method of determining internal orbit accuracy. Conclusions and implications of results are discussed in Chapter 5.
+6
+
+Chapter 2
+Satellite Laser Ranging
+The primary tracking system used in the OD process for GRACE and all other recent geodetic satellites is GPS. GRACE is equipped with a codeless, dualfrequency BlackJack GPS receiver [11], developed by JPL. The average number of GPS satellites tracked at any given time is about 10 [7], ensuring that the tracking data is dense enough to support high accuracy OD. The orbit fit to the GPS tracking data is the method used to ascertain the quality of the models­for both force and observation­used in the dynamic OD process. Despite the density of GPS data, the stringent requirements on accuracy for the GRACE mission require an independent method of evaluating the orbit error. Other geodetic satellites such as Jason-1 and Jason-2, share a 1-cm radial accuracy goal and the need for a validation process [8][17]. The typical tracking system used in the validation of high fidelity orbits is SLR.
+A network of stations, operating cooperatively as the International Laser Ranging Service (ILRS) provides SLR data for retro-reflector equipped satellites and the Moon. While there are active stations spread across the globe, they are not distributed evenly, leading to greater spatial sparseness in certain regions­particularly over ocean regions. Additionally, there are a greater number of SLR stations in the Northern Hemisphere as compared to the Southern Hemisphere. The observable
+7
+
+obtained from SLR is the round trip time of flight of a laser pulse traveling between a ground station and a retro reflector onboard a satellite. With appropriate corrections for the satellite center of mass offset, an unambiguous measurement of the range to the satellite center of mass of mass is provided. SLR range precision is at the millimeter level depending on equipment while the absolute accuracy is at the 1-cm level [18]. This observation of range from SLR can be differenced with the computed range of the satellite calculated from best-known ephemerides to provide a measure of accuracy of the ephemerides in the form of a range residual. Given the high accuracy and direct measurements of SLR, it is a commonly used method of orbit accuracy validation. Both GRACE satellites are equipped with an array containing four retroreflectors as shown in Figure 2.1.
+Figure 2.1: GRACE SLR Retroreflector Array [1]
+Considering the ubiquity of SLR as a measure of accuracy, it is worthwhile to investigate how much information about the orbit error the SLR observables contain and how the methods of range residual analysis work. The effect of the dearth of observations will also be examined. GRACE mission data is used to
+8
+
+provide a test bed for working with SLR observations, and therefore the results are oriented towards low earth orbiters. It is important to note that in order for SLR to truly be an independent measure of orbit accuracy, it cannot have been used in the computation of the orbit.
+2.1 SLR as a validation tool
+The slant range measurement, r(t), is the distance from the station to the satellite. If the vector position of the satellite at some epoch t is rs(t) and the vector position of the tracking station at the same epoch is rT (t) then r(t) is the magnitude of the difference of the two as shown in Eq. 2.1.
+
+r(t) = |rs(t) rT (t)|
+
+(2.1)
+
+The SLR residual is the quantity used to assess orbit accuracy. SLR residuals represent the difference between a "truth", ro(t), as measured by the laser ranging system and a computed range rc(t) calculated from ephemerides. The definition of the ranging residual is
+
+Dr(t) = rc(t) ro(t)
+
+(2.2)
+
+The orbit error in this section is represented in the Radial, Transverse, Normal (RTN) coordinate frame because of its convenient geometry. The radial component describes the vector from the center of the earth to the satellite, and the transverse component is in the direction of the satellite velocity component that
+
+9
+
+both lies in the orbital plane and is orthogonal to the radial vector. The normal component is perpendicular to the orbit plane defined by the inertial satellite position and velocity vectors, r and v. The geometry of this coordinate system is shown in Figure 2.2 where I^, J^, K^ are the unit vectors of the Earth Centered Inertial frame. For information on how to convert from ECI to RTN, see Appendix.
+
+
+
+
+
+ v
+
+ r
+
+
+
+Figure 2.2: RTN coordinate frame geometry
+2.2 Coverage
+It is well known that SLR coverage is considered sparse in comparison to tracking systems such as GPS. This is due to the limited global coverage of SLR stations, especially over ocean regions. SLR station coverage is limited primarily
+10
+
+due to the necessity for locations with weather conditions conducive for optical measurements.
+A sky plot showing the accumulation of observations in a given time period is useful because observations with different geometries relative to the station have different contributions to the orbit error. Complete coverage indicates that all possible geometries and thus all possible contributions to the orbit error have been adequately sampled. To show coverage for GRACE, sky plots are used where each dot represents an observation, and the observations are with respect to local stations. The station zenith is in the center of the plot. Azimuth is computed with respect to the local North at each station, and elevation ranges from 0 to 90 degrees with 90 degrees elevation coincident with the zenith direction. The process for computing azimuth and elevation from Earth Centered Earth Fixed (ECEF) coordinates is outlined in the Appendix.
+GRACE is a nearly polar satellite with an inclination of 89 degrees, so all passes are in the North-South or South-North direction depending on whether the pass is descending or ascending. The commonality in the direction of passes is because there are no near polar SLR stations. Figure 2.3 shows the accumulation of SLR observations in one year increments from 2003 to 2005. During this three year time span, GRACE achieved nearly full sky coverage of SLR observations. This behavior is also reflected in the sky plots for GRACE-B which are not shown here. The GRACE mission lifetime requirement for success was five years, and most LEO satellites are operational for about this length of time or less, meaning that their use of SLR might not provide complete geometric coverage
+11
+
+It is interesting that the coverage appears to worsen over time as shown by a sky plot for the years 2012 through 2014 in Figure 2.4. Compared to Figure 2.3, which covers a three span earlier in the mission, the coverage over the same time span is noticeably different. The degradation in coverage over time is not explored here, but the cause could be for a variety of reasons. The list of active SLR stations changes with time, and equipment wears down. It is possible that the cause could also be due to GRACE lowering in altitude as the mission progresses.
+The circular gap at the zenith of each sky plot in Figures 2.5 and 2.6 is likely due to the keyhole effect, which is a characteristic of the telescope mount typically employed for laser ranging. In the case of near-zenith passes, the satellite passes directly above the antenna and it must slew 180 degrees in azimuth before it can reacquire the satellite, causing a loss of data at zenith. The size of the data gap is roughly 6.7 degrees.
+12
+
+(a) One year of SLR observations for GRACE-A
+(b) Two years of SLR observations for GRACE-A
+(c) Three years of SLR observations for GRACE-A
+Figure 2.3: Sky plot of all observed SLR passes from 2003 through 2005 13
+
+Figure 2.4: Sky plot of all observed SLR passes from 2012 through 2014 for GRACE-A
+Figure 2.5: Sky plot of all SLR observations for GRACE-A 14
+
+Figure 2.6: Sky plot of all SLR observations for GRACE-B Figure 2.7 shows a skyplot of the look angle­the angle between satellite nadir and slant-range­of the retroreflector. The outer edge of the look angle reaches roughly 65 degrees while the inner gap spans about 5.9 degrees. The slight disparity between the data gap at zenith and the inner look angle can be understood using Figure 2.8.
+15
+
+ : inner look angle  : outer look angle
+
+Zenith gap  
+
+Station
+Figure 2.8: Geometry of the look angle
+
+Figure 2.7: Look angle for GRACE-A spanning three years of SLR observations 16
+
+While complete geometric coverage is not a necessity, an adequate range of pass geometries must be achieved for the calculation of accurate statistics. Since a LEO satellite like GRACE has shorter passes and tracking difficulties, longer durations are required to attain robust SLR statistics. Note that this is specific to GRACE and will be subject to change for satellites of different altitudes. To ensure adequate coverage, a three year time span was used in most of the test cases throughout this study, and the effect on statistics between a one and three year time span is discussed in Chapter 3.
+To further consider the characteristics of SLR passes for GRACE, the statistics of pass length were analyzed. The typical length of a pass can last anywhere from a few seconds up to almost six minutes in a few cases, although the average length of a pass is closer to two minutes. In an angular sense, the length of a pass can be viewed as the change in the argument of latitude. The definition of the argument of latitude is shown in Eq. 2.3 where f is the true anomaly and w is the argument of perigee.
+
+u= f +w
+
+(2.3)
+
+A histogram of the change in argument of latitude in degrees is shown in Figure 2.9. The pass length statistics and the change in argument of latitude across a pass shows the relatively short length of the majority of GRACE SLR passes.
+
+17
+
+Figure 2.9: Change in argument of latitude of SLR passes for a span of three years
+The objective of the next chapter is to compute RTN statistics of orbit error given SLR observations, and the coverage results in this section point to the way in which SLR validation results should be viewed. Since observations are too sparse for good statistics for time spans on the order of weeks or months, the orbit error derived from a longer time span of one or more years can be used to determine the orbit error only in an average sense.
+2.3 Independently Computed Ephemerides
+The three main methodologies for generating ephemerides for geodetic satellites are grouped into either the kinematic (K), dynamic (D) or reduced-dynamic (RD) categories. The three differ from each other by the relative importance of observations and force models as well as the level of parameterization. Independently
+18
+
+computed ephemerides provide an additional sense of accuracy due to the fact that if two orbits computed by different means agree in terms of error then an accurate solution to the order of agreement is likely present.
+2.3.1 Dynamic Dynamic orbits are characterized by their primary reliance on force models
+and numerical integration of the equations of motion in their POD process. Typically, a relatively small number of force model parameters are estimated, and the more parameters that are estimated, the more the solution approaches a reduceddynamic orbit.
+The dynamic orbits used in this study were computed by UTCSR using MSODP. MSODP processes GPS double-differenced carrier-phase measurements provided by a network of International GNSS Stations (IGS)[7]. Corrections to the IGS orbits are estimated along with DD ambiguities, zenith delays, drag parameters, and 1-cpr radial and transverse empirical accelerations. The relatively heavy parameterization for a dynamic orbit is to keep the force model error low. The orbit fits to GPS tracking data generated from this parameterization are used to assess the quality of estimation [7].
+2.3.2 Kinematic In sharp contrast to the dynamic orbits, kinematic orbits use only tracking
+observation data and do not require any force models for their POD process. GPS phase measurements are the observable that supplies the necessary coverage and accuracy for the development of a kinematic orbit. However, a drawback to the
+19
+
+kinematic orbit is that its solutions lack velocity measurements; they must instead be numerically derived.
+The kinematic orbits used here were computed with 30-s spacing by the Astronomical Institute of the University of Bern (AIUB) [19]. In order to derive the orbital velocity with the given 30 second spaced trajectory, a 3rd order SavitskyGolay (SG) filter was used. The SG filter takes in a given number of points and using least squares, fits a set of polynomial coefficients to describe the set of points it was given. To compute velocity, the first derivative is needed. In order to compute the derivative, the derivative of the coefficients is found. The algorithm is described in more detail in the Appendix.
+2.3.3 Reduced Dynamic The reduced-dynamic method of computing orbit solutions can be consid-
+ered a balance of the kinematic and dynamic method. Observations are given more priority than in the dynamic method, and this naturally requires more parameterization. However, the integration of force models is still a part of the POD process. In order to find the right balance, a process noise model is employed that reduces the force model errors through optimal weighting [20]. A common form of the reduced-dynamic method is to generate an a priori orbit using the dynamic force models and then introduce observations to refine the solution.
+The reduced-dynamic orbit used in this study was generated with 5-s spacing by JPL in the form of GPS Navigation Level 1B (GNV1B) files.
+20
+
+2.3.4 Pairwise Differencing Differences between the kinematic, dynamic, and reduced-dynamic orbits
+provide a set of test cases that will be used to validate the methods of determining orbit error. The differences involving kinematic orbits exhibit the most variability and have data gaps in their trajectories due mostly to 'bad' observation data. They also do not handle interpolation well, resulting in errors too large to be useful. The results of interpolation are shown in the Appendix. For these reasons, the kinematic orbits were not used as a test case. Only the differences between the dynamic and reduced-dynamic were used.
+21
+
+Chapter 3
+Orbit Error Analysis Methods for SLR
+3.1 High Elevation Statistics
+High elevation observations are used as an accurate and unambiguous measure of the radial orbit error [4, 5]. In order to test that claim for GRACE, a years worth of reduced-dynamic and dynamic orbits were differenced to act as a reference, and the high elevation SLR observation statistics were computed. First, the radial orbit error Dr for all points during a pass was calculated by differencing the 5-s trajectories. Next, the SLR slant-range differences only at observation times Drobs were computed. Finally, all SLR slant-range differences during a pass Dr were calculated from the trajectories. The key difference between the slant-ranges at observation times and for all times during the pass is that the latter captures the missing observations due to the zenith gap as shown in Figure 2.3. Thus, the slantrange differences for all times during a pass will have more observations overall and likely be a better measure. This experiment serves the additional purpose of indicating how much accuracy loss is caused by data gaps. Table 3.1 shows the true RMS values for the radial, transverse, and normal components of error as computed from the differenced ephemerides, and Table 3.2 shows the statistics for observations with an elevation greater than 75 degrees.
+22
+
+DR (cm) DT (cm) DN (cm)
+
+0.92
+
+1.47
+
+0.98
+
+Table 3.1: reference RMS values for RTN components over the span of three years for GRACE-A
+
+Elevation DR (cm) Dr (cm) Drobs (cm)
+
+> 75
+
+0.86
+
+1.02
+
+1.30
+
+Table 3.2: High elevation radial orbit error statistics over the span of three years for GRACE-A
+
+The high elevation statistics for slant-range residuals at all points on a pass versus the slant-range residuals only at observed times are similar but with the residuals at observation times appearing slightly worse (Table 3.2).
+This is likely because the observations that occur near zenith are unobserved. Neither can be said to capture the true radial error at pass times exactly, but the slant-range residual is less than 2 mm off the mark. Thus, while slant-range residuals at high elevations are not interchangeable with radial error at high elevations, they can be used as an upper limit of the radial error.
+
+3.2 Guier Plane Analysis
+A variation of Guier plane navigation [21] can be used for analyzing SLR residuals. The original formulation uses Doppler residuals, and a detailed derivation can be found in [22]. This method assumes a low altitude, near circular orbit and that the station and satellite position error is small enough for second order terms to be considered negligible. Under these assumptions, a system of equations is derived
+23
+
+that contains four aggregation parameters. These parameters are estimated using a least squares approach, and two of the parameters represent an adjustment to the station position in the orbital plane that minimizes error. These adjustments are then compared to the original station position, and the differences are considered to be representative of the radial and along track error.
+In this section, the original derivation [21] is adapted for use with SLR range residuals and will be referred to as the pseudo Guier plane method. This pseudo method estimates the radial, transverse and normal components of satellite error at the time of closest approach, resulting in three estimated parameters. The fourth parameter in the original Guier navigation is a frequency correction and does not apply to the range observable. Since the station position is known accurately compared to the centimeter level orbit error, it is assumed that all error following an adjustment in the orbital plane is due to the satellite position error. Assuming no station error and instead estimating the orbit error directly reflects the development shown in the Appendix of [23]. This development also assumes there is no range bias.
+In the following sections, the Guier plane method for use with range residuals is derived, primarily following the process and notation in [22]. Necessary coordinate frames are introduced along with the relevant notation. The algorithm is then derived in order to isolate the relationship between range and time bias to radial and transverse orbit error.
+24
+
+3.2.1 Coordinate Frames The two primary coordinate frames used in the following section's deriva-
+tion are introduced here. 3.2.1.1 HLZ Coordinate Frame
+Guier plane navigation makes use of the HLZ coordinate frame which is equivalent to the RTN coordinate system. H^ : Unit vector from center of mass of the earth to the satellite center of mass L^ : Unit vector along the component of velocity that is orthogonal to the radial
+vector in the orbital plane Z^ : In the direction of the angular momentum vector of the orbit
+25
+
+
+
+
+
+
+
+
+
+ascending node
+
+Figure 3.1: Geometry of a pass in the HLZ frame
+
+3.2.1.2 SLC Coordinate Frame The SLC coordinate frame takes advantage of the geometry of a pass at
+the time of closest approach of the satellite to the station. At the time of closest approach, the range rate r and range r are orthogonal and their unit vectors define the SLC coordinate system.
+S^ : In the direction of slant range vector at time of closest approach L^ : In the direction of satellite velocity vector at time of closest approach (coinci-
+26
+
+dent with HLZ frame L^ c) C^ : S^  L^ direction
+
+
+
+
+
+
+
+
+
+Figure 3.2: Geometry of a pass at the time of closest approach
+
+3.2.2 Notation
+
+rs (t )
+
+= inertial satellite position vector
+
+d rs(t)
+
+= satellite position error vector
+
+r (t)
+
+= slant range vector
+
+d r (t)
+
+= slant range error vector
+
+d rs, d ls, d zs = satellite position error expressed in the HLZ coordinate system
+
+27
+
+rT (t) d rT (t) S, L
+
+= inertial station position vector = station position error vector = corrections to station slant range and along-track components
+
+3.2.3 Algorithm
+The traditional Guier plane technique estimates four aggregation parameters through a least squares fit. These parameters are related to the Doppler residual and are the frequency bias, radial error, along track error, and cross track error although the cross-track error is not observable. This technique was originally used with the Doppler observable, but for GRACE and other geodetic satellites it has been adapted to work with the SLR observable­range residual. The following derivation does not allow for station error.
+The Guier plane navigation solution for orbit error involves the least squares estimation of the slant range error component and along-track error component. As in all least squares problems, the idea is to minimize the square of the residuals. In this case, the residuals are the difference between observed and theoretical slantrange residuals. If y is the observed slant-range residual and d r is a theoretical, modeled residual then the equation to be minimized F is
+
+Â F = 1 N
+N j=1
+
+y(t j)
+
+d r(t j) 2
+
+(3.1)
+
+d r(t j) is the modeled slant range residual at epoch t j, and is defined in
+
+vector form as
+
+28
+
+d r(t)
+
+=
+
+r (t) |r (t)|
+
+·d
+
+r s (t )
+
+(3.2)
+
+The next several steps will consider each vector separately, deriving a more useful formulation of d r(t) in terms of satellite position error that can be estimated. Starting with the slant range vector,
+
+r (t) = rs(t) rT (t)
+Adding and subtracting by the satellite and station position at closest approach and grouping appropriately yields,
+
+
+
+r (t )
+
+r^
+
+(t
+
+)
+
++
+
+rT
+
+(t) r
+
+rT (t)
+
+(tc)
+
+= rs(t)
+
+rs(tc) + r (tc)
+
+Now the assumption of a LEO satellite is used, and since LEO satellites have much shorter passes than high altitude satellites, the station position change is small resulting in the following approximation,
+
+rT (t) rT (tc) r (t )
+
+1
+
+Rewriting each vector to the H^c, L^ c, Z^c frame using Figures 3.1-3.2 yields,
+
+r (t) = r(tc)cos(q ) rs(tc)+rs(tc)cos(DM)H^c +rs(tc)sin(DM)L^ c r(tc)sin(q )Z^c (3.3)
+where
+29
+
+DM = n¯(t tc)
+with n¯ = w + f and q is the angle between H^ and S^ at the time of closest approach. DM is measured with respect to the time of closest approach in 3.4.
+In order to obtain the computed form of the range residual, the expression of the satellite position error in the H^c, L^ c, Z^c frame is now needed. The general satellite position error can be expressed as
+
+d rs(t) = d rs(t)H^ + d ls(t)L^ + d zs(t)Z^
+
+The general satellite position error must now be related to the H^c, L^ c, Z^c frame . This amounts to a Z-axis rotation, yielding
+
+d rs(t) =d rs(t)cos(DM) d `s(t)sin(DM)H^c+
+
+d rs(t)sin(DM) + d `s(t)cos(DM)L^ c+
+
+(3.4)
+
+d zs(t)Z^c
+
+Combining Equations (3.3) and (3.4) evaluated at the time of closest ap-
+
+proach and dividing by the magnitude of the time variable slant range provides a
+
+representation of the ranging residuals,
+
+d r(t)
+
+=
+
++r1(td)rs(tdc)rssi(ntc()DcMos)(+DMd `)s(tcd)`cso(stc()DsMin)(DMrs)(tc)rsi(ntc()DcMos)(q )
+
+
+
+d zc r(tc)sin(q )
+
+rs(tc) + rs(tc)cos(DM)
+
+30
+
+Multiplying out and rearranging yields,
+
+
+
+d
+
+r (t )
+
+=
+
+1 r (t )
+
+R0 + R1sin(DM) + R2cos(DM)
+
+(3.5)
+
+where,
+
+R0 = rs(tc)d rs(tc) r(tc)zs(tc)sin(q ) R1 = ad `s(tc) R2 = ad rs(tc)
+where a = rs(tc) r(tc)cos(q ). Grouping the time variable components into functional forms yields,
+
+d r(t) = R0U0(t) + R1U1(t) + R2U2(t)
+
+(3.6)
+
+where,
+
+1 U0(t) = r(t)
+sin(DM) U1(t) = r(t)
+cos(DM)) U2(t) = r(t)
+The functions U0(t) and U2(t) are symmetric while the function U1(t) is anti-symmetric in time. The partial derivatives of d r(t) with respect to the satellite error parameters are
+31
+
+
+
+d
+
+r
+
+ (t)
+
+ddddd`rzrrsss(((((tttttccc)))))
+
+= = =
+
+rs(tc)U0(t) aU2(t) aU1 (t )
+r(tc)sin(q )U0(t)
+
+(3.7) (3.8) (3.9)
+
+If Equations 3.7-3.9 are stacked into a matrix H then the least squares solu-
+
+tion is
+
+x^ = (HT H) 1HT y
+
+(3.10)
+
+where y is the vector of observations and x^ is the vector of estimated parameters.
+
+2d
+
+r^s(tc
+
+3 )
+
+x^ = 4d `^s(tc)5
+
+d z^s(tc)
+
+Returning to the partial derivations, as the angle between the S and H unit
+
+vectors q approaches zero, the pass elevation approaches zenith. This means, for
+
+high elevations, the partials are
+
+
+
+d
+
+r (t
+
+ )
+
+ddddd`rzrrsss(((((tttttccc)))))
+
+= = =
+
+rs (tc )U0 (t )
+
+ rs(tc)
+
+r
+
+ (tc) U2(t
+
+)
+
+ rs(tc)
+
+r
+
+ (tc) U1
+
+(t)
+
+0
+
+32
+
+(3.11)
+
+Thus, at high elevations, the cross-track component is completely unobservable. For low elevations, q tends towards 90 making the coefficients,
+
+dddddd`rzrrrsss((((((ttttttccc))))))
+
+= = =
+
+ rs(tc) U0(t)
+rs (tc )U1 (t ) r (tc )U0 (t )
+
+U2 (t )
+
+(3.12)
+
+Visualizing how the partials change as a function of elevation provides more insight into the observability of the individual components. A set of the partials for well-sampled passes is shown in Figures 3.3-3.5. The shape of the d z(tc) partials in Figure 3.5 are proportional the to shape of the d r(tc) in Figure 3.3 to within a negative scale factor. This indicates a high correlation between the two components, which will affect the conditioning of the matrix of partials. The under-sampled passes exhibit the same portion of the complete shape that is proportional to the geometric sampling, and are not shown.
+
+33
+
+Figure 3.3: Partial derivatives of d r(t) with respect to d r(tc) 34
+
+Figure 3.4: Partial derivatives of d r(t) with respect to d `(tc) 35
+
+Figure 3.5: Partial derivatives of d r(t) with respect to d z(tc)
+3.3 Range Bias and Time Bias
+The current method used in GRACE orbit validation at CSR is the range bias and time bias method (RB/TB). It has been stated [5] that the range bias for high elevation passes is a good measure of radial orbit error for high elevation passes, and the time bias is a representation of transverse orbit error. The normal component of orbit error was said to be unobservable in the Doppler data [22][23], and it is still not trivial to extract from the SLR residuals. The RB/TB parameters are currently used as the method of validation for GRACE, and they are computed by a least squares fit to Eq. 3.13.
+36
+
+Dr = d r + dtr
+
+(3.13)
+
+where Dr is the ranging residual, d r is the range bias, dt is the time bias, and r is the range rate. The partials for this formulation are,
+
+ (Dr)  (d r) = 1
+
+ (Dr)  (dt)
+
+=
+
+r
+
+(3.14) (3.15)
+
+Since the basis of derivation for these parameters is said to be related to the Guier plane method, ideally the partials in Eq. 3.14 and Eq. 3.15 would look similar to the partials in Eqs. 3.7, 3.8, 3.9 to within a scale factor. This is true of the transverse component partial. From Figure 3.4, it can be seen that the Guier Plane transverse partials look like range rate, matching the time bias formulation. However, the range bias partial is a constant which does not coincide at all with the shape of the radial error partials derived in the previous section and shown in Figure 3.3.
+
+The range bias partial, Eq. 3.14, was developed as an approximation to the Guier plane radial error partial, Eq. 3.7. Given the low altitude of GRACE, the passes are short and DM is small. Expanding cos(DM), the radial error partial becomes,
+
+ddrrs((ttc))
+
+=
+
+rs(tc) r (t )
+
+ rs(tc) r (t )
+
+r (tc ) r (t )
+
+cos(q
+
+ )1
+
+DM2 DM4
+
++ + ...
+
+2
+
+4
+
+37
+
+Using a first order approximation, the partial yields,
+
+
+
+d
+
+r
+
+ (t)
+
+
+
+d
+
+ rs(tc)
+
+=
+
+r (tc ) r (t )
+
+cos(q
+
+)
+
+(3.16)
+
+At the time of closest approach for high elevations, Eq. 3.16 approaches
+
+1, the value of the range bias partial. Therefore, the RB/TB approach can be con-
+
+sidered a first order approximation of the pseudo GP method that is most valid for
+
+high elevation passes. Therefore the range bias and time bias do represent radial
+
+and transverse orbit error, respectively.
+
+3.4 Direction Cosine Representation
+It is helpful to develop an alternative physical relationship to the SLR residuals in order to form a basis for comparison against the Guier Plane method. Suppose there are two arbitrary orbits, A and B. Two known orbits can be inserted in place of A and B in the following derivation, thereby providing the means to assess the direction cosine (DC) method validity. The vector representation of orbit error between A and B is the difference between the position vector of the satellite in orbit A and the position vector of the satellite in orbit B.
+
+d r(t) = ra(t) rb(t)
+If the error between orbit A and orbit B is small, then individual SLR observations will come from the same station and the orbit error vector can be written as
+
+38
+
+dr = ra rb
+
+Dotting both sides of 3.17 with r^ b and simplifying,
+
+d r · r^ b = (r a r b) · r^ b
+
+d r · r^ b
+
+=
+
+ra·rb rb
+
+rb
+
+d r · r^ b = racos(q ) rb
+
+(3.17)
+
+where the angle q is the angle between r aand r b. At satellite distances and with the assumption of small error this is still a very small number, which allows the use of the small angle approximation cos(q ) t 1.
+
+d r · r^ b = ra rb
+
+(3.18)
+
+This makes the RHS of the above equation equal to the SLR range residual y.
+
+y = ra rb
+
+(3.19)
+
+The LHS of 3.18 is recognizable as the direction cosines of the orbit error vector.
+
+d r · r^ b = Ld r + Mdt + Nd n
+
+(3.20)
+
+where L, M, and N are direction cosines and d r, dt, and d n are the RTN components of orbit error, respectively. Combining Equations 3.19 and 3.20 allows
+
+39
+
+us to represent the residuals in terms of the direction cosines as shown in 3.21. By estimating d r, dt, and d n using Eq. 3.21, a constant correction in each component for the entire pass is inherently assumed.
+
+y = Ld r + Mdt + Nd n
+
+(3.21)
+
+This is in contrast to the pseudo GP method where the position error was estimated at a specific epoch, the time of closest approach.
+The matrix of partial derivatives with respect to the estimated parameters, a^ = [d r, dt, d n]T are
+
+y  a = [L, M, N] Given m observations, the partials stack up into the matrix H.
+
+(3.22)
+
+2
+
+3
+
+L1 M1 N1
+
+H
+
+= 66664
+
+. . .
+
+. . .
+
+. . .
+
+77775
+
+Lm Mm Nm
+
+(3.23)
+
+The estimated parameters are given as in Eq. 3.24 for a simple least squares
+
+approach.
+
+a^ = (HT H) 1HT y
+
+(3.24)
+
+This formulation provides an alternative, independent means to assess the results of the pseudo Guier plane method. An important difference to note between
+
+40
+
+the pseudo GP method and the DC method is that the DC method estimates a constant correction for any given pass while the GP method estimates a correction at the time of closest approach. Applying a constant correction may not be applicable for higher altitude satellites with much longer passes.
+3.5 Analysis
+Differences between sets of independently computed ephemerides will be used as the test case for analyzing the methods derived in this chapter. The different between these ephemerides is on the level of a few centimeters. This allows the use of pairwise differences as centimeter level reference, and the application of the techniques derived in this chapter has implications on their ability to characterize orbit error for the 1-cm benchmark given SLR residuals. The direction cosine (DC) method as well as the pseudo Guier Plane (GP) method can be applied and their estimates compared to the reference values in order to judge their ability to represent orbit error statistics. However, the process leading up to comparison requires an interpolation of the trajectory times to the SLR observation times. The kinematic orbit suffers too much error due to this interpolation (Figure ??) and therefore should not be used in the pairwise differencing comparison. The dynamic and reduced dynamic orbit serve as the test case for the inter-orbit comparison.
+The differenced trajectory was interpolated using a Hermitian interpolator to the time of SLR observations. Since the position of the station at the time of observation rs(t) is available along with the position of the satellite (from the orbit solutions), the slant range­a scalar output of SLR­can be computed in its compo-
+41
+
+nent form and rotated into the RTN frame. The vectorized slant range of each orbit was computed and the difference was found. The orbit error is equivalent to the difference in the vector slant-ranges of the satellite.
+d r(t) = rD(t) rRD(t) = rD(t) rs(t) rRD(t) + rs(t) = r D(t) r RD(t)
+3.5.1 Conditioning of Direction Cosine Method The correlation of the partials (the columns of H as given in Section 2.4)
+was computed in order to assess the conditioning of the least squares problem for the DC method. The correlations for all passes in a one year span for GRACE-A is shown in Figure 3.6. According to the figure, the partials for the radial and normal components are highly correlated, and thus the H matrix will be ill-conditioned. An ill-conditioned H matrix means that the least squares solution will yield inaccurate results if the normal equations are used due to the matrix inversion. To account for the ill-conditioning, a truncated singular value decomposition, or TSVD, (see Appendix) is computed instead of the normal equations.
+42
+
+Figure 3.6: Three year span of Direction Cosine correlations (GRACE-A)
+3.6 Conditioning of Pseudo Guier Plane Method
+According to Figure 3.7, the pseudo GP method is just as correlated as the DC method in the R and N partials. Figure 3.7 was plotted against the highest elevation reached in the pass to show that the few passes that are not highly correlated are low elevation passes. Due to this ill-conditioning, the TSVD method of least squares is used to provide estimates of orbit error in all three components.
+43
+
+Figure 3.7: Three year span of Guier Plane correlations (GRACE-A)
+3.7 Results
+RMS differences were computed for one year and three years of dynamic and reduced-dynamic orbits. This is because the coverage plots in Section 2.2 show that GRACE SLR observations do not fully span the sky until at least three years of observations are taken. A question to be answered is to what extent a dearth of geometrical coverage affects the solutions. If the RMS values from three years of
+44
+
+estimation data provide a more precise representation of the true orbit error, then full geometric pass coverage should be required for all assessments of orbit accuracy. This would mean that low earth orbiters would require at least three years of SLR observations before being truly being able to validate their orbit accuracy. However, if there is not significant difference between the one year and three year estimates, then complete sky coverage is not necessary for accurate validation results.
+The RMS differences for all methods addressed in this study are shown in Tables 3.3-3.4 for GRACE-A and GRACE-B, respectively. In those tables, the "Actual" statistics are derived from a differencing of 5-second trajectories of the dynamic and reduced-dynamic orbits. This represents the true accuracy of the pairwise difference. The "Obs Times" RMS consists of the trajectory points that were interpolated to the time of the SLR observations. The RMS values for the DC, GP, and RB/TB methods should most closely reflect this statistic. Additionally, while all passes were used to generate statistics for the DC and GP method, the RB/TB method used only high elevation passes. The high elevation cut off was 60 degrees.
+First comparing the performance of the DC and GP method, it can be seen in Table 3.3 that the DC method is the best at representing the radial and transverse RMS, while the GP method has the best estimate of 3D accuracy. However, this cannot be trusted as a pattern because in Table 3.4, the DC transverse RMS value is significantly higher than the actual RMS at observation times. Interestingly, the GP transverse RMS mimics the behavior of the DC transverse RMS. Both the DC and GP have optimistic assessments of the radial and normal components of error, but both have solid 3D RMS values. The RB/TB RMS appear to be the most optimistic of the three methods, coming in under the reference value consistently. The RMS
+45
+
+of the SLR residuals is 1.5 cm, and the RMS of the post-fit residuals for the RB/TB method is 5.07 mm while the RMS of the post-fit for the GP method is 1.2 mm. This indicates that the GP method does in fact do slightly better than the RB/TB method at representing the SLR residuals and thus the orbit error. However, all three methods are roughly comparable.
+
+R (cm) T (cm) N (cm) 3D (cm)
+
+Actual
+0.92 1.48 0.99 2.00
+
+Obs Times
+0.87 1.33 1.00 1.88
+
+DC (TSVD)
+0.87 1.33 0.76 1.77
+
+GP (TSVD)
+0.91 1.48 0.82 1.92
+
+RB (cm) TB (cm)
+
+RB/TB (> 60 )
+0.81 1.32
+
+Table 3.3: Three years: Dynamic-Reduced Dynamic RMS differences for GRC-A
+
+R (cm) T (cm) N (cm) 3D (cm)
+
+Actual
+0.96 1.40 0.99 1.98
+
+Obs Times
+0.96 1.33 1.00 1.92
+
+DC (TSVD)
+0.85 1.63 0.73 1.98
+
+GP (TSVD)
+0.76 1.60 0.74 1.92
+
+RB (cm) TB (cm)
+
+RB/TB
+0.76 1.27
+
+Table 3.4: Three years: Dynamic-Reduced Dynamic RMS differences for GRC-B
+
+In order to address the question of how much coverage is necessary to obtain "good" statistics, one year statistics were generated. They showed no noticeable improvement over the three year statistics. Thus the range of pass geometries attained in one year for GRACE is sufficient to produce accurate statistics.
+
+46
+
+Chapter 4
+GRACE orbit error
+4.1 Orbit Error Statistics from SLR
+In this section, the GRACE orbit error is assessed using the methods derived in the previous chapter. The dynamic orbit solution generated at UTCSR using MSODP is presented as a test case. The POD process for the dynamic orbit solutions uses double differenced GPS carrier phase observations, and the force models are compatible with RL05 [24]. The drag coefficient is estimated at 1-cpr intervals along with radial and transverse empirical accelerations.
+In Chapter 3, orbit error statistics were computed for a differenced set of orbits and compared to a reference value. The methods used to compute the error RMS values were the direction cosine, pseudo Guier plane, and RB/TB method. All three produced results quite close to the reference value, and can therefore be trusted to provide reasonable statistics when reference values are not available. Tables 4.1-4.2 show the results of the three orbit error validation methods as applied to a GRACE dynamic orbit solution. This orbit solution is not a difference of two orbits and thus the true orbit error is unknown. The values in Tables 4.1-4.2 indicate that the GRACE satellites do not have a three dimensional 1-cm RMS orbit. At 1.5-cm RMS, the radial component of orbit error comes close to the 1-cm level. The transverse error for both GRACE satellites is near 2.5-cm while the error in
+47
+
+the normal component is roughly 1.2-cm. The RMS of the SLR residuals that are
+
+observed at high elevation points (> 60 ) is 1.30-cm, which is roughly equivalent
+
+to radial orbit error. While it is a slight improvement over the overall radial error,
+
+the high elevation statistics agree that while GRACE radial error comes close to the
+
+1-cm level, it does not achieve it.
+
+R (cm) T (cm) N (cm) 3D (cm)
+
+DC (TSVD)
+1.45 2.54 1.20 3.17
+
+GP (TSVD)
+1.42 2.53 1.18 3.13
+
+RB (cm) TB (cm)
+
+RB/TB > 60
+1.62 2.12
+
+Table 4.1: GRACE-A orbit error RMS statistics for a three-year span
+
+R (cm) T (cm) N (cm) 3D (cm)
+
+DC (TSVD)
+1.53 2.71 1.28 3.37
+
+GP (TSVD)
+1.43 2.71 1.25 3.31
+
+RB (cm) TB (cm)
+
+RB/TB > 60
+1.53 2.37
+
+Table 4.2: GRACE-B orbit error RMS statistics for a three-year span
+
+It should again be noted that the values in Tables 4.1-4.2 are not exact values of orbit error, but rather a close estimate in an average sense over the span of three years.
+
+4.2 Pairwise Differences Statistics
+Differencing independently computed ephemerides supplies another assessment of orbit error. The RMS statistics of the differences between the dynamic, kinematic and reduced-dynamic are shown in Table 4.3. Only GRACE-A is shown
+48
+
+because there are no significant differences between GRACE-A and GRACE-B in the pairwise differencing.
+
+Table 4.3 indicates that the differences between the dynamic and reduceddynamic orbit (D-RD) are on the centimeter level. Since the two ephemerides were generated by independently developed algorithms, this statistic lends confidence to the supposition that the GRACE orbit error is on the centimeter level. Comparing the RMS values of the D-RD differences to the GRACE error solutions in Section 4.1, it is clear that the two statistics do not reflect each other. The D-RD pairwise differences are consistently and significantly smaller than the GRACE error. This indicates that there are commonalities between the dynamic and reduced dynamic orbits that get differenced out. Despite differences between the two orbits in terms of parameterization and GPS observables (double-differenced vs single differenced), a similar suite of force models is used for both and is likely the cause of these common-mode errors.
+
+The pairwise differences involving the kinematic orbit appear are too large and considered an outlier. This is due to the issues with the interpolation of 30-s trajectories as well as the prevalence of data gaps in the kinematic orbit ephemeris.
+
+R (cm) T (cm) N (cm) 3D (cm)
+
+D-RD 0.82 1.38 0.90 1.84
+
+GRACE-A
+K-D 2.26 4.49 1.96 5.40
+
+K-RD 2.35 4.39 1.86 5.31
+
+D-RD 0.75 1.30 0.91 1.76
+
+GRACE-B
+K-D 2.72 4.49 2.15 5.67
+
+K-RD 2.73 4.39 2.02 5.55
+
+Table 4.3: Pairwise differences RMS statistics for a span of one-year
+
+49
+
+4.3 Orbit Overlaps as a Validation Tool
+The arc length used in the OD process can affect orbit accuracy­if an arc is too short then observation errors become more important, and conversely, if the arc is too long then force model errors become dominant. The orbit arc length of 24 hours has proved to be appropriate for gravity field determination from GRACE and is consistently used. Therefore, to generate orbit overlaps for the GRACE mission, 30 hour arcs were generated using MSODP. This allows for 6 hour overlap arcs from which to glean statistics. An arc overlap example from GRACE in the R, T, and N components is shown in Figures 4.1-4.3.
+In other studies involving the generation of overlap statistics [7][4][25], it is said that the ends of the arc contain "edge effects", and consequently, the ends are removed from analysis. Edge effects are also referred to as the "butterfly" or "bowtie" effect. For more information on the representation of the butterfly pattern, see Appendix.
+50
+
+Figure 4.1: Arc Overlap: Radial
+Figure 4.2: Arc Overlap: Transverse 51
+
+Figure 4.3: Arc Overlap: Normal Component
+The objective of this section is to generate the orbit overlap statistics for GRACE and to determine whether edge effects exist and if so, to what extent.
+4.3.1 Single Point Differences The UTCSR dynamic orbits are generated in 1-day arcs and each arc in-
+cludes one epoch that coincides with the following day. Adjacent days use different sets of GPS observations in their OD process, so the shared epoch is generated independently from one day to the next. The error contained in an arc will be dependent on the distribution and strength of the observations within that arc. Since the end points are constrained by data only on one side, they tend to have more error than points within the fit interval. This larger error, which would seem to give an overly pessimistic estimate of the orbit error, compensates to some degree for commonmode errors. How well this approximates the overall orbit error for the arc depends
+52
+
+on the extent of edge effects.
+
+Differencing the trajectory at the single shared point between days reflects the effects of force and observation model errors along with the nature of the empirical parameters being adjusted. If edge effects are not present to a large degree then the single point differences should reflect the precision of the orbit solutions when averaged over a sufficiently long time interval. Note that only the dynamic orbit single points differences are generated because the reduced-dynamic orbits from the JPL Level-1B products have single point overlaps that are engineered to be identical.
+
+Single point differences for one day arcs were taken for a years worth of
+
+orbits generated by MSODP and the RMS was calculated in the RTN frame. The results are shown in Table 4.4.
+
+R (cm) T (cm) N (cm)
+
+GRC-A
+2.89 2.70 1.14
+
+GRC-B
+2.98 2.85 1.18
+
+Table 4.4: Single point differences for one year
+
+Table 4.4 shows values that are greater than the accuracy that GRACE is believed to have, especially in the radial and transverse components. The relatively poor performance of the single point differences warrants a look into the possibility of edge effects.
+
+53
+
+4.3.2 Effect of Perturbed Initial Conditions on Orbital Elements
+The state transition matrix (STM) is a mapping of the state deviations from any time ti to time tk, where ti is typically the initial epoch of the orbit being computed. Since orbit determination routines adjust initial conditions and estimated parameters until convergence criteria are met, the STM can show how the adjustment of parameters impacts the orbit solution.
+The analytical form of the state transition matrix of a force model set that only includes the effects of J2 is shown in Eq. 4.1. The elements of FJ2 show the incremental change in rate of the orbital elements due to J2.
+
+2 FJ2 = 66666666664
+
+1
+
+0
+
+0
+
+7 2
+
+a0w¯ 0Dt
+
+7 2
+
+a0
+
+W¯ 0Dt
+
+3n 2a0
+
+7M¯ 0 4a0
+
+Dt
+
+0
+
+1
+
+0
+
+4e0 w¯ 0
+
+(1 e0
+
+W¯e020
+
+)
+
+(1 e20)
+
+Dt Dt
+
+3e0 2(1
+
+M¯ 0 e20)
+
+Dt
+
+3
+
+0
+
+000
+
+0
+
+1
+
+5sin(2i0 )w¯ 0 1 5cos2(i0)
+
+Dt
+
+tan(i0)W¯ 0Dt
+
+2sin(2i0)M¯ 0 1 3cos2(i0)
+
+Dt
+
+0 0 1
+0
+0
+
+0 0 0
+1
+0
+
+000077777777775 1
+
+where
+
+(4.1)
+
+w¯0 = W¯ 0 = M¯ 0 =
+
+42(1((11332nnneJJJ220ee22)202032))212RaRaRa0e0e0e222c11os(3i50c)cooss22((i0i0))
+
+54
+
+The deviation in the initial conditions is mapped as shown in Eq. 4.2. Looking at the form of the STM in Eq. 4.1, it can be seen that an adjustment to the initial conditions is equivalent removing a mean in a, e, and i, while an additional secular component is also removed in w, W and M.
+
+2 Da(t) 3
+
+2 Da0 3
+
+6666664
+
+De(t) Di(t) Dw (t ) DW(t)
+
+7777775
+
+=
+
+FJ2
+
+6666664DDDDWwei0000
+
+7777775
+
+(4.2)
+
+DM(t)
+
+DM0
+
+The perturbing accelerations due to drag are notoriously difficult to model
+
+accurately, and thus a drag coefficient Cd is commonly estimated in OD routines. In order to see the effects of adjusting initial conditions and the parameter of the drag
+
+coefficient, the STM including drag was computed numerically. A set of perturbed initial conditions was applied Da = [Da0, De0, Di0, Dw0, DW0, DM0, DCd] along with
+
+a slightly perturbed drag coefficient value, and the resulting error in the orbital
+
+elements is shown in Figure 4.4.
+
+55
+
+Figure 4.4: Error in state due to perturbing effects of J2, drag, and adjusted initial conditions
+In FJ2 , a perturbation in the initial orbital elements a0 and e0 caused a constant deviation in a(t) and e(t). When the initial conditions are adjusted under this parameterization, it is equivalent to fitting and removing a mean. Moving to parameterization of a drag coefficient with the STM, Fdrag, an adjustment to a0 and DCd now results in a linear trend in a(t). (4.4). Adjusting the initial conditions and drag parameters under this level of parameterization is equivalent to removing this linear trend. The implications of the removal of a linear trend due to parameter estimation is that the error at the ends of the data span with the removed trend will stay low.
+Since the drag coefficient along with two empirical accelerations are ad-
+56
+
+justed once per revolution in MSODP it prevents error from accumulating in a secular fashion. This has the effect of decreasing the edge effects.
+
+4.3.3 6-hour Overlaps
+
+In order to address the extent of remaining edge effects, six hour orbital overlaps were computed for a years worth of dynamic orbits. Table 4.5 shows the RMS statistics in terms of the RTN components for both the full six hour overlap and the central five hours of the overlap. The statistics represent the overlaps after outliers were removed in a three sigma editing process. Some improvement is seen in using the central five hours, but it is not significant. This is in line with the previous claim that the butterfly effect is reduced, but not entirely eliminated.
+
+R (mm) T (mm) N (mm)
+
+6 hours
+3.13 7.30 6.52
+
+5 hours
+2.75 7.16 6.44
+
+Table 4.5: 6 hour overlap RMS statistics for GRACE-A
+
+The statistics in Table 4.5 are very optimistic, and it is highly unlikely that they represent GRACE orbit error. Additionally, the five and six hour overlap statistics are significantly different from the RMS values of the single point differences and the SLR statistics computed in Chapter 3. The reasons for the disparity between overlap statistics and single point differences is not investigated further here but points to its inadequacy in representing orbit error. However, the 6-hr overlaps can be considered a measure of orbit consistency.
+
+57
+
+4.4 Millimeter Level Orbits
+Three estimation routines were developed in Chapter 3 to assess GRACE's centimeter level error. Applying these methods to assess millimeter level statistics can provide insight on the ability of current orbit validation techniques to validate millimeter level orbits for the GRASP mission [26].
+To create a millimeter level reference test, two dynamic orbits were generated using MSODP. Due to the results in the previous section that showed that three years worth of observations are not necessary for good error statistics, the two dynamic orbits were generated for one year time spans. These orbits differed by the introduction of time variable gravity field models in one orbit solution and not in the other, which results in differences on the millimeter level. The two orbits will be referred to as M (models) and NM (no models). Thus, the residual y in Eq.3.21 will now be the difference of the residuals of the M and NM orbits.
+The results of each method of estimation for the millimeter level orbits are shown in Table 4.6. While the estimates are not far from the reference values, they are not precise enough to trust. This applies to both the B/TB estimates as well as the DC and GP. No estimation method thus far does a good job of representing the millimeter level error. This indicates that the already difficult problem of high accuracy orbit validation will be all the more challenging for missions like GRASP, who set a goal for millimeter level accuracy.
+58
+
+R (mm) T (mm) N (mm) 3D (mm)
+
+Actual
+1.43 1.70 1.48 2.67
+
+Obs Times
+1.46 1.47 1.42 2.51
+
+DC (TSVD)
+0.95 1.32 0.89 1.86
+
+GP (TSVD)
+1.08 1.27 1.07 1.98
+
+RB (mm) TB (mm)
+
+RB/TB
+1.30 2.80
+
+Table 4.6: One year RMS differences for GRACE-A
+
+59
+
+Chapter 5
+Conclusion
+5.1 Concluding Remarks
+This study was designed to explore the methods of validating high accuracy orbits using SLR residuals. The main obstacle to the use of SLR is its sparse coverage, and for GRACE full geometric sky coverage with respect to laser ranging stations can take an extended amount of time. This will apply to all LEO satellites. However, RMS results for the R, T, and N components of error for one year compared to three years indicated that analyzing three years worth of SLR data does not provide a substantial increase in accuracy in the results from any of the analysis methods. Orbit error statistics for short time spans cannot be generated using SLR due to the amount of data necessary to sample a sufficient statistical sampling. The error generated by any of the methods over a given time period can only be considered error in an average sense.
+The GRACE mission was the focus of this study, and three validation methods were applied to assess its orbit accuracy. The pseudo GP method resulted in a slightly better representation of orbit error as compared to the other two methods introduced in Chapter 3. It captured the three dimensional error very well in Tables 3.3 and 3.4. The other two methods were the direction cosine, which was derived as an independent test of validation of the ad-hoc RB/TB method, and the RB/TB
+60
+
+method. RB/TB is currently in use at UTCSR for validating GRACE orbits, so by comparing it against the results of the other two methods, the RB/TB procedure was validated. The RB/TB method was shown to be a first order approximation to the pseudo GP method, and its results for passes at high elevations (> 60 ) represent the orbit error statistics.
+The assumption made by the RB/TB method (cos(DM)  1) is well-suited to the relatively short passes of the GRACE satellites. It is possible that this assumption may provide a different level of effectiveness for satellites with higher altitudes and longer passes. The average GRACE pass lasts roughly two minutes, so this can be used as a reference.
+After validating the accuracy assessment methods in Chapter 3, they were applied to the GRACE orbit error statistics. Using the SLR observations and the dynamic orbit trajectories over the course of three years, the RMS orbit error for GRACE was generated in Chapter 4. According to all methods, the radial orbit error is close to 1.5 cm for GRACE-A and B, while the three dimensional orbit error is about 3 cm. Considering these values, it is highly unlikely that GRACE has achieved the 1-cm benchmark.
+The orbit overlap statistics generated in Chapter 4 indicate that 6-hour overlaps are not representative of orbit accuracy and should only be used as a measure of orbit consistency. Additionally, the single point differences are too large to be considered an accurate representation of orbit error. It is possible that what remains of the edge effects is large enough to skew the single point differences RMS values. Therfore, single point differences should not be used as a measure of orbit error.
+61
+
+Appendix
+62
+
+Algorithms
+Calculation of Azimuth and Elevation
+The azimuth and elevation are calculated as shown in [27] starting with the slant range, r ECEF , in the ECEF frame. From there, the components are rotated into the SEZ frame.
+
+r SEZ = R2(90 fgd)R3(l )r ECEF
+where fgd is the geodetic latitude of the ground station and l is the longitude of the ground station, and R2 and R3 are single axis rotations about the y and z axis, respectively.
+
+2cos(q ) 0 R2(q ) = 4 0 1
+sin(q ) 0
+
+sin(q
+
+3 )
+
+05
+
+cos(q )
+
+2 cos(q )
+
+sin(q )
+
+3 0
+
+R3(q ) = 4 sin(q ) cos(q ) 05
+
+0
+
+01
+
+The azimuth (b ) and elevation (q ) can now be computed as,
+
+q
+
+q
+
+=
+
+sin
+
+1(
+
+rz r
+
+)
+
+=
+
+cos
+
+
+1
+
+rS2 + rE2  r
+
+63
+
+b
+
+=
+
+sin
+
+ 1q
+
+rE
+
+
+
+
+
+= cos 1 q
+
+rS
+
+
+
+rS2 + rE2
+
+rS2 + rE2
+
+ECI to RTN Coordinate Frame
+The calculation for the RTN components from ECI is shown in
+
+e^r
+
+= rECI rECI
+
+e^n
+
+= rECI ||rECI
+
+ 
+
+vECI vECI ||
+
+(1)
+
+e^t =e^r  e^n
+
+The above unit vectors form a rotation matrix RRETCNI such that
+
+rRT N = RRETCNI rECI
+
+(2)
+
+Savitsky Golay Filter
+k
+Consider a polynomial of order k, such that y = Â cixi. Given local samples
+i=0
+of x and y, a change of variables is first required to put x = 0 at the center of the
+sample. The SG filter typically requires an odd numbered sample, which makes the
+change of variable equivalent to Eq. 3.
+
+n
+
+Âx j + 1
+
+zi = xi
+
+j
+2
+
+(3)
+
+64
+
+where i = 1..n. This assumes that the vector x has n elements, evenly spaced such that xn xn 1 = Dx. As an example of this change of variable, if five numbers are supplied such that x = [1, 2, 3, 4, 5] are supplied, then z = [ 2, 1, 0, 1, 2]. The polynomial is then,
+
+y = co + c1z + c2z2 + ...ckzk
+
+To solve for the coefficients by least squares, the matrix of partial deriva-
+
+tives, A, must be formed by taking the derivative with respect to the coefficients
+
+y cj
+
+,
+
+j
+
+= 1, 2...k.
+
+2 1
+A = 66666641...
+
+z1 z2 .
+
+z21 z22 .
+
+... ...
+.
+
+zzk1k237777775
+
+1
+
+zkn
+
+This can be solved by least squares where y = Ac^, where
+
+c^ = AT A 1AT y
+This will provide the smoothed filter coefficients on the first row of the c matrix, the first derivative filter coefficients on the second row, and so on. It should be noted that the derivatives are the derivatives of the smoothed function. Those filter coefficients can be used to provide a solution at the point in the polynomial where x = 0, or the center of local samples provided to the SG filter. When calcu-
+
+65
+
+lating
+
+derivatives
+
+of
+
+order
+
+greater
+
+than
+
+one,
+
+the
+
+scaling
+
+factor
+
+k! hn
+
+must
+
+be
+
+applied,
+
+where k is the derivative order being calculated and h is the step interval.
+
+Truncated Singular Value Decomposition
+Singular value decomposition (SVD) is a method of breaking down a matrix similar to eigendecomposition, but it is more versatile since it can be applied to both square and rectangular matrices while eigendecomposition can only be applied to square matrices. SVD is useful because of its ability to decompose a matrix into modes that explain dominant variability in a data set.
+The decomposition of a matrix A using SVD is
+
+H = USV T
+
+(4)
+
+where A is (m  n), U is (m  m), S is (m  n), and V is (n  n) for the full SVD. H and V are orthogonal matrices containing the singular vectors of H in their columns. Eq. 4 can be rewritten in the form of a summation of column vectors,
+
+H
+
+=
+
+Sn si
+i=1
+
+ui
+
+vTi
+
+A full rank matrix would have rank equal to n . The truncated SVD is used when a matrix is rank deficient or nearly rank deficient and evaluates the summation up to a rank k where k < n.
+
+H = i=Sk1siuivTi 66
+
+To evaluate the least squares solution using TSVD, the orthogonality of U and V allows them to be introduced into the least squares cost function as shown in Eq. 5.
+
+||Hx y||2 = ||UT (HVV T x y)||2
+
+(5)
+
+Rewriting,
+
+||Hx y||2 =
+
+S 0
+
+0 0
+
+z
+
+c2
+
+(6)
+
+
+
+
+
+where, z = V T x =
+
+z1 z2
+
+and c = UT y =
+
+c1 c2
+
+. Expanding Eq. 6,
+
+||Hx y||2 = Sz1 c1||2 + ||c2 2 It is clear that minimization occurs when z1 = S 1c1 or equivalently,
+
+x^ = V S 1UT y
+
+x^
+
+=
+
+Sk
+i=1
+
+uTi y si
+
+vi
+
+(7)
+
+Eq. 7 is the least squares solution for TSVD where k is the reduced rank.
+
+Interpolation Error for Kinematic Orbits
+The results of Kinematic-Dynamic orbit differences after interpolation for one day are shown in the following Figure.
+67
+
+Hills Equations
+In the orbit determination process, any perturbing accelerations with a frequency that is some integer multiple of the mean motion n0 will exhibit resonance. Secular and quadratic effects are due to zero frequency components while the sinusoidal motion is due to the n0 frequency [25]. The effect of small perturbing forces on orbit error can be examined by looking at Hill's equations. Starting with the linearized Hill's equation in the RTN frame,
+
+DR¨ = DaR n20DR
+
+DT¨ = DaT 2n0DN
+
+(8)
+
+DN¨ = DaN + 3n20DN + 2n0DT
+
+The solution can be found for the case where the disturbing accelerations,
+
+68
+
+DaR, DaT , DaN are zero. Recognizing that GRACE has a nearly circular orbit, the
+
+mean
+
+motion
+
+can
+
+be
+
+defined
+
+as
+
+n0
+
+=
+
+q
+
+µ r03
+
+,
+
+which
+
+makes
+
+the
+
+homogeneous
+
+solution,
+
+DR(t)
+
+=
+
+DRocos(not
+
+)
+
++
+
+DRo no
+
+sin(not
+
+)
+
+DT (t)
+
+=
+
+2 no
+
+DN ocos(not
+
+)
+
++
+
+4 no
+
+DTo
+
++
+
+6DNo
+
+sin(not) +
+
+DTo
+
+2 no
+
+DN o
+
+3DTo + 6noDNo t
+
+DN(t)
+
+=
+
+DN o no
+
+sin(not
+
+)
+
+2 no
+
+DTo
+
++
+
+3DNo
+
+cos(not) +
+
+2 no
+
+DTo
+
++
+
+4DNo
+
+where DR0, DNo, DTo and DR0, DT0 and DN0 are constants representing the initial position and velocity perturbation. If the disturbing accelerations are not zero, but instead exist due to gravitational or non-gravitational forces (drag or solar radiation pressure), then the resulting solution to Eq. 8 is of the form
+
+DR(t) = (AR + BRt)sin(n0t) + (CR + DRt)cos(n0t) + ER
+
+DT (t) = (AT + BT t)sin(n0t) + (CT + DT t)cos(n0t) + ET + FT t
+
+(9)
+
++GT t2
+
+DN(t) = (AN + BNt)sin(n0t) + (CN + DNt)cos(n0t) + EN + FNt
+
+where A, B,C, D, E, F, and G contain terms related to the amplitude of the disturbing acceleration and the satellite initial conditions as well as the critical frequencies (n0 and zero). The full form of the function can be found in [25].
+To show that Eq. 9 is an accurate representation of orbit error, two orbits are generated with identical force models but different initial conditions. One orbit has
+
+69
+
+initial conditions perturbed by a few millimeters from the 'truth', and the difference between the two is shown in Figure .1. Fitting Eq. 9 to the differenced orbit results in Figure .2. From Figure .2 it can be seen that the resonant force of Hill's equations adequately fit the error due to perturbed initial conditions.
+Figure .1: Orbit error due to perturbed initial conditions
+70
+
+Figure .2: The fit of orbit error to the forced Hill's Equations 71
+
+Figure .3: Original orbit error with contribution from resonant error removed 72
+
+Bibliography
+[1] R. Neubert, L. Grunwaldt, and J. Neubert. The Retro-Reflector for the CHAMP Satellite: Final Design and Realization. [Online]. Available: ilrs.gsfc.nasa.gov/docs/rra_champ.pdf
+[2] W. Melbourne, "The GPS Flight Experiment on TOPEX/Poseidon," Geophysical Research Letters, vol. 21, 1994.
+[3] A. Jäggi, G. Beutler, H. Bock, and U. Hugentobler, "Kinematic and Highly Reduced-Dynamic LEO Orbit Determination for Gravity Field Estimation," in Dynamic Planet, ser. International Association of Geodesy Symposia, P. Tregoning and C. Rizos, Eds. Springer Berlin Heidelberg, 2007, vol. 130, pp. 354­361.
+[4] B. Haines, W. Bertiger, S. Desai, T. Munson, L. Young, and P. Willis, "Initial Orbit Determination Results for Jason-1: Towards a 1-cm Orbit," in Proceedings of the Institution of Navigation, 2002.
+[5] Z. Kang, P. Nagel, and R. Pastor, "Precise Orbit Determination for GRACE," Advances in Space Research, vol. 31, no. 8, pp. 1875­1881, 2003.
+[6] S. Luthcke, D. Rowlands, F. Lemoine, N. Zelensky, and T. Williams, "The SLR Contribution to Precise Orbit Determination in the GPS Era," 13th International Workshop on Laser Ranging, 2002.
+73
+
+[7] Z. Kang, B. Tapley, S. Bettadpur, J. Ries, and P. Nagel, "Precise Orbit Determination for the GRACE Mission Using Only GPS Data," Journal of Geodesy, 2006.
+[8] S. Luthcke, D. Rowlands, F. Lemoine, N. Zelensky, and T. Williams, "The 1-Centimeter Orbit: Jason-1 Precision Orbit Determination Using GPS, SLR, DORIS, and Altimeter Data," Marine Geodesy, vol. 26, 2003.
+[9] H. Bock, A. Jaggi, G. Beutler, and U. Meyer, "GOCE: Precise Orbit Determination for the Entire Mission," Journal of Geodesy, vol. 88, pp. 1047­1060, 2014.
+[10] B. Tapley, S. Bettadpur, M. Watkins, and C. Reigber, "The Gravity Recovery and Climate Experiment: Mission Overview and Early Results," Geophysical Research Letters, vol. 310, no. 9, 2004.
+[11] C. Dunn, W. Bertiger, Y. Bar-Sever, S. Desai, B. Haines, D. Kuang, G. Franklin, I. Harris, G. Kurizinga, T. Meehan, S. Nandi, D. Nguyen, T. Rogstad, J. Thomas, J. Tien, L. Romans, M. Watkins, S. Wu, and S. Bettadpur, "Instrument of GRACE: GPS Augments Gravity Measurements," GPS World, vol. 14, no. 2, pp. 16­28, 2003.
+[12] J. Wahr, S. Swenson, V. Zlotnicki, and I. Velicogna, "Time-variable gravity from GRACE: First results," Geophysical Research Letters, vol. 31, no. 11, June 2004.
+[13] P. Touboul, B. Foulon, M. Rodrigues, and J. Marque, "In orbit nano-g measurements, lessons for future space missions," Aerospace Science and Tech-
+74
+
+nology, vol. 8, pp. 431­441, January 2004. [14] H. J. Rim, "Topex Orbit Determination Using GPS Tracking System," Ph.D.
+dissertation, University of Texas at Austin, 1992. [15] K. Case, G. Kurizinga, and S. Wu. GRACE Level 1b Data Product
+User Handbook. [Online]. Available: http://podaac.jpl.nasa.gov/grace/ documentation.html [16] B. Schutz, B. Tapley, and G. Born, Statistical Orbit Determination. Elsevier Academic Press, 2004. [17] N. Zelensky, F. Lemoine, M. Ziebart, A. Sibthorpe, P. Willis, B. Beckley, S. Klosko, D. Chinn, D. Rowlands, S. Luthcke, D. Pavlis, and V. Luceri, "DORIS/SLR POD Modeling Improvements for Jason-1 and Jason-2," Advances in Space Research, pp. 1541­1558, 2010. [18] G. Appleby, V. Luceri, and T. Otsubo. Further improvements in understanding systematic errors in further Improvments in Understanding Systematic Errors in Laser Ranging Observations. [Online]. Available: http://cddis.gsfc.nasa.gov/lw17/docs/presentations/session6/02-Appleby.pdf [19] U. Meyer, Personal communications, 2015. [20] D. Hobbs and P. Bohn, "Precise Orbit Determination for Low Earth Orbit Satellites," Marie Curie Fellowship Association, vol. 4, 2005.
+75
+
+[21] W. Guier, "Studies on Doppler Residuals-I: Dependence on Satellite Orbit Error and Station Position Error," Applied Physics Laboratory, Tech. Rep., 1963.
+[22] C. Dunnell, P. Ferriter, G. Gebel, H. Hopfield, M. Schaefer, and S. Yionoulis, "National Geodetic Satellite Program." NASA Astrophysics Data System SP-365, 1977, ch. 2, pp. 87­136.
+[23] W. Guier and R. Newton, "The Earth's Gravity Field as Deduced from the Doppler Tracking of Five Satellites," Journal of Geophysical Research, vol. 70, no. 18, pp. 4613­4626, 1965.
+[24] S. Bettadpur. (2012) UTCSR Level-2 Processing Standards Document, grace 327-742. [Online]. Available: ftp://podaac.jpl.nasa.gov/allData/grace/docs/ L2-CSR0005_ProcStd_v4.0.pdf
+[25] O. Colombo, "Notes on the Mapping of the Gravity Field Using Satellite Data," in Mathematical and Numerical Techniques in Physical Geodesy, ser. Lecture Notes in Earth Sciences, H. Sunkel, Ed. Springer-Verlag, 1986.
+[26] Y. Bar-Sever, B. Haines, W. Bertiger, S. Desai, and S. Wu. (2011) Geodetic Reference Antenna in Space (GRASP) - A Mission to Enhance Space-Based Geodesy. [Online]. Available: ilrs.gsfc.nasa.gov/docs/GRASP_COSPAR_ paper.pdf
+[27] D. Vallado, Fundamentals of Astrodynamics and Applications, 4th ed. Microcosm Press, 2013.
+76
+
+

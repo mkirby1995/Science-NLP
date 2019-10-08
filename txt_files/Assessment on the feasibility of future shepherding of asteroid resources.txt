@@ -1,0 +1,1245 @@
+Acta Astronautica 73 (2012) 49­66
+Contents lists available at SciVerse ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+
+Assessment on the feasibility of future shepherding of asteroid resources$
+J.P. Sanchez n, C.R. McInnes
+Advanced Space Concepts Laboratory, University of Strathclyde, UK
+
+article info
+Article history: Received 2 February 2011 Received in revised form 25 October 2011 Accepted 5 December 2011 Available online 23 December 2011
+Keywords: Asteroid exploitation Asteroid mining Space utilisation Near-Earth objects Near-Earth asteroids
+
+abstract
+Most plausible futures for space exploration and exploitation require a large mass in Earth orbit. Delivering this mass requires overcoming the Earth's natural gravity well, which imposes a distinct obstacle to any future space venture. An alternative solution is to search for more accessible resources elsewhere. In particular, this paper examines the possibility of future utilisation of near Earth asteroid resources. The accessibility of asteroid material can be estimated by analysing the volume of Keplerian orbital element space from which Earth can be reached under a certain energy threshold and then by mapping this analysis onto an existing statistical near Earth objects (NEO) model. Earth is reached through orbital transfers defined by a series of impulsive manoeuvres and computed using the patched-conic approximation. The NEO model allows an estimation of the probability of finding an object that could be transferred with a given Dv budget. For the first time, a resource map provides a realistic assessment of the mass of material resources in near Earth space as a function of energy investment. The results show that there is a considerable mass of resources that can be accessed and exploited at relatively low levels of energy. More importantly, asteroid resources can be accessed with an entire spectrum of levels of energy, unlike other more massive bodies such as the Earth or Moon, which require a minimum energy threshold implicit in their gravity well. With this resource map, the total change of velocity required to capture an asteroid, or transfer its resources to Earth, can be estimated as a function of object size. Thus, realistic examples of asteroid resource utilisation can be provided.
+& 2011 Elsevier Ltd. All rights reserved.
+
+1. Introduction
+Any envisioned future for space exploration involves both a growth in large space structures and human presence in space. Some possible examples are space solar power, space tourism or more visionary human space settlements. This, of course, implies a much larger mass of material in-use in space, for both structural mass and life support. The traditional approach to deliver
+$ This paper was presented during the 61st IAC in Prague. n Corresponding author. Tel.: þ44 141 548 5752.
+E-mail addresses: jpau.sanchez@strath.ac.uk (J.P. Sanchez), colin.mcinnes@strath.ac.uk (C.R. McInnes).
+0094-5765/$ - see front matter & 2011 Elsevier Ltd. All rights reserved. doi:10.1016/j.actaastro.2011.12.010
+
+material into orbit has always been overcoming the Earth's gravity well, which is, arguably, not the most effective means if we bear in mind, for instance, that the energy cost to reach low Earth orbit (LEO) is already ``halfway to anywhere''.1
+Asteroids and comets, and more particularly, nearEarth objects (NEOs), have long been recognised as possible alternative sources of material in space, and have been targets of speculative science on future space exploitation [1,2]. These small celestial bodies have been identified as possible reservoirs of useful materials such
+1 ``Once you get to Earth orbit, you're halfway to anywhere in the solar system''--Robert A. Heinlein.
+
+50
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+as water, metals and semiconductors. Asteroids are also of strategic importance in uncovering the formation, evolution and composition of the solar system and, in particular, NEOs have risen in prominence because they are among the easiest celestial bodies to reach from the Earth and they may represent a long-term planetary threat [3]. The growing interest in these objects has translated into an increasing number of missions to NEOs, such as the sample return missions Hayabusa [4] and Marco Polo [5], impactor missions such as Deep Impact2 and possible deflector demonstrator missions such as Don Quixote.3
+With regard to asteroid impact hazard and its mitigation, a range of methods have been identified as able to provide a change in the asteroid linear momentum [6]. Some of these methods, such as the kinetic impactor or the low-thrust propulsion tugboat, may be argued to require shorter technology development than other more complex means to alter the momentum of the asteroid, such as the solar collector, simply because they are based on technologies that have been flown before. Thus, it is not inconceivable to think that methods such as the kinetic impactor or the low-thrust tugboat may become the first available technologies to produce small changes to the orbits of asteroids. Assuming then that some of these deflection technologies may be available in future, not only Earth-threatening objects could be nudged away from their collision trajectories, but also resource-rich asteroids may potentially be manoeuvred and captured into a bound Earth orbit through judicious use of orbital dynamics. Even if direct transfer of the entire NEO is not possible, or necessary, at least extracted resources could still be transferred to a bound Earth orbit for utilisation.
+The main advantage of asteroid resources is that the gravity well from which materials would be extracted is much weaker than that of the Earth or the Moon. Thus, these resources could in principle be placed in a weaklybound Earth orbit for a lower energy cost than material delivered from the surface of the Earth or Moon. A myriad of different materials could then be transported and utilised in space. Water and other volatiles, for example, could potentially be extracted from hydrated carbonaceous asteroids and be utilised for life support and propellant [7]. Humans need approximately 3 l of water daily. Even if a significant fraction of this water is recycled, current water recycling systems require periodic resupply. Water and other volatiles could also be used as a rocket propellant. The possibility of stationing orbital refuelling depots, for example at the Lagrangian L2 point, to fuel interplanetary missions towards Mars and the outer planets may reduce mission costs enormously. Another interesting use of water is for radiation shielding purposes, for which it is known to have a high efficiency. Metals for space structures or semiconductors for electronics applications should also be found in specific asteroid classes. Even for highly processed materials such as silicon wafers for solar cells, the launch costs are still
+2 http://www.nasa.gov/mission_pages/deepimpact/main/index. html.
+3 http://www.esa.int/SPECIALS/NEO/SEMZRZNVGJE_0.html.
+
+the largest cost fraction of its use in space. Rare metals, such as the platinum group metals, could potentially even find interest also in terrestrial markets due to their relative scarcity. Finally, even raw unprocessed material may be of value for radiation shielding.
+The question that arises then is how much near-Earth asteroid material is there which can be captured with a modest investment of energy. Modest investment refers here to an energy cost much lower than that required to transport resources from Earth or the Moon. The answer to this question may provide some insight on the general feasibility of asteroid exploitation and mining concepts. The paper will then attempt to answer this by analysing the volume of Keplerian orbital element space from which Earth can be reached under a certain limit of orbital transfer energy, and then mapping this analysis to the near Earth asteroid population. The resulting resource map provides an accurate assessment of the amount of material resources of near Earth space to be expected as a function of energy investment.
+The population of near-Earth objects, described in Section 2, is modelled in this paper by means of an object size distribution together with an orbital element distribution function. The size distribution is defined via a power law relationship between the asteroid diameter and the total number of asteroids with size lower than this diameter [8]. On the other hand, the orbital distribution used in this paper will rely on the Bottke et al. [9] asteroid model to estimate the asteroid density to be expected in a given region of the Keplerian elements space.
+The dynamical model used to study the Keplerian semi-major axis a, eccentricity e, inclination i orbital element space {a,e,i} of asteroid-to-Earth transfers assumes a circular Earth orbit with a 1 AU semi-major axis. The Sun is the central body for the motion of the asteroid, and the Earth's gravity is only considered when the asteroid motion is in close proximity. Since the orbital transfers will be modelled as a series of impulsive changes of velocity, for some conditions, analytical formulae relate the total change of velocity with the region of Keplerian space that can be reached.
+Two different transfer models are included in this paper, and described in Section 3. Firstly, a phase-free two-impulse transfer, which is composed of a change of plane manoeuvre and a perigee capture manoeuvre at Earth encounter. This transfer, as with a Hohmann transfer analysis, provides a good conservative estimate of the exploitable asteroid material. Secondly, a phase-free oneimpulse transfer, which only considers a perigee capture manoeuvre during the Earth fly-by. In this second case, only orbits that have initially very low Minimum Orbital Intersection Distances (MOID) can be captured. The MOID is the minimum possible distance between the Earth and the asteroid considering free-phasing for both objects. Finally, an estimation of the phasing manoeuvre required to meet the Earth at the orbital intersections will also be included on the transfer sequence.
+Section 4 will examine the accessibility of asteroids by analysing the statistical average size of the thousand first largest objects expected to be found within a given Dv transfer to Earth. Section 4, as well as previous sections,
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+51
+
+will make no distinction among the different classes of asteroids or their resources. Section 5, instead, will provide a short discussion on the implications for some key resources on the results of asteroid accessibility.
+2. Near Earth objects
+By convention, a celestial body is considered a near Earth object if its perihelion is smaller than 1.3 AU and its aphelion is larger than 0.983 AU. This is a very broad definition, which includes predominantly asteroids, but also a small percentage of comets. NEOs are then the closest celestial objects to the Earth and therefore the obvious first targets for any resource exploitation mission (excluding the Moon).
+The first near-Earth asteroid (NEA) was discovered in 1898 (433 Eros) and since then more than 7000 asteroids have been added to the NEO catalogue. Most of these objects have been surveyed during the last 20 years as a consequence of the general recognition of the impact threat that these objects pose to Earth [10]. This recognition led to a series of efforts to catalogue 90% of objects with the potential to pose a global environmental threat [11] (i.e., diameter 41 km). Subsequent recommendations suggested to pursue 90% completeness of the census of 140-m objects by 2020 [8]. The new generation of surveys such as LSST [12] or Pan-STARRS [13] are well positioned to achieve this objective.
+Together with the ever-growing catalogue of asteroids, the understanding of the origin and evolution of these objects has seen enormous advancements in recent years [14]. Still, it is not possible to know accurately the amount
+
+and characteristics of asteroid exploitable resources. However, reliable order of magnitude estimates may now provide some insight concerning the feasibility of future space resource exploitation and utilisation concepts (e.g., space-based climate engineering [15]).
+In order to determine near-Earth resource availability, a sound statistical model of the near Earth asteroid population is required. The following sections will describe an asteroid model of the fidelity necessary to allow the order of magnitude analysis. The asteroid model described is composed of two parts; a size population model, which describes the net number of asteroids as a function of object size and an orbit distribution model that describes the likelihood that an asteroid will be found in a given region of orbital element space.
+
+2.1. Near Earth object population
+
+The NEO size distribution is taken from the Near-Earth Object Science Definition report [8]. It is based on the results of a substantial number of studies estimating the population of different ranges of object sizes by a number of techniques (see Fig. 1 taken from Stokes et al. [8]). The Near-Earth Object Science Definition report provides an accumulative population of asteroids that can be expressed as a constant power law distribution function of object diameter as
+
+Nð 4 D½kmÞ ¼ CDÀb
+
+ð1Þ
+
+where C ¼942 and b¼2.354 [8]. This constant power law distribution assumes that the average 1-km diameter object has an absolute magnitude H¼17.75.
+
+Fig. 1. Accumulative size distribution of near Earth objects (from Stokes et al. [8]).
+
+52
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+Assuming a population of asteroids defined by a power law distribution such as Eq. (1), one can easily calculate the total number of objects within an upper and lower diameter range:
+
+DNðDmin o D r DmaxÞ ¼ CðDÀmbinÀDÀmbaxÞ
+
+ð2Þ
+
+where Dmax and Dmin are the maximum and minimum diameter chosen. An estimation of the total asteroid mass
+
+composed by all these objects can also be computed. To
+
+do so, the following integration needs to be performed:
+
+Z NDmin
+
+M ¼ ½DmaxÀDmin
+
+m dNð 4D½kmÞ
+
+ð3Þ
+
+NDmax
+
+where m is the mass of the asteroid and NDmin and NDmax are the number of objects bigger than Dmin and Dmax, respectively.
+
+Assuming that all asteroids have a spherical shape and
+
+an average density ra, the mass m of the asteroid can be defined by ðp=6ÞraD3 and the integration can be defined
+as an integration over the asteroid diameter
+
+Z Dmin
+
+p r M ¼ ½DmaxÀDmin
+
+D3 6 Dmax
+
+dN a dD dD
+
+ð4Þ
+
+where dN/dD is the derivative of Eq. (1) with respect the
+
+diameter D. Integrating Eq. (4), the total mass of asteroid
+
+material composed of asteroids with diameters between
+
+Dmax and Dmin results in
+
+!
+
+pr M ¼ ½DmaxÀDmin
+
+aCb Dmax3ÀbÀDmin3Àb
+
+6
+
+3Àb
+
+ð5Þ
+
+The average asteroid density ra can be approximated
+as 2600 kg/m3 (Ref. [16]). Thus, for example, Eq. (5) can yield the total mass of ``Tunguska'' size objects (i.e., from 50 m to 70 m diameter) in near Earth space as being in the order of 1014 kg [17]. More recent estimates of the population of small asteroids [11] seem to indicate a possible drop by a factor of 2/3 on the estimations given by Eq. (1) for small objects between 10 and 500 m diameter. Final results and discussion will also account for this possibility.
+Finally, if the maximum diameter is set equal to the largest near Earth object known, 1036 Ganymed, which is 32 km in diameter and the minimum object size is set at 1 m diameter, then Eq. (5) yields a total mass of 4.38 Â 1016 kg. Note that the mass of a 32-km diameter spherical object with a density of 2600 kg/m3 is already higher than the estimation yielded by Eq. (5). The reason for this is that the power law distribution (1) underestimates the number of large objects existing. Nevertheless, this result will be taken as the estimated total mass of asteroid material available in near Earth orbit space. Now, it is necessary to define the energy requirements for transporting this material to Earth orbit in order to draw conclusions concerning practical resource availability.
+
+2.2. Near Earth object orbital distribution
+This section describes the NEO orbital distribution model used to estimate the likelihood of finding an
+
+asteroid within a given volume of Keplerian orbital ele-
+
+ment space fDa,De,Di,DO,Do,DMg. This likelihood can
+
+also be interpreted as the fraction of asteroids within
+
+the specified region of the Keplerian space, and thus, if
+
+multiplied by Eq. (5), results in the portion of asteroid
+
+mass within that region. Hence, the ability to calculate
+
+this likelihood, together with the ability to define the
+
+regions of the Keplerian space from which the Earth can
+
+be reached with a given Dv budget, will later allow us
+
+to compute the asteroid resources available in near-
+
+Earth space.
+
+The NEO orbital distribution used here is based on an
+
+interpolation from the theoretical distribution model
+
+published in Bottke et al. [9]. The data used was very
+
+kindly provided by W.F. Bottke (personal communication,
+
+2009). Bottke et al. [9] built an orbital distribution of
+
+NEOs by propagating in time thousands of test bodies
+
+initially located at all the main source regions of asteroids
+
+(i.e., the n6 resonance, intermediate source Mars-crossers,
+
+the 3:1 resonance, the outer main belt and the trans-
+
+Neptunian disk). Using the set of asteroids discovered by
+
+Spacewatch at that time, the relative importance of the
+
+different asteroid sources could be best-fitted. This pro-
+
+cedure yielded a steady state population of near Earth
+
+objects from which an orbital distribution as a function of
+
+semi-major axis a, eccentricity e and inclination i can be
+
+interpolated numerically.
+
+The remaining three Keplerian elements, the right
+
+ascension of the ascending node O, the argument of
+
+periapsis o and the mean anomaly M, are assumed here
+
+to be uniformly distributed random variables. The ascend-
+
+ing node O and the argument of periapsis o are generally
+
+believed to be uniformly distributed in near Earth orbit
+
+space [18] as a consequence of the fact that the period of
+
+the secular evolution of these two angles is expected to be
+
+much shorter than the life-span of a near Earth object
+
+[19]. Therefore, we can assume that any value of O and o
+
+is equally possible for any NEO. All values of mean
+
+anomaly M are also assumed to be equally possible, and
+
+thus M is also uniformly distributed between 0 and 2p.
+
+A probability density function r(a,e,i) has been created
+
+by linearly interpolating a 3-dimensional set of data
+
+containing the probability density at semi-major axes
+
+ranging from 0.05 to 7.35 AU with a partition step size
+
+of 0.1 AU, eccentricity ranging from 0.025 to 0.975 with a
+
+partition step of 0.05 and inclination ranging from 2.5 to
+
+87.5 deg with a partition step of 5 deg. When r(a,e,i)
+
+requires a value outside the given grid of points (e.g.,
+
+inclination less than 2.51) then a nearest neighbour
+
+extrapolation is used for the dependence on semi-major
+
+axis and eccentricity, while a linear extrapolation is used
+
+for the dependence on inclination. Fig. 2 shows both the
+
+r(a,e,i) projected in the {a,e} plane and the Aten, Apollo
+
+and Amor regions.
+
+Finally, an integration such as
+
+Z Z Z amax
+
+emax
+
+imax
+
+P¼
+
+rða,e,iÞdide da
+
+ð6Þ
+
+amin
+
+emin
+
+imin
+
+will then yield the probability of finding an asteroid within the Keplerian elements defined by ½amax,amin, ½emax,emin and ½imax,imin. Section 3 will later describe
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+53
+
+Fig. 2. Theoretical Bottke et al. [9] NEO distribution. The figure shows the integrated projections of the function r(a,e,i) and a set of grid points coloured
+and sized according to the values of the NEO density.
+
+how these limits can be defined as a function of the deltavelocity budget for different transfer types.
+3. Asteroid material transfer
+This section will now describe the methodology followed to estimate the cost of transporting asteroid material to Earth. Two different scenarios are envisaged: the transport of mined material and the transport of the entire asteroid. The first scenario, the transport of mined material, requires less energy to transport resources, since less mass is transported to Earth orbit, while requires that the mining operations occur in-situ. The latter requirement results in either very long duration manned missions, with the complexity that this entails, or, if the mining is performed robotically, the need for advanced autonomous systems due to both the communication delay between asteroid and Earth and the complexity of mining operations. The second scenario, on the other hand, requires moving a large mass, with the difficulty that this involves, but allows a more flexible mining on the Earth's neighbourhood. The ultimate optimality of these two scenarios would depend on each particular asteroid (i.e., size and particular resources) and the future development of the key technologies required for such missions.
+The analysis presented here focuses on the use of Dv as a figure of merit (FoM) for the transport cost. This is also a measure of the specific energy, i.e., energy per unit of mass, required to transport material to Earth and, therefore the two envisaged transportation scenarios can benefit from the same FoM to draw conclusions about the feasibility of a mission. This section will now describe
+
+the two transfer models used to compute a preliminary estimate of the Dv of the transportation of resources. These models represent only a first order approximation of what could be a fully optimised transport trajectory and, thus, draw only sensible upper bounds to the transportation costs.
+The first transfer model assumes a two-impulse trajectory, which includes a change of plane and Earth insertion manoeuvre. Note that most of the non-coplanar Earth-crosser asteroids will not actually intersect the orbit of the Earth, or even pass close to it. Earth-crosser only refers to the fact that the asteroid has a periapsis smaller than 1 AU and apoapsis larger than that same distance. Hence a manoeuvre forcing the asteroid to intersect the orbit of the Earth is almost always necessary. For some very limited cases though, the target noncoplanar asteroid may have an orbital orientation such that by means of a near-negligible phasing manoeuvre the asteroid may encounter the Earth at the orbital intersection point (i.e., asteroids with very low MOID). These objects could be captured with one single impulsive manoeuvre during the Earth passage. These two transfer models will be defined using a patched conic approximation, thus, the motion of the asteroid, or any material resources extracted, would be dominated by the gravitational influence of the Sun, except when in a very close encounter with the Earth. The Earth is also assumed to be in a circular orbit with radius 1 AU.
+The transfer models are described as phase-free transfers. This means that the real orbital position is not taken into account, but only the geometry of the orbits is considered. Clearly, in order for an asteroid to meet the Earth during its orbital motion, not only the MOID must be very small
+
+54
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+(i.e., geometric consideration), but also Earth and asteroid must be found in a very specific location within their orbital paths. Thus, an additional manoeuvre will finally be considered in order to provide the gentle push necessary to render the required phasing at the MOID.
+
+3.1. Two-impulse transfer
+
+The first impulsive manoeuvre in this capture
+
+sequence provides the change of plane necessary to make
+
+the asteroid orbit coplanar with the Earth. Using a more
+
+complex and realistic sequence of manoeuvres, a single
+
+combined manoeuvre could provide both the required
+
+phasing and the change of plane such that an Earth flyby
+
+occurs. In that case, the asteroid transfer to Earth would
+
+not need to be coplanar with the Earth and the change of
+
+velocity necessary for the manoeuvre would be mini-
+
+mised. Unfortunately, this procedure would require a full
+
+numerical optimisation for each individual case, which
+
+would be unmanageable for the scope of this paper.
+
+A simpler approach is to consider a change of plane
+
+manoeuvre such as
+
+Dvinc ¼ 2vplX sinD2i
+
+ð7Þ
+
+where Dvinc is the impulsive change of velocity necessary to change the orbital plane by Di, and vplX is the velocity of the asteroid at the Earth-orbital plane crossing. After the Dvinc manoeuvre, the magnitude of the orbital velocity vplX remains the same, only the inclination of the orbit has changed. Eq. (7) allows a more analytical
+approach to the problem and at the same time provides
+a worst case scenario for the cost of the change of plane.
+
+3.1.1. Coplanar motion
+
+As shown in Fig. 3, an Earth-crossing coplanar asteroid has
+
+two intersections (points of MOID equal 0) with the Earth's
+
+orbit. These are found when the asteroid is at 1 AU from the
+
+Sun. Since the distance r from the Sun to the asteroid is
+
+known, the equation of the orbit in polar coordinates yields
+
+the true anomaly of the two encounters yenc:
+
+
+
+yenc ¼ 7 cosÀ1
+
+pÀ1 e
+
+ð8Þ
+
+where p ¼ að1Àe2Þ is the asteroid's semi-latus rectum and the unit length in Eq. (8), and any of the following formulas in this paper, has been normalised to 1 AU.
+
+Earth's Orbit
+
+M
+
+renc=1A.U. r
+
+Asteroid's Orbit
+
+enc
+renc=1A.U.
+
+Fig. 3. Orbital geometry of the coplanar model.
+
+With the true anomaly of the encounter yenc known, the velocity at the encounter can now be defined using the
+
+normal and radial components of Keplerian orbital motion:
+
+ver nc
+
+¼
+
+rffimffiffiffiSffiuffiffinffiffie
+p
+
+sinðyenc Þ
+
+ð9Þ
+
+vennc
+
+¼
+
+rffimffiffiffiSffiuffiffinffiffið1
+p
+
+þ
+
+e
+
+cosðyenc ÞÞ
+
+ð10Þ
+
+where vernc and vennc are the radial and normal velocity at the MOID point. Using Eq. (8) and Eqs. (9)­(10), the encounter
+
+velocity can be rewritten in a more suitable form:
+
+ver nc
+
+¼
+
+rffimffiffiffiSffiuffiffinffiffiffiðffiffieffiffi2ffiffiÀffiffiffiffiðffiffipffiffiÀffiffiffiffi1ffiffiffiÞffi2ffiffiffiÞffi
+p
+
+ð11Þ
+
+vennc ¼ pffimffiffiffiSffiuffiffinffiffipffiffiffi
+
+ð12Þ
+
+Whenever the Earth-coplanar asteroid meets the Earth
+
+at yenc, the velocity of the asteroid relative to the Earth
+
+will then be an angular
+
+ðver nc , vennc velocity
+
+ÀooÈ È¼rpencmffiffiÞffiffiSffiuwffiffinffiffi.ithThtihse
+
+Earth Earth
+
+moving at encounter
+
+conditions will result on a hyperbolic motion of the
+
+asteroid relative to the Earth with an excess velocity as
+
+v1 ¼ sffimffiffiffiSffiuffiffinffiffiffiffiffiffi3ffiffiffiÀffiffiffiffi1affiffiffiffiÀffiffiffiffi2ffiffipffiffiffiffiffipffiffiffiffiffiffiffiffi
+
+ð13Þ
+
+3.1.2. Final earth insertion
+
+If MOID is zero or almost zero, the Earth encounter
+
+could be easily tuned by a phasing manoeuvre so that the
+
+altitude during the Earth fly-by is some given minimum
+
+distance (chosen here to be 200 km) above the Earth's
+
+surface. At this minimum altitude a final insertion man-
+
+oeuvre could be performed.
+
+The notion of targeting asteroids towards the Earth
+
+may raise some concerns with regards to a possible
+
+enhancement of the impact threat. Clearly, changing the
+
+orbit of a large NEO could potentially be a threat to Earth,
+
+although engineering the orbit of large objects may also
+
+be unfeasible. Thus for this objects transferring mined
+
+resources may provide the best and only option. On the
+
+other hand, for smaller bodies the impact hazard can be
+
+mitigated since bodies of tens of metres of diameter
+
+should completely ablate in the atmosphere [20]. Thus,
+
+bodies in the order of 10 m diameter may be perfect
+
+targets for first capture demonstrator missions.
+
+A parabolic orbit is assumed here to be the threshold
+
+between an Earth-bound orbit and an Earth escape orbit.
+
+Hence, the Dv necessary for an Earth capture Dvcap at the
+
+perigee passage results in
+
+sffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi sffiffiffiffiffiffiffiffiffi
+
+Dvcap ¼
+
+2mÈ
+rp
+
+þ v21À
+
+2mÈ
+rp
+
+ð14Þ
+
+where v1 is the hyperbolic excess velocity described in Eq. (13) and rp is the pericentre altitude (i.e.,rÈ þ200 km). Finally, the sum of Eq. (7) and (14) provides the total Dv budget for a two-impulse transfer to Earth.
+
+3.1.3. Keplerian feasible regions As noted earlier, the integration in Eq. (6) yields the
+probability of an asteroid to be found within a specified
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+55
+
+Keplerian region. By rearranging Eqs. (7) and (14), we can
+
+now define the regions from which transfers to Earth cost
+
+less than a given limit Dvthr. Fig. 4, for example, shows the Keplerian region in the plane {a,e} where asteroid
+
+resources can be transfer to Earth with a total Dv equal
+
+or lower than 2.37 km/s. This Dv corresponds to the
+
+Moon's escape velocity, thus offering a direct comparison
+
+between material available at the Moon and within an
+
+equivalent energy threshold elsewhere in the solar sys-
+
+tem. Also, superimposed in the figure are almost 5000
+
+asteroids (tiny dots and small crosses), which had been
+
+surveyed by April 2010.
+
+Fig. 4 shows three different lines (solid, thick-dotted
+
+and thin-dotted line) delimiting an area in the {a,e} plane.
+
+The solid line results from expressing Eq. (14) as an
+
+explicit function of the semi-major axis a and Dvcap
+
+necessary for an Earth capture:
+
+eðDvcap,aÞ ¼ sffi1ffiffiÀffiffiffiffiffi4ffi1ffiffiaffiffiffiffiffiffiffi3ffiffiÀffiffiffiffiffi1affiffiffiÀffiffiffiffiffivffimffiffi21ffisffiffiffiffiffiffi2ffiffi
+
+ð15Þ
+
+where the hyperbolic excess velocity vN is defined as
+
+v1 ¼ v u u tffiffiffiffiDffiffiffiffivffiffifficffiaffiffipffiffiffiþffiffiffiffisffiffiffiffiffi2ffiffiffiffiffirmffiffiffiffipffiffiÈffiffiffiffiffiffi!ffiffiffiffi2ffiffiÀffiffiffiffiffi2ffiffirffimffipffiffiÈffiffi
+
+ð16Þ
+
+Eq. (15) therefore yields the value of eccentricity for which an asteroid with semi-major axis a can be captured with a manoeuvre Dvcap at the perigee passage. Asteroids with semi-major axis a, but eccentricity lower than the
+result provided by Eq. (15) should be captured with a manoeuvre lower than Dvcap. Thus, if Dvcap is set to the maximum allowed manoeuvre Dvthr, the eccentricity resulting from Eq. (15) is also the maximum allowed eccentricity, emax ¼ eðDvthr,aÞ, i.e., solid line in Fig. 4 when Dvthr ¼ 2.37 km/s.
+Eccentricities lower than emax require lower Dv manoeuvres to be captured at the Earth, but there is a geome-
+trical limit to the minimum Earth insertion manoeuvre
+
+Dvcap. The minimum Dvcap occurs when the encounter
+
+geometry is such that the intersection is at the line of apsis.
+
+With this geometry only one intersection point exists, and
+
+lower
+
+eccentricities
+
+imply
+
+orbits
+
+with
+
+no Earth-crossing points (see Fig. 4). The minimum allowed
+
+eccentricity for an orbit with semi-major axis a is therefore:
+
+( ð1À1=aÞ if a Z1
+
+eminðaÞ ¼ ð1=aÀ1Þ if a o 1
+
+ð17Þ
+
+so that, if aZ1, the periapis radius is 1 (see thin-dotted line in Fig. 4), and, if instead ao1, the apoapsis is 1 (see thickdotted line in Fig. 4).
+Once the analytical expressions for the maximum and minimum eccentricity emax and emin are known, the maximum and minimum allowed semi-major axis a can be computed by finding when emaxðDvthreshold,aÞ ¼ eminðaÞ occurs. The latter equation results in a second degree polynomial with the following two solutions:
+
+a min ðDvthresholdÞ
+max
+
+¼
+
+1À
+
+v21
+ms
+
+1 qffiffiffiffiffi
+
+72
+
+v21
+ms
+
+ð18Þ
+
+where vN is defined as in Eq. (16) and amin correspond to the positive sign while amax corresponds to the negative.
+Inside this delimited area within the {a,e} Keplerian space, we can ensure that the coplanar capture manoeuvres will be lower than the limit threshold Dvthr. Thus, the reminder impulse
+
+Dvincða,e,DvthrÞ ¼ DvthrÀDvcapða,eÞ,
+
+ð19Þ
+
+can be used for changing the orbital plane of any available objects.
+From Eq. (7) one can see that the cost of changing the orbital plane of a given asteroid is not only defined by the initial {a,e,i} of the asteroid, but also by the argument of
+the periapsis o. The reason for this is that the velocity
+at the crossing plane vplX is the velocity at the line of nodes of the asteroid, whose orientation within the orbit of the
+
+Fig. 4. Keplerian {a,e} space reached by a maneuvre of 2.37 km/s (i.e., Moon's escape velocity). Superimposed are all near Earth asteroids known within the {a,e} space as of April 2010.
+
+56
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+asteroid is defined by o. Now, for a given orientation, or specified o, the optimal location for a change of plane
+is the furthest node from the Sun, since this corresponds to the lowest velocity, and therefore, minimises Eq. (7). This then concludes that the optimal orientation of an asteroid for changing its plane to an inclination of 01 is such that the line of nodes is the line of apsis, while the worst orientation is such that the line of nodes is the semilatus rectum.
+Considering the worst orientation, the maximum inclination from which asteroids can be placed into a coplanar orbit is
+
+0
+
+1
+
+imax_pða,e,DvthrÞ ¼ 2 sinÀ1B@2DvmpinS cðð1aþ,ee,D2Þvt1h=r2Þ CA
+
+ð20Þ
+
+Thus, any orbit with an inclination lower than imax_p,
+no matter the orientation (i.e., o), has a two-impulse transfer to Earth with a Dv budget lower than or equal to Dvthr. The small crosses shown in Fig. 4 represent the
+surveyed asteroids with inclinations lower than the resultant from Eq. (20).
+Considering now the best possible orientation, where the change of plane manoeuvre occurs at the apoapsis, the maximum inclination from which asteroids can be placed into coplanar orbit is
+
+0
+
+1
+
+imax_ra ða,e,DvthrÞ ¼ 2 sinÀ1B@D2vimncSðaaðð1,1eÀþ,eDeÞÞv1th=r2ÞCA
+
+ð21Þ
+
+Thus, any asteroid with an inclination higher than imax_ra , no matter the orientation, cannot be transported to Earth with a Dv budget lower than or equal to Dvthr.
+For inclinations between imax_p and imax_ra only a fraction, between 0 and 1, of asteroids will statistically have the orientation required for a change of inclination within the Dv budget. In order to compute this fraction, one can start by calculating the range of true anomalies that allow a change of plane within the required Dv. A true anomaly allowing the change of plane refers to a true anomaly for which if the ascending/descending node lies in that angular position, then the inclination maneuvre is possible with the allowed Dv budget. Note that if the
+descending node lies at nd the ascending node will lie at ndþp, and that the point chosen for the maneuvre would
+always be the position with the lowest orbital velocity.
+Since the NEO's argument of the periapsis o has been
+assumed to be uniformly distributed, the fraction of feasible true anomalies is equivalent to the fraction of feasible orientations. The following equation can then be written:
+
+p 
+2
+
+
+
+ÀcosÀ1
+
+p
+2emS
+
+
+Dvinc ða,e,Dvthr 2 sinði=2Þ
+
+Þ2
+
+À
+
+1 2e
+
+À
+
+
+e 2
+
+f incða,e,i,DvthrÞ ¼
+
+p
+
+ð22Þ
+
+which describes the probability to find an asteroid with the required orientation for a change of plane within the Dv limit for inclinations between imax_p and imax_ra .
+
+3.1.4. Probability to find an accessible asteroid
+
+In previous sections we have defined the sequence of
+
+impulses in the transfer and the regions delimiting the set
+
+of starting orbits {a,e,i} from which the Earth is accessible
+
+under a total Dv lower than a limit threshold. We can now
+
+compute the probability to find an object with these
+
+initial conditions by integrating the following equation:
+
+Z Z Z amax
+
+emax
+
+imax_P
+
+P2impðDvthr Þ ¼
+
+rða,e,iÞdide da
+
+amin
+
+emin
+
+0
+
+Z Z Z amax
+
+emax
+
+imax_ra
+
+þ
+
+rða,e,iÞf incða,e,i,DvthrÞdi de da
+
+amin
+
+emin
+
+imin_p
+
+ð23Þ
+
+Eq. (23) estimates the probability to find accessible resources under a given Dvthr using a two-impulse transfer and a NEO orbital distribution as defined in Section 2.2. Note that the dependence of P2imp with Dvthr is not only in the fraction finc but also in the limit of integrations, which have functional dependencies as follow:
+aminðDvthrÞ r a r amaxðDvthrÞ eminða,DvthrÞ r e r emaxða,DvthrÞ 0 r i r imaxða,e,DvthrÞ
+
+3.2. One-impulse transfer
+
+As shown in Fig. 4, if the asteroid is coplanar with the
+
+Earth orbit, two orbital crossing points will always exist,
+
+as long as the periapsis and apoapsis of the asteroid's
+
+orbit are smaller and larger than 1 AU, respectively. On
+
+the other hand, if the asteroid is not coplanar with the
+
+Earth's orbit, only specific values of the angle of the
+
+periapsis o will render an orbital intersection or a MOID
+
+small enough for a capture to be possible (see Fig. 5).
+
+As shown by Fig. 5, only 4 specific values of o yield a
+
+MOID equal to zero (i.e., an intersection between the two
+
+orbits). Except if the semilatus rectum p is equal to 1, in
+
+which case there will be only two values of o yielding
+
+two simultaneous crossing points. Eq. (8) already pro-
+
+vided the two possible true anomalies that give the
+
+asteroid a distance of 1 AU from the Sun. Therefore, for
+
+the orbital intersection to occur in the non-ecliptic aster-
+
+oid case, one of these two angles is required to coincide
+
+with the line of nodes, i.e., the straight line where the two
+
+orbital planes meet. This yields four different arguments
+
+of the periapsis o for which the MOID is 0: oMOID0 ¼ È pÀyenc yencÀp yenc Àyenc É
+
+ð24Þ
+
+Close to the values of oMOID0, the variation of MOID as
+a function of periapsis argument can be approximated linearly [19,21]. With the axis shown in Fig. 6, the motion of the Earth and the asteroid can be well described using a linear approximation of the Keplerian velocities of the two objects at the line of nodes. This defines two straight line trajectories, and thus, the minimum distance between these two linear trajectories can be found.
+The minimum distance can then be written as an explicit function of Dx (i.e., distance between the centre of the coordinates described in Fig. 6 and the point at which the asteroid crosses the Earth orbital plane), which can also be described as a linear function of the argument
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+57
+
+Fig. 5. Representation of all possible orientations of an orbit as a function of argument of the periapsis o. The figure shows two orbital planes, one for the
+Earth's orbit and one for the asteroid's orbit. By continuously changing the argument of the periapsis, all possible orientations of the asteroid orbit in the plane are yielded. The two crosses mark the Earth orbital crossing points, which are possible only for four different values of the argument of the
+periapsis o. Two arrows show the argument of the periapsis o for one of the four configurations.
+
+Fig. 6. Set of coordinates used to compute Eq. (25).
+
+of the periapsis o. Finally, an expression such as
+
+MOID ¼ rmffiiffiffinsffiffiiffi½n1ffi9ffiðffioiffiÞffiffiffiMffi2ffiffiOffiþffiIffiDffiffitffi0ffiaffiÀffinffiffiffio2ffiffiðffiffi9affiffiffiÞffi
+
+ð25Þ
+
+yields an approximate value of the MOID distance. The expression min[9 Á 9] denotes the minimum value of the
+absolute differences with any of the angles oMOID0 and the
+tangent of the flight path angle can be calculated as
+
+tanðaÞ ¼ qffiffiffiffiffiffiffiffipffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+
+ð26Þ
+
+e2ÀðpÀ1Þ2
+
+For a complete derivation of a similar formulae, the reader can refer to Opik's work [19] or alternatively to Bonanno's work [21]. Note that Eq. (25) is valid only
+for values of o close to any of the values of oMOID0 from
+
+Eq. (24). Fig. 7 shows, as an example, the evolution of the MOID distance as a function of periapsis argument for the elliptic orbit plotted in Fig. 5 (i.e., a¼1.1 AU, e¼0.8, i¼ 301). The figure compares the results of the MOID calculated by means of Eq. (25) with the results of a numerical algorithm that finds the MOID by minimising the distance between two positions defined by the true anomaly of each orbit. As can be seen, Eq. (25) yields a very good approximation of the real MOID when the MOID is small. Clearly, the error from this formulation increases for very low inclinations and very low eccentricities, but it is still tolerable for inclinations of 0.11 and eccentricities of 0.01.
+3.2.1. Capture at MOID point Now that it has been shown that the analytical approx-
+imation of MOID is a reliable way of assessing the distance between two orbits, we can define the maximum MOID at
+
+58
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+Fig. 7. Comparison between the analytical and numerical approaches to compute MOID.
+
+which the capture of an object is possible given a limiting
+
+Dv budget. Eq. (14), in Section 3.1.2., defined the required Earth capture manoeuvre Dvcap as a function of the hyperbolic excess velocity vN and the pericentre altitude rp. The latter can also be expressed as an explicit function of the
+
+hyperbolic velocity vN and the impulsive manoeuvre:
+
+rp
+
+¼
+
+8mÈ Dv2cap ðv21 ÀDv2cap Þ2
+
+ð27Þ
+
+Since Eq. (27) refers to non-coplanar asteroids, the
+
+hyperbolic velocity vN needs to be calculated as
+
+v1 ¼ sffimffiffiffiSffiffiffiffiffi3ffiffiffiÀffiffiffiffi1ffiaffiffiffiÀffiffiffiffi2ffiffiffipffiffiffiffiffipffiffiffiffifficffiffioffiffiffisffiffiðffiiffiffiÞffiffiffiffi
+
+ð28Þ
+
+This expression can be derived by noticing that the
+
+relative velocity at the encounter for a non-coplanar
+
+asteroid can be expressed as ðvernc,vennc cosðiÞÀoÈrenc,
+vennc sinðiÞÞ.
+Finally, in order to know the maximum MOID at which
+
+a direct capture is possible, the distance rp needs to be corrected by the hyperbolic factor, i.e., factor that
+
+accounts for the gravitational attraction of the Earth
+
+during the asteroid's final approach to the Earth. This
+
+results on
+
+sffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+
+MOIDcap ¼ rp
+
+1 þ 2mÈ
+rp v1
+
+ð29Þ
+
+Note that if the perigee altitude resulting from Eq. (27) is smaller than the radius of the Earth, this would mean that the capture of that particular body is not feasible under that particular Dv threshold used. In fact, the feasible limit for a fly-by was set to 200 km altitude from the surface of the Earth, also to account for the Earth's atmosphere.
+
+3.2.2. Fraction of capturable asteroids The previous section provided the means of calculating
+the MOID at which capture is possible as a function of
+
+Dvcap. Using the linearly approximated MOID in Eq. (25),
+
+we can see that within a distance Do of oMOID0 such as
+
+Do ¼ MOIDcapsffiffiffiffisffiffiiffiffin1ffiffiffiðffiiffiÞffiffiffiffiffiffi2ffiffiþffiffiffiffiffitffiaffiffiffinffiffiffi2ffiffiðffiffiaffiffiÞffi
+
+ð30Þ
+
+a direct capture of the asteroid is possible, since the
+minimum orbital distance is ensured to be smaller than
+MOIDcap, and thus, the capture impulse should be smaller than Dvcap. One may think then that the total range at the
+neighbourhood of oMOID0 is 2Do, and since there are 4 different oMOID0, the total range of o at which capture is possible should be 8Do. This is generally correct, but
+attention must be payed when overlapping of the ranges
+occurs. If the semilatus rectum p is close to 1, the values
+yenc and p À yenc are also close and their ranges (yenc 7 Do and p Àyenc7Do) may overlap. A correction is applied in
+those cases.
+The fraction of asteroids with given {a,e,i} that can be captured with a given Dv budget is then
+
+8Doða,e,iÞ
+
+f lowMOIDða,e,iÞ ¼
+
+2p
+
+ð31Þ
+
+without the overlap correction. The fraction flowMOID provides the fraction of material with Keplerian elements {a,e,i} that could be captured with a single manoeuvre ( r Dvcap) at the Earth. Capture of asteroid material by means of only one impulse would simplify considerably the engineering challenges of implementing the twoimpulse transfer, described in Section 3.1, since this type of transfer requires a spacecraft to be sent to deep-space to perform a change of plane.
+
+3.2.3. Keplerian feasible regions The capturable feasible regions using one-impulse
+transfers in the {a,e} subspace are the same as in Section 3.1.3. The only difference between the feasible volume {a,e,i} of the two-impulse and the one-impulse model lies in the inclination. Since no change of inclination is required, the maximum inclination from which asteroids
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+59
+
+can be captured is greatly increased. The limit threshold
+
+can be computed by realising that vN calculated as in Eq. (28) must be equal to vN calculated as in Eq. (16), thus
+
+imax
+
+ða,
+
+e,
+
+DvÞ
+
+¼
+
+cosÀ1
+
+ 2p1 ffipffiffi
+
+ 3À
+
+1 a
+
+À
+
+v21
+mS
+
+ð32Þ
+
+where vN is calculated as in Eq. (16) with an rp ¼ rÈ þ 200 km.
+
+3.2.4. Probability to find an accessible asteroid Finally, the probability to find an asteroid in an
+accessible initial orbit (i.e., accessible using one-impulse transfer) is
+
+Z Z Z amax
+
+emax
+
+imax
+
+P1impðDvthr Þ ¼
+
+rða,e,iÞf lowMOIDða,e,iÞdi de da
+
+amin
+
+emin
+
+0
+
+ð33Þ
+
+where P1imp functional dependency with Dvthr is in the limits of the integration, which are defined by Eqs. (18), (15), (17) and (32).
+
+3.3. Average accessible mass
+At this point, the probability to find accessible objects (Eqs. (23) and (33)) and the size population model in Section 2.1. can be combined in order to estimate the available material that could be exploited for future space ventures. The accessible material will be mapped as a function of the limiting Dv budget, and as described in the previous two sections, once a Dv threshold has been defined, the probability to find accessible material is computed by integrating Eq. (23) and (33) for two and one impulse transfers, respectively. When the probabilities P2imp and P1imp are known, the average accessible mass of near Earth object material can be calculated by multiplying these probabilities with the total mass of asteroids yielded by Eq. (5) considering objects between 32 km (i.e., largest near Earth object known today) and 1 m diameter. Fig. 8 shows the results of accessible asteroid mass as a function of Dv threshold.
+The results in Fig. 8 allow a direct comparison between lunar and asteroid resource exploitation. For a Dvthreshold equal to the Moon's escape velocity (i.e., 2.37 km/s) the average total accessible asteroid material is of the order of
+
+Fig. 8. Average accessible asteroid mass for exploitation of resources as a function of Dv threshold.
+
+60
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+1.75 Â 1013 kg using a two-impulse transfer as described in this paper. Approximately, 3 Â 1012 kg of material could also be captured during Earth fly-by, without having to modify the orbit geometry of these objects. Note that the so-called accessible material is made up in reality of many small asteroids and statistical fractions of larger objects (i.e., for example, the 1/1000 chance to find a large object counts in Fig. 8 with a 1/1000 fraction of its mass). Hence, the values represented in Fig. 8 do not provide yet any conclusive statement on the feasibility of the concept, but allow us to see a clear limit on the material that could actually be accessed from Earth for its utilisation. For example, all the exploitable asteroid material within an energy lower than the cost of transfer from the Moon (i.e., Dvthreshold r 2.37 km/s) is actually less than the mass of an object with 2.5 km diameter (assuming average density).
+Even if this Dvthreshold provides potentially access to orders of magnitude more material at the Moon (i.e., mass of the Moon $ 7.36 Â 1022 kg), the main advantage of asteroid resources with respect lunar resources is that asteroid material can be exploited at a whole spectrum of Dv, rather than the minimum threshold required for lunar material (i.e., 2.37 km/s). For example, 6.4 Â 109 kg of asteroid resources could still be exploited at a Dvthreshold of only 100 m/s using a serendipitous capture such as the one described by the one-impulse transfer. Lunar material instead requires an energy threshold to overcome the Moon's gravity well (i.e., a Dv of 2.37 km/s). In addition, the Moon is believed to be a relatively resource-poor body [2], therefore asteroid resource exploitation above 2.37 km/s may still be an attractive option if valuable materials are available not found on the Moon.
+
+3.4. Phasing maneuvre
+
+Previous sections have assumed that if the orbital intersection exists, then the asteroid would eventually meet the Earth. This statement may be true if the time available to transfer the asteroid is not constrained, but for realistic scenarios this does not occur. Therefore, some analysis on the cost of the manoeuvring necessary to ensure the encounter opportunity must be performed.
+For a more realistic transfer scenario, in which the orbital phasing is also considered, an additional impulsive manoeuvre may be necessary in order to provide the correct phasing to the asteroid. This manoeuvre is generally small and must be provided as early as possible, so that the secular effect due to the change in period yields the orbital drift necessary for the asteroid to be at the Earth orbital crossing point at the required time. Hence, if only secular effects are considered [22,23], which is regarded as a good approximation for the level of accuracy intended in this paper, the phasing manoeuvre should correct the difference in mean anomaly DM that exists for the intended encounter (see Fig. 3). This is expressed as
+
+DM ¼ DnðteÀtmÞ
+
+ð34Þ
+
+where Dn is the change of mean motion of the asteroid due to the phasing manoeuvre and (teÀ tm) is the time-span between the manoeuvre (tm) and the encounter (i.e. time at
+
+which the Earth is at the crossing point te). The change in
+
+mean motion of the asteroid can be defined as
+
+sffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi rffiffiffiffiffiffiffiffiffi!
+
+Dn ¼
+
+ða
+
+mSun þ daÞ3
+
+À
+
+mSun
+a3
+
+ð35Þ
+
+where da is the change of semi-major axis of the asteroid due to the impulsive manoeuvre. Using the Gauss planetary equations [24], da can be expressed as
+
+da ¼
+
+2a2v0
+mS
+
+dvt
+
+ð36Þ
+
+where dvt is the tangential component of the impulsive manoeuvre and v0 is the orbital velocity at the point at which the impulsive manoeuvre is applied. Eq. (36) seems
+
+to indicate that the optimal position for a phasing man-
+
+oeuvre is the periapsis, since this is the point at which the
+
+orbital velocity v0 is maximum. This is generally true, except for cases in which the term (teÀtm) of Eq. (34) drives the optimality of the phasing manoeuvre.
+
+Finally, rearranging Eqs. (34)­(36), the phasing man-
+
+oeuvre necessary to drift the asteroid through DM angular
+
+position at time te, given a impulsive manoeuvre at time
+
+tm, can be expressed as
+
+00
+
+11=3 1
+
+dvt
+
+¼
+
+mS
+2a2v0
+
+B@B@
+DM ðte Àtm
+
+mS
+Þþ
+
+qffimffiffiSffi2
+a3
+
+CA
+
+ÀaCA
+
+ð37Þ
+
+which provides a good estimation of the cost of the phasing manoeuvre to target an Earth encounter.
+Considering an Earth-asteroid configuration such as in Fig. 3, an algorithm was implemented that computes the fraction of mean anomalies inside the asteroid orbital path that can be phased with the Earth with a dvt smaller than a given threshold. The algorithm requires as an input the DM at a given time te at which the Earth is assumed to be at the crossing point from which DM is measured. Also a time constraint needs to be specified, which defines the maximum allowed manoeuvre time tm max. Then, the algorithm computes the dvt necessary to cancel not only the DM gap at time te, but also all other possible encounters opportunities, which are defined by the times at which the Earth is at the crossing points during the time-span available. For each possible encounter two manoeuvre times are considered; the first available periapsis passage and tm max. This procedure is repeated for many different angular positions DM at te, from which then the fraction of the orbit that can be phased under a Dv limit is calculated.
+Fig. 9 includes the effect of 40, 20 and 10 years time constraints on the accessibility of asteroid resources. The figure also shows accessibility of asteroid material without considering any time constraint (also shown in Fig. 8), but this time only the results of the optimal transfer strategy are shown for each Dv threshold. From the results in Fig. 9 it can be concluded that the free phasing assumption during the description of the transfer models is a good approximation for relatively large Dv thresholds. At low Dv thresholds some early manoeuvring may be required. Note that a 40-year trajectory may not necessarily be envisaged as a trajectory requiring 40 years to be completed. This only suggest the necessity to provide
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+61
+
+Fig. 9. Time constrained and unconstrained accessible mass.
+
+early shepherding manoeuvres, allowing asteroids to have the right phasing conditions with Earth. Years later, a short sequence of manoeuvres can be provided to achieve a final capture of the asteroid or its mined material.
+4. Accessibility of asteroids
+One of the important issues not resolved by the results shown in Figs. 8 and 9 is the number of missions that would require exploiting all or part of the accessible asteroid resources. This issue is of key importance, since if a given resource is spread in a large number of very small objects, gathering all of them may become a cumbersome task, and therefore not economically worthwhile.
+In order to estimate the average size of each accessible object, we will assume that each single object has the same probability P (see Sections 3.1.4 and 3.2.4) to be found in the accessible region. Thus, the probability to find k asteroids within a population of n asteroids in a region delimited by the parameter Dv threshold is well described by the binomial distribution. In this particular case, for which P is a very low probability and n a very large number of asteroids, Poisson distribution (a limiting case of the binomial distribution when n tends to infinity) represents a very good approximation of the statistical behaviour of the problem. Therefore, the probability g(k,l) to find k asteroids when the
+
+expected number is l can be described by
+
+gðk,lÞ ¼ lkeÀl
+
+ð38Þ
+
+k!
+
+The expected number l, or average number of accessible asteroids, can be calculated as
+
+lðDminÞ ¼ DNðDmin o D r DminÞP
+
+ð39Þ
+
+where DN is the total number of asteroids with diameters
+larger than Dmin and smaller than Dmax (Eq. (2)) and P the probability to find objects within a given Keplerian region. In
+the following, DN will keep Dmax fixed to the 32-km diameter, while Dmin may vary to modify the value of l as required.
+An integration such as Z1
+gðk,lÞdk
+nNEA
+
+yields the probability to find at least nNEA asteroids when the expected value, or average, was l. By finding then the
+
+value of l that yields an accumulative probability of 50%,
+
+Z1
+
+gðk,lðDminÞÞdk ¼ 50%,
+
+ð40Þ
+
+nNEA
+
+we can estimate the median diameter of the smallest object in the nNEA set. This procedure can also be repeated with accumulative probabilities of 95% and 5% to obtain
+
+62
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+the 90% confidence region. The results of this procedure can be seen in the following figure.
+Fig. 10 shows the median diameter of the first, tenth, hundredth and thousandth largest accessible asteroid in the near Earth space, together with the 90% confidence region of each one of these objects. Note that the 90% confidence regions account only for the statistical uncertainty of finding k asteroids within a population of n objects, assuming that the population is perfectly described by Eq. (1). The figure also shows the median diameter considering a 2/3 drop in the number of small asteroids as estimated by Harris [25], this is represented by the lower branch in each asteroid set of data. This second population size distribution of asteroids was represented by a three slope power law distribution matching with Eq. (1) at 1-km and 10-m, while providing a 2/3 drop on the accumulative number of asteroids at 100-m. Finally, Fig. 10 also shows the results by considering 40, 20 and 10 years of time constraint in the transfer time, represented as the three departing lines from the main set of data.
+The information in the figure can be read as follows: let us set, for example, the Dv threshold at 100 m/s, the largest accessible object has a 50% probability to be equal to or
+
+larger than 24 m diameter, while we can say with 90% confidence that its size should be between 72 m and 12 m. We can also see that when accounting for a population of asteroids as estimated by Harris [25] the median becomes 20 m instead of 24 m. Finally, we also see that when time constraints are included and phasing maneuvre are estimated as described in Section 3.4., the median diameter decays to 23 m when the constraint is set to 40 years, 20 m if the constraint is 20 years and 13 m if the limit is at 10 years (solid-dotted lines). The following set of data in the decreasing ordinate axis is the group referring to the 10th largest object found within the region of feasible capture given by a Dv threshold of 100 m/s, whose median diameter is at 8 m diameter. The 100th largest object is foreseen to have a diameter of 3 m and 1000th largest of 1 m.
+5. Final discussion
+Figs. 8­10 provide a good basis to understand the accessibility of general asteroid material, with no distinction yet on the type of material expected to be found. The results
+
+Fig. 10. Expected size of the accessible asteroid.
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+63
+
+shown, especially in Fig. 10, seem to imply that there is ample material that could potentially be exploited at a relatively low energy, at least if compared with the energetic cost of exploiting resources at the Moon. Perhaps the most important characteristic of the concept is its scalability. As noted earlier, mining the Moon would require a minimum investment of energy to transport the material from the bottom of the Moon's gravity well. Many asteroids are also expected to be accessible with equivalent investment of energy or lower. More importantly, the level of energy or Dv necessary to exploit modest asteroid resources can be as small as necessary for available technology to manage.
+It is especially at the very low Dv range, where more complex trajectories to model the material transport, such as multiple Earth fly-bys, lunar gravity assists or manifold dynamics, may benefit the most. This paper instead has used a classical patched-conic approximation to model the transport of material. The results therefore are a conservative representation of the resources available. For example, as shown in Kemble [26], ballistic escape and capture trajectories with excess velocities of up to 1 km/s are possible from Earth. A trajectory approaching the Earth with an excess velocity vN of 1 km/s would require a Dv of 45 m/s with a patched-conic approximation to become Earth-bound (i.e., inserted into a parabolic orbit). This implies that all objects accessible with less than 45 m/s may be suitable targets for ballistic capture. Objects shown here to be accessible with a Dv of order 100 m/s would certainly benefit from a judicious use of multi-body dynamics (e.g., interplanetary highways [27]). These results do not necessarily mean that the patched conic is not a correct approximation, but instead, that it needs to be put in context for very small Dv.
+For larger Dv, instead, the benefits of judicious use of gravitational perturbations are less important. However, large Dv transportation costs are here overestimated due to the very poorly designed change of plane manoeuvre. As discussed previously, the change of plane, as modelled here, ensures that a non-coplanar asteroid will intersect the orbit of the Earth (if rp o 1 and ra41), while allowing the use of analytical formulae to compute Dv cost. This was necessary in order to analytically define the feasible Keplerian space from where Dv transfers could be achieved at a Dv lower than a given threshold. Ideally, a more optimal asteroid transfer would reduce the Earth MOID to zero, ensuring an intersection with the Earth's orbit, without the over-penalising costs of changing the inclination of the initial trajectory. This, at a minimum, requires a numerical optimisation of a Lambert arc transfer. A more realistic transport trajectory would however be designed by optimising a low-thrust trajectory, by means, for example, of optimal control theory [28]. This would be especially desirable if considering that the low-thrust propulsion systems provide the highest efficiency at delivering change of linear momentum, and thus it would be the logical propulsion choice for a robotic mission to transport asteroid resources. The Dv penalty posed by the analytical approximation used at the twoimpulse transfer model can be assessed by comparing the analytical model with optimised free-phase Lambert arc transfers. Optimising Lambert arcs is a computationally
+
+costly procedure and it would have been unsuitable in this paper, where it was required to perform millions of transfer evaluations. Nevertheless, a set of 3000 randomly distributed {a,e} conditions with a predefined Dv cost at 1.18, 2.37 and 4.74 km/s were analysed and weighted by the NEO density function. This analysis reveals that Dv axis in Figs. 8­10 may be under-scaled by a factor, at worst, of 1.5 (e.g., the mass or asteroid size at 2 km/s Dv could possibly approach the result at 3 km/s in a fully optimised scenario).
+Another important component on the methodology used to compute Figs. 8­10 is the asteroid model described in Section 2. A possible concern about the accuracy of this model is the assumption on the orbital distribution of being independent of the asteroid size [9]. Non-gravitational perturbations affect objects of different size, which implies that the different asteroid sources
+(e.g., the n6 resonance, the 3:1 resonance, etc.) may be
+supplying different asteroid size distributions, since nongravitational perturbations are the main mechanisms that feed the asteroid sources. It is however surprising the resemblance of the expected fireball impact frequencies computed using the asteroid models described here with a linearised impact model similar to Opik's [19] and the fireball impact frequencies recorded by satellite surveys [29]. As described in Brown et al. [29], the Earth is estimated to be struck with approximately 5 kt of energy as a yearly average. The result computed here is 4.2 kt. Similarly the monthly average compares as 0.3 kt in [29] and 0.2 kt as computed here, while the decade average is shown to be about 50 kt in [29] and 79 kt computed here. Thus, despite possible sources of inaccuracies, the results shown in the paper should represent good order of magnitude estimates of the accessible asteroid material.
+5.1. Available resources
+Asteroids have a very diverse composition and, thus, the possible uses of the different accessible objects (i.e., as shown in Fig. 10) will always depend on the particular object characteristics. Any available space resource however can be envisaged to be put to good use, since for example, lacking any better option, bulk material (regolith and unprocessed material) could be used as radiation shielding, which would reduce the hardening requirements to survive in space and as a consequence reduce the mass launched into space. Nevertheless, one can envisage much more disruptive uses for some particular resources, such as water and volatiles, which could be used to sustain human life in space, as well as a rocket propellant, semiconductors that could be used to build insitu solar cells and metals used for space structures.
+Providing estimates on the amount of resources for different valuable materials can only be based on statistical estimates from spectroscopic surveys and meteoroid recoveries. While spectroscopic surveys of near Earth asteroids show a very wide diversity of spectral classes [30], only meteoroid recoveries provide an accurate account of the materials available in space [31]. The latter however have a clear body strength bias (i.e., weaker
+
+64
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+objects ablate in the atmosphere) and are quickly weathered if not recover soon after atmospheric entry.
+It is not the purpose of this paper to provide an accurate census of object types and resources availability, primarily because with the current knowledge of asteroid composition and their availability on different orbits is inaccurate. On the other hand, a few examples of possible resource availability at different Dv thresholds may cast some more light on the usefulness and possibilities of the exploitation of asteroid resources. The following table is provided only as an example of the amount of material that could be found in different sized objects. Table 1 assumes that water should be extracted from hydrated carbonaceous asteroids, while metals and platinum group metals (PGM) would be extracted from M-class objects. This however does not imply that these resources are only available in these types of objects. Quite on the contrary, other asteroid classes, such as for example S-class [32], may contain more interesting combination of volatiles, metals and semiconductors [31], albeit volatiles and metals would likely be found at lower abundances than for the examples described on Table 1.
+One can imagine many interesting scenarios for the utilisation of the resources shown to be accessible at low Dv-budgets. As shown in Fig. 10, the largest accessible asteroid at a 100 m/s Dv-budget is estimated to be a 24-m diameter object. Such an object could supply from 107 kg to 4 Â 107 kg of asteroid material, depending on composition and density. As previously mentioned, the particular uses of the resources would depend on the asteroid composition: if the object turns to be an hydrated carbonaceous asteroids a million litres of water could possibly be extracted (considering, as in Table 1, an asteroid of density 1300 kg/m3 [16] and 8% [33] of its weight in water). However, if this object is a M-class asteroid (density 5300 kg/m3 [16]), of order thirty thousand tonnes of metal could potentially be extracted and even a tonne of Platinum Group Metals (PGM) (88% of metal assumed and 35 ppm of PGM [33]). The latter resource could easily reach a value of fifty million dollars in Earth's commodity markets [34].
+Note from the examples in Table 1 that hydrated C-class and M-class only cover 15% of the asteroid population, implying that this hypothesised 24-m object has only a 15% probability of being one of these two classes. As previously noted, this does not mean that there is an 85% chance that the asteroid would be of no use, or that the 85% remaining population has less resource interest. S-class asteroids, accounting approximately for 40% of the NEA objects, could very well become the most interesting targets to exploit since they likely contain
+
+relatively good abundances of semiconductors, metals and even volatiles such as oxygen, including perhaps water. S-class may also contain PGM, albeit at a lower abundance than in M-class. One could possibly imagine the utilisation of a 24-m S-class object to provide between 1 to 4 thousand tonnes of iron to be used as a structural support for the 1.5 km2 silicon solar array surface (build from the same object), which would generate a minimum of 1 GWatt of power [35,36]. The capability to exploit small S-class objects may perhaps allow solar power satellites to become commercially viable. Water could also be possibly extracted from S-class objects. Assuming a 0.15% of water [35], this would account for 30 thousand litres of water, which if we assume that a human being requires about 3 l of water a day, from which at least 90% is recovered through recycling, there should still be enough water to sustain a crew of 25 people for 10 years, and perhaps no resupply of water would be required for the crew responsible to build the solar power orbital plant.
+Nevertheless, ideally water should be extracted from asteroids with higher water content, as for example hydrated C-class (see Table 1). These are assumed here to likely contain around 8% of water mass fraction, although higher abundances are possible in hydrated C-class objects ($20%), or even $50% if near earth comets are exploited instead [31]. Many other volatiles, apart from water, can also be extracted and used for life support or rocket propellant [2]. The capability to extract and use water from asteroids would certainly be a disrupting technology allowing much more affordable human access to space, since no resupply of water and oxygen would be required, and also interplanetary travel, if spacecrafts are launched without the propellant required to reach their final destinations. Water could be extracted from asteroids by direct sublimation of its native ice, if this is available, or by processing hydrated minerals and clays. Thus, most likely, this commodity in particular may represent a very important resource for exploitation. If water is mined and finally transported to LEO, which would require the addition of 3.3 km/s to the Dv cost estimated in this paper (cost estimates were only for a weakly bound Earth orbit), the total cost of transportation will still be of order 3 times less that that required to transport water from the Earth's surface. Of course, in order for the transport of asteroid material to LEO to be preferable over the more traditional Earth transport, the cost of mining and transporting the resources back to Earth should be lower than the twothirds saving on transportation costs. This figure greatly improves if the propellant is transported to the Earth­ Moon Lagrangian points and used to fuel interplanetary
+
+Table 1 Example of possible resources on different asteroid classes.
+
+Resource
+
+Ast. class
+
+Population
+
+Density
+
+Water Metals PGMs
+
+Hydrated C-class M-class M-class
+
+10% [30] 5% [30] 5% [30]
+
+1300 kg/m3 [16] 5300 kg/m3 [16] 5300 kg/m3 [16]
+
+Resource mass fraction
+8% [33] 88% [33] 35 ppm [33]
+
+Asteroid size
+
+10-m
+
+100-m
+
+54,000 l 2 Â 103 t
+97 kg
+
+54 Â 106 l 2 Â 106 t
+97 t
+
+500-m
+68 Â 109 l 3 Â 108 t 12 Â 103 t
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+65
+
+missions [37]. For this latter scenario the energy cost leverage would initially be of 1­1000 (i.e., the energy required to access to 1 l of water from Earth allows access to a 1000 l in the near Earth orbital space), and progressively reduce as the resource is consumed and larger Dv budgets are required to access the following ore. The utilisation of an orbital fuel depot at the L2, for example, would imply launch mass savings of at least a factor of two for missions to Mars.
+5.2. Final considerations
+The analysis and results presented in this paper are intended to provide a qualitative analysis on the feasibility of asteroid exploitation as a concept. Technological feasibility has not been discussed here. From the two exploitation scenarios discussed: transport of resources from asteroids and gravitational capture of resource-rich objects, clearly the latter seems the most technologically challenging. However, the possibility of moving the entire asteroid into an Earth bound orbit would allow almost real-time operations for resource extraction and very short transfer operations of the resources extracted. Thus, if the technology to manoeuvre an asteroid is available at some point in the future, enabled perhaps through deflection missions, this latter exploitation scenario may provide great advantages. We can envisage here a space system capable of reaching the asteroid and providing the small perturbation required for the asteroid to meet the Earth at the encounter point (assuming a one-impulse capture model). This system could be for example a lowthrust system, landing and attaching itself to the surface of the asteroid [6], or a kinetic impactor intercepting the asteroid and transferring momentum by means of a high speed collision although low thrust clearly provides more accurate manoeuvring. If the phasing manoeuvre is successful, the asteroid would encounter the Earth, at which point an orbital insertion manoeuvre needs to be provided. The simplest concept here could again be a kinetic impact, by means of which a 5-t spacecraft could provide 40 m/s change-of-velocity to a 10-m object during Earth flyby, for instance. It has also been shown that some small objects may require very little or no-manoeuvring to achieve a gravitational capture. As stated previously, objects shown to be accessible within a 45 m/s Dv limit could even potentially be ballistically captured.
+6. Conclusions
+This paper has shown that the utilisation of asteroid resources may be a viable mean of providing substantial mass in Earth orbit for future space ventures. A statistical population of near Earth asteroids has been used, along with a map of the Keplerian orbital element space from which the Earth can be reached under a given series of impulsive manoeuvres, to determine an approximate amount of accessible asteroid resources within a given specific transfer energy. The range of energies analysed has shown that there is a reasonable mass of accessible asteroid resources with transfer energies lower than those required to exploit the Moon. Moreover, these resources
+
+can be accessed with an incremental level of energy, while lunar resources would require a minimum threshold equal to the Moon's escape velocity. Exploitation of higher energy transfers may only be justifiable if the required resource is not available on the Moon. The size distribution of objects for near-Earth objects also ensures that the amount of exploitable mass is primarily made up of the largest objects within Earth reach. This guarantees that most of the exploitable mass could be successfully harvested by only a few mining or capture missions. Small objects with a diameter of order tens of metres to a few hundred metres diameter could potentially be the first targets for strategic resources. It is very likely that interesting targets in this range of diameters will be found in orbits such that the energetic requirements to transport their resources to Earth will be very low.
+Acknowledgements
+We thank William Bottke for kindly providing us with the NEO distribution data. The work reported was supported by European Research Council Grant 227571 (VISIONSPACE).
+References
+[1] M.F. Mckay, D.S. Mckay, M.B. Duke, Space Resources: Scenarios, NASA, 1992.
+[2] J.S. Lewis, Mining the Sky: Untold Riches from Asteroids, Comets and Planets, Helix Books/Perseus Books Reading, Massachusetts, 1996.
+[3] C.R. Chapman, The hazard of near-Earth asteroid impacts on Earth, Earth Planet. Sci. Lett. 2 (1) (2004) 1­15, doi:10.1016/j.epsl.2004. 03.004.
+[4] J. Kawaguchi, A. Fujiwara, T. Uesugi, Hayabusa-its technology and science accomplishment summary and Hayabusa-2, Acta Astronaut. 62 (10­11) (2008) 639­647, doi:10.1016/j.actaastro. 2008.01.028.
+[5] M. Barucci, M. Yoshikawa, P. Michel, J. Kawagushi, H. Yano, J. Brucato, I. Franchi, E. Dotto, M. Fulchignoni, S. Ulamec, T. Marco Polo Science, Marco Polo: near Earth object sample return mission, Exp. Astron. 23 (3) (2009) 785­808, doi:10.1007/s10686-008-9087-8.
+[6] J.P. Sanchez, C. Colombo, M. Vasile, G. Radice, Multi-criteria comparison among several mitigation strategies for dangerous near Earth objects, J. Guidance Control Dyn. 32 (1) (2009) 121­142, doi:10.2514/1.36774.
+[7] C.R. Nichols, Resources of Near-Earth Space, University of Arizona Press, Tucson, 1993 (pp. 543­568).
+[8] G.H. Stokes, D.K. Yeomans, W.F. Bottke, S.R. Chesley, J.B. Evans, R.E. Gold, A.W. Harris, D. Jewitt, T.S. Kelso, R.S. McMillan, T.B. Spahr, P. Worden, Study to Determine the Feasibility of Extending the Search for Near-Earth Objects to Smaller Limiting Diameters, NASA, 2003.
+[9] W.F. Bottke, A. Morbidelli, R. Jedicke, J.-M. Petit, H.F. Levison, P. Michel, T.S. Metcalfe, Debiased orbital and absolute magnitude distribution of the near-Earth objects, Icarus 156 (2) (2002) 399­433, doi:10.1006/icar.2001.6788.
+[10] L.W. Alvarez, W. Alvarez, F. Asaro, H.V. Michel, Extraterrestrial cause for the cretaceous-tertiary extinction, Science 208 (4448) (1980) 1095­1108, doi:10.1126/science.208.4448.1095.
+[11] A.W. Harris, What spaceguard did 453 (2008) 1178­1179, doi:10.1038/4531178aNature 453 (2008) 1178­1179, doi:10.1038/ 4531178a.
+[12] Z. Ivezic, J.A. Tyson, M. Juric, J. Kubica, A. Connolly, F. Pierfederici, A.W. Harris, E. Bowell, L. Collaboration, Lsst: comprehensive neo detection, characterization, and orbits, in: Proceedings of the Near Earth Objects, Our Celestial Neighbors: Opportunity and Risk, vol. 236, International Astronomical Union, 2007, pp. 353­362. doi:10.1017/S1743921307003420.
+
+66
+
+J.P. Sanchez, C.R. McInnes / Acta Astronautica 73 (2012) 49­66
+
+[13] P. Veres, R. Jedicke, R. Wainscoat, M. Granvik, S. Chesley, S. Abe, L. Denneau, T. Grav, Detection of earth-impacting asteroids with the next generation all-sky surveys, Icarus 203 (2) (2009) 472­485, doi:10.1016/j.icarus.2009.05.010.
+[14] A. Morbidelli, W.F. Bottke, C. Froeschle´ , P. Michel, Asteroids Iii, University of Arizona Press, Tucson, 2002 (pp. 409­422).
+[15] C. Struck, The feasibility of shading the greenhouse with dust clouds at the stable lunar lagrange points, J. B. Interplanet. Soc. 60 (1) (March 2007) 82­89.
+[16] S.R. Chesley, P.W. Chodas, A. Milani, D.K. Yeomans, Quantifying the risk posed by potential earth impacts, Icarus 159 (2) (2002) 423­432, doi:10.1006/icar.2002.6910.
+[17] D. Steel, Tunguska at 100, Nature 453 (2008) 1157­1159, doi:10.1038/4531157a.
+[18] J.S. Stuart, Observational Constraints on the Number, Albedos, Size, and Impact Hazards of the near-Earth Asteroids, Massachusetts Institute of Technology, 2003.
+[19] E.J. Opik, Collision probabilities with the planets and the distribution of interplanetary matter, Proc. R. Ir. Acad. Sect. A: Math. Phys. Sci. 54 (1951) 165­199.
+[20] J.G. Hills, M.P. Goda, The fragmentation of small asteroids in the atmosphere, Astron. J. 105 (3) (1993) 1114­1144, doi:10.1086/ 116499.
+[21] C. Bonanno, An analytical approximation for the moid and its consequences, Astron. Astrophys. 360 (2000) 411­416.
+[22] D.J. Scheeres, R.L. Schweickart, The mechanics of moving asteroids, in: Proceedings of the Planetary Defense Conference, American Institute of Aeronautics and Astronautics, Orange County, California, 2004. DOI: Paper AIAA-2004-1446.
+[23] D. Izzo, Optimization of interplanetary trajectories for impulsive and continuous asteroid deflection, J. Guidance Control Dyn. 30 (2) (2007) 401­408, doi:10.2514/1.21685.
+[24] R.H. Battin, Introduction to the mathematics and methods of astrodynamics, Aiaa Education Series, American Institute of Aeronautics and Astronautics, Reston, Virginia, 1999.
+[25] A.W. Harris, An update of the population of neas and impact risk, Bull. Am. Astron. Soc. 39 (2007) 511 (DOI: 2007DPSy.39.5001H).
+[26] S. Kemble, Interplanetary missions utilising capture and escape through the lagrange points, in: I.A. Federation (Ed.), Proceedings of the 54th International Astronautical Congress, vol. IAC-03-A.1.01, Bremen, Germany, 2003.
+[27] S.D. Ross, The interplanetary transport network, Am. Sci. 94 (3) (2006) 230, doi:10.1511/2006.3.230.
+[28] J.T. Betts, Survey of numerical methods for trajectory optimization, J. Guidance Control Dyn. 21 (2) (1998) 193­207, doi:10.2514/ 2.4231.
+[29] P. Brown, R.E. Spalding, D.O. ReVelle, E. Ragliaferri, S.P. Worden, The flux of small near-Earth objects colliding with the Earth, Nature 420 (2002) 294­296, doi:10.1038/nature01238.
+[30] S.J. Bus, R.P. Binzel, Phase Ii of the small main-belt asteroid spectroscopic survey, Icarus 158 (1) (2002) 146­177, doi:10.1006/ icar.2002.6856.
+
+[31] J.S. Lewis, M.L. Hutson, Resources of Near-Earth Space, University of Arizona Press, Tucson Arizona, 1993 (pp. 523­542).
+[32] T. Nakamura, T. Noguchi, M. Tanaka, M.E. Zolensky, M. Kimura, A. Tsuchiyama, A. Nakato, T. Ogami, H. Ishida, M. Uesugi, T. Yada, K. Shirai, A. Fujimura, R. Okazaki, S.A. Sandford, Y. Ishibashi, M. Abe, T. Okada, M. Ueno, T. Mukai, M. Yoshikawa, J. Kawaguchi, Itokawa dust particles: a direct link between S-type asteroids and ordinary chondrites, Science 333 (6046) (2011) 1113­1116, doi:10.1126/ science.1207758.
+[33] S.D. Ross, Near-Earth Asteroid Mining, Department of Control and Dynamical Systems, CA, 2001.
+[34] Crandall, W.B., Abundant planet: enabling profitable asteroid mining, Abundant Planet 501(c)3 organization, 2009.
+[35] B. O'Leary, M.J. Gaffey, D.J. Ross, R. Salkeld, Retrieval of asteroidal materials, Space Resour. Settlements (1979).
+[36] M.G. Mauk, Silicon solar cells: physical metallurgy principles, J. Miner. Met. Mater. Soc. 55 (5) (2003) 38­42, doi:10.1007/s11837003-0244-2.
+[37] W.L. Martin, D.R. Shane, The lunar L1 gateway: portal to the stars and beyond, in: Proceedings of the AIAA Space 2001 Conference, Albuquerque, New Mexico, 2001.
+Joan-Pau Sanchez Cuartielles is a research fellow at the Advanced Space Concepts Laboratory at the University of Strathclyde. His research has previously focused on asteroid deflection and mission analysis of deflection missions. Currently he leads the Visionary Space Concepts theme at the Lab, where he is analysing the feasibility of space-based methods for solar radiation management to tackle the global warming, as well as exploring the feasibility of asteroid utilisation for future space ventures.
+Colin R. McInnes is Director of the Advanced Space Concepts Laboratory at the University of Strathclyde. His work spans highly nonKeplerian orbits, orbital dynamics and mission applications for solar sails, spacecraft control using artificial potential field methods and is reported in over 100 journal papers. Recent work is exploring new approaches to spacecraft orbital dynamics at extremes of spacecraft length-scale to underpin future space-derived products and services. McInnes has been the recipient of awards including the Royal Aeronautical Society Pardoe Space Award (2000), the Ackroyd Stuart Propulsion Prize (2003) and a Leonov medal by the International Association of Space Explorers (2007).
+
+

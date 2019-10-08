@@ -1,0 +1,597 @@
+Asteroid Retrieval Feasibility
+
+John R. Brophy Jet Propulsion Laboratory California Institute of Technology
+Pasadena, CA 91109 818-354-0446
+John.R.Brophy@jpl.nasa.gov
+
+Louis Friedman The Planetary Society 85 South Grand Ave. Pasadena, CA 90245
+626-695-6409 tps.lf@planetary.org
+
+Fred Culick California Institute of Technology
+1200 East California Blvd. Pasadena, CA 91125 626-395-4783 fecfly@caltech.edu
+
+Abstract--This paper describes the interim results of a study sponsored by the Keck Institute for Space Studies to investigate the feasibility of identifying, robotically capturing, and returning an entire Near-Earth Asteroid (NEA) to the vicinity of the Earth by the middle of the next decade. The feasibility hinges on finding an overlap between the smallest NEAs that can be reasonably discovered and characterized and the largest NEAs that can be captured and transported in a reasonable flight time. This overlap appears to be centered on NEAs with a nominal diameter of roughly 7 m corresponding to masses in the range of 250,000 kg to 1,000,000 kg. Trajectory analysis based on asteroid 2008HU4 suggests that such an asteroid could be returned to a high-Earth orbit using a single Atlas V-class launch vehicle and a 40-kW solar electric propulsion system by 2026. The return of such an object could serve as a testbed for human operations in the vicinity of an asteroid. It would provide a wealth of scientific and engineering information and would enable detailed evaluation of its resource potential, determination of its internal structure and other aspects important for planetary defense activities.
+TABLE OF CONTENTS
+1. INTRODUCTION .............................................1 2. TARGET IDENTIFICATION.............................2 3. INVESTIGATION.............................................5 4. FLIGHT SYSTEM AND TRAJECTORY
+ANALYSIS ......................................................7 5. CAPTURE .....................................................11 6. CONCLUSIONS .............................................14 7. REFERENCES ...............................................15 BIOGRAPHIES ...................................................... 16
+
+returning to the International Space Station (ISS) an entire small near-Earth asteroid (NEA) with a mass of order 10,000 kg [4] by 2025. The study concluded that while challenging there were no fundamental show stoppers that would make such a mission impossible. It was clear from this study that one of the most challenging aspects of the mission was the identification and characterization of target NEAs suitable for capture and return.
+In 2011 the Keck Institute for Space Studies (KISS) [5] sponsored a more in-depth investigation of the feasibility of returning an entire NEA to the vicinity of the Earth. This study included the expertise of the people from several universities (Caltech, Carnegie Mellon, Harvard, Naval Postgraduate School, UCLA, UCSC, and USC), NASA (ARC, GRC, GSFC, JPL, JSC, and LaRC), and private organizations (Arkyd Astronautics, Inc., The Planetary Society, B612 Foundation, and Florida Institute for Human and Machine Cognition) as listed in the Acknowledgements. The three main objectives of the KISS study were to:
+(1) Determine the feasibility of robotically capturing and returning a small near-Earth asteroid to the vicinity of the Earth using technology available in this decade.
+(2) Identify the benefits to NASA, the scientific community, the aerospace community, and the general public of such an endeavor.
+(3) Identify how this endeavor could impact NASA's and the international space community's plans for human exploration beyond low-Earth orbit
+
+1. INTRODUCTION
+
+To accomplish these objectives the workshop was organized into the following four subgroups.
+
+The idea to exploit the natural resources of asteroids is older than the space program. Konstantin Tsiolkovskii included in The Exploration of Cosmic Space by Means of Reaction Motors, published in 1903, the "exploitation of asteroids" as one of his fourteen points for the conquest of space [1,2]. More recently this idea was detailed in John Lewis' book Mining the Sky [2], and it has long been a major theme of science fiction stories [3]. The difference today is that the technology necessary to make this a reality is just now becoming available. To test the validity of this assertion, NASA sponsored a small study in 2010 to investigate the feasibility of identifying, robotically capturing, and
+978-1-4577-0557-1/12/$26.00 ©2012 IEEE
+
+Group 1. Target Identification: How to discover and characterize candidate NEAs (orbit knowledge, asteroid type, size, mass, and uncertainties)
+Group 2. Investigation: What are the candidate final destinations? What should be done with the asteroid at each destination? What are the benefits of returning an entire NEA to the vicinity of the Earth?
+Group 3. Mission/System Design: How to transport the asteroid to its final destination (launch year, flight time,
+
+1
+
+propulsion technology, trajectory analysis, asteroid size constraints, spacecraft characteristics, launch vehicle class, etc.)
+Group 4. Capture: How to capture, secure, and de-tumble a non-cooperative object in deep-space; center-of-mass determination; identification of required instrumentation; identification of candidate capture mechanisms.
+These four areas are highly linked and so the workshop was organized to provide frequent interactions between groups as well as within each group. A snapshot of the current status of the results from each group is given below.
+2. TARGET IDENTIFICATION
+(Bruce Betts, Mike Brown, Michael Busch, Paul Dimotakis, Martin Elvis, Chris Lewicki, Don Yeomans)
+The objective of the TARGET IDENTIFICATION group was to determine the minimum asteroid size that enables a target discovery and characterization rate sufficient to provide an adequate number of candidate asteroids before the end of this decade around which a mission can be planned. Larger asteroids are easier to discover and characterize but much harder to move. Since the volume and mass scale as the cube of the diameter, but the projected area scales as the square of the diameter, smaller asteroids get less massive much faster than they get dimmer. The key feasibility issue is to determine if there is an overlap between NEAs that are bright enough (i.e, large enough) to be discovered and characterized and small enough to be moved with near-term propulsion technology.
+To support mission planning it is necessary for each candidate target asteroid that its orbit be adequately known, its spectral type be known, and its size, shape, spin state and mass be known with uncertainties that are not so large that they make the flight system design impractical.
+Periodic comets and asteroids that reach a perihelion distance of 1.3 Astronomical Units (AU) or less are defined as near-Earth objects (NEOs). The vast majority of these NEOs are near-Earth asteroids (NEAs) and roughly 20% of this population of NEAs are so-called potentially hazardous asteroids (PHAs) that are defined here as NEAs whose orbits are within 0.05 AU of the Earth's orbit [6]. It is the population of PHAs with Earth-similar orbits that are both the most likely to strike Earth and the most easily accessible for spacecraft round-trip missions.
+The densities of asteroids vary widely, from ~1 g/cm3 for a high-porosity carbonaceous chondrite to ~8 g/cm3 for solid nickel-iron meteorites. The majority of NEAs have densities between 1.9 g/cm3 and 3.8 g/cm3 [7]. The mass of an asteroid as a function of its diameter (assuming spherical asteroids) is given in Table 1 over the range of densities from 1.9 g/cm3 to 3.8 g/cm3. This table indicates that even very small asteroids can be quite massive from the standpoint of transporting them to the vicinity of the Earth.
+
+For example, a 7-m diameter asteroid with a density of 2.8 g/cm3 has a mass of order 500,000 kg. Of course small
+asteroids are not expected to be spherical, but Table 1 gives
+a general sense of the masses of these small objects.
+
+Table 1. Asteroid Mass Scaling (for spherical asteroids)
+
+'LDPHWHU P                 
+
+$VWHURLG 0DVV NJ
+
+ JFP  JFP  JFP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For NEAs with diameters larger than 100 meters, the socalled size-frequency distribution has recently been revised as a result of the WISE space-based infrared observations that were made throughout 2010 and for two months into 2011 [8]. At the small end of the NEA size- frequency distribution, there are roughly 20,500 NEAs larger than 100 meters with about 25% discovered to date, but for the smallest members of the NEA population, there are millions of NEAs larger than 10 meters and billions of NEAs larger than 2 meters. However, far less than one percent of these populations have been discovered. The difficulty is that small NEAs are faint and discoverable with the current onemeter class ground-based telescopes only when they make very close Earth approaches. For example, with an assumed albedo of 25%, a 2-m-sized asteroid 0.005 AU from the Earth would have an absolute magnitude of about 31. There are only four discovered objects of this size and all are currently lost and will have to be re-discovered. There are, however, 280 asteroids approximately 10-m diameter discovered to date but only a few of these currently have secure orbits, and none of them have the physical characterization that would allow them to be identified as a particular spectral class or have information on their albedos or true diameters.
+
+By far the most efficient NEO search program to date is the Catalina Sky Survey (CSS) near Tucson Arizona [9]. When comparing the efficiencies of NEO search telescopes, the metric of choice, called the "entendu" is the product of the telescope's aperture and its field of view. For the CSS, its entendu is about 2. Next generation NEO search telescopes include the Panoramic Survey Telescope and Rapid Response System 1 (Pan STARRS 1) on Haleakala in Maui Hawaii, which should reach an etendu of about 13 when
+
+2
+
+fully operational [10]. In addition there are plans for PanSTARRS 4, a set of four, co-located PanSTARRS 1 telescopes, which should have an entendu of about 51. The Large Synoptic Survey Telescope (LSST), which is a 8.4 meter aperture, wide field telescope in Chile, has plans for first light in 2018 [11]. The entendu for LSST is about 320 so it could be about 150 times more efficient at finding PHAs as the current CSS system. If that is the case, then the number of accessible targets today should increase by two orders of magnitude when the next generation NEO search telescopes come on line.
+When they are first discovered, all that we know about nearEarth asteroids are their orbits and their absolute magnitudes. We can covert from an object's absolute magnitude to its size if we know its albedo. However, the albedos of near-Earth asteroids vary widely. Most (but not all) NEAs have albedos between 0.09 and 0.36 [12], which means that we can estimate an asteroid's diameter to within about a factor of two from its absolute magnitude. The object's volume then can only be quantified to within a factor of 8 or 10. Assuming a factor of 2 uncertainty in the density and we can only estimate the mass of an NEA to within about a factor of 20 for objects without any information beyond the discovery magnitude ­ and there will be significant outliers beyond even that range.
+We can estimate an asteroid's mass more accurately if we have additional data. If we consider ~10-m objects that are discovered during one Earth flyby as potential mission targets during their next Earth flyby, follow-up observations must occur as soon as possible after a potential target is discovered. Ideally follow-up should start within a day and must be started within a week.
+The first follow-up observation should be additional optical astrometry to better determine the NEA's trajectory and ensure that it will not be lost ­ although at this point our knowledge of its orbit will not be sufficient for a spacecraft rendezvous many years in the future. Such astrometry of newly discovered NEAs is routinely and very reliably provided by a worldwide network of professional and amateur astronomers, as demonstrated by the case of 2008 TC3 in which 26 observatories observed that object within 19 hours of its discovery [13].
+The other necessary follow-up observations can occur in any order or simultaneously, and require the attention of professional astronomers. Optical lightcurve measurements will tell us the object's spin rate and if it is in a tumbling non-principal-axis rotation state or not [14]. More importantly for estimating the object's mass, optical and near-infrared spectroscopy will constrain the asteroid's composition ­ particularly to determine if it is rich in silicates (an S-class object) or in carbonaceous material (a C-class object) [15]. While asteroid's densities can vary significantly even given the same composition, due to differences in porosity, that variation is ~50% rather than the wider range of the whole population [16].
+
+Spectral classifications are often made solely on the basis of optical and near-IR colors. This is not sufficient for our purposes: meteorites that have C-class colors have a wide range of compositions, and only some are the water- and organic-rich carbonaceous chondrites that are normally considered to define the C-class. High-sensitivity spectroscopy covering the optical and near-IR (0.5 ­ 3.5 microns) is required to detect the absorption bands at ~0.9 and ~3.0 microns that unambiguously indicate a carbonaceous chondrite composition [17].
+Thermal infrared flux measurements allow us to estimate an object's albedo, limited by the object's shape, thermal properties, and brightness. For large objects (>100 m), we can often obtain sizes accurate to ~10-20% from thermal radiometry [18]. However, for small objects with more irregular shapes, estimates of their dimensions are only accurate to ~30-40% [19].
+The final type of follow-up is radar ranging measurements. Currently, the Goldstone Solar System Radar can image asteroids with resolution as fine as 3.75 m [20]. This allows us to determine the target's trajectory well enough for a later rendezvous and to measure its dimensions to ~40% for a 10m object. For a rapidly rotating target with a known spin state, we can estimate the size somewhat more accurately by measuring the Doppler bandwidth of the radar echoes, caused by the relative motion between one side of the object and the other. Radar shape and spin state modeling works best in combination with optical lightcurve observations, with the radar imaging providing spatial resolution and the lightcurves providing a more accurate measurement of the object's spin rate.
+Radar ranging measurements also provide very accurate astrometry, sufficient for rendezvous with the object many years later [21]. With optical astrometry only, we require at least two epochs of observation separated by several years to obtain a similarly reliable orbit solution. With radar imaging, we can obtain a ~10-m NEA's dimensions to within <=40%, and its volume to within a factor of 2.75. With composition information, this gives an uncertainty in the asteroid's mass of a factor of 4 for most objects.
+In a few cases, we can obtain asteroid's masses more accurately still. Approximately one-sixth of near-Earth asteroids larger than 200 m are binaries, and measurements of the mutual orbit of a binary system with radar allows us to determine the mass of the system, and in some cases the mass ratio of the components, to within a few percent [22]. However, those objects are likely too large to be moved the smallest known asteroid satellite is ~60 m in diameter and the fractional mass uncertainty becomes quite large for small satellites around large primary objects.
+If we are able to obtain radar ranging or high-precision optical astrometry of a ~10 m object at three or more times over a time span of months to years, we can measure the perturbations to its orbit due to radiation pressure, either direct solar radiation or the asteroid's thermal emission (the
+
+3
+
+Yarkovsky effect) [23,24]. The asteroid's acceleration tells us its mass loading, so that we can estimate its mass to within 50%. Without three or more epochs of observation separated sufficiently in time, we cannot separate the effects of radiation pressure from other sources of uncertainty in the target's trajectory. For small objects that can be observed only during close Earth flybys it will not be possible to make these observations before we would want to launch this mission.
+
+spacecraft. This information, which will include launch dates, total 'Vs and round trip flight times, will then be immediately posted on the JPL NEO website and emailed directly to those parties making a request. This filtering will help capture those NEOs that have the most easily accessible orbital characteristics. These rankings should inform the professional and amateur observing communities as they prioritize the objects they plan to observe from night to night.
+
+Our first priority, then, is to locate a several, accessible ~10m carbonaceous-chondrite objects which could be returned to Earth at some point in the 2020's. This requires a dramatic increase in the discovery rate of small asteroids. Such an increase is possible with only minor adjustments to current survey programs.
+A 10-m asteroid at ~0.03 AU will have an apparent magnitude of 18 and be moving at ~1º/hour. Both the PanSTARRS and Palomar Transient Factory (PTF) projects [25] observe with a suitable cadence to find such objects (images of the same patch of sky are separated by ~20 minutes) before they move out of a single survey field, and are sensitive enough to detect them (magnitude limit ~21.5). However, their data analysis pipelines currently automatically reject such fast-moving objects. If the pipelines can be modified to report such detections instead, and run on at most a nightly basis, these two surveys should discover roughly three 10-m objects per night.
+If the discovery rate of small objects rises to >1000/year, we must have a way to rapidly select those that we would like follow-up observations of; the existing community of asteroid observers, both amateurs and professional astronomers, are capable of obtaining the necessary followup observations of perhaps a few tens of objects per year (somewhat more for optical astrometry, somewhat less for radar).
+Follow-up observations must be planned and executed in a matter of days, and we will not usually have a sufficiently accurate orbit solution to predict future Earth encounters. Therefore, our culling procedure must use only the orbital elements of the new-discoveries. One option would be rank them using the accessibility criterion of Shoemaker & Helin 1978 [26], but that reflects the ease of getting to the asteroid rather than the ease of returning it to high orbit. Instead, we might take only those objects with C3 less than some critical value. For example, requiring C3 < 6 would decrease the target rate by a factor of 20 or so. Although many of the remaining objects will turn out to not be suitable for this mission, we would not being excluding many returnable targets.
+In this regard, there is an ongoing cooperative effort between Brent Barbee (Goddard Space Flight Center) and the NEO Program Office at JPL. Brent will regularly download orbital parameters for each newly discovered NEO, or any NEO with an updated orbit, and carry out an analysis to rank them in terms of their accessibility by
+
+Once a NEO has been identified as an attractive mission target, it will appear on the JPL NEO website with the associated mission information along with future optical and radar observing opportunities for that object. The intent is to inform the observing community of attractive new mission targets and when they could best provide the critical follow-up astrometry and the physical characterization observations.
+For the smaller objects (e.g., < 10 meters in diameter), the best observing opportunities will often be during the discovery apparitions when the object is very close to the Earth. Characterization observations will require a rapid response by the observing community and possibly advance agreements for quick access to optical, near infrared and radar assets.
+With follow-up, we will know which of the objects are carbonaceous chondrites, which are in fact good targets based on their trajectories, and have their masses to within a factor of four (for some exceptional objects we will have masses to ~50% from radiation pressure measurements).
+In summary the observing community will be asked to provide the following sets of observations for attractive mission candidates.
+x Follow-up astrometry for securing orbits. x Spectrophotometric observations for spectral type
+identification x Near-IR observations (requires an apparent magnitude
+of about 18 or brighter) x Reasonable estimates for the object's diameter and
+albedo when used in conjunction with optical observations. x Constraints upon thermal inertia x Radar observations (assuming the object is close enough) x Radar astrometry plus optical astrometry will secure the orbit during the first discovery apparition whereas with only optical astrometry, two or more apparitions will often be required to secure the orbit. x For targets with high enough signal to noise ratio, radar data can be used to back out a shape model and determine its surface roughness and rotation state.
+Synodic Period Constraint ­ The feasibility of returning an entire (small, < 10 m) asteroid hinges mainly on the
+
+4
+
+question of how to find sufficiently small asteroids that have orbital parameters extremely close to Earth and yet will return soon enough to be of interest. Small asteroids can only be discovered when they make a very close approach to Earth, where their intrinsic faintness is overcome by extreme closeness to the observer. In order to be able to return these objects to the vicinity of the Earth they must have orbital parameters that are very similar to Earth's. Consequently these objects will have synodic periods that are typically one or more decades long. This places an additional constraint on small asteroids in order to be candidates for return. They must have synodic periods of approximately one decade. This enables the object to be discovered and characterized followed by a mission targeted to return the NEA by the next close approach approximately 10 years later. There is an existence proof that such objects exist. The asteroid 2008HU4 is estimated to be roughly 7-m in diameter and will make its next close approach to Earth in 2016 with a subsequent close approach in 2026. Trajectory analysis presented in Section 4 assumes this target asteroid and demonstrates how it could be returned to the vicinity of the Earth by 2026 using a 40-kW solar electric propulsion (SEP) system.
+Alternative Approach
+The discovery of larger objects ( 100 m) is, of course, much easier than those less than 10-m in diameter. These objects can be seen at >10X greater range, so much more accurate orbits can be determined with a single pass by Earth. They are visible for enough successive nights that spectroscopic and/or radar observations can be easily arranged. All NEAs whose spectral types are known fall in this category.
+Only a few NEAs, all >100-m diameter, have been approached sufficiently closely to get high-resolution images of their surfaces. All such objects appear to have discrete rocks ranging from gravel to house-sized boulders (and larger) on their surfaces. Analyses of spin periods indicate that larger objects have spin periods generally longer than ~2 hours, the "rubble pile limit". Objects with periods slower than this limit have self-gravity at the equator greater than the centrifugal force that would fling loose objects off into space. Objects spinning faster than this are presumed to be competent rock or otherwise coherent and cohesive objects, since the centrifugal force is larger (often much larger) than gravity at the equator. Studies of spin periods show that small objects, with few exceptions, spin faster than the rubble pile limit, while larger objects, again with few exceptions, spin slower than the rubble pile limit. This suggests that larger objects are rubble piles, with a range of sizes of loose material on their surfaces.
+So the alternative approach is to target a larger NEA, knowing that the entire object is far too massive to return intact and assume that we can take a 7-m piece off it. If, in this scenario, a single right-sized piece cannot be found, then at the very least the system could be designed to collect
+
+enough regolith or many small pieces to approach the design-capacity of the system in terms of return mass (i.e., a few hundred metric tons).
+3. INVESTIGATION
+(Carlton Allen, Tom Jones, John Lewis, Dan Mazanek, Joe Nuth, Rusty Schweickart, Willie Williams)
+The INVESTIGATION group addressed three main questions. What type of asteroid would be most desirable to bring back? To what final destination should the asteroid be delivered? What should the asteroid be used for at this location?
+Asteroid Type
+The most desirable asteroids for return are the type C carbonaceous asteroids, notably those which exhibit the generic water absorption feature near 3 micrometers wavelength. The presence of a strong absorption feature in this wavelength region reveals the presence of water ice, hydroxyl silicates, or hydrated salts such as gypsum or epsomite, or any combination of these. Carbonaceous asteroid material similar to the CI chondrites is easy to cut or crush because of its low mechanical strength, and can yield as much as 40% by mass of extractable volatiles. The residue after volatile extraction is about 30% native metal alloy similar to iron meteorites [27]. Carbonaceous asteroids are the most compositionally diverse asteroids and contain a rich mixture of volatiles, dry rock, and metals. Obtaining such asteroid material will enable the development of as many extraction processes as possible.
+Final Destination
+Since even small asteroids have relatively large masses ­ a 7-m diameter asteroid has a mass roughly equal to that of the International Space Station ­ the final placement of the asteroid in the vicinity of the Earth must be considered carefully. Although the very low strength of a type C asteroid minimizes the likelihood that entry of such a body might inflict damage on Earth's surface, it is more prudent to place the retrieved asteroid in an orbit from which, if all else fails, it would only impact the Moon, not Earth. Lunar orbit and the inner Earth-Moon Lagrange point (L1) are therefore preferred. The second factor regarding the choice of parking place is that we put it in a location that is reasonably close to and accessible from Earth (within a few days' journey from LEO). A third factor is the desire to park the asteroid in a place at which there is some foreseeable future demand for water and water-derived propellants, so that production of useful materials could serve the needs of future space missions. This third factor suggests LEO and Earth-Moon L1 as the best choices. These three factors combined suggest the immediate vicinity of the Moon as a reasonable choice. Whatever the final destination the mission must clearly define the end-ofmission conditions and asteroid maintenance and disposal effort (e.g., lunar surface). For the purposes of the
+
+5
+
+trajectory design described later, we assumed a high lunar orbit as the destination for the returned asteroid.
+Asteroid Uses
+Four general categories of uses for the returned asteroid were identified. These four categories are: 1) Synergy with near-term human exploration; 2) Process development for the exploitation of asteroid resources; 3) Synergy with planetary defense; and 4) Expansion of international cooperation in space. These four areas are discussed below
+Synergy with Near-Term Human Exploration ­ Capturing and returning a small NEO into an accessible orbit in the Earth-Moon system may provide an essential destination where human NEO surface operations techniques can be tested and refined. This could pave the way for human exploration of more distant asteroids. Current NASA/administration plans call for a human mission to a NEO around 2025. A variety of options for reaching the NEO capability in the mid-2020s is under discussion at NASA, but actual implementation will depend on budgetary and programmatic initiatives not yet undertaken. An intermediate mission to retrieve a small asteroid might result in risk reduction and greater technical and budgetary confidence in a human NEO mission, in the following ways:
+· It would enable testing of SEP, communication, and NEO surface hardware on a multi-year mission in advance of a human NEO expedition. It would mature such systems and give a human expedition confidence in mature, flight-proven technology.
+· It could serve as an engineering precursor mission to the actual human target. This could include in situ evaluation of anchoring and sample acquisition techniques, the pre-deployment of assets including resource redundancy (e.g., power, communications, etc.). It could serve as a proving ground for operations with the Space Exploration Vehicle. It could also solve the sample return constraints of the human mission by providing a multi-hundred-ton sample return capability. One intriguing scenario would be to have the human crew "load up" the SEP robotic vehicle with a multihundred-ton sample for return.
+· The returned asteroid would become a "planetary surface" available within the Earth-Moon system, enabling astronaut access (rehearsals), hardware testing, and resource processing proof-of-concept demonstrations, and ultimately resource exploitation. In this way the retrieved NEA is a precursor to a mission to a much larger NEA in an orbit further away. The precursor mission could be a one month first step for humans facilitating subsequent NEA missions of 6 to 12 months representing a bigger step into the solar system.
+· In-depth physical and chemical characterization of a small asteroid during retrieval, and examination in EarthMoon space, would develop understanding of at least
+
+one type of NEO surface which might be encountered by astronaut explorers. For example, if a C-type NEO is most desirable for human exploration, retrieval of such a small NEO would provide vital experience to inform human missions.
+· The NEO retrieval mission would be an intermediate step (in terms of both technology and complexity) between robotic science missions and human expeditions. If undertaken promptly, the NEO retrieval mission would be a valuable bridge to mounting a sequence of human NEO expeditions.
+A potentially high value of a retrieval mission would be a thorough test of propulsion systems and surface systems likely to be employed on a human expedition. The longterm test of SEP components, proximity operations thrusters, and the intense surface operations required for retrieval will give much higher confidence in the ability of these systems to perform on a human NEO mission.
+From a long-term architectural point of view, the ability to test resource extraction processes and even apply commercial resource production ideas to the captured NEO will pave the way for use of asteroidal materials in human deep-space expeditions, greatly reducing required up-mass from Earth, and thus the cost, of such missions.
+Although humans will not be involved directly in planetary defense deflections of NEOs, the retrieval mission will demand such operational complexity and reliable hardware that a future deflection campaign might be planned with high confidence.
+A NEO retrieval mission ­if conducted promptly--might be completed in time to feed experience and hardware forward into plans for a series of human NEO expeditions in the late 2020s. The risk reduction and hardware validation obtained via a retrieval mission would aid human exploration program managers enormously. An initial astronaut mission might go, for example, to the captured NEO itself, to validate operations and surface activity plans.
+Finally, if the approval and funding for human NEO expeditions are delayed, then the proposed NEO retrieval might be a motivating step toward proving the value of NEO exploration, and securing such authorization.
+Process Development for Asteroid Resource Exploitation ­ Initial processing work should concentrate on the extraction and purification of water. Human expeditions to the NEA in Lunar orbit could collect and return significant quantities of material to the ISS where this initial processing work could be conducted. This would take advantage of the significant infrastructure represented by the ISS and would enable process development in a micro-g environment. The second level of processing should be the electrolysis of water into hydrogen and oxygen and the liquefaction of both gases. The third level of processing would involve strong "baking" to the point of forcing autoreduction of the major mineral
+
+6
+
+magnetite (Fe3O4) by the carbonaceous polymer, leading to total release of more water, carbon monoxide, carbon dioxide, and nitrogen. The fourth level of processing would entail using the released CO as a reagent for the extraction, separation, purification, and fabrication of iron and nickel products via the Mond (gaseous carbonyl) process [28]. The residue from Mond extraction of iron and nickel would be a dust of cobalt, platinum-group metals, and semiconductor components such as gallium, germanium, selenium, and tellurium. These challenges could be faced sequentially one at a time, not all at once.
+Synergy with Planetary defense ­ An asteroid return mission would bring broader attention to the subject of near-Earth asteroids and therefore greater understanding and attention to the planetary defense challenge element of NEOs.
+From a technical standpoint an asteroid return mission would enable significant progress in the following areas relative to planetary defense:
+1. Anchoring. Many options for more efficient and capable deflection of NEOs open up if we develop reliable robotic anchoring capability. The latest time to act prior to impact can be significantly delayed if these more robust techniques become available. Anchoring is the key to enable many of them.
+2. Structural characterization, especially of the surface layers. Kinetic impact is today the prime (most robust) deflection technology available. Yet its effectiveness is highly uncertain due to the (so called) momentum multiplier (beta) variability. Ejecta (at greater than escape velocity) from a kinetic impact may multiply the impactor momentum transferred to the NEO by anything from 2-10 or more. Structural characterization of the surface layers may reduce this uncertainty to a factor of 2 or less.
+3. Dust environment. The dust environment is expected to be highly variable and object dependent. Nevertheless, understanding the forces triggering dust levitation and settling behavior are important for gravity tractor (GT) operations in which SEP exhaust impingement on the asteroid could create a dust hazard. As a minimum greater knowledge here would enable more efficient design of the GT propulsion system and stand-off requirements.
+4. Proximity operations. Techniques for proximity operations and NEO navigation gained from returning an asteroid would be directly transferable planetary defense planning and implementation.
+
+all mankind," but with a significant advantage. An international panel could be formed to oversee both curation of the body and the review of proposals for its study. The demand for samples for engineering and scientific study of the carbonaceous chondrite material by academic, governmental, and industrial laboratories ­ usually severely hampered by lack of material ­ could be met generously. Samples could be returned to Earth for study, whereas microgravity processing experiments of the sort envisioned above could be carried out in situ in its parking orbit. All spacefaring nations would have access to the body under the oversight of the international curatorial panel. Nations without the ability to fly missions to the body would be encouraged to form teaming arrangements and propose jointly with those who can access it.
+4. FLIGHT SYSTEM AND TRAJECTORY ANALYSIS
+(David Baughman, Julie Bellerose, John Dankanich, Ian Garrick-Bethel, Robert Gershman, Damon Landau, Pedro
+Llanos, Dan Mazanek, Steve Oleson, Nathan Strange, Marco Tantardini)
+Flight System
+The mission analysis presented below is based on a conceptual design of a 40-kW (end-of-life at 1 AU) solar electric propulsion system. The spacecraft configuration in this conceptual design is dominated by two large solar array wings used to generate this power level. A margin of 10% is assumed to be added to the 40-kW power level and 500 W is allocated for the rest of the spacecraft resulting in a total solar array power level of 45.5 kW. The solar array is assumed to be configured in two wings of 22.75 kW each. Each wing would have a total area of approximately 71 m2. There are multiple candidate solar array technologies that would have the potential to meet the needs of this proposed mission including, for example, a scaled-up Ultraflex array [29]. We did not select a specific array technology, but instead have specified the required specific power for the array. In our conceptual mission timeframe we expect to have an array technology with a beginning-of-life specific power of 150 W/kg available for a launch in 2020.
+The SEP subsystem is assumed to include a total of five 10kW Hall thrusters and Power Processor Units (PPUs). A maximum of 4 thruster/PPU strings would be operated at a time. The SEP subsystem also includes xenon propellant tanks, a propellant management assembly, and 2-axis gimbals for each Hall thruster. The electric propulsion subsystem is assumed to include one spare thruster/gimbal/PPU/XFC string to be single fault tolerant.
+
+Expansion of International Cooperation in Space ­ The retrieval of several hundred tons of carbonaceous material would present unparalleled opportunities for scientific and technical research. The retrieval could be carried out under the same philosophy as the Apollo program, "in peace for
+
+Each thruster is estimated to have a mass of 19 kg, and operates at a specific impulse of up to 3000 s at a thruster input power level of ~10 kW. The xenon propellant tank is based on a cylindrical, composite overwrap pressure vessel (COPV) design with a seamless aluminum liner. Such tanks are projected to have a tankage fraction for xenon of
+
+7
+
+approximately 4%. (For reference, the Dawn xenon tank had a tankage fraction of 5%.) A total of seven xenon tanks are needed to store the 11,430 kg of xenon required for this mission. Each tank would have a diameter of 650 mm and is 3,500 mm long.
+Attitude control during SEP thrusting is provided by gimbaling the Hall thrusters. This would provide pitch, yaw, and roll control for the spacecraft. Thrusting with the electric propulsion system is the normal operating mode for the spacecraft, i.e., this is the mode in which the spacecraft would spend the vast majority of its time during the mission. At other times attitude control and spacecraft translation would be provided by a monopropellant hydrazine reaction control system (RCS). The hydrazine propellant quantity required was estimated by scaling the impulse for similar functions for the proposed comet sample return mission and then adding the propellant required to detumble the asteroid after capture.
+Two flight system architectures were considered. The first assumes a Separable Spacecraft Architecture in which the spacecraft can separate into two parts, a SEP stage and a host spacecraft (S/C). The second assumes a Single Spacecraft Architecture.
+Separable Spacecraft Architecture ­ The conceptual design for the separable spacecraft architecture has a SEP stage (SS) that includes the electric propulsion subsystem, the solar arrays, and the power management and distribution subsystem. It also includes an articulated high-gain antenna for long-range communications with Earth, short-range (omnidirectional) communications with the host S/C,
+
+Attitude Control Subsystem (ACS), Reaction Control Subsystem (RCS), and Command and Data Handling (C&DH). The SS is responsible for transporting the host S/C + SS to the vicinity of the target, post-capture rendezvous with the S/C, and transporting the system back to the final destination. Articulation of the high-gain antenna is essential since it would be impractical to frequently rotate the spacecraft with the NEA just to point the antenna at Earth.
+The host spacecraft that would separate from the SEP stage to capture and de-tumble the asteroid has the following spacecraft functions including ACS, RCS, C&DH, shortrange communications with the SEP stage, and asteroid bulk material acquisition and handling. It would also include the instrument package for in situ characterization of the asteroid and cameras to assist in the asteroid capture. It would be responsible for rendezvous, capture, and detumbling of the asteroid. The host S/C would include a liquid (RCS/hydrazine) system for agile maneuvering in the proximity of the target body and to de-tumble the asteroid.
+Single Spacecraft Architecture ­ In the single spacecraft architecture the entire SEP vehicle must be nimble enough to match the asteroid rotation state, capture it, and de-tumble the asteroid + spacecraft. This architecture was studied by NASA GRC's Collaborative Modeling for Parametric Assessment of Space Systems (COMPASS) team in support of the KISS study. The COMPASS team estimated the launch mass of the asteroid retrieval spacecraft to be approximately 17,000 kg, which is within with the Atlas V 551 capability to low-Earth orbit of 18,000 kg. The conceptual vehicle design of the Single Spacecraft Architecture from the COMPASS study is shown in Fig. 1
+
+Figure 1. Conceptual design of the Single Spacecraft Architecture in the deployed configuration. 8
+
+in the deployed configuration. This configuration assumes the use of the Ultraflex solar array design, but other solar array approaches could be used as well provided they have the same or better specific power. The launch mass of 17,000 kg would include 12,000 kg of xenon and 900 kg of hydrazine propellants.
+Spacecraft Architecture Pros and Cons ­ The separable spacecraft architecture provides the advantage that the S/C used to capture the asteroid would be smaller and more nimble than the single spacecraft with its large solar arrays and electric propulsion subsystem. It could also use the SEP stage as a communications relay station to provide high-data rate communications with Earth during the asteroid capture and de-tumble activities. The disadvantages of the separable spacecraft approach are its likely higher cost (because essentially two complete spacecraft must be developed), the necessity for autonomous rendezvous and docking with the SEP stage in deep space, and its limited energy capability once its separated from the SEP stage.
+Capture Mechanism ­ The same basic capture mechanism is assumed regardless of the spacecraft architecture. The top (the end opposite from the Hall thrusters) of the spacecraft would include the instrumentation for asteroid characterization and the capture mechanism. The capture mechanism would include deployable arms, a high-strength bag assembly, and cinching cables. When inflated, four or more arms connected by two or more inflated circumferential hoops would provide the compressive
+
+strength to hold open the bag, which would be roughly 10 m long 15 m in diameter as shown in Fig. 1. The deployed bag assembly would be sized to accommodate an asteroid with a 2-to-1 aspect ratio with a roughly cylindrical shape 6-m diameter x 12-m long.
+Trajectory Analysis
+The overall mission design, illustrated in Fig. 2, is built around the 40-kW flight system described above. The spacecraft is assumed to be launched to low-Earth orbit (LEO) using a single Atlas V 551-class launch vehicle. The SEP system would then be used to spiral the spacecraft to a high-Earth orbit where a Lunar gravity assist (LGA) would be used to put the vehicle on an escape trajectory with a positive C3 of about 2 km2/s2. The SEP system would also be used to complete the heliocentric transfer to the target NEA. Once at the asteroid the mission design allocates 90 days for characterization of the NEA, determination of its spin state, creation of a detailed shape model, and the subsequent capture and de-tumbling of the asteroid. The SEP system is then used to transport the NEA back to the vicinity of the Earth-moon system where another Lunar gravity assist would be used to capture the vehicle plus NEA to a slightly negative C3. Approximately ~4.5 months after the LGA, the asteroid could be captured into a stable high lunar orbit with essentially zero additional V.
+In this study candidate asteroid targets were selected from the data base of known NEAs based on searches for close approaches to Earth. If a NEA has a close approach to Earth
+
+Figure 2. Asteroid return mission concept. Return flight time of 2 to 6 years depending on the asteroid mass. 9
+
+(of say < 0.2 AU) at a relatively low relative velocity (of say < 3 km/s), then the close approach date was used as an initial guess for the Earth return date. The maximum return mass was then found by optimizing just the return leg trajectory for maximum return mass with fixed power and unbounded NEA departure mass. The initial guess for the Earth escape and asteroid encounters could typically be very rough: Lambert fits with 300 d (or so) Earth-to-NEA and NEA-to-Earth legs converge for initial return masses of < 100 t. Larger return masses are usually accommodated by moving the Earth departure and NEA arrival dates earlier in year steps (to provide more time for thrusting on the return leg). The pertinent design parameters are listed in Table 2.
+
+Table 2. Asteroid retrieval trajectory design parameters.
+
+3DUDPHWHU 6(3 3RZHU 6SHFLILF ,PSXOVH ,VS (3 6\VWHP (IILFLHQF\ 6SDFHFUDIW 'U\ 0DVV $WODV 9 FODVV /9
+/DXQFK 0DVV WR /(2 6SLUDO 7LPH 6SLUDO ;H 8VHG 0DVV DW (DUWK (VFDSH $WODV 9 FODVV /9 /DXQFK 0DVV WR /(2 6SLUDO 7LPH 6SLUDO ;H 8VHG 0DVV DW (DUWK (VFDSH 6SLUDO '9
+(VFDSH&DSWXUH & 1($ 6WD\ 7LPH
+
+9DOXH  N:  V   W
+ W  \HDUV  W  W
+ W  \HDUV  W  W  NPV
+ NPV  GD\V
+
+&RPPHQWV
+1R VKDGRZLQJ
+/(2LQWHUVHFW 0RRQ /XQDU DVVLVWHG
+
+Direct transfers to Sun-Earth L2, without an intermediate lunar gravity assist, were also examined. The process for this would be to connect the low-thrust interplanetary trajectories to a stable manifold that asymptotically approaches L2. The first step was to generate a table of state vectors that define the manifold. Then the state (position and velocity) of the target over the time span of interest was called from an ephemeris and rotated into the same frame as the manifold data.
+A particularly useful frame is an Earth-centered radialtangential-normal (RTN), where the radial component is Earth's position with respect to the sun and the normal component is Earth's orbital angular momentum, because the manifolds are independent of the reference epoch in this frame (i.e. they don't significantly vary over Earth's orbit around the sun). A heuristic cost function may be calculated by taking the difference in position between the NEA and the manifold and dividing it by an assumed transfer time (say two years) to get an intercept 'V, then adding the
+
+difference in velocities to get a (rough) total 'V to match states and place the NEA on the manifold. This cost function is three dimensional and can be parameterized by 1) the absolute time along the NEAs orbit; 2) the relative time from L2 on the manifold; and 3) the arrival position along the L2 orbit.
+The trajectories for two mission scenarios were calculated: 1) Return of an entire asteroid (with a mass of several hundred metric tons) of an unknown spectral type; and 2) Return of a sizable mass (hundreds of metric tons) from a well-characterized target. Because there are many known but uncharacterized NEAs, it is possible to find a few small objects with orbits similar enough to Earth's to return large (~1000 t) masses. With the additional constraint that a potential target should have an upcoming observation opportunity, 2008 HU4 provides an example target for return of an entire NEA. Since it is not known what type of asteroid 2008 HU4 is, its mass is highly uncertain. Table 3 summarizes the results assuming the asteroid mass is as low as 250 t and as high as 1,300 t. The trajectory details to return up to 1300 t are presented in Fig. 3.
+Alternatively, for the return of a several hundred ton sample mass from a larger asteroid of a known type, asteroid 1998 KY26 was used as the example. This asteroid is known to be carbonaceous. Because the number of typed asteroids is currently small, it is more difficult to find a potential target that permits large return masses. In this case 1998 KY26 requires more 'V to return a sample than was the case for asteroid 2008 HU4. In the case of 1998 KY26 "only" 60 t could be returned (as indicated in Fig. 4). The asteroid 2008 EV5 (not examined here) is another C-type that could permit sizable return samples.
+As demonstrated in the first five rows of Table 3, additional flight time enables increasingly larger return masses. However, the return date is fixed to when the NEA naturally has a close encounter to Earth, so the additional flight time comes at the expense of earlier launch dates. Also, larger return mass typically entails additional propellant, which increases the wet mass of the spacecraft and requires larger launch vehicles. Line six of Table 2 is a design that transfers the NEA straight to Sun-Earth L2, which would require more 'V than capturing with a lunar flyby and significantly reduces the return mass. The difference between rows seven and eight (1998 KY26) is the addition of an Earth gravity assist in row eight to leverage down the naturally high encounter velocity of 1998 KY26. The NEA 2000 SG344 has an orbit very similar to Earth's and permits very large return masses. However the return trajectory is very sensitive to arrival C3, where the addition of 0.1 km2/s2 doubles the return mass (comparing rows 9 and 10). In this case it appears that the sensitivity is due to continuous thrusting on the return leg, and increasing flight time doesn't help because of the synodic phasing of the NEA and Earth (moving the encounter earlier by a year removes the low-'V transfer). Again, as demonstrated in the final row of the table, the additional 'V of removing all of the arrival C3
+
+10
+
+to capture directly onto the L2 manifold dramatically reduces the return mass capability.
+Figure 3. Example mission returning 1300 t of a small (~7 m) NEA with a radar opportunity in 2016.
+Figure 4. Example mission returning 60 t of a wellcharacterized 30-m carbonaceous NEA.
+
+Table 3. Interplanetary (Earth escape to Earth capture) trajectories for example missions.
+
+'HVLJQDWLRQ
+
+5HWXUQHG 0DVV W
+
+;H W QR 6SLUDO
+
+(DUWK (VFDSH
+
+)OLJKW 7LPH \U
+QR VSLUDO
+
+$UULYDO &
+NPV
+
+ +8
+
+
+
+  
+
+
+
+ +8
+
+
+
+  
+
+
+
+ +8
+
+
+
+  
+
+
+
+ +8
+
+
+
+D  
+
+
+
+ +8
+
+
+
+D  
+
+
+
+ +8
+
+
+
+D  
+
+E
+
+ .<
+
+
+
+  
+
+
+
+ .<
+
+
+
+  
+
+
+
+ 6* 
+
+
+
+
+
+
+
+
+
+ 6* 
+
+  
+
+
+
+ 6* 
+
+  
+
+E
+
+aRequires Atlas V (551)-class launch vehicle. All others assume an Atlas V (521)-class launch.
+
+bCapture directly to Sun-Earth L2 via a stable manifold. All others assume lunar capture to S-E L2.
+
+5. CAPTURE
+(Julie Bellerose, Kevin Parkin, Guru Singh, Brian Wilcox, Collin Williams)
+
+The capture methodology depends on which mission approach we select. The two general approaches described above are identified as "get a whole one" in which we bring back an entire small NEA (~7-m diameter), and "pick up a rock" in which we pick up a 7-m rock off the surface of a much larger, > 100-m, NEA.
+
+Get a Whole One
+
+In Get a Whole One the spacecraft would spend up to 90 days characterizing the NEA, capturing it and subsequently de-tumbling it. These processes are outlined below.
+
+Proximity Operations ­ Since the targeted NEA is only ~7 m in diameter, the rendezvous would likely need to implement a search prior to encountering the NEA. For example, for 2008 HU4, the ellipse uncertainty is ~ 200,000 km x 1 M km. Assuming a navigation camera similar to the Dawn framing camera, the NEA should be visible from a distance of 100,000 km to 200,000 km.
+
+11
+
+During the 3 months prior to rendezvous, images and DDOR, Doppler and ranging measurements would be obtained to constrain the NEA position and obtain preliminary information for further approach and close-up characterization. The spacecraft rendezvous point could be defined at about 20-30 km out, with a residual speed of less than 1-2 m/s.
+In the far-approach phase the spacecraft would approache and loiters in the vicinity of the target body by following the ground-provided SEP thrusting profile. The range to the target may be several km at this point. This should permit target-relative position (target Æ S/C inertial position) estimation using on-board GNC sensors and functions. Once the relative state is known, the on-board station-keeping algorithms will use this data to execute desired targetrelative proximity motions.
+A 7-m NEA has very little gravity, less than 10-6 m/s2. Hence, the incremental approach from 20-30 km down to 1 km would be a function of the integration time needed to analyze images/data. A 1-km standoff distance (if hovering), or close approach distance (if slow hyperbolic flybys are adopted) is a good distance for sub-meter imaging. Full characterization would be done at distances from 1 km to 100 m, over varying phase angles. Note that orbiting this small NEA is theoretically possible but most likely outside of the spacecraft proximity 'V capabilities (too small 'V maneuvers needed). Implementing slow hyperbolic flybys would require about 3-4 days per flyby accounting for planning maneuvers and processing tracking data.
+Being most likely a fast rotator (from current statistics on < 100-m NEA, spin period may be as fast as 10 min), 1-2 Hz frame rate camera would be needed for resolving the spin state. To account for a possible lack of surface features to navigate with, visible images combined with IR images is a must have capability. Gathering full coverage data with candidate instrument suite given in Table 4 would total to about 30-40 Gb at most within a couple of months.
+In the middle-approach phase a target-relative trajectory (inertial) would be executed using relative position estimates to bring the S/C to within a few hundred meters of the target, and park it there for an extended period of time.
+
+Parking in this context implies loose station-keeping (i.e., back-and-forth coasting inside a control dead-band box defined in inertial space in the vicinity of the target body). It should be possible to use a Radar Altimeter during this phase. This implies identification of model parameters that can be used to propagate target body orientation as a function of time on-board. Although it can be, spin state ID is not required to be an autonomous function. Target may have to execute circumnavigation motions during this phase.
+Assuming radar observation opportunity prior to rendezvous constrain the mass uncertainty to a factor of 2, the spacecraft would need to come within 20 m of the NEA, drifting by it at less than 10 cm/s, for the radio experiment to reduce the mass uncertainty. As an alternative, a landing probe or beacon on the surface could be used. In addition to beaconing, surface experiments should be used for testing the surface mechanical and electrical properties prior to any anchor attempt or de-spinning activities.
+In addition to the candidate instrument suite in Table 4 a Gamma Ray Neutron Spectrometer (such as the GRaND instrument on Dawn) could be considered for surface composition.
+Capture and Detumble ­ Two essential processes for an asteroid return mission are how to capture the NEA, which is a tumbling, non-cooperative object in deep space, and how to detumble it after capture.
+In the Separable Spacecraft Architecture, the mission profile calls for the vehicle to rendezvous with the target asteroid and to separate, with the SEP stage "parked" a safe distance away. The SEP stage may be spin-stabilized with the highgain communications antenna pointed at Earth and the solar arrays pointed approximately at the sun (the Earth and Sun are likely to nearly aligned in the sky if the rendezvous occurs as the asteroid "passes" the Earth in its orbit). The host S/C would then proceed to approach the asteroid, and to match its spin (and tumbling, if necessary) so that one patch of its surface would be presented almost stationary to the capture mechanism. In the Single Spacecraft Architecture the entire vehicle must match the spin state of the asteroid.
+
+12
+
+Table 4. Candidate instrument suite.
+
+Capture Mechanism
+The capture mechanism would include four or more "arms" (e.g. members with reasonable strength in compression and bending) hold open a high-strength "bag". At the workshop many alternatives to a bag were considered and rejected. The bag has the slight negative that it would disturb the surface of the asteroid more than some other capture options, but has overwhelming advantages in terms of containment of possibly-fragile asteroid material that could break up under small forces, be lost, and possibly damage other parts of the S/C or SEP stage in the process.
+In this concept the bag has multiple "draw strings" that cinch-close the opening of the bag and also cinch-tight against the bulk material. Ultimately, the tightly-cinched bag of bulk material would be drawn up against a ring that constrains its position and attitude so that its center-of-mass is controlled and forces and torques can be applied by the S/C.
+Between the bag assembly and the body of the S/C would be a ring that imparts forces on the bulk material through the bag. Although not shown in Fig. 1 it may be necessary to include a "Stewart Platform" in which six linear actuators allow the ring to be moved in x, y, z, roll, pitch, and yaw. This would enable the center-of-mass of the final bagged asteroid to be positioned within a comfortable range of the SEP thruster gimbals so that the resultant thrust vector from all the EP thrusters can nominally be pointed through the center of mass of the whole assembly.
+
+Capture Phase ­ sometime after the spin state has been identified, the S/C would approach the target body by following a series of closure steps (several descentstationkeeping-descent cycles). The guidance subsystem would use Radar-Altimeter aided relative position estimates (inertial) to plan and execute these trajectories. The final stationkeeping location may be 10s of meters from the target center. The S/C would matche the surface velocity and spin state of the target while maintaining station at the final stationkeeping location. Final closure motion would be initiated while remaining in the synchronized motion state (see prop/thrust estimates). Control is disabled just before capture and re-established following a successful capture and securing of the target body. The S/C + asteroid is detumbled using the RCS system.
+The GNC algorithms to rendezvous with a non-cooperative space object exist for objects in Earth orbit. The algorithms, developed for rendezvous and sample capture, were exercised in a DARPA-funded study. That study demonstrated the capture of a defunct, spinning and wobbling, non-cooperative object in Earth orbit.
+In the Separable Spacecraft Architecture, after successful de-tumbling of the NEA the SEP Stage would descend to rendezvous with the detumbled S/C + asteroid system. This system would now be deemed a co-operative target in the sense that it could reorient itself to face the SS if needed.
+Pick Up a Rock
+In the Pick Up a Rock approach we need to consider how to pluck a single ~7-m rock off the surface of a >100 m
+
+13
+
+asteroid or, failing that, collect a similar mass of regolith or smaller rocks.
+This scenario also makes use of a high-strength bag to capture a large rock on the surface of the asteroid. If no rock on the surface of the asteroid is suitable, then it would be necessary to collect bulk regolith instead. It may be possible to accomplished this by anchoring the S/C onto the surface, and having a "snow blower" that could pivot around the anchor point so as to fill the sample bag with collected material entering via a chute from the snow-blower. The snow-blower, just like its name-sake on Earth, would use forces imparted by a spinning blade to fling the regolith into the chute, where it would propagate by its own inertia along the chute into the bag. The opening of the bag would have previously been cinched over the chute so that the bulk material cannot escape. Note that, unlike terrestrial "bagging lawn mowers," no provision needs to be made for escape of air.
+If it is desired to collect up to 1000 cubic meters of loose regolith, and it is assumed that the snow-blower could (on successive passes) dig up to 1 meter deep, and would be able to process an annulus ranging from 3 to 10 meters away from the anchor pivot, then each anchor point could provide up to about 250 cubic meters of material. So some 4 different anchor points must be assumed.
+The bag would need to comfortably accommodate 1000 cubic meters of sample, which means that it is more than 10 meters in diameter and 10 meters long. This is too large to fit in present-day launch shrouds, so it must be deployed. Having the "arms" that open the bag be inflated tubes so that the whole assembly is made of fabric and deploys out of a compact package seems attractive. Similarly, the chute and support for the snow-blower may also be inflated. Computer-controlled winch cables would cinch the drawstrings of the bag(s), modulate the radius of operation of the snow-blower, etc.
+On another side of the S/C would be the anchoring. Currently this is envisioned as one or more auger-type anchors that can be "screwed" into the terrain. Two counter-rotating augers (one right-hand and one left-hand) can provide anchoring with no net torque reaction. These anchors can be released so that multiple anchor points can be provided as needed to acquire 1000 cubic meters of regolith. Opposite the anchor assembly is the short-range communication antennas, camera platform, and other sensors needed for the regolith gathering activity. Since the anchor, by definition, is on the side facing the asteroid, this side faces space, and provides a good attach point for a camera boom giving a proper vantage-point for managing either the snow-blower or the free-flight approach to guide the bag to envelop a rock.
+
+6. CONCLUSIONS
+At this intermediate point in an ongoing study it appears feasible to capture and return an entire near-Earth asteroid to a high Earth orbit and eventually transfer this object into orbit about the Moon using technology that is or can be available in this decade. One of the key challenges is the discovery and characterization of a large number of sufficiently small asteroids of the right type and with the right orbital characteristics from which an attractive target for return can be selected. The asteroid must be type-C, have a synodic period of approximately 10 years, and be approximately 7 m in diameter. The study has identified an observation campaign that could discover several hundred small asteroids per year and characterize a fraction of these. Asteroid 2008HU4 is of an unknown type, but has approximately the right size and has a synodic period of 10 years. Proof-of-concept trajectories based on this asteroid suggest that a robotic spacecraft with a 40-kW solar electric propulsion system could return this asteroid to a high-Earth orbit in a total flight time of 6 to 10 years assuming the asteroid has a mass in the range of 250,000 to 1,300,000 kg (with the shorter flight times corresponding to the lower asteroid mass). Significantly, these proof-of-concept trajectories use a single Atlas V launch to low-Earth orbit.
+This study also considered an alternative concept in which the spacecraft picks up a ~7-m diameter rock from the surface of a much larger asteroid (> 100-m diameter). The advantage of this approach is that asteroids 100-m in diameter or greater are much easier to discover and characterize. This advantage is somewhat offset by the added complexity of trying to pick up a large 7-m diameter rock from the surface. This mission approach would seek to return approximately the same mass of asteroid material ­ of order 500,000 kg ­ as the approach that returns an entire small NEA.
+Several benefits of returning an entire NEA to the vicinity of the Earth have been identified. One of the key benefits is that if a NEA retrieval mission is conducted promptly if might be completed in time to feed experience and hardware forward into plans for a series of human missions beyond low-Earth orbit in the late 2020s.
+ACKNOWLEDGMENTS
+The research described in this paper was sponsored by the Keck Institute for Space Studies (KISS) and was carried out in part at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration.
+The people and organizations listed below participated in the KISS-sponsored study. It is their work that is summarized in this paper and the authors gratefully acknowledge their contributions. In addition, the Collaborative Modeling for Parametric Assessment of Space Systems (COMPASS) team at NASA GRC performed a study of the Asteroid Retrieval Mission concept resulting in
+
+14
+
+a conceptual flight system configuration and mass estimate. Their work is also gratefully acknowledged by the authors.
+
+Cellino, Paolo Paolicchi, and Richard P. Binzel (Eds), The University of Arizona Press, 2002, pp.485-500
+
+Arkyd Astronautics, Inc.: Chris Lewicki B612 Foundation: Rusty Schweickart California Institute of Technology: Mike Brown, Paul Dimotakis, Prakhar Mehrotra Florida Institute for Human and Machine Cognition: Tom Jones Harvard-Smithsonian Center for Astrophysics: Martin Elvis JPL: Robert Gershman, Damon Landau, Guru Singh, Nathan Strange, Brian Wilcox, Colin Williams, Don Yeomans Naval Postgraduate School: David Baughman NASA ARC/Carnegie Mellon University: Julie Bellerose, Kevin Parkin NASA GRC/Gray Research: John Dankanich NASA GSFC: Joe Nuth NASA JSC: Carl Allen, Willie Williams NASA LaRC: Dan Mazanek The Planetary Society: Bruce Betts, Marco Tantardini University of Arizona: John Lewis University of California, Los Angeles: Michael Busch University of California, Santa Cruz: Ian GarrickBethell University of Southern California: Pedro Llanos
+7. REFERENCES
+[1] Tsiolkovskii, K., The Exploration of Cosmic Space by Means of Rocket Propulsion, published in Russia, 1903.
+[2] Lewis, J. S., Mining the Sky, Untold Riches from the Asteroids, Comets, and Planets, Helix Books, 1996, ISBN 0-201-47959-1.
+[3] Wikipedia, Asteroids in Fiction,
+http://en.wikipedia.org/wiki/Asteroids_in_fiction
+[4] Brophy, J. R., et al., Asteroid Return Mission Feasibility Study, AIAA-2011-5665, 47th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit, San Diego, California, July 31-3, 2011.
+[5] Keck Institute for Space Studies, http://www.kiss.caltech.edu/
+[6] Bottke, W.F., Jedicke, R., Morbidelli, A., Petit, J.-M., Gladman, B., 2000, Understanding the distribution of near-Earth asteroids, Science 288, 2190-2194.
+[7] Britt, D.T, Yeomans, D., Housen, K., Consolmagno,
+G., "Asteroid Density, Porosity, and Structure," in Asteroids III, by William F. Bottke Jr., Alberto
+
+[8] WISE data on NEAs: Mainzer, A., and 36 colleagues, 2011, NEOWISE observations of near-Earth objects: preliminary results, ApJ in press, available at arxiv.org/abs/1109.6400.
+[9] Larson, S., Brownlee, J., Hergenrother, C., Spahr, T., 1998, The Catalina Sky Survey for NEOs, Bull.Am.Ast.Soc. 30, 1037.
+[10] Jedicke, R., Magnier, E.A., Kaiser, N., Chambers, K.C., 2006, The next decade of solar system discovery with Pan-STARRS, IAU Proceedings No. 236, 341-352.
+[11] Jones, R.L., Chesley, S.R., Connolly, A.J., Harriws, A.W., Ivezic, Z., Knezevic, Z., Kubica, J., Milani, A., Trilling, D.E., and the LSST Solar System Science Collaboration, 2009, Earth Moon & Planets 105, 101105.
+[12] Thomas, C.A., and 18 colleagues, 2011, ExploreNEOs. V. Average albedo by taxonomic complexin the nearEarth asteroid population, AJ 142, 85.
+[13] Jenniskens, P., and 34 colleagues, 2009, The impact and recovery of asteroid 2008 TC3, Nature 458, 485-488 and Chesley, S., Chodas, P., Yeomans, D., 2008, Asteroid 2008 TC3 Strikes Earth, NASA statement, November 4 2008, available online at http://neo.jpl.nasa.gov/news/2008tc3.htm.
+[14] Pravec, P., and 19 colleagues, 2005, Tumbling asteroids, Icarus 173, 108-131.
+[15] Bus, S.J., Vilas, F., Barucci, M.A., 2002, Visiblewavelength spectroscopy of asteroids, Asteroids III, 169-182.
+[16] Britt, D.T., Yeomans, D., Housen, K., Consolmagno, G., 2002, Asteroid density, porosity, and structure, Asteroids III, 485-500.
+[17] Gaffey, M.J., Cloutis, E.A., Kelley, M.S., Reed, K.L., 2002, Mineralogy of Asteroids, Asteroids III, 183-204.
+[18] Masiero, J.R., and 17 colleagues, 2011, Main belt asteroids with WISE/NEOWISE. I. Preliminary albedos and diameters, Astrophysical Journal 741, 68.
+[19] Taylor, P.A., and 7 colleagues, 2009, Variability of thermal infrared emission from near-Earth asteroids, Am.Ast.Soc. DPS meeting #41, 32.01.
+[20] Slade, M.A, Lee, C.G., Jao, J.S., Benner, L.A.M., Brozovic, M., Giorgini, J.D., Busch, M.W., 2010, First results of the new Goldstone delay-Doppler radar chirp imaging system, Bull.Am.Ast.Soc. 42, 1080.
+
+15
+
+[21] Ostro, S.J., Giorgini, J.D., 2004, The role of radar in predicting and preventing asteroid and comet collisions with Earth, in Mitigation of hazardous comets and asteroids, Belton, M.J.S. editor, 38-65.
+[22] Ostro, S.J., et al., 2006, Radar imaging of binary nearEarth asteroid (66391) 1999 KW4, Science 314, 12761280; Naidu, S.P. et al., 2011, Binary near-Earth asteroid 2000 DP107, EPSC Abstracts 6, EPSCDPS2011-310-1.
+[23] Bottke, W.F., et al., 2006, The Yarkovsky and YORP effects: implications for asteroid dynamics, Ann. Rev. Earth Planet. Sci. 34, 157-191.
+[24] Chesley, S.R., et al., 2003, Direct detection of the Yarkovsky effect by radar ranging to asteroid 6489 Golevka, Science 302, 1739-1742.
+[25] Law, N.M., and 40 colleagues, 2009, The Palomar Transient Factory: system overview, Proc. Ast. Soc. Pacific 121, 1395-1408.
+[26] Shoemaker, E.M., and Helin, E.F. 1978, EarthApproaching asteroids as targets for exploration. In Asteroids: An Exploration Assessment, NASA CP2053, pp. 245-256.
+[27] Lewis, op. sit., pp. 109.
+[28] http://en.wikipedia.org/wiki/Mond_process
+[29] Spence, B., et al., "Next Generation Ultraflex Solar Array for NASA's New Millennium Program Space Technology 8, 2005 IEEE Conference.
+
+Biographies
+
+John Brophy received a
+B.S. in Mechanical Engineering from the Illinois Institute of Technology in 1978, an M.S. in Mechanical Engineering from CSU in 1980, and a Ph.D in Mechanical Engineering
+from Colorado State University in 1984. He was the
+Project Element Manger of the Ion Propulsion System for NASA's Dawn mission. He is a Principal Engineering Specialist in electric propulsion for the Jet Propulsion Laboratory (JPL) where he has worked since 1985.
+
+Louis Friedman earned a
+
+B.S.
+
+in
+
+applied
+
+Mathematics
+
+and
+
+Engineering Physics at the
+
+University of Wisconsin in
+
+1961, followed by an M.S.
+
+in Engineering Mechanics
+
+at Cornell University in
+
+1963. He earned his Ph.D.
+
+from the Aeronautics and Astronautics Department at
+
+M.I.T. in 1971 with a thesis on Extracting Scientific
+
+Information from Spacecraft Tracking Data. Louis
+
+Friedman helped co-found The Planetary Society, and
+
+brought to his position as Executive Director a wealth of
+
+experience in the space exploration community, including
+
+10 years at the Jet Propulsion Laboratory and five at
+
+AVCO Space Systems Division. He has been a guiding
+
+force with the Society for over 20 years.
+
+Fred Culick received S.B.
+
+and S.M. degrees from
+
+MIT in 1957 and a Ph.D
+
+from MIT in 1961. He is
+
+the Richard L. and
+
+Dorothy M. Hayman
+
+Professor of Mechanical
+
+Engineering
+
+and
+
+Professor of Jet
+
+Propulsion, Emeritus at the California Institute of
+
+Technology.
+
+16
+
+

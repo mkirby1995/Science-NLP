@@ -1,0 +1,238 @@
+Acta Astronautica 67 (2010) 1103­1109
+Contents lists available at ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+
+Radiation shielding design strategies for lunar minimal functionality habitability element$
+Olga Bannova n, Larry Bell
+Sasakawa International Center for Space Architecture (SICSA), University of Houston, USA
+
+article info
+Article history: Received 29 December 2009 Received in revised form 13 June 2010 Accepted 20 June 2010 Available online 14 July 2010
+Keywords: Habitat Radiation shielding materials applications Interior design Design strategies
+
+abstract
+This paper is based on a study conducted by Sasakawa International Center for Space Architecture (SICSA) between September 2008 and February 2009. SICSA has been awarded key roles in helping two aerospace company teams plan living and working accommodations for early lunar surface missions. SICSA has major conceptual design responsibilities on teams headed by Boeing and ILC-Dover which were separately selected out of more than 20 competing proposals for two out of three total NASA study contracts. Major study priorities were to determine minimum habitat requirements essential to keep crews alive and safe from harm during the first month-long missions, and then expand these accommodations as operations, facilities and amenities are extended. This paper discusses important points of radiation protection design options and known radiation protection materials applications with a special emphasis upon comparative mass implications for several proposed habitat configuration concepts. These comparisons are correlated with shielding surface area rather than actual mass estimates due to current data uncertainties regarding a number of issues: unresolved questions concerning how much radiation protection will be mandated, what mitigation strategies will be selected, what types and thicknesses of materials will be used, and how much of the total allowable module mass can be allocated for this purpose.
+& 2010 Elsevier Ltd. All rights reserved.
+
+1. Introduction
+The study discussed in this paper correlates the various reference concepts and applications with the projected aggregate shielding area required to protect four crew members under spatially constrained circumstances. These strategies include use of rigid and pliable materials, water bladders, and hybrid combinations of both.
+Various shielding approaches to protect lunar habitats from micrometeoroid and radiation hazards present major trade-off considerations. Popular scenarios that envision covering modules with in-situ regolith will necessitate means to excavate and move large amounts
+$ This paper was presented during the 60th IAC in Daejeon. n Corresponding author.
+E-mail addresses: obannova@uh.edu (O. Bannova), lbell@uh.edu (L. Bell).
+0094-5765/$ - see front matter & 2010 Elsevier Ltd. All rights reserved. doi:10.1016/j.actaastro.2010.06.036
+
+of material; will complicate evolutionary outpost growth; and may require long tunnels between connecting pressurized elements. Strategies that incorporate shielding materials into module structures or internal shelters add very substantial launch mass penalties. Utilization of water bladders can make efficient use of consumable/recyclable supplies, but may impose excess capacity deliveries at early development stages.
+Galactic Cosmic Rays (GCR) from deep space are comprised of protons, electrons and ionized light elements. Due to high energy levels, they are nearly impossible to fully shield against, and biological effects are not well understood.
+Unlike Earth, the Moon does not have a magnetic field to deflect or trap GCR or materially influence its effects. On the other hand, solar particle events (SPE) surface exposures are only about half experienced in deep space
+due to the 2p view shadowing provided by the Moon itself
+[1]. Applying skin shell concepts currently proposed
+
+1104
+
+O. Bannova, L. Bell / Acta Astronautica 67 (2010) 1103­1109
+
+for NASA's Crew Exploration Vehicle (CEV) design [2] (5.0­7.0 mm thick aluminum), no additional shielding is expected to be required for GCR protection over shortduration surface missions that were baselined in this study. This could be expected to keep the dose exposures below a designated 500 mGy-Eq annual limit.
+2. Micrometeoroid and radiation protection standards
+Lunar surface habitats and crews must be protected from micrometeoroid and radiation hazards at levels ``as low as reasonably achievable'' (ALARA). With regard to micrometeoroids, the goal is to afford a 0.993 ``probability of no penetration'' (PMP) over each 5-year period. And while no firm radiation dose limits have been established for exploratory class missions, those which have been applied for low-Earth orbit (LEO) are presently recommended as guidelines. These have been set by NASA (NASA-STD-3001) and the National Council on Radiation Protection and Measurements (NCRP Reports 132, 137 and 142) (Table 1) [3].
+Micrometeoroids penetrate the lunar surface at very high velocities. Since larger modules present bigger targets, they present greater hazard risks. A popular shielding strategy applies a ``micrometeoroid and secondary ejecta'' (MMSE) barrier to the external module structures, with particular attention to vulnerable top and side locations that comprise about 3/4ths of the surface areas. A typical approach provides an exterior beta-cloth fabric layer with an interior Nextel/Kevlar blanket over the pressure shell. Estimated required MMSE shield mass is 10 kg/m2 (Table 2) [4].
+
+Table 2 Recommended micrometeoroid protection based upon ISS meteoroid and orbital debris system (MDPS) design.
+
+Description
+
+Material
+
+Area density (kg/m2)
+
+Front bumper Kevlar composite fabric
+
+1.5
+
+0.25 cm thick--5 layers of 300 g/m2 Kevlar fabric
+
+Rear bumper
+
+Nextel 0.30 cm thick
+
+2.8
+
+Kevlar 0.64 cm thick
+
+4.0
+
+Spacer
+
+1.7
+
+Total
+
+10
+
+Fig. 1. Single-person stowable/relocatable radiation shielded sleep unit.
+
+3. Strategies and design concepts
+Conceptual part of the study proposes a variety of accommodations for a crew of four considering interior
+
+Table 1 Recommended NCRP radiation dose limits.
+
+Organ
+
+30-day limit 1 year limit
+
+Career
+
+Lensn Skin BFO Heartnn CNSnnn CNSnnn (Z Z 10)
+
+1000 mGy-Eq 1500 250 250 500
+
+2000 mGy-Eq 3000 500 500 1000 100 mGy
+
+4000 mGy-Eq 4000 Not applicable 1000 1500 250 mGy
+
+The most applicable dose limits for typical mission design consideration are the 30-day 250 milli-Gray equivalent (mGy-Eq) and the annual 500 mGy-Eq limits for blood forming organs (BFO) (1 Sievert (Sv) =100 rem = 1000 mGy-Eq, therefore, 250 mGy-Eq = 25 rem = 0.25 Sv).
+n Lens limits are intended to prevent early ( o 5 yr) severe cataracts (e.g., from a solar particle event). An additional cataract risk exists at lower doses from cosmic rays for sub-clinical cataracts, which may progress to severe types after long latency ( 4 5 yr) and are not preventable by existing mitigation measures; however, they are deemed an acceptable risk to the program.
+nn Heart dose calculated as average over heart muscle and adjacent arteries.
+nnn Central Nervous System (CNS) limits should be calculated at the hippocampus.
+
+Fig. 2. Deployable drop-down sleeping units with water tube radiation shielding.
+volume and layout implications. Included are possible means to incorporate radiation protection countermeasures for SPE events along with separate storm shelter options. Sleep and radiation factors are closely linked because many design responses may utilize common devices, share common locations, must address the same crew activities, and have very significant volumetric and mass consequences.
+Several fixed-in-place, deployable and movable sleep and radiation shelter schemes are proposed to support individuals and groups (Figs. 1­6).
+Single-person stowable/relocatable radiation shielded sleep unit contains stowed radiation shield platform with plug-in enclosure frame. Pliable radiation shield can be stowed with wire support frame that is bent and inserted into the enclosure platform as needed (Fig. 1).
+Deployable drop-down sleeping units with water tube radiation shielding can utilize potable and wastewater in separate tubular piping systems. Water supply for these systems is located above ceiling and heights of the sleeping units might be kept to a minimum in order to reduce water requirements (Fig. 2).
+
+O. Bannova, L. Bell / Acta Astronautica 67 (2010) 1103­1109
+
+1105
+
+Fig. 5. Deployable walls with water tube radiation.
+
+Fig. 3. Single/two-person deployable tube water radiation shielded sleep unit.
+
+Fig. 6. Floor-deployed water tube radiation shelter.
+Erectable tent-type radiation shelters use flexible support structure that is held in shape compression by posttensioned cables connected by crew. The structure is then covered with pliable shield (Fig. 4). Umbrella-type flexible rods pivot down to provide the support structure. Area of shielding (sitting area) in this configuration is approximately 2.5 m2 within 3.7 m2 of tent's enclosure floor area.
+Deployable walls with water tube radiation shielding can be incorporated into the module interior layout and placed close to utilities vital for crew functioning during SPEs. This system is a collapsible wall structure that is deployed as needed (Fig. 5) and operates in a similar way to the system described in Fig. 3.
+Floor-deployed water tube radiation shelters are collapsible systems where shielded top plate recesses into floor surface of the module when not in use to provide availability of the space for habitat functions. Water reservoir is located under the floor and provides shielding from below (Fig. 6).
+
+Fig. 4. Erectable tent-type radiation shelter.
+Fig. 3 depicts single or two-person sleeping units with deployable tube water radiation shielding. Water reservoir for these systems might be located below floor or above the ceiling where also potable and wastewater can be used in separate tubular piping systems.
+
+3.1. MFHE reference modules
+Two generic MFHE reference modules were used to examine basic spatial implications of various sleep and radiation countermeasure strategies as illustrated in Figs. 7­12. Layout form, fit and function examples also depict generic reference concepts and placements for toilet/hygiene and food preparation (galley) accommodations as ``place holders'' for more elaboration later. Each layout scheme additionally identifies areas that would be theoretically available for various stowage and equipment allocations, although this is not intended to
+
+1106
+
+O. Bannova, L. Bell / Acta Astronautica 67 (2010) 1103­1109
+
+Fig. 7. Sleep and radiation shielding placement and fit references. Fig. 9. Two-person deployable and relocatable sleeping units.
+
+Fig. 8. Single-person dedicated and relocatable sleeping spaces.
+suggest that all of this space would necessarily be used for such purposes.
+The primary intent of these illustrations is to help clarify where each type of sleep/radiation shelter scheme might be most beneficially applied along with inherent advantages and limitations. In some instances it becomes apparent that multiple options warrant consideration. Other assessment criteria will follow to support comparative assessments.
+The following correlation assessments and observations should be recognized as quite general and somewhat subjective in many aspects, and were intended to guide
+
+Fig. 10. Location-critical radiation shields.
+follow-on research and design considerations rather than offer firm conclusions. Accordingly, a qualitative ranking tabulation (``good, fair, poor and conditional'') was intentionally used rather than a numerical evaluation and/or rank-order approach which suggests more quantitative precision than can be presently justified (Fig. 13).
+No sleep/shielding options should be ruled out entirely until all contextual information is available, including influences of other support equipment volume/mass and crew system outfitting determinations. Investigations of
+
+O. Bannova, L. Bell / Acta Astronautica 67 (2010) 1103­1109
+
+1107
+
+Fig. 11. Deployable water tube sleeper and storm shelter.
+
+Fig. 13. Design concept applications and attribute comparisons.
+
+1.5m ±
+
+2m ±
+
+1.5m
+
+Total Surface Area = 16.722 ±
+(water only)
+
+4-Person Sleeper
+
+1.6m ±
+
+1.5m ±
+
+Fig. 12. Four-person deployable and fixed sleeping units.
+some of these factors which relate most directly to habitability and crew outfitting were examined in the referred MFHE study.
+
+Total Surface Area: Top panel = 1.76m2 ± Water = 8.73m2 ±
+
+4-Person Storm Shelter
+
+Fig. 14. Radiation shielding: hydraulic deployables.
+
+Various reference concepts and applications with the projected aggregate shielding area that is required to protect four crew members under spatially constrained circumstances were correlated and compared. These strategies included use of rigid and pliable materials, water bladders, and hybrid combinations of both.
+While water shielding affords potential mass conservation advantages owing to utility for consumption and other functions during nominal periods, it is recognized that many schemes may impose requirements that exceed practical water mass allowances. Water tankage locations will have strategic planning implications as well.
+
+1108
+
+2m ±
+
+O. Bannova, L. Bell / Acta Astronautica 67 (2010) 1103­1109
+Total Surface Area = 46.45m2 ± (includes 1.5m ± floor under shelter) 4-Person Storm Shelter
+1m ±
+
+1m ± Shielded base plate and end closures.
+
+2.1m ±
+
+Single-Person Sleep Shelter
+
+Total Surface Area = 5.57m2 ± x 4 Units = 22.28m2 for 4
+people
+
+Fig. 15. Radiation shielding: erectable tents.
+Figs. 14 and 15 highlight key attributes of radiation protection options with a special emphasis upon comparative mass implications for four of six previously described concepts and applications. For purposes of the study these comparisons were correlated with shielding surface area rather than actual mass estimates due to data uncertainties regarding a number of issues. These unknowns included unresolved questions concerning how much radiation protection will be mandated, what mitigation strategies will be selected, what types and thicknesses of materials will be used, and how much of the total allowable module mass can be allocated for this purpose.
+3.2. Other shielding options
+
+A prevalent radiation countermeasure advocated by many lunar development researchers and planners is to cover habitats with regolith. The principle rationale is to use in-situ surface materials, thereby eliminating the need to transport shielding mass. SICSA did not recommend this approach for MFHE application for a variety of reasons (Fig. 16):
+
+ Covering modules with regolith will require substan-
+tial equipment for collection and placement.
+ It must be accomplished following operational module
+deployment (also creating major dust problems).
+ Long pressurized tunnels will be required for connec-
+tions between modules, for EVA ingress/egress, and for shirtsleeve access to pressurized rovers.
+ External equipment such as solar arrays, radiators and
+communication antennas must be emplaced following burial.
+ Regolith covering will preclude direct outside viewing
+from habitats.
+
+4. Summary and conclusions
+
+Fig. 17 summarizes estimated surface areas for each of the radiation shielding options that were identified in MFHE study.
+
+Fig. 16. Regolith shielding issues.
+It is important to note that other essential factors must be considered to put these comparisons into a proper design/layout assessment context. For example, although fixed pressure shell shielding may be heavier in terms of gross mass, the simplicity of this approach and benefits for making optimal use of ``low-ceiling''/curve-in areas for combined sleep and work functions may well justify these penalties.
+Use of hydraulic shielding approaches may offer large mass-saving dividends providing that there is sufficient on-board water to accommodate these strategies. Deployability of hydraulic and other designs can also provide multiple use space advantages which have important utility implications.
+Radiation and micrometeoroid protection present important issues and challenges that must be addressed as a vital aspect of lunar development planning. It is evident that the design of any radiation shielding intervention will be dominated by SPE countermeasures. Following the ``As Low as Reasonably Achievable'' (ALARA) principle, strategic options must consider a great variety of factors including: module configuration (geometry and layout options); multi-use and single-purpose material characteristics (integrated and applied); and total impacts upon delivery mass (per launch, and throughout a mission campaign).
+This paper has emphasized SPE mitigation design strategies which focus upon local areas within a habitat module. It is reasoned that full surface attached or integrated shielding using any known materials will greatly exceed practical launch mass limitations. Use of regolith covering was ruled out for early missions due to requirements for large specialized excavation and material manipulation equipment that is not likely to
+
+O. Bannova, L. Bell / Acta Astronautica 67 (2010) 1103­1109
+
+1109
+
+Fig. 17. Shielding surface comparisons.
+
+be available. The preferred approach by both MFHE teams applied temporary erectable or deployable shelters which free up interior space for other functions when not in use.
+It appears evident that materials with a high hydrogen content are leading SPE shielding candidates. Included are water, polyethylene and lithium hydride [5]. Use of hydrogenated graphite nanofibers with a herringbone structure (HGNF) is another possibility [6]. Aluminum is regarded to be a relatively poor shielding material due to hazards presented by secondary radiations. For example, Space Shuttle radiation studies [7,8] indicate that polyethylene is approximately 30% more effective than aluminum as an absorber of radiation from high charge and energy (HZE) particles. HGNF is estimated to be 4­6 times more efficient than aluminum.
+Use of localized water storm shelters is an attractive option because it draws upon a multi-purpose resource that can be reclaimed and recycled with little or no mass penalty. The ILC-Dover team estimated that the amount of water required for a small four-person shelter is about 2000 kg, with associated equipment contributing an additional 200 kg [4]. While this exceeds the amount of
+
+water needed for early crew consumables, it can afford large mass-saving dividends over the course of multiple missions.
+References
+[1] L.W. Townsend, Overview of Solar Energetic Particle Event Hazards to Human Crews, University of Tennessee, 2005.
+[2] V. Mukhopadhyay, Structural configuration analysis of crew exploration vehicle concepts, AIAA 2006-2082, in: 47th AIAA/ ASME/ASCE/AHS/ASC Structures, Structural Dynamics and Materials Conference, May 1­4, 2006, Newport, RI.
+[3] NASA-STD-3001, vol. 1, Crew Health, Space-Permissible Exposure Limit (SPEL) for Space Flight Radiation Exposure Standard, NASA, March 2007 (Chapter 7).
+[4] J. Lin, Micrometeoroid and secondary ejecta protection shield study, ILC-Dover Internal MFHE Study Report, 2008.
+[5] M. Rais-Rohani, On structural design of a mobile lunar habitat with multi-layered environmental shielding, NASA ICR-2005-213845, Mississippi State University, April 2005.
+[6] J.W. Wilson, et al., Issues in deep space radiation protection, Acta Astronautica 49 (3­10) (2001) 289­312.
+[7] Office of Biological and Physical Research ``Space Radiation, Part 2: Learning from Experiments in Space'', NASA, October 2003.
+[8] G.D. Badhwar, A. Cucinotta, Francis, A comparison of depth dependence of dose and linear energy transfer spectra in aluminum and polyethylene, Radiation Research 153 (1) (2000) 1­8.
+
+

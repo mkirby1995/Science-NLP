@@ -1,0 +1,481 @@
+Near-Earth Asteroid Retrieval Mission (ARM) Study
+IEPC-2013-82
+Presented at the 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+John R. Brophy 1 and Brian Muirhead2 Jet Propulsion Laboratory
+California Institute of Technology, Pasadena, CA
+The Asteroid Redirect Mission (ARM) concept brings together the capabilities of the science, technology, and the human exploration communities on a grand challenge combining robotic and human space exploration beyond low Earth orbit. This paper addresses the key aspects of this concept and the options studied to assess its technical feasibility. Included are evaluations of the expected number of potential targets, their expected discovery rate, the necessity to adequately characterize candidate mission targets, the process to capture a non-cooperative asteroid in deep space, and the power and propulsion technology required for transportation back to the EarthMoon system. Viable options for spacecraft and mission designs are developed. Orbits for storing the retrieved asteroid that are stable for more than a hundred years, yet allow for human exploration and commercial utilization of a redirected asteroid, are identified. The study concludes that the key aspects of finding, capturing and redirecting an entire small, near-Earth asteroid to the Earth-Moon system by the first half of the next decade are technically feasible. The study was conducted from January 2013 through March 2013 by the Jet Propulsion Laboratory (JPL) in collaboration with Glenn Research Center (GRC), Johnson Space Center (JSC), Langley Research Center (LaRC), and Marshall Space Flight Center (MSFC).
+I. Introduction NASA has conducted studies on the exploitation of near-Earth asteroids (NEAs) since the 1970s,1-5 but the propulsion required to transport large amounts of mass or entire small asteroids back to the EarthMoon system had remained an unresolved challenge, and a wide variety of propulsion concepts were considered.6-8 In 2010 NASA conducted a study that considered the feasibility of using of near-term, high-power (~40-kW) Solar Electric Propulsion (SEP) to rendezvous with a small NEA (with a mass of order 10 t), capture it, and return it to the International Space Station.9,10 Based in part on this 2010 study the Keck Institute for Space Studies (KISS) at the California Institute of Technology, and NASA's Jet Propulsion Laboratory (JPL) jointly sponsored a study in 2011-2012 on the feasibility of capturing and returning a somewhat larger, but still very small NEA (with a mass of up to ~1000 t) to translunar space. The study included participants from six NASA centers, eight universities, commercial companies, and others. The results of that study are described in several conference papers11-14 and the study's final report.15 It was based on this report that NASA chartered a three-month study in 2013 with the primary objective of looking at the asteroid retrieval mission concept in sufficient depth to determine if its feasibility would stand up to more detailed scrutiny. The study was conducted from January 2013 through March 2013 by the Jet Propulsion Laboratory (JPL) in collaboration with the Glenn Research Center (GRC) and supported by Johnson Space Center (JSC), the Langley Research Center (LaRC), and the Marshall Space Flight Center (MSFC). It is the results of the three-month study that are summarized in this paper.
+1 Engineering Fellow, Propulsion, Thermal and Materials Engineering Section, AIAA Associate Fellow. 2Chief Engineer, AIAA Senior Member
+1 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+There are three key parts to the overall asteroid redirect mission: 1. An observation campaign to identify a sufficient number of potential targets around which a viable
+mission implementation plan can be developed and executed. 2. A robotic asteroid redirect vehicle with sufficient on-board propulsion capability to rendezvous
+with, capture, and redirect a near-Earth asteroid with a mass up to 1000 t to translunar space in a reasonable flight time. 3. A human spaceflight capability that can rendezvous with the returned asteroid in translunar space in order to inspect it, study and sample it, to determine its composition and internal structure, and assess its potential for resource utilization.
+A. Relevance
+This mission fits well into the overarching objectives of the nation's Human Space Program, which is to enable humans to step ever deeper into space and eventually to Mars. Exploration of a captured asteroid is consistent with the capability development framework philosophy and could be a first step to using new capabilities (SLS and Orion) already under development. Additionally, the high-power SEP and solar array technologies are essential for future human exploration missions beyond low-Earth orbit.16-25
+To find suitable targets for this mission the current asteroid observational campaign will be enhanced. These enhancements will live on beyond the target selection for ARM and extend discovery and characterization of the current observational programs to include smaller asteroids. The capture, return, and close-up inspection of the asteroid would provide insight into the ability to control and deflect a large mass helping to inform future planetary defense measures. The methodologies and technologies developed to rendezvous with, capture and control a tumbling asteroid can be used in Earth orbit to rendezvous and capture large pieces of orbital debris.
+While not a science mission, the delivery of an entire small near-Earth asteroid to an accessible lunar orbit would allow scientists to retrieve and examine, in detail, bulk composition of the captured target, furthering our understanding of the formation of the solar system.
+The captured asteroid could also provide opportunities for the commercial sector, which has recently expressed interest in mining asteroids. Sampling techniques and potentially in situ resource utilization (ISRU) demonstrations would path-find future applications. The demonstration of high-power solar arrays and high-power electric propulsion systems would support U.S. competitiveness in the commercial satellite industry.
+II. Mission Concept Overview and Mission Design
+The asteroid redirect mission concept uses a robotic spacecraft equipped with a high power, solar electric propulsion (SEP) system to rendezvous with, capture, and redirect a small asteroid with a mass of up to 1000 t to a long-term stable lunar orbit. An overview of the mission concept is given in Figure 1. The electric propulsion subsystem, with a nominal input power of 40 kW, enables the asteroid redirect vehicle (ARV) to be launched using a single Atlas V-class launch vehicle or a heavy lift launch vehicle such as the Space Launch System (SLS) or Falcon Heavy. For the Atlas V-class launch, the SEP system is used to spiral out from an initial elliptical Earth orbit to a Lunar Gravity Assist (LGA) in approximately one to one and a half years. The LGA boosts the ARV to escape from the Earth-Moon system and starts it on its heliocentric transfer to the asteroid. The heliocentric transfer of two to three years (depending on the target) is then completed using the SEP system resulting in rendezvous with the asteroid. The more capable SLS and Falcon Heavy launch vehicles can launch the ARV on trajectories directly to the LGA eliminating the Earth-spiral phase, shortening the total mission flight time by one to one and a half years, and simplifying the flight system and mission design.
+2 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+FUHZHGPLVVLRQV,WLVKLJKO\GHVLUDEOHWRSODFH Table 1. %'H[DPSOHPLVVLRQGHOWD9DQGSKDVHGXUDWLRQV
+
+WKH DVWHURLG LQ DQ RUELW ZLWK D YHU\ ORQJ OLIHWLPH$OWKRXJKWKHFXUUHQWPLVVLRQFRQFHSW
+
+Mission Leg
+
+Delta V (m/s) Duration (yr)
+
+ZRXOG UHWXUQ DQ DVWHURLG WKDW LV WRR VPDOO WR 6SLUDO
+
+
+
+
+
+VXUYLYH(DUWKHQWU\LWZRXOGEHVWLOOLPSRUWDQW WR SUHVHUYH WKH DVWHURLG LQ D VWDEOH RUELW DV D UHVRXUFH IRU IXWXUH GHHS VSDFH KXPDQ PLVVLRQV
+8VLQJ DVWHURLG  %' DV DQ H[DPSOH
+
+7R$VWHURLG*RWROHJ $VWHURLG2SV (DUWK5HWXUQ)HWFKOHJ 7R6WRUDJH2UELW
+
+Total
+
+ K\GUD]LQH
+  8742
+
+ 
+  7.6
+
+PLVVLRQ WDUJHW D VHTXHQFH RI HYHQWV DQG WKH
+
+FRUUHVSRQGLQJPLVVLRQ'9VDUHJLYHQLQ7DEOHDVVXPLQJDQ$WODV9FODVVODXQFKWRDQHOOLSWLFDO(DUWK
+
+RUELW7KLVWDEOHLQGLFDWHVDWRWDO'9RIDERXWNPVLVUHTXLUHG5HWULHYDORI%'ZLWKDQ$WODV9
+
+FODVVODXQFKYHKLFOHZRXOGUHTXLUHDQHDUO\ODXQFKZKLFKLVSURJUDPPDWLFDOO\SUREOHPDWLFLQRUGHU
+
+WR DOORZ WLPH IRU WKH ORZWKUXVW (DUWKGHSDUWXUH VSLUDO $ KHDY\ ODXQFK YHKLFOH )DOFRQ +HDY\ RU 6/6
+
+ZRXOGDOORZDGLUHFWODXQFKLQPLGWRODWHXVLQJWKLVLQWHUSODQHWDU\WUDMHFWRU\$ODXQFKZLWK
+
+DQ$WODV9FODVVZRXOGUHTXLUHVHOHFWLRQRIDGLIIHUHQWWDUJHWDVWHURLGVXFKDV0' 0HGLXP ILGHOLW\ WUDMHFWRULHV ZHUH GHYHORSHG XVLQJ WKH ORZWKUXVW WRRO 0DOWR +LJK ILGHOLW\
+LQWHUSODQHWDU\ WUDMHFWRULHV ZHUH GHYHORSHG XVLQJ WZR LQGHSHQGHQW WRROV 0\VWLF DQG &RSHUQLFXV
+
+ZKLFKSURGXFHG'9VWKDWDJUHHGWRZLWKLQPV0\VWLFLVWKHWUDMHFWRU\WRROFXUUHQWO\XVHGRQWKH'DZQ
+
+PLVVLRQ(DUWKVSLUDOWUDMHFWRULHVZHUHEXLOWLQGHSHQGHQWO\DW-3/DQG*5&XVLQJFXVWRPLQWHJUDWRUVDQG
+
+DJUHHGZLWKLQ7KHHQGJDPHDQG'52WUDMHFWRULHVZHUHEXLOWLQ0\VWLF,QWHJUDWLRQVZHUHGRQHXVLQJ
+
+JUDYLWDWLRQDOSHUWXUEDWLRQVIURPWKH(DUWK0RRQ6XQ-XSLWHUDQG9HQXV(DUWKREODWHQHVVHIIHFWVZHUH
+
+LQFOXGHGIRUWKHVSLUDOWUDMHFWRULHV$Q,VSRIVZLWKDHIILFLHQF\IRUWKHHOHFWULFSURSXOVLRQ(3
+
+V\VWHP ZDV XVHG ZLWK D PD[LPXP SRZHU LQSXW WR WKH (3 V\VWHP RI  N: HQG RI OLIH DW  $8 DQG D FRQVHUYDWLYHUSRZHUYDULDWLRQLQDYDLODEOHVRODUDUUD\SRZHUZLWKVRODUUDQJH$W\SLFDOGXW\F\FOHRI
+
+IRUWKUXVWLQJZLWKWKH6(3V\VWHPZDVDVVXPHG7KLVGXW\F\FOHLVDSSURSULDWHIRUHDUO\IRUPXODWLRQ
+
+VWXGLHV 7KH 'DZQ PLVVLRQ KDV DQ DFWXDO GXW\ F\FOH RI DSSUR[LPDWHO\  2Q WKH WUDQVIHU WR 9HVWD
+
+'DZQ ZRXOG W\SLFDOO\ WKUXVW IRU  KRXUV SHU ZHHN WKHQ VKXW GRZQ WKH HOHFWULF SURSXOVLRQ V\VWHP DQG
+
+VSHQGKRXUVFRPPXQLFDWLQJZLWK(DUWK7KH$50IOLJKWV\VWHPLQFOXGHVDJLPEDOHGKLJKJDLQDQWHQQD
+
+DQG ZRXOG QRW QHHG WR WXUQ RII WKH 6(3 V\VWHP WR FRPPXQLFDWH ZLWK (DUWK PDNLQJ WKH  GXW\ F\FOH
+
+HYHQPRUHFRQVHUYDWLYH
+
+'XULQJWKHWZRPRQWKVSULRUWRWKH$59DVWHURLGDUULYDOWKHSODQQHGGXW\F\FOHLVGURSSHGWRWR
+
+DOORZDGGLWLRQDOWLPHIRUDFTXLULQJ2S1DYLPDJHV7KLVLVYHU\VLPLODUWRWKHPHWKRGRORJ\XVHGE\'DZQ
+
+LQ LWV DSSURDFK WR 9HVWD $GGLWLRQDO [HQRQ SURSHOODQW LV LQFOXGHG WR SURYLGH PDUJLQ IRU XQLQWHQWLRQDO
+
+PLVVHG WKUXVW SHULRGV DQG  [HQRQ PDUJLQ LV DSSOLHG RQ WRS RI WKH [HQRQ UHTXLUHG IRU WKH WUDMHFWRU\
+
+LQFOXGLQJPLVVHGWKUXVWPDUJLQWRFRYHURWKHUW\SLFDOXQFHUWDLQWLHVLQFOXGLQJIORZUDWHHUURUVILOOHUURUV
+
+DQGOHDNDJH)XUWKHUPRUHWKHSURSHOODQWPDVVLVFDOFXODWHGIRUWKHPD[LPXPODXQFKFDSDELOLW\LHWKH
+
+IXOO\PDUJLQHGVSDFHFUDIWPDVVSOXVWKHODXQFKYHKLFOHPDUJLQVRWKDWWKHODXQFKYHKLFOHPDUJLQLVDWUXH
+
+PDUJLQXVHDEOHE\WKHPLVVLRQ
+
+7KH (DUWK0RRQ FDSWXUH /*$ SODFHV WKH DVWHURLG LQ D ORRVHO\ FDSWXUHG (DUWK RUELW WKDW ZRXOG
+
+HYHQWXDOO\HVFDSHWKH(DUWK0RRQV\VWHPLIOHIWDORQH7KH³(QGJDPH´SKDVHZRXOGXVHORZWKUXVWDUFV
+
+VRODU SHUWXUEDWLRQV DQG OXQDU IO\E\V WR WUDQVLWLRQ IURP WKLV LQLWLDO FDSWXUH RUELW WR D ORQJWHUP VWDEOH
+
+VWRUDJHRUELW)RUWKH%'H[DPSOHLWZRXOGUHTXLUHDERXWPVDQGPRQWKVDQGHQGRQ)HE
+
+ ZLWK DQ /*$ WKDW ZRXOG SODFH WKH DVWHURLG LQWR WKH ORQJWHUP VWRUDJH RUELW &XUUHQWO\ WKH EDVHOLQH VWRUDJHRUELWLVD/XQDU'LVWDQW5HWURJUDGH2UELW'527KLVLVDNPRUELWRIWKH0RRQWKDW
+
+UHYROYHVFORFNZLVHLQWKHRSSRVLWHVHQVHRIWKH0RRQ¶VRUELWDURXQGWKH(DUWK7KLVRUELWLVDFWXDOO\D
+
+ERG\ RUELW DQG LV G\QDPLFDOO\ LQ RUELW DURXQG ERWK WKH (DUWK DQG 0RRQ VLPXOWDQHRXVO\ '52 RUELWV DUH
+
+NQRZQ WR EH YHU\ VWDEOH ,Q WKLV DSSOLFDWLRQ WKH DVWHURLG ZRXOG LQLWLDOO\ HQWHU WKH '52 LQ DQ XQVWDEOH
+
+UHJLRQ DURXQG WKH (DUWK0RRQ / DQG / SRLQWV LQ RUGHU WR PLQLPL]H '9 DQG  VPDOO DGGLWLRQDO
+
+ 7KHUG,QWHUQDWLRQDO(OHFWULF3URSXOVLRQ&RQIHUHQFH:DVKLQJWRQ'&
+2FWREHU± 
+
+PDQHXYHUVWRWDOLQJPVRYHUPRQWKVZRXOGEHXVHGWRWULPWKLVLQLWLDO'52LQWRRQHWKDWLVVWDEOHIRU RYHU\HDUV
+7KHILQDO'52SHULRGDQGLQFOLQDWLRQZRXOGEHFKRVHQWRSURYLGHPRQWKO\DFFHVVIRU2ULRQODXQFKHV DQG WR PLQLPL]H WKH QXPEHU RI RUELWV ZKHQ WKH 0RRQ VKDGRZV WKH '52 VXFK RUELWV ZRXOG EH VNLSSHG IRU2ULRQPLVVLRQV7KH2ULRQFRXOGDFFHVVWKLVRUELWDIWHULWLVVWDELOL]HGLQ2FWREHUIRU%'
+
+,,, 2EVHUYDWLRQ&DPSDLJQ
+
+7KH$502EVHUYDWLRQ&DPSDLJQZRXOGFRPSULVHDFWLYLWLHVWRLGHQWLI\1($VWKDWDUHURXJKO\PWR
+
+ P LQ GLDPHWHU WKDW FRXOG EH FDQGLGDWHV IRU UHWULHYDO DQG WR FKDUDFWHUL]H WKHLU NH\ SK\VLFDO SURSHUWLHV
+
+ZHOO HQRXJK WR HVWDEOLVK UHWULHYDO IHDVLELOLW\ 7KH REVHUYDWLRQ FDPSDLJQ ZRXOG EH HQDEOHG E\ WKH DVVHWV
+
+DQG WHFKQLTXHV GHYHORSHG XQGHU 1$6$¶V 1HDU(DUWK 2EMHFW 2EVHUYDWLRQ 1(22 SURJUDP 7KH VWXG\
+
+FRQFOXGHGWKDWWKH1($SRSXODWLRQFRQWDLQVHQRXJKFDQGLGDWHVZLWKWKHULJKWFKDUDFWHULVWLFVWRVXSSRUW
+
+DQDVWHURLGUHGLUHFWPLVVLRQEXWWKHUHLVDQHHGWRLQFUHDVHWKHUDWHRIGLVFRYHU\RIPFODVV1($VQRZ
+
+DSSUR[LPDWHO\ WZR SHU \HDU ZLWK WKH ULJKW RUELWDO FKDUDFWHULVWLFV 7KH VHW RI SDUDPHWHUV WKDW GHILQH D
+
+UHWULHYDEOH1($DUHLGHQWLILHGLQ7DEOH7KHYDOXHVLQ7DEOHDUHJXLGHOLQHVLQVRPHFDVHVDVWHURLGV
+
+ZLWKPDVVHVJUHDWHUWKDQWDQGRUZLWKD9DVODUJHDVNPVFRXOGEHUHWULHYHG7KHVWXG\WHDP
+
+JHQHUDWHG UHFRPPHQGDWLRQV IRU HQKDQFHPHQWV RI WKH H[LVWLQJ 1(22 FDSDELOLWLHV WKDW FRXOG LQFUHDVH WKH
+
+GLVFRYHU\UDWHRIFDQGLGDWHWDUJHWVE\DIDFWRURIWZRWRWHQ6XFKDQLQFUHDVHZRXOGEHVXIILFLHQWWRPHHW
+
+WKH QHHGV RI DQ DVWHURLG UHGLUHFW PLVVLRQ WKDW ZRXOG KDYH DSSUR[LPDWHO\ IRXU \HDUV WR ILQG D SULPDU\
+
+WDUJHWDQGDQDGHTXDWHQXPEHURIEDFNXSWDUJHWVDVVXPLQJDODXQFKLQODWH
+
+'LVFRYHULQJ QHZ SRWHQWLDO WDUJHWV DORQH LV QRW VXIILFLHQW WR LGHQWLI\ JRRG FDQGLGDWHV IRU UHWULHYDO
+
+3K\VLFDO FKDUDFWHUL]DWLRQ LV DOVR UHTXLUHG WR UHGXFH WKH XQFHUWDLQW\ LQ WKH REMHFW¶V VL]H PDVV DQG VSLQ
+
+VWDWHWRNQRZLILWLVZLWKLQWKHFDSDELOLW\RIWKHDVWHURLGUHGLUHFWYHKLFOHWRFDSWXUHGHVSLQDQGWUDQVSRUW
+
+WRWKHOXQDU'527KHUHDUHVXIILFLHQWH[LVWLQJDVVHWVZRUOGZLGHWRSHUIRUPWKHQHFHVVDU\FKDUDFWHUL]DWLRQ
+
+REVHUYDWLRQV
+
+7KHNH\WRWKHREVHUYDWLRQFDPSDLJQLVLOOXVWUDWHGLQ)LJZKLFKLQGLFDWHVWKDWWKHUHDUHRQWKHRUGHU
+
+RIDKXQGUHGPLOOLRQ1($VLQWKHWRPGLDPHWHUVL]HUDQJHDEVROXWHPDJQLWXGHUDQJH2QO\
+
+DERXW1($VLQWKLVVL]HUDQJHKDYHFXUUHQWO\EHHQGLVFRYHUHG7RHVWLPDWHWKHQXPEHURI1($VWKDW
+
+FRXOG PDNH JRRG FDQGLGDWH WDUJHWV IRU $50 VLPXODWLRQV RI WKH GLVFRYHU\ SURFHVV XVLQJ WKH SRSXODWLRQ PRGHO IURP +DUULV DQG WKH ODWHVW 1(2 RUELW GLVWULEXWLRQ PRGHO ZHUH SHUIRUPHG 7KH UHVXOWV IURP D
+
+GHWDLOHG VLPXODWLRQ RI WKH 3DQ67$556 36 VXUYH\ XVLQJ UHDOLVWLF VN\ FRYHUDJH FDGHQFH DQG ORVV
+
+IDFWRUV UHYHDOHG D GHILFLHQF\ LQ WKH 1(2 RUELW GLVWULEXWLRQ PRGHO IRU WKH (DUWKOLNH RUELWV RI LQWHUHVW WR
+
+$50 QHFHVVLWDWLQJ D QRUPDOL]DWLRQ RI WKH SRSXODWLRQ RI REMHFWV LQ WKHVH RUELWV WR PDWFK WKH NQRZQ
+
+GHWHFWLRQUDWH2QFHWKLVQRUPDOL]DWLRQLVPDGHWKHVLPXODWLRQVLQGLFDWHWKDWRIRUGHUPFODVV
+
+1($VDSSURDFK(DUWKZLWKDVPDOOHQRXJK9WREHUHWULHYDEOH$ERXWRQHWKLUGRIWKHVHaKDYH
+
+RUELWV WKDW DSSURDFK FORVHO\ HQRXJK WR WKH (DUWK¶V RUELW IRU UHWULHYDO ZLWKLQ  $8 DQG DOVR VDWLVI\ WKH
+
+Table 2. 5HIHUHQFH1($&KDUDFWHULVWLFVIRU5HWULHYDO
+
+Characteristic
+
+Reference Value
+
+UHTXLUHPHQWIRUDFORVHHQRXJKQDWXUDO 2UELWVfUHODWLYHWR(DUWK NPV
+
+UHWXUQWR (DUWKZLWKLQ  $8 LQ WKH 2UELW
+
+1DWXUDOUHWXUQWR(DUWKHDUO\¶V
+
+HDUO\ V 7KH FXUUHQW OLVW RI 0DVV
+
+PHWULFWRQV
+
+SRWHQWLDOWDUJHWVLVJLYHQLQ7DEOH$W 6SLQUDWH
+
+USP
+
+OHDVW  DGGLWLRQDO VHOHFWDEOH WDUJHWV 6L]HDQG$VSHFW5DWLR PPHDQGLDPHWHUP$VSHFWUDWLR
+
+DUH H[SHFWHG WR EH GLVFRYHUHG DQG 6SHFWUDO&ODVV
+
+.QRZQ7\SH&W\SHZLWKK\GUDWHGPLQHUDOV
+
+DGHTXDWHO\FKDUDFWHUL]HGE\
+
+GHVLUHG
+
+
+
+ VfLVWKHYHORFLW\RIDQREMHFWZRXOGKDYHLIDOORILWVHQHUJ\ZLWKUHVSHFWWRD
+
+
+
+JLYHQERG\HJWKH(DUWKRUWKH0RRQZHUHFRQYHUWHGWRNLQHWLFHQHUJ\
+
+ 7KHUG,QWHUQDWLRQDO(OHFWULF3URSXOVLRQ&RQIHUHQFH:DVKLQJWRQ'&
+2FWREHU± 
+
+IV. Solar Electric Propulsion (SEP) Technology
+The technical trade space considered in this study is show in Fig. 3. The three highlighted options were selected for detailed study to assess how well they balanced complexity, total cost, cost risk, technology return (extensibility, infusion), and technical risk across mission elements. Feasibility at this early stage of concept definition requires the establishment of appropriate technical margins throughout the flight system (especially mass and power). These margins are shown in Table 4 for Option 2 from Fig. 3.
+
+Figure 3. Architecture trade-space with three options selected for detailed evaluation.
+
+Table 4. Key Flight System Margins for Option 2 from Fig. 3.
+
+Resource
+
+Maximum
+
+Growth
+
+Growth
+
+Growth Exepcted Value System Contingency Contingency
+
+CBE Contingency (CBE + Growth) Margin + Margin + Margin (%)
+
+Flight System Dry Mass (kg)
+
+3,615
+
+1,100
+
+4,715
+
+450
+
+1,550 43%
+
+Battery DOD - Launch (Wh)
+
+3,210
+
+792
+
+4,002
+
+606
+
+1,398 44%
+
+IPS Power (W)
+
+40,000
+
+2,000
+
+42,000
+
+4,000
+
+6,000 15%
+
+Non-IPS Power (W)
+
+1,307
+
+271
+
+1,578
+
+922
+
+1,193 91%
+
+Xe Propellant Capacity (kg)
+
+8,000
+
+0
+
+8,000
+
+2,000
+
+2,000 25%
+
+Hydrazine Propellant Capacity (kg)
+
+200
+
+0
+
+200
+
+200
+
+200 100%
+
+7 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+B. Asteroid Redirect Vehicle (ARV)
+The ARV would be composed of two modules, as indicated in Fig. 4, to enable parallel development, assembly, and testing: a Solar Electric Propulsion (SEP) Module, and a Mission Module. The Mission Module would be comprised of an Avionics Module, sensor suite, and the capture mechanism. The SEP Module would include all of the power and propulsion for the ARV, and the Avionics Module would include all other spacecraft bus functions.
+1. The SEP Module
+The asteroid redirect mission concept would be enabled by high-power solar electric propulsion. Solar electric propulsion missions always show better performance at higher power levels and this mission is no different. Mission design trade studies indicate that the best combination of asteroid mass and flight times are obtained at the highest power levels. The study, therefore, selected the highest solar array power level that could reasonably be available for launch in this decade. That corresponds to about 50 kW, which is the upper end of the 30-kW to 50-kW range of power levels currently under development in the two Solar Array System (SAS) development activities sponsored by NASA's Space Technology Mission Directorate (STMD). A 50-kW solar array beginning-of-life at 1 AU would enable operation of a 40-kW electric propulsion system and the spacecraft at end-of-life with appropriate margins. The 40-kW input power would be processed by multiple, magnetically shielded Hall thrusters operating in parallel with a specific impulse of 3,000 s. Because the asteroid redirect mission is enabled by these technologies it is an ideal platform to meet the needs of STMD's SEP Technology Demonstration Mission. The asteroid redirect mission would demonstrate deployment and operation of a new class of large lightweight, highspecific-power, flexible-blanket solar arrays in space along with the operation of a high-power, highperformance electric propulsion system. The flight configurations of the ARV are shown in Figs. 5 and 6 for the two SAS solar array technologies, ROSA and MegaFlex. The asteroid redirect mission is compatible with either solar array technology.
+Capture Mechanism Mission Module
+SEP Module
+Launch Adapter
+Figure 4. Asteroid Retrieval Vehicle capable of storing up to 10 t of xenon is shown with a 50-kW ROSA solar array in the stowed configuration on top of a custom launch adapter.
+8 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+Figure 5. ARV flight configuration pictured with the MegaFlex solar arrays.
+Figure 6. ARV flight configuration pictured with ROSA solar arrays.
+The conceptual ARV configuration is dominated by the need to be able to store up to 12 metric tons of xenon. This is significantly greater than the 0.43 t of xenon launched on the Dawn mission, which is the largest xenon propellant load launched to date. Commercial communication satellite manufacturers typically launch only a few hundred kilograms of xenon used for orbit raising and station keeping maneuvers. Consequently, there are no existing tanks that meet the needs of the asteroid redirect mission, so a new tank development is required. The study team identified a solution that minimizes the development risk and cost and provides the lightest tank mass. This approach uses a composite overwrapped pressure vessel with a seamless aluminum liner design made using existing industry manufacturing techniques.
+2. Hall thruster stuff
+The electric thruster is an enabling element of the ion propulsion subsystem. The feasibility study evaluated a number of candidate thrusters, some currently under development and some that have already flown, for their applicability to ARM. Three key features dictate the thruster evaluation: specific impulse, maximum input power, and propellant throughput capability. If the power level per thruster is too low or if the xenon throughput capability per thruster is too low, then the number of thrusters required becomes excessive. If we consider a 40-kW electric propulsion system with 10 t of xenon, consisting of three thrusters plus one spare, then each thruster/PPU string must operate at 13.3 kW and have a propellant throughput capability of 3400 kg. There are no existing thrusters that have this combination of characteristics along with the ability to operate a specific impulse of 3000 s. Two laboratory model Hall thrusters bracket this capability, the magnetically shielded version of the H6 with the designation H6MS36
+9 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+and the NASA 300M thruster.37 The
+
+feasibility study assumed the development of
+
+a new 12.5-kW Hall thruster that incorporated
+
+the best design features of the H6MS and
+
+300M thrusters. The thruster development
+
+would be done jointly with an industrial
+
+partner who would then design and fabricate
+
+the flight thrusters.
+
+A long-life, 12.5-kW, 3000-s Hall thruster
+
+represents the cutting-edge of Hall thruster
+
+technology. Computer modeling of the
+
+erosion processes in a magnetically shielded
+
+Hall thruster operating at 3000 s suggested
+
+that even at the 800 V required for this
+
+specific impulse level magnetic shielding
+
+should be effective at suppressing the key
+
+wear-out failure mechanism, i.e., erosion of
+
+the insulator rings that line the annular
+
+discharge chamber region where the ions are produced and accelerated.38 To increase confidence that the computer modeling was correct, the STMD technology program
+
+Figure 7. NASA's H6MS magnetically-shielded Hall thruster operating at 9 kW with a specific impulse of 3,000 s.
+
+performed a 115-hour test at JPL with the
+
+H6MS thruster operating at 9 kW and 3000 s (see Figure 7). The results from the 115-hr test suggests that
+
+a 12.5-kW magnetically shielded Hall thruster with a specific impulse of 3000 s could be development with propellant throughput capability well in excess of that required for the ARM.36
+
+3. Capture Mechanism
+Multiple options for the capture mechanism were considered and evaluated. A non-rigidized, inflatable capture bag approach was selected for this study to assess feasibility. The capture bag approach effectively deals with the range of asteroid mechanical property uncertainties and would work equally well if the asteroid was a rubble pile or solid rock. Importantly, this concept is testable in a 1-g environment enabling verification and validation of the system before launch.
+The capture process itself is dominated by the spin state of the target. At relatively slow spin-rates of < 0.2 rpm (periods > 5 minutes) about one or more axes, the problem is relatively straightforward and small forces, < 0.1 g, are transmitted back to the spacecraft. At spin rates an order of magnitude higher, up to about 2 rpm (spin period of 30 seconds), the problem is more challenging. For this case, the study team identified a feasible approach in which the capture bag is closed tightly around the asteroid over a few minute period. Residual cross-axis spin is managed by force-controlled winches to keep accelerations reflected back to the spacecraft to less than 0.1 g while the RCS thrusters are subsequently used to detumble and then despin the spacecraft/asteroid combination.
+
+4. Avionics Module
+To reduce the cost, risk, and schedule for the flight system implementation, flight-qualified, deepspace avionics and sensors were identified that would work well for the asteroid redirect mission. This includes avionics and core flight software from the Soil Moisture Active/Passive (SMAP) project, the Mars Science Laboratory, and a sensor suite that could include instruments derived from the OSIRIS-REx mission. Sensor Suite. The notional sensor suite supports optical navigation, asteroid characterization, and asteroid capture. The following sensors are currently in the ARM reference design: · Narrow Angle Camera (NAC) ­ used for long range optical navigation and mapping of the asteroid
+10 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+· Feed-forward to potential future human operations at other asteroids or Mars moons (Phobos and Deimos) by providing information on maneuvering, sampling, anchoring, and dust management at a small body.
+· Stimulate the discovery and characterization of small NEAs, significantly improving what is known about this population that represents the vast majority of near-Earth objects.
+· Through the enhanced discovery campaign needed for ARM, increase the discovery rate of potentially hazardous asteroids.
+· Potentially jump-start an in situ resource utilization (ISRU) industry by providing a near-term target for fledgling asteroid mining companies.
+Relevance to the Human Space Program
+The delivery of up to 1,000-t asteroid to a stable high-lunar orbit would provide a unique, meaningful, and affordable destination for astronaut crews in the next decade. It would provide a destination that could support multiple subsequent missions, and ultimately could be the anchor for the development of a deep-space infrastructure at this location. Such an infrastructure could be devoted, in, part to initially determining how to extract useful materials from the returned asteroid, and ultimately to extracting these materials on a large scale to support human exploration farther out into the solar system. The development of in situ resource utilization (ISRU) techniques at a retrieved asteroid would demonstrate the feasibility of ISRU in general, potentially making it more likely to be adopted for use on the lunar surface and at Mars.
+Sending astronauts to the retrieved asteroid in lunar orbit would provide an affordable path to meeting the nation's goal of sending astronauts to a near-Earth object by 2025. This would mark only the second celestial object that humans will have ever come into contact with, and the first human mission beyond low-Earth orbit in 50 years.
+Relevance to Science
+Space science is not the objective of an asteroid redirect mission. However, it is extremely likely that ground-breaking science would result from the up-close examination of an entire small asteroid. Having access to the entire body, even a small one, could provide information on the effect of space weathering of the surface layers compared to the bulk material. Such information would be synergistic with the surface samples to be returned by OSIRIS-REx. Having access to the entire body should also provide information regarding the internal structure of the body and its homogeneity.
+An observation campaign designed to discover a large number of 10-m-class near-Earth objects and characterize a fraction of them would significantly improve the current state of knowledge of this littlestudied, poorly understood population. Such a campaign with its enhancements would also naturally discover an increased number of bigger, potentially hazardous, near-Earth objects.
+The development of the SEP system for an asteroid redirect mission would lead directly to significantly improved SEP systems for deep-space robotic science missions. With larger, lighter, less expensive solar arrays and 3000-s Hall thrusters that have effectively unlimited life, more affordable SEP science missions could be developed. These systems would provide capabilities well beyond the Dawn system, significantly reducing flight times, launch costs, and reducing flight system development costs by easing mass and power constraints.
+Relevance to the Commercial Sector
+The asteroid redirect mission has the potential to impact the commercial interests of the United States. Near-term impacts would result from the development of the advanced, higher power solar arrays and electric propulsion technologies required for ARM that would also benefit U.S. commercial communication satellites. This will facilitate the development of higher power commercial satellites or the use of higher power on medium-sized satellites launched with smaller, less expensive launch vehicles.
+By doing something bold, but achievable, NASA could stimulate interest in space science and technology, as it did in the 1960s, to the benefit of the U.S. economy. In the far-term, the ability to exploit
+12 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+near-Earth asteroid resources could usher in a new economic frontier based on people living and working in space.
+Relevance to Planetary Defense and Orbital Debris Removal
+Many of the ARM technologies, operational approaches, and systems would be applicable to planetary defense efforts. The ability to efficiently travel to, interact with, and maneuver an asteroid would directly inform efforts for diverting a potentially hazardous near-Earth object (NEO). These include the operational approaches and systems associated with the approach, rendezvous, and station-keeping mission phases of ARM utilizing a low-thrust, high-power SEP spacecraft, as well as interacting with, capturing, maneuvering, and processing the massive amounts of asteroid material. The use of a SEP spacecraft to deliberately alter the orbit of an asteroid is a direct demonstration of a rudimentary planetary defense capability at a small, safe, and affordable scale. However, since a 5-m to 10-m diameter asteroid is much less massive than an Earth-threatening NEO (diameter of 20 m or larger), the systems and techniques developed for ARM will have limited direct application to the deflection of such objects.
+The technology developed for and demonstrated by ARM would be directly applicable to removing large pieces of orbital debris. There are many concepts in the literature that would make use of this capability in one fashion or another.
+Relevance to International Participation and Cooperation
+The asteroid redirect mission and utilization of the asteroid after its delivery to translunar space affords multiple opportunities for international participation and cooperation. International participation in the discovery and characterization of potential ARM targets would be highly beneficial and perhaps essential. There are multiple possibilities for international participation in the implementation of the asteroid redirect vehicle including contributed sensors and components of the flight system. Post-asteroid return, sampling, sample analysis, and material extraction experiments, both on the ground and in space, would also provide opportunities for international cooperation.
+Observation Campaign
+Analysis of the near-Earth asteroid population along with actual discovery rates of candidate ARM targets suggests that there is reasonable confidence a sufficient number of good targets exist and that the discovery rate of these targets (currently ~2 per year) could be increased by a factor of two to ten. For an ARM launched in 2018, there would be approximately four years in which to find appropriate primary and backup targets. At a discovery rate of 5 good targets per year, the asteroid redirect mission could have roughly 20 good targets by 2018.
+Mission Design
+High fidelity end-to-end, low-thrust trajectory designs were developed, based on asteroid 2009 BD that provide confidence that there will be no show-stoppers for the development of the very high­fidelity trajectories necessary for an actual mission. Lower-fidelity trajectories for twelve other known NEAs were used to estimate the maximum asteroid mass that could be retrieved based on the known orbital characteristics of these NEAs and the assumed capabilities of the ARV configured in this study. Mission design work also established at least one class of stable orbits in the Earth-Moon system. These orbits, known as distant retrograde orbits (DRO), have an orbit altitude relative to the Moon of about 70,000 km, are stable for more than a hundred years, and are accessible by both the ARV with a 1000-t asteroid and by crewed missions using SLS and Orion.
+Solar Electric Propulsion
+Solar electric propulsion is enabling for the ARM. The required capability represents a significant, but achievable advancement to the state-of-the-art. The ARM SEP system represents an important increase in power level relative to the highest power electric propulsion systems currently flying on commercial communication satellites and the highest power deep-space electric propulsion represented by the Dawn spacecraft. The ARM study team identified an approach that minimizes the development risk of the
+13 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+electric propulsion components. This approach heavily leverages the ongoing investments by NASA's Space Technology Mission Directorate in high-power, light-weight solar array development and advanced Hall thruster technology development. A proof-of-concept test for 115 hours of a 3000-s Hall thruster operating at 9 kW was performed during the study period. This test helped to establish confidence that the recently-developed magnetic shielding technology for Hall thrusters could be extended to 3000-s needed for ARM enabling the development of very long-life thrusters at this specific impulse.
+Acknowledgments
+The research described in this paper was carried out in part at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration. The work described in this paper was performed by the team of people listed below. The study team gratefully acknowledges the programmatic guidance and support provided by the HQ steering committee: Michele Gates (NASA HQ) John Guidi (NASA HQ), Lindley Johnson (NASA HQ), and James Reuther (NASA HQ).
+The following people (in alphabetical order) made significant contributions to the work summarized in this paper and the authors gratefully acknowledge their substantial contributions to this paper.
+John Baker (JPL), J. (Bob) Balaram (JPL), James Baughman (JPL), Brian Bone (JPL), Laura Burke (GRC), Adam Butt (MSFC), Greg Carr (JPL), Daniel Cervantes (JPL), Steve Chesley (JPL), Paul Chodas (JPL), Tom Cressman (GRC), John Dankanich (MSFC), Eric Faykus (GRC), Robert Gershman (JPL), Havard Grip (JPL), David Gruel (JPL), Kurt Hack (GRC), Dan Herman (GRC), Mike Hicks (JPL), Heather Hinkel (JSC), Richard Hofer (JPL), Jeff Hojnicki (GRC), Robert Jedicke (U. of Hawaii), Melissa Jones (JPL), Rick Kelsch (GRC), Tom Kerslake (GRC), Gary Kinsella (JPL), Trudy Kortes (GRC), Tom Kraft (GRC), Try Lam (JPL), Damon Landau (JPL), Gregory Lantoine (JPL), Eddie Lau (JPL), Tim Lawrence (JSC), Darlene Lee (JPL), Joe Lewis (JPL), Kevin Makowski (KPM), Richard Manella (GRC), Michael Mangano (JPL), David Manzella (GRC), Dan Mazanek (LaRC), Dave McCurdy (GRC), Mark McDonald (KSC), Raymond (Gabe) Merrill (LaRC), Tom Moreno (JPL), Tim McElrath (JPL), Melissa McGuire (GRC), Michael Martini (GRC), David Myers (GRC), Steven Myint (JPL), Firouz Naderi (JPL), Barry Nakazono (JPL), Charles Niederhaus (GRC), Evelyn Orndoff (JSC), Shane Pootrakul (JPL), Humphrey (Hoppy) Price (JPL), A. Miguel San Martin (JPL), Jasen Raboin (JSC), Robert Scheidegger (GRC), Zeb Scoville (JSC), Lisa Shore (JSC), John Siamidis (GRC), Oleg Sindiy (JPL), Guru Singh (JPL), John (Steve) Snyder (JPL), Steve Stich (JSC), Nathan Strange (JPL), Andy Thomas (JSC-CB), Ben van Lear (GRC), Charles Wang (JPL), Sonny White (JSC), Brian Wilcox (JPL), Don Yeomans (JPL), Emma Young (JPL), Aline Zimmer (JPL).
+References
+1. O'Neill, G.K., "The Colonization of Space, Physics Today, 27 (9): 32-40, September 1974. 2. O'Leary, B., "Mining the Apollo and Amor Asteroids, Science, 1977 Jul 22; 197 (4301): 363-6. 3. O'Leary, B., Gaffey, M.J., Ross, D.J., and Salkeld, R., "Retrieval of Asteroidal Materials," in NASA Ames
+Research Center Space Resources and Space Settlements, p 173-189 (SEE N 79-32225 23-12). 4. O'Leary, B.T., "Asteroid Prospecting and Retrieval," AIAA 79-1432, Fourth Princeton/AIAA Conference on
+Space Manufacturing Facilities, Princeton, NJ, May 14-17, 1979. 5. O'Leary, B.T., "Mass Driver Retrieval of Earth-Approaching Asteroids," AIAA 77-528, Third Princeton/AIAA
+Conference on Space Manufacturing Facilities, Princeton, NJ, May 9-12, 1977. 6. Pearson, J., "Asteroid Retrieval by Rotary Rocket," AIAA-80-0116, AIAA 18th Aerospace Sciences Meeting,
+Pasadena, CA, January 14-16, 1980. 7. Singer, C.E., "Collisional Orbital Change of Asteroidal Materials," AIAA 79-1434, Fourth Princeton/AIAA
+Conference on Space Manufacturing Facilities, Princeton, NJ, May 14-17, 1979.
+14 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+8. Sonter, M.J., The Technical and Economic Feasibility of Mining the Near-Earth Asteroids," presented at the 49th IAF Congress, Sept 28-Oct 2, 1998, Melbourne, Australia.
+9. Brophy, J. R., Gershman R., Landau, D., Yeomans, D., Polk, J., Porter, C., Williams, W., Allen, C., and Asphaug, E., "Asteroid Return Mission Feasibility Study," AIAA-2011-5665, 47th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit, San Diego, California, July 31-3, 2011.
+10. Brophy, J.R., et al., "Feasibility of Capturing and Returning Small Near-Earth Asteroids," IEPC-2011-277, Presented at the 32nd International Electric Propulsion Conference, Wiesbaden, Germany, September 11 ­ 15, 2011.
+11. Brophy, J.R., Friedman, L., and Culick, F., "Asteroid Retrieval Feasibility, 978-1-4577-0557-1/12, presented at the 2011 IEEE Aerospace Conference, Big Sky, MT, 03 Mar -10 Mar, 2011.
+12. Brophy, J.R. and Frideman, L., "Returning an Entire Near-Earth Asteroid in Support of Human Exploration Beyond Low-Earth Orbit, GLEX-2012.11.1.7x12334, presented at the 2012 Global Space Exploration Conference, 22-24 May 2012, Washington, DC.
+13. Brophy, J.R., and Oleson, S., "Spacecraft Conceptual Design for Returning Entire Near-Earth Asteroids, AIAA2012-4067, presented at the 48th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit and 10th International Energy Conversion Engineering Conference, Atlanta, Georgia, 29 July - 1 August 2012.
+14. Brophy, J.R., Friedman, L., Culick, F., and Dimotakis, P., "Project 5S: A Safe Stepping Stone into the Solar System," IAC-12,A5,4,11,x13356, presented at the 63rd International Astronautical Congress, Naples, Italy, 1-5 October, 2012.
+15. Asteroid Retrieval Feasibility Study, Keck Institute for Space Studies, http://www.kiss.caltech.edu/study/asteroid/ asteroid_final_report.pdf.
+16. Strange, N.J., et al., "Solar Electric Propulsion for a Flexible Path of Human Exploration," IAC-10-A5.2.4, September 2010.
+17. Landau, D. and Strange, N., "Human Exploration of Near-Earth Asteroids via Solar Electric Propulsion," AAS11-102, 2011.
+18. Strange, N.J., et al., "Human Missions to Phobos and Deimos Using Combined Chemical and Solar Electric Propulsion, AIAA 2011-5663, presented at the 47th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, 31 July ­ 03 August, 2011, San Diego, CA.
+19. Landau, D. and Strange, N., "Near-Earth Asteroid accessible to Human Exploration with High-Power Electric Propulsion," AAS/AIAA Astrodynamics Specialists' Conference, Paper AAS 11-446, August 2011.
+20. Landau, D. and Strange, N.J., "This Way to Mars: How Technologies Borrowed from Robotic Missions Could Deliver Astronauts to Deep Space," Scientific American, November 29, 2011.
+21. Donahue, B., "Solar Electric and Nuclear Thermal Propulsion Architectures for Human Mars Missions Beginning in 2033," AIAA 2010-6819, presented at the 46th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, 25-28 July 2010, Nashville, TN.
+22. Dudzinski, L.A., "Design of a Solar Electric Propulsion Transfer Vehicle for a Non-Nuclear Human Mars Exploration Architecture," IEPC-99-181, 26th International Electric Propulsion Conference, Kitakyushu, Japan.
+23. Sarver-Verhey, T.R., et al., "Solar Electric Propulsion Vehicle Design Study for Cargo Transfer to Earth-Moon L1," AIAA-2002-3971, 38th Joint Propulsion Conference & Exhibit, Indianapolis, IN, July 7-10, 2002 (see also NASA TM 2002-211970).
+24. Brophy, J.R., et al., "300-kW Solar Electric Propulsion System Configuration for Human Exploration of NearEarth Asteroids," AIAA-2011-5514, 47th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, 21 July ­ 03 August 2011, San Diego, CA.
+25. Carpenter, C.B., "Electrically Propelled Cargo Spacecraft for Sustained Lunar Supply Operations," AIAA 2006-4435, presented at the 42nd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, 9-12 July 2006, Sacramento, CA.
+26. Landau, D., J. Dankanich, N. J. Strange, J. Bellerose, P. Llanos, and M. Tantardini, 2013: Trajectories to Nab a NEA (Near Earth Asteroid).
+27. Sims, J., P. A. Finlayson, E. A. Rinderle, M. A. Vavrina, and T. D. Kowalkowski, 2006: Implementation of a Low-Thrust Trajectory Optimization Algorithm for Preliminary Design. AIAA/AAS Astrodynamics Specialist Conference, Jet Propulsion Laboratory, National Aeronautics and Space Administration.
+28. Whiffen, G. J., 2006: Mystic: Implementation of the Static Dynamic Optimal Control Algorithm for HighFidelity, Low-Thrust Trajectory Design. AIAA/AAS Astrodynamics Specialists Conference, Jet Propulsion Laboratory, National Aeronautics and Space Administration.
+29. Ocampo, C., and J. Senent, 2006: The Design and Development of COPERNICUS: A Comprehensive Trajectory Design and Optimization System. International Astronautical Federation.
+15 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+30. Benest, D., 1976: Effects of the Mass Ratio on the Existence of Retrograde Satellites in the Circular Plane Restricted Problem IV. Three-dimensional Stability of Plane Periodic Orbits. Astronomy & Astrophysics, 54, 563-568.
+31. Brouke, R. A., 1968: Periodic Orbits in the Restricted Three-Body Problem With Earth-Moon Masses. Technical Report 32-1168, Jet Propulsion Laboratory, California Institute of Technology.
+32. Lam, T., 2005: Exploration of Distant Retrograde Orbits Around Europa. Advances in the Astronautical Sciences, 120, 135-153.
+33. Harris, A. W., 2013: Observation Campaign (private communication). 34. Greenstreet, S., H. Ngo, and B. Gladman, 2012: The orbital distribution of Near-Earth Objects inside Earth's
+orbit. Icarus, 217, 355-366. 35. Jedicke, R., and E. Schunova, 2013: ATLAS & PS2 Asteroid Retrieval Mission Target Detection Capability
+Study. 36. R. Hofer, "Wear testing of a magnetically-shielded Hall thruster operating at 2000 and 3000 seconds specific
+impulse", IEPC-2013-033, presented at the 33rd International Electric Propulsion Conference, Washington, DC, October 6-10, 2013. 37. Kamhawi, H., H. Thomas, J. David, and M. David, 2011: Performance Evaluation of the NASA-300M 20 kW Hall Thruster. 47th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics. 38. Mikellides, I. G., I. Katz, R. R. Hofer, and D. M. Goebel, 2013: Magnetic shielding of walls from the unmagnetized ion beam in a Hall thruster. Applied Physics Letters, 102, 023509-023505.
+16 The 33rd International Electric Propulsion Conference, Washington, DC
+October 6 ­ 10, 2013
+
+

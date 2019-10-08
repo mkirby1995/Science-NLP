@@ -1,0 +1,231 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/323600217
+Navigating to Small-Bodies Using Small Satellites
+Article in IEEE Aerospace Conference Proceedings · March 2018
+
+CITATIONS
+0
+7 authors, including:
+Raviteja Nallapu Arizona State University 15 PUBLICATIONS 34 CITATIONS
+SEE PROFILE
+E. Asphaug Arizona State University 384 PUBLICATIONS 6,733 CITATIONS
+SEE PROFILE
+
+READS
+55
+Pranayreddy Gankidi Arizona State University 6 PUBLICATIONS 5 CITATIONS
+SEE PROFILE
+
+Some of the authors of this publication are also working on these related projects: Restoring Dawn Framing Camera Multi-Band Data of Vesta to Full Spatial and Photometric Accuracy View project
+CubeSat Technology View project
+
+All content following this page was uploaded by Jekan Thangavelautham on 07 March 2018.
+The user has requested enhancement of the downloaded file.
+
+Navigating to Small-Bodies Using Small Satellites
+
+Steven Schwartz Lunar and Planetary Laboratory
+University of Arizona Tucson, AZ 85721
+srs51@email.arizona.edu
+
+Ravi Teja Nallapu Aerospace and Mechanical Engineering Department
+University of Arizona Tucson, AZ 85721
+rnallapu@email.arizona.edu
+
+Pranay Gankidi School of Electrical, Computer
+and Energy Engineering Arizona State University
+Tempe, AZ 85287 aravin11@asu.edu
+
+Graham Dektor School of Matter,Transport and
+Energy Engineering Arizona State University
+Tempe, AZ 85287 gdektor@asu.edu
+
+Vishnu Reddy Lunar and Planetary Laboratory
+University of Arizona Tucson, AZ 85721
+reddy@lpl.arizona.edu
+
+Erik Asphaug Lunar and Planetary Laboratory
+University of Arizona Tucson, AZ 85721
+easphaug@lpl.arizona.edu
+
+Jekan Thangavelautham Aerospace and Mechanical Engineering
+Department University of Arizona
+Tucson, AZ 85721 jekan@email.arizona.edu
+
+Abstract--Small-satellites are emerging as low-cost tools for performing science and exploration in deep space. These new class of space systems exploit the latest advances and miniaturization of electronics, computer hardware, sensors, power systems and communication technologies to promise reduced launch-cost and development cadence. These small-satellites offer the best option yet to explore some of the 17,000 Near-Earth Asteroids (NEA) and nearly 740,000 Main-Belt asteroids found. The exploration of these asteroids can give us insight into the formation of the solar-system, planetary defense and future prospect for space mining. Recent examples of asteroid/small-body missions target asteroids that are 100s of meters in length. Most of these discovered asteroids are 10s of meters in length and hence having the technology to explore them will open a new frontier in solar system exploration. However, these very small asteroids lack an accurate ephemeris and with current limitations in NASA's Deep Space Network (DSN) communication and tracking system, there is a 2-5 km uncertainty in distance between a spacecraft and a target. Some of these small-bodies are carbon-rich and have low-albedos that make them hard to find. However, it is these carbon-rich asteroids that are prime targets for solar-system origin studies and for asteroid mining. Overall, this presents a major navigations challenge. In this work, we develop a solution to the problem at hand. This encompasses integration of the right navigational instruments, detectors, attitude determination and control system, together with propulsion and software control system to autonomously search and `home-in' on the target body. Our navigation approach utilizes an outward spiraling `diamond maneuver'. The spacecraft spirals outwards if the small-body is not found in the volume enclosed. Once a small-body is found, the spacecraft performs gradient descent using its imagers to close-in on the small-body. In worst-case scenarios, visual techniques to detect occlusion or thermal imagery will be used to identify the target. Once found, the spacecraft performs a helical flyby maneuver to map the asteroid. The results point towards a promising pathway for further development and testing of our navigation technology aboard a demonstrator CubeSat.
+Keywords--small spacecraft; navigation; asteroids; flyby
+
+I. INTRODUCTION CubeSats and small spacecrafts are emerging as new lowcost platforms for performing short, focused science-led interplanetary exploration missions (Fig. 1) [1]. This has been thanks to rapid advancement in miniaturized electronics, sensors and actuators. These small explorers could prove to be the most feasible means to explore 150,000+ small bodies that are 10s of meters in size [2]. The spacecraft can be carried as hosted-payload aboard a large mission or be deployed independently on an Earth-escape trajectory. Our work in this field has identified CubeSats and small spacecrafts as an ideal platform for exploring small bodies, moons, and Near-Earth Asteroids (NEAs) [5],[6],[7]. One such target is Phobos [5] others include asteroids such as ~34-m 2000 UK11 and 101955 Bennu.
+Fig. 1. CubeSats are ideal platforms for low-cost, high-risk, high-reward science missions. In the AIDA-DART mission concept, CubeSat would be near an asteroid to monitor the resultant debris field from a planned kinetic impact.
+
+Exploring these small bodies present some unique challenges. Our knowledge of these small bodies is limited, the ephemerides are not accurate enough for mission navigation and these bodies have low-albedos which make them hard to find. All these factors necessitate optical navigation to search and rendezvous or flyby these targets. In this paper we present an end-to-end optical navigation solution for exploring small asteroids using small satellites. This work is an extension to our previous work in the realm of GNC [22] and covers techniques for performing fast flyby and optimized mapping of the target body. Optical navigation requires high-resolution visible and/or thermal imagers. Rapid advancements in these sensor technologies make them viable for use on CubeSats. A critical enabling technology for these interplanetary exploration missions is NASA JPL's IRIS v2 radio. The radio offers the ability for the CubeSat or small satellite to communicate and be tracked using the Deep Space Network (DSN)[3],[4]. DSN however has an error of 1-2 km and thus there is this need for optical navigation. A second technology needed for optical navigation is a compact magnification system that can fit on a CubeSat or small spacecraft. A third important technology is a propulsion system [10] with enough delta-v to perform a systematic search near the target asteroid and perform helical flyby maneuvers. A fourth element is a high-speed vision processing system for analyzing the visible and thermal imagery. One popular option is to use Field-Programmable Gate Arrays (FPGAs). Another option is to use Graphical Processing Units (GPUs). FPGAs enable image processing using an array of logical gates. Due to their wide use in image filtering and pre-processing, FPGAs are typically built into scientific imaging platforms.
+Combining all these technologies, we present an innovative solution to the problem at hand. A spacecraft would get into the target-object's orbit around the sun or large body. This will be followed by a systematic visual/thermal scan of the surroundings. The scan will be performed to identify any change in the background star-field and occlusion or movement by a nearby body. The challenge is that the body, in the worstcase scenario, may be relatively dark/cold and appear only in one or very few pixels, making it nearly indistinguishable from the surrounding dark sky. Upon detection, the spacecraft would then use its visual sensors to perform a visual gradient descent search on the target. Utilizing its propulsion system, the spacecraft would home-in on and ultimately rendezvous or flyby the target. As we show in this paper, the flyby maneuver can be optimized to maximize area coverage of the target body using helical maneuvers.
+Our work identifies optical navigation as a critical new enabling technology for the exploration of small bodies in the solar system. With the limitations of current ephemeris and limitations in DSN tracking, a small spacecraft or a CubeSat will need to use its onboard suite of sensors to finally navigate towards a very small target. We will first provide background to the problem and identify candidate CubeSats for performing
+
+small-body exploration. Next, we will present our optical navigation algorithm and analyze the image processing algorithms to detect small bodies, followed by analysis of flyby maneuvers to maximally map an asteroid followed by discussions. This is followed by a section on conclusions and future work.
+II. RELATED WORK
+CubeSats and small satellites offer a new low-cost option to perform interplanetary exploration. First, we review mission concepts and missions that include an independent propulsion system or is deployed in an Earth escape trajectory. JPL's INSPIRE is one such attempt that will result in a pair of CubeSats dropped off in an Earth escape trajectory [12]. INSPIRE is a pair of CubeSats that will fly past the moon to perform a technical demonstration. It includes a magnetometer, a deep space X-band communication system, computer and electronics. INSPIRE currently is in storage awaiting a launch opportunity.
+Another proposed interplanetary spacecraft is the Hummingbird jointly proposed by NASA Ames and Microcosm [13]. Hummingbird is a spacecraft architecture intended to tour asteroids. It includes slots to carry CubeSats that would be deployed upon rendezvous with a target of interest, in-addition, it includes a telescope to observe an asteroid target at a distance. Another interplanetary CubeSat is LunaH-Map, a 6U CubeSat selected for a NASA SLS EM1 mission. LunaH-Map is a science focused mission using an experimental miniature Neutron Spectrometer to map speculated water ice deposits in the permanently shadowed craters of the Lunar South Pole [14]. The mission as with Lunar Ice Cube will use an experimental Iodine fueled ion-thruster. Lunar Ice Cube is a similar mission that will use an Infrared Spectrometer to look for water ice in the Lunar South Pole [15].
+Lunar Flashlight is a third mission to explore the Lunar South Pole for ice deposit. It would use laser spectroscopy to identify presence of water ice. NEAScout is a proposed SLS EM1 mission intended to explore Near Earth Asteroids. The spacecraft would use a combination of solar sails and green monopropellant thrusters to reach an asteroid target [16]. Another mission called LUMIO will travel to the L2 Lagrange point and monitor the moon for meteor impacts [20]. The spacecraft contains cameras that would provide up to 10 cm/pixel resolution of an asteroid surface. Other mission concepts include BIRDY, a 3U CubeSat concept to collect radiation data between Earth and Mars [17]. Another series of CubeSats mission concepts were to be deployed from the Europa Multi-Flyby spacecraft on its 40+ flybys around Europa. Mission concept ranged from performing detailed observation of Europa's atmosphere [18] to close-flybys of Europa to obtain detailed surface imagery and look for plumes [19].
+In comparison, the proposed CubeSat will be flying to a target object that is much smaller and harder to find. DSN based tracking alone won't be sufficient to search for and rendezvous with the target asteroid. Instead this requires onboard visual navigation. Overall the spacecraft is an
+
+incremental advancement over JPL's MarCo CubeSats. The proposed CubeSat has a similar functional architecture to MarCo except for using a green monopropellant system which is based on proven hydrazine fueled thruster and enhanced onboard computation and communication capability.
+III. SPACECRAFT Inspired by the capabilities of NASA JPL's Mars Cube One (MarCO) [8],[9], we have been designing interplanetary CubeSats that can be deployed as hosted payloads, motherdaughter crafts and free-flyers. Fig. 2 shows a free-flyer 6U CubeSat design called LOGIC, initially developed for a Phobos mission [5]. In Fig. 3, we show an enhanced version of LOGIC called LOGIC-X that fits a 12U frame. LOGIC-X has enlarged volume for fuel and higher magnification visible and thermal imagers. Both these spacecrafts are well suited for flyby and rendezvous missions to small bodies.
+Fig. 2. LOGIC is 6U bus with a thermal and visible imager and onboard green monoprop propulsion system.
+
+These spacecrafts contain two science instruments, namely the e2V Cires visible camera and the FLIR Tau 2 thermal camera. The spacecraft is powered using a pair of onboard deployable solar panels called eHawk+ from MMA Design. The solar panels have 1 degree of freedom gimballing. The backside of each solar panels contains an X-band reflectarray for communication. The spacecraft will charge two Gomspace NanoPower BPX lithium ion batteries with an energy capacity starting at 150 Whr.
+The spacecraft contains a green monopropellant system developed by Aerojet Rocketdyne that can be used for flyby, rendezvous, or insertion. This propulsion system consists of four 1-N GR-1 thrusters. This system allows the spacecraft to get into a capture orbit, perform trajectory corrections, and desaturate the reaction-wheels. LOGIC contains 3.3 kg total fuel and occupies 1.8 kg of component mass while LOGIC-X contains 9.9 kg of total fuel and 2.5 kg of component mass. LOGIC and LOGIC-X have an estimated5 delta-v of 720 m/s and 1,300 m/s respectively. The remaining fuel allows for desaturation of the reaction wheels, correction maneuvers, and orbit optimization. Alternatives to green-monoprop include water electrolysis-based propulsion [11].
+The spacecraft utilizes the rad-hardened SpaceCube MINI from Aeroflex as its main command and data-handling computer. The SpaceCube MINI consists of a primary Xilinx Virtex-5QV space-qualified FPGA processor and a daughter board with Aeroflex UT6325 FPGA. Use of FPGA processors enables high-level operational flexibility. In addition, FPGAs, due to their distributed architecture, are better suited for highradiation environments and for optical navigation. The spacecraft uses the DSN for communication, as well as and Doppler tracking using the JPL IRIS v2 radio (MarCO heritage)3. The radio is capable of up to a 250 Kbps data rate depending on available power. In addition, the spacecraft contains a UHF radio for backup communication.
+IV. PRIMARY INSTRUMENTS
+To meet the typical science and exploration goals, the CubeSat will utilize a Commercial Off-the-Shelf (COTs) assembled thermal camera (Fig. 4) and visible camera (Fig. 5) [5]. The instruments, as will be shown, play the dual purpose as a science instrument and navigation instrument for smallbody exploration. Trade studies were performed to finalize on these two science payloads5. The thermal camera is a FLIR Tau 2 with an NFOV lens and a Cameralink module.
+
+Fig. 3. LOGIC X utilizes a 12U bus and enhanced zoom lens providing up to 200x magnification for both the visible and thermal imager and nearly 3 times the fuel of LOGIC.
+
+Fig. 4. Thermal camera assembly
+
+The visible camera is composed of E2v's Cires camera with a lens system based on the Pentax B5014A lens (Fig. 5).
+Fig. 5: Visible Camera assembly
+
+to single point failure of individual sensors. As a result, the attitude determination system has three levels of redundancy, with the use of the sun sensor, star tracker and magnetometer. These 3 sensors are critical for performing high-accuracy attitude determination. For attitude control, the BCT XACT uses a set of 3-micro reaction wheels that can produce 0.1 N.m torque per axis. In addition, the system includes 3 magneto torques that can produce 0.1 N.m of torque.
+
+The product specifications and performance of both instruments have been summarized in Tables 2 and 3.
+
+V. ATTITUDE DETERMINATION AND CONTROL SYSTEM The LOGIC buses are designed to use the Blue Canyon Technologies (XACT) platform. XACT uses an impressive combination of sensors including Sun Sensor, Star tracker (XACT Nano Star Tracker), internal magnetometer for attitude determination (Fig. 6,7). This sensor suite permits a complete attitude determination solution for the length of the mission. Accurate attitude determination is performed using proven algorithm, that fuse sensory information using multiple sources using the well-known extended Kalman Filter.
+Fig. 6. Blue Canyon XACT Attitude Control and Determination Architecture.
+This permits the ADCS system to achieve very high pointing accuracy in the realm of the Earth's magnetic field. Beyond Earth's magnetic field, the accuracy drops off to 1 degree pointing accuracy. The GNC systems uses multiple sensors for attitude determination. This minimizes risk due
+
+Fig. 7. Blue Canyon XACT Attitude Control and Determination Package
+
+Periodic desaturation of the reaction wheels will be performed using the onboard green monoprop system. Without external desaturation, the onboard reaction wheels will lose the ability to perform accurate pointing and result in the spacecraft tumbling. Near the earth magnetic field, the magneto-torquers may also be used for de-saturation which limits having to consume the fuel. With the provided fuel, there is more than 30 m/s margin of fuel for performing required desaturation.
+VI. OPTICAL NAVIGATION
+An onboard visual camera would assist in locating the asteroid or small body, but the search would be planned around the thermal camera, which has the following resolution at the following distances (Table I). The angular resolution is 1.7 arcmin/pixel. For our purposes here, we consider a nominal asteroid with the size and semimajor axis of 2000 UK11, which is an estimated 34-m across. To explicate our navigation concept, we assume a simple non-inclined, zero-eccentricity orbit at a = 0.883 au. The navigation procedure is easily adapted to other orbits. If we consider the target to have an orbital uncertainty of a few arc-seconds due to runoff, this would translate to an uncertainty in position of a few thousand kilometers. Our task is to sweep the area, locate our target, and rendezvous.
+
+Table I. Object Resolution Using Tau 2 Thermal Camera
+
+Distance from Object (km)
+
+Resolution (m/pixel)
+
+70
+
+34.65
+
+Distance from Object (km)
+50 30 10
+
+Resolution (m/pixel)
+24.75 14.85 4.95
+
+The onboard processor compares the successive images of the sky that it generates, performs the standard data reduction/cleaning routines, searching for objects by subtracting out the background star-field, effectively scanning for motion with respect to the background star-field or for points with periodic changes in flux, which would potentially indicate the relative motion or the rotation, respectively, of a small body. The craft's ability to detect thermal variations between frames is limited by the thermal camera's IR-flux detection limit, while its ability to discern size is limited by pixel resolution. We estimate that a 5-second exposure time is sufficient for these purposes [5].
+Fig. 8 shows the co-moving orbital frame, centered on the expected location of the asteroid (initially the most probable location), r0. The spacecraft is trailing this location by s, and matching its orbital velocity, v0. In this case, the spacecraft makes an excursion from its initial position (in this reference frame of the co-moving orbit) from trailing r0 by s, to passing it at an orbit s interior to r0, to leading it by s, to being passed by it while on an orbit s exterior to r0, and then back to its original position with respect to r0, once again trailing it by s (this gives the orbit a diamond shape in the co-moving frame).
+
+roughly inversely with time and linear with s, so long as s << solar orbit. Effectively, we have the spacecraft taking epicyclic orbits around the most probable location of the target, and we take this diamond-shape trajectory for its simplicity, but other trajectories may be taken to minimize fuel consumption or for other case-specific considerations.
+All the while, we scan the sky. The FLIR Tau 2 thermal imager provides 14.85 m/pixel @ 30 km (1.702 arcmin). The detector array is 640 × 512 pixels; thus each image looks at 0.08029 sr, or 1/156.5 of the total sky. Each IR image is exposed over 5 seconds. We conservatively grant an additional 1 s between exposures to smoothly reposition about 15º to the next frame and to allow vibrations caused by the motor to damp out. Thus, we image the entire sky approximately every 15m 40s (939 sec).
+
+Fig. 8. Trajectory of `diamond maneuver' performed to search for target small-body.
+The trip in Fig. 8 takes 10 hours, with s = 30 km, 4 thrusts of 15 seconds each, and, assuming 14 kg, required us to spend the fuel shown in the Fig. 9 (~100 grams). We can perform this maneuver more slowly or more quickly depending on mission requirements (more uncertainty entails slower sweeps to conserve fuel), with the required fuel consumption varying
+
+Fig. 9. Propellant consumed for performing a `diamond' maneuver.
+A proposed scanning strategy (Fig. 10) begins with successfully navigating to the target's orbit, as close to its anticipated position as possible, r0, and achieving velocity v0. (1) stay in this location and perform several full-sky scans, taking 15m 40s each. (2) perform a maneuver to put the craft in a position that trails r0 by 2s, with a velocity matching the orbital velocity (requires simple thrust against the direction of motion, then after moving 2s, an equal and opposite thrust (in the direction of motion) to park 2s behind r0 (decay is minimal as s << orbital radius). (3) perform a diamond-shape maneuver as shown in Fig. 8, but with a baseline of 4s instead of 2s (scanning all the while). (4) perform the same maneuver, but out of the orbital plane (orthogonal). (5) move to a location r0 4s, perform a "diamond" maneuver with an 8s baseline, do another maneuver at 45° out of the plane, then another orthogonal (90°) to the orbital plane, than another at 135°, then move to location r = r0 - 6s. The loop breaks when the spacecraft detects a potential target body and goes into a confirmation routine (6); it thrusts toward the target body upon confirmation (7).
+
+Fig. 10. Visual navigation search algorithm to get to target small-body.
+
+The period of the full-sky scans, Pskyscan, should be checked against the expected rotation period of the asteroid, Prot. If these are close to integer multiples of each other (unless Prot >> Pskyscan), this could prevent detection via periodic changes in flux from the object caused by its rotation. If the rotation rate is unknown or highly uncertain, it may make sense to consider varying Pskyscan in some semi-irregular fashion to ensure that we allow detection by periodicity in flux (asteroid rotation).
+A. Detecting rotation-induced thermal flux variation
+A confirmation routine pauses the all-skyscan to stare at each point in question for some period of time, seeking detection. If nothing is detected, the craft would revert back to its prior place in the broad search routine, or, if there is reason to believe that the object may have strayed, the craft would start to scan around this region of the sky. It would do so by spiraling out its view around the expected location in the sky to some specified extent before going back to the broad search (if not found).
+If one or more objects were to be confirmed, the craft would then navigate toward the suspected region of sky that matches
+
+best what is known about the object being sought. The craft matches the angular speed, with respect to the camera, of the thermal anomaly (such that background stars move in image frame, object stays fixed in frame). The spacecraft thrusts toward it, keeping the object fixed in center of image frame. An increase in the flux and/or size of the thermal signature of the candidate would be expected if the object were near. Meanwhile, estimates of the object's size, distance, spin, albedo, etc. are refined. When the craft arrives at the object, it then enters the next phase, its post-rendezvous operations (surveying, imaging).
+B. Detection of the small-body
+Detection of an asteroid or small body using a visible and thermal camera is a challenge. In a nominal scenario, the asteroid or small-body appears as a small, dark object that spans perhaps only a few pixels. While scanning, the asteroid would appear much like another faint star, but with a thermal signature characteristic of an asteroid. Upon staring at the object (Step 6 of Fig. 10), this object will move in a different direction with
+
+respect to the stationary background stars identified in our star catalog.
+The asteroid or small body in the worst-case scenario occupies 5 pixels or less, is dark and emanates little or no thermal signature. As there are no features to discern, it is impossible to use feature detection algorithms to match or scan for the small body. Instead, our approach uses the background star field to build the star catalog as with the nominal scenario.
+Fig. 11 shows a background star-field. As the spacecraft is panning, we would use the standard optical flow algorithm to identify and catalog the brightest stars. Optical flow is used to identify motion of objects in a visual field. Consecutive images are compared to find motion vectors. As the image is panning, the stars should all show relative motion vectors that are identical in direction and magnitude (see Fig. 12). A threshold is applied to the motion vectors, so vectors below the threshold are ignored due to effects of camera noise and above the threshold are kept.
+
+spacecraft would then use its image to perform a visual gradient descent search on the target and use its propulsion system to home-in on the target small body.
+Fig. 13. Visible image of surrounding star field, panned 15 degrees, with occlusion of a star by the target small-body.
+
+Fig. 11. Visible image of surrounding star field.
+Fig. 12. Resultant stars cataloged from star field shown in Fig. 11 using optical flow.
+This threshold filtering reduces the number of motion vectors that need to be analyzed. Furthermore, this approach simultaneously enables identifying the brightest stars (see rectangle in Fig. 12) while the camera is in motion, but without blur. When a bright star is occluded by the asteroid (see Fig. 13), the resultant optical flow vector in Fig. 14, shows the star missing (black rectangle). By a process of elimination, we have identified the location of the asteroid in the image. Upon detection, a visual confirmation routine will be performed. The
+
+Fig. 14. Resultant stars cataloged from star field shown in Fig. 13 using optical flow. A star occluded by the asteroid (target small body) has been identified.
+For us to locate the asteroid quickly requires a sufficient catalog of stars closely spaced and distributed throughout the field of view. This enables us to quickly identify an instance of occlusion and thus pinpoint the asteroid. The example optical flows images from Fig. 12 and 14 require a lower threshold to be used for practical purposes, as the cataloged stars are not well distributed throughout the field of view. Using this optical-flow approach, we identify the asteroid by a process of elimination when comparing relative motion of the background star-field. It enables us to use a slow-moving camera to make the determination, thus achieving minimum scan-time of the surrounding. Any faster movement will result in motion blur.
+Optical flow is a simple machine vision technique that can readily be implemented on FPGAs accompanying current thermal and visible imagers. This should provide real-time detection, due to the parallel processing that is possible with the hardware. Thus, the processing and identification of the asteroid can all be done using the imaging hardware and without taxing the spacecraft main computer.
+
+VII. FLYBY AND RENDEVOUS
+Once the spacecraft heads towards the asteroid, there exist the options of performing a flyby or orbiting the asteroid. There exists a series of well-established orbit maneuvers (see Scheerers, 2012 [21]). It should be noted that orbital maneuvers are expensive and consume significant fuel but can enable mapping an asteroid in its entirety. This is often not possible with a flyby, where a spacecraft may obtain brief glimpses of the target object.
+A cost-saving alternative to performing an orbit intended to get full surface coverage of an asteroid would be perform a series maneuvers to obtain a helical trajectory. Using a helical trajectory, it is possible to fly past the asteroid, however it is possible with that right parameters to obtain near-complete area maps of the asteroid. The equations of a helical maneuver in cartesian coordinate system are given in (1)-(3).
+
+() =  + 
+
+(1)
+
+() =  + 
+
+(2)
+
+() =  + 
+
+(3)
+
+The challenge then is tune the parameters a,b,c and  to minimize cost of fuel. The cost of fuel simply is the sum of the delta-v in the x, y and z directions which is given below:
+
+ = 20(|| + ||) + | - 0| (4)
+
+Fig. 15. The effect of Field of View on shape model recreation of asteroid Bennu using a helical flyby trajectory.
+
+Where  is total time to do mapping during flyby. Other parameters that can be tuned include field of view (FoV). Therefore, this becomes an optimization problem, where the optimization function seeks to minimize:
+
+ = 10| - | + 0.01| - 0|
+
+(5)
+
+Where Aast is the total surface area of the asteroid, Asc is the surface area mapped by the spacecraft and zf -z0 is the distance travelled. Below we analyze the fuel cost assuming green monoprop with Isp = 350 s.
+
+Table II: Fuel Cost for Helical Flyby Maneuver
+
+Initial Flyby Velocity (m/s)
+100 500 1,000 2,000 5,000
+
+Fuel Consumed (kg) 0.6 1.3 2.1 3.2 4.5
+
+% Area Mapped of Asteroid 100 100 100 100 100
+
+Using this approach, we obtained critical surface points to create a shape-model. Fig. 15 show the effect of FoV on shape model reconstruction of asteroid Bennu.
+
+Fig. 16. Helical Trajectory around asteroid Bennu to perform flyby mapping.
+
+Our studies showed that a 20o FoV and higher was best for flyby mapping. The resultant helical trajectory found is shown in Fig. 16. Using this approach, it is possible to get near the asteroid and perform helical flyby. Helical flyby is also not cheap in terms of fuel as the propulsion system would need to be active to constantly change direction of the spacecraft about a point in space. However, this eliminates the need for high-energy and time-consuming capture maneuver to obtain details maps of an asteroid.
+VIII. CONCLUSIONS
+Exploration of small bodies, 10s of km down to few meters using small spacecraft and CubeSats presents a major opportunity in planetary exploration. There are hundreds of thousands of these asteroids in the main asteroid belt. These asteroids typically have low-albedo and are hard to detect with even the best imaging systems. Current ephemerides of these small bodies are inaccurate or incomplete. This makes it especially challenging to navigate and explore these small bodies. In this paper, we propose an end-to-end solution using interplanetary CubeSats or small satellites that would be dropped on an Earth escape trajectory and perform an insertion burn into a nearby heliocentric orbit to the target body. The CubeSat would use its onboard visual and thermal imagers to systematically scan the vicinity and by pursuing a spiraling `diamond' shaped trajectory around the target body. If the target body is not found, the spacecraft would enlarge the search space and fully scan the surroundings until it can homein on the target asteroid to perform detailed science observations. The proposed approach uses optical flow to identify the target small-body that occludes background stars. Once the spacecraft has locked on the target, it may choose to get into orbit around the asteroid which is a daunting feet, requiring complex maneuvers that are expensive in terms of fuel. An alternative low-cost option presented here is the use of a flyby helical trajectory to perform surface mapping. Thanks to these technology advancements we now hope these small bodies can become suitable targets for future interplanetary CubeSat and small satellite missions.
+ACKNOWLEDGMENT
+The authors would like to thank Prof. Erik Asphaug and Prof. Vishnu Reddy for constant encouragement in pursuing a mission to a small-body. In addition, the authors would like to thank NASA JPL's Dr. Andrew Klesh, Dr. Alessandra Babuscia, Dr. Julie Castillo-Rogez and JPL's Team Xc for advancing the LOGIC CubeSat concept. The authors would like to gratefully acknowledge JPL's SURP Program and JPL's Office of the Chief Scientist for graciously organizing a visit to JPL.
+REFERENCES
+[1] National Academies of Sciences, Engineering, and Medicine. 2016. Achieving Science with CubeSats: Thinking Inside the Box. Washington, DC: The National Academies Press.
+
+[2] A. Mainzer, et al.: Preliminary results from NEOWISE: An enhancement to the Wide-Field Infrared Survey Explorer for Solar System Science, Astrophysical Journal 731, 53, 2011
+[3] C. Duncan, "Iris V2 CubeSat Deep Space Transponder," 1st ed., JPL Technical Brief
+[4] R. Hodges, D. J. Hoppe, M. J. Radway, and N. E. Chahat. "Novel Deployable Reflectarray Antennas for CubeSat Communications." 2015 IEEE MTT-S International Microwave Symposium (2015): n. pag. Web.
+[5] G. Dektor, N. Kenia, J. Uglietta, S. Ichikawa, A. Choudhari, M. HerrerasMartinez, S. R. Schwartz, E. Asphaug, J. Thangavelautham,. "LOGIC: A CubeSat Mission to Phobos," To Appear in Acta Astronautica, pp.1-34. 2017.
+[6] R. Staehle, et al., (2013) "Interplanetary CubeSats: Opening the Solar System to a Broad Community at Lower Cost," Journal of Small Satellites, Vol 2, No. 1, pp. 161-186.
+[7] R. Staehle, D. Blaney, H. Hemmati, M. Lo, P. Mouroulis, P. Pingree, T. Wilson, J. Puig-Suari, A. Williams, B. Betts, L. Friedman, and T. Svitek, (2011): Interplanetary CubeSats: Opening the Solar System to a Broad Commu-nity at Lower Cost, presented at the CubeSat Developers' Workshop, Logan, UT, August 7, 2011.
+[8] J. Schoolcraft, A. Klesh, and T. Werne, "MarCO: Interplanetary Mission Development On a CubeSat Scale," AIAA SpaceOps 2016 Conference, SpaceOps Conferences, 2491.
+[9] R.E. Hodges et al., "The Mars Cube One Deployable High Gain Antenna," 2016 IEEE International Symposium on Antennas and Propagation, 2016, pp. 1533-1534.
+[10] E. Asphaug, "Near Earth Asteroid Trajectory Opportunities in 20202024," 2010 Planetary Science Decadal Survey.
+[11] R. Pothamsetti and J. Thangavelautham, "Photovoltaic electrolysis propulsion system for interplanetary Cu-beSats," 2016 IEEE Aerospace Conference, Big Sky, MT, 2016, pp. 1-10.
+[12] A. Klesh, "INSPIRE and Beyond - Deep Space CubeSats at JPL", 2015.
+[13] C. Taylor, A. Shao, N. Armade et al., (2013) "Hummingbird: Versatile Interplanetary Mission Architecture," Interplanetary Small Satellite Conference.
+[14] C. Hardgrove, J. Bell, J. Thangavelautham et al., "The Lunar Polar Hydrogen Mapper (LunaH-Map) mission: Mapping hydrogen distributions in permanently shadowed regions of the Moon's south pole", 46th Lunar and Planetary Science Conference, 2015.
+[15] P. Clark, B. Malphrus, K. Brown, "Lunar Ice Cube Mission: Determining Lunar Water Dynamics with a First Generation Deep Space CubeSat," 47th Lunar and Planetary Science Conference, 2016.
+[16] L. McNutt, L. Johnson, P. Kahn, et al., "Near-Earth Asteroid (NEA) Scout," AIAA SPACE, 2014.
+[17] B.Segret, J. Vannitsen, M. Agnan, "BIRDY : BIRDY: an interplanetary CubeSat to collect radiation data on the way to Mars and back," European Planetary Science Congress 2014.
+[18] N. Chanover, J. Murphy, K. Rankin, S. Stochai et a., "A Europa CubeSat Concept Study for Measuring Europa's Atmosphere" Proceedings fo the Small Sat Conference, 2016.
+[19] J. Thangavelautham, A. Rhoden, J. Drew, J., "The Opportunities and Challenges of GN&C on a Europa CubeSat to Search for Plumes, Surface Fractures and Landing Sites," Proceedings of the 40th AAS Guidance and Control Conference, 2017.
+[20] F. Topputo, M. Massari, J. Bigg et al. "LUMIO: Lunar Meteoroid Impact Observer" ICubeSat Conference 2017.
+[21] D. Scheerers, Orbital Motion in Strongly Perturbed Environments, Springer-Verlag, 2012.
+[22] S. Schwartz, S. Ichikawa, R. Nallapu, E. Asphaug, J. Thangavelautham, J., "Optical Navigation Technology for Interplanetary CubeSats : Target Phobos," Proceedings of the 40th AAS Guidance and Control Conference, 2017.
+
+View publication stats
+
+

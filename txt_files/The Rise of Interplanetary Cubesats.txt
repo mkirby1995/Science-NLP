@@ -1,0 +1,118 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/327108859
+The Rise of Interplanetary CubeSats
+Article · July 2018
+
+CITATIONS
+0
+1 author: Jekan Thangavelautham The University of Arizona 113 PUBLICATIONS 378 CITATIONS
+SEE PROFILE
+
+READS
+7
+
+Some of the authors of this publication are also working on these related projects: Fuel Cells for Robots and Mobile Devices View project Robotics and Neural Networks View project
+
+All content following this page was uploaded by Jekan Thangavelautham on 02 September 2018.
+The user has requested enhancement of the downloaded file.
+
+Space Science
+
+ESA/Jacky Huart
+
+The rise of interplanetary CubeSats
+
+ESA deep space CubeSat proposal for an asteroid mission.
+
+The rapid-miniaturisation of electronics, power systems, instruments and propulsion systems has led to briefcase-sized CubeSat spacecraft that are on the verge of exploring deep space.
+
+Jekan Thanga Assistant Professor and Head, Space & Terrestrial Robotic Exploration Laboratory, Aerospace & Mechanical Engineering Department, University of Arizona, USA
+
+T he CubeSat standard was developed in the year 2000 by a pair of university professors, Jordi Puig-Suari (CalPoly) and Robert Twiggs (Stanford) who were looking to improve hands-on experience and skills for science and engineering students. It defines standardised masses and volumes for small spacecraft, in addition to specifying how to safely integrate the spacecraft within a rocket fairing using the PPOD, an electroactuated jack-in-the-box. Popular configurations are the 3U (10 × 10 × 34 cm), about the size of a loaf of bread, and the 6U (12 × 24 × 36 cm) the size of a brief-case. To date more than 800 nanosatellites have been launched into low Earth orbit (LEO), with a majority of launches after 2010 by new and emerging players including commercial startups, universities and government research laboratories. Exploration of deep space marks the next giant leap for CubeSats. There are ambitious missions
+
+afoot to explore the Moon, Mars and near-Earth asteroids using CubeSats. These plans are led not just by government-space agencies but include university research groups, research laboratories and startups.
+NASA JPL's Mars Cube One (MarCO) mission consist of a pair of 6U CubeSats that were launched alongside NASA's InSight mission to Mars in May 2018. The CubeSats were dropped off on an Earthescape trajectory to Mars and will follow InSight until reaching Mars.
+These two CubeSats are paving the way for a whole new class of interplanetary missions. The MarCO CubeSats will perform a Mars-flyby and operate as telecom relays, transmitting data through the Deep Space Network (DSN) of InSight's critical Entry, Descent and Landing (EDL) phase.
+The MarCO CubeSats will be carrying a whole suite of new technologies never tested before in deep space. This includes NASA JPL-developed IRIS
+
+66 ROOM
+
+Space Science
+
+X-band radio transceiver which is about the size of two sandwiches and will call home from 58 million km away directly to DSN ground stations.
+MarCO also carries an attitude determination and control package developed by Blue Canyon Technologies called the XACT, which enables three-axis stabilisation and pointing using miniature reaction-wheels, Inertial Measurement Unit (IMU) and a star-tracker.
+XACT enables MarCO to point directly towards Earth with accuracies of one degree or less. These small spacecraft will rely on a pair of deployable carbon-fibre reinforced solar photovoltaic panels developed by MMA technologies, that spring out to generate about 40 W of power near Mars.
+Beyond acting as telecoms relays for Mars InSight, the MarCO CubeSats will be parked in a heliocentric orbit and will provide engineers and scientists valuable data of how these miniaturised spacecraft components will weather conditions in deep space.
+Following MarCO, there are 13 CubeSats slated for EM1, NASA's inaugural flight of the Space Launch System (SLS) in 2019 or 2020. These missions will be led by the United States, Japan and Italy.
+Several of the missions will be science-led investigations to better observe the permanently shadowed craters of the lunar south pole for water ice. Others, like BioSentinel led by NASA Ames, will be evaluating the effects of deep space radiation on cells and bio-matter. Omotenashi, the Japanese-led CubeSat mission will be attempting a lunar impactlanding.
+All of these missions follow a highly anticipated 2016 US National Academies Study that identified the emerging role of CubeSats as platforms to perform state-of-the-art science and exploration.
+These interplanetary CubeSats, thanks to their lowcost of few millions of dollars as opposed to hundreds of millions, could perform high-risk, high-reward science. Such missions were out of the purview of large, flagship missions where politics, national pride and technical prowess take centre stage.
+One of these science-led CubeSat missions will be LunaH-Map headed by Arizona State University with a 6U CubeSat carrying an experimental miniature neutron spectrometer that will look for and map expected water ice deposits in the permanently shadowed craters of the lunar south pole. The spacecraft will attempt to enter an elliptical orbit around the Moon and finally reach an altitude of 10 km near the South Pole.
+Lunar Ice Cube, led by Moorehead State University, is a mission similar to LunaH-Map but will use an infrared spectrometer to look for water ice
+
+in the lunar south pole. As with LunaH-Map, it will employ an experimental iodine fuelled ion-thruster to move gently into lunar orbit followed by a slowspiral down to lower altitudes to perform science.
+Lunar Flashlight, led by NASA JPL and Marshall, is another mission slated to explore the lunar south pole for ice deposits. It will use laser spectroscopy to identify the presence of water ice. The spacecraft will be fitted with a green-monopropellant propulsion system, which is emerging as a replacement for hydrazine for use on deep space missions thanks to its low-toxicity and lower integration costs.
+NEAScout, led by NASA Marshall and JPL, is a 6U CubeSat mission that will head to a near-Earth asteroid using cold-gas propulsion to perform imaging and spectroscopy.
+Three CubeSat missions onboard EM-1 were selected as finalists from the NASA CubeSat Challenge. Among these challengers include a team from Cornell that will use an experimental propulsion system that electrolyzes liquid water into oxygen and hydrogen for combustion.
+Another proposed application of interplanetary CubeSats is in mother-daughter architectures, which are not new and pre-date CubeSats. In fact, some of the most successful and ground- breaking interplanetary missions have used motherdaughter architectures.
+These include the Soviet Union's Vega 1 and 2 which were launched in 1984 to target Venus and Halley's Comet. The Vega spacecraft, while en route to Venus deployed a pair of landers in addition to a pair of balloon aerobots that circled the planet's sulphuric-acid clouds at an altitude of 54 km for several months.
+
+Exploration of deep space marks the next giant leap for CubeSats
+NASA's two small MarCO CubeSats will be flying past Mars in 2018 just as NASA's next Mars lander, InSight, is descending through the Martian atmosphere and landing on the surface. MarCO will provide an experimental communications relay to inform Earth quickly about the landing.
+
+NASA/JPL-Caltech
+
+ROOM 67
+
+Space Science
+
+Propulsion has been identified as the biggest hurdle yet for interplanetary CubeSats
+
+The motherships were then redirected to encounter Halley's comet, reaching within 8,000 km of the comet's nucleus and collecting thousands of images before being damaged by the comet tail debris.
+A second example is NASA's Galileo mission. Galileo, despite being hampered by a communication antenna that didn't fully deploy, was able to provide the most detailed images of Jupiter and its moons Europa and Io. The spacecraft also deployed the Galileo probe that entered Jupiter's atmosphere for the first time giving us insight into the cloud composition and its evolution.
+Another example is NASA's Mars Pathfinder which set the stage for modern Mars surface exploration by launching a lander (mothership) paired with a smallrover (daughter craft), Sojourner.
+Mars Pathfinder was as much a technology demonstrator as a science mission enabling evaluation of solar-panels, batteries and the demonstration of panoramic cameras on the surface of Mars. The mission set the stage for the Mars Exploration Rovers (MER) Spirit and Opportunity, Mars Phoenix, the Mars Science Laboratory and the upcoming Mars 2020 rovers.
+Mother-daughter architectures using CubeSats were encouraged on the recent round of NASA Discovery missions under the Technology Demonstrator Opportunities (TDOs). This led to a variety of concepts being developed including comet penetrators, mini-landers and secondary orbiters, all of which could complement prime missions. Ultimately, these CubeSat TDOs were descoped as they were claimed to be too risky for the rest of the mission.
+Even more ambitious mother-daughter CubeSat mission concepts had been developed for exploring Jupiter's moon Europa. The unique challenges in the Jupiter system include the high-ionizing radiation due to Jupiter's strong magnetic field, temperatures reaching below -150C and decreased solar-insolation (sunlight).
+All of these factors limit the capabilities of a small spacecraft in terms of operating life. However, what has been proposed is the use of mother-daughter spacecraft architectures, where a mothership such as the Europa Multi-Flyby spacecraft would tactically deploy daughter-craft at critical times during a mission.
+
+The Europa Multi-Flyby spacecraft will perform 40+ flybys, grazing Europa at up to a 25 km altitude. The daughter-craft will depend on the mothership to get to its target destination, in addition to being fully charged during its journey, and serve as a communication relay to Earth. Mission concepts for the Europa-flyby mission ranged from performing detailed observation of Europa's atmosphere, led by University of New Mexico, to ESP-3DX, led by the University of Arizona, that would perform surface reconnaissance of Europa from 3 km to 12 km altitude and obtain detailed surface imagery for candidate landing sites, surface striations/lines and look for plumes.
+Interplanetary challenges
+Major challenges remain in the use of CubeSats to perform interplanetary science and exploration. These include communications and data volume, propulsion, power and mission life-time.
+CubeSats, due to their compact size, have small antennas with low-gain, insufficient to send high-resolution images and videos from millions of miles away. Work has been underway at NASA JPL, MMA Technologies, the University of Arizona and Brigham Young University to develop deployables that fold-out like origami structures, spring-open like an umbrella or inflate spherical or parabolic radio antennas.
+Propulsion has been identified as the biggest hurdle yet for interplanetary CubeSats. MarCO uses cold-gas thrusters with less than 50 m/s
+
+Artist's rendering of NASA's twin Mars Cube One (MarCO) spacecraft flying over Mars with Earth in the distance.
+Interplanetary CubeSats, thanks to their low-cost, could perform highrisk, highreward science
+
+NASA/JPL
+
+68 ROOM
+
+Space Science
+
+delta-v to perform minor course corrections as it is dropped off on a flyby trajectory to Mars.
+Science and exploration missions are possible with flybys, as in the recent Deep Horizons flyby of Pluto. However, in the inner solar system much has already been discovered due to long-duration orbiting missions and landers.
+Plans to lead more ambitious science and exploration missions will require CubeSats to have a propulsion system that enables them to perform orbital-insertion into another planet or moon's gravity well.
+Several science-led lunar-focused CubeSats missions aboard NASA SLS EM1 hinge on successful use of unconventional and experimental propulsion systems to complete their mission.
+Ultimately for CubeSats to become independent explorers, they will require a propulsion system that will enable them to achieve Earth-escape trajectories on their own as opposed to being dependent on a larger mission.
+A second major challenge as outlined earlier is the lifetime of the critical spacecraft components including the reaction wheels and batteries, a concern that can realistically only be dispelled through long term demonstrations in deep space.
+A credible alternative is mother-daughter architectures, where CubeSats are tactically deployed on large flagship missions to perform high-risk, high-reward science without risking the rest of the mission.
+Although mother-daughter architectures maybe a safer bet that is less reliant on technology breakthroughs to make it possible, the challenge comes from lack of a credible standard. The current CubeSat standard, designed originally for LEO satellites, is not applicable for interplanetary missions, where the voyage is long, often lasting many years and where batteries drain, temperatures fluctuate rapidly and where radiation doses are higher.
+On interplanetary missions, a CubeSat payload will need to be `protected' by the mothership, which is not called for with the current CubeSat standard. In return, damage or unexpected events inside the CubeSat payload won't cascade over to the mothership. Enhancement to the CubeSat standard will go a long way to making CubeSats a credible platform for motherdaughter architectures. The risks are high but the rewards may be even higher.
+
+About the author
+Jekan Thanga is an Assistant Professor and heads the Space and Terrestrial Robotic Exploration (SpaceTREx) Laboratory. Jekan has a bachelor's in aerospace engineering from the University of Toronto. He worked on Canadarm, Canadarm 2 and the DARPA Orbital Express missions at MDA Space Missions. Jekan obtained his Ph.D. in space robotics at the University of Toronto Institute for Aerospace Studies (UTIAS) and did a postdoc at MIT's Field and Space Robotics Laboratory (FSRL). Jekan is broadly interested in the exploration of space and extreme environments, using networks of robots, interplanetary CubeSats and smart sensors.
+
+Engineer Joel Steinkraus uses sunlight to test the solar arrays on one of the Mars Cube One (MarCO) spacecraft at NASA's Jet Propulsion Laboratory.
+Artistic renderings of Lunar Ice Cube (top left), Lunar Flashlight (top right), LunaH-Map (bottom left) and BioSentinel.
+
+Jet Propulsion Laboratory
+
+Moorehead State Univ/ASU/NASA JPL/Marshall/ NASA Ames
+
+Challenges come from lack of credible standards
+View publication stats
+
+ROOM 69
+
+

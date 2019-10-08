@@ -1,0 +1,1570 @@
+New Venice
+Master Thesis Defense May 3rd, 2018
+
+Your Address In Space
+Suzana Bianco
+sdbianco@uh.edu
+
+Imagine...
+It is the year 2070.
+The existing space economy is thriving.
+There are many facilities scattered across Cislunar space providing
+services to space companies.
+Colonies on the Moon and Mars have been running continuously for at least
+a decade.
+Lunar and asteroid ISRU produce enough surplus material to be
+commercialized.
+Humans are ready to begin deep space settlement.
+
+01
+Art by Robert McCalll
+
+In this context, there is a growing demand for a large space facility where multiple space companies can conduct their activities and offer their services, establish their market, and
+settle their workers.
+This thesis presents one concept for such a facility :
+New Venice Multi-Industry Space Outpost
+New Venice is a physical address where companies can explore the space environment. They will be able to lease space on-board without the cost and burden of constructing and launching their own space facilities. The community village offers comfortable amenities for the employers and
+visitors, and is a popular tourist destination.
+
+02
+Art by Robert McCalll
+
+Agenda
+Problem Statement Design brief Phasing Economics and People Functional Allocation Design concept Life in the Community Conclusion
+
+03
+
+Problem statement
+
+Problem 1
+How to incorporate micro-gravity in comfortable, stimulating living environments, breaking free from the usual concepts of either adapting Earth to space or Humans to machines?
+
+Problem 2
+How to cater to the great diversity of functions and uses, each with its unique requirements, restrictions and peculiarities without interfering with each other?
+
+Problem 3
+How to change the status quo of space station assembly based on chamber-to-chamber/corridor environments?
+04
+
+Design Brief
+Concept
+· Functional separation; · Simultaneous activities; · Balance of private vs public; · Mix of launched modules and in-
+space construction; · Commercially operational from
+start, no interruption for growth; · Future expansion capabilities; · Multiple circulation routes; · Multiple escape possibilities.
+
+Main Assumptions
+· Year 2070; · Thriving cislunar economy; · Advanced colonies on the Moon and Mars; · Lunar and asteroid ISRU are producing surplus; · Space contractors build and outfit structures in space; · Large inflatables are proven technology; · NASA's SLS is the main large payload provider; · New technologies in material and medicine offer
+sufficient protection against cosmic radiation;
+
+Project parameters:
+· Population: 400 people; 87% working (economic or support activities) 13% visiting (tourists, training, students)
+· 3 year permanence limit; · Micro gravity environment;
+
+05
+
+Location
+
+Lunar Orbit
+L4
+Earth´s magnetosphere GEO
+
+L3
+LEO HEO MEO Van Allen Radiation Belts
+
+L1
+L5: Your address
+in space!
+
+Earth - Moon L5
+
+· Stable orbit;
+
+· Little to no attitude control and orbit correction boosts needed;
+
+· Little to no gravity gradient;
+
+· No atmospheric drag;
+
+L2
+
+· No orbital debris;
+
+· Advantageous V for travel between Earth/Moon/Cislunar;
+
+· Convenient location for commercialization of lunar and asteroid materials;
+
+· Convenient location for way-station for deep space;
+
+· Simultaneous Earth and Moon gazing opportunities.
+
+06
+
+Initial Growth
+Phase 1 · Fuel depot · Servicing · Ore processing · Heavy industries
+
+Phase 2 · Logistics · Shipyard · Temp housing
+
+Phase 3 · Spaceport · Light industries · Nuclear power
+
+Phase 4 · Research · Space Health · Institutional · Temp housing
+07
+
+Community Growth
+Phase 5 · Industry expansion · Remote operation support
+
+Phase 6 · Food/water production · Space commerce
+
+Phase 7 · Tourism · Entertainment · Shopping
+
+08
+
+Future expansion
+09
+
+Economic Activities
+
+Primary Activities
+Space mobility: Shipyard Spaceport
+Production: Manufacturing Material processing Food/Water Energy
+Research: Education Research Health
+Entertainment: Tourism Sports Ceremonial Space Experience Film studio
+
+Support Activities
+Community: Housing Wellness Leisure
+Management: Administration Operations
+Logistics: Maintenance Supply Security Mobility
+
+10
+
+Functional Analysis
+Primary Activities
+Space Mobility Shipyard
+Spaceport Production
+Manufacturing
+Mat. Process. Food/Water Energy Research Education
+Research
+Health Entertainment
+Tourism Sports Cerimonial Space exp. Film studio
+
+Fuel depot Maintenance/ servicing Spacecraft assembly Interplanetary spaceport Cargo terminal Space tra c control
+Pharmaceuticals Crystal growth Nanostructures Spacecraft components Textiles (composites) Material processing Food production Water production Power plant/ export
+University Zero G training Science Technology Institutional Health Space tech treatment
+Tourism Space sports Marriage Burial Zero g/playground Film studio
+
+Estimated Workforce
+181
+52 2 17 17 2 4 10 59 4 4 4 5 4 16 16 2 3 59 2 2 13 13 13 13 4 11 7 0 1 2 0 0
+
+Support Activities
+Community Housing
+Wellness
+Leisure
+Management Administration
+Operations
+Logistics Maintenance Supply Security Mobility
+
+Housing Medical Fitness Eating Commerce Cultural Recreation Parks
+Administration Operations Engineering Systems
+Maintenance/ Repair Housekeeping Supply/distribution Security Internal circulation
+
+Estimated Workforce
+169
+45 4 10 2 5 15 2 2 5 58 37 6 8 6 66 11 34 5 13 3
+
+Total workforce Simultaneous visitors limited to
+Total population:
+
+350 50
+400
+11
+
+Functional allocation
+ary Activities
+
+Support Acti
+
+Prim
+
+vities
+
+Cluster 1: Fuel depot Heavy Industry Sensitive Industry
+
+Cluster 2: Space mobility Logistics Management
+
+Cluster 3: Housing Leisure Entertainment
+
+Cluster 4: Institutional Health Production
+
+POPULATION
+
+Visitors
+
+Cluster 1
+
+Cluster 4
+
+Cluster 2
+
+Cluster 3
+
+1
+
+2
+
+3
+
+4
+
+130-200 people/day 50-129 people/day 1-49 people/day Emergency escape
+
+12
+
+Cluster configuration
+Cluster 1: Fuel depot Heavy Industry Sensitive Industry
+Cluster 2: Space mobility Logistics Management
+Cluster 3: Housing Leisure Entertainment
+Cluster 4: Institutional Health Production
+
+13
+
+Cluster 1 Workforce: 25 people
+
+Fuel depot:
+Fuel station and deposit
+
+Satellite Industries:
+Production or research requiring absolute isolation
+
+14
+Orion MPCV courtesy of NASA
+
+Cluster 2
+
+Workforce: 170 people
+
+Ufficio
+Administrative offices and housekeeping
+
+Mestre
+Systems engineering, backup systems, control center
+
+Colombo, Vespucci, Polo
+Shipyard and maintenance workshops, warehouse.
+
+Command
+Command center, bridge, customs, airlock and ceremonial venue
+
+Guglie
+Transformers, electric panels and batteries, airlock
+
+Rialto
+Node, welcome center
+
+Solarium
+Space gazing, emergency escape
+
+Porto:
+Spaceport, cargo bays, security, brig, morgue
+
+15
+
+Cluster 3
+
+Workforce: 45 people Users: 400 people
+
+Murano, Giudeca, Lido
+Community Islands Living, wellness, entertainment and tourismW
+
+16
+
+Cluster 4
+
+Workforce: 110 people
+
+Vaporetto
+Pressurized cabs
+
+Galileo, Cassini
+Leased chambers
+
+Paglia, Scalzi
+Nodes and leased chambers
+
+Industrial Belt
+Leased modules
+
+Laguna
+Water treatment plant and fish culture
+
+Sicilia, Asti, Campania
+Green houses, Food processing and packaging, waste management
+
+Solarium
+Space gazing, emergency escape
+
+17
+
+Breaking the Status Quo
+Pressure vessels
+
+Hard Shell modules
+
+Hybrid modules
+
+Detached modules
+
+18
+
+8.4m 23m
+23m
+
+Hard Shell Modules
+4.3m
+
+8m Access/Cafe/WC
+
+All uses
+ISS Destiny Module
+
+Labs/Offices
+
+Chamber Equipment
+
+Ufficio, Galileo, Cassini
+
+Utility run People
+
+Utility run Circulation
+
+8m Access/Cafe/WC
+
+Mestre
+
+Labs/Offices
+
+Access/labs
+
+19
+
+Hybrid modules
+
+Equipment/ring access Greenhouses
+
+7m
+
+25m
+
+Assessment bubbles
+Water treatment tank
+Equipment/ring access
+
+Quality lab
+Laguna
+
+Equipment/ring access Assessment bubbles Water treatment tank
+
+Equipment/ring access
+Greenhouses
+Food production/waste management
+
+Sicilia, Asti, Campania
+
+11m
+
+8m
+
+9.5m 11m
+
+6m 30.5m
+
+20
+
+Detached modules
+
+Truss attachment
+
+21 Inflatable modules similar to B330 arranged in a ø 77m circle
+3 Vaporetto cabs circling around the belt
+
+Industrial belt
+
+Vaporetto
+
+Docking truss with vibration dampeners
+
+Emergency escape pods
+
+21
+
+Pressure Envelopes
+
+Spaceport
+
+Community islands
+
+22
+
+Pressure Envelopes
+
+Spinner
+
+Frame Thrower
+
+Material tanks
+
+Frame Thrower
+
+Frame printing head
+
+Guide legs
+
+Secondary frame printing head
+
+Spinner
+Membrane spool Filament tanks
+
+Frame: Anhydrous glass fibers Filament: Anhydrous glass fibers Membrane: Woven basalt fibers
+
+Membrane Filament Frame
+
+Filament printing head
+
+23
+
+Spaceport
+
+Command center
+
+Docking ring
+
+People Circulation
+
+Docking Airlock
+
+8m
+
+Cargo bay Docking ring
+
+11m Airlock
+Command center Service bays
+
+Service bays
+
+Cargo bays
+
+Viewport
+
+76m
+
+Cargo bays
+
+Cargo bays Docking ring
+24
+
+Community Island
+
+Radiators
+
+Toilets Service/technical
+
+Utility run People
+
+Utility run Circulation
+
+Individual living pods
+
+Park/commons
+Arc length 76m
+
+Technical area
+
+Expressway
+
+Projected sky
+
+Park/commons Individual living pods
+
+Projected sky
+
+15m
+
+Park/commons
+
+PLAN - A PLAN - B
+Technical area
+
+Expressway
+
+25
+
+Life in the Community
+0 1 2
+5
+
+Technical area Park/commons Expressway Toilets Individual
+
+access
+
+living pods
+
+Park/commons
+
+Commissary Restaurant
+
+Cafe Commerce Exercise
+
+Expressway
+
+Commerce
+
+Restaurant
+
+Access Cafe
+
+Leisure
+
+Multi purpose
+
+Leisure
+
+Restaurant Expressway
+
+arena
+
+Access
+
+Restaurant
+
+Commissary
+
+Plan - A
+
+10
+Frame Spheres for community activities such as:
+Commerce, restaurants, cafes, exercise, leisure.
+
+Multi-purpose arena Expands to allow multiple types of activities such as: space sports, performances, space experience, training,
+public gatherings.
+
+Technical area
+
+Toilets
+
+Access
+
+Technical area
+
+Park/commons
+
+Expressway
+
+Access
+Plan - B
+
+Access Park/commons
+
+26
+
+Life in the Community
+27
+
+Life in the Community
+28
+
+2.76m 1.65 - 2.02m
+
+Individual Living Pods
+
+Volume: 8.30m³ - 14m³ ISS volume ~3m³ 192 single pods/Island 576 single pods total
+
+2, 2.5 or 3m
+
+1.59-2.37
+
+29
+
+General
+
+Fixing strap
+External finish panel
+Pressure envelope frame structure
+
+Internal finish panel
+Modular borated polypropylene board
+Living pod frame
+
+7cm
+Living pod frame
+
+Mechanical ventilation Mechanical Exhaustion Power/data
+Utilities distribution
+
+30
+
+Emergency Egress
+
+Systems
+
+Galley
+
+Strapped "seats"
+
+Hygiene
+
+17 Emergency escape vehicles
+24 "seated" people + 3 people in health support
+Autonomous standby for up to 6 days
+
+Health support Systems Stowage
+
+ECLSS
+
+Deployed Undeployed
+
+31
+
+Conclusion
+Problem 1
+How to incorporate micro-gravity in comfortable, stimulating living environments, breaking free from the usual concepts of either adapting Earth to space or Humans to machines?
+· Abandon the minimalistic design approach that provides only the bare minimum for the astronauts.
+· Space is a harsh enough environment - the space habitats don't have to be.
+· Create large open spaces to allow different internal configurations.
+· Create visual diversity by making use of architectural design principles.
+· Break monotony in the design by incorporating unusual elements.
+· Play with the possibilities - there is no gravity, make use of that!
+· Maintain a good balance of private/ public spaces.
+
+Problem 2
+How to cater to the great diversity of functions and uses, each with its unique requirements, restrictions and peculiarities without interfering with each other?
+
+Problem 3
+How to change the status quo of space station assembly based on chamber-to-chamber/corridor environments?
+
+· Define clear functional allocation to avoid interference.
+· Utilize detached modules to avoid direct contact with outpost, but affording shirt-sleeve transfers through pressurized cabs.
+· Have module diameter large enough to allow private areas to be closed off.
+· Create specific spaces for living/exercise/recreation to keep people off the restricted areas.
+· Create clear public pathways through each module.
+
+· Use modules with larger diameter, launch them using new generation rockets such as the SLS.
+· Use different types of modules - hard shells, inflatables, hybrids, pressure vessels to allow flexible station configurations.
+· Further develop the pressure vessel concept to build in space.
+· Further develop the detached module concept to make networks of modules not directly connected to each other.
+
+32
+
+Thank You!
+33
+
+ISS Module
+
+Destiny laboratory:
+Primary research laboratory for U.S. payloads, supporting a wide range of experiments and studies contributing to health, safety, and quality of life for people all over the world
+
+Material Science Research Rack
+Exercise Cycle Ergometer
+Crew health care system
+Window Observational Research Facility
+
+Critical circulation path: Labs > logistics
+Crew quarters > galley and toilets International modules > Russian modules
+
+Laboratory freezer Micro-gravity science glove box Combustion integrated Rack Fluids integrated Rack Robotics workstation
+A
+Image courtesy of JPL-NASA
+
+Program
+
+1 - Space mobility
+
+Sector
+
+Market Shipyard
+Spaceport
+
+2 - Production
+
+Industries - economic activities
+
+4 - Entertainment 3 - Research
+
+Manufacturing
+Material processing Food/Water Energy Education
+Research
+Health Hotel Sports Cerimonial Space experience Film studio Housing
+Wellness
+Leisure
+Administration Operations
+Maintenance Supply Security Mobility
+
+Support activities 7 - Logistics 6 - Administration 5 - Community
+
+Sub service Fuel depot Mechanical: maintenance/ repair / sattelite deployment Spacecraft assembly Planetary spaceport Interplanetary spaceport Cargo terminal Space traffic control Pharmaceuticals Crystal growth nanostructures Spacecraft components Textiles (composites) Raw material processing Food production Water production Power generation/ exporting University Zero G training
+Science Technology Institutional
+Health Space technology treatment
+Hotel Space sports
+Marriage Burial
+Zero g/playground Film studio
+Housing
+Medical Fitness Eating Commerce Cultural Recreation Parks Administration Operations Engineering Systems Maintenance/ Repair Housekeeping Supply/distribution Security Internal circulation
+
+Operator
+
+Final Client
+
+Venice
+
+Space missionsVenice fleet
+
+Venice Space missionsVenice outpost
+
+Venice
+
+Spacecraft companies
+
+Venice Earth/cislunar missionsVenice outpost
+
+Venice
+
+Deep Space missions
+
+Venice Space missionsVenice outpost
+
+Venice Space missionsVenice outpost
+
+External
+
+Other players
+
+External
+
+Other players
+
+External
+
+Other players
+
+External
+
+Spacecraft companies
+
+External
+
+Other players
+
+External
+
+Other players
+
+Venice Space missionsVenice outpost
+
+Venice Space missionsVenice outpost
+
+Venice Space missionsVenice outpost
+
+External Universities/ InstitutesVnice outpost
+
+External Space missionsVenice outpost
+
+External
+
+Other players
+
+External
+
+Other players
+
+External
+
+Other players
+
+External
+
+Other players
+
+External
+
+Other players
+
+External
+
+Tourists
+
+External
+
+Tourists/ Venice Outpost
+
+External
+
+Tourists/ Venice Outpost
+
+External
+
+Tourists/ Venice Outpost
+
+External
+
+Tourists
+
+External Other players/ Venice Outpost
+
+Venice
+
+Venice Outpost
+
+Venice Venice Venice Venice Venice Venice Venice Venice Venice Venice Venice Venice Venice Venice Venice
+Venice
+
+Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost Venice Outpost
+Venice Outpost
+
+Users of the area Types
+Spaceships crew, operators Spaceships crew, operators, maintenance team
+Construction team Crews, residents, tourists
+Crews, tourists Crews, operators Traffic controllers
+Technicians Technicians Technicians Operators Technicians Technicians Food preppers, food growth workers Operators Operators Instructors, students Instructors, trainees Scientists Scientists Scientists Scientists Doctors, visiting patients Hotel personnel, tourists Players, spectators Cerimonialist, couple, spectators Cerimonialist, body handling personnel, family Tourists, people in general Film crews, actors
+Residents
+Residents, health workers Residents, phys ed professional
+Residents, service Residents, clerks
+Residents Residents Residents Personnel Deck Personnel Personnel Personnel Personnel Personnel Personnel Personnel / inmates Everyone (all 400 users)
+
+Large scale Automation Automated
+Robotic arm, Space tugs, airlock Robotics no no
+Automated no
+Robotics Robotics Robotics Robotics Robotics Robotic Automated Automated Automated
+no no no no no no no no no no no no no
+no
+no no no no no no no no no no no SpacetugRobotic arm no no no Automated
+
+Facilities required Fuel station
+Control roomGarageMaintenance bayWarehouseToolshop Construction bayWarehouse TerminalDocking port TerminalDocking port Cargo bays (10) Control center Facility Facility Facility Large facility Facility 3 processing plants
+Food prep and Package facilityGreenhouse facilities Water plants
+Power plantBattery/ storage areas Multi purpose space/classroom Multi purpose space/classroom 3 Labs 3 Labs 2 Labs 2 Labs 3 facilities Hotel facility
+Multipurpose sports venue/ arena Ecumenic chapel/ venue
+Ecumenic chapel/ venueBody prep facilityCrematoryAirlock (?) Earh gazing facilityZero-G playground Large multipurpose area
+Resident quartersVisitor qurtersHygiene areas
+Medical bay Exercise facility Meal prep facilityMess hall MarketplaceShopsBar Theater/auditoriumLibrary/ Media Games rooms/ Virtual reality
+Park facility OfficeData serversCommunication hubs BridgeAvionics control centerPropulsion system hardware
+Office OfficeControl room Control roomGarageMaintenance bayWarehouseToolshop StorageHousekeeping bay
+Cargo bays Brig
+Transport hubs and cabs
+
+B
+
+Fuel depot Mechanical: maintenance/ repair / sattelite deployment
+Spacecraft assembly Planetary spaceport Interplanetary spaceport
+Cargo terminal Space traffic control
+Pharmaceuticals Crystal growth nanostructures Spacecraft components Textiles (composites) Raw material processing Food production Water production Power generation/ exporting
+University Zero G training
+Science Technology Institutional
+Health Space technology treatment
+Hotel Space sports
+Marriage Burial
+Zero g/playground Film studio Housing Medical Fitness Eating Commerce Cultural Recreation Parks
+Administration Operations Engineering Systems
+Maintenance/ Repair Housekeeping
+Supply/distribution Security
+Internal circulation
+
+Relationship matrix
+
+Sub service
+
+Sector
+
+0- No relationship 1- Should stay away 2- Should be close 3- Should be connected 4- Can share the same
+space
+
+1 - Space mobility
+
+2 - Production
+
+3 - Research
+
+Fuel depot
+Mechanical: maintenance/
+repair / sattelite
+deployment
+Spacecraft assembly Planetary spaceport Interplanetary spaceport
+Cargo terminal Space traffic control
+Pharmaceuticals Crystal growth nanostructures Spacecraft components Textiles (composites) Raw material processing Food production Water production Power generation/
+University Zero G training
+Science Technology Institutional
+Health Space technology
+Hotel Space sports
+Marriage Burial
+Zero g/playground Film studio Housing Medical Fitness Eating Commerce Cultural Recreation Parks
+Administration Operations Engineering Systems
+Maintenance/ Repair Housekeeping
+Supply/distribution Security
+Internal circulation
+
+4 Entertainment
+
+5 - Community
+
+6 7 - Logistics Administ
+ration
+
+1 - Space mobility
+
+2 - Production
+
+3 - Research
+
+4 - Entertainment
+
+5 - Community
+
+6- Administration
+
+7 - Logistics
+
+2
+
+22220111111111111111 1 11111111111111020020203
+
+22220111111111111111 1 11111111111111002042203
+
+0000111111111111111 1 11111111111111000000203
+
+433000001000000000 0 20000011111111000002223
+
+33111111111111111 1 20000011111111022202223
+
+3000001000000000 0 00000011111111022202323
+
+000001000000000 0 00000011111111222202223
+
+22221222222222 2 11111111111111000000203
+
+2221222222222 2 11111111111111000000203
+
+221222222222 2 11111111111111000000203
+
+21222222222 2 11111111111111000000203
+
+1222222222 2 11111111111111000000203
+
+111111111 1 11111111111111111111211
+
+22222222 2 11111111111111000002203
+
+2222222 2 11111111111111000002203
+
+222222 2 11111111111111000000203
+
+22222 2 11111111111111000000203
+
+2222 2 14114411111111000000203
+
+222 2 11111111111111000000203
+
+22 2 11111111111111000000203
+
+2 2 11111111111111000000203
+
+3 11111113111111000000203
+
+21111111111111000000203
+
+2222200022222000000203
+
+224422200022000000203
+
+42200000000000000203
+
+2202000000000000203
+
+400200022000000203
+
+00000222000000203
+
+2333333200002223
+
+0 No relationship
+
+222222200002223
+
+1 Should stay away
+
+23344200002223
+
+2 Should be close
+
+3333200002223
+
+3 Should be connected
+
+333200002223
+
+4 Can share the same space
+
+33200002223
+
+3200002223
+
+200002223
+
+22202223
+
+2222223
+
+222223
+
+22223
+
+2223
+
+223
+
+23
+
+3
+
+C
+
+Requirement Matrix
+
+6 Administrati
+on
+
+Power Navigation & atitude
+control Propulsion Thermal control Utilities distribution (water, energy, data, oxygen, other specifics) Communications External servicing capabilities
+MMOD ECLSS Airlock (human or larger) Multiple docking Large volume Vibration mitigation Vaccuum exposure People flux control Dual egress Radiation protection
+
+Systems requirements
+
+Facility requirements
+
+Sector
+
+Does the function individually require this?
+0 - No, it doesn't require it at all 1 - No, can feed off the station 2 - Yes, needs it on the module 3 - Yes, needs one just for itself
+
+1 - Space mobility
+
+2 - Production
+
+3 - Research
+
+Fuel depot
+
+2 2 22
+
+2
+
+2 2 20 0 3320021
+
+Mechanical: maintenance/ repair / sattelite deployment
+
+2
+
+1
+
+12
+
+2
+
+2 2 11 3 2320021
+
+Spacecraft assembly
+
+2 1 12
+
+2
+
+2 2 11 3 2320021
+
+Planetary spaceport
+
+1 1 12
+
+2
+
+2 2 11 2 3220221
+
+Interplanetary spaceport
+
+1 1 12
+
+2
+
+2 2 11 2 3220221
+
+Cargo terminal
+
+1 1 12
+
+2
+
+2 2 11 3 3320021
+
+Space traffic control
+
+1 1 11
+
+2
+
+3 1 11 0 0000021
+
+Pharmaceuticals
+
+1 1 11
+
+2
+
+2 1 11 0 0020122
+
+Crystal growth
+
+1 1 11
+
+2
+
+2 1 11 0 0022122
+
+Nanostructures
+
+1 1 11
+
+2
+
+2 1 11 0 0022122
+
+Spacecraft components
+
+1 1 11
+
+2
+
+2 1 11 3 2022122
+
+Textiles (composites)
+
+1 1 11
+
+2
+
+2 1 11 0 0022122
+
+Raw material processing
+
+2 3 32
+
+2
+
+2 2 22 2 2232122
+
+Food production
+
+3 1 13
+
+2
+
+2 1 13 0 0320122
+
+Water production / waste treatment
+
+3 1 13
+
+2
+
+2 1 11 0 0220122
+
+Power generation/ exporting 3 2 2 3
+
+2
+
+2 1 20 0 0222122
+
+University
+
+1 1 11
+
+2
+
+2 1 11 0 0020122
+
+Zero G training
+
+1 1 11
+
+2
+
+2 1 12 0 0222122
+
+Science research
+
+1 1 11
+
+2
+
+2 1 12 0 0022122
+
+Technology research
+
+1 1 11
+
+2
+
+2 1 12 0 0022122
+
+Institutional research
+
+1 1 11
+
+2
+
+2 1 12 0 0022122
+
+Health research
+
+1 1 11
+
+2
+
+2 1 12 0 0022122
+
+Space technology treatment 1 1 1 1
+
+2
+
+2 1 12 0 0022122
+
+Hotel
+
+1 1 11
+
+2
+
+2 1 11 0 0010122
+
+Space sports
+
+1 1 11
+
+2
+
+2 1 11 0 0230121
+
+Marriage
+
+1 1 11
+
+2
+
+1 1 11 0 0110121
+
+Burial
+
+1 1 11
+
+2
+
+1 1 11 2 0010121
+
+Zero g/playground
+
+1 1 11
+
+2
+
+1 1 11 0 0210121
+
+Film studio
+
+1 1 11
+
+2
+
+2 1 11 0 0210121
+
+Housing
+
+1 1 11
+
+2
+
+1 1 11 0 0210123
+
+Medical
+
+1 1 11
+
+2
+
+1 1 11 0 0010121
+
+Fitness
+
+1 1 11
+
+2
+
+1 1 11 0 0020121
+
+Eating
+
+1 1 11
+
+2
+
+1 1 11 0 0110121
+
+Commerce
+
+1 1 11
+
+2
+
+1 1 11 0 0010121
+
+Cultural
+
+1 1 11
+
+2
+
+1 1 11 0 0010121
+
+Recreation
+
+1 1 11
+
+2
+
+1 1 11 0 0210121
+
+Parks
+
+1 1 11
+
+2
+
+1 1 12 0 0210121
+
+Administration Operations
+
+1 1 11
+
+2
+
+2 1 11 0 0010121
+
+1 1 11
+
+2
+
+2 1 11 0 0010121
+
+Engineering
+
+1 1 11
+
+2
+
+2 1 11 0 0010121
+
+Systems
+
+1 1 11
+
+2
+
+2 1 11 0 0010121
+
+Maintenance/ Repair Housekeeping
+
+2 1 11
+
+2
+
+2 1 11 2 2320121
+
+1 1 11
+
+2
+
+1 1 11 0 0010021
+
+Supply/distribution
+
+1 1 11
+
+2
+
+2 1 11 1 1110221
+
+Security
+
+1 1 11
+
+2
+
+2 1 11 0 0010021
+
+Internal circulation
+
+2 1 12
+
+2
+
+2 1 13 3 2120321
+
+4 - Entertainment
+
+5 - Community
+
+7 - Logistics
+
+0 No, it doesn't require it at all
+1 No, can feed off the station 2 Yes, needs it on the module 3 Yes, needs one just for itself
+
+D
+
+Population
+
+Community
+
+Primary
+
+Service
+Shipyard
+Spaceport
+Manufacturing
+Material processing Food/Water Energy Education
+Research Health Hotel Sports
+Cerimonial Space experience
+Film studio Housing Wellness
+Leisure
+Administration Operations
+Maintenance Supply Security Mobility
+
+Sub service Total 1 - Space mobility
+Fuel depot Mechanical: maintenance/ repair / sattelite deployment
+Spacecraft assembly Planetary spaceport Interplanetary spaceport
+Cargo terminal Space traffic control 3 - Production
+Pharmaceuticals Crystal growth nanostructures Spacecraft components Textiles (composites) Raw material processing Food production Water production Power generation/ exporting 2 - Research
+University Zero G training
+Science Technology Institutional
+Health Space technology treatment 4 - Entertainment
+Hotel Space sports
+Marriage Burial
+Zero g/playground Film studio
+5 - Community Housing Medical Fitness Eating
+Commerce Cultural
+Recreation Parks
+6 - Administration
+Administration Operations Engineering Systems
+7 - Logistics Maintenance/ Repair Housekeeping Supply/distribution Security
+Internal circulation
+
+Workforce 350 52 2 17 17 1 1 4 10 59 4 4 4 5 4 16 16 2 3 59 2 2 13 13 13 13 4 11 7 0 1 2 0 0 45 4 10 2 5 15 2 2 5
+58
+37 6 8 6 66 11 34 5 13
+3
+
+Logistics 16%
+Management 14%
+
+Visitors 13%
+Space Mobility 13%
+
+Community 11%
+Entertainment 3%
+
+Production 15% Research 15%
+
+13% Visitors 87% Residents
+of which: 52% Primary 48% Support
+
+E
+
+Clusters organization
+
+Systems
+
+Systems
+
+Separate production
+units
+
+Separate production
+units
+
+Housekeeping
+
+Cargo Bays
+
+Docks
+
+Spaceport
+
+Distribution center
+
+Hub Shipyard
+
+Maintenance workshop
+
+Systems
+
+Traffic control
+Management Safe haven
+
+Security Bridge
+
+Fuel depot Systems
+
+Eating Ceremony
+
+Shops
+
+Hotel docks
+
+Housing
+
+Community
+
+complex Parks
+
+center
+
+Entertainment
+
+Sports
+
+Systems
+
+Safe haven
+
+Fitness
+
+Cultural
+
+Laboratories
+Main power plant
+
+Safe haven
+
+Health center
+
+Dock
+
+Hub
+
+Manufactures
+
+Food plant
+
+Systems Water plant
+
+F
+
+Concept Evolution
+G
+
+Island Studies
+H
+
+

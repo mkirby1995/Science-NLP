@@ -1,0 +1,3668 @@
+Planetary and Space Science 152 (2018) 116­135
+Contents lists available at ScienceDirect
+Planetary and Space Science
+journal homepage: www.elsevier.com/locate/pss
+
+Photometric survey and taxonomic identifications of 92 near-Earth asteroids
+Chien-Hsien Lin a,c, Wing-Huen Ip a,b,*, Zhong-Yi Lin b, Yu-Chi Cheng b, Hsing-Wen Lin b, Chan-Kao Chang b
+a Space Science Institute, Macau University of Science and Technology, Macau S.A.R., China b Institute of Astronomy, National Central University, Taoyuan, Taiwan c Key Laboratory for the Structure and Evolution of Celestial Objects, Chinese Academy of Science, Kumming, Yunnan, China
+
+ARTICLE INFO
+Keywords: Near-Earth asteroids Photometry Taxonomy
+
+ABSTRACT
+A photometric survey of near-Earth asteroids (NEAs) was conducted from 2012 through 2014 at Lulin Observatory, Taiwan. The measurements of the color indices, B-V, V-R, and V-I allow the classification of 92 NEAs into seven taxonomic types. Of these samples, 39 of them are new classifications. The fractional abundances of these taxonomic complexes are: A ~3%, C~6.5%, D~8%, Q~26%, S~37%, V~6.5%, and X~13%. This result is similar to that of Thomas et al. (2011) even though the populations of the D- and X-complex with low albedos are underrepresented. The ratio of the C-cluster to the total population of S þ C clusters are 0.22 Æ 0.06 for H 17.0 and 0.31 Æ 0.06 for H > 17.0, indicating a slightly higher fraction of dark-object population with sizes smaller than 1 km.
+
+1. Introduction
+The asteroidal population is characterized by different chemical compositions and taxonomic types at different heliocentric distances. The S-type asteroids can be found most often in the inner asteroid belt while the C-type asteroids dominate the outer belt population (Tholen, 1984; Bus and Binzel, 2002; DeMeo et al., 2009; DeMeo and Carry, 2013). The Near-Earth Asteroids (NEAs) with orbits near or crossing the Earth's orbit are products of collisional fragmentation of main belt parent bodies. How these small pieces of km to sub-km size range can be transported from the main belt to the Mars and Earth crossing orbits via the 3:1 mean motion resonance, 6 secular resonance, or the Yarkovsky effect has been investigated in detail by a number of authors (Bottke et al., 2002; Morbidelli and Vokrouhlicky', 2003; Greenstreet et al., 2012; Granvik et al., 2016). The taxonomic mapping of NEAs can therefore provide important information on their source regions and evolutionary histories (DeMeo and Carry, 2014; Carry et al., 2016).
+On the basis of the Bus-system (Bus, 1999), several observational studies have shown that the S, Q, X and C-complexes in total account for about 90% of the NEA population while the rest is comprised of the A, D and V types (Dandy et al., 2003; Binzel et al., 2004; de Leo'n et al., 2010; Ye, 2011; Thomas et al., 2011).
+The C-type and D-type NEAs are of special interest because of their volatile contents (Nichols, 1993; Reddy et al., 2012a). The C-type NEAs
+
+are likely originated from the outer main belt which is known to be the reservoir of asteroids of carbonaceous composition (Bus and Binzel, 2002; DeMeo and Carry, 2014) and the so-called main belt comets with active outgassing phenomenon (Hsieh and Jewitt, 2006; Bertini, 2011). At the same time, the D-type and P-type NEAs could be of cometary origin (Jones et al., 1990; Rivkin, 2006; Volquardsen, 2007). The D-type objects are rather rare in the NEA population (Perna et al., 2016). Search for these volatile-rich NEAs as potential targets for future space missions is one of the scientific goals of the Lulin photometric survey.
+Some S-type and Q-type are likely the same as ordinary chondritic composition (Tholen, 1984; Vernazza et al., 2008). That the S-type asteroids are redder and darker than the Q-type asteroids implies with the higher level of space weathering effect (Brunetto et al., 2006, 2015; Clark et al., 2002; Ishiguro et al., 2007). This also means that the Q-type asteroids should have younger (fresher) surfaces. The direct evidence of space weathering on surface particles has been derived from asteroid Itokawa from Hayabusa mission (Nakamura et al., 2011; Brunetto et al., 2015) Comparisons of the Q/S ratios in the main belt and the NEA population (Bus and Binzel, 2002; Lazzaro et al., 2004; Binzel et al., 2004; Dandy et al., 2003; Lin et al., 2015) have led to the interpretation that some physical mechanism must be at work to rejuvenate the surfaces of the Q-type objects once being injected into the orbital region of the terrestrial planets. Seismic shaking or removal of the surface materials by tidal effect during close encounters with the Earth and Venus has been
+
+* Corresponding author. Space Science Institute, Macau University of Science and Technology, Macau S.A.R., China. E-mail address: wingip@astro.ncu.edu.tw (W.-H. Ip).
+https://doi.org/10.1016/j.pss.2017.12.019 Received 17 May 2017; Received in revised form 18 December 2017; Accepted 31 December 2017 Available online 4 January 2018 0032-0633/© 2018 Elsevier Ltd. All rights reserved.
+
+C.-H. Lin et al.
+proposed and apparently supported by numerical studies showing that the Q-type NEAs tended to have more close encounters with the Earth and Venus than the S-type NEAs (Binzel et al., 2010; Nesvorny et al., 2010; Carry et al., 2016). DeMeo et al. (2014) even added that Mars could also be important for such surface rejuvenation process, yet Carry et al. (2016) did not found the significant difference in orbital properties of Q- and S-types in their encounters with Mars.
+Another mechanism of potential importance has to do with the YORP effect of asteroidal rotation (Rubincam, 2000). The increase of the rotational rate because of the YORP effect to a certain critical value upon which the surface materials would be either spun off (Jacobson and Scheeres, 2011; Polishook et al., 2014) or turned over (Walsh et al., 2012; Scheeres, 2015) could play a role in keeping a higher Q/S ratio (Graves et al., 2016).
+Of the 14,000 NEAs discovered up to now, only 800 have been classified by spectroscopic observations (Binzel et al., 2002: Data Base of Physical and Dynamical Properties of NEAs on E.A.R.N.) and 300 by photometric measurements in terms of color indices from SDSS (Carry et al., 2016) and the Bessel system photometry (Rabinowitz, 1998; Binzel et al., 2002 (NEA database); Dandy et al., 2003; Ye, 2011). Therefore there is a need to acquire more taxonomic data so that a number of major issues in NEAs as discussed above can be addressed.
+2. Previous studies on the boulder shape and destruction mechanisms
+2.1. Procedure
+The 2012­2014 observations were carried out monthly at the Lulin Observatory in the middle of Taiwan (latitude ¼ 23 280 07" N, longitude ¼ 120 520 25" E and altitude ¼ 2862 m) using either the Lulin Onemeter Telescope (LOT) or the Super Light Telescope (SLT) with a primary mirror of 41 cm. The CCD camera installed on LOT was PI-1300 which has a field of view (FOV) of 11'Â110 and an effective pixel scale of 0.516"/pxl; the one on SLT was U42 with FOV of 27'Â270 and a pixel scale of 0.78"/pxl. The filters for both telescopes were Bessel broad-band BVRI filters with central wavelengths at 442, 540, 647 and 786 nm, respectively. Our observational strategy was to select NEAs with visible magnitude brighter than 19.0 in each month irrespective of whether their taxonomical classifications were known or not. All data sets considered had been obtained with air mass below 2.0. About 30% of the observations ­ 21 out of 92 our NEAs - were conducted with the color sequence as RBRVRIR especially for those brighter targets whose exposure time was able to be acquired in shorter time duration, while others were obtained simply with the sequence as BVRI for most of long exposures. The observational log can be found in Appendix A.
+2.2. Data reduction
+The observations in each night had their own set of Landolt standard stars used for flux calibration (Landolt, 1992). The routine procedure of fitting for air mass extinction and imaging photometry was performed by using the IRAF package (Image Reduction and Analysis Facility supplied by National Optical Astronomy Observatories); the WCS information on the images was applied with the code from astrometry.net (Lang et al., 2010). Some observational data in specific dates were excluded from observation log (Appendix A) because of bad extinction value for color calibration, background star eclipse by the target NEAs, or photometric error with magnitude m > 0.15. Each target has at least once full BVRI exposures. There are some targets with multiple serial exposures as requested.
+2.3. Color indices
+The absolute magnitudes (H) of our NEA targets ranged from 9.45 to
+
+Planetary and Space Science 152 (2018) 116­135
+21.8. This means that some of the observations were done during the close approaches of the NEAs to the Earth. The apparent brightness of each band was derived from aperture photometry. The color indices were then computed for B-V, V-R and V-I. For multiple sets of BVRI exposures, the average values are used. The results are summarized in Table 1. Note that five NEAs in the table have one missing color index because of stellar eclipse during individual observations. Overall, the Bessel color indices for 64 of the NEAs are derived for the first time from this work.
+
+3. Taxonomic classifications
+
+3.1. Integrated classes
+
+The definition of asteroidal spectral types we used here is the BusDeMeo system (DeMeo et al., 2009). However, the broad-band photometry employed cannot give high resolution data as spectroscopic observations do, and our measurements were also limited in the optical wavelength range, without near-infrared coverage. We therefore made use of the classification scheme given by Binzel et al. (2004) and Stuart and Binzel (2004) with some modification. As shown in Table 2, we have seven main taxonomic complexes, namely, A, C, D, Q, S, V, X, whose subdivisions are listed. The main points are that, we combined the R-type into the V-type because they have similar spectral slopes in visible. By the same token, the O-type and the Q-type were merged into the Q-complex. The resultant SEDs of the seven taxonomical groups are illustrated in Fig. 1 which is a composite plot of different types of reflectance spectra to show the range of spectral variations. The actual dispersion should be more than depicted here because the Bus-DeMeo taxonomic classification is based on 371 spectra out of a population of about one million objects. In principle, these curves capture most of the main spectral signatures, namely, the absorption feature near 1 m for the Q- and V-types, the flatter slopes of X- and C-types, and the reddish color of the A- and D-types. Table 2 also gives the color indices specific to different taxonomic groups.
+
+3.2. Classification
+
+The distribution of the color indices of different taxonomic types is shown in the V-R/B-V color-color diagram in Fig. 2. This figure was constructed by collecting the known color indices of 150 NEAs from the Database of Physical Properties of NEAs by E.A.R.N. (Binzel et al., 2002) and several photometric surveys (Rabinowitz, 1998; Dandy et al., 2003; Ye, 2011). The color indices from the Lulin observations are superimposed over the reference data points. Some of the Lulin data points have relatively large error bars, but most of them fall into the domain of the reference groups aligned by the A-V-S-Q axis and the D-X-C axis.
+In order to examine the taxonomic types of the observed NEAs by three color indices, representing different slopes of their SEDs, we adopted the method of principal component analysis (cf. Ivezic et al., 2001) to identify the uncorrelated indices in the B-V and V-R phase space. According to the line of linear regression to the mean indices of the seven taxonomic complexes, we can rotate the B-V and V-R axes by and angle () of 37.43(with a deviation of þ2.714/-2.937 from the fitting slope of 0.765 Æ 0.078) from which we can derive a principal component index (PCI) according to Equation (1).
+
+PCI ¼ ðB À VÞcos þ ðV À RÞsin
+
+(1)
+
+The main method to classify the NEAs is analogous to that of DeMeo and Carry (2013) while using PCI and the R-I index in the present study. Fig. 3.a shows the PCI vs. R-I index of the known taxonomic types. It helps us to identify the boundaries of different complexes according to the Bus-DeMeo system, which described the ranges from the average spectra of the specific classes. Furthermore, we also considered the distributions of previous classifications referred in Fig. 3.a. Fig. 3.b shows the positions of our data points in such a map.
+
+117
+
+118
+
+Table 1 Here displays the mean magnitude of each band, color indices, principle component indices (PCI1) and their corresponding deviations of our 92 NEA targets.
+
+NEA
+
+B
+
+B
+
+V
+
+V
+
+R
+
+R
+
+I
+
+I
+
+B-V
+
+B-V
+
+V-R
+
+(1036) Ganymed (1627) Ivar (1685) Toro (1943) Anteros (2100) Ra-Shalom (3360) Syrinx (3554) Amun (4055) Magellan (4179) Toutatis (4450) Pan (4487) Pocahontas (4954) Eric (5731) Zeus (6047) 1991 TB1 (7350) 1993 VA (7753) 1988 XB (8013) Gordonmoore (10115) 1992 SK (11284) Belenus (11405) 1999 CV3 (12923) Zephyr (17188) 1999 WC2 (21088) Chelyabinsk (22753) 1998 WT (24761) Ahau (25916) 2001 CP44 (40267) 1999 GJ4 (52762) 1998 MT24 (53435) 1999 VM40 (55532) 2001 WG2 (68031) 2000 YK29 (68216) 2001 CV26 (85990) 1999 JV6 (88263) 2001 KQ1 (89355) 2001 VS78 (90075) 2002 VU94 (99942) Apophis (136900) 1998 HL49 (137062) 1998 WM (137199) 1999 KX4 (137805) 1999 YK5 (141052) 2001 XR1 (141484) 2002 DB4 (152756) 1999 JV3 (152889) 2000 CF59 (154347) 2002 XK4 (162004) 1991 VE (162566) 2000 RJ34 (163249) 2002 GT (163364) 2002 OD20 (168378) 1997 ET30 (214869) 2007 PA8 (215188) 2000 NM (219071) 1997 US9
+
+16.927 13.432 17.311 17.140 17.069 17.183 18.361 18.978 15.237 18.008 18.426 17.651 18.287 18.863 18.154 16.789 20.660 18.553 17.856 17.605 19.590 16.354 17.856 18.522 19.095 19.000 19.509 18.310 17.062 18.572 18.887 17.838 19.893 18.517 19.269 19.166 16.477 19.683 18.068 16.667 17.205 19.269 17.776 17.598 17.894 17.416 17.213 17.196 17.457 15.028 18.534 14.635 18.364 19.761
+
+0.006 0.008 0.056 0.007 0.010 0.021 0.027 0.028 0.019 0.023 0.038 0.008 0.061 0.050 0.050 0.029 0.125 0.046 0.060 0.057 0.102 0.018 0.070 0.034 0.065 0.046 0.031 0.085 0.015 0.064 0.019 0.079 0.058 0.037 0.050 0.058 0.019 0.090 0.029 0.029 0.031 0.045 0.046 0.038 0.029 0.040 0.022 0.011 0.063 0.029 0.034 0.016 0.024 0.069
+
+16.045 12.602 16.375 16.219 16.350 16.355 17.593 18.032 14.406 17.202 17.655 16.651 17.578 18.015 17.337 16.114 19.831 17.651 16.985 16.637 18.850 15.636 17.166 17.763 18.478 18.123 18.641 17.567 16.160 17.754 18.062 16.875 19.080 17.718 18.403 18.389 15.631 18.982 17.208 15.859 16.542 18.552 17.075 16.591 17.005 16.605 16.523 16.567 16.533 14.183 17.681 13.831 17.556 18.965
+
+0.003 0.004 0.021 0.004 0.007 0.013 0.014 0.016 0.009 0.015 0.024 0.004 0.033 0.033 0.028 0.017 0.078 0.025 0.024 0.031 0.063 0.011 0.030 0.018 0.039 0.028 0.021 0.058 0.009 0.037 0.013 0.034 0.030 0.024 0.024 0.032 0.010 0.061 0.016 0.014 0.017 0.031 0.024 0.014 0.013 0.021 0.019 0.007 0.026 0.014 0.022 0.009 0.012 0.049
+
+15.530 12.170 15.886 15.705 15.901 15.948 17.202 17.516 13.941 16.733 17.166 16.120 17.184 17.563 16.962 15.742 19.351 17.208 16.466 16.126 18.320 15.152 16.670 17.338 17.982 17.626 18.078 17.126 15.628 17.233 17.561 16.422 18.729 17.371 17.801 17.920 15.180 18.469 16.848 15.371 16.127 18.078 16.636 16.152 16.576 16.132 16.154 16.204 16.043 13.747 17.244 13.410 17.099
+
+0.004 0.005 0.023 0.005 0.008 0.013 0.016 0.017 0.011 0.018 0.027 0.005 0.038 0.035 0.033 0.019 0.083 0.028 0.025 0.034 0.071 0.014 0.034 0.020 0.042 0.030 0.022 0.084 0.010 0.040 0.014 0.036 0.033 0.027 0.026 0.037 0.011 0.077 0.018 0.016 0.020 0.031 0.027 0.016 0.013 0.024 0.016 0.008 0.029 0.016 0.024 0.010 0.013
+
+15.064 11.846 15.506 15.243 15.591 15.550 16.784 17.275 13.577 16.569 16.729 15.707 16.814 17.244 16.576 15.473 18.792 16.861 16.068 15.756 17.812 14.820 16.224 17.010 17.518 17.083 17.747 16.758 15.248 17.062 17.144 16.008 18.207 16.971 17.407 17.447 14.818 18.112 16.596 15.042 15.779 17.728 16.335 15.855 16.354 15.777 15.740 15.843 15.741 13.410 16.917 13.097 16.727 17.896
+
+0.004 0.005 0.024 0.005 0.013 0.015 0.016 0.020 0.011 0.025 0.030 0.006 0.044 0.041 0.031 0.021 0.087 0.028 0.027 0.035 0.079 0.014 0.035 0.021 0.045 0.039 0.025 0.089 0.011 0.052 0.016 0.038 0.038 0.032 0.037 0.037 0.012 0.083 0.023 0.017 0.021 0.036 0.026 0.017 0.016 0.024 0.019 0.009 0.030 0.017 0.027 0.011 0.015 0.058
+
+0.882 0.830 0.936 0.921 0.719 0.828 0.768 0.946 0.831 0.806 0.771 1.000 0.709 0.848 0.817 0.675 0.829 0.902 0.871 0.968 0.740 0.718 0.690 0.759 0.617 0.877 0.868 0.743 0.902 0.818 0.825 0.963 0.813 0.799 0.866 0.777 0.846 0.701 0.860 0.808 0.663 0.717 0.701 1.007 0.889 0.811 0.690 0.629 0.924 0.845 0.853 0.804 0.808 0.796
+
+0.008 0.010 0.076 0.009 0.012 0.027 0.035 0.036 0.025 0.029 0.048 0.010 0.080 0.062 0.065 0.038 0.158 0.060 0.081 0.074 0.130 0.023 0.094 0.045 0.084 0.058 0.039 0.106 0.019 0.082 0.024 0.107 0.076 0.046 0.067 0.076 0.025 0.111 0.038 0.038 0.041 0.055 0.060 0.052 0.039 0.053 0.024 0.014 0.085 0.038 0.042 0.020 0.031 0.084
+
+0.515 0.432 0.489 0.514 0.449 0.407 0.391 0.516 0.465 0.469 0.489 0.531 0.394 0.452 0.375 0.372 0.480 0.443 0.519 0.511 0.530 0.484 0.496 0.425 0.496 0.497 0.563 0.441 0.532 0.521 0.501 0.453 0.351 0.347 0.602 0.469 0.451 0.513 0.360 0.488 0.415 0.474 0.439 0.439 0.429 0.473 0.369 0.363 0.490 0.436 0.437 0.421 0.457
+
+V-R
+0.004 0.005 0.024 0.005 0.009 0.013 0.017 0.018 0.012 0.020 0.029 0.005 0.042 0.037 0.037 0.021 0.087 0.031 0.025 0.036 0.078 0.017 0.037 0.021 0.044 0.032 0.023 0.103 0.011 0.042 0.014 0.037 0.035 0.029 0.028 0.041 0.012 0.091 0.019 0.017 0.022 0.030 0.029 0.018 0.012 0.026 0.013 0.008 0.031 0.017 0.026 0.011 0.014
+
+V-I
+0.981 0.756 0.869 0.976 0.759 0.805 0.809 0.757 0.829 0.633 0.926 0.944 0.764 0.771 0.761 0.641 1.039 0.790 0.917 0.881 1.038 0.816 0.942 0.753 0.960 1.040 0.894 0.809 0.912 0.692 0.918 0.867 0.873 0.747 0.996 0.942 0.813 0.870 0.612 0.817 0.763 0.824 0.740 0.736 0.651 0.828 0.783 0.724 0.792 0.773 0.764 0.734 0.829 1.069
+
+V-I
+0.005 0.005 0.027 0.005 0.017 0.017 0.018 0.023 0.013 0.032 0.035 0.007 0.053 0.048 0.034 0.025 0.096 0.031 0.030 0.038 0.092 0.016 0.039 0.023 0.051 0.047 0.029 0.112 0.013 0.063 0.018 0.041 0.045 0.038 0.046 0.041 0.013 0.101 0.028 0.019 0.024 0.041 0.027 0.020 0.018 0.026 0.019 0.010 0.033 0.020 0.032 0.012 0.017 0.066
+
+R-I
+0.466 0.325 0.380 0.462 0.310 0.398 0.418 0.241 0.364 0.164 0.438 0.413 0.369 0.320 0.384 0.269 0.559 0.347 0.398 0.370 0.508 0.374 0.446 0.328 0.464 0.543 0.331 0.368 0.381 0.171 0.417 0.414 0.522 0.400 0.394 0.474 0.362 0.357 0.252 0.329 0.348 0.350 0.301 0.297 0.222 0.355 0.414 0.361 0.303 0.337 0.327 0.312 0.372
+
+R-I
+0.006 0.007 0.036 0.007 0.019 0.021 0.025 0.029 0.018 0.038 0.046 0.009 0.068 0.061 0.043 0.032 0.130 0.044 0.039 0.053 0.120 0.016 0.054 0.032 0.067 0.057 0.037 0.016 0.017 0.076 0.023 0.055 0.057 0.048 0.054 0.058 0.017 0.136 0.034 0.026 0.031 0.051 0.040 0.027 0.021 0.037 0.023 0.013 0.045 0.027 0.041 0.016 0.022
+
+PCI1
+
+PCI1
+
+1.015 0.009
+
+0.924 0.011
+
+1.043 0.075
+
+1.046 0.010
+
+0.845 0.015
+
+0.908
+
+0.029
+
+a
+
+0.850 0.038
+
+1.067 0.040
+
+0.945 0.027
+
+0.927 0.035
+
+0.911
+
+0.056
+
+a
+
+1.120 0.011
+
+0.804
+
+0.089
+
+a
+
+0.950
+
+0.072
+
+a
+
+0.880
+
+0.074
+
+a
+
+0.764
+
+0.043
+
+a
+
+0.952
+
+0.179
+
+a
+
+0.988
+
+0.067
+
+a
+
+1.009 0.080
+
+1.082
+
+0.081
+
+a
+
+0.910
+
+0.151
+
+a
+
+0.865
+
+0.029
+
+a
+
+0.850 0.098
+
+0.863
+
+0.049
+
+a
+
+0.791 0.094
+
+1.001
+
+0.066
+
+a
+
+1.033
+
+0.045
+
+a
+
+0.860 0.146
+
+1.041
+
+0.022
+
+a
+
+0.967
+
+0.091
+
+a
+
+0.961
+
+0.028
+
+a
+
+1.043 0.108
+
+0.862
+
+0.082
+
+a
+
+0.849
+
+0.054
+
+a
+
+1.054
+
+0.071
+
+a
+
+0.903
+
+0.085
+
+a
+
+0.948 0.027
+
+0.869
+
+0.143
+
+a
+
+0.905
+
+0.042
+
+a
+
+0.940
+
+0.041
+
+a
+
+0.780 0.046
+
+0.858
+
+0.062
+
+a
+
+0.825
+
+0.065
+
+a
+
+1.070
+
+0.052
+
+a
+
+0.970
+
+0.038
+
+a
+
+0.933
+
+0.058
+
+a
+
+0.774
+
+0.027
+
+a
+
+0.721 0.016
+
+1.034
+
+0.087
+
+a
+
+0.939
+
+0.041
+
+a
+
+0.946
+
+0.049
+
+a
+
+0.897 0.023
+
+0.921 0.033
+a
+
+(continued on next page)
+
+Planetary and Space Science 152 (2018) 116­135
+
+C.-H. Lin et al.
+
+C.-H. Lin et al.
+
+Table 1 (continued )
+
+NEA
+
+B
+
+B
+
+V
+
+V
+
+R
+
+R
+
+I
+
+I
+
+B-V
+
+B-V
+
+V-R
+
+V-R
+
+V-I
+
+V-I
+
+R-I
+
+R-I
+
+PCI1
+
+PCI1
+
+(230111) 2001 BE10
+
+18.391 0.109 17.581 0.052 17.196 0.054 16.980 0.060 0.810 0.145 0.385 0.056 0.601 0.067 0.216 0.087 0.880 0.150
+
+(249595) 1997 GH28
+
+18.226
+
+0.020
+
+17.483
+
+0.013
+
+17.031
+
+0.014
+
+16.590
+
+0.016
+
+0.743
+
+0.025
+
+0.452
+
+0.015
+
+0.893
+
+0.018
+
+0.441
+
+0.023
+
+0.866
+
+0.029
+
+a
+
+(249886) 2001 RY11
+
+18.959
+
+0.051
+
+18.312
+
+0.032
+
+17.885
+
+0.034
+
+17.518
+
+0.041
+
+0.647
+
+0.065
+
+0.427
+
+0.036
+
+0.794
+
+0.048
+
+0.324
+
+0.064
+
+0.774
+
+0.074
+
+a
+
+(262623) 2006 WY2
+
+18.194 0.024 17.373 0.015
+
+16.477 0.017 0.821 0.031
+
+0.896 0.019
+
+a
+
+(276397) 2002 XA40
+
+17.449
+
+0.011
+
+16.628
+
+0.008
+
+16.160
+
+0.010
+
+15.832
+
+0.010
+
+0.821
+
+0.014
+
+0.468
+
+0.011
+
+0.796
+
+0.012
+
+0.333
+
+0.016
+
+0.938
+
+0.018
+
+a
+
+(276786) 2004 KD1
+
+19.226
+
+0.057
+
+18.519
+
+0.037
+
+18.203
+
+0.040
+
+17.978
+
+0.054
+
+0.707
+
+0.072
+
+0.316
+
+0.043
+
+0.541
+
+0.066
+
+0.225
+
+0.079
+
+0.756
+
+0.083
+
+a
+
+(277127) 2005 GW119
+
+18.948
+
+0.066
+
+18.099
+
+0.038
+
+17.627
+
+0.040
+
+17.310
+
+0.048
+
+0.849
+
+0.086
+
+0.472
+
+0.042
+
+0.789
+
+0.057
+
+0.310
+
+0.071
+
+0.963
+
+0.094
+
+a
+
+(285263) 1998 QE2 (294739) 2008 CM
+
+11.860 0.007 11.127 0.003 10.804 0.005 10.425 0.005 0.733 0.009 0.323 0.007 0.702 0.006 0.380 0.009 0.781 0.011
+
+17.538
+
+0.019
+
+16.791
+
+0.011
+
+16.321
+
+0.012
+
+15.962
+
+0.014
+
+0.747
+
+0.025
+
+0.470
+
+0.012
+
+0.829
+
+0.016
+
+0.359
+
+0.020
+
+0.880
+
+0.027
+
+a
+
+(297274) 1996 SK (326732) 2003 HB6 (329338) 2001 JW2
+
+17.042 0.013 16.275 0.013 15.793 0.013 15.474 0.013 0.767 0.013 0.482 0.013 0.801 0.013 0.320 0.013 0.903 0.018
+
+17.554
+
+0.094
+
+16.878
+
+0.046
+
+16.490
+
+0.047
+
+16.092
+
+0.050
+
+0.676
+
+0.124
+
+0.388
+
+0.048
+
+0.786
+
+0.054
+
+0.398
+
+0.073
+
+0.774
+
+0.128
+
+a
+
+17.319
+
+0.029
+
+16.521
+
+0.016
+
+16.025
+
+0.018
+
+15.637
+
+0.023
+
+0.798
+
+0.037
+
+0.496
+
+0.019
+
+0.884
+
+0.028
+
+0.383
+
+0.034
+
+0.936
+
+0.041
+
+a
+
+(330825) 2008 XE3
+
+16.704 0.014 15.870 0.008 15.400 0.009 15.020 0.011 0.834 0.018 0.470 0.009 0.850 0.013 0.380 0.016 0.950 0.020
+
+(333358) 2001 WN1 (334412) 2002 EZ2 (339492) 2005 GQ21 (339714) 2005 ST1 (340666) 2006 RO36 (341816) 2007 YK (343098) 2009 DV42 (345722) 2007 BG29
+
+17.378 0.030 16.668 0.018 16.230 0.020 15.873 0.024 0.710 0.039 0.438 0.021 0.795 0.029 0.357 0.036 0.831 0.044
+
+19.390
+
+0.078
+
+18.590
+
+0.051
+
+18.025
+
+0.060
+
+17.718
+
+0.068
+
+0.800
+
+0.098
+
+0.565
+
+0.068
+
+0.872
+
+0.081
+
+0.308
+
+0.106
+
+0.979
+
+0.119
+
+a
+
+17.387
+
+0.011
+
+16.587
+
+0.007
+
+16.125
+
+0.009
+
+15.746
+
+0.010
+
+0.800
+
+0.014
+
+0.462
+
+0.010
+
+0.841
+
+0.012
+
+0.379
+
+0.016
+
+0.918
+
+0.017
+
+a
+
+18.177
+
+0.053
+
+17.323
+
+0.028
+
+16.847
+
+0.032
+
+16.438
+
+0.039
+
+0.854
+
+0.070
+
+0.476
+
+0.036
+
+0.885
+
+0.048
+
+0.409
+
+0.060
+
+0.970
+
+0.078
+
+a
+
+19.223
+
+0.032
+
+18.539
+
+0.022
+
+18.135
+
+0.024
+
+17.789
+
+0.029
+
+0.684
+
+0.040
+
+0.404
+
+0.026
+
+0.750
+
+0.034
+
+0.346
+
+0.043
+
+0.790
+
+0.048
+
+a
+
+19.036
+
+0.112
+
+18.262
+
+0.051
+
+17.833
+
+0.057
+
+17.561
+
+0.046
+
+0.774
+
+0.150
+
+0.429
+
+0.062
+
+0.701
+
+0.040
+
+0.272
+
+0.073
+
+0.877
+
+0.157
+
+a
+
+17.391
+
+0.042
+
+16.565
+
+0.022
+
+16.027
+
+0.026
+
+15.584
+
+0.026
+
+0.826
+
+0.055
+
+0.538
+
+0.029
+
+0.981
+
+0.030
+
+0.445
+
+0.043
+
+0.984
+
+0.061
+
+a
+
+19.428
+
+0.082
+
+18.438
+
+0.040
+
+17.787
+
+0.043
+
+17.339
+
+0.043
+
+0.990
+
+0.109
+
+0.651
+
+0.046
+
+1.099
+
+0.045
+
+0.448
+
+0.064
+
+1.183
+
+0.115
+
+a
+
+(349068) 2006 YT13 (355256) 2007 KN4 (356394) 2010 QD2 (361071) 2006 AO4 (363790) 2005 JE46 (378610) 2008 FT6 (389694) 2011 QD48 (411280) 2010 SL13 (441825) 2009 SK1 2002 TY68
+
+16.761 0.034 15.969 0.018 15.503 0.021 15.127 0.021 0.792 0.044 0.466 0.023 0.842 0.024 0.365 0.035 0.914 0.049
+
+19.557
+
+0.089
+
+18.666
+
+0.054
+
+18.228
+
+0.059
+
+17.814
+
+0.069
+
+0.891
+
+0.113
+
+0.438
+
+0.064
+
+0.852
+
+0.082
+
+0.414
+
+0.105
+
+0.977
+
+0.129
+
+a
+
+18.965
+
+0.033
+
+18.080
+
+0.017
+
+17.626
+
+0.019
+
+17.272
+
+0.020
+
+0.885
+
+0.043
+
+0.454
+
+0.020
+
+0.808
+
+0.022
+
+0.354
+
+0.030
+
+0.981
+
+0.046
+
+a
+
+17.218 0.032 16.415 0.018 16.038 0.025
+
+0.803 0.041 0.377 0.030
+
+0.870
+
+0.051
+
+a
+
+18.442
+
+0.090
+
+17.690
+
+0.051
+
+17.284
+
+0.062
+
+16.974
+
+0.061
+
+0.752
+
+0.117
+
+0.406
+
+0.071
+
+0.716
+
+0.069
+
+0.310
+
+0.100
+
+0.846
+
+0.136
+
+a
+
+19.004
+
+0.015
+
+18.092
+
+0.008
+
+17.594
+
+0.009
+
+17.204
+
+0.011
+
+0.912
+
+0.019
+
+0.498
+
+0.010
+
+0.888
+
+0.014
+
+0.390
+
+0.017
+
+1.029
+
+0.021
+
+a
+
+19.610
+
+0.049
+
+18.755
+
+0.034
+
+18.249
+
+0.038
+
+17.937
+
+0.045
+
+0.855
+
+0.061
+
+0.506
+
+0.041
+
+0.818
+
+0.053
+
+0.312
+
+0.067
+
+0.988
+
+0.073
+
+a
+
+18.171
+
+0.014
+
+17.485
+
+0.009
+
+17.046
+
+0.010
+
+16.627
+
+0.012
+
+0.686
+
+0.018
+
+0.439
+
+0.011
+
+0.858
+
+0.015
+
+0.419
+
+0.019
+
+0.813
+
+0.021
+
+a
+
+19.231
+
+0.066
+
+18.558
+
+0.044
+
+18.084
+
+0.048
+
+17.777
+
+0.059
+
+0.673
+
+0.083
+
+0.474
+
+0.051
+
+0.781
+
+0.071
+
+0.308
+
+0.087
+
+0.823
+
+0.097
+
+a
+
+18.445
+
+0.023
+
+17.673
+
+0.016
+
+17.240
+
+0.018
+
+16.835
+
+0.019
+
+0.772
+
+0.029
+
+0.433
+
+0.020
+
+0.838
+
+0.022
+
+0.417
+
+0.031
+
+0.878
+
+0.035
+
+a
+
+2005 RQ6 2010 TN54 2010 XZ67
+
+18.674 0.054 17.943 0.028 17.484 0.032 17.162 0.054 0.731 0.071 0.459 0.036 0.781 0.071 0.317 0.059 0.861 0.078
+
+18.053
+
+0.061
+
+17.239
+
+0.035
+
+16.804
+
+0.052
+
+16.492
+
+0.053
+
+0.814
+
+0.079
+
+0.435
+
+0.064
+
+0.747
+
+0.066
+
+0.313
+
+0.016
+
+0.913
+
+0.102
+
+a
+
+16.346 0.004 15.555 0.002
+
+14.791 0.003 0.791 0.006
+
+0.764 0.004
+
+a
+
+2011 WV134 2012 ER14 2013 SO19 2013 UH9
+
+16.217 0.011 15.431 0.006 14.990 0.007 14.597 0.008 0.786 0.014 0.441 0.008 0.834 0.009 0.394 0.012 0.894 0.016
+
+18.030
+
+0.012
+
+17.424
+
+0.007
+
+17.044
+
+0.008
+
+16.647
+
+0.010
+
+0.606
+
+0.015
+
+0.380
+
+0.009
+
+0.777
+
+0.013
+
+0.397
+
+0.016
+
+0.713
+
+0.017
+
+a
+
+19.968 0.071 19.228 0.050
+
+18.311 0.064 0.740 0.087
+
+0.917 0.075
+
+a
+
+18.520
+
+0.092
+
+17.814
+
+0.052
+
+17.299
+
+0.055
+
+16.865
+
+0.057
+
+0.706
+
+0.119
+
+0.515
+
+0.057
+
+0.949
+
+0.062
+
+0.434
+
+0.084
+
+0.874
+
+0.130
+
+a
+
+a It indicates that this NEA was derived for its Bessel-system color indices from the photometry for the first time.
+
+119
+
+Planetary and Space Science 152 (2018) 116­135
+
+C.-H. Lin et al.
+
+Table 2 A list of the seven merged complexes and their subgroups together with the individual color indices.
+
+Taxonomic complex Subgroups
+
+B-V
+
+V-R
+
+V-I
+
+A
+
+A, Sa
+
+0.926
+
+0.556
+
+0.900
+
+C
+
+C, Cb, Cg, Cgh, Ch, B
+
+0.694
+
+0.365
+
+0.696
+
+D
+
+D, T
+
+0.744
+
+0.444
+
+0.868
+
+Q
+
+Q, Sq, O
+
+0.792
+
+0.444
+
+0.747
+
+S
+
+K, L, Ld, S, Sr, Sv, Sk, Sl
+
+0.818
+
+0.484
+
+0.871
+
+V
+
+V, R
+
+0.861
+
+0.519
+
+0.825
+
+X
+
+X, Xc, Xe, Xk
+
+0.716
+
+0.410
+
+0.785
+
+Planetary and Space Science 152 (2018) 116­135
+
+Fig. 1. The relative reflectance spectra of the seven taxonomic complexes. The four conjunct points of 442, 540, 647, and 786 nm correspond to the median wavelengths of the band widths from our BVRI filters. The reflective irradiance is normalized according to the V-band. The error bars are derived from the dispersions of the mean spectra (DeMeo et al., 2009).
+
+Fig. 3. An illustration of the correlation between the principle-component index (PCI) and the color index, R-I. The black bold letters specify the mean colors of the seven taxonomic complexes, A, C, D, Q, S, V and X. Each has its own domain boundary which is plotted in different colors. (a) Top: The global pattern of the seven domains and the distributions of the three large complexes: C-, S- and X-complexes in the PCI vs. R-I plot. (b) Bottom: Distribution of the 87 NEAs in the same plot.
+
+Fig. 2. The color-color diagrams for the spectral indices of the two taxonomic clusters, S- (yellow) and CDX-clusters (blue) (will also be described in Section 5) from the literature and the Lulin observations (black dots). The centers of the mean colors of different spectral complexes are identified with the corresponding red bold letters.
+It can be noticed that some of the taxonomic domains overlap with others and that a few of the data points from the Lulin photometric survey fall outside the outer limit of the taxonomic boundaries. The flow chart in
+
+Fig. 4 illustrates the steps taken to prioritize their identification. Basically, we classified our NEAs according to the boundaries of taxonomic complexes in Fig. 3. Inevitably some photometric classifications would fall into two or more taxonomical regions. If it is really close to the mean indices of one taxonomic complex with the distance of (PCI, R-I) smaller than 0.01, we would classify it to be that one. Otherwise, we have perform priority check as displayed in Fig. 4. The reason is that the Qcomplex has a prominent absorption feature, and if one S-complex NEA has some such feature like that, we would consider it as having some Qtype surfaces on it. The majority of the NEA taxonomic classes are inside silicate complexes with a larger amount of V-type than A-type. As for the group of C, D, X-complexes, the X-complex has a higher fraction of overlapping with the regions of C and D complexes and also a larger distinguished population within the CDX-cluster. Therefore, classification of the X-complex has priority.
+Five NEAs of the program have only two color indices because of the observational condition. They are classified by visual inspection and comparison of the segmental slopes with the SED templates of the seven
+
+120
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+Fig. 4. The flow chart for the classification scheme of NEA taxonomy according to the relative positions of NEAs in Fig. 3.
+
+taxonomic types. The results are listed in Table 3 and Table 4. Note that the sizes of NEAs without albedo measurements have been estimated by using the mean albedos of individual spectral types given in Thomas et al. (2011). Finally, Fig. 5 shows the composite SEDs of the 87 NEAs with full sets of BVRI measurements according to their assigned complexes. The spectra and the descriptions of individual entries can be found in the Appendices.
+4. Spectral trends
+According to the spectral classifications as described above, it can be seen that there are A ¼ 3%, C ¼ 6.5%, D ¼ 8%, Q ¼ 26%, S ¼ 37%, V ¼ 6.5%, and X ¼ 13% in our Lulin sample (see Fig. 6). In general, such distribution is compatible to the results of Thomas et al. (2011) covering 118 NEAs, with C ¼ 4%, D ¼ 2%, Q ¼ 34%, S ¼ 39%, V ¼ 6%, and X ¼ 15%, but lacking the A-type. The A-complex has similar reddish trend as the S-complex. If we combine A and S together in the Lulin survey, the resultant S-complex will be 40% which is close to the value of Thomas et al. (2011).
+It is interesting to see in Fig. 5 that while the spectral classification has been divided into 7 complexes, they could also be grouped into two main clusters, namely, the S-cluster consisting of the S, Q, V and A complexes, and the C-cluster consisting of the C, D and X complexes. The ratio of simply lumped clusters of S and C classes would be more comparable with other results as well as reducing some disadvantage of lower spectral resolution from the photometry. In general, our photometric measurements allow spectral typing according to the Bus-DeMeo system. In our Lulin sample, the S-cluster accounts for nearly 73% of the total number of NEAs and the C-cluster 27%. The corresponding S-cluster to Ccluster (or S/C) ratio is therefore about 2.7. Note that the bias-corrected estimate by Stuart and Binzel (2004) gives a S/C (i.e., bright to dark) ratio of 1.6. Carry et al. (2016) shows the S/C ratio of objects with diameter between 3 and 5 km to be about 2.0 according to SDSS
+
+photometric measurements. A larger S/C ratio of 3.3 was reported by Gietzen (2009) based on infrared and other observations.
+Furthermore, the overall ratio of C- to C- plus S-cluster of the Lulin samples is 25 over 25 þ 67 or 0.27 Æ 0.05. The error of the fraction is derived by variance of the beta distribution and will be applied thereafter. The ratio of C-like/S-like is 25/67 or 0.37. This value is larger than the results of previous photometric NEA surveys from Dandy et al. (2003) for 0.21 and Ye (2011) for 0.14, However, it is close to the spectroscopic measurements of 36 NEAs from Lazzarin et al. (2005) for 0.27.
+Rabinowitz (1998) suggested that NEAs with H > 17.0 and H < 17.0, respectively, do not share the same color distributions. Fig. 7 shows the taxonomic distribution divided into two groups of sizes in our Lulin observations. The smaller NEAs with H > 17.0 appear to have significantly more C- and D-complex objects. As for the S- and Q-complex objects, the differences are not as obvious. In the Lulin samples, the C-cluster/(C-cluster þ S-cluster) ratio of large NEAs with H 17.0 is 0.22 Æ 0.06, and the smaller ones (with 17.0 < H 22.0) is 0.31 Æ 0.06. This means that the fraction of C-cluster is larger within the smaller NEAs, which have diameters smaller than 1 km using an average albedo of 0.28 (Thomas et al., 2011). Our results show a similar trend as the photometric measurements by Ye (2011) in which the C-like/S-like ratio for H between 18 and 22 is about twice as high as that for H < 18, namely, 0.33 vs. 0.17, respectively.
+Previous studies by Dandy et al. (2003) and Ye (2011) both supported the hypothesis that smaller NEAs generally have less space weathered surfaces simply because of the lack of regolith. Specifically, the ratio of Q-complex/SQ-group (Q/SQ, hereafter) may be larger for the smaller NEAs. We integrated our Lulin classifications with the previous results for S- and Q-complexes (Binzel et al., 2002: Data Base of Physical and Dynamical Properties of NEAs on E.A.R.N.) and divided the population close to 600 NEAs into two groups according to H, relevant to their sizes. The ratio of Q/SQ for H > 17.0 is 0.45 Æ 0.03, as to that for H 17.0 is
+
+121
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+Table 3 Physical properties of the NEAs in the Lulin sample which have been taxonomically identified before.
+
+NEA
+
+a(AU) e
+
+i()
+
+q(AU) H
+
+albedo D(km)
+
+TJ a
+
+Pre. tax. by spectroscopy
+
+Pre. tax. by photometry
+
+(1036) Ganymed
+
+2.663 0.534 26.692 1.241 9.45 0.228 36.49
+
+3.03 S
+
+S
+
+(1627) Ivar
+
+1.863 0.396 8.451 1.124 13.2 0.134 8.37
+
+3.88 S
+
+S
+
+(1685) Toro
+
+1.367 0.436 9.381 0.771 14.23 0.26
+
+3.75
+
+4.72 S
+
+S
+
+(1943) Anteros
+
+1.430 0.256 8.706 1.064 15.75 0.17
+
+2.48
+
+4.64 S; L;Sw
+
+(2100) Ra-Shalom
+
+0.832 0.437 15.758 0.469 16.05 0.14
+
+2.24
+
+6.95 K; Sr; C
+
+(3554) Amun
+
+0.974 0.280 23.362 0.701 15.82 0.142 3.34
+
+6.11 X; M;D
+
+(4055) Magellan
+
+1.820 0.327 23.257 1.226 14.6 0.33
+
+2.781
+
+3.89 V
+
+(4179) Toutatis
+
+2.534 0.629 0.447 0.939 15.3 0.13
+
+4.3
+
+3.14 S; Sk
+
+(4450) Pan
+
+1.442 0.586 5.520 0.596 17.1
+
+0.9­1.1b
+
+4.46 S/Sr
+
+S
+
+(4954) Eric
+
+2.002 0.449 17.446 1.104 12.6 mh
+
+9.5
+
+3.66 S
+
+S
+
+(6047) 1991 TB1
+
+1.454 0.352 23.473 0.942 17.8 0.8
+
+1.2
+
+4.49 S
+
+(7350) 1993 VA
+
+1.356 0.391 7.262 0.826 17
+
+0.05
+
+2.363
+
+4.77 C; X
+
+(7753) 1988 XB
+
+1.468 0.482 3.123 0.760 18.6 d
+
+1
+
+4.47 B
+
+(8013)
+
+2.199 0.432 7.571 1.249 16.9 m
+
+1.2
+
+3.53 Sr
+
+Gordonmoore
+
+(10115) 1992 SK
+
+1.248 0.325 15.322 0.843 17
+
+0.28
+
+1
+
+5.06 S:; Sq
+
+(11284) Belenus
+
+1.740 0.337 1.993 1.153 18.1
+
+0.58­0.67b 4.08
+
+S
+
+(11405) 1999 CV3
+
+1.460 0.394 22.863 0.885 15.2 m
+
+3.4
+
+4.46 Sq
+
+(12923) Zephyr
+
+1.962 0.492 5.304 0.997 15.8 0.176 2.06
+
+3.72 S
+
+(21088) Chelyabinsk 1.707 0.239 38.461 1.299 14.2 0.179 4.23
+
+3.92 Sl; Q
+
+S
+
+(22753) 1998 WT
+
+1.219 0.570 3.207 0.524 17.7 0.27
+
+0.9
+
+5.06 Q; Sq
+
+(24761) Ahau
+
+1.335 0.306 21.921 0.927 17.3
+
+2.3­4.6b
+
+4.79 CX
+
+S
+
+(25916) 2001 CP44 2.560 0.498 15.749 1.284 13.6 0.262 5.683
+
+3.20 Q,Sq
+
+(40267) 1999 GJ4
+
+1.339 0.808 34.529 0.257 15.4 0.249 1.62
+
+4.38 Sq
+
+(52762) 1998 MT24 2.418 0.651 33.894 0.843 14.8 0.052 6.71
+
+3.01
+
+X
+
+(53435) 1999 VM40 2.309 0.485 15.388 1.188 14.7 mh
+
+3.8
+
+3.38 S; Srw
+
+(55532) 2001 WG2 1.795 0.696 38.500 0.546 16.1 0.14
+
+1.96
+
+3.56 Sk
+
+(68216) 2001 CV26 1.319 0.326 17.997 0.889 16.4 0.29
+
+1.4
+
+4.85 Sq
+
+R
+
+(85990) 1999 JV6
+
+1.007 0.311 5.326 0.694 20.1 0.095 0.451
+
+6.00 Xk
+
+(89355) 2001 VS78 1.787 0.308 22.666 1.236 15.6 0.18
+
+2.3
+
+3.94 S; Sr
+
+(99942) Apophis
+
+0.922 0.191 3.331 0.746 19.2 0.3
+
+0.375
+
+6.47 Sq,Scom
+
+(137062) 1998 WM (137199) 1999 KX4
+
+1.225 0.315 22.516 0.838 16.6 1.457 0.293 16.570 1.031 16.9
+
+0.284
+
+1.265 1.0­1.2b
+
+5.10 Q; Sq 4.54 Sq
+
+(137805) 1999 YK5 0.829 0.558 16.742 0.366 16.6 0.027 3.879
+
+6.91 X
+
+RQ
+
+(141052) 2001 XR1 (141484) 2002 DB4
+
+1.246 0.550 17.659 0.560 17.3 0.858 0.370 16.603 0.541 16.4
+
+0.22
+
+1 1.2­1.5b
+
+4.96 Sq 6.79 S; S-
+
+(152756) 1999 JV3 1.451 0.415 15.223 0.848 18.9 mh (154347) 2002 XK4 1.850 0.692 17.806 0.570 16
+
+0.5 1.5­1.75b
+
+4.51 Sa; S 3.63 S-
+
+(162566) 2000 RJ34 2.635 0.574 13.861 1.121 15.7 0.07
+
+4.41
+
+3.11
+
+X
+
+(163249) 2002 GT
+
+1.344 0.335 6.967 0.894 18.4
+
+0.37­0.5b 4.82 Sq
+
+(163364) 2002
+
+1.366 0.369 4.188 0.862 18.8
+
+0.4­0.5b
+
+4.76 Sq
+
+OD20
+
+(214869) 2007 PA8 2.824 0.662 1.984 0.955 16.3 0.29
+
+1.9
+
+2.95 Q; S
+
+Xc
+
+(215188) 2000 NM 2.690 0.663 22.357 0.907 15.4 m
+
+2.6
+
+2.93 Sr
+
+R
+
+(219071) 1997 US9 1.053 0.282 20.017 0.756 17.1 0.35
+
+1.2
+
+5.75 Q; S
+
+(230111) 2001 BE10 0.823 0.369 17.510 0.519 19.1 0.253 0.4
+
+7.03 Scomp
+
+R
+
+(277127) 2005
+
+1.641 0.233 2.882 1.258 18.7
+
+0.43­0.52b 4.26 Sq
+
+GW119
+
+(285263) 1998 QE2 2.423 0.572 12.857 1.038 17.3 0.06
+
+2.75
+
+3.24 Ch
+
+Ch
+
+(297274) 1996 SK
+
+2.434 0.795 1.964 0.500 16.7
+
+1.09­1.3b 2.97
+
+S
+
+(330825) 2008 XE3 2.607 0.550 7.476 1.172 16.3
+
+1.33­1.52b 3.17
+
+S
+
+(333358) 2001 WN1 1.502 0.303 14.070 1.047 19.5
+
+0.19­1.18b 4.46
+
+C
+
+(349068) 2006 YT13 1.323 0.426 38.243 0.760 18.3
+
+0.53­0.61b 4.65
+
+AR
+
+(363790) 2005 JE46 1.903 0.553 8.264 0.851 17.7
+
+0.69­0.82b 3.73 C/X/T
+
+2005 RQ6
+
+2.504 0.551 12.484 1.124 18.9
+
+0.40­0.47b 3.21 S/Sr
+
+2011 WV134
+
+2.784 0.679 6.047 0.893 17.2
+
+0.88­1.01b 2.94
+
+S
+
+a The Jovian Tisserand parameters. b Note that the sizes are estimated by using the mean albedos of different spectral types of the NEAs according to Thomas et al. (2011).
+
+Taxonomy in this work
+S Q S S Q X V S Q A Q X C S
+S S A S D/S Q D S S X S V S D S S Q Q X Q Q V S C V Q
+Q S/A S Q Q
+C Q S X S Q Q S
+
+0.34 Æ 0.03, greater than the former one. It indicates that the proportion of Q-complex, namely, those with relatively younger surface occupies more within the smaller NEAs. It is consistent with the surveys as mentioned above.
+5. Discussion and summary
+Photometric observations of NEAs carried out at the Lulin observatory between 2012 and 2014 have produced BVRI color indices of 92 NEAs. These NEA samples cover the largest NEA, 1036 Ganymed, with a diameter of 35 km to sub-kilometer sized objects with diameter as small
+
+as 200 m. The main results are as follows.
+(1) The spectral types of the 92 NEAs can be classified into seven merged spectral groups: A, C, D, Q, S, V and X complexes.
+(2) Sixty four of the NEAs observed in the present survey are provided with newly identified colors representing 40% increase of the present database of the Bessel-system color indices, as to thirty nine of them present 5% increase to the number of NEAs with classified taxonomic types.
+(3) The fractional abundances of seven spectral complexes in this work can be summarized as: A ¼ 3%, C ¼ 6.5%, D ¼ 8%, Q ¼ 26%,
+
+122
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+Table 4 Physical properties of the NEAs in the Lulin sample which have new taxonomic identifications.
+
+NEA
+
+a(AU)
+
+e
+
+i
+
+q(AU)
+
+H
+
+albedo
+
+D(km)
+
+(3360) Syrinx
+
+2.468
+
+0.746
+
+21.153
+
+0.628
+
+15.9
+
+0.07
+
+(4487) Pocahontas
+
+1.730
+
+0.296
+
+16.403
+
+1.217
+
+17.4
+
+(5731) Zeus
+
+2.263
+
+0.654
+
+11.428
+
+0.784
+
+15.7
+
+0.031
+
+(17188) 1999 WC2
+
+2.216
+
+0.637
+
+29.444
+
+0.805
+
+16.5
+
+0.147
+
+(68031) 2000 YK29
+
+1.376
+
+0.129
+
+15.173
+
+1.199
+
+18.1
+
+(88263) 2001 KQ1
+
+2.097
+
+0.432
+
+38.819
+
+1.191
+
+15.4
+
+0.048
+
+(90075) 2002 VU94
+
+2.133
+
+0.576
+
+8.916
+
+0.905
+
+15.2
+
+0.197
+
+(136900) 1998 HL49
+
+1.747
+
+0.636
+
+11.000
+
+0.635
+
+17.3
+
+(152889) 2000 CF59
+
+1.679
+
+0.640
+
+41.590
+
+0.604
+
+16.5
+
+0.388
+
+(162004) 1991 VE
+
+0.891
+
+0.665
+
+7.221
+
+0.299
+
+18.2
+
+(168378) 1997 ET30
+
+2.138
+
+0.449
+
+6.812
+
+1.179
+
+16.8
+
+(249595) 1997 GH28
+
+2.004
+
+0.371
+
+7.014
+
+1.260
+
+17.7
+
+(249886) 2001 RY11
+
+1.483
+
+0.283
+
+22.846
+
+1.063
+
+17.4
+
+(262623) 2006 WY2
+
+0.983
+
+0.333
+
+27.554
+
+0.656
+
+18.6
+
+0.122
+
+(276397) 2002 XA40
+
+2.263
+
+0.482
+
+4.453
+
+1.172
+
+17.1
+
+(276786) 2004 KD1
+
+1.720
+
+0.330
+
+10.124
+
+1.152
+
+17.7
+
+(294739) 2008 CM
+
+1.567
+
+0.408
+
+35.998
+
+0.927
+
+17.3
+
+(326732) 2003 HB6
+
+2.718
+
+0.572
+
+6.594
+
+1.164
+
+17.6
+
+(329338) 2001 JW2
+
+1.698
+
+0.489
+
+9.586
+
+0.868
+
+19.1
+
+(334412) 2002 EZ2
+
+1.249
+
+0.046
+
+13.025
+
+1.192
+
+20.1
+
+0.4
+
+(339492) 2005 GQ21
+
+1.426
+
+0.215
+
+47.024
+
+1.119
+
+18.2
+
+(339714) 2005 ST1
+
+1.451
+
+0.371
+
+20.234
+
+0.913
+
+20.4
+
+(340666) 2006 RO36
+
+0.906
+
+0.231
+
+23.857
+
+0.697
+
+17.8
+
+(341816) 2007 YK
+
+1.870
+
+0.321
+
+31.838
+
+1.269
+
+17.5
+
+(343098) 2009 DV42
+
+1.615
+
+0.275
+
+19.926
+
+1.170
+
+18.7
+
+(345722) 2007 BG29
+
+0.833
+
+0.335
+
+18.511
+
+0.554
+
+18
+
+0.258
+
+(355256) 2007 KN4
+
+3.342
+
+0.630
+
+12.538
+
+1.235
+
+16.8
+
+(356394) 2010 QD2
+
+2.010
+
+0.785
+
+10.639
+
+0.431
+
+17.4
+
+(361071) 2006 AO4
+
+2.629
+
+0.584
+
+24.392
+
+1.095
+
+15.4
+
+(378610) 2008 FT6
+
+2.138
+
+0.426
+
+13.585
+
+1.228
+
+17.4
+
+(389694) 2011 QD48
+
+1.545
+
+0.492
+
+19.067
+
+0.785
+
+18.2
+
+(411280) 2010 SL13
+
+2.005
+
+0.415
+
+3.041
+
+1.173
+
+19.3
+
+(441825) 2009 SK1
+
+1.611
+
+0.223
+
+30.818
+
+1.252
+
+18.3
+
+2002 TY68
+
+2.217
+
+0.514
+
+20.800
+
+1.077
+
+18.7
+
+2010 TN54
+
+2.110
+
+0.445
+
+4.721
+
+1.172
+
+19.2
+
+2010 XZ67
+
+2.061
+
+0.494
+
+11.841
+
+1.042
+
+19.7
+
+2012 ER14
+
+1.637
+
+0.363
+
+6.863
+
+1.042
+
+20.5
+
+2013 SO19
+
+2.228
+
+0.498
+
+12.936
+
+1.118
+
+21.8
+
+2013 UH9
+
+2.580
+
+0.597
+
+13.075
+
+1.039
+
+18.6
+
+1.8 0.8­0.92b
+5.231
+1.819 0.58­0.67b
+5.31
+2.857 0.84­0.96b
+1.022 0.35­2.15b 1.04­1.24b 1.92­3.83b 1.01­1.56b
+0.761 0.91­1.08b 0.88­1.36b 0.84­0.96b 0.46­2.84b 0.36­0.42b
+0.21 0.56­0.64b 0.20­0.23b 0.42­2.59b 0.76­0.90b 0.44­0.50b
+0.653 1.06­1.21b 0.80­0.92b 1.98­2.36b 0.80­0.92b 0.41­0.55b 0.21­1.30b 0.52­0.62b 1.21­2.42b 0.35­0.41b 0.27­0.33b 0.24­0.37b 0.07­0.41b 1.27­2.53b
+
+a The Jovian Tisserand parameters. b Note that the sizes are estimated by using the mean albedos of different spectral types of the NEAs according to Thomas et al. (2011).
+
+TJ a
+2.96 4.06 3.28 3.22 4.77 3.37 3.47 3.86 3.75 6.46 3.57 3.74 4.45 6.02 3.45 4.09 4.13 3.09 4.05 5.12 4.35 4.51 6.49 3.75 4.23 6.97 2.77 3.35 3.03 3.56 4.26 3.72 4.16 3.39 3.60 3.60 4.22 3.44 3.12
+
+Taxonomy in this work
+D S X S S X S S Q X Q D C S Q C S X S V S S X Q S A S/D S Q S V X Q D Q Q/V C X/D D
+
+S ¼ 37%, V ¼ 6.5%, and X ¼ 13%. This distribution is in agreement with the results of Thomas et al. (2011). (4) The ratios of C- cluster to itself plus S- cluster are 0.22 Æ 0.06 for H 17.0 and 0.31 Æ 0.06 for H > 17.0, respectively, indicating a slightly higher fraction of dark-object population in sub-kilometer size range. (5) There is also an interesting S-complex target, (355256) 2007 KN4 with Tisserand parameter (TJ) ¼ 2.77 that needs to be investigated further to see if it is a candidate object of cometary origin. (6) The sizes of the observed NEAs are estimated using either published albedo values or the mean albedos specific to individual taxonomic types.
+There are still some anomalous SED curves among our NEAs. For example, the NEA 12923, 24761, 85990, 136900, 441825 etc. have unusual slopes in their reflectance spectra (see Appendix B). It is possibly due to the effect of rotation since the surface spectra of NEAs might have large variations (Lin et al., 2014) and many of them have fast spin rates. As mentioned in Section 2, there were only 31 targets applied with the exposure sequence of RBRVRIR. And we additionally conducted interpolation method to avoid the color deviation from the rotation for this small group within our targets. We also compared the colors both with and without interpolation and found that there are differences of color indices merely less than 2% for these 31 NEAs. However, it is possible
+
+that these targets were observed in short exposure time (total time of single sequence < 10 min). If the NEAs were observed over long durations of exposure time (total time of single sequence > 10 min) and only had simple filter sequence of BVRI, it might cause larger deviations of the color measurements. Thus, it would lead to the deformed spectra and subsequently misguide our classifications.
+While most of the results of Thomas et al. (2011) and our present work are in very good agreement, the D- and Q-complexes somehow show noticeable differences (Fig. 6). The D-complex difference could be a matter of small number statistics in the Lulin sample. The Q-complex difference is significant and needs to be checked by collecting a large photometric data set in future.
+Compared with the previous classifications of the individual NEAs (Appendix C), we assume that there are 3 mis-distinguished targets of each taxonomic complex in average. Hence we can generally added an uncertainty to each fractional abundance of our spectral complexes: A ¼ 3 Æ 3%, C ¼ 6.5 Æ 3%, D ¼ 8 Æ 3%, Q ¼ 26 Æ 3%, S ¼ 37 Æ 3%, V ¼ 6.5 Æ 3%, and X ¼ 13 Æ 3%.
+In order to find the difference of bias between our and others' taxonomic distribution during the same observing years, we collected many results of taxonomic detection from late 2011 to the end of 2014 as possible. The results were derived from both spectrometric and photometric observations (Polishook et al., 2014; Lim et al., 2012; Godunova et al., 2013; Ieva et al., 2014; Popescu et al., 2014; Kuroda et al., 2014;
+
+123
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+Fig. 5. The composite diagrams of the classified NEA spectra in the 7 taxonomic complexes with the templates of the relative reflectance spectra used in this work.
+
+124
+
+C.-H. Lin et al.
+Fig. 6. The fractional abundances of the taxonomic complexes classified within the Lulin samples of 92 NEAs as well as the comparable results of Thomas et al. (2014). The three largest groups in order are S (37%), Q (26%) and X (13%).
+Fig. 7. The numbers of NEAs in different spectral complexes according to their sizes in terms of magnitudes H 17.0 and H > 17.0, respectively. Tubiana et al., 2015; Perna et al., 2016; Hicks' Atel. in 2011­2014 (Hicks
+
+Planetary and Space Science 152 (2018) 116­135
+and Dombroski, 2012; Hicks et al., 2011, 2012a,2012b, 2012c, 2012d, 2012e, 2012f, 2012g, 2012h, 2013a, 2013b, 2013c, 2013d,2013e, 2014a, 2014b; Hicks and Ebelhar, 2013a, 2013b, 2014a, 2014b); Rayner et al., 2003: The MIT-UH-IRTF Joint Campaign for NEO Spectral Reconnaissance). There are total 80 NEAs of targets and some of them are overlapping with ours. Their spectral classifications are also issued into the seven complexes we described above. Thus, the fractional abundances of these external results are of S ¼ 35%, Q ¼ 35%, A ¼ 1%, V ¼ 5%, C ¼ 15%, D ¼ 1%, X ¼ 8%. The ratio of lumped S-/C-cluster is about 3.2, kind of higher than ours (2.7). The distribution of Q, C, D and X complexes are also distinct from our fractions. Certainly there are biases existing in both our and these results since the estimated S/C ratio of debias distribution of NEAs from Stuart and Binzel (2004) is lower (1.6). Note that our spectral distribution is not debiased and the bias might be coming from the target selection, detecting limit of the various instruments and undetected dark population etc. In addition, we integrated our results with the above ones, and then the total fractional abundances would become S ¼ 36%, Q ¼ 30%, A ¼ 2%, V ¼ 6%, C ¼ 10.5%, D ¼ 5%, X ¼ 10.5%. These fractions might be a little more reliable because of larger sample numbers.
+Our present study together with the previous work by Ye (2011) showed that photometric measurements at Lulin Observatory can provide very useful taxonomic classifications of NEAs. Even though the color ratios for the relative reflectance spectra are not able to classify the spectral types of the asteroids more specifically and some mis-classification may occur, the simpler taxonomic complexes described in this paper are still generally distinguishable. In future work, we will organize more efficient scheme for observations and data analysis. A topic we will investigate is the correlation of the orbital parameters with the shapes and rotation periods of NEAs in different spectral types. Some interesting insight on their origin and dynamical evolution might be revealed by such statistical study.
+Acknowledgments
+This work was mainly supported by the Project 017/2014/A1 of Macau Science and Technology Development Fund: MSAR No. 0426 as well as the Lulin Observatory which is operated by Institute of Astronomy, National Central University, Taiwan, under MOST grant: MOST 104-2119-M-008-024. We specially acknowledge that the Lulin staff, Hung-Chin Lin, Chi-Sheng Lin and Hsiang-Yao Hsiao have provided assistance in observations; also the partial support from the open project (No. OP201306) of Key Laboratory for the Structure and Evolution of Celestial Objects, Chinese Academy of Sciences.
+
+Appendix A. Supplementary data
+Supplementary data related to this article can be found at https://doi.org/10.1016/j.pss.2017.12.019.
+Appendices.
+A. The observation log B. The figure panels of relative reflectance spectra of 87 NEAs C. The elaborations of observation results for individual NEAs in this paper
+
+125
+
+C.-H. Lin et al.
+A. Observation log
+
+Planetary and Space Science 152 (2018) 116­135
+
+Here displays the observation log of this work. Some targets were observed more than one night. If there are two exposure times (Exp. Time) in a row, the first quantity is for B-filter and the second is for V, R, I.
+
+Designation
+
+ (A.U.)i
+
+r (A.U.)ii
+
+El. ()iii
+
+Ph. ()iv
+
+Observed Date
+
+Vobs
+
+Exp. Time
+
+BVRI setsv
+
+Telescope
+
+(1036) Ganymed (1627) Ivar
+(1685) Toro
+(1943) Anteros (2100) Ra-Shalom (3360) Syrinx (3554) Amun (4055) Magellan (4179) Toutatis (4450) Pan (4487) Pocahontas
+(4954) Eric (5731) Zeus
+(6047) 1991 TB1 (7350) 1993 VA (7753) 1988 XB (8013) Gordonmoore
+(10115) 1992 SK (11284) Belenus (11405) 1999 CV3 (12923) Zephyr
+(17188) 1999 WC2 (21088) Chelyabinsk (22753) 1998 WT (24761) Ahau (25916) 2001 CP44 (40267) 1999 GJ4 (52762) 1998 MT24 (53435) 1999 VM40
+(55532) 2001 WG2 (68031) 2000 YK29 (68216) 2001 CV26
+(85990) 1999 JV6 (88263) 2001 KQ1 (89355) 2001 VS78 (90075) 2002 VU94
+(99942) Apophis
+(136900) 1998 HL49 (137062) 1998 WM (137199) 1999 KX4
+(137805) 1999 YK5 (141052) 2001 XR1
+(141484) 2002 DB4 (152756) 1999 JV3 (152889) 2000 CF59 (154347) 2002 XK4
+(162004) 1991 VE (162566) 2000 RJ34 (163249) 2002 GT (163364) 2002 OD20 (168378) 1997 ET30
+
+3.817 0.378 0.322 0.991 0.982 0.515 0.348 0.540 0.743 1.388 0.298 0.364 0.354 0.358 0.360 0.469 1.546 0.706 0.416 0.476 0.322 0.272 1.091 1.125 0.419 0.248 0.661 1.266 1.192 0.324 1.145 0.547 0.401 2.207 0.981 1.251 0.660 0.638 0.710 0.363 0.353 0.351 0.150 0.838 0.893 1.193 1.162 0.100 0.113 0.115 0.688 0.446 0.224 0.285 0.333 0.646 0.680 0.372 0.146 0.487 0.523 0.644 0.223 0.435 0.179 0.062 0.655
+
+4.062 1.181 1.123 1.496 1.508 1.434 1.129 1.510 1.235 2.280 1.271 1.304 1.221 1.219 1.219 1.233 1.926 1.346 1.009 1.405 1.054 1.284 2.006 2.022 1.154 1.163 1.556 1.684 1.797 1.299 1.309 1.529 1.046 2.023 1.537 2.172 1.219 1.528 1.499 1.221 1.066 1.076 1.057 1.425 1.284 1.619 1.603 1.062 1.079 1.081 1.109 1.197 1.145 1.226 1.134 1.509 1.559 0.934 1.109 1.317 1.460 1.573 1.191 1.153 1.158 1.068 1.646
+
+97.3
+
+13.9
+
+107.1
+
+55.1
+
+101.0
+
+62.7
+
+98.4
+
+40.6
+
+100.1
+
+40.0
+
+144.5
+
+23.4
+
+101.7
+
+60.8
+
+161.1
+
+12.3
+
+90.1
+
+52.9
+
+147.5
+
+13.4
+
+162.0
+
+13.9
+
+139.3
+
+30.2
+
+121.5
+
+44.2
+
+120.6
+
+44.8
+
+120.2
+
+45.0
+
+110.2
+
+48.8
+
+96.6
+
+30.5
+
+102.9
+
+46.3
+
+80.6
+
+75.4
+
+142.1
+
+25.9
+
+90.9
+
+71.4
+
+173.3
+
+5.2
+
+147.1
+
+15.7
+
+144.2
+
+16.8
+
+103.0
+
+56.3
+
+131.3
+
+39.5
+
+141.2
+
+23.4
+
+95.2
+
+36.3
+
+110.1
+
+31.4
+
+146.6
+
+25.6
+
+74.3
+
+48.3
+
+172.4
+
+4.9
+
+87.3
+
+70.2
+
+66.3
+
+26.4
+
+103.0
+
+38.6
+
+147.7
+
+14.4
+
+91.7
+
+55.5
+
+139.8
+
+24.6
+
+123.7
+
+33.1
+
+123.2
+
+42.4
+
+93.5
+
+67.2
+
+95.3
+
+65.7
+
+115.8
+
+56.9
+
+101.4
+
+43.4
+
+86.2
+
+49.8
+
+95.7
+
+37.2
+
+96.4
+
+37.6
+
+139.9
+
+36.7
+
+144.8
+
+31.7
+
+144.6
+
+31.9
+
+80.1
+
+62.2
+
+107.6
+
+51.5
+
+131.6
+
+40.0
+
+133.1
+
+37.2
+
+108.3
+
+55.5
+
+131.5
+
+29.8
+
+135.7
+
+26.6
+
+71.4
+
+86.4
+
+127.5
+
+46.6
+
+123.2
+
+38.8
+
+149.7
+
+19.9
+
+149.3
+
+18.7
+
+152.0
+
+22.9
+
+101.6
+
+56.7
+
+140.7
+
+33.7
+
+150.0
+
+28.3
+
+168.9
+
+6.7
+
+2014 Jan. 9 2013 May 31 2013 Jul. 7 2013 Jan. 27 2013 Jan. 29 2014 Jan. 9 2013 Sep. 14 2012 Nov. 13 2013 Jan. 29 2014 Jan. 9 2013 Jan. 18 2013 Sep. 14 2012 Oct. 9 2012 Oct. 12 2012 Oct. 13 2012 Nov. 13 2014 Jan. 11 2012 Oct. 9 2012 Nov. 13 2012 Oct. 9 2012 Oct. 9 2013 May 31 2013 Oct. 5 2013 Oct. 8 2013 Jan. 29 2013 Jan. 28 2013 Jan. 29 2013 Oct. 3 2013 Oct. 20 2013 Jul. 7 2013 May 31 2013 Jan. 30 2013 Jan. 30 2014 Jan. 12 2014 Jan. 11 2013 Sep. 1 2013 Sep. 14 2014 Jan. 9 2014 Jan. 11 2014 Jan. 9 2013 Jan. 27 2013 Jan. 29 2014 Jan. 9 2012 Oct. 9 2014 Jan. 12 2014 Jan. 9 2014 Jan. 11 2013 Jan. 18 2013 Jan. 29 2013 Jan. 30 2013 Oct. 20 2014 Jan. 12 2013 Jan. 18 2013 May 31 2013 Jan. 18 2013 Oct. 2 2013 Oct. 10 2014 Jan. 11 2013 May 31 2013 Jan. 30 2013 Jan. 18 2013 Jan. 29 2012 Nov. 13 2014 Jan. 11 2013 May 31 2013 May 31 2013 Oct. 9
+
+16.1 13.0 12.4 16.3 16.4 16.2 16.4 16.4 17.6 18.0 14.4 17.2 17.5 17.6 17.6 18.3 16.7 17.7 17.4 18.0 17.3 16.1 19.6 19.9 17.7 17.0 16.6 18.9 18.8 15.6 17.2 17.8 18.5 18.1 18.6 17.6 16.5 15.8 17.8 18.0 16.9 16.9 19.0 17.7 18.4 18.1 18.6 15.8 15.7 15.4 19.0 17.2 15.9 15.9 16.5 18.6 18.6 17.1 16.6 17.0 16.4 17.1 16.5 16.6 16.5 14.2 17.8
+
+180s, 150s 30s 60s 90s 60s 180s, 150s 90s, 60s 30s 180s 270s, 240s 60s 90s, 60s 60s 60s 60s 60s 180s, 150s 45s 30s 60s 45s 240s 300s, 240s 360s, 300s 180s 60s 60s 300s, 240s 300s, 240s 180s 300s 180s 180s 270s, 240s 270s, 240s 300s 90s, 60s 180s, 150s 180s, 150s 270s, 240s 60s 60s 270s, 240s 60s 270s, 240s 270s, 240s 270s, 240s 180s 60s 60s 300s, 240s 180s, 150s 120s 240s 240s 210s, 180s 300s, 240s 180s, 150s 300s 180s 240s 120s 30s 180s, 150s 240s 30s 240s, 180s
+
+1
+
+LOT
+
+2
+
+SLT
+
+3
+
+SLT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+3
+
+SLT
+
+1
+
+LOT
+
+2
+
+LOT
+
+6
+
+LOT
+
+6
+
+LOT
+
+2
+
+LOT
+
+1
+
+LOT
+
+3
+
+LOT
+
+3
+
+LOT
+
+2
+
+LOT
+
+2
+
+LOT
+
+3
+
+SLT
+
+1
+
+LOT
+
+2
+
+LOT
+
+3
+
+LOT
+
+1
+
+LOT
+
+2
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+3
+
+SLT
+
+1
+
+SLT
+
+3
+
+LOT
+
+2
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+2
+
+SLT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+3
+
+SLT
+
+3
+
+LOT
+
+2
+
+LOT
+
+1
+
+LOT
+
+1
+
+LOT
+
+3
+
+SLT
+
+1
+
+SLT
+
+4
+
+SLT
+
+1
+
+LOT
+
+1
+
+LOT
+
+2
+
+LOT
+
+1
+
+SLT
+
+2
+
+LOT
+
+3
+
+SLT
+
+1
+
+LOT
+
+2
+
+LOT
+
+1
+
+LOT
+
+3
+
+SLT
+
+5
+
+SLT
+
+1
+
+LOT
+
+(continued on next page)
+
+126
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+(continued ) Designation
+
+ (A.U.)i
+
+r (A.U.)ii
+
+El. ()iii
+
+Ph. ()iv
+
+Observed Date
+
+Vobs
+
+Exp. Time
+
+(214869) 2007 PA8
+(215188) 2000 NM (219071) 1997 US9 (230111) 2001 BE10 (249595) 1997 GH28
+(249886) 2001 RY11 (262623) 2006 WY2 (276397) 2002 XA40
+(276786) 2004 KD1
+(277127) 2005 GW119 (285263) 1998 QE2
+(294739) 2008 CM (297274) 1996 SK
+(326732) 2003 HB6 (329338) 2001 JW2 (330825) 2008 XE3
+(333358) 2001 WN1 (334412) 2002 EZ2
+(339492) 2005 GQ21
+(339714) 2005 ST1 (340666) 2006 RO36 (341816) 2007 YK (343098) 2009 DV42
+(345722) 2007 BG29 (349068) 2006 YT13 (355256) 2007 KN4
+(356394) 2010 QD2 (361071) 2006 AO4 (363790) 2005 JE46 (378610) 2008 FT6 (389694) 2011 QD48 (411280) 2010 SL13 (441825) 2009 SK1
+2002 TY68 2005 RQ6
+2010 TN54 2010 XZ67 2011 WV134 2012 ER14 2013 SO19 2013 UH9
+
+0.663 0.185 0.362 0.393 1.019 0.665 0.193 0.363 0.360 0.359 0.640 0.279 0.293 0.294 0.575 0.610 0.287 0.039 0.039 0.222 0.443 0.456 0.272 0.165 0.292 0.294 0.404 0.131 0.211 0.214 0.198 0.198 0.137 0.456 0.554 0.199 0.231 0.341 0.214 0.889 0.930 0.521 0.535 0.215 0.487 0.505 0.215 0.508 0.544 0.273 0.262 0.241 0.204 0.086 0.196 0.101 0.175 0.190
+
+1.652 1.181 1.187 1.268 1.274 1.168 1.111 1.277 1.280 1.282 1.612 1.247 1.173 1.173 1.532 1.569 1.258 1.049 1.051 1.026 1.454 1.467 1.211 1.139 1.221 1.225 1.364 1.109 1.193 1.193 1.165 1.167 1.123 1.108 1.456 1.180 1.195 1.108 1.195 1.843 1.874 1.453 1.381 1.020 1.278 1.362 1.178 1.498 1.522 1.230 1.151 1.125 1.198 1.063 1.153 1.076 1.166 1.040
+
+167.7
+
+7.4
+
+169.3
+
+9.0
+
+115.8
+
+48.3
+
+128.6
+
+37.4
+
+79.0
+
+49.3
+
+86.6
+
+58.8
+
+126.6
+
+45.4
+
+138.3
+
+30.8
+
+139.9
+
+29.7
+
+140.7
+
+29.1
+
+165.1
+
+9.0
+
+158.3
+
+16.9
+
+120.2
+
+47.3
+
+120.2
+
+47.3
+
+151.9
+
+17.9
+
+153.6
+
+16.4
+
+156.5
+
+18.3
+
+153.3
+
+25.7
+
+158.7
+
+20.5
+
+94.8
+
+72.8
+
+173.9
+
+4.2
+
+172.8
+
+5.0
+
+130.6
+
+39.6
+
+153.0
+
+23.2
+
+134.8
+
+35.4
+
+135.4
+
+34.9
+
+154.0
+
+18.5
+
+154.1
+
+23.0
+
+154.9
+
+20.8
+
+153.5
+
+21.9
+
+144.5
+
+29.8
+
+145.6
+
+28.9
+
+153.8
+
+23.1
+
+91.1
+
+64.6
+
+140.4
+
+25.5
+
+170.3
+
+8.1
+
+152.9
+
+22.1
+
+102.2
+
+60.3
+
+170.2
+
+8.0
+
+155.0
+
+13.3
+
+152.6
+
+14.2
+
+147.9
+
+21.1
+
+122.7
+
+38.3
+
+84.7
+
+83.2
+
+116.7
+
+43.4
+
+126.6
+
+36.1
+
+151.8
+
+23.2
+
+164.9
+
+10.0
+
+160.6
+
+12.6
+
+144.3
+
+28.3
+
+119.0
+
+49.5
+
+116.8
+
+52.2
+
+155.3
+
+20.6
+
+156.6
+
+21.6
+
+132.1
+
+40.7
+
+138.2
+
+38.2
+
+160.8
+
+16.4
+
+100.4
+
+69.3
+
+2013 Oct. 10 2012 Oct. 9 2013 Jan. 18 2013 Jan. 28 2014 Jan. 11 2013 Oct. 2 2013 Jan. 28 2014 Jan. 9 2014 Jan. 11 2014 Jan. 12 2013 Jan. 30 2014 Jan. 9 2012 Oct. 12 2012 Oct. 13 2013 Oct. 2 2013 Oct. 10 2012 Nov. 13 2013 May 31 2013 Jun. 1 2014 Jan. 11 2012 May 22 2012 May 23 2012 July 5 2012 Nov. 13 2012 Oct. 12 2012 Oct. 13 2012 Nov. 13 2012 Nov. 13 2012 Oct. 12 2012 Oct. 13 2012 Oct. 12 2012 Oct. 13 2012 Oct. 9 2013 Oct. 2 2013 Jan. 29 2013 Jan. 18 2013 Jan. 29 2013 Jan. 29 2013 Jan. 18 2013 Oct. 6 2013 Oct. 10 2013 Jan. 30 2013 Jul. 10 2013 Jul. 7 2014 Jan. 9 2013 Oct. 9 2014 Jan. 9 2013 Oct. 2 2013 Oct. 10 2012 Oct. 12 2013 Oct. 3 2013 Oct. 20 2013 Sep. 1 2014 Jan. 9 2012 May 23 2013 Oct. 10 2013 Oct. 6 2013 Nov. 17
+
+17.6 13.7 16.4 16.4 17.6 19.0 17.6 17.8 17.4 16.9 18.3 17.4 16.6 16.6 18.5 18.5 18.1 11.6 11.4 16.8 16.2 16.5 16.9 16.5 15.6 15.7 16.0 16.7 18.1 18.2 16.6 16.6 17.3 18.5 18.3 16.3 17.0 18.4 16.0 18.5 18.8 18.1 16.4 17.7 18.1 18.8 17.5 18.4 18.7 17.7 18.1 17.8 17.2 15.6 15.4 17.4 19.2 17.8
+
+240s, 180s 30s 240s 90s 270s, 240s 210s, 180s 180s 180s, 150s 180s, 150s 180s, 150s 180s 180s, 150s 60s 60s 210s, 180s 300s, 240s 45s 20s 10s 180s, 150s 60s 60s 60s 30s 60s 60s 30s 30s 60s 60s 60s 60s 30s 210s, 180s 300s 180s 120s 300s 180s 210s, 180s 300s, 240s 180s 300s 300s 270s, 240s 300s 180s, 150s 210s, 180s 300s, 240s 60s 210s, 180s 210s, 180s 300s 180s, 150s 30s 300s, 240s 300s, 240s 150s, 120s
+
+i. Geocentric distance; ii. Heliocentric distance; iii. Solar elongation; iv. Phase angles; v. one set comprises of every single exposure of B, V, R, I bands. The values of i to iv are based exactly at 16:00 UT on each observation date.
+
+BVRI setsv
+1 7 2 2 1 1 1 2 1 1 3 1 5 4 1 1 4 6 13 1 6 1 3 5 3 2 5 6 2 2 5 5 5 1 2 3 2 1 3 1 1 1 3 2 1 1 1 1 1 4 1 1 2 1 8 1 1 1
+
+Telescope
+LOT LOT SLT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT SLT SLT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT LOT SLT LOT LOT SLT LOT LOT LOT SLT SLT LOT LOT LOT LOT LOT LOT LOT LOT SLT LOT LOT LOT LOT LOT
+
+B. The figure panels of relative reflectance spectra of 87 NEAs
+
+The panels display the individual relative-reflectance spectra of 87 NEAs as well as their classified taxonomic types in comparison to the corresponding template spectra with dashed lines. The panels are listed by the order of asteroid numbers and the 7 taxonomic templates are also labeled with the different colors respectively.
+
+127
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+128
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+(continued). 129
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+(continued).
+C. The elaborations of observation results for individual NEAs in this paper
+Here are the elaborations of our results and some comparisons with the previous reports. The C-D-X cluster
+The C-D-X cluster shown in Fig. 3.a consists of non-silicate NEAs without evident spectral features of absorption bands. Our classifications in this cluster are described below as C-, D-, and X-complexes respectively.
+The C-complex There are six members in this group.
+(7753) 1988 XB: It was classified as B-type in previous spectroscopic survey (Xu et al., 1995; Bus and Binzel, 2002; Binzel et al., 2004). Since the C-complex we defined here includes the B-type subgroup as well, our classification is consistent with the previous result. (162566) 2000 RJ34: With B-V ¼ 0.755 Æ 0.136, V-R ¼ 0.400 Æ 0.032, and R-I ¼ 0.436 Æ 0.057, Ye (2011) classified this object to be X-type. We classified it to be C-type instead on the basis of the slope of the SED. It has a low albedo (0.07) according to the NEOWISE observations (Mainzer et al., 2011).
+130
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+(249886) 2001 RY11: This is a new measurement. By assuming the average albedo (0.13 Æ 0.05) of the C-complex (Thomas et al., 2011), the diameter can be estimated to be 1.01­1.56 km. (276786) 2004 KD1: This is a new measurement. With the average albedo of the C-complex, its size is estimated to be 0.88­1.36 km. (285263) 1998 QE2: It was recognized as a binary asteroid by radar imaging observation with an albedo of 0.06 (Springmann et al., 2014). Its color indices from Hicks et al. (2013a) are B-V ¼ 0.706 Æ 0.013, V-R ¼ 0.353 Æ 0.008, and R-I ¼ 0.374 Æ 0.006. These values are close to our results. Hicks et al. (2013b) identified this object to be of Ch-type. 2012 ER14: This is a new measurement. The slopes of this NEA are between those of the C- and X-complex. It is classified to be C-complex according to the decision tree (Fig. 4). Its size is 0.24­0.37 km from using an average albedo of 0.13 Æ 0.5.
+
+The X-complex There are 12 NEAs in this group from our observations. It is noted that the X-type objects include those classified to be E-, M- and P-type by Tholen
+(1984). They have rather different albedo values, namely, E-type has the highest value ! 0.3, M-type ~0.1­0.2 and P-type 0.1.
+
+(3554) Amun: It was classified to be M-type (Gradie and Tedesco, 1987), X-type (Somers et al. (2010), and P-type (Thomas et al., 2014), respectively, in previous studies. It is basically in the CDX-cluster domain from our Lulin measurement. Mainzer et al., 2014) reported an albedo value of 0.142 Æ 0.065 from the NEOWISE observations. The D-type designation requiring very low albedo (~0.07) can be excluded. This object could therefore be classified as M-type. (5731) Zeus: This is a new measurement. The albedo from the NEOWISE measurements is 0.031 (Mainzer et al., 2011). This object may belong to P-type, which has the lowest albedo by the Tholen classification scheme within the X-complex. (7350) 1993 VA: Our taxonomic classification is consistent with the C- or X-type designation from the spectroscopic observations by Thomas et al. (2014). The albedo derived by NEOWISE is 0.05 (Mainzer et al., 2011). This means that 1993 VA is likely a P-type object. (52762) 1998 MT24: Our photometric results are in agreement with the previous classification of X-type (Whiteley, 2001; Hicks et al., 2013c). The earlier photometry, B-V ¼ 0.713 Æ 0.038, V-R ¼ 0.41 Æ 0.03, and R-I ¼ 0.401 Æ 0.016 (Hicks et al., 2013c) are also very close to ours. 1998 MT24 has a low albedo reported to be 0.052 (Pravec et al., 2012) from WISE thermal observations. It can be classified as P-type. (88263) 2001 KQ1: This is a new measurement. The color indices from the Lulin observations have large error bars. On the basis of its spectral slopes and the decision tree, we classified it to be closer to the X-type than the C-type. This object has a low albedo of 0.048 from NEOWISE (Mainzer et al., 2011) and hence is likely to be a P-type. (137805) 1999 YK5: It was previously classified to be X-type by SMASS II (Bus and Binzel, 2002) and RQ-type by photometry with color indices of B-V ¼ 0.908 Æ 0.035, V-R ¼ 0.390 Æ 0.051, and R-I ¼ 0.314 Æ 0.062 (Ye, 2011). However, out results are very different from the latter work. The albedo of 0.027 from NEOWISE (Mainzer et al., 2011) is extremely low compared to the R/Q-type asteroids in the S-cluster. Therefore, 1999 YK5 could be likely of P-type in the X-complex. (162004) 1991 VE: This is a new measurement. The situation is similar to (88263) 2001 KQ1 in that the spectral slope is between the X- and D-type. We assigned it to be the X-type on the basis of our selection criterion. Without an albedo measurement, it could vary between 0.02 and 0.75 as suggested for the X-complex (Thomas et al., 2011). This means that its size is between 0.46 and 2.83 km. (326732) 2003 HB6: This is a new measurement. It has no albedo measurements. As a consequence, its size could be between 0.46 and 2.83 km because of the large variation in the albedo values of the X-type objects. (333358) 2001 WN1: It was reported to be C-type with photometric colors, B-V ¼ 0.703 Æ 0.044, V-R ¼ 0.402 Æ 0.023, and R-I ¼ 0.336 Æ 0.012 (Hicks and Dombroski, 2012). Although we classified 2001 WN1 to be X-complex, the spectral slope obtained by Hicks and Dombroski (2012) indicated that it could be Xc-type also. There is no albedo measurement, and its size is estimated to be 0.19­1.18 km as described above. (340666) 2006 RO36: This is a new measurement. Its size is estimated to be 0.42­2.59 km as constrained by the albedo range of the X-type objects. (411280) 2010 SL13: This is a new measurement. Its size is estimated to be 0.21­1.30 km as constrained by the albedo range of the X-type objects. 2013 SO10: Due to the lack of the V-R index, we can only use the other two color indices for its taxonomic classification. Its B-V index falls into the region of the C/D/X-cluster and it has a slightly higher slope at the red end. It is more likely to belong to the X-complex and the D-complex according to the priority setting scheme. In the absence of published albedo value, its size is estimated to be 0.07­0.41 km for an X-type object.
+
+The D-complex There are seven NEAs in this group.
+
+(3360) Syrinx: This is a new measurement. The published albedo of 0.07 (Veeder et al., 1989) is consistent with our D-type classification. (21088) Chelyabinsk: Previously spectroscopic observations indicted that it is SI-type (de Leo'n et al., 2010), A-type (Thomas et al., 2014). Photometric measurements by Ye (2011) assigned it to be S-type. The Lulin data showed that it could be a D-type NEA. It is noted that the B-V index is different that of the measurements of Ye (2011), perhaps because of our larger error bar in the B-band. The definite taxonomic classification would require future observations. (24761) Ahau: It was previously classified to be S-type by photometric observations with B-V ¼ 0.835 Æ 0.023, V-R ¼ 0.469 Æ 0.008, and RI ¼ 0.403 Æ 0.008 (Ye, 2011), and also C/X-complex by NIR spectroscopic observations (Thomas et al., 2014). Our Lulin results agree with the second one since they belong to the same group of C/D/X-cluster. There is no albedo measurement. An average albedo value of 0.02 Æ 0.01 for the D-type objects (Thomas et al., 2011) would lead to a size of 2.30­4.61 km. (85990) 1999 JV6: Bus and Binzel (2002) classified this object to be Xk-type according to the SMASS II database. Our designation of D-type is consistent with this previous result since they belong to the same C/D/X-cluster. The low albedo of 0.095 (Mainzer et al., 2011) is in agreement with the D-type classification also. (249595) 1997 GH28: This is a new measurement. In lieu of published albedo values, its size is estimated to be 1.92­3.83 km. 2002 TY68: This is a new measurement. There is no albedo measurement either. By assuming the D-type mean albedo from Thomas et al. (2011), we estimated the diameter of this object to be 1.21­2.42 km. 2013 UH9: This is a new measurement. There is no published albedo value either. We estimated its size to be 1.27­2.53 km following the same procedure as before.
+
+131
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+The S-Cluster The S-cluster shown in Fig. 3.a consists of the silicate NEAs with obvious absorption features, especially in the section of SED (I-band) approaching to
+1 m. The S-complex and Q-complex objects, which are of similar compositions but differ in the level of space weathering effect together account for a majority of the NEA population. Hence we combined them as a larger group, namely, S/Q-group hereafter. We will have more analysis about S/Q-group in section 5. Our classifications are described below as S-, Q-, A-, V-complexes respectively.
+
+The S-complex There are 34 NEAs in this group.
+
+(1036) Ganymed: This large NEA of 30-km size was previously classified to be S-type by both photometric measurements (Velichko and Magnusson, 2012) and spectroscopic observations (Whiteley, 2001; Bus and Binzel, 2002; Binzel et al., 2004; Hicks et al., 2011; Fieber-Beyer et al., 2011). The color indices and taxonomic type are in excellent agreement with the Lulin results. (1685) Toro: It was classified to be an S-type NEA by SMASS observations (Binzel et al., 2004) and photometric measurements by Rabinowitz (1998); Sq-type by DeMeo et al. (2014). The Lulin results are compatible with these earlier works. (1943) Anteros: It was before classified to be L-type (Binzel et al., 2004), S-type (Thomas et al., 2011) and Sw-type (Thomas et al., 2014). Since our definition of the S-complex contains the Sw- and L-type (see Table 3), The Lulin results are compatible with these earlier works. (4179) Toutatis: This NEA has many observational results, both by photometry and spectroscopy. It was classified to be S-type (Howell et al., 1994; Xu et al., 1995; Lupishko et al., 1995; Davies et al., 2007; Reddy et al., 2012b) and Sk-type (Binzel et al., 2004). These taxonomic classifications and the color indices reported by Rabinowitz (1998) are in accordance with our result. (4487) Pocahontas: This is a new measurement. There is no albedo measurement. Taking the mean value of S-type albedo as 0.26 Æ 0.03 (Thomas et al., 2011), its size can be estimated to be about 0.80­0.92 km. (8013) Gordonmoore: It was classified to be Sr-type by Lazzarin et al. (2010) which is in agreement with the Lulin results even though our data have large error bars. It has high spectral slope in the range of R-I bands. Nevertheless, the other two spectral slopes from B to R band are closer to those of the S-complex. (10115) 1992 SK: It was classified to be a member of the S-complex (Binzel et al., 2004; DeMeo et al., 2014) and Sq-type (Thomas et al., 2014). Our Lulin results are compatible with these previous results. (11284) Belenus: Hicks et al. (2013d) classified this object to be S-type with color indices: B0V ¼ 0.897 Æ 0.165; V-R ¼ 0.47 Æ 0.052 and R-I ¼ 0.33 Æ 0.014. The R-I index of Hicks et al. (2013d) has a small difference from the Lulin value, but the taxonomic type is in general agreement with each other. With a nominal S-type albedo, it size can be estimated to be 0.58­0.67 km. (12923) Zephyr: It was previously classified to be S-type (Binzel et al., 2004; Thomas et al., 2014). Although our measurements of its color indices have large error bars, we can still classify it as S-complex following our decision tree. (17188) 1999 WC2: This is a new measurement. (25916) 2001 CP44: It was classified to be Sq/Q-type by NIR spectroscopy before (Thomas et al., 2014). Our results showed slightly different classification, but they basically belong to the same S/Q-group. (40267) 1999 GJ4: It was previously reported to be Sq-type (Binzel et al., 2004) which is not too different from our S-complex classification and still in the same S/Q-group. (53435) 1999 VM40: It was classified to be S-type (Binzel et al., 2004) and Srw-type (Thomas et al., 2014), which are all parts of the S-complex in agreement with our classification. (68031) 2000 YK29: This is a new measurement. With a nominal S-type albedo, its size can be estimated to be 0.58­0.67 km. (68216) 2001 CV26: It has the near-infrared spectroscopic observation (Reddy, 2010). It was previously classified to be R-type by Ye (2011), Sq-type by Thomas et al. (2014) and S-complex by DeMeo et al. (2014). The previous two are different from our S-complex designation here, yet they are all parts of the S-cluster. (89355) 2001 VS78: It was previously classified to be S-type (Binzel et al., 2004) and Sr-type (Thomas et al., 2014). They are both compatible with our S-complex designation. (90075) 2002 VU94: This is a new measurement. The spectral slopes from the Lulin observations are intermediate between the D- and S-type. The Scomplex classification is supported by the albedo value of 0.197 determined by NEOWISE (Nugent et al., 2015). (99942) Apophis: This famous PHA was detected to be Sq-type by Binzel et al. (2009). It is generally in agreement with our results. The detected albedo is about 0.3 (Mu''ller et al., 2014). (136900) 1998 HL49: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.84­0.96 km. (154347) 2002 XK4: This object was previously observed by NIR spectroscopy and classified to be S-complex (Lazzarin et al., 2010). With a nominal S-type albedo, it size can be estimated to be 1.5­1.8 km. (215188) 2000 NM: It was previously classified to be Sr-type by spectroscopy (Binzel et al., 2004) and R-type by photometry (Dandy et al., 2003). (219071) 1997 US9: We only have two color indices of B-V and V-I for this NEA. Its hyper-reddish end of the I band probably indicates a spectral signature of the A-type asteroids, but the B-V slope is more like that of the S-complex. Our S-complex classification is in line with the S-type designation by Whiteley (2001) and Q-type (Binzel et al., 2004; Thomas et al., 2014: DeMeo et al., 2014). (262623) 2006 WY2: This is a new measurement. We only measured two color indices, namely, B-V and V-I, of this NEA. Without the V-R slope we could still approximately classify it to be of S-complex because of the trends of the other two slopes. (294739) 2008 CM: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.84­0.96 km. (329338) 2001 JW2: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.36­0.42 km. (330825) 2008 XE3: This potentially binary NEA was classified to be S-type by photometric observations (Hicks et al., 2012a). The reported color indices are similar to our Lulin results and the classifications are identical. With a nominal S-type albedo, it size can be estimated to be 1.33­1.52 km. (339492) 2005 GQ21: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.56­0.64 km. (339714) 2005 ST1: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.20­0.23 km. (343098) 2009 DV42: The R-I slope is similar to the reddish feature of the A-type objects. However, the overall SED trends fit better with those of the S-complex according to the decision tree (see Fig. 4). Both of the taxonomic type and albedo have not been investigated before. With a nominal Stype albedo, it size can be estimated to be 0.44­0.50 km.
+
+132
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+(349068) 2006 YT13: It was classified to be A/R-type by photometry, with B-V ¼ 1.042 Æ 0.088 and V-R ¼ 0.475 Æ 0.057 (Ye, 2011). These color indices are somewhat different from the Lulin results even though they are consistent with our S-cluster classification. With a nominal S-type albedo, it size can be estimated to be 0.53­0.61 km. (355256) 2007 KN4: This is a new measurement. The corresponding SED has rather large error bars and the B-V slope is higher than that of the Dcomplex but similar to the S-complex value. We designated two possible taxonomic types with the S-type to be followed by the D-type. It is interesting to note that 2007 KN4 is the only object in our sample with the Jovian Tisserand parameter (TJ ¼ 2.77) being less than 3.0. This means that this NEA could be an extinct comet (Carusi et al., 1987). We would need more observations in future to determine whether this object should be classified as D-type instead as appropriate to a cometary nucleus. For the present moment, with a nominal S-type albedo, it size can be estimated to be 1.06­1.21 km. (356394) 2010 QD2: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.80­092 km. (378610) 2008 FT6: This is a new measurement. With a nominal S-type albedo, it size can be estimated to be 0.80­0.92 km. 2011 WV134: Previous photometric observations indicated that it is an S-type (Hicks et al., 2012b) in agreement with our Lulin result. With a nominal S-type albedo, it size can be estimated to be 0.88­1.01 km.
+
+The Q-complex There are 24 NEAs in this group.
+
+(1627) Ivar: It was previously classified to be S-type by spectroscopic observations (Bus and Binzel, 2002; Binzel et al., 2004; Davies et al., 2007) and photometry, with B-V ¼ 0.80 Æ 0.02, V-R ¼ 0.45 Æ 0.01, and R-I ¼ 0.34 Æ 0.01 (Hahn et al., 1989; Velichko and Rikhteghar, 2011). These color indices are similar to the Lulin results. However, our classification is slightly different. (2100) Ra-Shalom: It was classified to be K-type (Shepard et al., 2008), Sr-type (Harris et al., 1998), and C-type (Binzel et al., 2004), which are very different from our present classification. Its SED in the Figure of Appendix B shows that the spectral slope of B-V is flatter and similar to that of the C-/X-complex. On the other hand, the slopes from V to I band are close to those of the Q-complex with absorption feature near 1 m. (4450) Pan: It was classified to be S-type by photometric observations with B-V ¼ 0.82 Æ 0.02, V-R ¼ 0.48 Æ 0.02 and R-I ¼ 0.28 Æ 0.02 (Carbognani, 2008) and S/Sr-type by spectroscopy (Perna et al., 2016). Our classification is different but in the general S/Q-group. There is no albedo measurement. With a nominal Q-type albedo of 0.29 Æ 0.03 (Thomas et al., 2011), it size can be estimated to be 0.9­1.1 km. (6047) 1991 TB1: This NEA was classified to be S-type before (Binzel et al., 2004; DeMeo et al., 2009; Thomas et al., 2014). In the Lulin measurements, the R-I spectral slope is better fit by the Q-complex value. (22753) 1998 WT: It was classified to be Q-type (Whiteley, 2001) and Sq-type (Thomas et al., 2014). They are both consistent with our result. (137062) 1998 WM: It was classified to be Sq-type (Binzel et al., 2004; Thomas et al., 2014) and Q-type (DeMeo et al., 2014). They are both consistent with our result. (137199) 1999 KX4: It was classified to be Sq-type by spectroscopy (Hicks et al., 2013b). With a nominal Q-type albedo, it size can be estimated to be 1.0­1.2 km. (141052) 2001 XR1: Our result is consistent with the taxonomic identification of Sq-type by Binzel et al. (2004) and Thomas et al. (2011). (141484) 2002 DB4: It was classified to be S-type (Michelsen et al., 2006) and S-complex (Lazzarin et al., 2010). There is no albedo measurement. With a nominal Q-type albedo, it size can be estimated to be 1.2­1.5 km. (152889) 2000 CF59: This is a new measurement. (163364) 2002 OD20: It was reported to be Sq-type by Hicks et al. (2013b). With a nominal Q-type albedo, it size can be estimated to be 0.4­0.5 km. (168378) 1997 ET30: This is a new measurement. With a nominal Q-type albedo, it size can be estimated to be 1.04­1.24 km. (214869) 2007 PA8: It was classified to be Q-type (Kuroda et al., 2014; Fornasier et al., 2015; Sanchez et al., 2015; Perna et al., 2016), S-type (Godunova et al., 2013), and Xc-type by broad-band photometry (Hicks et al., 2012c). The albedo was detected to be 0.29Æ0.14 (Brozovic et al., 2017). (230111) 2001 BE10: It was classified to be S-complex by spectroscopic observation (DeMeo et al., 2014) and R-type by photometry (Ye, 2011) with color indices: B-V ¼ 0.956 Æ 0.087, V-R ¼ 0.458 Æ 0.035 and R-I ¼ 0.412 Æ 0.101. These identifications together with our Lulin result are basically in the S-cluster. (276397) 2002 XA40: This is a new measurement. With a nominal Q-type albedo, it size can be estimated to be 0.91­1.08 km. (277127) 2005 GW119: It was classified to be Sq-type (Ieva et al., 2014) in accordance with our result. With a nominal Q-type albedo, it size can be estimated to be 0.43­0.52 km. (297274) 1996 SK: It was identified to be S-type with apparent rotational color variability by Lin et al. (2014). Our present Lulin measurement showed that its spectral slope is intermediate between S-type and Q-type thus indicating that this NEA probably has inhomogeneous surface composition as reported before. We classified 1996 SK with the first taxonomic type to be Q-complex and second to be S-complex according to the decision tree (see Fig. 4). With a nominal Q-type albedo, it size can be estimated to be 1.09­1.3 km. (341816) 2007 YK: This is a new measurement. With a nominal Q-type albedo, it size can be estimated to be 0.76­0.9 km. (361071) 2006 AO4: This is a new measurement. With a nominal Q-type albedo, it size can be estimated to be 1.98­2.36 km. (363790) 2005 JE46: It was classified to be C/X/D-complex by spectroscopic observations (Thomas et al., 2014). The spectral slopes between B to R in Figure of Appendix B are indeed similar to those of the X-complex, but the R-I slope is more like that of the Q-complex. With a nominal Q-type albedo, it size can be estimated to be 0.69­0.82 km. (441825) 2009 SK1: This is a new measurement. With a nominal Q-type albedo, it size can be estimated to be 0.52­0.62 km. 2005 RQ6: It was previously classified to be S/Sr-type (DeMeo et al., 2014) in the same S/Q-group as our identification. With a nominal Q-type albedo, it size can be estimated to be 0.4­0.47 km. 2010 TN54: This is a new measurement. With a nominal Q-type albedo, it size can be estimated to be 0.35­0.41 km. 2010 XZ67: This is a new measurement. The V-R color index is missing. The taxonomic characterization can be done by consideration of the partial SED which is more likely to be Q-complex than the V-complex. With a nominal Q-type albedo, it size can be estimated to be 0.27­0.32 km.
+
+133
+
+C.-H. Lin et al.
+
+Planetary and Space Science 152 (2018) 116­135
+
+The A-complex There are three NEAs in this group.
+
+(4954) Eric: It was classified to be S-type by both photometry (Rabinowitz, 1998) and SMASS observations (Binzel et al., 2004). Yet our Lulin measurements indicated that its spectral slopes with reddening feature close to the A-complex slopes. However, according to Gietzen et al. (2012), the NIR spectra of 4954 Eric exhibits an absorption feature at 2 micron indicating the presence of clinopyroxene. Because A-type does not have the pyroxene absorption band, the classification here might be wrong and this NEA should be classified as S-type. (11405) 1999 CV3: It was classified to be Sq-type by SMASS database. But the Lulin result showed that it is close to A-complex. (354722) 2007 EG29: This is a new measurement.
+
+The V-complex Some of the V-type NEAs are supposed to be small members of the Vesta family got transported into the orbital region of the terrestrial planets. Their
+spectral slopes between B to R are similar to those of the S-complex. But there is a significant descending slope between the R and I band because of a deeper absorption feature close to 1 m. There are six objects in this group from our Lulin observations.
+
+(4055) Magellan: It was classified to be V-type by several spectroscopic observations (Cruikshank et al., 1991; Binzel et al., 2004; Whiteley, 2001; Sanchez et al., 2013; Thomas et al., 2014). We have exactly the same classification. The albedo was detected to be about 0.33 (Delbo et al., 2003) (55532) 2001 WG2: It was classified to be Sk-type by SMASS observations (Binzel et al., 2004). This is different from our identification though in the same S-cluster. (152756) 1999 JV3: It was classified to be S-type (Binzel et al., 2004) and Sa-type (Hicks et al., 2013b). They are both different from our identification though in the same S-cluster. (163249) 2002 GT: It was classified to be Sq-type by spectroscopic observation (Hicks et al., 2013b). Its spectral slopes between V to I are intermediate between the S- and Q-type, but that of B-V is more similar to the V-type. With the nominal albedo of 0.42 Æ 0.11 (Thomas et al., 2011) for the V-type NEAs, it size can be estimated to be 0.37­0.5 km. (334412) 2002 EZ2: Our Lulin measurements have relatively large error bars, but the SED is close to that of the V-complex. In addition, the detected albedo of 0.4 by the warm Spitzer survey (Thrilling et al., 2010) is close to the mean albedo of the V-type NEAs (Thomas et al., 2011). (389694) 2011 QD48: This is a new measurement. With the nominal albedo of the V-type asteroids, it size can be estimated to be 0.41­0.55 km.
+
+References
+Bertini, I., 2011. Main Belt Comets: a new class of small bodies in the solar system. Planet. Space Sci. 59, 365­377.
+Binzel, R.P., et al., 2002. Physical Properties of Near-earth Objects. In: Asteroids III. Univ. of Arizona press, p. 255.
+Binzel, R.P., et al., 2004. Observed spectral properties of near-Earth objects: results for population distribution, source regions, and space weathering processes. Icarus 170, 259­294.
+Binzel, R.P., et al., 2009. Spectral properties and composition of potentially hazardous Asteroid (99942). Apophis. Icarus 200, 480­485.
+Binzel, R.P., et al., 2010. Earth encounters as the origin of fresh surfaces on near- Earth asteroids. Nature 463, 331­334.
+Bottke, W.F., et al., 2002. Debiased orbital and absolute magnitude distribution of the near-Earth objects. Icarus 156, 399­433.
+Brozovic, M., et al., 2017. Goldstone radar evidence for short-axis mod;e non-principalaxis rotation of near-Earth asteroid (214869) 2007 PA8. Icarus 286, 314­329.
+Brunetto, R., et al., 2006. Modeling asteroid surfaces from observations and irradiation experiments: the case of 832 Karin. Icarus 184, 327­337.
+Brunetto, R., et al., 2015. Asteroid Surface Alteration by Space Weathering Processes. Asteroid IV. University of Arizona Press, pp. 597­616.
+Bus, S.J., 1999. Compositional Structure in the Asteroid Belt: results of a Spectroscopic Survey. PhD. Thesis.
+Bus, S.J., Binzel, R.P., 2002. Phase II of the small main-belt asteroid spectroscopic survey. A feature-based taxonomy. Icarus 158, 146­177.
+Carbognani, A., 2008. MPB. Light Curve Photometry of NEAs 4450 PAN, (170891) 2004 TY16, 2002 RC118, and 2007 VD12; 2006NM, 35, pp. 109­110.
+Carry, B., et al., 2016. Spectral properties of near-Earth and Mars-crossing asteroids using Sloan photometry. Icarus 268, 340­354.
+Carusi, A., et al., 1987. High-order librations of Halley-type comets. Astron. Astrophys. 187, 899­905.
+Clark, B.E., et al., 2002. NEAR infrared spectrometer photometry of asteroid 433 Eros. Icarus 155, 189­204.
+Cruikshank, D.P., et al., 1991. Three basaltic earth-approaching asteroids and the source of the basaltic meteorites. Icarus 89, 1­13.
+Dandy, C.L., Fitzsimmons, A., Collander-Brown, S.J., 2003. Optical colors of 56 nearEarth objects: trends with size and orbit. Icarus 163, 363­373.
+Davies, J.K., et al., 2007. Near-infrared spectra of 12 near-Earth objects. Icarus 186, 111­125.
+de Leo'n, L., et al., 2010. Observations, compositional, and physical characterization of near-Earth and Mars-crosser asteroids from a spectroscopic survey. Astron. Astrophys 517, A23.
+Delbo, M., et al., 2003. Keck observations of near-Earth asteroids in the thermal infrared. Icarus 166, 116­130, 4055 albedo.
+DeMeo, F.E., Carry, B., 2013. The taxonomic distribution of asteroids from multifilter allsky photometric surveys. Icarus 226, 723­741.
+
+DeMeo, F.E., Carry, B., 2014. Solar System evolution from compositional mapping of the asteroid belt. Nature 505, 629­634.
+DeMeo, F.E., et al., 2009. An extension of the Bus asteroid taxonomy into the near infrared. Icarus 202, 160­180.
+DeMeo, F.E., Binzel, R.P., Lockhart, M., 2014. Mars encounters cause fresh surfaces on some near-Earth asteroids. Icarus 227, 112­122.
+Fieber-Beyer, S.K., Gaffey, M.J., Abell, P.A., 2011. Mineralogical characterization of nearEarth asteroid (1036). Ganymed. Icarus 212, 149­157.
+Fornasier, S., et al., 2015. The potentially hazardous asteroid (214869) 2007 PA8: an unweathered L chondrite analogue surface. Icarus 250, 280­286.
+Gietzen, K.M., 2009. Near Infrared Spectral Data for 27 Asteroids: an Investigation of Meteorite-asteroid Relationships by Using the Modified Gaussian Method. PhD thesis. University of Arkansas.
+Gietzen, K.M., et al., 2012. IRTF observations of S complex and other asteroids: implicagions for surface compositions, the presence of clinopyroxenes, and their relationship to meteorites. Meteor. Planet. Sci. 47, 1789.
+Godunova, V., et al., 2013. Spectrophotometric studies of near-Earth asteroids at the Terskol Observatory. EGU2013-13797-1 (Abstract).
+Gradie, J.C., Tedesco, E.F., 1987. 1986 DA and 1986 EB: iron objects in near-earth orbits. Lun. Plant. Sci. Con 18, 349.
+Granvik, M., et al., 2016. Super-catastrophic disruption of asteroids at small perihelion distances. Nature 530, 303­306.
+Graves, K., et al., 2016. Size and Perihelion Distribution of S and Q-type Asteroid Spectral Slopes from the Near Earth Region through the Main Belt. DPS Meeting. #48, id. 510.09.
+Greenstreet, et al., 2012. The orbital distribution of Near-Earth Objects inside Earth's orbit. Icarus 217, 355­366.
+Hahn, G., et al., 1989. Physical studies of Apollo-Amor asteroids - UBVRI photometry of 1036 Ganymed and 1627 ivar. Icarus 78, 363­381.
+Harris, A.W., et al., 1998. Thermal infrared spectrophotometry of the near-earth asteroids 2100 Ra-Shalom and 1991 EE. Icarus 135, 441­450.
+Hicks, M., Dombroski, D., 2012. Physical characterization of (333358) 2001 WN1: a large, possibly water-rich, low delta-V near-Earth asteroid. The Astron. Tel. 4623.
+Hicks, M., Ebelhar, S., 2013a. Broadband photometry of the large potentially hazardous asteroid 138095 (2000 DK79). The Astron. Tel. 5591.
+Hicks, M., Ebelhar, S., 2013b. Broadband photometry of the potentially hazardous asteroid 2013 RH74. The Astron. Tel. 5562.
+Hicks, M., Ebelhar, S., 2014a. Broad-band photometry of the potentially hazardous asteroid 2006 DP14. The Astron. Tel. 5928.
+Hicks, M., Ebelhar, S., 2014b. Broadband photometry of the potentially hazardous asteroid 251346 (2007 SJ). The Astron. Tel. 5801.
+Hicks, M., et al., 2011. Palomar spectroscopy of near-earth asteroids 2004 SV55, 2000 SP43, 3988 (1986 LA), 1036 Ganymed, and 2002 AG29. The Astron. Tel. 3678.
+Hicks, M., et al., 2012a. Broadband photometry 330825 (2008 XE3): a potential binary near-earth asteroid. The Astron. Tel. 4591.
+Hicks, M., et al., 2012b. Physical characterization of the potentially hazardous asteroid 2011 WV134. The Astron. Tel. 4251.
+
+134
+
+C.-H. Lin et al.
+Hicks, M., et al., 2012c. Broadband photometry of 214869 (2007 PA8): a slowly rotating potentially hazardous asteroid. The Astron. Tel. 4625.
+Hicks, M., et al., 2012d. Broadband photometry of the near-earth asteroid 136993 (1998 ST49). The Astron. Tel. 4588.
+Hicks, M., et al., 2012e. Broadband photometry of the potentially hazardous asteroid 329614 (2003 KU2). The Astron. Tel. 4262.
+Hicks, M., et al., 2012f. Broadband photometry of 2012 LZ1: a large, dark potentially hazardous asteroid. The Astron. Tel. 4252.
+Hicks, M., et al., 2012g. Broadband photometry of 2007 LE: a binary near-earth asteroid. The Astron. Tel. 4188.
+Hicks, M., et al., 2012h. Optical photometry of 2012 EG5: constraints on taxonomy and spin rate. The Astron. Tel. 4016.
+Hicks, M., et al., 2013a. BVRI photometry of the potentially hazardous asteroid 285263 (1998 QE2). The Astron. Tel. 5121.
+Hicks, M., et al., 2013b. Palomar spectroscopy of near-earth asteroids 137199 (1999 KX4), 152756 (1999 JV3), 163249 (2002 GT), 163 364 (2002 OD20), and 285263 (1998 QE2). The Astron. Tel. 5132.
+Hicks, M., et al., 2013c. Broad-band photometry of 52762 (1998 MT24). The Astron. Tel. 5306.
+Hicks, M., et al., 2013d. Broadband photometry of 11284 Belenus: a large low delta-V near-Earth asteroid. The Astron. Tel. 4969.
+Hicks, M., et al., 2013e. Broadband photometry of the potentially asteroid 277475 (2005 WK4) and corrected 52762 (1998 MT24) colors. The Astron. Tel. 5311.
+Hicks, M., et al., 2014a. Broad-band photometry of the near-earth asteroid 2014 CR. The Astron. Tel. 5955.
+Hicks, M., et al., 2014b. Broad-band photometry of NHATS target 387733 (2003 GS). The Astron. Tel. 6090.
+Howell, E.S., et al., 1994. Visible and near-infrared spectral observations of 4179 Toutatis. Icarus 111, 468­474.
+Hsieh, H.H., Jewit, D., 2006. A population of comets in the Main Asteroid Belt. Science 312, 561.
+Ieva, S., et al., 2014. Low Delta-V Near-Earth Asteroids: a survey of suitable targets for space missions. Astron. Astrophys. 569, A59.
+Ishiguro, M., et al., 2007. Global mapping of the degree of space weathering on asteroid 25143 Itokawa by Hayabusa/AMICA observations. Meteoritics Planet Sci. 42, 1791­1800.
+Ivezic, Z., et al., 2001. AJ. Solar System Objects Observed in the Sloan Digital Sky Survey Commissioning Data, 122, pp. 2749­2784.
+Jacobson, S.A., Scheeres, D.J., 2011. Dynamics of rotationally fissioned asteroids: source of observed small asteroid systems. Icarus 214, 161­178.
+Jones, T.D., et al., 1990. The composition and origin of the C, P, and D asteroids - water as a tracer of thermal evolution in the outer belt. Icarus 88, 172­192.
+Kuroda, D., et al., 2014. Visible-wavelength spectroscopy of subkilometer-sized nearEarth asteroids with a low delta-v. PASJ 66, 51.
+Landolt, A.U., 1992. UBVRI photometry standard stars in the magnitude range 11.5<V<16.0 around the celestial equator. Astron. J. 104, 340­371.
+Lang, D., et al., 2010. Astrometry.net: blind astrometric calibration of arbitrary astronomical images. Astron. J. 139, 1782­1800.
+Lazzarin, M., et al., 2005. Spectroscopic investigation of near-earth objects at telescopio nazionale Galileo. Mon. Not. R. Astron. Soc. 359, 1575­1582.
+Lazzarin, M., Marchi, S., Magrin, S., 2010. Spectroscopic Investigation of Near-earth Objects. SINEO Database.
+Lazzaro, D., et al., 2004. S3OS2: the visible spectroscopic survey of 820 asteroids. Icarus 172, 179­220.
+Lim, L.F., et al., 2012. The near-earth encounter of asteroid 308635 (2005 YU55). In: Thermal IR Observations. AAS 2012 DPS Meeting. #44, id.305.01L.
+Lin, C.-H., et al., 2014. Detection of large color variation of potentially hazardous asteroid (297274) 1996 SK. Res. Astron. Astrophys. 14, 311.
+Lin, H.-W., et al., 2015. A search for subkilometer-sized ordinary chondrite like asteroids in the main-belt. Icarus 254, 202­212.
+Lupishko, D.F., et al., 1995. UBVRI-polarimetry of asteroid 4179 Toutatis. Icarus 113, 200­205.
+Mainzer, A., et al., 2011. Preliminary results from NEOWISE: an enhancement to the wide-field infrared survey explorer for solar system science. Astron. Astrophys. J. 731, 53M.
+Mainzer, A., et al., 2014. Initial performance of the NEOWISE reactivation mission) (prel.diameters & albedos for 61 NEOs. Astrophys. J. 792, 30.
+Michelsen, R., et al., 2006. Spectroscopy of near-Earth asteroids. Astron. Astrophys. 451, 331­337.
+Morbidelli, A., Vokrouhlicky', D., 2003. The Yarkovsky-driven origin of near-Earth asteroids. Icarus 163, 120­134.
+Mu''ller, T.G., et al., 2014. Thermal infrared observations of asteroid (99942) Apophis with herschel. Astron. Astrophys. 566, A22.
+
+Planetary and Space Science 152 (2018) 116­135
+Nakamura, T., et al., 2011. Itokawa dust particles: a direct link between S-Type asteroids and ordinary chondrites. Science 333, 1113.
+Nesvorny, D., et al., 2010. Do planetary encounters reset surfaces of near Earth asteroids? Icarus 209, 510­519.
+Nichols, C.R., 1993. Volatile Products from Carbonaceous Asteroids. In Resources of Nearearth Space, Part III. No. 21. University of Arizona Press.
+Nugent, C.R., et al., 2015. NEOWISE reactivation mission year one: preliminary asteroid diameters and albedos. Astrophys. J. 814, 117, 13 pp.
+Perna, D., et al., 2016. Grasping the nature of potentially hazardous asteroids. Astron. J. 151, 11, 14pp.
+Polishook, D., et al., 2014. Observations of fresh and weathered surfaces on asteroid pairs and their implications on the rotational-fission mechanism. Icarus 233, 9­26.
+Popescu, M., et al., 2014. Spectral properties of the largest asteroids associated with Taurid Complex. A&A 572, A106.
+Pravec, P., et al., 2012. Absolute magnitudes of asteroids and a revision of asteroid albedo estimates from WISE thermal observations. Icarus 221, 365­387.
+Rabinowitz, D.L., 1998. Size and orbit dependent trends in the reflectance colors of earthapproaching asteroids. Icarus 134, 342­346.
+Rayner, J.T., et al., 2003. SpeX: a Medium-resolution 0.8-5.5 Micron Spectrograph and Imager for the NASA Infrared Telescope Facility, vol 115. PASP, p. 362.
+Reddy, V., 2010. IRTF Near-earth Asteroid Spectra V1.0, NASA Planetary Data System, EAR-A-I0046-5-REDDYSPEC-V1.0.
+Reddy, V., et al., 2012a. Composition of near-Earth Asteroid 2008 EV5: potential target for robotic and human exploration. Icarus 221, 678­681.
+Reddy, V., et al., 2012b. Composition of near-earth asteroid (4179) Toutatis. Icarus 221, 1177­1179.
+Rivkin, A.S., 2006. An introduction to near-earth objects. Johns Hopkins APL Technical Digest 27 (No. 2).
+Rubincam, D.P., 2000. Radiative spin-up and spin-down of small asteroids. Icarus 148, 2­11.
+Sanchez, J.A., Michelsen, R., Reddy, V., Nathues, A., 2013. Surface composition and taxonomic classification of a group near-Earth and Mars-crossing asteroids. Icarus 225 (Iss. 1), 131­140.
+Sanchez, J.A., Reddy, V., Dykhus, M., Lindsay, S., Le Corre, L., 2015. Composition of potentially hazardous asteroid (214869) 2007 PA8: an H chondrite from outer asteroid belt. Astrophys. J. 808, 93.
+Scheeres, D.J., 2015. Landslides and Mass shedding on spinning spheroidal asteroids. Icarus 247, 1­17.
+Shepard, M.K., et al., 2008. Multi-wavelength observations of asteroid 2100 Ra-Shalom. Icarus 193, 20­38.
+Somers, J.M., et al., 2010. Optical characterization of planetary radar targets, low-deltaV, and potentially hazardous asteroids: results from 2009-2010. DPS 42, 1316.
+Springmann, A., et al., 2014. Radar derived shape model of binary near-earth asteroids (285263) 1998 QE2. Lun. Plant. Sci. Con 45, 1313.
+Stuart, J.S., Binzel, R.P., 2004. Bias-corrected population, size distribution, and impact hazard for the near-Earth objects. Icarus 170, 295­311.
+Tholen, D.J., 1984. Asteroid Taxonomy from Cluster Analysis of Photometry (Ph.D. Thesis).
+Thomas, C.A., et al., 2011. ExploreNEOs. V. Average albedo by taxonomic complex in the near-earth asteroid population. Astron. J. 142, 85, 12pp.
+Thomas, C.A., et al., 2014. Physical characterization of Warm Spitzer-observed near-Earth objects. Icarus 228, 217­246.
+Thrilling, D.E., et al., 2010. EXPLORENEOs. I. Description and first results from the warm spitzer near-earth object survey. Astron. J. 140, 770­784.
+Tubiana, C., et al., 2015. A&A. 2P/Encke, the Taurid Complex NEOs and the Maribo and Sutter's Mill Meteorites, vol 584, p. A97.
+Veeder, G.J., et al., 1989. Radiometry of near-Earth asteroids. Astron. J. 97, 1211­1219. Velichko, F.P., Magnusson, P., 2012. Photometry and polarimetry of the largest NEA 1036
+Ganymed. Astron. Tsirk. 1575. Velichko, F.P., Rikhteghar, A., 2011. Light curves, colours and magnitude phase
+dependences of the asteroids 433 Eros and 1627 Ivar. Astronomy 47, 41­43. Vernazza, P., et al., 2008. Composition differences between meteorites and near-Earth
+asteroids. Nature 454, 858­860. Volquardsen, E.L., 2007. Composition of hydrated near-Earth object (100085) 1992 UY4.
+Icarus 187, 464­468. Walsh, K.J., Richardson, D.C., Michel, P., 2012. Spin-up of rubble-pile asteroids:
+disruption, satellite formation, and equilibrium shapes. Icarus 220, 514­529. Whiteley, R.J., 2001. A Compositional and Dynamical Survey of the Near-earth Asteroids.
+PhD. Thesis. University of Hawaii. Xu, S., et al., 1995. Small main-belt asteroid spectroscopic survey: initial results. Icarus
+115 (no. 1), 1­35. Ye, Q.-Z., 2011. BVRI photometry of 53 unusual asteroids. Astron. J. 141, 32, 8pp.
+
+135
+
+
