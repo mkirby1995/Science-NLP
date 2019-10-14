@@ -1,0 +1,227 @@
+Materials Science and Engineering A 465 (2007) 44­48
+
+Vacuum induction melting of NiTi shape memory alloys in graphite crucible
+Niraj Nayan a,, Govind a, C.N. Saikrishna b, K. Venkata Ramaiah b, S.K. Bhaumik b, K. Suseelan Nair a, M.C. Mittal a
+a Vikram Sarabhai Space Center, Trivandrum 22, India b National Aerospace Laboratories, Bangalore 560017, India
+Received 21 June 2006; received in revised form 7 January 2007; accepted 11 April 2007
+
+Abstract
+Vacuum induction melting (VIM) is the most widely used process for the commercial production of NiTi alloys. But, the major drawback in VIM is the carbon contamination of the ingot from the graphite crucible. During melting, carbon reacts with Ti and forms TiC. This alters the Ni/Ti ratio in the alloy and thereby changes the transformation temperatures drastically. Also, the TiC particles in the matrix hinder the workability of the alloy as well as the memory properties of the products. The present experimental study deals with the VIM of NiTi alloys melted in graphite crucible wherein it has been shown that the carbon pick up in the melt can be reduced significantly when Ni and Ti are placed in the graphite crucible by a novel method of charging. The cast ingots (weighing 7­8 kg each) were subjected to various secondary metal processing operations viz., forging, rolling and wire drawing. The properties of the wire products were evaluated. © 2007 Elsevier B.V. All rights reserved.
+Keywords: NiTi alloys; Vacuum induction melting; Graphite crucible; Carbon contamination; Mechanical and functional properties
+
+1. Introduction
+Among various shape memory alloys (SMAs), NiTi alloys are the most commercially exploited ones because of their superior shape memory effect (SME) and superelasticity (SE), better mechanical properties, higher corrosion resistance and excellent biocompatibility [1­4]. The basis of the NiTi SMAs is the binary equi-atomic intermetallic compound of nickel and titanium. The properties of NiTi SMAs can be modified to a great extent by judicious choice of composition, mechanical working, and heat treatment. Desirable memory properties, in general, are obtained with 49.3­51 at.% Ni [5­7]. In this narrow composition range, it is possible to obtain alloys with austenite finish temperature in the range -20 to 100 C. A slight deviation in composition alters the transformation temperatures drastically. For example, 0.1 at.% increase in the Ni content in the alloy can decrease the martensite start temperature by more than 10 C [8]. For majority of the NiTi SMA applications, the transformation temperatures require to be controlled within ±5 C. This is pos-
+ Corresponding author. Tel.: +91 471 2563582; fax: +91 471 270 5048. E-mail addresses: nirajnayan@rediffnmail.com, niraj nayan@vssc.org
+(N. Nayan).
+0921-5093/$ ­ see front matter © 2007 Elsevier B.V. All rights reserved. doi:10.1016/j.msea.2007.04.039
+
+sible only when the composition is controlled within ±0.05 at.%. Melting of these alloys with such precise composition control is a challenge. NiTi alloys contain about 50 at.% Ti and hence are extremely reactive at the melt temperature. For example, titanium strongly reacts with oxygen, nitrogen and carbon to form oxides, oxi-nitrides and carbides, respectively. In order to avoid contamination from the atmosphere and to ensure high purity ingot, melting of NiTi alloys is carried out either in vacuum or inert atmosphere.
+Out of the various melting methods, vacuum induction melting (VIM) and vacuum arc remelting (VAR) are widely used for commercial production of NiTi alloys. In VIM, the electrodynamic forces result in excellent stirring of the melt and thereby ensuring greater chemical and microstructural homogeneity in the ingot. Carbon is highly soluble in nickel and it has high affinity for titanium. Hence, the major drawback of the VIM is the carbon contamination of the ingot from graphite crucible. Various studies [7­9] have been made to optimize the VIM procedure with an objective to minimize the carbon pick up as well as to enhance the homogeneity of the ingot. These include the control of melting temperature [8], charging of constituent elements in the graphite crucible [9], electrical frequency [7], etc. In VAR process, the constituent elements are mixed and pressed
+
+N. Nayan et al. / Materials Science and Engineering A 465 (2007) 44­48
+
+45
+
+into a consumable electrode. Here, the melting and solidification are carried out in water-cooled copper crucible and hence the contamination from the crucible is avoided. The VAR ingots are generally of high purity and do not contain carbon more than 200 ppm [10,11]. However, in VAR, the melting is confined to a small zone and hence the ingot lacks chemical homogeneity. Thus, usually it is required to melt the ingot several times to produce an ingot with acceptable chemical homogeneity. Sometimes VIM followed by VAR is also adopted to obtain ingots with greater degree of homogeneity. The other melting methods such as non-consumable arc melting, electron beam melting and plasma melting are not commercially viable and are generally used for experimental purposes [12,13].
+The present experimental study deals with the VIM of binary NiTi alloys. A novel technique for melting of NiTi alloys has been developed wherein the carbon contamination of the melt can be reduced significantly by adopting certain materials arrangement scheme in the graphite crucible. Wires with diameter 0.3­0.5 mm were processed from these ingots and the properties of these wire products were evaluated before and after shape memory treatment.
+2. Experimental details
+2.1. Materials
+The crucibles used for VIM were fabricated from high density (1.71 g cm-3) graphite rod (2020 grade, Carbone of America make). High purity nickel plates (Ni > 99.9 wt.%) and titanium sponge (Ti > 99.6 wt.%) procured from metal bank, MIDHANI, Hyderabad, India, were used as raw material for melting of the alloys.
+2.2. Melting and casting
+The melting experiments were carried out on a 7­8 kg scale. The targeted composition for each melt was equi-atomic NiTi alloy (55 wt.% Ni and 45 wt.% Ti). The constituent elements, i.e., nickel plates and titanium sponge were cleaned thoroughly with acetone and dried in vacuum before charging in the graphite crucible.
+After charging the constituent elements in the crucible, the furnace was evacuated to 0.001 mbar and then purged with high purity argon (99.9983 vol%) at 0.3­0.5 bar pressure. Melting was carried out in argon atmosphere. The molten metal was poured under argon atmosphere in a split mould made of steel, which was coated with graphite and preheated. For graphite coating on split mould, solution of graphite in water was coated on the both parts of the split mould and after bolting both parts together it was heated at 150 C in oven for 1 h. This process was repeated two times. To avoid direct contact between titanium and graphite crucible, the charging was made such that the nickel plates were kept at the bottom as well as on the sides. The titanium sponge was wrapped in 0.24 mm thick nickel foil in rod form. Fig. 1 summarizes the materials arrangement in the crucible and the furnace. Three melts were taken using the same crucible. In the first melt, four foils wrapped titanium sponge
+
+Fig. 1. Photographs showing the charging of nickel plates and Ti-sponge rods in graphite crucible.
+rods were used. In the second and third melts, titanium sponge was packed in the form a single rod.
+2.3. Secondary processing
+The ingot was homogenized at 1000 C for 2 h and was subsequently forged to cylindrical billet of 55 mm Ø. The forged billet was section rolled at 900­950 C to a rod of 14 mm Ø. During homogenization and forging protective coating or protective atmosphere was not used
+The 14 mm Ø hot rolled rod was used for wire drawing. The rod was subjected to groove rolling operation at 800 C to 3 mm × 3 mm, which was then cold rolled to cross-section of 1 mm × 1 mm. The cold rolling was facilitated in multiple reductions and inter-pass annealing at 700 C for 10 min giving glass as protective coating before each pass and mechanical cleaning of the same after each pass. The cold rolled product diameter was further reduced by cold wire drawing. The final wire in the diameter range 0.3­0.5 mm was obtained by repeated drawing. This wire was given shape memory heat treatment at 475 C for 30 min under argon atmosphere for mechanical and functional properties evaluation.
+2.4. Characterization
+After melting and casting, the chemical composition of the ingots was determined as shown in Table 1 by XRF, ICP spectroscopy and gravimetric methods. Carbon analysis was carried out using a CS2000 LECO make carbon­sulphur gas analyzer. Oxygen was analyzed using a TC436 LECO make nitrogen­oxygen gas analyzer.
+Microstructural study was carried out at various stages of processing. The metallographic samples were etched with HF + HNO3 + H2O (1:3:16) solution for revealing microstructure of the material.
+The transformation temperatures viz., austenite start and finish (As and Af), and martensite start and finish (Ms and Mf) were determined using differential scanning calorimetry (DSC7, Perkin-Elmer make). All the measurements were carried out at a constant heating/cooling rate of 5 C min-1.
+
+46
+
+N. Nayan et al. / Materials Science and Engineering A 465 (2007) 44­48
+
+Table 1 Composition of the ingots
+
+Melt no.
+
+Element
+
+1
+
+Ni
+
+Ti
+
+Fe
+
+C
+
+2
+
+Ni
+
+Ti
+
+Fe
+
+C
+
+3
+
+Ni
+
+Ti
+
+Fe
+
+C
+
+Charge (wt.%)
+53.0 47.0 ­ ­
+53.0 47.0 ­ ­
+53.5 46.5 ­ ­
+
+Ingot
+wt.%
+56.32 43.00 0.50 0.18
+53.65 46.00 0.20 0.15
+54.33 45.40 0.20 0.07
+
+at.%
+51.00 47.72
+0.48 0.80
+48.34 50.81
+0.19 0.66
+49.15 50.35
+0.19 0.31
+
+The mechanical properties viz., ultimate tensile strength and percent elongation to failure were evaluated using a 5 kN universal testing machine (Instron make). The tensile tests in stroke-controlled mode were performed as per ASTM-E8M test standards.
+3. Results and discussion
+The charge for the first melt was selected as composition of 53 wt.% Ni and 47 wt.% Ti with the assumption that there would be some titanium loss during melting. The objective of the present study is that if the contact between the molten titanium and the graphite crucible can be minimized, the carbon pick up by the melt can be substantially reduced. One way to achieve this is to dissolve titanium in molten nickel. Keeping this in mind, the present material charging sequence was arrived at wherein the Ti-sponge was surrounded by nickel. Since nickel melts at a lower temperature than that of titanium, the above charging sequence would ensure that the solid titanium is always encased by liquid nickel till it melts and goes into solution.
+The chemical composition of the ingots as given in Table 1 showed that the ingot of the first melt had a composition away from the targeted composition, i.e., equi-atomic NiTi alloy, and the carbon pick up was very high (1800 ppm). In a similar study [9], it has been reported that when the graphite crucible is
+
+used for the first time, the titanium loss is high with significant carbon pick up by the melt. This is attributable to the reaction between the molten titanium and the graphite crucible. Also, the reaction product, TiC, forms a thin layer on the graphite crucible surface. Thus, for the carbon to react with the melt, it has to diffuse through this TiC layer. This reduces the carbon pick up by the melt in subsequent melting. It is also expected that after a few melts, the carbon diffusion through the TiC layer would attain a near steady state so that the Ti loss can be determined accurately and hence it would be possible to calculate the charge correctly for a targeted alloy composition. Keeping this in mind, the second charge was kept same as that of the first one. It can be seen (Table 1) that the carbon pick up and the titanium loss were less in this melt compared to those in the first melt. The charge of the third melt was calculated based on the composition of the second ingot. The carbon pick up was substantially reduced to 700 ppm and the composition of the ingot was very close to that of the targeted equi-atomic composition. The oxygen content in all the three ingots was determined to be about 400 ppm.
+Based on the above results, it appears that if a stable TiC layer of optimum thickness can be produced on the graphite crucible surface, before the actual NiTi melt is taken, it may be possible to reduce the carbon pick up to a still lower level. Moreover, it would be possible to calculate the charge for a closer control on the final Ni/Ti ratio in the ingot. This can be achieved after repeated melting in same crucible or by a titanium wash melt before the NiTi melting. In conjunction with this, control of melting temperature to about 1450 C would also help in reducing the overall carbon pick by the melt [8]. A series of experiments are being conducted in this regard to precisely optimize the melting practice for superior ingot chemistry and better product performance.
+Fig. 2(a) shows the microstructure of ingot 1 (melt 1) with carbon content of 1800 ppm. The microstructure is a typical cast structure. The presence of large TiC precipitates may be noted. A similar microstructure was observed in ingot 2 (1500 ppm carbon) as well. It has been reported [14] that the presence of such TiC precipitates is common in NiTi alloys with carbon concentration above 1000 ppm. The microstructure of ingot 3 (melt 3) is shown in Fig. 2(b). This ingot contained about 700 ppm of carbon and hence the TiC precipitates volume fraction and size are substantially less than those in ingots 1 and 2. X-ray diffraction study confirmed that in addition to TiC precipitates,
+
+Fig. 2. Microstructures of: (a) ingot 1 (1800 ppm carbon) and (b) ingot 3 (700 ppm carbon).
+
+N. Nayan et al. / Materials Science and Engineering A 465 (2007) 44­48
+
+47
+
+Fig. 4. A typical DSC plot of 0.5 mm Ø wire with 30% cold strain followed by annealing at 475 C for 30 min.
+
+Fig. 3. Photograph of the wires processed from ingot 3.
+the ingots contain Ti2Ni and Ni4Ti3 precipitates. These precipitates are expected since the alloy composition has a deviation from the equi-atomic NiTi composition.
+Downstream metal working operations viz., forging, rolling and wire drawing were carried out on the ingots to examine the workability. It was possible to perform hot working operations on all the ingots satisfactorily. Problems such as edge cracking during cold rolling and breakages during wire drawing were frequently observed in the material from ingots 1 and 2. The workability of these alloys at ambient temperature was very poor and they appeared to be relatively brittle. The poor workability and the brittleness are attributed to the presence of large quantities of TiC precipitates in the microstructure. On the other hand, the processing of ingot 3 was quite satisfactory. Wires in the diameter range 0.3­0.5 mm could be processed satisfactorily from this ingot (Fig. 3). It may be noted that this particular ingot contained 700 ppm carbon as compared to more than 1000 ppm in ingots 1 and 2.
+The transformation temperatures and the mechanical properties of the wires processed from ingot 3 were determined. The wires had 30% cold strain and were heat treated at 475 C for 30 min. Fig. 4 shows a typical DSC plot. The transformation temperatures are given in Table 2. The wires were found to undergo B2-phase  R-phase and R-phase  B19 phase transformations upon heating and cooling. Fig. 5 shows
+
+Table 2 Transformation propertiesa of 0.5 mm Ø wire with 30% cold work followed by annealing at 475 C for 30 min
+
+Cycle
+
+Transformation temperatures (C)
+
+B19 -phase
+
+R-phase
+
+B2-phase
+
+Start Finish Start Finish Start Finish
+
+Heating ­
+
+­
+
+47
+
+53
+
+54
+
+57
+
+Cooling 6
+
+-5
+
+47
+
+43
+
+­
+
+­
+
+a Transformation hysteresis (austenite finish­martensite start): 51 C.
+
+Fig. 5. Optical microstructure of 0.5 mm Ø wire in martensite phase (30% cold strain followed by annealing at 475 C for 30 min).
+
+Fig. 6. Stress vs. strain plots of 0.5 mm Ø wire: (a) cold worked (30% strain) and (b) cold worked (30% strain) followed by annealing at 475 C for 30 min.
+
+48
+
+N. Nayan et al. / Materials Science and Engineering A 465 (2007) 44­48
+
+Table 3 Mechanical and functional properties of 0.5 mm Ø wire (P: martensite plateau stress and P: martensite plateau strain)
+
+Wire condition
+
+Mechanical properties
+
+Functional properties
+
+UTS (MPa) Elongation at failure (%)
+
+P (MPa) P (%)
+
+Cold worked
+
+1446
+
+6.9
+
+Cold worked and 1090
+
+17.1
+
+annealed
+
+­
+
+­
+
+125
+
+3.5
+
+a typical microstructure of a 0.5 mm Ø wire in martensite phase.
+Fig. 6(a and b) shows the typical stress versus strain plots of the wires in cold worked (30% strain), and cold worked plus heat treated conditions. The mechanical and functional properties are summarized in Table 3.
+4. Conclusions
+1. It has been shown that good quality NiTi alloys with low carbon content can be obtained by VIM of nickel and titanium elements in graphite crucible by deploying innovative charging sequence and creating a screen of TiC on the inner surface of the graphite crucible.
+2. When new graphite crucible is used for the first time, the carbon pick up and the titanium loss are more. Subsequent melting in the same crucible results in ingots with less carbon pick up. This is in total agreement with conclusion no. 1.
+3. The carbon pick up can be reduced substantially if the direct contact between the graphite crucible and the titanium can be avoided. As highlighted in the text, a wash melt with pure titanium is suggested to be an alternate choice of melting route to reduce the number of NiTi to a single melt to achieve desired result.
+
+Acknowledgements
+The authors are thankful to their colleagues in Analytical and Spectroscopy Division (ASD) and Materials characterization Division (MCD) at Vikram Sarabhai Space Centre (VSSC) for chemical analysis and microstructural study, respectively. The encouragement and support received from Dr. K.N. Ninan, Dy. Director Propellants, Polymers, Chemicals and Materials entity (PCM) for the development of NiTi SMAs at VSSC are highly acknowledged. The authors from VSSC and National Aerospace Laboratories (NAL) thank Director, VSSC, and Director, NAL, respectively, for encouragement and kind permission to publish this work.
+References
+[1] K. Otsuka, X. Ren, Intermetallics 7 (1999) 511­528. [2] J. Van Humbeek, Mater. Sci. Eng. A273­A275 (1999) 134­148. [3] T. Durieg, A. Pelton, D. Stockel, Mater. Sci. Eng. A273­A275 (1999)
+149­160. [4] K. Otsuka, T. Kakeshita, MRS Bull. 27 (2002) 91­100. [5] T. Saburi, in: K. Otsuka, C.M. Wayman (Eds.), Shape Memory Materials,
+Cambridge University, 1998, pp. 49­96. [6] W. Tang, R. Sandstorm, in: Pelton, et al. (Eds.), Proceedings of SMST-97,
+1997, pp. 1­6. [7] S.B. Raz, S.K. Sadmezhaad, Mater. Sci. Tech. 20 (2004) 593­598. [8] Y. Suzuki, in: K. Otsuka, C.M. Wayman (Eds.), Fabrication of Shape Mem-
+ory Alloys, Cambridge University, 1998, pp. 133­148. [9] J. Frenzel, Z. Zhang, K. Neuking, G. Eggeler, J. Alloys Compd. 385 (2004)
+214­223. [10] S.M. Russel, in: S.M. Russel, A.R. Pelton (Eds.), Proceedings of SMST-
+2000, 2001, pp. 1­9. [11] M.H. Wu, in: Y.Y. Chu, L.C. Zhao (Eds.), Proceedings of SMST-SMM
+2001, Trans Tech Publications, 2002, pp. 285­291. [12] J. Otubo, O.D. Rigo, C. Moura Neto, M.J. Kaufman, P.R. Mei, J. Phys. IV
+France 112 (2003) 873­876. [13] J. Otubo, O.D. Rigo, C. Moura Neto, M.J. Kaufman, P.R. Mei, Mater Res.
+7 (2004) 263­267. [14] O.D. Rigo, J. Otubo, C. Moura Neto, P.R. Mei, Mater. Proc. Tech. 162/163
+(2005) 116­120.
+
+

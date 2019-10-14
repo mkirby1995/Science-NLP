@@ -1,0 +1,301 @@
+Acta Astronautica 68 (2011) 760­769
+Contents lists available at ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+
+Designing from minimum to optimum functionality$
+Olga Bannova n, Larry Bell
+Sasakawa International Center for Space Architecture (SICSA), University of Houston, USA
+
+article info
+Article history: Received 20 January 2010 Received in revised form 30 July 2010 Accepted 1 September 2010 Available online 25 September 2010
+Keywords: Habitat Lunar Habitable module Human factors Environment Design
+
+abstract
+This paper discusses a multifaceted strategy to link NASA Minimal Functionality Habitable Element (MFHE) requirements to a compatible growth plan; leading forward to evolutionary, deployable habitats including outpost development stages. The discussion begins by reviewing fundamental geometric features inherent in small scale, vertical and horizontal, pressurized module configuration options to characterize applicability to meet stringent MFHE constraints.
+A proposed scenario to incorporate a vertical core MFHE concept into an expanded architecture to provide continuity of structural form and a logical path from ``minimum'' to ``optimum'' design of a habitable module.
+The paper describes how habitation and logistics accommodations could be preintegrated into a common Hab/Log Module that serves both habitation and logistics functions. This is offered as a means to reduce unnecessary redundant development costs and to avoid EVA-intensive on-site adaptation and retrofitting requirements for augmented crew capacity. An evolutionary version of the hard shell Hab/Log design would have an expandable middle section to afford larger living and working accommodations.
+In conclusion, the paper illustrates that a number of cargo missions referenced for NASA's 4.0.0 Lunar Campaign Scenario could be eliminated altogether to expedite progress and reduce budgets. The plan concludes with a vertical growth geometry that provides versatile and efficient site development opportunities using a combination of hard Hab/Log modules and a hybrid expandable ``CLAM'' (Crew Lunar Accommodations Module) element.
+& 2010 Elsevier Ltd. All rights reserved.
+
+1. Introduction
+Prudent planning for lunar/planetary surface habitation should provide an architectural evolutionary configuration and system development pathway that leads from limited to expanded capacities in a coherent, progressively additive manner. Accomplishment of this planning demands a strategic approach that anticipates future growth and mission requirements that guide incremental design stages. Important priorities are to maximize
+$ This paper was presented during the 60th IAC in Daejeon. n Corresponding author.
+E-mail addresses: obannova@uh.edu (O. Bannova), lbell@uh.edu (L. Bell).
+0094-5765/$ - see front matter & 2010 Elsevier Ltd. All rights reserved. doi:10.1016/j.actaastro.2010.09.004
+
+standardization of elements to: achieve overall commonality of structures, interfaces, and support systems; focus and expedite technology development/testing and realize least-cost implementation and operational economies.
+This paper illustrates two alternative habitat configuration concepts and expansion scenarios that originate with highly constrained mass/volume features consistent with earliest operational accommodations. The schemes incorporate means to commence operations while still on the landers, then offload the modules to the surface using a special lander-integrated crane, and to subsequently increase functional capacities using soft expandables and additive element growth. These examples draw upon design proposals developed by the Sasakawa International Center for Space Architecture (SICSA) in support of
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+761
+
+Table 1 Study team assumptions.
+Boeing
+MFHE will be offloaded from lander by Lunar Surface Manipulator System (LSMS) or Hooping Crane prior to operation
+Will use detachable airlocks from earlier sortie missions for all module phases
+Initial MFHE module provides only one airlock/berthing port
+Small pressurized rovers will dock with later, deployable versions
+Consumable gas/water will be contained in external logistics pallets
+
+ILC-Dover
+MFHE may operate from atop the lander until Mission 8 using SICSA lift for surface access
+Alternatively, MFHE can be placed on surface using SICSA Hooping Crane offloader Inflatable airlocks will be integrated into all modules
+Airlocks can hold four suits; or two can be bagged and stowed inside Up to 400 kg of water may be scavenged from each loader
+
+separate NASA contracts awarded to teams headed by Boeing and ILC-Dover for a ``Minimum Functionality Habitation Systems Concept Study''. Comprehensive team study results were presented to NASA in February, 2009, and have been publicly released to all interested parties.
+Each of the study teams defined special assumptions that influenced their planning approaches and conceptual responses. Important examples are summarized above (Table 1).
+Both teams' final reports were presented at U.S. Chamber of Commerce Programmatic Workshop on NASA Lunar Surface Systems Concepts on February 13, 2009 and are posted on-line now [1].
+2. Study background
+In September 2008, the NASA Explorations Systems Mission Directive (ESMD) awarded contracts to Boeing, ILC-Dover and the University of Maryland to conduct concept study investigations involving requirement definition and planning for a ``Minimum Functionality Element'' (MFHE) lunar habitat. The primary study purpose was to conceptualize the smallest module possible capable of providing barest living and work essentials for initial short-term lunar missions with virtually no emergency contingencies other than basic radiation protection countermeasures. Although NASA would never actually fly such a facility, the central intent was to examine lowest operable volumetric, mass, consumable and equipment system functionalities to establish a foundation baseline upon which more acceptable capabilities and accommodations can then be added. Means to achieve such expanded growth features were then to be conceptualized as a secondary priority. All work was to be completed within a six-month period.
+SICSA was a member of two of the study teams, one headed by Boeing, and the other by ILC-Dover. The Boeing team involved several major corporate participants. Members included Hamilton Sunstrand, Harris, Honeywell, ILC-Dover, Oceaneering Space Systems, Orion, and the United Space Alliance. The ILC-Dover team was much
+
+smaller, with only SICSA and Hamilton Sunstrand as additional members.
+NASA established functional support requirements to guide the study, but provided some latitude for contractors to ``push back'' on those they wished to challenge with logical alternatives. The original guidelines follow [2]
+Crew accommodations:
+ The MFHE should initially support a crew of four for 28
+days plus an additional 30-day contingency exception.
+ Later expanded capacity should provide for continuous
+4-person 180-day stays, with surges of an additional 4 people during crew changes.
+ Scientific workstations should be incorporated (e.g. a
+geosciences glove box).
+Operations:
+ Crew missions will be scheduled at 6-month intervals
+based upon a reference 4.0.0 mission campaign (see Fig. 1).
+ The MFHE will be landed pressurized at a polar
+location, and will remain on the lander for approximately 2 years prior to occupancy following offloading by a Tri-ATHLETE.
+ EVA operations will occur approximately every other
+day.
+Allowable volume and mass:
+ The module pressure envelope should fit into an
+860 m3 payload shroud (8.8 m diameter Â 17.2 m tall of a prescribed shape profile).
+ Total structure, equipment and crew consumables
+mass should not exceed 7 MT (this does not include an extra allowance for an attached Power Supply Unit (PSU) along with solar arrays and radiators).
+Structure and utilities:
+ The MFHE pressure shell should be designed to
+accommodate 8 psi of atmosphere (30 percent O2).
+ Identical intermodal interfaces should be provided.  Fluid and energy storage may be located outside the
+habitat envelope, with the energy distribution and collection network inside.
+ Some form of protection from Solar Particle Events
+(SPEs) should be provided for crew safety.
+Although hard restrictions upon allowable volume and mass were held and surpassed, both study groups introduced modifications that significantly influenced their final MFHE design and operations proposals.
+3. SICSA design concepts
+During the course of the study, SICSA also proposed alternatives that challenged original NASA and contractor guideline assumptions. An important example is its conceptual Hooping Crane offloading system, which
+
+762
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+Fig. 1. NASA mission campaign 4.0.0 [2].
+
+would make it unnecessary to wait for the arrival of a Tri-ATHLETE to perform this function. SICSA also conceived a simple astronaut, logistics and rock sample lift device that can enable operations to commence while the MFHE is on the 6 m high lander deck prior to placement on the surface
+SICSA's Hooping Crane and Lander Lift System concepts are proposed as simple means to enable operational MFHE status to be achieved prior to the arrival of a Tri-ATHLETE or other surface manipulator devices. Fig. 2 depicts Hooping Crane in a stowed position in the payload and stages of the offloading procedure. Lander's legs may be equipped with retractable devices to provide its better stability and to prevent tipping over during surface operations. Simple pulley-type lift devices can eliminate a requirement for drop-down tunnels and ladders, enabling EVA-suited crews to access module airlocks directly. This will enable a module to be later lowered/relocated on the surface without modifications (Fig. 2) [3,5].
+3.1. Launch optimization considerations
+Given that a central priority of the MFHE study was to determine how large and heavy a ``minimum'' habitat should be, the SICSA group first began to investigate this issue from the perspective of maximum scaling for launch. This activity conceptualized potential module pressure envelope configurations and dimensions that would fit within a prescribed Ares V payload shroud to determine an outer scaling boundary [2]. In other words, the intent was to start by viewing the question ``from
+
+the outside in'' to first determine maximum sizes and respective structural mass implications for each.
+References were established for four generic launchcompatible pressure envelope options: horizontal ``hard shell'' single level and two level configurations; a vertical hard shell three level geometry; and a vertical expandable three level hybrid scheme. Floor areas and internal volumes were estimated for each, along with surface areas which provided a preliminary basis for projecting structural mass (Fig. 3) [3].
+SICSA's preliminary configuration investigations considered opportunities/limitations for attaching other structures and elements to a habitat module prior to launch to facilitate operational readiness upon landing [8].
+Included are potentials to secure radiators, solar arrays and antennas to hard shell sections of pressure envelopes, and capabilities to accommodate mountings and room for airlocks/suitlocks, consumable tankage, and other attached items within the payload shroud.
+Advantages and limitations of various EVA and module/ pressurized rover berthing interfaces were explored within the context of these preliminary configuration and operation investigations. Included were attachable and integrated hard airlocks/berthing elements, integrated deployable systems, and suitlocks.
+SICSA's preliminary analysis of MFHE configuration and scaling options considered various influences of module mass placement and structural characteristics upon lunar descent and ascent stages. Some of these influences are inherent in configuration geometry that determines load paths, while others more directly relate to the form and construction of pressure shells and secondary structures (Fig. 4).
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+763
+
+Est. Floor Area = 22 m2 (236.8 ft2) Est. Surface Area = 115.9 m2 (1,247.4 ft2) Est. Mass = 1,713.8 kg (3,778 lbs) Floor/Surface Ratio = 18.9% Volume = 100 m3 (3,531 ft3)
+1
+
+Est. Floor Area =61.3 m2 (658.4 ft2) Est. Surface Area = 233 m2 (2,507.8 ft2) Est. Mass =3,445.5 kg (7,596 lbs) Floor/Surface Ratio = 26.3% Volume = 195 m3 (6,886 ft3)
+2
+
+Fig. 2. SICSA surface system concepts.
+Smaller horizontally oriented modules have lower CG locations than taller vertically oriented modules, while larger diameter vertically oriented modules may offer mass arrangement along a central descent load path for better lateral balancing. Hybrid hard-soft vertically oriented modules can be launched/landed in a compacted and undeployed state that beneficially lowers the CG, while pressurized modules will provide additional stiffness to resist landing impact deformations.
+3.2. Capacity and functionality
+A preliminary investigation of ``real estate value'' afforded by the referenced generic configuration options addressed two important aspects of interest: the total volume/floor area encompassed by the pressure vessels; and the net habitable volume and floor areas that would be expressly provided to host crew living and work functions [3].
+SICSA's capacity and functionality studies directed particular emphasis to three types of metrics: volume, floor area, structural mass ratios; spatial quality of habitable areas; and floor/wall accommodations for fixed equipment. The goal has been to optimize these features within stringent constraints mandated by MFHE intent.
+
+Est. Floor Area = 110 m2 (1,188 ft2) Est. Surface Area = 225.3 m2 (2,425 ft2) Est. Mass = 3,331 kg (6,386 lbs) Floor/Surface Ratio =48% Volume = 243 m3 (8,606 ft3)
+3
+Est. Floor Area = 134.2 m2 (1,444.4 ft2) Est. Surface Area =317 m2 (3,412 ft2) Est. Mass = 4,687.6 kg (10,334 lbs) Floor/Surface Ratio = 42% Volume = 309 m3 (10,912 ft3)
+4
+Fig. 3. Option scaling references.
+Generally speaking, larger diameter vertically oriented schemes which increase dramatically as a function of the
+pr2 factor afford substantial volume/floor area advantages
+over horizontal configurations. Increased floor areas/ volumes provide enhanced opportunities for multi-use applications that may change during different times of the day and afford psychological benefits [9].
+3.3. Deployment, reliability, and maintainability
+SICSA conducted a preliminary review of the four original generic MFHE configuration schemes with regard to inherent deployment, reliability and maintainability issues. Considerations included: how rapidly and easily
+
+764
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+Fig. 4. Landing considerations.
+
+they can be made operational upon lunar surface arrival; use of proven technologies; relative simplicity of structures and mechanisms; access afforded to structures/ utilities/equipment for maintenance and repairs; and available volumes for spares and tools.
+Briefly noted, an ideal arrival-ready operational status envisions a fully automated deployment with all major equipment systems in place and functioning. The goal is to minimize a need for construction equipment, complex assembly stages and valuable crew time. This can be most obviously accomplished using ``hard'' conventional modules with all systems pre-integrated (Fig. 5).
+Unlike decades of international experience with human spacecraft and operations in Low Earth Orbit, extended lunar missions pose new uncertainties and challenges. Included are: conditions of increased remoteness from near-Earth support services; long diurnal daynight phases; problematic dust conditions; and severe mass/volume constraints upon equipment spares, tools, and repair accommodations.
+Hard shell conventional modules, along with traditional types of deployable solar arrays and other systems, and subsystems, have a considerable history of proven use. An alternative technology, hybrid modules with expandable soft sections are still in experimental development and prototypical testing stages. While promising for lunar/planetary and orbital applications, long-term performance issues remain unanswered. These issues include tendencies for highly pressurized softgood materials to ``creep'', and uncertain resistance to degradation due to extreme thermal cycling and other environmental factors.
+3.4. Evolutionary growth
+Evolutionary development growth can occur in a variety of ways. One is to begin with partially outfitted larger volume habitats (e.g. hybrids) and add/retrofit
+
+Hard modules can be pre-integrated and ready to go
+Hybrids are more complex but can integrate systems/ equipment into hard sections, including top surface for solar arrays/radiators/antennas
+Fig. 5. System integration.
+expanded accommodations. Another is to provide for attachable augmentations (hard or inflatable), including reuse of logistics modules or duplicated elements with common configuration features [4].
+Use of higher capacity designs at early stages can facilitate growth within a unified element architecture that provides transitional simplicity, reduces engineering/ development costs, expedites functionality enhancements, and enables performance tests to commence sooner. Larger capacity modules can also accommodate greater internal layout versatility for shared, dedicated and evolutionary uses, and provide expanded stowage capacities for consumables, maintenance tools and parts, and research/housekeeping supplies.
+SICSA proposed an alternative way of envisioning MFHE evolution from minimum to optimum functionality that deviates substantially from the NASA reference campaign 4.0.0 lunar campaign timeline that appears in Fig. 6. The proposal postulates that a small vertical MFHE core be perceived as a virtual rather than tangible module within a larger diameter pressure envelope, which also serves as a pressurized logistics (Hab/Log Module).
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+765
+
+Growth from MFHE ­ to deployable ­ to outpost requirements favors geometric benefits afforded by vertical configurations. It is also important to provide an efficient, coherently staged lunar development strategy. The following approach is proposed to accomplish both objectives:
+ The MFHE stage can be envisioned as a ``virtual'' core
+element within a larger deployable module.
+ The larger deployable module can be conceived as a
+combined Habitat-Logistics (Hab/Log) Module that takes advantage of the full 8.2 m launch payload shroud diameter for both functions.
+ The Hab/Log hybrid would avoid redundant develop-
+ment costs for separate modules, making a unique Reusable Pressurized Logistics Module (RPLM) unnecessary. This would also avoid EVA requirements associated with adapting the RPLM for supplementary on-site habitat augmentation.
+ A Hooping Crane system can enable the Hab/Log
+Modules to be offloaded with pre-integrated PSUs and surface mobility chassis prior to arrival of EVA crews and other payload manipulation/transport equipment. This will enable immediate on-surface operational status.
+ The original hard shell Hab/Log design would incorpo-
+rate features to accommodate a future version with an expandable middle section, adding substantial outpost habitation capacity.
+This alternate growth path scenario can rapidly expedite lunar surface development and operational progress, and can also significantly reduce the number of required cargo and crew missions over the NASA 4.0.0 scenario (Figs. 7 and 8) [5].
+Various configuration options lend themselves to natural growth patterns by virtue of special berthing geometry characteristics. These patterns, in turn, have important crew safety and assembly/deployment implications (Figs. 9 and 10). Horizontal cylindrical modules naturally create linear and perpendicular growth configurations while vertical modules can readily form triangular growth configurations [4].
+
+4. Boeing MFHE concept
+Although the original MFHE lacked contingency provisions essential for any truly ``flyable'' application, the study did entail investigations and proposals for evolution to real deployable and outpost capabilities. A ``Pressurized Interim Lunar Lodge'' (PILL) approach adopted by Boeing accomplished expansion by adding an inflatable element above a hard vertical 4.5 m diameter MFHE module. Two solar arrays mounted on pivoting arms to horizontally track the Sun provide power (Fig. 11).
+Boeing's hybrid deployable PILL architecture offers important advantages. The lower section presents relatively standard hard module features wherein utility and equipment systems are pre-integrated, securely mounted to resist launch and landing loads, and fully operational upon surface arrival. Independent hard and soft sections enable the module to be landed pressurized for stiffness, a benefit also served by its vertically cylindrical orientation. The upper inflatable section can either be preattached or delivered separately, providing a large augmentation volume for such purposes as research workstations, wardroom and exercise functions, and living quarters.
+4.1. Inflatable element integration options
+SICSA proposed two alternate inflatable upper element integration concepts (Fig. 12). The first attached a 9 m diameter soft section around the outer PILL perimeter so that crew vertical access would enter at the main floor level. The second scheme responded to a Boeing suggestion that the inflatable connect at a collar placed around the PILL's top dome pressure hatch. This approach was simpler to integrate and reduced the circumference and mass of the hard-soft pressure seal interface.
+When developed, the sleeping area provided in the PILL's upper dome would be relocated to permanent accommodations located in the much more spacious inflatable section. The evacuated volume can be used for supplementary stowage and equipment [6].
+
+MFHE Core Hab/Log Module
+
+Hooping Crane Module/PSU on
+
+Lander
+
+Cargo Chassis
+
+Fig. 6. An alternate MFHE growth pathway.
+
+Hybrid Expandable Hab Module
+
+Outpost Growth Stage
+
+766
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+Fig. 7. Comparison SICSA's mission concept with NASA 4.0.0 reference.
+
+All airlock options
+
+Lander 1
+
+Hab/ Log
+
+Hab/ Log
+
+Lander at core site provides supplementary support (MPU, LCT and residual water)
+
+CLAM Habitat 3
+
+First Hab/Log module landing establishes the Outpost Site
+
+Attachable or deployable Airlock
+Flexible berthing tunnel
+Hab/Log and CLAM modules can be outfitted for science functions (Hab/Lab)
+
+Fig. 8. Lunar outpost growth.
+
+Scheme One
+
+Race Track
+
+Free Growth
+
+Achieves dual egress after four modules deployed
+
+Attachable airlocks can be relocated Scheme Two Cruciform
+Fig. 9. Growth geometries: horizontal modules.
+5. ILC-Dover MFHE concept
+The ILC-Dover team's MFHE approach emphasized applications and benefits of inflatable elements which
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+767
+
+Fig. 10. Growth geometries: vertical modules.
+
+Fig. 12. SICSA's integration concepts.
+
+Fig. 11. The Boeing PILL deployable concept.
+can reduce launch payload volume, optimize operational versatility and expand functionality through evolutionary growth. Such elements include integrated airlock and side pod concepts, an innovative deployable ``chimney'' for thermal balancing, and the vertical hybrid ``Crew Lunar Accommodations Module'' (CLAM) to demonstrate larger scale inflatable advantages.
+
+The ILC-Dover team proposed a ``three-tier'' development strategy [6]. The first phase envisions a relatively conventional horizontal 3 m diameter, 4.5 m long module with an integrated inflatable airlock that can operate either from atop the lander, or be placed on the surface. MFHE operations from the lander may be achieved using a simple scaffold lift providing vertical circulation for crews, tools, geological samples, and consumables (Fig. 13).
+The ILC-Dover team proposed that an inflatable side pod be incorporated into its baseline 3 m diameter MFHE module for Tier Two expansion. This would approximately double the module's interior volume. The configuration could alternatively operate from atop its lander deck or be offloaded to the surface via a Hooping Crane.
+The hybrid hard module-soft expandable approach presents important advantages afforded by each structure type. The hard shell enables equipment and utility systems to be pre-integrated and checked out prior to launch; readily accommodates external berthing interfaces and other penetration seals; and applies proven technology. The soft deployable section conserves launch volume for companion payloads while expanding deployed volume functionality and crew comfort. Fig. 14 illustrates use of this augmentation for dedicated sleep/ work stations.
+The deployable pod would connect to the primary module at a localized pressure lock interface to preserve as much precious hard wall space as possible for equipment and also minimize the length of the hard-soft structural interface seal's mass and leak potential.
+The inflatable side section would be pre-integrated and packaged flat against the hard module for launch, landing and surface offloading/placement (Fig. 15). Rigid wall and
+
+768
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+Fig. 13. ILC-Dover tier one development.
+
+Fig.15. Tier two sided pod development.
+
+Fig. 14. ILC-Dover tier two expansion.
+floor panels stowed inside would afford easy ``snap-inplace'' attachment by the first crew following deployment. This would occur following automated inflation of the thermal chimney and EVA airlock. A berthing port opposite the airlock would enable attachments to other modules or docking by pressurized rovers.
+The ILC-Dover team's Tier Three proposal is based upon SICSA's 8.2 m diameter CLAM configuration with hard lower and upper pressure shell section and an
+
+Fig. 16. CLAM undeployed.
+expandable mid-section. This hybrid approach affords a variety of advantages:
+ The complete undeployed habitat is sufficiently low to
+conform within the tapered baseline shroud geometry. The hard upper and lower sections encapsulate and protect internal systems during launch and landing with secure mounting points.
+ Utility and mounted equipment systems can be pre-
+integrated into the lower section and middle floor and operational upon crew arrival.
+ The upper shell provides a solid attachment surface for
+power, thermal control and communication systems.
+Figs. 16 and 17 depict the CLAM in undeployed and deployed states.
+6. Study outcome
+The scope of the Minimum Functionality Habitation Element Systems Concept Study program was wisely conceived to address not only requirements to meet barest living and work essentials, but to consider evolutionary pathways forward as well. This entails a strategic perspective of progressive growth sequences ranging from early expeditionary missions ­ to operational
+
+O. Bannova, L. Bell / Acta Astronautica 68 (2011) 760­769
+
+769
+
+capacity benefits afforded by incorporated or attachable soft inflatables.
+ Accommodating versatility: recognizing that lunar
+habitation and work functions will change over time incorporate modular ``plug-n-play'' upgrade/changeout features wherever possible.
+ Advancing long-lead technologies: anticipating and
+establishing early development and performance tests for evolution-critical equipment, materials and operations (e.g. advanced power, thermal control, hybrid structures automation/robotic devices, and closed-loop ECLSS capabilities).
+
+Fig. 17. CLAM deployed.
+outposts ­ to more self-sufficient settlements that process in-situ resources--and potentially forward to envision lunar commercialization industries and launch vehicle propellant production [7].
+While the very short six-month-long study period did not allow time to examine specific growth stage support implications, it did provoke awareness of broad issues and priorities. For example:
+ Designing for element commonality: ensuring that
+habitat modules are planned and selected for compatibility with other support and interfacing systems over their operational lives.
+ Conserving delivered assets: enormous costs required to
+transport payloads to the lunar vicinity make it essential to make resourceful use of salvageable structures, equipment, and consumables from previous missions.
+ Applying economies of scale: potentially apply hybrid
+structure approaches that combine equipment preintegration advantages of hard elements with expanded
+
+References
+[1] U.S. Chamber of Commerce Programmatic Workshop on NASA Lunar Surface Systems Concepts, 02.13.09. /http://www.nasa.gov/explora tion/library/lss_systems_concepts_workshop.htmlS.
+[2] Reference mission for BAA Minimal Functionality Habitation Element, NASA Lunar Surface System Project Office, September, 2008.
+[3] Report I: figure of merit criteria for evaluating and selecting lunar habitat module concepts, Minimum Functionality Habitation Element Systems Concept Study, December, 2008.
+[4] Report II: an alternative pathway to growth, from minimum to optimum functionality, Minimum Functionality Habitation Element Systems Concept Study, December, 2008.
+[5] Report III: lunar surface cargo manipulation and transport system options, applications and capabilities, Minimum Functionality Habitation Element Systems Concept Study, January, 2009.
+[6] Report IV: lunar module habitability and interior outfitting considerations and concepts, Minimum Functionality Habitation Element Systems Concept Study, January, 2009.
+[7] Report V: summary study guidelines, assumptions and conclusions, Minimum Functionality Habitation Element Systems Concept Study, March, 2009.
+[8] SICSA space architecture seminar lecture series, Part I: space structures and support systems, Section B: Space Structures and Applications.
+[9] SICSA space architecture seminar lecture series. Part II: Human Adaptation and Safety in Space.
+
+

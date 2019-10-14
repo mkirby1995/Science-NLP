@@ -1,0 +1,282 @@
+Fuel Processing Technology 108 (2013) 89­93
+Contents lists available at SciVerse ScienceDirect
+Fuel Processing Technology
+journal homepage: www.elsevier.com/locate/fuproc
+
+Plasma-assisted catalytic methanation of CO and CO2 over Ni­zeolite catalysts
+E. Jwa, S.B. Lee, H.W. Lee, Y.S. Mok 
+Department of Chemical Engineering, Jeju National University, Jeju 690-756, Republic of Korea
+
+article info
+Article history: Received 15 November 2011 Received in revised form 14 March 2012 Accepted 16 March 2012 Available online 9 April 2012
+Keywords: Hydrogenation Carbon oxides Methane Nonthermal plasma
+
+abstract
+This work investigated the hydrogenation of carbon oxides (CO and CO2) into methane ("methanation") in a dielectric barrier discharge (DBD) plasma reactor packed with Ni/zeolite pellets. For the present investigation, plasma-assisted catalytic hydrogenation and conventional catalytic hydrogenation were examined for a temperature range of 180­360 °C by varying nickel loading up to 10 wt.%. In the catalysis-alone case, the conversions of CO and CO2 were less than 15%, regardless of nickel loading, indicating that thermal activation of the catalyst was not enough to achieve significant methanation rate for the temperature range explored. On the other hand, with nonthermal plasma created in the catalyst bed, a precipitous rise in the conversion of more than 95% was observed for either CO or CO2. It is inferred that reactive species generated in the plasma reactor can speed up the rate-determining-step of the catalytic hydrogenation. The catalyst characterizations by using X-ray diffraction and transmission electron microscope analyses revealed that Ni particles got smaller and were more uniformly dispersed over the support material after the plasma reaction, leading to increased conversion efficiencies of carbon oxides.
+© 2012 Elsevier B.V. All rights reserved.
+
+1. Introduction
+The methanation of carbon oxides (CO and CO2) is a predominant method for the production of methane (CH4) which is the principal component of natural gas. The methanation of CO is not only an indispensable step in the production of synthetic natural gas (SNG) from synthesis gas produced by coal gasification or steam reforming of hydrocarbons, but also a purification method to remove CO poison from H2-rich gas for fuel cells. Increase in the emission of greenhouse gases (mainly CO2) in the atmosphere pose a major challenge to mitigate global warming. Technologies which include possible reduction or conversion of CO2 offer valuable advantages for protecting the environment by recycling CO2 effectively based on the catalytic methanation.
+Conversions of carbon oxides into methane with acceptable reaction rate and selectivity are inherently difficult due to the kinetic limitations, though they are exothermic and thermodynamically favorable. Therefore, catalysts, mostly Group VIII metals such as Ni, Ru and Pt supported on diverse porous materials, are usually required to achieve considerable methanation rates [1­6]. Ni-based catalysts have been widely investigated for industrial purposes because nickel is cheap and easily available. Zeolites may be one of attractive support materials in that they have high thermal stability, affinity to carbon oxides and large surface area. Outstanding adsorption capability rendered by -zeolite (one of a variety of zeolites) can be widely used for
+ Corresponding author. Tel.: +82 64 754 3682; fax: +82 64 755 3670. E-mail address: smokie@jejunu.ac.kr (Y.S. Mok).
+0378-3820/$ ­ see front matter © 2012 Elsevier B.V. All rights reserved. doi:10.1016/j.fuproc.2012.03.008
+
+the decomposition of NOx [7], removal of odorants from natural gas [8], alkylation of benzene [9], and so forth.
+Among various plasmas, nonthermal plasma, also known as nonequilibrium plasma, can be effective for assisting catalytic methanation. Nonthermal plasma which produces a variety of active species such as electrons, ions and radicals has been applied to CO2 reforming of CH4, production of synthesis gas, methanation of CO, etc. [10­12]. Song et al. [12] investigated the production of synthesis gas by using Ni catalyst packed in dielectric barrier discharge (DBD) nonthermal plasma reactor, who reported that the CO selectivity considerably increased by the application of plasma. Furthermore, Mok et al. [11] found that nonthermal plasma can enhance the rate of catalytic methanation of CO over Ru/TiO2/alumina. As well, the application of nonthermal plasma can presumably relieve possible poisoning and deactivation of catalyst, thereby improving the stability of catalyst [13]. In this work, a DBD plasma reactor packed with Ni/-zeolite was employed to examine the effect of nonthermal plasma on the methanation of carbon oxides. Methanation was carried out at temperatures from 180 to 360 °C and an applied voltage of 9.4 kV along with nickel contents of 0­10 wt.%. Besides, a comparative investigation between in the absence and in the presence of nonthermal plasma was made. Structural characterizations of Ni/-zeolite catalysts before and after methanation reactions were carried out by using X-ray diffraction (XRD) and transmission electron microscope (TEM).
+2. Experimental
+The methanation of carbon oxides was performed over 0­10.0 wt.% Ni/zeolite catalysts prepared by incipient wetness impregnation
+
+90
+
+E. Jwa et al. / Fuel Processing Technology 108 (2013) 89­93
+
+method. A weighed amount of nickel nitrate hexahydrate (Ni (NO3)2·6H2O) purchased from Acros Organics was dissolved in distilled water, which was added to a known amount of -zeolite (Cosmo Fine Chemical) that was previously crushed and sieved to a size of 1­2 mm. Subsequently, the aforementioned zeolite impregnated with aqueous nickel nitrate solution was dried in an oven, calcined at 550 °C for 6 h and then reduced at 550 °C for 6 h under hydrogen atmosphere. The Brunauer­Emmett­Teller (BET) specific surface area of the -zeolite was measured to be around 550­600 m2 g-1, and the Si/Al molar ratio was about 130.
+Fig. 1 shows the experimental setup consisting of mass flow controllers (MKS Instruments, Inc.), high-voltage power supply, a plasma-catalytic reactor installed in a tube furnace, a digital oscilloscope and a gas chromatograph. As shown in Fig. 2, the plasma-catalytic reactor was made up of a quartz tube (inner diameter: 15 mm; thickness: 1.5 mm), a 6.4-mm-concentric stainless-steel rod acting as the discharging electrode and a copper foil wrapping around the outer surface of the quartz tube. The reactor was packed with a given amount of catalyst pellets (17 cm3). The effective length of the plasma-catalytic reactor was about 110 mm. The feed gas was a mixture of pure hydrogen and carbon monoxide or a mixture of pure hydrogen and carbon dioxide. For the CO methanation, the H2/CO molar ratio was adjusted to 3 by the stoichiometry. The CO2 methanation was separately performed with a H2/CO2 molar ratio of 4. The flow rate of the feed gas was 12,000 cm3 h- 1 for the CO methanation, and 15,000 cm3 h-1 for the CO2 methanation. An alternating current (AC) high voltage (operating frequency: 1 kHz) of 9.4 kV was applied to the discharging electrode to create nonthermal plasma. The reactor temperature was measured with a K-type thermocouple placed 50 mm away from the end of the discharging electrode. The use of infrared for temperature measurement was not practically available with the current configuration of the reactor system. That is why the thermocouple was employed even though it may not be the best temperature measurement method. All experiments were conducted at atmospheric pressure.
+The voltage applied to the plasma-catalytic reactor was measured by using a high voltage probe having an attenuation ratio of 1000:1 (P6015, Tektronix) and a digital oscilloscope (TDS 3032, Tektronix). The concentrations of relevant compounds were analyzed by a gas chromatograph (Micro GC CP-4900, Varian) equipped with an analytical column (10 m Pora Plot Q Column), using high purity helium as a carrier gas.
+3. Results and discussion
+Fig. 3 presents CO conversions in the DBD plasma reactor packed with 10 wt.% Ni/-zeolite in the presence and in the absence of plasma for a temperature range of 180­360 °C. In this figure the
+
+Fig. 2. Catalyst-packed dielectric barrier discharge plasma reactor.
+
+equilibrium conversions calculated with the thermodynamic values tabulated in Table 1 [14] are also given as a function of temperature. Without plasma, the conversion was less than 14% below 260 °C, and it increased to about 95% at 300 °C. Surprisingly, non-thermal plasma was able to greatly improve the conversion of CO to more than 97%, almost close to the equilibrium conversion. Particularly at low temperatures of 180­260 °C where catalysis alone did not produce significant methanation rate, the plasma gave rise to a sharp increase in the conversion of CO. According to the literature, catalytic methanation of CO consists of carbon formation and carbon methanation steps as follows [15]:
+Step 1. Carbon formation
+
+COadsCads þ OadsðRDSÞ
+
+ð1Þ
+
+Step 2. Carbon methanation
+
+Cads þ HadsCHads
+
+ð2Þ
+
+CHads þ HadsCH2;ads
+
+ð3Þ
+
+CH2;ads þ 2HadsCH4;gas:
+
+ð4Þ
+
+Among these reaction steps, the dissociation of C\O bond to C and O is regarded as the rate-determining step (RDS). The other reactions are kinetically very fast. It is inferred that nonthermal plasma can change the rate-determining step because various reactive species produced by the plasma can help dissociate adsorbed CO molecules.
+
+100
+
+80
+
+CO conversion (%)
+
+60
+
+40
+
+Catalyst alone
+
+20
+
+With plasma
+
+Equilibrium conversion
+
+Fig. 1. Schematic diagram of the experimental apparatus for plasma-catalytic methanation.
+
+0
+Temperature (oC)
+Fig. 3. Comparison of CO conversion efficiencies over 10 wt.% Ni/zeolite between catalyst alone and plasma-catalyst.
+
+E. Jwa et al. / Fuel Processing Technology 108 (2013) 89­93
+
+91
+
+Table 1 Standard enthalpies and Gibbs free energies for CO and CO2 methanation [14].
+
+Reactions
+CO + 3H2  CH4 + H2O CO2 + 4H2  CH4 + 2H2O
+
+H298K (kJ/mol)
+- 205.8 - 164.6
+
+G298K (kJ/mol)
+- 141.9 - 113.3
+
+Note that the bond strength of an adsorbed molecule is much weaker than in the gaseous state, which implies that the plasma is more easily capable of cleaving the bond of adsorbed molecule. The results for the methanation of CO2 over the same catalyst are given in Fig. 4. In the case of catalysis alone, the reaction temperature was increased up to 360 °C and 96% conversion efficiency was observed at 360 °C. The equilibrium conversion efficiency was calculated to approach 100% at temperatures of 180­360 °C. In the presence of plasma along with Ni/zeolite catalyst, CO2 methanation increased with increasing the temperature and reached 96% conversion at 260 °C. The hydrogenation of CO2 involves the dissociation of CO2 to C\O and O on the active site of Ni/zeolite as below [16,17]
+
+CO2;adsCOads þ Oads:
+
+ð5Þ
+
+The extent of this reaction is low but it is thermodynamically favorable [6]. The RDS in CO2 conversion into CH4 would be the same with CO conversion. The dissociated species reacts with hydrogen to produce methane. Like the case of CO methanation, the plasma can help dissociate adsorbed molecules, leading to the enhancement in the conversion efficiency.
+Figs. 5 and 6 show the effects of Ni loading on the CO and CO2 methanation for a temperature range of 180­260 °C with and without the application of plasma. The methanation efficiencies of both CO and CO2 were generally low, not exceeding 15% at all nickel contents examined. On the other hand, the conversion efficiencies in the presence of plasma were considerably enhanced. The increase in the methanation rate is believed to be arisen from the increased concentration of surface carbon. As mentioned above, the formation of surface carbon by the dissociation of adsorbed carbon oxides is the RDS. With plasma, surface carbon can be produced by both thermal activation and plasma, eventually resulting in higher methanation rate than the case without plasma. With plasma alone (bare zeolite), the conversion efficiencies of CO and CO2 were found to be less than 1%, implying that plasma itself cannot convert carbon oxides into methane, even if it can assist catalytic reactions.
+
+CO conversion (%)
+
+100
+
+Catalyst only
+
+Bare zeolite
+
+80
+
+2.5%
+
+5%
+
+7.5%
+
+10% 60
+
+With plasma
+
+Bare zeolite
+
+40
+
+2.5%
+
+5%
+
+7.5%
+
+20
+
+10%
+
+0
+Temperature (oC)
+Fig. 5. Effect of nickel loading on the conversion of CO at different temperatures.
+The TEM images of 10 wt.% Ni/zeolite taken before and after plasma-catalytic reaction are shown in Fig. 7, where black spots are metallic Ni. It is obvious that Ni particles are uniform and well dispersed over zeolite support in both cases of before and after plasma-catalytic reaction. The EDX spectra are shown in Fig. 8(a) and (b), which were obtained based on the particular positions of the catalyst sample observed on the TEM images. The EDX results show a clear distinction in element composition between black spots and bare gray surface. The main component of the black spots was measured to be Ni (more than 90%) whereas negligible Ni of less than 0.1% was observed on the bare gray surface. The TEM images and EDX analysis reconfirm that the Ni was well dispersed over the zeolite support. The XRD patterns of 10 wt.% Ni/zeolite catalyst before and after plasma-catalyst reaction are shown in Fig. 9. Prominent peaks of Ni observed at the diffraction angles 44.4°, 51.8° and 76.3° correspond to the reflections from (111), (200) and (222) crystal planes [10,16]. Before methanation, Ni/zeolite catalyst was reduced under H2 atmosphere. Absence of peaks corresponding to NiO reveals that there was no oxidation of Ni during the plasma treatment of CO/H2 and CO2/H2 mixtures. The characteristic peaks of Ni particles before plasma-catalytic reaction were somewhat broader than those after plasma-catalytic reaction, which indicates that the crystalline size of Ni before plasma-catalytic reaction was a little larger. The
+
+CO2 conversion (%) CO2 conversion (%)
+
+100
+
+80
+
+60
+
+40
+
+20
+
+Catalyst alone
+
+With plasma
+
+Equilibrium conversion
+
+0
+
+Temperature (oC)
+
+Fig. 4. Comparison of CO2 conversion efficiencies over 10 wt.% Ni/zeolite between catalyst alone and plasma-catalyst.
+
+100
+
+Catalyst only
+
+80
+
+Bare zeolite
+
+2.5%
+
+5%
+
+7.5%
+
+60
+
+10%
+
+With plasma
+
+40
+
+Bare zeolite
+
+2.5%
+
+5%
+
+7.5%
+
+20
+
+10%
+
+0 Temperature (oC)
+Fig. 6. Effect of nickel loading on the conversion of CO2 at different temperatures.
+
+92
+
+E. Jwa et al. / Fuel Processing Technology 108 (2013) 89­93
+
+Fig. 7. TEM images of 10 wt.% Ni/zeolite before and after plasma-catalytic methanation: a) fresh catalyst (50 nm scale); b) after plasma-catalytic reaction (20 nm scale); c) fresh catalyst (0.2 m scale); d) after plasma-catalytic reaction (0.2 m scale).
+
+Fig. 8. EDX spectra of 10 wt.% Ni/zeolite for black spots (a) and for bare gray surface (b).
+
+E. Jwa et al. / Fuel Processing Technology 108 (2013) 89­93
+
+93
+
+Ni (111)
+
+10Afwtetr.%reaNcit/iozneolite (after reaction)
+
+Ni (200) Ni (222)
+
+Acknowledgment
+This research was supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education, Science and Technology (Grant number 2010-0021672).
+
+Intensity [a.u.]
+
+Ni (111)
+
+fresh catalyst
+
+Ni (200)
+
+Ni (222)
+
+2
+Fig. 9. XRD patterns of 10 wt.% Ni/zeolite before and after plasma-catalytic methanation.
+
+Table 2 Estimated particle sizes of 10 wt.% Ni/zeolite before and after plasma-catalytic methanation.
+
+Fresh catalyst After plasma-catalyst reaction
+
+Particle size (nm)
+25.8 18.7
+
+Dispersion (%)
+3.9 5.3
+
+crystalline sizes of Ni were calculated by the Scherrer's equation, which are summarized in Table 2 [10]. The difference in crystalline sizes of Ni before and after plasma-catalyst methanation indicates that Ni particles were more uniformly dispersed over the support material after the plasma reaction, which agrees well with previous studies dealt with the preparation of catalyst by adopting plasma technique [18,19]. Liu et al. [20] proposed an electronic mechanism to explain this kind of phenomenon resulting in a high dispersion. Still, further investigation is needed to find out more about the effect of plasma on the catalyst properties.
+4. Conclusions
+Catalytic conversions of carbon oxides into methane were found to be greatly promoted in the presence of plasma as compared to the results obtained with Ni/zeolite only. With catalysis alone, the conversions of CO and CO2 were less than 15% for a temperature range of 180­260 °C and at nickel loadings up to 10 wt.%, but it was drastically enhanced when nonthermal plasma was created in the catalyst reactor. It is presumed that reactive species produced by plasma can change the rate-determining-step of the catalytic hydrogenation. The XRD patterns of the catalysts before and after plasma-catalyst reaction indicated that Ni particles were dispersed more uniformly after the plasma reaction, which may partly explain the enhanced methanation rate in the presence of plasma.
+
+References
+[1] P. Panagiotopoulou, D.I. Kondarides, X.E. Verykios, Selective methanation of CO over supported noble metal catalysts: effects of the nature of the metallic phase on catalytic performance, Applied Catalysis A: General 344 (2008) 45­54.
+[2] C. Galletti, S. Specchia, G. Saracco, V. Specchia, CO-selective methanation over Ru-Al2O3 catalysts in H2-rich gas for PEM FC applications, Chemical Engineering Science 65 (2010) 590­596.
+[3] S. Takenake, T. Shimizu, K. Otsuka, Complete removal of carbon monoxide in hydrogen-rich gas stream through methanation over supported metal catalysts, International Journal of Hydrogen Energy 29 (2004) 1065­1073.
+[4] S.I. Fujita, N. Takezawa, Difference in the selectivity of CO and CO2 methanation reactions, Chemical Engineering Journal 68 (1997) 63­68.
+[5] P. Panagiotopoulou, D.I. Kondarides, X.E. Verykios, Mechanistic study of the selective methanation of CO over Ru/TiO2 catalyst: identification of active surface species and reaction pathways, Journal of Physical Chemistry C 115 (2011) 1220­1230.
+[6] A. Beuls, C. Swalus, M. Jacquemin, G. Heyen, A. Karelovic, P. Ruiz, Methanation of CO2: further insight into the mechanism over Rh/-Al2O3 catalyst, Applied Catalysis B: Environmental 113­114 (2012) 2­10.
+[7] J.H. Park, S.H. Jeon, N.V. Khoa, C.H. Shin, Direct decomposition of nitrous oxide over Fe-beta zeolite, Clean Technology 15 (2009) 122­129.
+[8] S.S. Oh, G.J. Kim, Selective removal of odorants in natural gas by adsorption on metal-containing beta-zeolite adsorbent, Journal of the Korean Industrial and Engineering Chemistry 18 (2007) 459­466.
+[9] K.Y. Choi, Alkylation of benzene with propene and isopropanol on the -zeolite, Journal of the Korean Industrial and Engineering Chemistry 10 (1999) 895­901.
+[10] S. Shang, G. Liu, X. Chai, X. Tao, X. Li, M. Bai, W. Chu, X. Dai, Y. Zhao, Y. Yin, Research on Ni/-Al2O3 catalyst for CO2 reforming of CH4 prepared by atmospheric pressure glow discharge plasma jet, Catalysis Today 148 (2009) 268­274.
+[11] Y.S. Mok, H.C. Kang, D.J. Koh, D.N. Shin, J.H. Baik, Nonthermal plasma-enhanced catalytic methanation of CO over Ru/TiO2/Al2O3, Journal of the Korean Physical Society 57 (2010) 451­457.
+[12] H.K. Song, J.W. Choi, S.H. Yue, H. Lee, B.K. Na, Synthesis gas production via dielectric barrier discharge over Ni/-Al2O3 catalyst, Catalysis Today 89 (2004) 27­33.
+[13] J.C. Whitehead, Plasma catalysis: a solution for environmental problems, Pure and Applied Chemistry 82 (2010) 1329­1336.
+[14] J.M. Smith, H.C. Van Ness, M.M. Abbott, Introduction to Chemical Engineering Thermodynamics, Sixth ed. McGraw Hill, 2002.
+[15] S.J. Choe, H.J. Kang, S.-J. Kim, S.-B. Park, D.H. Park, D.S. Huh, Adsorbed carbon formation and carbon hydrogenation for CO2 methanation on the Ni(111) surface: ASED-MO study, Bulletin of the Korean Chemical Society 26 (2005) 1682­1688.
+[16] M. Krämer, K. Stöwe, M. Duisberg, F. Müller, M. Reiser, S. Sticher, W.F. Maier, The impacts of dopants on the activity of a Ni-based methanation catalyst, Applied Catalysis A: General 369 (2009) 42­52.
+[17] Y. Men, G. Kolb, R. Zapf, V. Hessel, H. Lowe, Selective methanation of carbon oxides in a microchannel reactor--primary screening and impact of gas additives, Catalysis Today 125 (2007) 81­87.
+[18] G. Liu, Y. Li, W. Chu, X. Shi, X. Dai, Y. Yin, Plasma-assisted preparation of Ni/SiO2 catalyst using atmospheric high frequency cold plasma jet, Catalysis Communications 9 (2008) 1087­1091.
+[19] X. Zhu, P. Huo, Y. Zhang, D. Cheng, C. Liu, Structure and reactivity of plasma treated Ni/Al2O3 catalyst for CO2 reforming of methane, Applied Catalysis B: Environmental 81 (2008) 132­140.
+[20] C. Liu, J. Zou, K. Yu, D. Cheng, Y. Han, J. Zhan, C. Ratanatawanate, B. Jang, Plasma applications for more environmentally friendly catalyst preparation, Pure and Applied Chemistry 78 (2006) 1227­1238.
+
+

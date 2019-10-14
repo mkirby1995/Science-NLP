@@ -1,0 +1,639 @@
+NEOShield-2
+
+Science and Technology for Near-Earth Object Impact Prevention
+
+Grant agreement no: Project Coordinator
+
+640351 Airbus Defence and Space DE
+
+Project Start: Project Duration:
+
+1 March 2015 31 Months
+
+WP 11 Deliverable D11.1 WP Leader Due date Delivery date Issue Editor (authors) Contributors Verified by Document Type Dissemination Level
+
+Report on a Future NEO physical properties database
+
+DLR M13, 31 Mar 2016 25.03.2016 1.0 Ettore Perozzi
+
+Task Leader
+
+DMS
+
+R PU
+
+The NEOShield-2 Consortium consists of:
+
+Airbus DS GmbH (Project Coordinator) Deutsches Zentrum für Luft- und Raumfahrt e.V. Airbus Defence and Space SAS Airbus Defence and Space Ltd Centre National de la Recherche Scientifique DEIMOS Space Sociedad Limitada Unipersonal Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. GMV Aerospace and Defence SA Unipersonal Istituto Nazionale di Astrofisica Observatoire de Paris The Queen's University of Belfast
+
+ADS-DE DLR ADS-FR ADS-UK CNRS DMS EMI GMV INAF OBSPM QUB
+
+Germany Germany France United Kingdom France Spain Germany Spain Italy France United Kingdom
+
+This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 640351.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+2/24
+
+Change Record
+
+Issue 0.1 1.0
+
+Date 14.03.2016 25.03.2016
+
+Section, Page All All
+
+Description of Change Initial draft version for consortium review Final version incl. consortium comments
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+3/24
+
+Table of Contents
+1 Introduction ............................................................................................................................................. 4 1.1 Scope..................................................................................................................................................4 1.2 List of Abbreviations....................................................................................................................4 1.3 Applicable Documents ................................................................................................................4 1.4 Reference Documents .................................................................................................................5
+2 Overview of the present situation....................................................................................................6 2.1 NEO discoveries: from past to present ..................................................................................6 2.2 Physical Properties: from EARN to NEOCC...........................................................................8 2.3 From NEOShield to NEOShield-2........................................................................................... 11 2.3.1 The Physical Properties Priority LIst ...........................................................................................11 2.3.2 The NEO Properties Portal................................................................................................................ 13
+3 Operational scenario.......................................................................................................................... 16 3.1 Observations................................................................................................................................ 16 3.2 Accessibility ................................................................................................................................. 18
+4 Recommendations .............................................................................................................................. 21 4.1 Perspectives................................................................................................................................. 21 4.1.1 Provision of additional data .............................................................................................................21 4.1.2 Observation support tools ................................................................................................................ 22 4.1.3 Mission analysis support tools........................................................................................................23 4.2 Evolution ....................................................................................................................................... 23 4.2.1 The maintenance activity appear then to be the right framework for profiting of the heritage of the NEOSHield-2 project and design upgraded and/or enhanced NEOCC functionalitiesEnhanced data mining ..........................................................................................................23 4.2.2 Priority Lists harmonization............................................................................................................23 4.2.3 Data access ..............................................................................................................................................24 4.2.4 Data update ............................................................................................................................................. 24 4.3 Way Forward ............................................................................................................................... 24
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+4/24
+
+1 Introduction
+
+1.1 Scope
+The scope of this document is to give a short outline of the status and on the future perspectives of establishing a NEO Physical Properties database.
+
+1.2 List of Abbreviations
+
+AD Applicable Document
+
+AU Astronomical Unit
+
+GA Grant Agreement
+
+EARN European Asteroid Research Node
+
+ESA European Space Agency
+
+ESO European Southern Observatory
+
+H Absolute Magnitude
+
+LBT Large Binocular Telescope
+
+MOID Minimum Orbit Intersection Distance
+
+NEA Near Earth Asteroid
+
+NEO Near Earth Object
+
+NEOCC NEO Coordination centre
+
+NTT New Technology Telescope
+
+PL Priority List
+
+P3L Physical Properties Priority List
+
+RD Reference Document
+
+SSA Space Situational Awareness
+
+TAC Time Allocation Committee
+
+TNG Telescopio Nazionale Galileo
+
+V
+
+Visual Magnitude
+
+VLT Very Large Telescope
+
+WP Work Package
+
+1.3 Applicable Documents
+[AD1] NEOShield-2: "Science and Technology for Near-Earth Object Impact Prevention", Grant Agreement no. 640351, 28.10.2014.
+[AD2] NEOShield-2 "Observations Support Tool User Manual". Deliverable D10.3, April 2015
+[AD3] NEOShield-2 "Dynamical Web Interface User Manual". Deliverable D9.1, January 2016
+[AD4] NEOShield-2 "NEO Physical Properties Database User Manual". Deliverable D11.3, January 2016
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+5/24
+
+1.4 Reference Documents
+[RD1] Milani A., Chesley S. R., and Valsecchi G. B. 2000. Asteroid close encounters with the Earth: risk assessment. Planetary and Space Science 48:945-954
+[RD2] Chamberlin A. B., Chesley S. R., Chodas P. W., Giorgini J. D., Keesey M. S., Wimberly R. N., and Yeomans D. K. 2001. Sentry: An Automated Close Approach Monitoring System for Near-Earth Objects. Bulletin of the American Astronomical Society 33:1116-1116.
+[RD3] Chesley S. R., Chodas P. W., Milani A., Valsecchi G. B., and Yeomans D.K. 2002. Quantifying the Risk Posed by Potential Earth Impacts. Icarus 159:423-432.
+[RD4] Cassady J., Gargioli E., Hoskins A., Johnson M., Lobascio C., Pelle S., Perino M. A., and Tantardini M. 2015. Deep space missions: habitat and transportation. 9th IAA Symposium on the future of space exploration: towards new global programmes, Torino, Italy.
+[RD5] Jedicke R., Magnier E. A., Kaiser N., and Chambers K. C. 2006. The next decade of solar system discovery with Pan-STARRS. Proceedings, IAU Symposium 236.
+[RD6] Wainscoat R., Veres P., Bolin B., Denneau L., Jedicke R., Chastel S., and Micheli M. 2014. The Pan-STARRS search for near-earth objects. In proc `Asteroids, Comets, Meteors' Helsinki, Finland. pp. 595-595.
+[RD7] Boattini A., D'Abramo G., Valsecchi G. B., and Carusi A. 2007. A New Protocol for the Astrometric Follow-up of Near Earth Asteroids. Earth, Moon and Planets 100:31-41.
+[RD8] Farnocchia D., Bernardi F., Milani A., "The Performances of a Wide Survey on a Population of Impactors", in proc. IAA Planetary Defense Conference, 2011
+[RD9] Perozzi E. The Near Earth Object Hazard and Mitigation. In proc. `Mathematical Methods for Planet Earth'.A. Celletti, U. Locatelli, E. Strickland eds, Springer. 2013
+[RD10] Binzel R. P., Lupishko D., Di Martino M., Whiteley R. J., and Hahn G. J. 2002. Physical properties of near-earth objects. In Asteroids III, edited by Bottke W. F., Cellino A., Paolicchi P., and Binzel R. P. Tucson: University of Arizona Press. pp. 255­271.
+[RD11] Drolshagen G., Koschny D., Bobrinsky N., "The Near Earth Objects Segment of the European Space Situational Awareness Programme", in proc. IAA Planetary Defense Conference, 2011.
+[RD12] Di Pippo S. and Perozzi E.: European Operational Initiative on NEO Hazard Monitoring. Handbook of Cosmic Hazards and Planetary Defense, DOI 10.1007/978-3-319-028477_50-1. Springer International Publishing Switzerland 2014.
+[RD13] Harris A. W., Drube L., and NEOShield Consortium 2012. The NEOShield Project: Understanding the Mitigation-Relevant Physical Properties of Potentially Hazardous Asteroids. American Astronomical Society, DPS meeting #44 (10/2012)
+[RD14] Dotto E., Perozzi E., Micheli M., Ieva S., Di Paola A., Cortese M., Borgia B., Perna D., Mazzotta Epifani E., Speziali R., Lazzarin M., Bertini I., and Magrin S. 2015. The NEOShield-2 EU Project.. EPSC 2015.
+[RD15] Cortese M., Perozzi E., Micheli M., Borgia B., Dotto E., Mazzotta Epifani E., Ieva S., Barucci M.A., Perna D. . An efficient algorithm for prioritizing NEA physical observations. Meteoritics and Planetary Science 2016 (submitted)
+[RD16] Binzel R.P., Perozzi E., Rivkin A.S., Rossi A., Harris A.W., Bus S.J., Valsecchi G.B., Slivan S.M. 2004. Dynamical and Compositional Assessment of Near-Earth Object Mission Targets. Meteoritics and Planetary Science, 39, Nr.3, 351-366,
+[RD17] Perozzi E., Rossi A. and Valsecchi G. B. 2001. Basic targeting strategies for rendezvous and flyby missions to the Near-Earth Asteroids. Planetary and Space Science 49:3-22
+[RD18] Carusi A., Perozzi E., Scholl H.: NEO Mitigation Strategy. Comptes Rendus Physique 6, 367-374, 2005.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+6/24
+
+2 Overview of the present situation
+2.1 NEO discoveries: from past to present
+The Near Earth Asteroids (NEA) are attracting an increasingly wide audience because of scientific, technological, civil protection and commercial implications. Their interest as dynamically evolved solar system primitive bodies and their possible use for extra-terrestrial mining foresees the extensive use of advanced space technologies such as sample return missions. The impact monitoring activities carried out worldwide [RD1][RD2][RD3] have fostered the need for more efficient discovery and follow-up systems as well as for the development of mitigation techniques in space, e.g. deflecting an asteroid by means of a kinetic impactor. Human spaceflight also considers NEAs as an intermediate step before undertaking the much more demanding journey to Mars [RD4].
+The NEA population has undergone two major sharp increases in the discovery rate: the former at the turn of the millennium when wide-field high-sensitivity sky surveys started operations, the latter more recently, when the US Pan-STARRS1 telescope time allocation has been devoted mainly to NEAs [RD5][RD6]. At present more than 1500 objects are discovered each year (Figure 2-1). When considering that at the end of 1999 the total number of known NEOs was barely nearing 1000, this means that the present yearly discovery rate exceeds the number of objects found in the whole century after the discovery of Eros (1898).
+
+Figure 2-1: Yearly discovery rate from January 1900 to February 2016
+Such a dramatic increase has had a number of consequences and in particular the need for performing quick astrometric follow-up in order to secure the asteroid orbit and the steady change in the size distribution of the discoveries and in the observation circumstances.
+The problem of efficiently planning and executing NEA follow-up observations has been first addressed by [RD7]. The goal was to ensure that the necessary astrometry for improving the orbit determination accuracy is provided, thus avoiding that objects are lost. Astrometric followup is performed worldwide by a network of professional and amateur astronomers on a voluntary basis. A prioritization algorithm, which ranks the objects according to an urgency criterion, was therefore developed; its output, the so-called Priority List (PL) was originally displayed and made available to observers at the Spaceguard Central Node web site and now it can be also found in different formats at the ESA SSA-NEO Coordination Centre web site. Since the priority list became available NEO recoveries are more frequent and a significant decrease of lost objects has consequently been recorded.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+7/24
+
+Figure 2-2: The Priority List available at the NEOCC; it can be filtered according to different criteria and downloaded in different formats.
+In 1994 the Spaceguard Report committed NASA to identify and catalogue within 10 years the orbital characteristics of 90% of all NEOs larger than 1 km. The goal has been actually reached and following US Congress mandate in 2005 a new "Spaceguard goal" was set for identifying and cataloguing the orbital characteristics of 90% NEO with a size greater than 140 meters in diameter (absolute magnitude H ~22) by the year 2020. This means an increase in completeness of the known NEO population (in number distribution above a diameter cut-off) and a shift in the discoveries toward increasingly smaller objects. As a matter of facts newly discovered objects are now mostly composed of small size asteroids passing close to the Earth (as discussed in detail in section 3), thus calling for immediate follow-up observations in order to secure their orbits and prevent them from being lost [RD8].
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+8/24
+
+Figure 2-3: Cumulative growth of the NEO population in different size ranges. Note that the first obkect with diameter smaller than 140 was discovered rather recently, and that small objects dominate the present discoveries
+Another significant consequence of the fast growing NEO population is that observation campaigns devoted to physical characterization (size, mass, shape, composition, internal structure), must also become more efficient in order to keep pace with it, not only for science but also for risk assessment and mitigation [RD9].
+2.2 Physical Properties: from EARN to NEOCC
+At present only about 15% of the known NEAs has some basic physical properties determined, such as size (not derived from the absolute magnitude), shape and/or spectral type. These data have been collected and organized in tabular form after [RD10]and made publicly available at the EARN (European Asteroid Research Node) web site (http://earn.dlr.de).
+Since 2009 an operational approach to NEO hazard monitoring has been developed by the Space Situational Awareness Program (SSA) of the European Space Agency (ESA). Through federating European assets and profiting of the expertise developed in European Universities and Research Centers, it has been possible to start the deployment of the so-called SSA NEO Segment [RD11]. This initiative aims to provide a significant contribution to the worldwide effort to the discovery, follow-up and characterization of the Near Earth Object population. A major achievement has been the inauguration in May 2013 of the ESA NEO Coordination Centre located at ESRIN (Frascati, Italy). The goal of the NEOCC operations is twofold: to make available updated information on the NEO population and the associated hazard and to contribute to optimize the NEO observational efforts. This is done by maintaining and improving a Web Portal publicly available at http://neo.ssa.esa.int and by performing follow-up observations through a network of collaborating telescopes and facilities [RD12].
+Within this framework, EARN data have been are integrated into the SSA-NEO SW System as a fully searchable database. The physical properties of each individual object, when available, can be browsed from the NEOCC web portal (Figure 2-4). Regular updates are carried as part of the NEOCC routine operational tasks, requiring manual intervention for data input and validation.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+9/24
+
+Figure 2-4: The physical properties summary page of asteroid (433) Eros displayed at the NEOCC Web Portal. Note that it can be exported in different formats and that the updates history can also be displayed.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+10/24
+
+The NEO Coordination Centre hosts a large collection of Small Bodies data. The orbital elements of all asteroids (NEOs, Main Belt, TNOs, etc.) for which good quality orbits are available, are regularly provided by NEODyS (http://newton.dm.unipi.it/neodys/) and AstDyS (http://hamilton.dm.unipi.it/astdys/) and stored in the NEO system. Thus a single query interface (Figure 2-5) allows to display both the dynamical and the physical properties of any given NEO or to search for objects within certain parameters range for further investigation. This is achieved by the "advanced search" function, which allows and several filtering options, and represents a powerful means for sorting out samples of the NEO population satisfying certain given requirements (e.g. targets for astronomical observations and mission analysis). As for all other tables available through the NEOCC portal, the results can be exported in different formats (Figure 2-6).
+
+Figure 2-5: the advanced search option of the NEOCC web site
+Figure 2-6: results of an advanced search for low-eccentricity C-type NEOs with periods of revolution close to one year.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+11/24
+
+2.3 From NEOShield to NEOShield-2
+The NEOShield project, carried out within the framework of the EC FP7 funding scheme, has focussed on the modelling of asteroid impacts and the design of mitigation missions [RD13]. The results obtained have clearly shown that in both cases the composition and the internal structure of an asteroid may change dramatically the outcome of an impact. This, in turn, determines the mitigation scenario to be adopted, either on the ground or in space. One of the major conclusions of the NEOShield project was to remark that that, due to the lack of physical characterization of a large fraction of the NEO population, a strong improvement of the determination of their physical properties, in terms of quality and number, is needed through a more systematic approach.
+These recommendations were duly acknowledged and turned into high-level tasks of the NEOShield-2 project, funded through the Horizon 2020 EC programme. Extensive observational campaigns devoted to increasing the percentage of known NEOs for which physical characterization is available are being carried out [RD14]; a network of telescopes able to use different techniques such as spectroscopy, photometry and polarimetry has been set-up to this end. Large aperture instruments are made available through large programs and dedicated ondemand time; quick response can be ensured by discretionary time allocation and/or the availability of smaller telescopes. Because of the discussion on the completeness of the NEO population reported in Section 2.1, observations focuses on the size range 50-300 meters.
+
+2.3.1 The Physical Properties Priority List
+Information on the physical characteristics are needed for the extensive computation of exploration and/or mitigation mission profiles foreseen in the NEOShield-2 project; it appears then desirable that also some measure of the accessibility of an object is included. Specifically, a criterion is needed to properly coordinate the observations in order to ensure that as many as possible relevant objects are observed, redundant observations are avoided, and mission targets are identified. A priority algorithm similar to the one used for addressing astrometric observations (Section 2.1) has been developed to this end [AD2]. The observing scenario and the parameters entering the ranking is undoubtedly more complex than the one characterizing the astrometric priority list. Several parameters must be taken into account: the sky uncertainty, the visibility period, the phase range and its variation during visibility, the visual magnitude and its behaviour during visibility, the object apparent motion and an estimate of the accessibility of each object. A Physical Properties Priority List (P3L) tool has been therefore developed [RD15] where two ranking criteria are introduced ­ Importance and Urgency ­ which correspond to different observing requirements. The Importance parameter is a function of the object size and accessibility and according to its value it is possible to define four categories: VERY IMPORTANT, IMPORTANT, USEFUL, ROUTINE. Note that VERY IMPORTANT objects are those having V < 2 km/s and 50 m < D < 300 m thus representing the best NEOShield-2 targets, while ROUTINE objects will essentially contribute to increase the number of NEAs for which physical observations are available. The IMPORTANT and USEFUL classes include often small and accessible objects. Ranking by importance is likely to provide the rationale for motivating the selection of targets within the framework of proposals for obtaining telescope time. The Urgency parameter is a function of the number of visibility days and of the magnitude trend and according to its value it is possible to define four Urgency categories using asterisks: from extremely urgent (****) to not urgent at all (*). The ranking by Urgency is best suited for sorting out the targets for observation with a rapid response system. An example of the functions used for ranking a NEO is shown in Figure 2-7.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+12/24
+
+Figure 2-7: the function describing the visibility region used by the P3L tool.
+
+The P3L algorithm output reports, in tabular format, all quantities needed to help the observer in evaluating the feasibility of an observation, while remaining at the same time independent from the specific observing site and telescope performances. A description of some representative combinations of the two criteria can be found in Table 2-1.
+
+Table 2-1: some representative P3L output ranking possibilities.
+
+Importance VERY IMPORTANT
+VERY IMPORTANT
+IMPORTANT USEFUL ROUTINE
+
+Urgency ****
+*
+**** * *
+
+Description
+Mostly small (50 m < D < 300 m) and extremely accessible targets (V < 2 km/s) having a close encounter with the Earth. A rapid response for its physical characterization should be activated.
+Small (50 m<D<300 m) and extremely accessible targets (V < 2 km/s), which will be observable for several days, leaving more time to plan physical observations. Possibility of observing the same object at different phase angles.
+Small and accessible objects with high observing urgency (number of days until end-of-visibility < 7).
+Small and accessible objects with no observing urgency. Possibility of observing the same object at different phase angles.
+Lower-priority objects which may still contribute to increase the number of NEAs having known physical characterization.
+
+The Physical Properties Priority Lists can be produced either daily or on-demand (i.e. at a future date) and are publicly available at the NEOShield-2 NEO Properties Portal, which will be described in detail in section 2.3.1. A sample output of the P3L tool is reported in Table 2-2; after [AD2] , the quantities associated to each object are:
+· Name: asteroid name or provisional designation; · H: absolute magnitude ; · V: estimated visual magnitude; · Vdot: magnitude variation between the osculating date and 10 days ahead; · Visibility Days [d]: number of days before the end of visibility;
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+13/24
+
+· Phase Range [deg]: phase angle variation within the visibility days;
+· Sky Uncertainty [arcsec]: position uncertainty in the sky;
+· delta-V [km/s]: change of velocity for accomplishing a best-case rendezvous
+mission.
+Visibility is computed from geocentric ephemerides in order to be independent from a specific observing site. The full table can be downloaded into two different formats: plain text (.txt) and Xcel (.xls) in order to use it either as an input file for further processing or as a spreadsheet.
+
+Table 2-2: sample output of the P3L tool
+
+2.3.2 The NEO Properties Portal
+The NEOShield-2 NEO Properties Portal (http://neoshield2.deimos-space.com/Neoshield/), has been deployed to support the observers and the mission analysts as well as to disseminate the tools and the data produced by the project [AD3]. The dynamical web appearance is shown in Figure 2-8. It is designed for displaying the status of the project activities and achievements allowing at the same time the observers to store and retrieve the data produced during their activity. The former goal is achieved by resorting to continuously updated lists and plots such as the ones shown in Figure 2-8. There, the diagram gives an overall picture of the accessibility of the whole NEO population: it is obtained by plotting the aphelion distance of each asteroid versus the total velocity change (delta-V in km/s) needed to transform an initially zero inclination circular 1 AU orbit into one identical to that of the object. This quantity, which is evaluated through a classical Hohmann transfer strategy (described in detail in Section 3.2) is useful to both, mission designers and astronomers, thus matching the dual nature of the NEOShield-2 project. Focussing on lower delta-V objects astronomers can observe among the thousands of known NEAs, those more likely to be selected as targets for a space missions. In the long run this would trigger a closed loop: the more accessible asteroids are also those for which more data on their phisical characterization is available, which in turn increases scientific
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+14/24
+
+motivation and eases mission design. Therefore by highlighting (e.g. in red in Figure 2-8) the objects observed by NEOShield-2 campaigns one can easily monitor the goings of project observational activities.
+
+Figure 2-8: the NEOShield-2 NEO Properties Portal home page
+In the menu on the left second-level functionalities are accessed; in particular, the "Physical Properties Database" links up to an open data repository as described in [AD4] where all data produced during observation campaigns are kept. Its folder structure is shown in Figure 2-9: the upper level refers to a the specific sensor used for performing the observation (e.g. NTT, TNG) followed by the target names to which can correspond different observation campaigns and the related data. The data organization of Figure 2-9 has been kept simple on purpose, in order to be easily harmonized with and/or migrated to other systems.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+15/24
+
+Figure 2-9: The hierarchical structure of the open data repository
+Summarizing, the following data and services are available on-line through the NEOShield-2 Properties portal:
+· Priority Lists of observable targets, ranked by interest/urgency, are generated daily as well as on-demand at a given date specified;
+· Accessibility Plots, showing a general picture of the accessibility of the NEO population, are generated daily and customized by highlighting subpopulations (e.g. objects observed by NEOShield-2 etc.);
+· Observation Summary Tables provide information on past, on-going and planned observations;
+· Mission Opportunity Tables can be retrieved from the NEOShield-2 database, filtered by mission requirements (departure date, mission scenario, delta-V etc.)
+· Physical properties, once available, are stored in a publicly accessible repository containing raw, intermediate and processed data.
+Through the observations summary tables publicly available at the NEO Properties Portal it is possible to coordinate NEO physical observations not only within the NEOShield Consortium but also with respect to the wsorldwide NEO community, thus avoiding that redundant observations are carried out. Optimization of the observational effort is also achieved not only through the P3L algorithm but also knowing in real time if the observation of a given object was not successful (e.g. due to bad weather) and/or which type of measurements are being carried out. Recovery and/or complementary actions can be then timely planned.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+16/24
+
+3 Operational scenario
+
+3.1 Observations
+Contrarily to what happens with astrometric follow-up, which is carried out by a large community of professional and amateur astronomers on a voluntary basis and foresees the use also of small telescopes, physical characterization needs large aperture sensors and sophisticated instrumentation (e.g. polarimeter). Astronomers submit competitive proposals and the rationale for obtaining observing time from the Time Allocation Committee (TAC) which is in charge of evaluating the proposals, assumes therefore non trivial importance. In this respect the Physical Properties Priority List described in Section 2.3 provides excellent motivations relying on both, scientific and technological considerations. In order to figure out the potential increase of a NEO physical properties database it is worthwhile evaluating also the observing scenario, i.e. the number of observing opportunities per year which in turn depend on the telescope performances. A general picture can be worked out by analyzing the sample of NEOs approaching the Earth; this approach has been followed, under the assumptions:
+· Source data: the list of all NEAs approaching the Earth within 0.05 AU displayed at the NEOCC web portal, where for each object the "maximum brightness at close approach" is evaluated.
+· Visual Magnitudes: V<21 represents the threshold for performing physical characterization with a 4-meter class telescope (e.g. the ESO NTT);
+· Absolute Magnitudes: H=20 has been assumed for diameters of the order of 300m, H=25.5 for 50m objects, thus fulfilling the NEOShield-2 requirements on size.
+· Opportunities definition: since a few objects may approach the Earth twice within a year, the number of observing opportunities (and not the number of objects) is used.
+
+The figures reported in Table 3-1 have been obtained extracting from the source file of all objects which approached the Earth within 0.2 AU in 2012 in favorable observing geometries (i.e relying on the value of the maximum brightness parameter, those coming from the direction of the Sun were disregarded).
+
+Table 3-1: number of opportunities in 2012
+
+Magnitude cutoff All V<21 V<21, discovered in 2012 V<21, H>20 V<21, 20<H<25.5
+
+Number of objects 884 757 587 575 399
+
+The first consideration is that there is a large number of objects approaching the Earth bright enough to allow physical characterization (second row in Table 3-1). By comparing this number
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+17/24
+
+to the figures in row four and five of Table 3-1 one sees that out of them more than 2/3 are discovered within the same year, the vast majority being relatively small, with estimated size less than <300m. The possibility of a quick (i.e. within the few days or weeks which the encounter lasts) physical follow-up of newly discovered objects could provide a significant contribution to the characterization of the NEA population, especially for small to moderate sizes. Note also that out of the 238 objects discovered prior to 2012, 170 have V<21 and 105 also H<20 (of which 12 are numbered).
+In Figure 3-1, the distribution of all 2012 opportunities is shown as a function of their visual magnitude both as individual (upper plot) and cumulative (lower plot) figures. On the abscissa the actual values reported (e.g. V=21), correspond to magnitude less than that value (i.e. < 21)
+
+visual magnitude
+250
+
+number of opportunities
+
+200
+
+150
+
+21
+
+100
+
+18
+
+50
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+cumulative number of opportunities
+
+1000 900 800 700 600 500 400 300 200 100 0 5
+
+visual magnitude 21
+
+18
+
+10
+
+15
+
+20
+
+25
+
+30
+
+Figure 3-1: distribution of 2012 opportunities as a function of their visual magnitude; discoveries peak sharply around V=20.
+
+By analyzing the plots in In Figure 3-1, it appears that the possibility of pushing the limiting magnitude to 21 which allows the vast majority of the 2012 Earth approachers population to be included. This goal is in principle realistic since V=18 is the typical magnitude limit for carrying out physical characterization from a 1m class telescope, while V=21 can be obtained by 4m aperture (e.g. NTT, TNG). Note that the largest telescopes presently available (i.e. 8m class) such as VLT or LBT 23 can reach down to V=23.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+18/24
+
+Moreover if one breaks down the population of all 2012 Earth approachers with V<21, and takes into account also the "backwards" 2013 contribution, the flux of observable opportunities follows the following distribution:
+· discovered in 2010: 12 · discovered in 2011: 21 · discovered in 2012: 587 · discovered in 2013: 18
+which further highlights the importance of trying to characterize objects discovered within the same year, since their return in favorable observing conditions for physical observations may take several years.
+An early conclusion is that since the present/near future NEA discovery rate is mostly due to the detection of small objects approaching the Earth, the availability of telescopic facilities able to perform physical characterization down to V=21 is a major requirement for observing them, provided that they can be accessed on short notice (weeks) and the astrometry is good enough. As such they represent a significant source of potential targets for physical characterization complementing and integrating the observation of already known objects.
+In order to exploit this opportunity at best, large telescopes (at least 4-m class) available on short notice are needed, whether as a dedicated system or within the framework of large programs requests for observing time.
+3.2 Accessibility
+In [RD16] it is shown that by introducing a basic NEO accessibility criterion, it is possible to focus physical observations on objects for which the computation of realistic mission profiles can be attempted. This results into an additional "prioritization" criterion for focussing physical observations to objects which are more likely to become targets of an exploration or of a mitigation mission.
+An example is shown in Figure 3-2 where an H-plot representation of the NEA population [RD17] is reported. The blue lines show the accessibility of the various regions of the Solar System for flyby (thin line) and rendezvous (thick line) missions. It is then possible to highlight the distribution of different classes of small solar system objects. When remarking the objects which have been visited by spacecraft or which have been selected as targets during NEO mission studies, one can clearly see that they tend to be found in the lower V-shaped region of the diagram [RD18]. This strategy has been used for performing NEO target selection within exploration mission studies as well as for obtaining observing time from both ground (e.g. ESONTT) and space-based assets (e.g. Spitzer Space Telescope).
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+19/24
+
+Figure 3-2: NEO accessibility diagram
+When applying this method to the NEO sample described in section 3.1 it is possible to evaluate the accessibility of all objects discovered in 2012, whatever their visual magnitude and size . A cutoff can be then placed in order to give a preliminary estimate to the fraction of NEAs which are in principle accessible for a space mission: Assuming a value of 8 km/s (corresponding to Eros, which is the highest ranked among all NEA mission targets selected so far possibly due to the Earth gravity assist needed to change the inclination of the S/C orbit) one finds:
+· Total number of NEAs discovered in 2012: 994 · N. of objects with best-case delta-V < 8 km/s: 348 · Fraction of accessible objects (delta-V<8): 35%
+In Figure 3-3 the accessibility distribution of all NEAs discovered in 2012 is shown.
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+20/24
+
+Figure 3-3: accessibility of all NEAs discovered in 2012; different colors correspond to Aten (blue), Apollo (red) and Amor (green) asteroids
+By assuming the same fraction of accessible objects for the population of the 2012 observable Earth approachers as discussed section 3.1, it is possible to estimate the yearly number of observing opportunities of objects satisfying at once the constraints posed on size, brightness and accessibility:
+· yearly number of observing opportunities of small (H<20) and accessible Earth close approachers: 757 x 0.35= 265
+· yearly number of observing opportunities of small (50-300m) accessible objects: 399 x 0.35= 140
+As such they represent a significant source of potential targets for physical characterization satisfying the NEOShield-2 requirements on size and accessibility, thus complementing the observation of already known objects. These considerations are further strengthened if one drops the limitation on the size and considers that the 2012 NEO discovery rate increased by 50% in 2014 and 2015 (Figure 2-1).
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+21/24
+
+4 Recommendations
+The aim of EC projects is to foster R&D activities until they are mature enough to proceed by their own means, or that the results obtained are permanently disseminated being safely and publicly available.
+As for NEOs, the onset of a "two-way" operational interface with the ESA SSA-NEO Coordination Centre, would allow the NOShield-2 project to profit of already existing infrastructures, services and data thus ensuring the dissemination of the NEO physical properties resulted from its observational and modelling activities in a wider context.
+To this end in the following sections some proposed future actions are discussed. They have been grouped depending on whether they involve the provision to the NEOCC of NEOShield-2 data and tools as they are or if the development of new or improved services is foreseen.
+4.1 Perspectives
+The Space Situational Awareness programme is an "optional" program of the European Space Agency, i.e. its budget is funded by the member states on a discretionary basis. At every ESA Council Meeting at Ministerial level (which are held approximately every 4 years) the programme is presented to the delegates and each country decides if and how to subscribe to the proposed activities with an amount reflecting the expected returns in terms of national industrial policy.
+The NEO Segment, together with the SSA Programme as a whole, already went through two ESA Ministerial Conferences, successfully completing Phase 1 and being presently at the end of Phase 2 ­ which corresponded to carry out system design and to deploy the precursor services, respectively. The next ESA conference, currently scheduled at the end of 2016, shall establish the NEO Segment nominal operations and start realizing advanced infrastructures, such as the network of fly-eye telescopes which shall allow Europe to play a leading role also in operating the sky surveys devoted to NEO discovery.
+The SSA Phase-3 funding (which will be decided well within the NEOShield-2 timeline) appears therefore a turning point in granting the Programme the necessary stability for giving to the NEOShield-2 data and tools the necessary future perspective.
+4.1.1 Provision of additional data
+The process of determining the physical properties of an NEO foresees a number of steps which generate the raw, intermediate and final products of the observations. Raw data consist in the images corresponding to a given observing run which are then processed by ad-hoc software for extracting the information (intermediate data) needed to compute a given physical property (final product). For each of these steps the following data types are associated
+· images (e.g. following FITS standard) · data files (e.g. lightcurves, spectra). · physical properties (e.g. size, spectral type).
+At present all the original data have been kept in the NEOShield-2 Smart Data Repository as described in [AD3][AD4]and can be in principle migrated into the NEOCC database. As far as the images and the physical properties are concerned, this does not imply any major change in the SSA-NEO SW System, which is already equipped for populating its own image database and of the necessary update procedure of its own physical properties database. As a matter of fact it is already foreseen that most of the NEOShield final products, once published, are ingested in the NEOCC physical properties through the Service Level Agreement that ESA has established with
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+22/24
+
+DLR for surveying the scientific literature and update the database accordingly. Minor modifications are therefore needed if additional fields are needed
+Major modifications to the existing NEOCC system are needed for making available the intermediate data which imply the ingestion and visualization of entire datasets (e.g. spectral measurements), plots (e.g. lightcurves), and ancillary information (e.g. calibration) Therefore the whole NEOCC system must undergo to substancial upgrade such as enlarging the disk space to host the additional data and modifythe NEO web portal interface in order to give proper visibility to the NEOShield-2 contribution.
+
+4.1.2 Observation support tools
+The migration of the Physical Properties Priority List into the NEOCC web portal could extend to physical characterization the services provided to observers
+In the present deployment the prioritization algorithm has been tuned to the NEOShield-2 requirements but since all the different functions used in the P3L algorithm have been modelled using standard functional representations their characteristic parameters can be easily changed and/or new ranking criteria (e.g. impact probability) can be introduced. If the P3L tool is made available to the NEOCC users its output should address a more general audience, e.g. extending the observational priority to smaller sizes since an ever increasing share of the present discoveries belong to the sub-50 m size range. As a matter of fact relaxing the lower limit on the objects' size from 50 m to 5 m, the prioritization algorithm produces an output more fitting to rapid response systems or more useful for space missions directed toward very small targets (e.g. the original ARM mission scenario). By comparing Table 2-2 and Table 4-1 it is possible to see that in the latter case objects with high ranking on both criteria (i.e. very important and very urgent) are found.
+
+Table 4-1: output of the P3L tool when no lower limit to the object size was imposed
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+23/24
+
+The prioritized lists produced by the P3L tool is also useful in helping to resolve conflicting requirements imposed on the same parameter, e.g. a long time left to the end-of-visibility would make an observation less urgent but at the same time very appealing because of the possibility of observing the same object at different phase angles.
+
+4.1.3 Mission analysis support tools
+NEOShield-2 has a strong commitment toward using the NEO orbital and physical data for computing realistic mission profiles. The following information is therefore available on the NEO Properties Portal:
+· Mission opportunities (table). · Accessibility diagrams (plot).
+The mission opportunities table is the output of a sophisticated software which computes a large number of trajectories, therefore its migration into a different environment must take into account non trivial requirements in terms of computer performances and hardware.
+The accessibility diagrams, which rely on the H-plot representation described in section 3.2 are generated by a simple code and can be easily customized to different visualization needs (e.g. Figure 2-8).
+
+4.2 Evolution
+The ESA SSA Programme is carried out in practice assigning to industrial teams the various technical activities approved within the framework of Workplans which are regularly issued and updated by the agency management (Program Boards). For the NEO SW System different types of modifications are foreseen:
+· Corrective maintenance · Evolutionary maintenance · New developments
+The former consists of routine bug fixing and has the goal of keeping the operational system up and running. The latter two are concerned with with a major upgrade of an already existing functionality or whenthe development and the deployment of new functionalities is needed. . The related activities are then proposed and analysed in terms of complexity and effort, eventually obtaining the go-ahead from the agency.
+
+4.2.1 The maintenance activity appear then to be the right framework for profiting of the heritage of the NEOSHield-2 project and design upgraded and/or enhanced NEOCC functionalitiesEnhanced data mining
+In section 2.2 it has been highlighted that the possibility of filtering on both, the orbital and physical properties represents a unique opportunity within the framework of the presently available NEO information systems. The possibility of ingesting the NEOShield-2 data could further extend this functionality to encompass the raw and intermediate data described in section 4.1.1, the accessibility parameters for space missions described in section 4.1.2.
+In this way an enhanced NEOCC physical properties advanced search could support the generation of subsample useful for optimizing observational activities depending on the specific goal.
+
+4.2.2 Priority Lists harmonization
+One of the major conclusions of section 3.1 is that the availability of facilities able to perform physical characterization down to V=21 is a major requirement for characterize newly discovered objects, provided that they can be accessed on short notice (weeks) and the necessary astrometry is good enough. In fact, due to the generally small field-of-view of large
+
+NEOShield-2 D11.1
+
+Title: Report on a Future NEO physical properties database
+
+Issue, Date
+
+i1.0, 25.03.2016
+
+Page
+
+24/24
+
+aperture telescopes, the targets for physical characterization have to have an orbit determination accuracy good enough for precise pointing.
+Moreover due to the near future operation of wide field sky surveys able to cover every night the whole visible sky every night (the US Atlas network and the European Fly-eye NEO survey telescopes are currently under development) the NEO discovery rate will be increasingly dominated by small objects approaching the Earth thus needing rapid response systems reacting in a collaborative mode, i.e. increasing the astrometric accuracy until physical observations are feasible. It is a scenario in principle similar, but on a much shorter timescale, to the one already in place when it is foreseen that an object will come close enough to become a radar target. The radar team timely issues an alert asking for extensive observations campaigns which will allow to reach the necessary accuracy in the object position, thus allowing radar detection.
+The availability of both the astrometric and the physical properties priority lists will be therefore extremely helpful in coordinating both types of observations even on short notice. In particular fine tuning the P3L to this end, as described in section 4.1.2, could lead to optimizing and maximizing the fraction of newly discovered objects observed, thus contributing to raise the overall yearly rate of NEO physical characterization of objects relevant for impact monitoring.
+
+4.2.3 Data access
+The advanced filtering techniques implemented into the NEOCC Web Portal have allowed to improve searching the database, nevertheless they do not allow yet a satisfactory external access, due to ESA corporate network security policies. The possibility of satisfying complex external queries (e.g. through MySQL simulators) can be envisaged, especially in view of the involvement of the NEOShield community among the users.
+
+4.2.4 Data update
+The integration of EARN into a fully searchable NEOCC physical properties database has allowed to greatly improve its original aim and functionalities. The integration was challenging because of the wide variety of data types and formats to be dealt with and a "manual" update procedure has been adopted.
+The consistent increase in the update frequency and in the amount of physical properties which resulting from projects like NEOShield-2 devoted specifically to improve NEO physical characterization from the ground or from space (e.g. the WISE data) call for a more efficient update procedures. Advanced import functions must be then developed in order to allow the incremental import of large datasets in batch mode.
+
+4.3 Way Forward
+The possibility of significantly expanding the NEOCC Physical Properties Database appears extremely promising, not only to allow the availability of the NEOShield data beyond the end of the project but also for preparing new developments (e.g. include shape models). Since the longterm perspectives of the ESA SSA Programme, as described in section 4.2, could provide the necessary strategic and funding scheme, the development of a detailed plan in terms of content, cost and schedule is highly encouraged within the framework of the collaboration between the ESA SSA-NEO Segment and the EC NEOShield-2 project.
+
+

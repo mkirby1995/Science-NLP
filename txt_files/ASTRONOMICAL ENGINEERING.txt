@@ -1,0 +1,416 @@
+ASTRONOMICAL ENGINEERING: A STRATEGY FOR MODIFYING PLANETARY ORBITS
+D.G. KORYCANSKY CODEP Dept Earth Sciences, University of California, Santa Cruz, CA 95064, U.S.A.
+E-mail: kory@ucolick.org GREGORY LAUGHLIN NASA Ames Research Center, 245-3 Moffett Field, CA 94035, U.S.A. E-mail: gpl@acetylene.arc.nasa.gov
+FRED C. ADAMS Physics Department, University of Michigan, Ann Arbor, MI 48109, U.S.A.
+E-mail: fca@umich.edu
+(Received 17 January 2000; accepted 27 July 2000)
+Abstract. The Sun's gradual brightening will seriously compromise the Earth's biosphere within  109 years. If Earth's orbit migrates outward, however, the biosphere could remain intact over the entire main-sequence lifetime of the Sun. In this paper, we explore the feasibility of engineering such a migration over a long time period. The basic mechanism uses gravitational assists to (in effect) transfer orbital energy from Jupiter to the Earth, and thereby enlarges the orbital radius of Earth. This transfer is accomplished by a suitable intermediate body, either a Kuiper Belt object or a main belt asteroid. The object first encounters Earth during an inward pass on its initial highly elliptical orbit of large ( 300 AU) semimajor axis. The encounter transfers energy from the object to the Earth in standard gravity-assist fashion by passing close to the leading limb of the planet. The resulting outbound trajectory of the object must cross the orbit of Jupiter; with proper timing, the outbound object encounters Jupiter and picks up the energy it lost to Earth. With small corrections to the trajectory, or additional planetary encounters (e.g., with Saturn), the object can repeat this process over many encounters. To maintain its present flux of solar energy, the Earth must experience roughly one encounter every 6000 years (for an object mass of 1022 g). We develop the details of this scheme and discuss its ramifications.
+1. Introduction
+As the Sun burns through its hydrogen on the main sequence, it steadily grows hotter, larger, and more luminous. Stellar evolution calculations show that in  1.1 billion years the Sun will be 11% brighter than it is today (e.g., Sackmann et al., 1993). Global climate models indicate that such an increase in insolation would drive a `moist greenhouse' on the Earth (Kasting, 1988; Nakajima et al., 1992) which will have a catastrophic effect on the surface biosphere. In 3.5 billion years, the total luminosity of the Sun will be 40% larger than the present value. Under such conditions, the Earth will undergo a catastrophic `runaway greenhouse' effect (Kasting, 1988), which will likely spell a definite end to life on our planet.
+Astrophysics and Space Science 275: 349­366, 2001. © 2001 Kluwer Academic Publishers. Printed in the Netherlands.
+
+350
+
+KORYCANSKY ET AL.
+
+Although the Earth's ecosystem will be seriously compromised within a billion years, the Sun is presently less than halfway through its main sequence life. Indeed, in 6.3 billion years, the luminosity of the Sun is expected to be `only' a factor of 2.2 greater than its current value. At that time, a planet located at 1.5 AU from the Sun would receive the same flux of solar energy that is now intercepted by the Earth.
+If the radius of the Earth's orbit were somehow to be gradually increased, catastrophic global warming could be avoided, and the lifespan of the surface biosphere could be extended by up to five billion years. In this paper, we study the feasibility of altering planetary orbits over long time scales. Special attention will be given to the specific case of the Earth, but many of the issues we address are of more general astronomical and astrobiological interest.
+The present orbital energy of the Earth is -2.7×1040 erg. Moving the Earth to a circular orbit of 1.5 AU radius would require 8.7 × 1039 erg. An attractive scenario for gradually increasing the Earth's orbital radius is to successively deflect a large object or objects from the outer regions of the solar system (the Oort Cloud or the Kuiper Belt) onto trajectories which pass close to the Earth. By analogy to the gravity-assisted flight paths employed by spacecraft directed to outer solar-system targets (e.g., Bond and Anson, 1972, Minovitch, 1994), the close passage of such an object to the Earth can result in a decrease in the orbital energy of the object and a concomitant increase of the Earth's orbital energy. For optimal trajectories which nearly graze the Earth's atmosphere, the energy boost imparted to the Earth is 2.4× 1012 erg gm-1 of object mass (Niehoff, 1966). Work by Sridhar and Tremaine (1992) suggests that even bodies that are weakly held together (`rubble piles') can survive passages that approach less than 1 Earth radius from the Earth's surface, allowing energy transfers of  1012 erg gm-1.
+Typical masses for large Kuiper belt objects are of the order of 1022 grams, meaning that roughly 106 passages (involving a cumulative flyby mass of approximately 1.5 Earth masses) would be needed to move the Earth out to 1.5 AU. Thus, over the remaining lifespan of the Sun, approximately one passage every 6000 years on the average would be required.
+The outer reaches of the Solar System contain an ideal reservoir of material which could be used to move the Earth. The Kuiper Belt is populated by a large number of objects that are larger than 100 km in diameter; the Kuiper belt may contain as many as 105 such bodies, totaling perhaps 10% of the Earth's mass (Jewitt, 1999), although these numbers remain uncertain. The Oort cloud is believed to contain about 1011 objects totaling 30 or more Earth masses (see, e.g., Weissman, 1994). As evidenced by the frequent passage of long period Sun-grazing comets originating in this region, many Oort cloud objects would need only small trajectory changes in order to bring them into appropriate Earth-crossing orbits. Indeed, strategies for modifying the orbits of asteroids and comets have been extensively discussed in the context of mitigating the hazard posed by such objects impacting the Earth (see, e.g., Ahrens and Harris, 1992, Melosh et al., 1994, Solem, 1991).
+
+ASTRONOMICAL ENGINEERING
+
+351
+
+Figure 1. Geometry of orbital encounters and gravity assists for a generic encounter of the O and the Earth. a) Encounter in the heliocentric frame. The distance scale is in AU. b) Encounter in the planet-centered frame, in which the object's flyby past the planet is a hyperbola with close-approach distance b and turning angle . The distance scale is in units of 109 cm, for a typical Earth encounter.
+Alternatively, a main belt object could be deflected into an orbit which has an aphelion in the outer solar system.
+Our approach in this paper is as follows: In Section 2, we discuss the details of our gravity assist scheme. This scheme uses an asteroid or large comet as a catalyst to transfer orbital angular momentum and energy from Jupiter to the Earth. We investigate the energy requirements of the scheme, the nature of the course corrections demanded, and also the needed accuracy. In Section 3, we discuss additional considerations, such as long term orbital stability, complications produced by other planets, and larger issues. We present our conclusions in Section 4. Although this problem raises many possible interesting (and rather speculative) issues, the present paper discusses only a few of them.
+2. The Gravity-Assist Scheme
+As mentioned in the introduction, our underlying scenario uses repeated gravity assists to (in effect) transfer orbital energy from Jupiter to the Earth, thus enlarging the Earth's orbit and reducing the received solar flux. Multiplanet encounter trajectories have been discussed for more than 25 years (e.g., Bond and Anson, 1972) and are now commonplace features of interplanetary exploration, as evidenced by the Galileo and Cassini missions.
+The underlying dynamics of the scheme are shown in Figures 1 and 2. The object `O', a suitable Kuiper belt object or main belt asteroid, first encounters the Earth during an inward pass on its initial highly elliptical orbit of large O (300 AU) semimajor axis. The encounter transfers energy from O to the Earth in standard gravity-assist fashion by passing close by the leading limb of the Earth. The resulting orbit of O then crosses the orbit of Jupiter; with proper timing, it will
+
+352
+
+KORYCANSKY ET AL.
+
+Figure 2. Layout of successive encounters for the Earth-Jupiter scheme, for an orbit with initial aphelion R0 at 650 AU and aphelion tangential velocity V0 = 6000 cm s-1. Note the changes of scale from frame to frame. a) Initial orbit to Earth encounter b) Orbit post-Earth to Jupiter c) Orbit post-Jupiter d) Initial (dotted) and return (solid) orbits compared.
+encounter Jupiter on its outbound swing, pass by Jupiter, and regain the energy it lost to the Earth. It would appear, however, that O also gains angular momentum relative to its incoming orbit, so that the return orbit is less elliptical than the initial one. As a result, a modest amount of energy must be expended to restore O's orbit to its initial parameters, unless further encounters are included that can minimize the required expenditure.
+As discussed below, larger orbits for O entail lower first-order energy requirements. On the other hand, an orbit that is too large will have too long a period to work well in the scheme (unless multiple objects are used). For purposes of discussion, we use an orbit with a semi-major axis of 325 AU, whose period of 5859 years is compatible with the  6000 year average period between encounters. In fact, the Sun's brightening is slow at first and then speeds up; thus the optimum orbit size will decrease with time.
+
+ASTRONOMICAL ENGINEERING
+
+353
+
+2.1. FORMULATION
+
+We begin by assuming that Earth and Jupiter are on circular orbits of zero inclination with radii of 1 and 5.2 AU, respectively. Obviously, a more detailed study would have to take into account the actual elements of the planetary orbits. To outline the scheme, however, the idealized case is adequate. The calculation of energy transfer and orbital parameters is made using the so-called `patched-conic' approximation (Battin, 1987, Bond and Allman, 1986). In this approximation, the orbit of the object is treated as a series of two-body problems. Far from planets, O follows a Keplerian ellipse about the Sun. At planetary encounters, O's path is given by a two-body scattering encounter. Numerical integrations of the full four body system indicate that this approximation gives perfectly adequate results.
+The incoming orbit of O (characterized by subscripts 0) is parameterized for convenience by an aphelion distance R0 and tangential velocity V0. Then the incoming angular momentum and energy are given by
+
+c0 = R0V0,
+
+h0
+
+=
+
+V02 2
+
+-
+
+µ R0
+
+,
+
+(1)
+
+where µ = GM . Assuming h0 < 0, the semi-major axis, eccentricity, and longitude of perihelion of the orbit are
+
+a0
+
+=
+
+-µ , 2h0
+
+e0 =
+
+1
+
++
+
+2h0c02 µ2
+
+1/2
+,
+
+and
+
+0 = 0 .
+
+(2)
+
+For an Earth encounter, the eccentricity must be large enough so that the perihelion distance a0(1 - e0) < R, the orbital radius of the Earth. If this constraint is satisfied, the Earth encounter takes place at longitude E, where
+
+1 cos E = e0
+
+p0 - 1 R
+
+and
+
+p0 =
+
+c02 µ
+
+.
+
+(3)
+
+The detailed geometry of an encounter is illustrated in Figure 1. For an `incoming'
+(pre-perihelion) encounter,  < E < 2 . The Earth's orbital velocity is V = (µ /R)1/2. The object's speed VE, and tangential and radial velocities VT E, VRE
+at the encounter follow from conservation of angular momentum and energy:
+
+µ
+
+1/2
+
+VE = 2 h0 + R
+
+,
+
+VT E = c0/R,
+
+VR2E = VE2 - VT2E. (4)
+
+In the Earth's frame of reference, the velocities are VT E = VT E - V, VRE = VRE, and the encounter speed is given by (VE)2 = (VT E)2 + (VRE)2. The velocity vector of the encounter in the Earth's frame makes an angle E with respect to the orbital velocity of the Earth, where cos E = VT E/VE.
+In the two-body treatment, the effect of the encounter is to turn the velocity vec-
+tor (in the Earth frame) through an angle E, where E depends on the encounter
+
+354
+
+KORYCANSKY ET AL.
+
+velocity and the impact parameter BE. The encounter can be timed to produce a specified minimum distance from the Earth, bE. The minimum distance, the impact parameter BE, and the turning angle E are related by
+
+BE = bE
+
+1
+
++
+
+2µ bE (VE )2
+
+1/2
+
+and
+
+E = 2 tan-1
+
+µ BE (VE )2
+
+.
+
+(5)
+
+For an encounter in which O loses energy and Earth gains energy, E > 0. The post-encounter tangential velocity, from which the energy transfer is found, is then
+given by VT E = VE cos(E + E). Similarly, the post-encounter radial velocity is VRE = VE sin(E + E).
+The change in energy per unit mass of the object, from pre-encounter to post-
+encounter, is then given by
+
+QE = (1/2)[(VE · VE)post - (VE · VE)pre] = V(VT E - VT E).
+
+(6)
+
+The corresponding change in the Earth's orbital energy is thus -MO QE, where
+MO is the mass of O. As mentioned above, QE will be negative (and hence the
+Earth will gain energy) if O passes `in front' of the Earth. The amount of energy
+transfer depends not only on the minimum approach distance but also on the en-
+counter geometry, i.e., E, and the encounter speed VE, which in turn depend on the longitude E of the encounter. Generally speaking, the most effective encounters occur for near but not quite `grazing' encounters for which E  ±0.5 rad, not far from O's perihelion. If bE can be taken as small as 109 cm (about 1.6 Earth radii), encounter transfer energies of up QE  1012 erg gm-1 can be achieved. This value is approximately 60% of the maximum QE = VVcirc, where Vcirc is the circular velocity in Earth orbit at a radius bE from the Earth's center.
+We denote post-Earth-encounter quantities by the subscript 1. For these post-
+Earth variables, we use Cartesian vectors in the orbital plane, for which R = (X, Y) = (R cos E, R sin E). Similar formulae obtain for the post-Earth velocity (in the solar frame) V1. In particular,
+
+Vx1 = VRE cos E - (VT E + V) sin E,
+
+Vy1 = VRE sin E + (VT E + V) cos E.
+
+(7)
+
+The angular momentum is then given by c1z^ = R × V1, and the Laplace vector P1 = -µ R/R + c1z^ × V1. With these forms, we obtain the orbital elements
+of the object O in its post-Earth orbit, i.e.,
+
+h1
+
+=
+
+V12 2
+
+-
+
+µ ,
+R
+
+a1
+
+=
+
+-µ , 2h1
+
+e1
+
+=
+
+(P1
+
+· P1)1/2 , µ
+
+1
+
+=
+
+tan-1(Py1/Px1).
+
+(8)
+
+Examination of the post-Earth orbital elements shows that the new orbit of O crosses the orbit of Jupiter. We may therefore schedule an encounter with Jupiter to
+
+ASTRONOMICAL ENGINEERING
+
+355
+
+Figure 3. Energy transfer (per unit mass of O) QE for encounters as a function of E . All orbits have initial aphelia at R0 at 650 AU.
+
+regain energy lost by O to Earth. As before, treating the orbit of Jupiter as a circle and the orbit of O as an ellipse in the plane, we find that the longitude J of the Jupiter encounter is given by
+
+1 cos(J - 1) = e1
+
+p1 - 1 , R
+
+where
+
+p1
+
+=
+
+c12 µ
+
+.
+
+(9)
+
+The encounter of O with Jupiter implies similar considerations (with respect to
+the change in orbital parameters) as the encounter with Earth. The orbital elements
+give us the tangential encounter velocity VT J (in Jupiter's frame) and the encounter speed VJ . Our initial idea was to set the encounter geometry so as to yield an energy gain QJ (by O) equaling the amount lost at the Earth. As noted below, however, a more efficient encounter (in terms of the final velocity change of O) is one that
+yields a post-Jupiter orbit with an aphelion equal to the original value R0. In that case, it is simplest to search numerically for the desired Jupiter encounter distance
+bJ . The encounter geometry gives us J ; the impact parameter and J then follow from bJ as above.
+Finally, we must work out the orbital elements aR, eR, R for O on its postJupiter return orbit. The succession of encounters is shown in Figure 2, for our example orbit with aphelion at 650 AU and and aphelion tangential velocity V0 =
+
+356
+
+KORYCANSKY ET AL.
+
+6000 cm s-1. Figure 3 shows the energy transfer for a collection of encounters (bE = 109 cm) as a function of E.
+In general, we find that e0 > eR, and hence the return orbit of O has larger angular momentum than the incoming orbit. While we have not rigorously proven
+this result, it seems intuitively understandable: the `lever arm' associated with the Jupiter encounter (i.e., the radius of Jupiter's orbit) is  5 times larger than that of the Earth encounter, resulting in a larger angular momentum. This finding spoils
+some of the neatness of the scheme. It is possible to reduce the mismatch of angular
+momentum by increasing the Earth encounter distance bE, but this change reduces the efficiency of the encounter, as QE  1/bE. An example of this behavior is shown in Figure 4. If the return orbit were identical to the incoming orbit (modulo
+its orientation), a mechanism could be set up to recycle the object for an indefinite
+number of passes with a very low energy expenditure.
+The angular momentum of O can be restored to its incoming value by means
+of a `course correction' at aphelion. Numerical experimentation suggests that the
+most efficient scheme is to adjust bJ so as to produce a return orbit with the same aphelion as the initial orbit: aR(1 + eR) = a0(1 + e0). The required velocity change is then simply VR = cR/R0 - V0, applied so as reduce the tangential velocity of O to its original value V0. This velocity correction is similar to the well-known Hohmann maneuver used to transfer from one circular orbit to another with least
+velocity change. Since the change VR is inversely proportional to the aphelion distance, it is advantageous (from the point of view of least energy expenditure) to
+arrange for O's orbit to have the largest possible aphelion. On the other hand, the
+orbit must not be so large that its period is incompatible with the basic encounter timescale of  6000 years which is equivalent to a semimajor axis of  330 AU. For typical aphelia O (600) AU, the velocity change is VR  6000 cm s-1.
+
+2.2. MULTIPLANET ENCOUNTERS POST-EARTH
+
+The considerations discussed above suggest that we consider the possibility of
+scheduling multiple planet encounters after passage by the Earth. This added com-
+plication can help optimize the scheme by reducing the primary energy expendit-
+ure at the return-orbit aphelion. An encounter with Saturn, immediately after the
+Jupiter encounter, is a natural candidate. Calculating the post-Saturn orbital para-
+meters follows in the manner outlined above. We can then search the parameter
+space of encounter distances with Jupiter bJ and Saturn bS to minimize the velocity change VR.
+We find that VR can in fact be reduced essentially to zero by an arrangement where O loses energy at the Saturn encounter; the distance bJ must be decreased from its best single-encounter value  1.73 × 1011 cm to compensate. There is a dramatic decrease of VR to nearly zero (O(10) cm s-1) for bJ  6.6 × 1010 cm. Figure 5 shows the orbital geometry involved. However, to find the minimum
+VR for any specified value bJ demands the specification of bS (or vice-versa) to
+
+ASTRONOMICAL ENGINEERING
+
+357
+
+Figure 4. a) Energy transfer per unit mass of O as a function of Earth approach distance bE for orbits with R0 = 650 AU and V0 = 6000 cm s-1. b) Eccentricities e0 (dotted) and eR (solid) as a function of Earth approach distance bE .
+
+358
+
+KORYCANSKY ET AL.
+
+Figure 5. Successive encounters (cf. Figure 2) for an Earth-Jupiter-Saturn arrangement for an orbit with initial aphelion R0 at 650 AU and aphelion tangential velocity V0 = 6000 cm s-1. a) Inner portion of the successive orbits. b) Initial (dotted) and return (solid) orbits compared.
+exceedingly high precision. For example, reduction of VR to  10 cm s-1 for bJ = 6.6 × 1010 cm, requires bS to be specified to a precision of  10 cm. Less stringent specifications O(104) cm are sufficient if reduction VR to a few meters per second is satisfactory. Some examples are shown in Figure 6.
+As a result, any realistic scheme will probably not attempt to strictly enforce VR = 0. Nevertheless, it is interesting to find that the `first-order' energy expenditure of the scheme can be reduced in principle to a negligible amount. Figure 7 shows bJ as a function of bS for minimum VR transfers, and also the resulting values of VR.
+3. Other Issues
+3.1. ACCURACY, COURSE CORRECTIONS, ENERGY REQUIREMENTS
+In general, various additional effects will interfere with the minimal-energy scheme outlined above. These complications include planetary orbital eccentricity, nonzero inclination angles, and non-gravitational impulses. We will not attempt to develop a sophisticated method of guidance for the object, although such methods have been developed (to a very high degree of precision) for the space program and planetary exploration (cf. Battin, 1987). Instead, we will merely make some estimates.
+Planetary orbits have eccentricities and inclinations e and i (in radians) of a few times 10-2. In order to accommodate these values, the velocity changes will be  10-2V , or about 104 cm s-1 when applied to velocities of  10 km s-1, which would be typical of the region outside of Saturn's orbit. With sufficient planning, one can thus easily accommodate the departures of planetary orbits from circles in the same plane, as discussed so far.
+
+ASTRONOMICAL ENGINEERING
+
+359
+
+Figure 6. Velocity VR required to restore initial orbital energy and angular momentum, as a function of difference b - bS from Saturn encounter distance for three different values of Jupiter encounter distance bJ . (Initial aphelion R0 = 650 AU, aphelion tangential velocity V0 = 6000 cm s-1.) a) bJ = 6.8 × 1010, bS = 5.6106641326 × 1010 cm, b) bJ = 7.02 × 1010 cm, bS = 5.8751641993 × 1010 cm c) bJ = 7.2 × 1010 cm, bS = 6.1022703373 × 1010 cm.
+
+360
+
+KORYCANSKY ET AL.
+
+Figure 7. a) Jupiter encounter distance bJ as a function of Saturn encounter distance, required to minimize VR. (Initial aphelion R0 = 650 AU, aphelion tangential velocity V0 = 6000 cm s-1.) The upper curve is for encounters in which O gains energy at Saturn; the lower for encounters in which O loses energy. b) Resulting minimum velocity change VR for the encounters specified in a). Again, the upper curve refers to energy-gaining encounters at Saturn and the lower for energy-losing encounters.
+Undoubtedly, the need for other course corrections will occur. High accuracy is demanded at all critical stages. Closing velocities of 40 km s-1 and encounter distances of 109 cm translate to accuracy of O(10­100) s in time of arrival at the Earth. We can get some feeling for the size of velocity changes that are required in a fairly simple way by making use of algorithms for the solution of `Lambert's problem' (Battin, 1987, Bond and Allman, 1986), which consists of finding the velocity vector v0 needed to produce a 2-body orbit that takes a mass from given position r0 to r in a given time interval t.
+We choose a target energy budget for velocity corrections of V  104 cm s-1. We then use the algorithm for Lambert's problem to compute differential velocity corrections along the incoming orbit (before the Earth encounter) that yield changes in arrival times t. We find that a t of O(10­100) can be accommodated fairly easily up to  105 s before encounter. Alternatively, much larger changes in arrival time can be allowed for at greater distances; for example, at  0.5 AU ( 4 × 106 s before encounter), the suggested budget could shift the encounter time by  104 s. Of course, a more realistic mission profile would not use up all the allowed energy for one correction, and a target velocity change of V  103 cm s-1 per course correction might represent a reasonable aim.
+For the case of total V = 104 cm s-1, and for a 1022 gm object, about 1030 erg are required to enforce the velocity changes for each encounter. About 1014
+
+ASTRONOMICAL ENGINEERING
+
+361
+
+erg gm-1 is available from H2O by deuterium-tritium fusion, assuming a terrestrial D/H ratio (Pollack and Sagan, 1993). Thus,  1016 gm of ice must be proccessed for each encounter (at a minimum); this ice would subtend a volume about 2.2 km on a side. For every encounter, this ice volume represents about 10-6 of the mass of object O; as a result, the  106 encounters necessary would consume the deuterium of O(1) large Kuiper Belt object, assuming pure H2O ice composition. In addition, about twenty times as much rock mass is needed to provide lithium for the production of tritium. An object of predominantly chondritic composition may thus be required if in situ production is desired. Obviously, much less processing is needed if p­p fusion were available; in that case, a single object with an associated processing and powerplant could be easily be used for the entire project.
+Non-gravitational forces are also an issue, and they potentially demand energy expenditures above and beyond those that we have discussed thus far. An icy object, although attractive from the standpoint of containing fusionable material and favorable initial location in the outer solar system, will be more subject to this problem than an stony or metallic asteroid. On the other hand, a large main-belt asteroid would have to be placed into a suitable orbit starting from the inner solar system, where energy requirements are high.
+
+3.2. TIMING
+
+The successful implementation of this scheme demands a reasonably delicate interplay between orbital time scales of a thousand or more years (for O) and arrival times scheduled to the minute. The first major issue is how often one would expect to have Earth and Jupiter (and Saturn) arrive in a particular configuration relative to the argument of perihelion of O. The object O spends most of its time `hanging' at aphelion. Small adjustments in trajectory can thus be used to time the infall to correspond to the moment of proper planetary alignment. With this flexibility, we could arrange for O to arrive when Earth and Jupiter are in proper position, an alignment that takes place every 13 months or so. As a result, two-planet encounters are easily realized; three-planet encounters (e.g., including Saturn) are a bit more difficult.
+In order for the most ideal version of our proposed mechanism to operate, Earth, Jupiter, and Saturn must all be in the proper phases of their orbits when O makes its passage through the inner solar system. We can safely assume that minor corrections to the orbit of O can delay its arrival in such a way that O's orbital phase is suitable for moving the Earth. The three planets, however, must have the proper phase relative to each other. The conditions for this phase alignment can be written in the form
+
+( -  )t = 2 n ,
+
+(10)
+
+and
+
+( -  )t = 2 k ,
+
+(11)
+
+362
+
+KORYCANSKY ET AL.
+
+where n and k are integers and where the j denote the orbital frequencies of the planets in obvious notation.
+We first consider the case in which the orbital frequencies, or equivalently the orbital periods Pj = 2/j , are constant. Expressed in years, the planetary periods are approximately P = 1, P = 11.86, and P = 29.28.
+The condition for a perfect alignment can be written in the form
+
+k = (P n (P
+
+- 1)P -P )
+
+(12)
+
+where we have used the orbital periods rather than the orbital frequencies. Since the orbital periods are known, the right hand side is a known dimensionless number, which has a value of about 18.25. We can write this expression in the form
+
+k n
+
+=
+
+18.d1d2d3d4d5
+
+...
+
+,
+
+(13)
+
+where the dj denotes digits of the number (which in general will be irrational). The general mathematical problem is thus to represent a real number (the right hand side above) with a rational approximation. For a given specified accuracy (i.e., for a given number of decimal places in the above expression), we need a minimum size of the integers k and n. The integer k is roughly the number of Earth orbits required to attain sufficient alignment, and hence is also the approximately number of years between alignments (more precisely, k measures time in units of P(1 - P/P )-1  1.09 years).
+One possible choice for the alignment integers is thus k = 18d1d2d3d4d5 . . . dj and n = 10j , where the last digit represented is the j th one. The time interval between alignments is thus about  = P P n/(P - P )  20 × 10j years.
+The above argument shows that a solution exists. A compromise must be made, however. In order to increase the accuracy of the alignment, we need longer time intervals between encounters. But we also need enough encounters per unit time to move the Earth before the Sun compromises the biosphere.
+Although the alignment condition will vary as Earth changes its orbital parameters due to the asteroid encounters, the orbital period of Earth only changes by a factor of two and hence the accuracy requirements will be of the same order of magnitude for the entire migration time interval. The accuracy needed for alignments is determined by the accuracy needed for the secondary encounters at Jupiter and Saturn. We can assume that the orbit of O will be tuned to interact with Earth at just the right impact parameter, but no course adjustments can be made before O reaches the outer planets. Jupiter and Saturn thus must be in the right place to an accuracy of a few planetary radii (say  1010 cm). This constraint implies that we know the orbital phases to a relative accuracy of about /r  10-4; we must take j = 4 at the very least, but we would like to use j = 5 or even 6 in an ideal case. With j = 4, for example, the time interval between encounters
+
+ASTRONOMICAL ENGINEERING
+
+363
+
+(alignment opportunities) is about 200 000 years. During the allowed few billion year time period (until the biosphere is compromised), we thus only get about 10 000 encounters. But, as discussed above, we need nearly a million encounters to successfully move the Earth to a viable larger orbit.
+We must thus view the problem the other way around: In order for migration to occur within a few billion years, we must have encounters every few thousand years. For this frequency of encounters, the largest allowed value of the integer k is about 1000 (for example, one obvious approximation would be k = 1825 and n = 100). With this level of precision, we can tune the encounter so that Earth and Jupiter are in the right place, but Saturn will generally be in the wrong phase of its orbit by an amount corresponding to a fraction 0.02 of its orbit. The spatial displacement will be 0.02 × 2 r  1.2 AU  3000 RS (Saturn planetary radii). In this case, we can use Saturn to make course corrections to O's orbit , but we cannot obtain perfect post-encounter orbital elements (where the object has exactly the same energy and angular momentum it started with).
+Therefore a more realistic goal is to aim at reducing the aphelion V of O to some small value, or at least one that does not dominate the `energy budget'. There is a range of possible Jupiter encounter parameters bJ that yield a final V < 1000 cm s-1; these encounters correspond to a range of  0.05 radian of encounters along Saturn's orbit, thus easing the timing requirement to a manageable level.
+In addition there are other considerations that mitigate the problem: - Uranus and Neptune are available, giving three times as many opportunities
+as using Saturn alone. - Multiple objects can be used for energy transfer, though this will probably
+raise the energy requirements in proportion to the number of bodies involved. - Encounters need not be scheduled at the first opportunity (as shown in Fig-
+ures 2 and 5). They can also be timed to occur after multiple orbit passes at either intersection point of the orbits. The object O can be stored in temporary Chiron-like orbits as well.
+
+4. Discussion
+In this paper, we have investigated the feasibility of gradually moving the Earth to a larger orbital radius in order to escape from the increasing radiative flux from the Sun. Our initial analysis shows that the general problem of long-term planetary engineering is almost alarmingly feasible using technologies that are currently under serious discussion. The eventual implementation of such a program, which is moderately beyond current technical capabilities, would profoundly extend the time over which our biosphere remains viable.
+The main result of this study is a theoretical description of a workable scheme for achieving planetary migration. This scheme is applied to the particular case of the Earth. Solar system bodies, such as large asteroids or Kuiper Belt objects,
+
+364
+
+KORYCANSKY ET AL.
+
+can be used to move Earth over the next billion years. These secondary bodies are employed in a gravity-assist mechanism to increase the Earth's orbital energy and thereby increase its distance from the Sun. The most favorable orbits for the secondary bodies have a large semi-major axis, typically hundreds of AU; with this relatively high `leverage factor', the large requisite energy transfer can be achieved.
+An important aspect of this scheme is that a single Kuiper Belt object or asteroid can be employed for successive encounters. In order to move the Earth at the required rate, approximately one encounter every 6000 years (on average) is needed (using objects with mass  1022 gm). Due to the acceleration of the Sun's luminosity increase, the encounters must be more frequent as the Sun approaches the end of its main-sequence life. In order to use the same secondary body for many encounters, modest adjustments in its orbit are necessary. However, by scheduling the secondary body to encounter additional planets (e.g., Jupiter and/or Saturn) in addition to the primary Earth encounter, the energy requirements for orbital adjustment at the object's aphelion can be substantially reduced. In particular, the energy consumed by such course corrections is not likely to dominate the energy budget.
+Any serious proposal for planetary engineering, or any large-scale alteration of the solar system, raises important questions of responsibility (see Pollack and Sagan, 1993). Compared with other astronomical engineering projects, this scheme has both positive and negative aspects. For example, although no massive alteration of planetary environments is proposed, this scheme would consume a number of large Kuiper Belt objects.
+A great deal of energy must be expended to implement this migration scheme. However, the energy needed to move Earth is relatively modest compared to that needed for interstellar travel. For example, an optimistic minimum energy expenditure is about 1036 erg, which corresponds to the kinetic energy of a  1023 gm object moving at a velocity of 50 km s-1 (this mass is less than 10-4 M). As a means of preserving the entire biosphere, this scheme is thus highly efficient compared to interstellar migration, even if we have underestimated the energy requirements by many orders of magnitude. The energy requirements and overall ease of implementation also compare favorably with various terraforming projects (Pollack and Sagan, 1993).
+As noted near the beginning of this paper, the required change in orbital energy of the Earth is  9 × 1039 erg. In the basic scheme we have outlined, the energy is essentially transferred from Jupiter to the Earth. As a result, Jupiter's semi-major axis a4 decreases by a = a4 E/E4  2.5 × 10-3a4, where E4 = GM M4/a4 = 3.5 × 1042 erg is Jupiter's orbital energy; this change amounts to  0.01 AU. While small, this orbital change could destabilize some asteroidal or other orbits by the shift of position of Jupiter's orbital resonances. The multi-planet scheme would involve similar-sized orbital changes for Jupiter and Saturn (or other planets).
+Potentially more serious questions involve the rotation rate of the Earth and the Moon's orbit. We expect that O will raise a tide in the Earth during its encounter.
+
+ASTRONOMICAL ENGINEERING
+
+365
+
+The tide could be substantial; although O would be a relatively small body, the closeness of its passage means that the transient forcing potential would be O(10) × as strong as that of Moon, for a 1022 gm body passing 109 cm from the Earth's center. Calculating the size and phase of the tide would require detailed work, but qualitatively we would expect any tidal bulge to lag in phase behind O, as O moves more quickly than the Earth rotates. This in turn implies a spin-up of the Earth (similar resoning accounts for the spin-down of the Earth by the Moon). Given the very large number of encounters planned, a serious increase in the Earth's rotation rate could result.
+However, the above picture, leading to spin-up, takes place only for `incoming' encounters, such as depicted in Figures 1 and 2. The symmetry of the encounters equally allows `outgoing' encounters, in which O passes by the Earth after its perihelion. Such encounters also pass by the Earth's leading limb from inside the Earth's orbit. They are thus retrograde with respect to the Earth's rotation, and the same considerations as above now lead to spin-down of the Earth rather than spinup. Thus, by careful planning of encounters, we can cancel any unbalanced torques exerted on the Earth.
+As for the Moon, reasoning by analogy with cases of stellar binaries and thirdbody encounters suggests that the Moon will tend to become unbound by encounters in which O passes inside the Moon's orbit. (As well, there is the non-zero probability of collisions between O and the Moon, which must be avoided.) Again, detailed quantitative work needs to be done, but it seems that the Moon will be lost from Earth orbit during this process. On the other hand, a subset of encounters could be targeted to `herd' the Moon along with the Earth should that prove necessary. It has been suggested (cf. Ward and Brownlee 2000) that the presence of the Moon maintains the Earth's obliquity in a relatively narrow band about its present value and is thus necessary to preserve the Earth's habitability. Given that the Moon's mass is 1/81 that of the Earth, a similarly small increment of the number of encounters should be sufficient to keep it in the Earth's environment.
+The fate of Mars in this scenario remains unresolved. By the time this migration question becomes urgent, Mars (and perhaps other bodies in the solar system) may have been altered for habitability, or at least become valuable as natural resources. Certainly, the dynamical consequences of significantly re-arranging the Solar System must be evaluated. For example, recent work by Innanen et al. (1998) has shown that if the Earth were removed from the Solar System, then Venus and Mercury would be destabilized within a relatively short time. In addition, the Earth will traverse various secular and mean-motion resonances with the other planets as it moves gradually outward. A larger flux of encounters might be needed to rapidly escort the Earth through these potential trouble spots. In this case, additional solar system objects may require their own migration schemes. Alternately, this technology could be used, in principle, to move other planets and/or moons into more favorable locations within the solar system, perhaps even into habitable
+
+366
+
+KORYCANSKY ET AL.
+
+zones. As another application, the basic mechanics of this migration scheme could be employed to clear hazardous asteroids from near-Earth space.
+An obvious drawback to this proposed scheme is that it is extremely risky and hence sufficient safeguards must be implemented. The collision of a 100-km diameter object with the Earth at cosmic velocity would sterilize the biosphere most effectively, at least to the level of bacteria. This danger cannot be overemphasized.
+
+Acknowledgements
+DGK and GL are supported by a NASA astrophysics theory program which supports a joint Center for Star Formation Studies at NASA-Ames Research Center, UC Berkeley and UC Santa Cruz. FCA is supported by NASA Grant No. NAG 52869 and by funds from the Physics Department at the University of Michigan.
+
+References
+Ahrens, T.J. and Harris, A.W.: 1992, Nature 360, 429. Battin R.H.: 1987, in: An Introduction to the Mathematics and Methods of Astrodynamics, AIAA
+Education Series, American Institute of Aeronautics and Astrodynamics, New York, NY. Bond, V.R. and Allman, M.C.: 1996, in: Modern Astrodynamics, Princeton University Press,
+Princeton, NJ. Bond, V.R. and Anson, K.W.: 1972, J. Spacecraft & Rockets 9, 460. Innanen, K., Mikkola, S. and Wiegart, P.: 1998, Astron. J. 116, 2055. Jewitt, D.: 1999, Ann. Rev. Earth Planet. Sci. 27, 231. Kasting, J.F.: 1988, Icarus 74, 472. Melosh, H.J., Nemchinov, I.V. and Zetzer, Yu.I.: 1994, in: T. Gehrels (ed.), Hazards due to Comets
+and Asteroids, University of Arizona Press, 1111. Minovitch, M.A.: 1994, J. Spacecraft & Rockets 31, 1029. Nakajima, S., Hayashi, Y.Y. and Abe, Y.: 1992, J. Atmos. Sci. 79, 37. Niehoff, J.C.: 1966, J. Spacecraft & Rockets 3, 1351. Pollack, J.B. and Sagan, C.: 1993, in: Resources of Near Earth Space, University of Arizona Press,
+38. Sackmann, I.-J., Boothroyd, A.I. and Kraemer, K.E.: 1993, Astrophys. J. 418, 457. Solem, J.C.: 1991, Los Alamos National Lab Rept. LA-UR-91-3765. Sridhar, S. and Tremaine, S.: 1992, Icarus 95, 86. Weissman, P.R.: 1994, Nature 368, 687.
+
+

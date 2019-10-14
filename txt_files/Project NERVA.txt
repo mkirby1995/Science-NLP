@@ -1,0 +1,672 @@
+NASA Contractor Report 187154 AIAA-91-3451
+
+https://ntrs.nasa.gov/search.jsp?R=19910017902 2018-06-09T02:02:33+00:00Z
+L` (p312-
+
+An Historical Perspective of the
+NERVA Nuclear Rocket Engine Technology Program
+
+W.H. Robbins
+Analytical Engineering Corporation North Olmsted, Ohio
+and
+H.B. Finger
+Consultant Washington, D. C. for Sverdrup Technology, Inc. NASA Lewis Research Center Group Brook Park, Ohio
+
+July 1991
+Prepared for Lewis Research Center Under Contract NAS3-25266
+NASA
+National Aeronautics and Space Administration
+
+AN HISTORICAL PERSPECTIVE OF THE NERVA NUCLEAR ROCKET ENGINE TECHNOLOGY PROGRAM
+
+W. H. Robbins* Analytical Engineering Corporation
+H. B. Finger Consultant
+
+Abstract
+Nuclear rocket research and development was initiated in the United States in 1955 and is still being pursued to a limited extent. The major technology emphasis occurred in the decade of the 1960's and was primarily associated with the Rover/NERVA Program where the technology for a nuclear rocket engine system for space application was developed and demonstrated. The NERVA (Nuclear Engine for Rocket Vehicle Application) technology developed twenty years ago provides a comprehensive and viable propulsion technology base that can be applied and will prove to be valuable for application to NASA's Space Exploration Initiative. Also the unique organization that evolved to successfully manage this effort requiring major contributions and involvement of two government agencies in partnership with industry is a useful model when a similar development is initiated for SEI. This paper, which is historical in scope, provides an overview of the conduct of the NERVA Engine Program, its organization and management, development philosophy, the engine configuration and significant accomplishments.
+Introduction
+Manned exploration missions to the near planets planned in NASA's Space Exploration Initiative (SEI) are particularly difficult. Long term exposure to the hostile space environment requires the development and improvement of mission critical technologies including life support systems, electric power and propulsion. The space vehicle propulsion system is particularly important since it has a major influence on the vehicle configuration including its size, weight, and perhaps the most important consideration, cost and trip time required to perform the mission. Therefore, it is necessary that planetary propulsion systems be developed with a step increase in performance and specific impulse over conventional chemical rockets. The nuclear rocket, with a specific impulse potential two to three times that of chemical systems, is an attractive option and perhaps the only option in the foreseeable future. The reduction in trip time with increasing specific impulse is illustrated in Figure 1. Trip time could be cut at least 100 days from that of advanced chemical systems.
+
+Figure 1 - Propulsion System Performance Potential for a Manned Mars Mission
+10000
+
+c
+0 y
+
+ai
+a 1000
+F
+J L; U
+4a)
+
+loo
+
+100
+
+200
+
+300
+
+400
+
+500
+
+Mission Round Trip Time - Days
+
+Nuclear rocket research and technology development was initiated in the United States in 1955 and is still being pursued to a limited extent. The real technology emphasis occurred in the decade of the 1960's and was primarily associated with the Rover/NERVA Program. The Rover program consisted of both research and technology development directed to nuclear rockets for space application. The principal research thrust, conducted by the Los Alamos National Laboratory, LANL, was directed to the development of reactor fuel and reactor systems that would operate with hydrogen at temperatures above 2200°K. The technology development, called NERVA, the focus of this paper, was directed to nuclear engine system components and the conduct of ground test engine system demonstrations. The NERVA technology, developed twenty years ago and summarized herein provides a viable technology base that will prove valuable for application to NASA's current Space Exploration Initiative. Also the unique organization that evolved to successfully manage this effort requiring major contributions and involvement of two government agencies in partnership with industry is a useful model when a similar development is Initiated for SEI. This paper, which is historical in scope, provides an overview of the conduct of the NERVA Program, its organization and management, the development philosophy and the engine configuration. In addition, the verification approach, test philosophy and the significant accomplishments of this highly successful technology program are
+
+'Member AIAA
+
+1
+
+presented. The emphasis of this paper has been directed toward the engine system development. Two topics are emphasized - the rationale for establishing the engine configuration and the "proof of concept" approach that demonstrated engine operational feasibility. LANL reactor research, although a major and enabling activity in the program, is not discussed in detail.
+The Information presented herein is a synopsis of the authors' experience as overall Program Director and Project Manager of the Engine System Development Program through the decade of the 1960's. Fortunately, the NERVA Program was well documented. Approximately 100,000 reports and memoranda were generated and many of these documents were utilized as a "memory check". References 1 and 2 were particularly helpful and some of the information from these references is contained herein.
+Technology Development Philosophy
+After several years of nuclear reactor research conducted by the Los Alamos National Laboratory. rocket engine development began in 1961 with the selection of the industrial contractors, Aerojet and Westinghouse, to develop the NERVA engine. Initially, a nuclear rocket engine flight test was planned. However, in 1963 the nuclear rocket program was reviewed and redirected toward an engine technology program focused on ground tests only. Nevertheless, space mission plans associated with manned planetary exploration, unmanned solar system exploration, and extended lunar exploration continued to strongly influence definition of propulsion system requirements and guided ground test engine definition.
+The objective of the NERVA Technology Program was to establish a technology base for nuclear rocket engine systems to be utilized In the design and development of propulsion systems for space mission application. The principal task was associated with the assessment of real system performance and operating characteristics in advance of firm mission requirements. This approach ensured that system performance would be well understood when mission objectives and propulsion system requirements were clearly specified.
+Technology priorities were determined at the outset -- safety and reliability requirements took precedence over weight and performance considerations. Emphasis was placed on the development of critical engine components which significantly affected system interactions and system characteristics, namely the propellant feed system,
+2
+
+the nozzle and the engine control system. Facilities for engine assembly/ disassembly and engine system tests were also recognized as being essential and a significant challenge. Therefore, the design and construction of these facilities was initiated early in the program.
+In addition to the major program thrust, which was the determination of engine system characteristics using graphite reactor technology with hydrogen coolant, a small but significant activity was directed to the pursuit of higher risk, high- benefit technologies. Two primary alternative reactor technologies were funded; refractory metal reactors, and liquid and gas core reactors.
+There was also a continuing systems engineering activity associated with mission and flight engine definition which guided technology development.
+Organization and Management
+The initial NERVA management issue was associated with the fact that the nature of the program required the technical capabilities and functions of two government agencies, NASA and the Atomic Energy Commission (AEC). Perhaps the most significant management issue of all was associated with the fact that it was impractical to separate reactor development from the development of the nonnuclear engine components because of the interactions and critical interfaces that existed among components of a rocket engine. The technical management solution to this issue became obvious. A single program/project organization was mandatory for efficient and effective program implementation. There were, of course, many institutional and political problems that required joint agency resolutions such as the flow of funds, agency roles and responsibilities, and staffing. The organizational approach that evolved, however, gave priority to technical considerations and was structured to maximize the possibility of technical success.
+The NERVA program was organized as a joint NASA/Atomic Energy Commission (AEC) program and both agencies provided resources. AEC funded reactor research and technology development as well as the development of reactor and fuel test facilities. NASA funding was directed to non-nuclear component technology, engine system development, and the design and construction of engine test facilities.
+The NERVA program was managed by the Space Nuclear Propulsion Office (SNPO). This "Program Office" was located in Washington D.C. and was staffed by both NASA and AEC employees. The director of the
+
+AEC
+-- The Comm,--i =
+
+Figure 2 - Nuclear Rocket Program Organization
+
+Grneral Manager
+Wiston ofeRactor Devclop n--t
+Albuquerque opa tlon oMce
+
+Space Nuclear Propulsion Office
+(SNPO)
+Director - H. S. Finaer Deputy Director - M. Klein
+
+NASA \dmtnts rator
+,dam .
+Adrmcea Rcseazch and Techr»iogy
+
+Loa Alamos Lanoratoty KPAI Q PHOEBUS
+
+C eveiana Eztc ISNPO-Cl EFiVA
+
+Extmston I I
+
+I
+
+LIALSON I
+
+------- Program Direction
+
+I SNPO -Nl
+
+11 Spice Fhgh Cents
+
+Leads Reeearct
+Center
+-hUCLF.AR ROCK
+TECHNOLOGY
+
+Line Authority
+
+Figure 3 - Space Nuclear Propulsion Ofnce Cleveland Extension (SNPO - C)
+
+CZ Or THE CffiFJ
+'ChkL R. W. d<hrwedcr
+
+PIANO t PROORAHS OFFICE F. 6, Ross
+
+HFiLTH t SAFLTT OFFICE D. S. Stntih
+
+PROJECT MANAGERS
+
+REACTORS
+
+J. li Stager
+
+FACILITIES ENGINES
+
+W. Ir Emle£ P. E. Re--
+W. H. Robb Los
+
+ASSISTANT CHILE F'OR TZA=1NICAL OPERATION·
+L- C- Cc--bwtsu
+
+REISABa= R 9UALSIT ASSURANCL GROUP
+J. W. DI. H
+
+ASSISTANTHCIEF FOR FACMITIEa DESIGN
+
+Ir D. Wmi.L s
+
+1
+
+ASS IDTA.NT C= FOR ADl@GETRATION
+O. L- Ki+ "11
+
+Btwch
+A. A. MedeLr
+
+E- W. R.--
+!ce[ Yfaanla^ R Opatsrbos 8rzmh
+a H ReMV
+
+office was a NASA employee and his deputy was on the AEC staff. The balance of the Program Office staff, approadmately twenty people, were a combination of AEC and NASA employees. Specific responsibilities of the Program Office included program and resource planning and evaluation, the justification and distribution of program resources, the definition and control of overall program requirements, monitoring and reporting of progress and problems to NASA and AEC management, and the preparation of testimony to the Congress.
+The Nuclear Rocket Program Organization as it existed In 1961 is shown in Figure 2. As shown in the chart, the Director of SNPO reported to both agencies. The NASA reporting chain was through the Associate Administrator of the Office of Advanced Research and Technology to the NASA Administrator. In the case of
+
+AEC, the Director reported through the Division of Reactor Development and the AEC General Manager to the Atomic Energy Commission.
+Three SNPO Field Offices reported directly to the SNPO Director. The Cleveland extension (SNPO-C) was a - Project Office" responsible for the management of NERVA Engine Technology Development. The office was located at the NASA-Lewis Research Center (LeRC). The NASA-Le RC staff provided a major portion of the engineering support throughout the technology program. The SNPO-C Project Office managed the activities of the industrial contractors. Aerojet and Westinghouse. In addition, SNPO-C responsibilities included the management of the design, construction and activation of engine assembly/disassembly and engine test facilities at the Nevada Test Site.
+
+The 1966 SNPO-C Organization is shown in Figure 3. The Project Office contained all the technical, administrative and support functions necessary for the management of the technology development activity that was conducted by government, industry and university teams.
+This Program/Project organization was unique in two respects. 'Me Project Office (SNPO-C) was a line management organization, and it was comprised of a co-located AEC/NASA staff, that reported institutionally as well as programmatically to the Program Office, SNPO. The Program Office had direct line management authority over all Project functions. The Project Office, in turn, was responsible for the day to day project management activities including technical, procurement, budget, schedule and safety. With this organizational structure, roles and responsibilities were clear and the response to all Project Manager actions, particularly procurement actions, was greatly accelerated. The project organization also benefited from its location and utilized NASA-Lewis engineering support in the conduct of day to day project management activities.
+The Nevada Extension, located at the Nuclear Rocket Development Station, managed the test site base support activities and provided on site support during facility construction, activation and operation.
+The Albuquerque Extension provided liaison with the Los Alamos Laboratory who had the responsibility for the KIWI and Phoebus research reactor programs. KIWI and Phoebus reactor research was directed to advanced concepts to demonstrate reactor operation at progressively higher temperature, higher power density and higher power with reduced fuel corrosion.
+In addition to the line management organization described, SNPO retained technical direction authority over the Los Alamos Laboratory for the KIWI and Phoebus reactor development activities.
+This organization was unique in NASA history in that it was a single joint Program Office that was responsible for implementation of policies and practices of two government agencies. In addition, field offices, responsible for Project Management and liaison, were line organizations reporting to the Program Office institutionally and programmatically.
+This organizational approach proved to be efficient and effective in managing institutional, programmatic and technical issues. The keys to its success were associated with the ability to effectively resolve interagency issues, provide clear leadership and direction to the Project organization, and maintain
+4
+
+the support of the agencies involved, as well as the Administration, the Congress and the general public.
+NERVA Engine Technology Development
+The long lead times required for the acquisition of system and reactor test facilities forced early establishment of engine size and propulsion system performance goals. An early NERVA priority task was flight system definition derived from NASA mission planning and the analysis of missions which were then thought to be 10 to 20 years in the future. Because it was recognized that firm missions would take years to evolve, the nuclear rocket engine system and the associated technology thrusts were defined such that the resulting technology development activities would, in so far as possible, be applicable to a variety of space missions.
+System Definition
+The missions of interest in the early 1960's were not substantially different than those being considered today in NASA's Space Exploration Initiative. Extended lunar exploration and principally manned Mars expeditions received the most attention. The propulsion system requirements for the Mars mission were the most severe. Chemical propulsion systems that existed or were under development were not considered practical for manned planetary application because of the large vehicle weight and the trip time required to perform the mission. For nuclear rockets, spacecraft weights between 1.5 and 3 million pounds were considered necessary and propulsion stages with specific impulse values in excess of 800 seconds and thrust levels of 200,000 pounds or more were desired. In contrast, engine thrust requirements for the lunar missions, because of reduced vehicle weights, were much lower, below 100.000 pounds.
+Because it was necessary to make an early engine size selection for multiple missions, one option was propulsion modules with multiple engines with the number of engines per propulsion module commensurate with the required mission thrust requirements. Using this approach, a single flight baseline engine was defined with a thrust level of 75,000 pounds and 825 seconds of specific impulse. It is important to note that the reactor power requirements, somewhat in excess of 1000 MW, were similar to the design requirements of the KIWI-B reactor under development by the Los Alamos National Laboratory.
+The flight engine configuration is shown in Figure 4. The engine was 22 feet high from the upper thrust structure which mates to the hydrogen propellant tank
+
+there. The flow then cools the shield and enters the reactor inlet plenum.
+Propellant is distributed from the inlet plenum into several parallel paths. The bulk of the flow enters the reactor fuel-element cooling passages and is heated to a high temperature. The remaining propellant is distributed to flow passages which
+
+PUMP TURBINE CONTROLS
+REFLECTOR PRESSURE VESSEL
+LINES
+
+PROPELLANT TANK
+
+Figure 4 - NERVA Flight Engine Configuration
+to the nozzle exhaust exit. The components shown from top to bottom consist of the conical upper thrust structure, spherical bottles which contain actuation gas, and the gimbal assembly between the upper and lower thrust structure. The turbomachinery is mounted in the lower thrust structure. The reactor and internal shield is contained within the pressure vessel. The rocket nozzle mounted to the pressure vessel is cooled by the main propellant flow.
+Prooellant Flow Path
+The propellant flow path is shown in Figure 5. During steady-state operation, main propellant flow begins with liquid hydrogen, under tank pressurization, passing through the tank shutoff valve into the pump suction line. This propellent inlet line contains a gimbal bearing for thrust vector adjustment. A centrifugal flow pump pressurizes the propellant. ^ The pressurized propellant enters the pump discharge line and flows to the nozzle cooling passages, removing heat transferred to the nozzle from the main exhaust stream as well as heat generated in the nozzle and pressure vessel by deposition of nuclear radiation energy. The coolant leaves the nozzle as a low temperature low-density fluid and is split into parallel flows to cool the pressure vessel, reflector and control drums. Propellant exits from the reflector region and is directed along the pressure vessel dome to remove radiation energy deposited
+5
+
+4
+
+^
+
+REACTOR
+
+BLEED PORT NOZZLE
+
+TANK VALVE TURBINE EXHAUST
+C-90-09790
+
+Figure 5 - Nuclear Rocket Engine Schematic
+provide coolant to various reactor structural elements and to the peripheral region between the hot reactor core and the regeneratively-cooled reflector. These various cooling flows merge at the reactor exit and flow through the nozzle reaching high exhaust velocities and high specific impulse.
+Cycle Selection
+The choice of the turbine-drive cycle was one of the principal system design selections that was required because the turbine-drive cycle can have a significant impact on propulsion system performance (specific impulse) and engine start-up characteristics. In addition, major component designs and interactions between components are also affected. Included among the components are the turbopump, reactor, and nozzle.
+The approach and rationale for the turbine-drive cycle selection that is discussed herein was typical of the process that was utilized for decision making. The NERVA engine utilized a hot bleed cycle wherein hot
+
+CYCLE Cold Bleed Gas Pressurization Chemical Gas Generator Topping Cycle
+Hot Bleed
+
+Figure 6 - Turbine Drive Cycle Options
+
+DESCRIPTION · Hydrogen bled from pressure vessel dome for turbine drive gas
+Cx o(hlgh pressure liquid hydrogen and flow control system · Does not require a turbopump
+H2- O 2Combustion Products drive a nurbopump system
+
+REMARKS I,w temperature turbine large hydrogen now rates required · Large impulse penalty · Minimal acceleration margins during startup · Large area ratlon nozzle requtred for heat input Stmph, reliable system Results In high H 2 storage volumes and high tank weights Impractical for a flight system
+Independent power source avoids system integration Issues
+Liquid oxygen must be carried - complicates stage design · increased weight - decreased reliability precluded selection
+
+· Uses reactor heat energy to drive the turbopump · Total pPropPeellant flow utilized to drive the turbtne
+Hydrogen from nozzle chamber mixed with cold hydrogen to a turbine Inlet temperature compatible with material capability
+The Selected System
+
+· Provides highest specific impulse Heat energy derived from reflector Compl e operates at low temperature
+· Complicates reactor design · Reactor design effected
+' strength requirrments · sealing requirements ' reflector design · Discarded for first generation system
+
+Bleed gas flow rate flied by turbine inlet temperature
+
+· ·
+
+Small 1 n penalty Nozzle and bleed port development can proceed without
+
+system interactions
+
+· Bleed port Is a significant development
+
+gas is tapped from the nozzle chamber, diluted with cold hydrogen gas to reduce the temperature to the level acceptable to the turbine materials, and passed through the turbine to drive the turbopump. The turbine exhaust gas was dumped overboard with some thrust recovery (Figure 5). This cycle was selected after a thorough evaluation of engineering alternatives. Alternatives included pressurized gas cycle, a chemical gas generator system cycle, topping cycle, and hot and cold bleed cycles. These turbine drive cycle options are summarized in Figure 6 where a cycle description and remarks on each cycle, which include advantages and disadvantages of each alternative, are listed. The hot bleed cycle was selected primarily because the bleed cycle components could be developed and the performance could be verified with component testing. Complete system testing was not required to successfully demonstrate the technology.
+Test/Verification Approach
+
+Components whose performance were key to the success of the engine system, namely the fuel elements, reactor support system turbopump and nozzle received the most emphasis. Test verification criteria were established at each assembly level and higher level tests of sub-systems and systems were initiated only after meeting well-defined test verification criteria at the prior assembly level. The approach is shown in Figure 7.
+
+Figure 7 - Design/ Test Verification
+
+Design/ Verification
+
+Design
+
+Component/ System Analysis
+
+Simulation
+
+Design Revicwlsl
+
+Structural/ Environmental Analysts/ Tests
+
+Test/ Verification Non-Nuclear Component
+Functional Tests
+
+^ Component/ Subsystem I I Furl ElcmentTests Structural Tests
+
+Following the completion of the NERVA engine design a series of design reviews were conducted which addressed both component and system designs. The design review process included reviews of the configuration and supporting analyses and test data that established material properties, structural capabilities and operating environment. After completion of component fabrication, component tests were initiated to verify that the functional, environmental and structural capabilities of each component met or exceeded the design requirements.
+
+Cold Flow Test I
+Vehicle
+
+I Reactor Subsystem
+Test
+
+Engine System Test
+Testing of major sub-assemblies followed successful component testing. Many reactor subsystem development tests were performed by both the Los Alamos National Laboratory (KIWI and Phoebus Test Series) and the NERVA contractors. In addition, a cold flow test of an engine with an unfueled reactor
+
+6
+
+Figure 8 - NRX Reactor Assembly and Flow Path Inlet Plenum
+
+Reflector Outlet Plenum
+Pressure
+Vessel
+Reflector---b
+
+\Shield
+Support Plate
+Core
+
+Lateral
+upport System
+
+r ChNaromale
+>44, ;^
+
+Inlet Plenum
+Nozzle
+
+was made to determine the engine system performance during the initial start transient. This was a critical test which determined that a "bootstrap" start, using the stored heat energy of the nozzle and reflector, was a feasible startup procedure.
+Finally, only after successful performance of all critical sub-assemblies, engine system tests were performed. This technique proved to be sound for the NERVA program and is still utilized to a large extent for space system development and qualification today.
+This test verification approach forced a signL'icant amount of discipline into NERVA technology development. Each test had criteria for successful completion that were met prior to proceeding to the next assembly level.
+KIWI/NERVA Reactor
+The NERVA reactor, called NRX (Nuclear Reactor Experimental), selection was based upon the Los Alamos National Laboratory KIWI-134 research reactor. The KIWI-I3 reactor concept had evolved as a
+result of several years of intensive research and
+development at LANL prior to the start of NERVA and it was logical therefore that the NERVA (NR)Q reactor should take maximum advantage of the prior KIWI research and development effort.
+
+The NRX reactor assembly included the reactor core, reflector, control drums and internal shield and is shown in Figure 8. The reactor core was composed of graphite fuel elements impregnated with pyrolyic graphite uranium carbide particles and supported both axially and laterally. The reflector was made of beryllium. Twelve rotary control drums with a boral sheet located in the reflector were utilized for power control. The reactor was configured so that, when incorporated into a flight engine system configuration, the engine would produce approximately 75,000 pounds of thrust and a specific impulse of 825 seconds. The reactor operating temperature was approximately 2300°K and the initial reactor operating Lifetime goal was one hour. A Mars mission could be successfully accomplished with a propulsion system with this performance. The KIWI/NERVA reactor research and technology program was clearly a major key to the success of NERVA and has been well documented.
+Nuclear Reactor Experimental/Engine System Test -
+NRX/EST
+KIWI/NERVA reactor research and technology made great strides in terms of structural design and the reduction of fuel element corrosion in the early 1960's. On the basis of significant advancements in reactor and fuel technology, an early test to determine the feasibility of an engine system was both desirable and necessary. In addition, many of the experimental engine test objectives could be achieved years earlier than planned. It became obvious that the fastest way to accomplish this major program milestone would be to combine an engine system demonstration with a planned reactor test. NRX/EST (Nuclear Reactor Experimental/ Engine System Test) therefore emerged as a key element of the NERVA program. The NRX/EST test article is shown in Figure 9. A turbopump was added and installed within the enclosure on the test cart as shown in Figure 10. The arrangement of the engine components, although physically different from a conventional engine, was functionally similar to a flight system. The critical engine components, namely the reactor, the turbopump, and the nozzle, were also functionally "flight-like" components.
+
+7
+
+'URBINE, POWER CONTROL VALVE
+
+J
+
+TO REACTO^LE INLET
+
+-^ _ _^-fJ^_ PUMP DISCHARGE VALVE
+
+yn
+
+C-7 91-06729`
+Figure 9- NRX/ EST Test Configuration
+The NRX/EST Test Proiiram
+The primary objectives of the NRX/EST test were as follows:
+1. Demonstrate the feasibility of starting and restarting the engine without an external power source.
+2 Evaluate the control system characteristics (stability and control mode) during startup, shutdown, cooldown, and restart for a variety of initial conditions.
+3 Investigate the system stability over a broad operating range.
+4 Investigate the endurance capability of the engine components, especially the reactor, during transient and steady state operation with multiple restarts.
+Real issues were associated with engine performance. The engine start transient was a major consideration, that is, could the turbopump be accelerated (bootstrapped) utilizing the latent heat of the nozzle and reflector? Another concern was the design performance of the nozzle bleed port which provided hot drive gas to the turbomachinery. Operation of the engine control system over a wide range of conditions also had to be demonstrated, since the only information, prior to system testing, was obtained from control system analysis and simulation. Results from prior reactor tests, however, provided some confidence that the engine controls would perform satisfactorily.
+The NRX/EST test program was conducted in February 1966. All test objectives were successfully
+g
+
+Figure 10 - Engine components within NP-K/ EST Enclosure
+accomplished. The engine system was started and restarted several times; the engine was demonstrated to be stable over a wide range of operating conditions; required temperature ramp rates were shown to be achievable; and the engine control system performance proved to be predictable, safe and reliable during both transient and steady state operation. In addition, the endurance capability of engine components was demonstrated both at rated power, thrust and temperature as well as during transient operating conditions. NRX/EST operated nearly two hours of which 28 minutes were at full power. This exceeded the operating time of prior reactors by more than a factor of two.
+'Die NRX/EST test program was important in that it was the culmination of a long line of Rover research and development tasks. The test demonstrated the feasibility of a nuclear rocket engine for space application. The NERVA activities following NRX/EST resulted in significant incremental technology improvements beyond that embodied in NRX/EST that were necessary to accomplish prior to proceeding with flight system development.
+Ground Experimental Engine XE
+The second nuclear rocket engine test was conducted following the completion of construction and activation of engine test stand # 1, ETS-1, in 1969. In contrast to NRX/EST run three years earlier, the XE engine configuration (Figure 11) closely simulated a flight system both physically and functionally. Flight component designs were utilized selectively, i.e., only when component characteristics had an important influence on overall system performance. An example
+
+was the use of a flight-design turbopump because mass and inertia effects had an influence on chilldown time and acceleration characteristics. In so far as possible, facility type components and subsystems were used to save cost and time. Examples were many valves and the pneumatic system that were not deemed to affect engine system performance. In addition, an external radiation shield was added to the configuration to protect engine components. This eliminated the need to radiation harden many components utilized in system testing.
+
+s-
+
+i^
+
+---- -- PROPELLANT SHUT OFF VALVE
+
+TEST STAND ADAPTER
+
+UPPER THRUST STRUCTURE--
+Ai COOLDOWN LINE----Jr! i--
+
+TURBOPUMP ASSEMBLY TURBINE BLOCK VALVE TURBINE POWER CONTROL VALVE
+
+EXTERNAL SHIELD
+PRESSURE VESSEL TURBINE INLET LINE TURBINE EXHAUST LINE
+
+._S ?(''^
+
+CONTROL DRUM ACTUATOR LOWER THRUST STRUCTURE
+
+r-r str-TDILUENT LINE
+
+It I
+
+i
+
+TURBINE EXHAUST LINE
+
+PUMP DISCHARGE LINE
+
+-
+
+-
+
+NOZZLE
+
+Figure 11 - XE Engine
+
+C-90-09789
+
+The test facility, ETS-1, was designed so that the engine could be operated in a down firing attitude in an enclosed compartment with reduced atmospheric pressure (1-PS1A) so that the space environment was partially simulated. A picture of the XE engine installed in the ETS-1 facility is shown in Figure 12. The installation and removal vehicle (EM can be seen behind the engine. The EfV was capable of remotely installing and removing the engine from the facility.
+XE Test Program
+
+The objectives of the XE Test Program were similar to those of the NRX/EST. However, many incremental improvements in the reactor, other engine components, and the control system were incorporated into XE as a result of the information derived from NRX/EST and other prior reactor tests. These improvements were to be evaluated in terms of their effect on startup, power operation, off nominal operation, shutdown, and cooldown. Because this test was also the first test in a new down-firing test facility, a major objective of the test series was to demonstrate the practicality of the facility for flight engine qualification and acceptance. Clearly, however, the paramount objective of this test was to demonstrate that engine system operational feasibility was
+9
+
+Figure 12 - XE Engine Installed in ETS - 1
+
+successfully demonstrated and that no enabling technology issues remained as a barrier to flight engine development.
+
+The engine was successfully started without external power and operated over a range of transient and steady state conditions including full power. In fact, in this test series, completely automatic startup was successfully demonstrated. The engine was operated safely and as predicted over the wide range of operating conditions in 'Several control modes including the range encompassed by the solid lines of Figure 13. One that was particularly significant was operation under closed loop pressure and temperature control. This control mode was planned in flight for control of thrust and specific impulse.
+
+soot
+
+3 _U 4oa
+
+q^
+
+^l'
+
+Fuel Tem^crature IJ nIt
+
+"rIM Impulse Thr .
+
+Design
+
+o. 3000
+
+c
+
+E F
+
+2000
+
+1000
+
+^ _^ coo
+
+100
+
+200
+
+300
+
+400
+
+Soo 600
+
+700
+
+Nozzle chamber Prr--um, PSI (Related to Thruetl
+
+Figure 13 - Engine Operating Map
+
+The total run time on the XE engine was 115 minutes and included twenty-eight starts to power operation. The XE test series was significant in that it confirmed that a nuclear rocket engine was suitable for space flight application and was able to operate at a specific impulse twice that of chemical rocket system. All engine feasibility issues were successfully addressed, no component or systems issues were observed, and the development of a flight nuclear rocket system could proceed with confidence.
+In addition, the engine test facility was proved to be practical for qualification and acceptance testing of nuclear rockets. In today's environment, however, an exhaust gas scrubber would be required to control fission product release.
+Summary of Rover/ NERVA Technology Base
+The Rover/NERVA program conducted through the decade of the 1960's was a highly successful technology program. It's goals and objectives were to demonstrate the feasibility of a nuclear rocket engine system for space application. This "Proof of Concept" program was mission oriented and culminated in the successful demonstration of a ground test engine system.
+Reactor/Engine Technology
+The Rover reactor program started when a series of research reactors, called the KIWI Series, were designed, built and tested to determine feasibility of a reactor concept which would operate at high temperature with liquid hydrogen. The first series of tests, called the KIWI-A Series, were conducted in 1959 and 1960. The KIWI test series met its objectives by demonstrating operational feasibility with hydrogen and at the same time meeting performance goals of high temperature operation required for space application.
+
+The final KIWI reactor, 134E, the seventh and last reactor in the series, operated successfully at a temperature of approximately 2000°K for eleven minutes and was utilized as the basis for the design of subsequent reactors.
+The NRX series of developmental reactor test were started concurrently with the KIWI-B tests. The NRX series of reactors continued the advancement of reactor technology. The NRX Series demonstrated improved structural integrity, reduced fuel corrosion rates (longer life) and higher temperature operation, in excess of 2200°K. NRX-A6, the last in a series, operated one hour continually. The fuel corrosion rate was low. The extrapolated reactor lifetime, 2-3 hours, would be commensurate with today's manned Mars mission requirement. In parallel with the NRX Test Series, research reactors (Phoebus, Pewee and Nuclear Furnace) demonstrated high power density, high power (4000 MW), and the potential of long life fuel operating at high temperature.
+In addition to the reactor test performance, engine systems tests NRX/EST and XE, described previously, were successful. No engine system feasibility barriers to flight development were manifested.
+A summary of the major tests conducted in the Rover/ NERVA program is discussed in Reference 2 and shown in Figure 14. A total of twenty reactor tests and two engine tests were performed. The operating history is shown in Figures 15 and 16. These two figures dramatically illustrate the major investment that has been made to produce the significant advancement in nuclear rocket technology. Seventeen hours of operating time were accumulated with six hours in excess of 2000°K.
+Fuel
+A significant technology thrust was directed to fuel development. Graphite was chosen as the fuel element
+
+Ta
+
+NRX
+REACTOR
+
+d TEST
+
+ENGINE TESTS
+
+KIWI
+
+U PHOEBUS
+
+V)
+
+PEWEE
+
+z
+
+NUCLEAR
+FURNACE
+
+1959 1960 1961 1962 1 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972
+
+NRX-Al ·
+
+NRX -A3
+
+NRX -A6
+
+I NR) -A2 · ·
+
+· NRX -A5
+
+&A A · KIWA
+
+· KIWI B16
+
+K1T1
+
+A3
+KIWI
+
+B'AKIWI B4A
+
+· NRX/EST
+KIWI B4D · ·KIWI TNI' · KIWI B4E
+PH·OEBUS IA
+
+·XE O- FCF
+
+PHOEBUS IB
+
+·
+
+PHOEBUS 2A
+
+· 40 PEWEE
+
+Figure 14 - ChronolopV of Maior Nuclear Reactor Tests 10
+
+NT'-1 ·
+
+Figure 15 - Operating Time Versus Coolant Exit Temperature
+for the Full Power Reactor Tests
+
+60
+
+TFE> 2500 K
+
+1 s'wc-n2 -aa
+0.9 0.8
+
+40
+n' 20 G C
+c 2 X
+0
+
+TFE 2200 to 2500 K TFE' 2200 K
+
+0.7
+C
+C 0.6
+O
+L a5
+UO Q4
+
+Rf 0.3
+ti 0.2
+
+0.1
+
+0
+
+1965
+
+1966
+
+1967
+
+1968
+
+1969
+
+Figure 17 - ROVER/.NERVA Corrosion Rate History
+
+Calendar Ttme (years)
+material because of its favorable neutronics characteristics and potential to operate at high temperature. However, it was recognized that hydrogen reacted with carbon which resulted in fuel corrosion. Therefore, all fuel elements were coated to
+prevent high corrosion rates. Niobium carbide and
+zirconium carbide proved to be the most effective in minimizing corrosion. Progress in reducing corrosion is shown in Figure 17. Improvements in coating technology reduced the corrosion rate by an order of magnitude.
+Test Facilities
+A major key to the success of Rover/NERVA was the development of test facilities at the Nuclear Rocket
+Figure 16 - ROVER/NERVA Reactor Operating Time
+1000
+900
+
+cumulattvc T1me at loafers
+
+^
+
+Above Onc Megawatt
+
+200 100
+
+\\\\\\\\\\\\
+Cumulative nme ai
+
+1 0 1964' 1965 ' 1966 1967 ' 1968' 1969' 1970' 1971 ' 1972
+
+Development Station at Jackass Flats, Nevada. Two reactor test stands were built and utilized for reactor sub-system tests. The reactor was oriented In an upward firing position. The engine test facility was a downward firing facility with an exhaust system that provided altitude simulation so that space conditions could be partially duplicated.
+Maintenance, assembly, and disassembly buildings were also utilized for assembling and disassembling engine and reactor systems. The buildings contained all the necessary equipment for remote assembly and disassembly of reactors and engines and were, in themselves, significant technological advancements over current "state of the art" facilities.
+Perhaps the most significant facility when reviewed from todays environmental test requirements associated with no fission product release was the nuclear furnace test facilit y. The nuclear furnace was a test reactor which was capable of evaluating fuel elements and fuel clusters in a nuclear environment. The nuclear furnace test facility was operated with an exhaust gas scrubber which provided complete containment of all radioactive material. Although the scrubber had a much smaller capacity than would be required for testing reactors planned in the future, the feasibility of scrubbers has been demonstrated in small scale. Safety
+The safety record at the Nevada Test Site during the period 1959 to 1972 was excellent. Personnel injuries were limited, the most serious was a result of a hydrogen explosion in which two workers sustained foot and ear drum injuries. In addition, three reactors sustained damage during reactor testing. The damage to two of the reactors was the result of structural design deficiencies that led to failure caused by flow-
+
+11
+
+induced vibrations. In both cases fuel elements were ejected from the core. The damage sustained by the third reactor was caused by a procedural error which resulted in the exhaustion of all propellant which of
+course is the reactor coolant. The core overheated and extensive damage to the core including the release of fuel elements resulted. Fortunately, no personnel injuries were sustained in these reactor mishaps and the failure mechanisms were understood and corrected.
+
+same time attenuates the institutional biases of the government agencies involved.
+References
+L Nuclear. Thermal, and Electric Rocket Propulsion: Fundamentals, Systems and Applications R. W. Buscand Gordan and Breach Science Publishers 1964
+
+Ei)iloEiue
+Currently, nearly twenty years after the termination of the Rover/NERVA Program, there is considerable new interest in space nuclear propulsion. As part of the on-going activity associated with NASA's Space Exploration Initiative, nuclear thermal propulsion has been identified as an enabling technology for manned missions to Mars. In this light, as future propulsion system requirements evolve for planetary exploration, technology effort similar to NERVA is likely to be reborn in this decade; perhaps with the name Rip Van Winkle. Fortunately, NERVA technology is still applicable to our understanding of current propulsion needs. The demonstrated Rover/NERVA technology base evolved as a result of a long and comprehensive program, including a series of analyses and tests progressing from parts to components, subsystems and finally engine systems. The legacy of twenty reactor tests and two full-scale engine system tests is impressive evidence of the proven state of available nuclear rocket technology.
+
+2 Experience Gained form the Space Nuclear Rocket Proiiram (Rover) Daniel R. Koening Los Alamos National Laboratory Los Alamos, New Mexico 87545, LA10062H
+
+Reactor and engine system tests were conducted at temperature, pressure, power levels, and durations commensurate with today's propulsion system requirements. Feasibility of the nuclear rocket has been clearly established so that future nuclear propulsion development associated with new space exploration initiatives can be directed to incremental performance, reliability and lifetime improvements. In addition, a model for an effective management approach involving two government agencies in a major technology development has been demonstrated. The real future development challenge will be associated with engine and reactor system ground testing in an environmentally acceptable fashion.
+
+The management of multi-agency programs is a difficult task. It remains to be seen whether a Space Exploration Initiative management structure evolves which maximizes the probability of successfully addressing the significant technical challenges associated with nuclear rocket development and at the
+
+12
+
+NASA
+National Aeronautics and Space Administration
+1. Report No- NASA CR-187154 AIAA -91-3451
+
+Report Documentation Page
+
+2. Government Accession No.
+
+3. Recipient's Catalog No.
+
+4. Title and Subtitle
+An Historical Perspective of the NERVA Nuclear Rocket Engine Technology Program
+
+5. Report Date
+July 1991
+6. Performing Organization Code
+
+7. Author(s)
+W.H. Robbins and H.B. Finger
+
+8. Performing Organization Report No.
+
+9. Performing Organization Name and Address
+Sverdrup Technology, Inc. Lewis Research Center Group 2001 Aerospace Parkway Brook Park, Ohio 44142
+12. Sponsoring Agency Name and Address
+National Aeronautics and Space Administration Lewis Research Center Cleveland, Ohio 44135 - 3191
+
+10. Work Unit No.
+505 -43-11
+11. Contract or Grant No.
+NAS3-25266
+13. Type of Report and Period Covered
+Contractor Report Final
+14. Sponsoring Agency Code
+
+15. Supplementary Notes
+Project Manager, Thomas J. Miller, Nuclear Propulsion Office, NASA Lewis Research Center, (216) 433 -7102. W.H. Robbins, Analytical Engineering Corporation, 25111 Country Club Blvd., North Olmsted, Ohio 44070, subcontractor to Sverdrup Technology, Inc. (Subcontract No. 6401-85). H.B. Finger, Consultant. Prepared for the Conference on Advanced Space Exploration Initiative Technologies cosponsored by the AIAA, NASA, and OAI, Cleveland, Ohio, September 4 - 6, 1991.
+16. Abstract
+Nuclear rocket research and development was initiated in the United States in 1955 and is still being pursued to a limited extent. The major technology emphasis occurred in the decade of the 1960's and was primarily associated with the Rover/NERVA Program where the technology for a nuclear rocket engine system for space application was developed and demonstrated. The NERVA (Nuclear Engine for Rocket Vehicle Application) technology developed twenty years ago provides a comprehensive and viable propulsion technology base that can be applied and will prove to be valuable for application to NASA's Space Exploration Initiative. Also the unique organization that evolved to successfully manage this effort requiring major contributions and involvement of two government agencies in partnership with industry is a useful model when a similar development is initiated for SEI. This paper, which is historical in scope, provides an overview of the conduct of the NERVA Engine Program, its organization and management, development philosophy, the engine configuration and significant accomplishments.
+
+17. Key Words (Suggested by Author(s))
+Nuclear engine for rocket vehicles Nuclear rocket engines
+
+18. Distribution Statement
+Unclassified - Unlimited Subject Categories 20 and 91
+
+19. Security Classif. (of the report)
+Unclassified
+
+20. Security Classif. (of this page)
+Unclassified
+
+21. No. of pages
+14
+
+. I- " I M
+
+*For sale by the National Technical Information Service, Springfield, Virginia 22161
+
+22. Price'
+A03
+
+

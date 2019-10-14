@@ -1,0 +1,4264 @@
+Icarus 158, 146­177 (2002) doi:10.1006/icar.2002.6856
+
+Phase II of the Small Main-Belt Asteroid Spectroscopic Survey
+A Feature-Based Taxonomy
+
+Schelte J. Bus1 and Richard P. Binzel
+Department of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139 E-mail: sjb@ifa.hawaii.edu
+
+Received July 23, 2001; revised February 15, 2002
+
+The second phase of the Small Main-belt Asteroid Spectroscopic Survey (SMASSII) produced an internally consistent set of visiblewavelength charge-coupled device (CCD) spectra for 1447 asteroids (Bus and Binzel 2002, Icarus, doi: 10.1006/icar.2002.6857). These data provide a basis for developing a new asteroid taxonomy that utilizes more of the information contained in CCD spectra. Here we construct a classification system that builds on the robust framework provided by existing asteroid taxonomies. In particular, we define three major groupings (the S-, C-, and X-complexes) that adhere to the classical definitions of the S-, C-, and X-type asteroids. A total of 26 classes are defined, based on the presence or absence of specific spectral features. Definitions and boundary parameters are provided for each class, allowing new spectral observations to be placed in this system. Of these 26 classes, 12 bear familiar singleletter designations that follow previous conventions: A, B, C, D, K, O, Q, R, S, T, V, and X. A new L-class is introduced to describe 35 objects with spectra having a steep UV slope shortward of 0.75 µm, but which are relatively flat longward of 0.75 µm. Asteroids with intermediate spectral characteristics are assigned multiletter designations: Cb, Cg, Cgh, Ch, Ld, Sa, Sk, Sl, Sq, Sr, Xc, Xe, and Xk. Members of the Cgh- and Ch-classes have spectra containing a 0.7-µm feature that is generally attributed to hydration. Although previously considered featureless, CCD observations reveal distinct features of varying strengths in the spectra of asteroids in the X-complex, thus allowing the Xc-, Xe-, and Xkclasses to be established. Most notably, the spectra of Xe-type asteroids contain an absorption feature centered near 0.49 µm that may be associated with troilite. Several new members are identified for previously unique or sparsely populated classes: 12 Atypes, 3 O-types, and 3 R-types. Q-types are common within the near-Earth asteroid population but remain unobserved in the main belt. More than 30 new V-types are found in the vicinity of Vesta. The heliocentric distribution of the SMASSII taxonomic classes is similar to that determined from previous studies, though additional structure is revealed as a result of the larger sample size. c 2002 Elsevier Science (USA)
+1 Present address: Institute for Astronomy, 640 North A'ohoku Place, Hilo, Hl 96720.
+
+INTRODUCTION
+Whenever several members of a large population are studied in detail, there is a natural desire to arrange those individuals into groups based on similarities in their observed characteristics. Differences in color provide a natural basis for developing a classification system for asteroids. The first color measurements for asteroids were reported by Bobrovnikoff (1929). However, these microphotometric measurements of photographic spectra were neither sufficiently numerous nor precise to illuminate the characteristics of the broader asteroid population. This situation changed in the mid-1950s when UBV photometry was first used to systematically investigate the range of colors for a large sample of asteroids. These observations led Wood and Kuiper (1963), Chapman et al. (1971), and others to describe two distinct groups of objects, based on their reflectance properties. Zellner (1973) was one of the first to recognize a bimodal distribution in albedos, leading him to also suggest that asteroids could be divided into two groups: dark "carbonaceous" types and brighter "stony" types.
+The foundation for a more rigorous taxonomy was developed in the mid-1970s, after numerous programs were begun to measure the physical properties of asteroids. Combining narrow band spectrophotometry with polarimetric and radiometric albedo measurements, Chapman et al. (1975) proposed the first taxonomic nomenclature based on a system of letters: C representing the dark carbonaceous objects, S for the stony or "silicaceous" objects, and U for those asteroids not fitting into either of these two main categories. In the years that followed, improvements in instrumentation and observing techniques, a substantial growth in the size of asteroid databases, and the availability of different classification algorithms all helped to inspire many researchers to try to improve the system by which asteroids are classified. The early history of asteroid taxonomy has been thoroughly reviewed, first by Bowell et al. (1978) and more recently by Tholen and Barucci (1989).
+The most widely used of the various asteroid taxonomies is that proposed by Tholen (1984). The Tholen taxonomy was a logical extension of previous systems (Chapman et al. 1975,
+
+146
+0019-1035/02 $35.00 c 2002 Elsevier Science (USA) All rights reserved.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+147
+
+Bowell et al. 1978). It was developed primarily using broad band spectrophotometric colors obtained during the Eight-Color Asteroid Survey (ECAS, Zellner et al. 1985), though measurements of albedo were also included in defining some of the class boundaries. The Tholen taxonomy comprises 14 classes, each denoted by a single letter. In addition to the two classical, and most densely populated spectral classes, the C- and S-types, Tholen identified six other spectrally distinct groups of objects, labeling them A, B, D, F, G, and T. Three more classes, identified by the letters E, M, and P, are spectrally featureless at the resolution of the ECAS data and could only be separated based on their albedos. When albedo information was not available, the E-, M-, and P-types were lumped into a generic X-class. Finally, three classes, denoted by Q, R, and V, were created for three spectrally unusual objects: 1862 Apollo (Q-type), 349 Dembowska (R-type), and 4 Vesta (V-type). Most of the ECAS asteroids were uniquely classified and grouped into one of these 14 taxonomic classes, though when the classification was uncertain, multiple letter designations were assigned. While subsequent attempts have been made to extend the Tholen taxonomy (e.g., Chapman 1987, unpublished manuscript, Barucci et al. 1987, and Howell et al. 1994), the Tholen system has remained the standard for classifying asteroids.
+Since the time of the Eight-Color Asteroid Survey (Zellner et al. 1985), high throughput long-slit spectrographs employing charge-coupled devices (CCDs) have become widely used in measuring the visible spectra of asteroids. The largest set of asteroid spectra currently available comes from the Small Mainbelt Asteroid Spectroscopic Survey that was initiated at MIT in 1991 (Binzel and Xu 1993, Xu et al. 1995). The second phase of this program, referred to as SMASSII (Bus and Binzel 2002, Binzel et al. 2002, in preparation), has produced an internally consistent data set that includes spectra for 1447 asteroids, where the observations and reductions were carried out in the most uniform manner possible.
+Our original goal in classifying the SMASSII asteroids was to accurately assign a spectral type to each object, based on the Tholen taxonomy. To classify a new asteroid in the Tholen system, it is necessary to find the three asteroids in the ECAS data set that are spectrally most similar (nearest neighbors) to the new object. The new asteroid is then assigned the spectral class of its nearest neighbor, with the class designations of the second and third nearest neighbors being added, in succession, if these are different from the first designation (Tholen and Barucci 1989). However, there are significant differences between the SMASSII and ECAS data sets. In particular, the SMASSII spectra cover a narrower wavelength range than that sampled by the ECAS observations, with only four of the eight ECAS filter bandpasses falling within the SMASSII spectral interval (0.44­0.92 µm). As a result, we could not classify the SMASSII asteroids using all of the ECAS colors in the way that Tholen had intended. This raised important questions about how to classify asteroids based on CCD spectroscopy. If the spectral characteristics necessary for differentiating the Tholen classes are present over the wave-
+
+length interval covered by the CCD spectra, then it should be possible to tie the Tholen taxonomy to those spectra by obtaining CCD observations of enough representative ECAS asteroids. On the other hand, higher resolution CCD spectra reveal subtle details, especially shallow absorption features (e.g., Vilas et al. 1993, Hiroi et al. 1996), which are not always resolvable in the broad band ECAS measurements. After careful consideration, we decided to explore new options for classifying asteroids. The goal of this work is to define a taxonomy that takes fullest advantage of the information contained in the CCD spectra.
+DERIVATION OF THE SMASSII FEATURE-BASED TAXONOMY
+The decision to reexamine (and to propose an evolution in) the structure of asteroid taxonomy was made cautiously. The taxonomic system developed by Tholen has been in use for over a decade, and is well established within the asteroid science community. It was only as the analysis of the SMASSII data progressed that problems in reconciling the SMASSII spectral results with the Tholen taxonomy became apparent. While it is possible to force the SMASSII data to fit within the taxonomic classes defined by Tholen, doing so might be considered a disservice to the information contained in the SMASSII spectra, and to asteroid science in general, by propagating a classification system that will eventually have to evolve to accommodate the higher resolution asteroid spectra available today.
+Before proceeding with the development of a new taxonomy, it is important to define a set of fundamental goals that can direct how the classification is carried out and how the taxonomy should be structured. We chose the following criteria on which to base this new classification system: (1) It should utilize the established framework of the Tholen taxonomy (Tholen 1984), thus maintaining the overall structure and spirit of asteroid taxonomy that has evolved over time through the works of Zellner, Chapman, Tholen, and others. (2) It should be based only on spectral (absorption) features, as these are the most reliable indicators of an asteroid's underlying composition. Ultimately, taxonomy should provide some indication of an asteroid's composition, but we emphasize that taxonomy does not necessarily equate to mineralogy. Any inferences between taxonomy and mineralogy must be carefully weighed. (3) It must account for the apparent continuum between spectral classes found within the SMASSII data (Bus and Binzel 2002, Binzel et al. 2002, in preparation). (4) It should be defined based on an intelligent use of multivariate analysis techniques. Not all features in a spectrum can (or should) be weighed equally, nor can any one numerical technique properly parameterize all of the information contained in each of the various spectral features. Thus, visual inspection of the data, and the ability to make human judgments about the classification of objects, based on specific rules, must be allowed. (5) The sizes (scale lengths) and boundaries of the taxonomic classes should correspond to natural groupings found among the asteroids whenever possible. Spectral similarities seen among
+
+148
+
+BUS AND BINZEL
+
+members of dynamical asteroid families provide a measure for how large the taxonomic classes should be. (6) Once defined, this new classification scheme should be easy to use and applicable by others.
+The development of this feature-based taxonomy takes advantage of several strengths inherent in the SMASSII observations. The most significant aspect of the SMASSII survey is its size. The spectra for 1447 different asteroids are included in this study, over three times the number used by Tholen in the formulation of his taxonomy (405 asteroids with high quality spectrophotometry, Tholen 1984). Of these 1447 asteroids, 1341 are presented in a companion paper (Bus and Binzel 2002). We also include results for 106 near-Earth asteroids observed as part of the SMASSII survey, where these data are presented in Binzel et al. (2002, in preparation). Internal consistency within the data set (like that described by Zellner et al. 1985 and Bus and Binzel 2002) is arguably even more important than sample size for creating a taxonomy. The sections below describe the development of this taxonomy, originally set forth in Bus (1999). Many additional details and insights into this work may be found therein.
+
+Separating the Three Spectral Complexes
+In developing this taxonomy, we use the slope values and principal component scores that were computed for the SMASSII data by Bus and Binzel (2002). The decision to utilize principal component analysis (PCA) was based on our desire to remain as compatible as possible with the Tholen taxonomy, the development of which was partially based on this technique. The analysis of Bus and Binzel (2002) produced three spectral components. The first is the spectral slope, defined by fitting a line to each spectrum according to the equation
+
+ri = 1.0 +  (i - 0.55),
+
+(1)
+
+where ri is the relative reflectance at each channel, i is the wavelength of the channel in microns, and  (the spectral component "Slope") is the slope of the line, forced to have the value of unity at 0.55 µm. After each spectrum was normalized (divided) by its fitted slope function, PCA was applied to derive two additional components, PC2 and PC3 . Component PC2 is sensitive to the presence (and strength) of a 1-µm absorption band, where more negative values of PC2 correspond to deeper 1-µm bands. PC3 is sensitive to higher order variations in the spectra and is most useful in isolating objects whose spectra contain either a UV absorption band shortward of 0.55 µm or a broad 0.7-µm absorption feature associated with the presence of phyllosilicates.
+As was demonstrated by Bus and Binzel (2002) (see their Figs. 3 and 6), plots of the first two spectral components consistently reveal two distinct groupings of asteroids. This bimodal distribution in reflectance properties has long been recognized from measurements of both broad band colors (Chapman et al.
+
+1971) and albedos (Zellner 1973, Morrison 1974) and led to the initial taxonomic assignments for C- and S-type asteroids. With the introduction of narrow band spectrophotometry, and now CCD spectroscopy, our understanding of the spectral characteristics that underlie this bimodal distribution has become more refined. Over the visible-wavelength interval from 0.4 to 1.0 µm, the spectra of "S-type" asteroids are generally described as having a moderate to strong positive slope shortward of 0.7 µm (the "UV slope"). Longward of 0.7 µm, these spectra range from being flat to having a deep silicate absorption feature that is centered at roughly 1 µm. By comparison, the "C-type" asteroids have spectra that tend to be more neutral in color and have absorption features that are relatively shallow, if present at all.
+Introduction of the E- and M-classes by Bowell et al. (1978) provided the basis for establishing a third major group of asteroids, referred to as "X-types" (Tholen 1984). The spectra of these asteroids range from slightly to moderately red in color and any absorption features that may be present are usually very subtle. In spectral component space, the X-types plot in a region adjoining both the C- and S-types. While the division between the Xand S-types is relatively well defined in this component space, there is no natural boundary separating the X- and C-classes. Only when albedo measurements are included does a boundary between the X- and C-classes begin to emerge (C-type asteroids have low albedos, while a wide range of albedos are observed among the X-type asteroids). Even though we do not include albedo as a factor in our taxonomy, we believe that maintaining this historic separation between the C- and X-classes will help promote future efforts to untangle the relationships between the subtle spectral features and albedos observed among the X-type asteroids.
+To preserve the large-scale structure of previous asteroid taxonomies, the classical definitions for the S-, C-, and X-classes have been adopted as the foundation for this feature-based taxonomy. These three major groupings ("complexes") are not in themselves the final product of our taxonomy, but rather provide the foundation on which further divisions in the classification process are made. Therefore, the separation of these three complexes is a critical first step in the development of this new classification system.
+Due to the intermediate location of the X-complex between the C- and S-complexes in spectral component space, the approach used to determine the boundaries dividing the three complexes was straightforward. To ensure a high level of consistency with earlier taxonomies, we relied on those asteroids observed during the SMASSII survey that had been previously classified by Tholen (1984), Barucci et al. (1987), or Howell et al. (1994). There are over 100 SMASSII asteroids that were at least partially identified as X-types in one or more of these previous taxonomies (including any asteroid for which the class assignment of X, E, M, or P was used either as a single-letter or multiple-letter designation). Based on these objects, we determined those spectral characteristics that are most consistent with X-types (described in detail in a following section) and identified all of the SMASSII
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+149
+
+FIG. 1. Plot of the first two spectral components (Slope and PC2 ) for 1443 SMASSII asteroids. Approximate boundaries are depicted for the C-, S-, and X-complexes. The S-complex plots as a radially symmetric cloud of points that is relatively well separated from the X-complex. By comparison, there is no natural boundary separating the C- and X-complexes.
+asteroids that share those particular characteristics. By establishing this range for the X-complex in spectral component space, approximate boundaries were drawn that separate the C-, X-, and S-complexes, as shown in Fig. 1.
+Description of Outlying Spectral Classes: T, D, Ld, O, and V
+A significant number of the SMASSII asteroids have spectral characteristics that lie outside of the nominal ranges defined for the C-, X-, and S-complexes. These objects plot around the periphery of component space, mostly clustering in two distinct regions. The first of these regions is well separated from the three main complexes and occupies the lower left-hand corner of the primary component plane defined by PC2 and Slope, as shown in Fig. 2. The second region of outliers is more closely associated with both the S- and X-complexes, lying in the upper right-hand corner of this spectral component plane, though the spectra of these objects clearly do not fit within the classical definitions of either the S- or X-types. Of the 1447 asteroids contained in the SMASSII database, only 1443 are included in this study. The four remaining objects (3908, 5646, 7888, and 8566) are all near-Earth asteroids and have spectral characteristics so unusual that they are not plotted in Fig. 2 and are not being considered in the present development of this taxonomy.
+The first three spectral classes to be defined, the T-, D-, and Ld-types, include those outlying asteroids that plot in the upper right-hand corner of Fig. 2. The spectra of these asteroids have moderate to very steep UV slopes shortward of 0.75 µm, but the spectral slope longward of 0.75 µm often becomes less steep, as further described in Fig. 3. Both the D- and T-classes had been recognized by Tholen (1984) and were incorporated
+
+into the taxonomies of Barucci et al. (1987) and Howell et al. (1994). Using the mean broad band colors calculated by Tholen for the D- and T-classes, and the scatter in spectral component space of those SMASSII asteroids previously classified as D- or T-types (Tholen 1984, Barucci et al. 1987, Howell et al. 1994), boundaries for these two classes were determined. In spectral component space, the D- and T-classes plot side-by-side, separated by a Slope value of 0.72.
+The remaining outliers plot on the far right-hand side of this component plane and are classified as Ld-types. The spectra of these asteroids have very steep UV slopes, becoming approximately flat longward of 0.75 µm. This spectral type was essentially unsampled in the ECAS survey, with only 1 of the 13 SMASSII asteroids assigned to this class being previously classified (234 Barbara, classified as an S-type by Tholen 1984, and as an S0-type by Barucci et al. 1987). The designation "Ld" was selected to reflect the fact that these objects have spectra similar to those of the L-types (discussed in the next section), but with much steeper UV slopes, like the D-types.
+The outlying objects located in the lower left-hand portion of Fig. 2 are divided into two spectral classes: the O- and V-types. The spectra of these objects have the common characteristic of a very deep 1-µm silicate absorption band, where the relative reflectance at the band minimum drops to values of 0.8 or less. Among these objects, however, the UV slopes shortward of 0.7 µm can range from being very shallow to extremely red, as described in Fig. 4.
+The O-class was defined by Binzel et al. (1993) based on the unusual spectral properties of the asteroid 3628 Boznemcova. From comparisons with meteorite data, Binzel et al. found the spectrum of Boznemcova to be most consistent with that of L6 and LL6 ordinary chondrites and suggested that this mainbelt asteroid may represent a possible link to ordinary chondrite meteorites found on Earth. Three other asteroids observed
+FIG. 2. Component plot similar to Fig. 1 in which those objects with spectral types lying outside of the C-, S-, and X-complexes are labeled.
+
+150
+
+BUS AND BINZEL
+
+FIG. 3. Examples of spectra contained in the T-, D-, and Ld-classes. The spectra of individual asteroids are plotted in the left column. On the right, the mean reflectance spectrum for each class is plotted (solid line) along with the 1- envelope determined from the variance in each wavelength channel (dashed lines). The spectrum of asteroid 96 Aegle is shown as a typical example of the T-class. This spectrum contains a moderately steep red slope (commonly referred to as the UV slope) shortward of 0.7 µm (labeled a). The slope of this spectrum gradually decreases longward of 0.75 µm until it becomes essentially flat (b) with a relative reflectance of about 1.15 longward of 0.85 µm. The spectra of two asteroids (1542 Schalen and 4744 1988RF5) are plotted to represent the D-class. D-type spectra are relatively featureless, exhibiting a very steep red slope across the visible spectrum, though sometimes a decrease in the spectral slope is observed longward of 0.8 µm as seen in the spectrum of 4744 (c). The Ld-type spectra of 1332 Marconia and 4917 Yurilvovia exhibit a very steep UV slope, shortward of 0.7 µm (d). Longward of 0.75 µm, these spectra become essentially flat (e), with a relative reflectance of roughly 1.3. The spectra of Ld-type asteroids are often steeper over the interval from 0.44 to 0.7 µm and become much flatter longward of 0.75 µm than is typical for D-type asteroids.
+
+FIG. 4. Examples of spectra contained in the V- and O-classes, presented in the same format as in Fig. 3. The spectra of 4 Vesta, 1929 Kollaa, and 4977 Rauthgundis are representative of the V-class. These spectra contain a UV slope that ranges from moderately steep, as in the case of 4 Vesta (a), to extremely steep. All V-type spectra contain a deep silicate absorption band that reaches a minimum relative reflectance from 0.7 to 0.8, with the band minimum often centered just longward of 0.9 µm (b). In the spectrum of 1929, the UV slope is much steeper, resulting in a reflectance maximum that is very sharply peaked (c). A weak absorption feature (Vilas et al. 2000) is occasionally seen centered around 0.52 µm, as marked in the spectrum of 4977 (d). The range in spectral maxima and 1-µm band depths included in the V-class is reflected in the size of the 1- envelope plotted with the mean V-type spectrum in the right-hand column, consistent with the dispersion of V-types in spectral component space shown in Fig. 2. The O-type spectrum of 3628 Boznemcova contains a moderately red slope from 0.44 to 0.54 µm, followed by a generally linear, but much shallower spectral slope that reaches a maximum relative reflectance of about 1.05 at 0.75 µm (e). Longward of 0.75 µm, the spectrum of Boznemcova shows a very deep silicate absorption feature with a minimum that is centered longward of 0.92 µm (f ). The relatively narrow 1- envelope plotted with the mean O-type spectrum demonstrates the degree of spectral similarity among the four identified members within this rare class.
+during the SMASSII survey (the near-Earth objects 4341 Poseiden, 5143 Heracles, and 1997 RT) have spectral properties similar to those of Boznemcova, though the 1-µm band is not as deep for these three objects as it is for Boznemcova.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+151
+
+The V-class was first proposed by Tholen (1984) to describe the unusual spectral properties of the asteroid 4 Vesta. McCord et al. (1970) was the first to note that the visible-wavelength reflectance spectrum of Vesta is similar to the spectra of basaltic achondrite (HED) meteorites. During the SMASSI survey, Binzel and Xu (1993) identified over 20 asteroids that are not only spectrally similar to Vesta, but also have orbital semimajor axes, eccentricities, and inclinations similar to those of Vesta. This clustering of V-type asteroids in orbital parameter space not only helps confirm the existence of a suspected dynamical family (Williams 1979, Zappala et al. 1990), but also because of this cluster's extension to both secular (6) and mean-motion (3 : 1) resonances, it indicates possible pathways for delivering HED meteorites to Earth (Wisdom 1983, Greenberg and Chapman 1983). In classifying the "Vesta chips," Binzel and Xu divided the spectral class, designating those objects with particularly deep 1-µm bands as J-types ("J" for Johnstown diogenite).
+Observations of asteroids in the Vesta zone were continued throughout the SMASSII survey, with over 30 additional V-type asteroids being added to the total known. The dispersion of these objects in the component space plotted in Fig. 2 is quite large, consistent with the range in spectral variation observed among these objects. Even so, a decision was made not to adopt the division between the V- and J-classes, but rather, to include all members of this group in a single V-class. To be consistent with this feature-based taxonomy, any future subdivision of this spectral space should be labeled as subclasses of the V-types (for example, a Vj-class to denote those objects with the deepest 1-µm bands).
+The S-Complex Part I, "End Members": A, K, L, Q, and R
+All of the asteroids contained in the S-complex share the common spectral characteristic of a moderate to steep UV slope that extends from the ultraviolet end of the visible spectrum to about 0.70 µm, usually reaching a maximum reflectance between 0.72 and 0.76 µm. Longward of this peak (out to the limit of our observations at 0.92 µm), these spectra range from being approximately flat to having a very steep drop in reflectance associated with a deep 1-µm silicate absorption band. In the component space defined by Slope, PC2 , and PC3 , the S-complex is represented by a triaxially symmetric, centrally condensed cloud of points. This suggests that the variations observed in the UV slope and 1-µm band depth are best treated as a continuous distribution when dividing this complex into spectral classes.
+The task of dividing the S-complex into smaller spectral classes was accomplished by targeting objects that appear to be "end members" around the perimeter of the complex, and working inward. Care was taken to preserve those taxonomic classes that had been previously defined. In particular, three classes identified in the Tholen taxonomy (the A-, Q-, and R-types) plot along the lower perimeter of the S-complex as projected in the component plane shown in Fig. 5. The spectra of these objects contain moderate to very deep 1-µm absorption features, consistent with their lower (more negative) values of component PC2 .
+
+FIG. 5. Spectral component plot showing the subdivision of asteroids within the S-complex. For clarity, those asteroids classified as "S"-types (with no subscript) are shown as dots. Arrows indicate the general trends of primary spectral features in this component space. The depth of the 1-µm feature trends from negligible in the K- and L-types to very deep in the R- and Q-types. Note also that the trend for increasing UV slope (the slope for that part of the spectrum shortward of roughly 0.7 µm) is skewed with respect to the Slope axis (the Slope axis being a measure of the average slope over the entire spectral interval.)
+What differentiates these asteroids from others in the bottom half of the S-complex is subtle variations in the shape and width of the reflectance peak, and to a smaller extent, in the shape of the 1-µm band over the wavelength range sampled, as shown in Fig. 6.
+During the SMASSII survey, we reobserved five asteroids that were unambiguously identified by Tholen as A-types and used these to define the limits of the A-class in our feature-based taxonomy. The dispersion of the A-class in component space (Fig. 5) is consistent with the spectral variations seen among the various A-type asteroids described in Fig. 6. The SMASSII observations reveal two distinct spectral forms associated with the A-class. The first of these has a reflectance maximum that is sharply peaked, and a 1-µm band that is particularly rounded, examples of which are 289 Nenetta and 863 Benkoela. The other form has a reflectance peak that is broader, and a 1-µm feature that shows little or no upward curvature out to 0.92 µm, with 246 Asporina being an example. Relying on these spectral characteristics, a total of 17 SMASSII asteroids were identified as belonging to the A-class.
+SMASSII observations were also obtained for the two asteroids defining the R- and Q-classes in the Tholen taxonomy (349 Dembowska and the near-Earth asteroid 1862 Apollo, respectively). As described in Fig. 6, the spectrum of Dembowska contains a reflectance maximum that is more sharply peaked than is commonly seen among S-type asteroids. The shape of this maximum is also somewhat skewed due to a steep drop-off of the 1-µm absorption band. Three new asteroids (1904 Massevitch, 2371 Dimitrov, and 5111 Jacliff) have been identified in the SMASSII data as having spectral characteristics very similar to
+
+152
+
+BUS AND BINZEL
+
+FIG. 6. Examples of spectra contained in the A-, R-, and Q-classes, presented in the same format as Fig. 3. Spectra for three A-types (246 Asporina, 289 Nenetta, and 863 Benkoela) are plotted, showing the range of spectral diversity within this class. All three spectra contain a very steep UV slope shortward of 0.75 µm, reaching a maximum relative reflectance of about 1.3. The shape of the reflectance maximum in the 246 Asporina spectrum is fairly broad (a), while that in the spectrum of 863 Benkoela is more sharply peaked. Possibly related, the shape of the 1-µm absorption band in the Benkoela spectrum (b) shows definite concave-up curvature, implying that a local minimum within the absorption band has been reached. By comparison, the 1-µm feature in the spectrum of 246 Asporina (b) shows no concave-up curvature, implying that the band minimum is longward of 0.92 µm. A subtle absorption feature centered near 0.63 µm, described by both King and Ridley (1987) and Sunshine et al. (1998), is visible in the spectrum of 289 Nenetta (c). The width of the 1- envelope, plotted with the mean A-type spectrum in the right-hand column, is indicative of the range in reflectance maxima and 1-µm band depths included in this class and is consistent with the dispersion of A-types in spectral component space shown in Fig. 5. The spectrum of 349 Dembowska is plotted as the prototype for the R-class. This spectrum contains a steep UV slope shortward of 0.7 µm, and a deep 1-µm silicate absorption band. The spectral peak at 0.75 µm is sharply defined and somewhat skewed (d) due to the steep fall-off in reflectance between this peak
+
+those of 349 Dembowska and have been classified as R-types. The spectrum of 1862 Apollo contains a reflectance maximum (centered at roughly 0.71 µm) that is noticeably broader, and more rounded, than is typical for S-type asteroids. Similarly, the 1-µm band in the Apollo spectrum is very rounded. Several other near-Earth asteroids have been identified in the SMASSII data with spectral properties similar to that of 1862 Apollo (Binzel et al. 1996, 2002, in preparation), but at present, no asteroids in the main belt have been identified with spectral characteristics sufficiently close to those of Apollo to be included in this Q-class.
+Asteroids plotting in the upper portion of the S-complex (Fig. 5) have spectra in which the 1-µm band tends to be shallow. In particular, those asteroids located on the upper perimeter of this complex have 1-µm features that show essentially no concave-up curvature in the absorption band and are often nearly flat over the interval longward of 0.75 µm (see Fig. 7). While several asteroids having this spectral form were measured during ECAS, within the Tholen taxonomy these objects were assigned to the S-class and have traditionally been referred to as "featureless" S-types.
+Based on a 0.8- to 2.5-µm spectrophotometric study of Eos family objects in which he found the 1-µm silicate absorption feature to be particularly shallow, and the 2-µm band to be essentially absent, Bell (1988) proposed that a K-class be added to asteroid taxonomy. Tedesco et al. (1989) also defined a Kclass based on their three-parameter taxonomy but included additional objects in the class that are not associated with the Eos family. SMASSII observations of several Eos family members were used in defining the boundary of the K-class in our featurebased taxonomy. We have identified 31 asteroids as belonging to the K-class, though only about half of these are members of the Eos family.
+Principal component analysis of the combined ECAS and 52color survey data led Burbine (1991) to identify two S-type asteroids, 387 Aquitania and 980 Anacostia, that have an unusual near-IR spectrum when compared with those of typical S-types (Gaffey et al. 1990, 1993). Britt and Lebofsky (1992) also noted the unusual spectral characteristics of these two asteroids. Over the visible wavelengths, 387 Aquitania and 980 Anacostia have spectra that are generally similar to those of K-types, though the UV slope is considerably steeper than for the average K-type asteroid. In SMASSII, we have identified 35 such asteroids, leading us to propose a new class of objects, the "L-types." The letter L was chosen to stress the apparent spectral continuum that
+and the silicate absorption that reaches minimum reflectance at roughly 0.9 µm (e). The relatively narrow 1- envelope plotted with the mean R-type spectrum demonstrates the high degree of similarity among the four identified members within this rare class. The Q-class is represented by the spectrum of 1862 Apollo. This spectrum contains a moderately steep UV slope shortward of 0.7 µm and a very broad, rounded peak (f) that reaches a maximum relative reflectance of about 1.15. The portion of the 1-µm absorption band that is visible (g) indicates this band to be broader or more rounded in shape than is normally found in the spectra of similar S-type asteroids.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+153
+
+the inner core of the S-complex, consisting of 614 objects, still to be classified. While the asteroids contained in this core share the common S-type spectral characteristics of a UV slope and 1-µm absorption band, there is considerable variation in the strengths of these features, with many having spectral characteristics approaching those of the endmember classes (the A-, K-, L-, Q-, and R-types). Due to this spectral continuum between the average S-type asteroids and each of the endmember types, it seemed reasonable to subdivide the core of the S-complex in a radial fashion, identifying those objects whose spectra are intermediate between the average S-type and the average A-, K-, L-, Q-, or R-type asteroids. Rather than relying on spectral components as a means of identifying these spectrally intermediate objects, a more analytical approach was used that is based on the calculated distances, or dissimilarities, between individual spectra and mean (benchmark) spectra representing the endmember classes. For this purpose, the dissimilarity is defined as the Euclidean distance,
+
+p
+
+1/2
+
+di j =
+
+(Xin - X jn)2 ,
+
+(2)
+
+n=1
+
+FIG. 7. Examples of spectra contained in the K- and L-classes, presented in the same format as in Fig. 3. The spectra of 599 Luisa and 1148 Rarahu are plotted to show the range of characteristics defining the K-class, both within (1148) and unrelated (599) to the Eos family. These spectra contain a moderately steep UV slope shortward of 0.75 µm (a), and a very shallow 1-µm band that shows no perceptible concave-up curvature (b) such as that normally seen in the spectra of S-type asteroids. The transition between the UV slope and 1-µm feature occurs very gradually, giving the spectrum a somewhat rounded appearance. The L-class is represented by the spectra of 611 Valeria and 2354 Lavrov. L-type spectra contain a moderate to very steep UV slope shortward of 0.75 µm (c) and become generally flat longward of 0.75 µm, showing little or no concave-up curvature in the 1-µm feature (d). As in the K-types, the transition between the UV slope and the 1-µm feature occurs very gradually.
+these asteroids form in conjunction with both the K- and S-type asteroids. In the SMASSII spectral component space, the separation between the K- and L-classes occurs at a slope of about 0.60. Examples of both K- and L-type spectra are described in Fig. 7.
+The S-Complex Part II, "The Core": S, Sa, Sk, Sl, Sq, and Sr
+Once the A-, K-, L-, Q-, and R-types had been identified among the SMASSII asteroids, these individuals were removed from further consideration in the classification process. This left
+
+where di j is the distance between the ith and jth spectrum, and X represents the individual channels making up the spectrum, where the total number of channels is p. In Table I, the mean reflectance values are listed for all asteroids contained in each of the A-, K-, L-, Q-, and R-classes. Also listed is the mean spectrum for the "core" of the S-complex, which was calculated based on the 614 members of the complex that had not already been classified as A-, K-, L-, Q-, or R-types.
+Examining the distribution of dissimilarities for all 614 asteroids with respect to the mean core spectrum (denoted by ds), we find that 1 (68%) of these asteroids have dissimilarities ds  0.25. Using this 1- definition, any asteroid in the S-complex with a value of ds  0.25 was classified as an Stype (with no subscript) in our feature-based taxonomy. For the remaining unclassified asteroids with values of ds > 0.25, the classification of each object was determined from the set of dissimilarities [dA, dK , dL , dQ, dR] that were calculated with respect to the mean A-, K-, L-, Q-, and R-type spectra listed in Table I. By identifying the smallest of these five dissimilarities (finding the minimum value contained in the set [dA, dK , dL , dQ, dR]), we assign each of the remaining asteroids to one of five spectral classes, the Sa-, Sk-, Sl-, Sq-, and Sr-classes. For example, those asteroids in the core of the S-complex for which ds > 0.25, and for which dA = min[dA, dK , dL , dQ, dR], were assigned to the Sa-class. Sample spectra from the S-, Sa-, Sk-, Sl-, Sq-, and Sr-classes are plotted in Fig. 8.
+Figure 5 shows the distribution in component space of all spectral classes making up the S-complex. In addition to showing members of the A-, K-, L-, Q-, and R-classes around the perimeter of this distribution, the relative locations of asteroids belonging to the Sa-, Sk-, Sl-, Sq-, and Sr-classes are also shown.
+
+154
+
+BUS AND BINZEL
+
+Wavelength (µm)
+0.44 0.45 0.46 0.47 0.48 0.49 0.50 0.51 0.52 0.53 0.54 0.55 0.56 0.57 0.58 0.59 0.60 0.61 0.62 0.63 0.64 0.65 0.66 0.67 0.68 0.69 0.70 0.71 0.72 0.73 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81 0.82 0.83 0.84 0.85 0.86 0.87 0.88 0.89 0.90 0.91 0.92
+
+TABLE I Mean Spectra Used to Subdivide the S-Complex
+
+Core of S-complex
+
+Mean relative reflectance
+
+A-types
+
+K-types
+
+L-types
+
+0.8124 0.8308 0.8492 0.8673 0.8851 0.9025 0.9196 0.9364 0.9530 0.9692 0.9848 1.0000 1.0143 1.0273 1.0387 1.0495 1.0607 1.0726 1.0850 1.0971 1.1092 1.1212 1.1328 1.1437 1.1533 1.1616 1.1694 1.1763 1.1817 1.1859 1.1880 1.1865 1.1813 1.1734 1.1641 1.1538 1.1420 1.1293 1.1170 1.1054 1.0934 1.0806 1.0681 1.0567 1.0470 1.0394 1.0341 1.0310 1.0290
+
+0.7076 0.7342 0.7608 0.7876 0.8144 0.8411 0.8677 0.8946 0.9214 0.9479 0.9741 1.0000 1.0248 1.0479 1.0691 1.0891 1.1090 1.1292 1.1495 1.1699 1.1913 1.2138 1.2355 1.2550 1.2719 1.2861 1.2975 1.3065 1.3126 1.3157 1.3159 1.3114 1.3023 1.2899 1.2766 1.2636 1.2498 1.2356 1.2223 1.2107 1.1991 1.1865 1.1746 1.1645 1.1567 1.1511 1.1470 1.1443 1.1426
+
+0.8627 0.8765 0.8903 0.9038 0.9171 0.9303 0.9433 0.9559 0.9680 0.9793 0.9898 1.0000 1.0098 1.0189 1.0270 1.0349 1.0433 1.0523 1.0618 1.0707 1.0790 1.0870 1.0952 1.1029 1.1096 1.1156 1.1211 1.1254 1.1288 1.1326 1.1363 1.1381 1.1374 1.1347 1.1314 1.1282 1.1247 1.1207 1.1178 1.1163 1.1142 1.1103 1.1054 1.1002 1.0950 1.0904 1.0870 1.0852 1.0845
+
+0.8177 0.8355 0.8532 0.8708 0.8882 0.9054 0.9223 0.9388 0.9548 0.9702 0.9851 1.0000 1.0147 1.0286 1.0414 1.0538 1.0665 1.0797 1.0932 1.1060 1.1184 1.1302 1.1415 1.1523 1.1621 1.1709 1.1793 1.1872 1.1939 1.1997 1.2047 1.2072 1.2071 1.2056 1.2042 1.2028 1.2006 1.1985 1.1972 1.1966 1.1954 1.1926 1.1895 1.1869 1.1853 1.1846 1.1846 1.1856 1.1876
+
+Q-types
+0.8302 0.8473 0.8643 0.8811 0.8977 0.9139 0.9298 0.9452 0.9600 0.9741 0.9874 1.0000 1.0115 1.0217 1.0307 1.0390 1.0467 1.0541 1.0614 1.0690 1.0775 1.0868 1.0960 1.1042 1.1107 1.1151 1.1177 1.1186 1.1178 1.1155 1.1121 1.1068 1.0985 1.0874 1.0741 1.0587 1.0414 1.0230 1.0047 0.9868 0.9692 0.9519 0.9354 0.9202 0.9069 0.8958 0.8868 0.8793 0.8727
+
+R-types
+0.7917 0.8109 0.8303 0.8499 0.8696 0.8886 0.9066 0.9247 0.9444 0.9647 0.9829 1.0000 1.0166 1.0323 1.0462 1.0591 1.0729 1.0869 1.1009 1.1150 1.1304 1.1453 1.1591 1.1728 1.1863 1.1988 1.2095 1.2185 1.2248 1.2287 1.2302 1.2241 1.2097 1.1894 1.1656 1.1394 1.1099 1.0782 1.0480 1.0212 0.9959 0.9709 0.9479 0.9279 0.9119 0.9004 0.8933 0.8899 0.8894
+
+In this plot, those asteroids classified as Sa-types occupy the region between the S-types and the A-types. This results from the fact that the dissimilarities between average S-type asteroid spectra and A-type spectra are relatively large. This translates to a significant gap of component space between the positions
+
+of A-type asteroids and the center of the S-type distribution that can be allocated to the Sa-class. Similarly, the R- and Q-type asteroids plot relatively far from the center of the S-type distribution, so that the Sr- and Sq-type asteroids plot in intermediate locations on this component plane.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+155
+
+The case for the Sk- and Sl-classes, and their relationships to the K- and L-classes in spectral component space is somewhat different. The UV slopes (and correspondingly, the average spectral slopes) for asteroids in both the K- and L-classes are not significantly different from those of the S-class asteroids. The primary characteristic distinguishing the K- and L-types from the S-class is the absence of any significant concave-up curvature in the 1-µm band. Correspondingly, the magnitudes of the dissimilarities separating the K- and L-types from the average S-class asteroids are relatively small. As a result, the K- and L-classes plot immediately adjacent to the S-types in spectral component space, leaving the Sk- and Sl-types to plot on the perimeter of the distribution shown in Fig. 5. The Sk-class represents a transition not only between the K- and S-classes, but also to the Sq-class. Similarly, the Sl-class represents a transition region between the L-, S-, and Sa-classes.
+
+The C-Complex
+
+FIG. 8. Examples of spectra contained in the S-, Sk-, Sq-, Sr, Sa, and Sl-classes, presented in the same format as Fig. 3. Plotted are the spectra of 5 Astraea (S), 3 Juno (Sk), 33 Polyhymnia (Sq), 2956 Yeomans (Sr), 1667 Pels (Sa), and 169 Zelia (Sl), showing the range of characteristics found within the core of the S-complex. At the center of this core are the S-type asteroids, such as 5 Astraea. The spectrum of Astraea contains a moderately steep UV slope shortward of 0.7 µm (a), and a moderately deep 1-µm silicate absorption band that exhibits a concave-up curvature, with a local minimum centered near 0.9 µm (b). Trends in UV slope and 1-µm band depth noted in Fig. 5 are demonstrated here, with the Sl-, Sa-, and Sr-class spectra containing steeper UV slopes than the Sk- and Sq-type spectra. Similarly, the Sk- and Sl-class asteroids have the shallowest 1-µm bands, while Sr-type asteroids exhibit the deepest 1-µm band depth. Over the range of the UV slope shortward of 0.7 µm, the interval from 0.44 to 0.55 µm is often slightly steeper than the interval from 0.55 to 0.7 µm,
+
+Based on his analysis of the ECAS colors, Tholen (1984) defined four classes to describe those asteroids whose spectra are generally flat and featureless longward of 0.4 µm, and which can have sharp ultraviolet drop-offs in reflectance shortward of 0.4 µm. These classes, denoted by the letters B, C, F, and G, are often referred to as subclasses of a larger C-class or "C-group," reflecting the fact that the spectral differences separating these classes are relatively small. The spectral properties exhibited by asteroids in our C-complex are similar to those of the C-group asteroids described by Tholen.
+In spectral component space, the C-complex is not centrally condensed, but rather a bifurcated cloud with two broad, relatively distinct concentrations of points that are best separated in the spectral component plane described by PC3 and PC2 , as seen in Fig. 9. This bifurcation results from two populations within the C-complex that are differentiated based on the presence or absence of a broad absorption feature, centered near 0.7 µm. In addition to the 0.7-µm feature, the component plane in Fig. 9 is sensitive to the strength of the UV absorption shortward of 0.55 µm. The order in which the C-complex was divided into taxonomic classes was based on the dominance of these two spectral features in component space. Spectra containing a deep UV absorption feature were classified first, followed by objects whose spectra include a 0.7-µm band. Finally, those spectra with shallow to nonexistent UV features were subdivided, based primarily on their spectral slope.
+In separating his G-class asteroids from the B- and C-types, Tholen had the advantage of colors derived from the ECAS s-,
+as seen in the spectra of both 3 Juno and 2956 Yeomans (c). The spectra of both 3 Juno and 169 Zelia contain 1-µm bands that show moderate concave-up curvature (d), differentiating these Sk- and Sl-class asteroids from the K- and L-classes, respectively. A subtle inflection in the UV slope of 33 Polyhymnia is centered near 0.63 µm (e). This feature has been previously recognized as the combination of two absorption bands, centered at roughly 0.60 and 0.67 µm (Hiroi et al. 1996).
+
+156
+
+BUS AND BINZEL
+
+FIG. 9. Plot of the spectral components PC2 and PC3 for asteroids in the C-complex. For clarity, those asteroids classified as "C"-types (with no subscript) are shown as dots. Arrows indicate distinct spectral trends that are represented in this component plane. Most notably, asteroids whose spectra contain a broad 0.7-µm feature (classified as Ch- and Cgh-types) cluster in the upper-left half of this plot. The C-types (dots) do not show this absorption feature, and asteroids plotting in the lower-right part of this distribution actually contain a slight convex curvature in the middle of their spectrum. On the lefthand side of the plot, spectra tend to have a deep UV absorption shortward of 0.55 µm (objects classified as Cg and Cgh), while spectra that are essentially linear (featureless) plot to the upper right. Asteroids located in the middle of this distribution will have spectra containing a moderate UV absorption shortward of 0.55 µm, but which are approximately linear over the interval from 0.55 to 0.92 µm. Because both the UV and 0.7-µm absorption features dominate the variance represented in this plane, the Cg-, Ch-, and Cgh-classes separate well. However, the spectral classes that do not include these absorption features, but rather are defined based primarily on the average spectral slope (the C-, B-, and Cb-types), do not separate out well in this plane.
+
+u-, and b-bandpasses (with band centers of 0.34, 0.36, and 0.44 µm, respectively) to determine the strength of the UV absorption. Much of this wavelength interval is not sampled in the SMASSII spectra and therefore cannot be used to characterize the UV feature to the same extent as was possible from the ECAS observations. However, in the SMASSII spectra, the subtle curvature associated with this UV absorption is found to begin just shortward of 0.55 µm, so that over the interval from 0.44 to 0.55 µm, a diagnostic portion of the feature is measured, as demonstrated in Fig. 10. The spectral component plane in Fig. 9 was used as a guide in defining a boundary between those C-type asteroids with moderate UV features, and those with deep features. To denote those asteroids with deep UV features, the letter "g" is appended to the class label of "C," thus maintaining a level of consistency with the Tholen G-class.
+In Fig. 9, those asteroids that plot in the upper center and to the left have spectra containing the 0.7-µm absorption feature. This feature, first reported by Vilas and Gaffey (1989), has been identified in the spectra of many low-albedo asteroids (Sawyer 1991, Vilas et al. 1993, and others). This absorption is thought to be due to the presence of oxidized iron in phyllosilicates,
+
+FIG. 10. Examples of spectra contained in the B-, Cb-, C-, Cg-, Ch-, and Cgh-classes, presented in the same format as Fig. 3. Plotted are the spectra of 142 Polana (B), 191 Kolga (Cb), 1 Ceres (C), 175 Andromache (Cg), 19 Fortuna (Ch), and 706 Hirundo (Cgh), showing the range of spectral characteristics found in the C-complex. The spectra of both 142 Polana and 191 Kolga are essentially featureless and are differentiated only on the basis of their slope. C-type asteroids, such as 1 Ceres, have spectra containing a weak to moderately strong UV absorption shortward of 0.55 µm (a). The UV absorption in the spectrum of 175 Andromache is considerably stronger (b), accounting for its classification as a Cg-type. The Ch-type spectrum of 19 Fortuna contains both a moderate UV absorption, and a broad, fairly shallow absorption centered near 0.7 µm (c). This 0.7-µm feature has been well documented by Vilas and Gaffey (1989), Sawyer (1991), Vilas et al. (1993), and others. The Cgh-type asteroid 706 Hirundo has a spectrum in which both the UV absorption (b) and 0.7-µm feature (c) are particularly strong.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+157
+
+of curvature related to the UV absorption, and for whom the Slope component has a value less than zero. Those asteroids with spectra having well-defined UV features, ranging in depth from shallow to moderate, and for which the middle of the spectrum (the interval from roughly 0.6 to 0.8 µm) varies from being flat to having a very slight concave-down curvature, are assigned to the C-class. Based on these definitions, the B- and C-classes are spectrally distinct, leaving a gap that is occupied by asteroids with intermediate spectral shapes. To characterize these intermediate objects, the Cb-class was created. Asteroids classified as Cb-types have Slope values ranging from -0.1 to 0.1 and have UV features ranging from very shallow (for those objects with Slope values approaching -0.1) to nonexistent, thus including those spectra that are linear, but which have Slope values slightly greater than zero.
+
+FIG. 11. Plot of the spectral components PC3 and Slope, showing only the C-, B-, and Cb-classes. For clarity, those asteroids classified as "C"-types (with no subscript) are shown as dots. The B- and Cb-type spectra are roughly linear (featureless), with the classes being divided primarily on spectral slope. The Btype spectra tend to be the most linear, while the Cb-type spectra can show some subtle curvature due to the UV absorption shortward of 0.55 µm. The allowance for spectral curvature among the Cb-types, due to the UV absorption, is the reason the boundary separating the B- and Cb-classes is not sharply defined at a Slope value of 0.0. The C-types exhibit a slight to moderate UV absorption, as indicated by the arrow at the lower right.
+formed through aqueous alteration processes (Vilas and Gaffey 1989). Following the suggestion of Burbine and Bell (1993), the letter "h" has been appended to the label "C" to identify those asteroids whose spectra contain the 0.7-µm feature. Fifteen of the asteroids observed during SMASSII have spectra containing both the 0.7-µm band and a deep UV absorption and are assigned the designation "Cgh."
+Once the Cg-, Ch-, and Cgh-types had been identified, they were removed from further steps in the classification process. The spectra of those objects remaining in the C-complex have UV absorption features that range from moderately deep to nonexistent and have overall slopes varying from moderately bluish to slightly reddish. These characteristics fall within the ranges defined by Tholen for the B-, C-, and F-classes, though as before, the limited wavelength interval over which the UV feature is sampled in the SMASSII spectra makes it difficult to apply Tholen's definitions directly to these data. In particular, when comparing the SMASSII spectra of objects previously classified by Tholen as either B- or F-types, we find these two classes to be indistinguishable. Even so, the region of component space occupied by the remaining C-complex asteroids is not small, especially when replotted in the plane defined by PC3 and Slope, as seen in Fig. 11.
+Based on the range of spectral slopes and the presence or absence of a weak to moderate UV absorption feature, the remaining asteroids plotted in Fig. 11 were divided into three classes: the B-, C-, and Cb-types. The B-class is reserved for those asteroids whose spectra are linear, showing little or no evidence
+
+The X-Complex Before the introduction of CCD spectroscopy, the visible-
+wavelength spectra of X-type asteroids were generally described as featureless (linear), with slopes that range from slightly to moderately red in color. The SMASSII observations reveal that the spectra of asteroids in the X-complex are not uniformly featureless. Instead, we identify a set of subtle spectral characteristics that seem to be uniquely associated with this complex. The shapes and locations of these features can be accurately described, and to some extent, can be correlated with trends that are observed in spectral component space, as seen in Fig. 12. The presence (or absence) of two particular features,
+FIG. 12. Plot of the spectral components PC2 and Slope for asteroids in the X-complex. For clarity, those asteroids classified as "X"-types (with no subscript) are shown as dots. Due to the subtle nature of the features observed in these spectra, the boundaries separating the spectral classes are not well defined in this spectral component space. A fairly clear division is seen between the Xc- and Xk-classes based on the average slope (Slope 0.26), but no clear boundaries exist for the X-types or Xe-types. Arrows show the general trend for increasing (or decreasing) spectral curvature that defines the difference between the X-types and the Xc- and Xk-types.
+
+158
+
+BUS AND BINZEL
+
+FIG. 13. Examples of spectra contained in the X-, Xc-, Xk-, and Xe-classes, presented in the same format as Fig. 3. Spectra are plotted for two members of the X-class, 55 Pandora, and 678 Fredegundis. These spectra are generally featureless and have a slight to moderate reddish slope. The spectrum of Fredegundis does contain a weak feature centered near 0.9 µm (a), similar to that seen in the spectra of many X-class asteroids. The spectra of 247 Eukrate and 250 Bettina are plotted to represent the Xc- and Xk-classes, respectively. Both of these spectra contain a shallow UV slope (b), while longward of 0.8 µm, the spectral slope is flat to slightly negative (c). As seen in the mean spectra for these two classes (plotted in the right-hand column), the transition in slope over the interval from 0.6 to 0.8 µm usually occurs very gradually. The spectra of two asteroids, 64 Angelina and 434 Hungaria, are plotted to show the unusual features used in defining the Xe-class. Angelina provides the prototype spectrum for this class,
+
+an absorption band centered near 0.49 µm, and a broad concavedown curvature, extending from roughly 0.55 to 0.8 µm, provides the basis for dividing this complex into four spectral classes.
+We have defined the first of these four classes to include those asteroids whose spectra contain a moderately broad absorption band centered near 0.49 µm. As discussed in Bus and Binzel (2002), this band was first recognized as a prominent feature in the spectrum of asteroid 64 Angelina. Among the nearEarth asteroids, the spectrum of 3103 Eger also contains a deep 0.49-µm feature, second in strength only to that observed in the Angelina spectrum (Binzel et al. 2002, in preparation). The 0.49-µm band has been subsequently identified, though at much weaker levels, in the spectra of 27 other SMASSII asteroids. In addition to the 0.49-µm band, several spectra with sufficiently high signal-to-noise ratio contain a second, much weaker absorption band, centered near 0.6 µm. Finally, a deflection in the spectral slope occurs near 0.72 µm, where the slope longward of this point becomes less steep. These three features are labeled on the spectrum of 64 Angelina, plotted in Fig. 13. Burbine et al. (1998) have suggested that these features arise from the presence of troilite (FeS). Of the 29 asteroids whose spectra contain the 0.49-µm band, 14 had been previously classified by Tholen, with the largest fraction (five objects) being assigned to the E-class based on their high albedos. For this reason, these 29 asteroids have been assigned to a spectral class labeled "Xe."
+The other characteristic used in dividing the X-complex is a broad, convex curvature that extends over the wavelength interval from roughly 0.55 to 0.8 µm. Once the Xe-class asteroids had been identified and removed from further consideration, nearly half of the remaining X-complex asteroids were found to exhibit this spectral curvature. These asteroids tend to fill a gap in the spectral continuum between the C-types and the K- and T-type asteroids. Because of the wide range in average spectral slopes among these asteroids, two classes were formed, the Xc- and the Xk-types, with the division between these classes occurring at a Slope value of 0.26.
+The fourth taxonomic class contains all remaining members of the X-complex. The spectra of these asteroids are generally linear in form, except for minor absorption features that can be present at either end of the SMASSII spectral range. Because the reflectance spectra of these asteroids most closely match the traditional definition of the "X-class" (including the E-, M-, and P-types defined in previous taxonomies), the label "X" is
+with the most prominent feature being a deep absorption band centered near 0.49 µm (d). Other features include a much shallower absorption centered near 0.6 µm (e) and a decrease in spectral slope longward of 0.75 µm (f). Because inclusion in the Xe-class hinges primarily on the presence of the 0.49µm band, and to a lesser degree, the downward deflection in spectral slope longward of 0.75 µm, a wide range in overall spectral slope is allowed among the Xe-class members. This dispersion in spectral slope is apparent in the size of the 1- envelope plotted with the mean Xe-class spectrum in the right-hand column.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+159
+
+used to designate this spectral class in our feature-based taxonomy. The spectra of two X-class asteroids are described in Fig. 13.
+Figure 12 shows the distribution of all X-complex asteroids in the spectral component plane defined by PC2 and Slope. A general trend is apparent, with those asteroids in the Xclass (objects with spectra that are relatively featureless) plotting in the upper-left portion of this distribution, while those asteroids whose spectra exhibit more curvature (the Xc- and Xk-types) plot lower in the distribution. However, the separation of these two spectral forms is not distinct in this lower order component plane. Asteroids belonging to the Xe-class, which exhibit unique, but usually weak spectral characteristics, seem to plot almost anywhere within this distribution. The only classes that are fully separated in this plane are the Xc- and Xk-classes, which are distinguished based on spectral slope.
+In an attempt to more quantitatively isolate some of the subtle features present in the blue (lower wavelength) half of the SMASSII spectra, a separate set of principal components were calculated using only the wavelength interval from 0.44 to 0.68 µm. Unlike our original calculation of spectral components described in Bus and Binzel (2002), the average slopes of the spectra over this wavelength interval were not fit or removed prior to applying PCA. The components resulting from this secondary analysis are denoted by the subscript (blue). In Fig. 14, all members of the X-complex have been replotted in the secondary component plane defined by PC3(blue) and PC2(blue). In this component plane, the spectral characteristics defining the Xe-class, particularly the 0.49-µm band, can be more clearly isolated.
+FIG. 14. Plot of the secondary spectral components PC2(blue) and PC3(blue) for all asteroids in the X-complex. For clarity, all objects are plotted as dots, except for members of the Xe-class. The high-order component (PC3(blue)) is relatively efficient at separating the Xe-class asteroids from the rest of the X-complex objects.
+
+FIG. 15. Key showing all 26 SMASSII taxonomic classes. The average spectra are plotted with constant horizontal and vertical scaling and are arranged in a way that approximates the relative position of each class in the primary spectral component plane defined by PC2 and Slope. Thus, the depth of the 1-µm band generally increases from top to bottom, and average spectral slope increases from left to right. Due to the spectral complexity of the C- and Xcomplexes, the locations of some of these classes do not strictly follow the pattern. The horizontal lines to which each spectrum is referenced represents a normalized reflectance of 1.00.
+Summary of the SMASSII Taxonomy
+A summary of this new feature-based asteroid taxonomy is shown in Fig. 15. This key provides a visual comparison of the 26 spectral classes and emphasizes the continuous relationship between adjacent classes, demonstrating how the major spectral features (in particular, the average spectral slope and the 1-µm band) vary across this continuum. However, this figure alone does not provide any specific rules by which a new asteroid might be classified and is meant only as a quick reference to this taxonomy.
+A more thorough summary of this taxonomy is provided in Tables II and III. The descriptions listed in Table II are qualitative in nature, highlighting those features or characteristics in each spectral class that are considered diagnostic. Also listed in this table are the permanent numbers for three asteroids, observed during the SMASSII survey, which are representative examples of each spectral class. Listed in Table III are the high and low values, the mean, and the standard deviation for nine spectral channels, derived from all of the SMASSII asteroids contained in each spectral class. When combined, the information given in Tables II and III, along with the graphical representations of the mean spectra shown in Figs. 3, 4, 6­8, 10, and 13, provides a foundation for applying this taxonomy in the classification of newly observed asteroids.
+
+160
+
+BUS AND BINZEL
+
+TABLE II Description of Taxonomic Classes
+
+Type
+
+Description
+
+Examples of spectral type
+
+A Very steep to extremely steep UV slope shortward of 0.75 µm, and a moderately deep absorption feature, longward of 0.75 µm. The 246, 289, 863 shape of the reflectance maximum around 0.75 µm can either be sharply peaked or can be quite broad, with the shape of the peak possibly being tied to the shape and roundness of the 1-µm feature. A subtle absorption feature is often present around 0.63 µm.
+
+B Linear, featureless spectrum over the interval from 0.44 to 0.92 µm, with negative (blue) to flat slope.
+
+2, 24, 85
+
+C Weak to medium UV absorption shortward of 0.55 µm, generally flat to slightly red and featureless longward of 0.55 µm.
+
+1, 10, 52
+
+Cb Generally linear, featureless spectrum over the interval from 0.44 to 0.92 µm, with a flat to slightly red slope.
+
+150, 210, 2060
+
+Cg Strong UV absorption shortward of 0.55 µm and generally flat to slightly reddish slope longward of 0.55 µm. Occasionally a shallow 175, 1300, 3090 absorption feature is seen longward of 0.85 µm.
+
+Cgh Similar to Cg spectrum with addition of a broad, moderately shallow absorption band centered near 0.7 µm.
+
+106, 706, 776
+
+Ch Similar to C spectrum with addition of a broad, relatively shallow absorption band centered near 0.7 µm.
+
+19, 48, 49
+
+D Relatively featureless spectrum with very steep red slope. A slight decrease in spectral slope (less reddened) is often seen longward of 1542, 2246, 4744 0.75 µm.
+
+K Moderately steep UV slope shortward of 0.75 µm, reaching a maximum relative reflectance of about 1.15. The spectral slope becomes 221, 579, 606 flat to slightly negative (blue) longward of 0.75 µm, showing little or no concave-up curvature in the 1-µm absorption band.
+
+L Very steep UV slope shortward of 0.75 µm, becoming approximately flat, with a relative reflectance of about 1.2 longward of 0.75 µm. 42, 236, 908
+
+Ld Very steep UV slope shortward of 0.7 µm, becoming essentially flat, with a relative reflectance of roughly 1.3 longward of 0.75 µm. 269, 1406, 2850 Spectrum is generally steeper over the interval from 0.44 to 0.7 µm, and flatter from 0.75 to 0.92 µm, than is typical for D-types.
+
+O Moderately steep UV slope from 0.44 to 0.54 µm, becoming less steep over the interval from 0.54 to 0.7 µm, and reaching peak 3628, 4341, 5143 relative reflectance of 1.05. Deep absorption feature longward of 0.75 µm.
+
+Q Moderately steep UV slope shortward of 0.7 µm, and a deep, rounded 1-µm absorption band that reaches a minimum reflectance level 1862, 2102, 5660 of about 0.9. Reflectance maximum is relatively broad, with an average peak value of about 1.12.
+
+R Very steep UV slope shortward of 0.7 µm, and a deep absorption feature longward of 0.75 µm. The shape of the spectrum, near 349, 1904, 5111 maximum reflectance, is more sharply peaked than is typical for S-type spectra and is somewhat skewed due to the strength of the 1-µm absorption band that reaches a minimum at roughly 0.9 µm with a relative reflectance level of 0.9. An additional small absorption feature can be seen centered near 0.52 µm.
+
+S Moderately steep UV slope shortward of 0.7 µm and a moderate to deep absorption band longward of 0.75 µm. Average S-type spectrum has a peak reflectance of about 1.2 at 0.73 µm. The spectral slope is almost always slightly steeper over the wavelength interval from 0.44 to 0.55 µm than it is from 0.55 to 0.7 µm, and often there is a broad, but shallow absorption feature centered near 0.63 µm.
+
+5, 7, 20
+
+Sa Spectrum intermediate between S- and A-types. Very steep UV slope shortward of 0.7 µm. The reflectance peak is typically broader 63, 244, 625 than it is in A-type spectrum.
+
+Sk Intermediate between S- and K-type spectra. Absorption feature longward of 0.75 µm shows moderate concave-up curvature, as compared to the K-types, where the spectrum over this interval tends to be approximately linear. Compared with other S-types, the 0.63-µm feature can be strong.
+
+3, 11, 43
+
+Sl Intermediate between S- and L-type spectra. Absorption feature longward of 0.75 µm is shallow to moderately deep, as compared to 151, 192, 354 L-types, where this spectral interval is essentially flat.
+
+Sq Spectrum intermediate between S- and Q-types. Compared with other S-types, these spectra can contain a relatively strong 0.63-µm 33, 720, 1483 feature.
+
+Sr Intermediate between S- and R-type spectra. Very steep UV slope shortward of 0.7 µm and a deep absorption feature longward of 984, 1494, 2956 0.75 µm. Reflectance peak is broader and more symmetric in shape than it is in R-type spectra.
+
+T Moderately steep UV slope shortward of 0.75 µm, becoming flat with a relative reflectance between 1.15 and 1.2 longward of 0.85 µm. 96, 596, 3317 The change in spectral slope occurs very gradually.
+
+V Moderate to very steep UV slope shortward of 0.7 µm with a sharp, extremely deep absorption band longward of 0.75 µm that usually 4, 1929, 2912 reaches a minimum relative reflectance level between 0.7 and 0.8. The spectral slope between 0.44 and 0.55 µm is usually steeper than that over the interval from 0.55 to 0.7 µm. An additional small absorption feature, centered near 0.52 µm, is occasionally seen. The largest member, 4 Vesta, is anomalous in that its slope and band depth is less extreme than for other members of this class.
+
+X A generally featureless spectrum, with slight to moderately reddish slope. A subtle UV absorption feature, shortward of 0.55 µm, can be present, as well as an occasional shallow absorption feature longward of 0.85 µm.
+
+22, 55, 69
+
+Xc A slightly reddish spectrum, generally featureless except for a gentle convex curvature over the middle and red portions of the spectrum. 65, 131, 209
+
+Xe Overall slope that is slightly to moderately red, with a series of subtle absorption features. The most dominant feature is an absorption band shortward of 0.55 µm. This feature exhibits a concave-up curvature, most visible in the spectrum of 64 Angelina, where the band center is located at about 0.49 µm. Often a very shallow absorption feature is also seen centered near 0.6 µm. In addition, a decrease in spectral slope (becoming less red or even bluish) is usually seen longward of 0.75 µm.
+
+64, 77, 434
+
+Xk Moderately red slope, shortward of about 0.75 µm, and generally flat longward of 0.75 µm with a peak relative reflectance of roughly 1.1, the change in slope occurring very gradually. Similar in spectral shape to Xc, but redder in overall slope.
+
+21, 99, 114
+
+Class (no. of objects) A (17)
+B (63)
+C (145)
+Cb (35)
+Cg (9)
+Cgh (15)
+Ch (138)
+D (9)
+K (31)
+L (35)
+Ld (13)
+O (4)
+Q (10)
+
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+TABLE III Statistics for Selected Channels in Each Spectral Class
+
+Wavelength (µm)
+
+0.44
+
+0.50
+
+0.60
+
+0.65
+
+0.70
+
+0.75
+
+0.747 0.659 0.708 0.026
+1.075 0.967 1.008 0.022
+0.977 0.872 0.936 0.025
+1.039 0.957 0.981 0.018
+0.868 0.825 0.852 0.013
+0.912 0.811 0.870 0.025
+1.021 0.878 0.941 0.030
+0.936 0.843 0.882 0.029
+0.903 0.809 0.863 0.024
+0.875 0.743 0.818 0.031
+0.875 0.717 0.799 0.042
+0.907 0.843 0.878 0.026
+0.886 0.741 0.830 0.044
+
+0.886 0.840 0.868 0.014
+1.025 0.985 1.004 0.008
+1.002 0.952 0.979 0.009
+1.010 0.981 0.995 0.007
+0.962 0.924 0.945 0.013
+0.992 0.937 0.962 0.014
+1.008 0.962 0.986 0.010
+0.971 0.933 0.951 0.012
+0.963 0.922 0.943 0.010
+0.947 0.892 0.922 0.013
+0.951 0.875 0.913 0.021
+0.960 0.944 0.952 0.007
+0.957 0.903 0.930 0.018
+
+1.140 1.095 1.109 0.013
+1.006 0.977 0.989 0.007
+1.032 0.971 1.007 0.009
+1.009 0.986 0.999 0.005
+1.028 0.999 1.018 0.012
+1.024 0.966 0.997 0.016
+1.013 0.970 0.991 0.008
+1.055 1.041 1.046 0.005
+1.073 1.031 1.043 0.010
+1.094 1.048 1.066 0.012
+1.111 1.049 1.080 0.018
+1.029 1.015 1.022 0.006
+1.080 1.017 1.047 0.018
+
+1.285 1.179 1.214 0.026
+1.006 0.958 0.985 0.011
+1.038 0.984 1.013 0.011
+1.028 0.990 1.002 0.008
+1.050 0.993 1.028 0.020
+1.027 0.934 0.985 0.027
+1.014 0.945 0.983 0.013
+1.108 1.089 1.098 0.006
+1.128 1.066 1.087 0.016
+1.172 1.098 1.130 0.020
+1.210 1.117 1.163 0.027
+1.054 1.034 1.042 0.009
+1.131 1.044 1.087 0.027
+
+1.411 1.243 1.298 0.038
+1.005 0.945 0.978 0.015
+1.042 0.973 1.014 0.013
+1.030 0.983 1.002 0.010
+1.052 0.989 1.027 0.020
+1.026 0.904 0.972 0.035
+1.015 0.928 0.977 0.018
+1.171 1.139 1.150 0.010
+1.166 1.092 1.121 0.019
+1.232 1.139 1.179 0.025
+1.267 1.178 1.228 0.029
+1.072 1.045 1.057 0.012
+1.171 1.070 1.118 0.032
+
+1.422 1.215 1.311 0.045
+1.011 0.932 0.975 0.019
+1.059 0.967 1.016 0.015
+1.023 0.977 1.005 0.012
+1.057 0.988 1.025 0.023
+1.030 0.903 0.973 0.038
+1.026 0.931 0.982 0.021
+1.234 1.184 1.199 0.015
+1.172 1.106 1.138 0.018
+1.263 1.168 1.207 0.024
+1.327 1.216 1.270 0.034
+1.050 1.022 1.036 0.011
+1.156 1.064 1.107 0.031
+
+0.80
+1.337 1.112 1.250 0.059
+1.002 0.900 0.969 0.023
+1.061 0.959 1.014 0.017
+1.032 0.971 1.003 0.015
+1.067 0.992 1.026 0.027
+1.047 0.912 0.987 0.042
+1.046 0.937 0.991 0.024
+1.252 1.201 1.222 0.018
+1.163 1.084 1.125 0.020
+1.242 1.166 1.201 0.021
+1.359 1.230 1.280 0.038
+0.971 0.936 0.958 0.015
+1.074 1.003 1.041 0.023
+
+0.85
+1.297 1.052 1.187 0.066
+1.001 0.880 0.961 0.026
+1.064 0.931 1.008 0.022
+1.039 0.963 0.994 0.020
+1.082 0.969 1.022 0.036
+1.063 0.913 0.991 0.047
+1.056 0.925 0.996 0.028
+1.300 1.218 1.247 0.026
+1.153 1.063 1.110 0.023
+1.232 1.153 1.193 0.020
+1.373 1.224 1.282 0.041
+0.891 0.822 0.870 0.033
+0.985 0.926 0.952 0.019
+
+161
+0.92
+1.243 1.033 1.143 0.063 1.018 0.838 0.938 0.039 1.064 0.856 0.993 0.034 1.041 0.929 0.979 0.031 1.057 0.927 1.007 0.044 1.076 0.870 0.980 0.059 1.073 0.911 0.993 0.037 1.408 1.199 1.287 0.067 1.175 1.029 1.085 0.038 1.268 1.097 1.188 0.042 1.403 1.204 1.288 0.067 0.829 0.727 0.798 0.048 0.936 0.821 0.873 0.032
+
+162
+
+BUS AND BINZEL
+
+Class (no. of objects) R (4)
+S (410)
+Sa (36)
+Sk (19)
+Sl (51)
+Sq (77)
+Sr (21)
+T (15)
+V (39)
+X (115)
+Xc (64)
+Xe (29)
+Xk (39)
+
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+High Low Mean St. dev.
+
+0.44
+0.814 0.778 0.792 0.016
+0.907 0.742 0.813 0.028
+0.789 0.668 0.748 0.029
+0.898 0.773 0.859 0.029
+0.847 0.730 0.790 0.025
+0.948 0.781 0.851 0.031
+0.868 0.698 0.777 0.046
+0.938 0.854 0.896 0.027
+0.893 0.665 0.808 0.052
+1.011 0.889 0.940 0.023
+0.979 0.863 0.920 0.030
+1.014 0.815 0.921 0.039
+0.979 0.822 0.900 0.037
+
+TABLE III--Continued
+
+Wavelength (µm)
+
+0.50
+
+0.60
+
+0.65
+
+0.70
+
+0.75
+
+0.911 0.899 0.907 0.006
+0.953 0.872 0.920 0.011
+0.912 0.857 0.892 0.011
+0.954 0.908 0.939 0.011
+0.929 0.891 0.909 0.009
+0.972 0.917 0.938 0.011
+0.941 0.865 0.904 0.023
+0.968 0.942 0.956 0.008
+0.959 0.858 0.916 0.024
+0.996 0.954 0.977 0.008
+0.987 0.938 0.969 0.012
+0.989 0.895 0.948 0.023
+0.980 0.922 0.959 0.012
+
+1.079 1.066 1.073 0.005
+1.100 1.039 1.060 0.012
+1.116 1.074 1.094 0.010
+1.062 1.030 1.039 0.008
+1.099 1.062 1.076 0.009
+1.065 1.022 1.039 0.009
+1.100 1.043 1.069 0.016
+1.061 1.024 1.041 0.011
+1.111 1.022 1.063 0.019
+1.037 0.998 1.013 0.008
+1.041 1.001 1.019 0.008
+1.076 0.999 1.032 0.019
+1.062 1.018 1.033 0.010
+
+1.152 1.139 1.145 0.006
+1.172 1.076 1.121 0.018
+1.209 1.152 1.178 0.014
+1.102 1.065 1.082 0.010
+1.184 1.121 1.149 0.013
+1.122 1.052 1.082 0.017
+1.178 1.100 1.137 0.024
+1.119 1.055 1.083 0.016
+1.208 1.048 1.124 0.036
+1.067 1.008 1.030 0.012
+1.064 1.014 1.038 0.010
+1.137 1.009 1.060 0.033
+1.094 1.032 1.061 0.013
+
+1.221 1.199 1.209 0.010
+1.236 1.116 1.170 0.023
+1.285 1.223 1.243 0.014
+1.134 1.090 1.115 0.012
+1.239 1.173 1.209 0.015
+1.157 1.065 1.115 0.022
+1.244 1.150 1.188 0.028
+1.164 1.091 1.119 0.019
+1.298 1.074 1.176 0.049
+1.092 1.019 1.045 0.016
+1.072 1.025 1.049 0.011
+1.167 1.021 1.082 0.041
+1.120 1.057 1.084 0.014
+
+1.238 1.216 1.224 0.010
+1.246 1.132 1.188 0.024
+1.316 1.233 1.260 0.019
+1.158 1.103 1.130 0.013
+1.272 1.199 1.237 0.017
+1.178 1.055 1.120 0.028
+1.242 1.138 1.193 0.031
+1.180 1.128 1.149 0.015
+1.317 1.085 1.183 0.049
+1.116 1.024 1.057 0.019
+1.084 1.033 1.054 0.012
+1.174 1.043 1.094 0.039
+1.126 1.063 1.097 0.018
+
+0.80
+1.129 1.099 1.110 0.014
+1.204 1.086 1.145 0.024
+1.290 1.167 1.216 0.025
+1.106 1.070 1.092 0.009
+1.254 1.176 1.205 0.019
+1.113 0.990 1.069 0.028
+1.181 1.066 1.123 0.032
+1.187 1.137 1.163 0.015
+1.152 0.953 1.048 0.039
+1.135 1.028 1.062 0.021
+1.076 1.010 1.047 0.015
+1.173 1.037 1.093 0.039
+1.140 1.065 1.098 0.020
+
+0.85
+0.985 0.949 0.971 0.015
+1.158 1.018 1.084 0.028
+1.247 1.098 1.150 0.036
+1.057 1.020 1.039 0.011
+1.216 1.112 1.158 0.026
+1.034 0.917 1.000 0.028
+1.083 0.982 1.030 0.028
+1.209 1.143 1.174 0.021
+0.958 0.771 0.879 0.046
+1.154 1.009 1.060 0.026
+1.073 0.994 1.037 0.020
+1.152 1.026 1.088 0.041
+1.139 1.055 1.098 0.023
+
+0.92
+0.926 0.852 0.889 0.033
+1.153 0.922 1.034 0.040
+1.230 0.972 1.091 0.059
+1.040 0.954 1.001 0.022
+1.225 1.055 1.131 0.042
+0.989 0.850 0.936 0.034
+1.049 0.859 0.936 0.038
+1.243 1.131 1.184 0.037
+0.842 0.609 0.745 0.056
+1.189 0.989 1.058 0.038
+1.104 0.934 1.020 0.033
+1.167 0.993 1.078 0.050
+1.172 1.043 1.098 0.034
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+163
+
+Bus (1999) provides a somewhat more rigorous method for applying this taxonomy. A decision tree (in the form of a flow chart) was developed that presents a series of questions, each requiring a binary response of either "yes" or "no." The structure of this decision tree follows a thought process that begins by asking if the most prominent spectral feature, the 1-µm silicate absorption band, is present. Subsequent steps are then included to determine if less prominent features or characteristics are present in the spectrum, until a unique classification is established. Many of the questions posed in this decision tree are subjective in nature. Because of the continuum that exists between spectral classes, deciding if a particular feature is present or absent can be difficult. While this decision tree is cumbersome, its real value is that it serves as a record of the steps that were followed during the original derivation of this taxonomy.
+The procedures described in the preceding sections resulted in taxonomic labels being assigned to 1443 of the total 1447 asteroids measured during the SMASSII survey. These class assignments are listed in Appendix A. The four unclassified near-Earth asteroids have spectral characteristics (UV slopes and 1-µm band depths) that fall well outside of the nominal range of spectral properties considered in this study. To have spectral outliers such as these comes as no surprise, especially among the smallest objects observable, the near-Earth asteroids. Due to their small sizes, these objects are thought to have younger, less-altered surfaces and may have bulk compositions containing more distinct (less mixing of varied) mineralogical units than their larger, main-belt relatives (a larger asteroid may be more likely to have multiple mineralogical units exposed on its surface). Outliers to this taxonomy may also be expected among the more distant asteroids and Kuiper belt objects. A stunning example of this is the Centaur 5145 Pholus. Classified as a Z-type by Mueller et al. (1992), Pholus is among the reddest objects in the Solar System, plotting far off the right-hand edge of the spectral component region shown in Fig. 2, with a Slope value of approximately 4. It is hoped that, over time, the taxonomy presented here will be expanded to include these outliers and others yet to be discovered.
+The approach used throughout the development of this taxonomy was to uniquely assign each asteroid to one of the 26 spectral classes. Despite the fact that the spectral characteristics used in defining these classes vary continuously across class boundaries, there was no attempt to assign multiple-class designations to those objects lying near boundaries. As this taxonomy evolves, as we hope it will, and more automated and objective ways of applying it are developed (e.g., through the use of expert systems or artificial neural networks), objects may eventually be given multiple-class designations to better represent their location with respect to class boundaries. With this, a more quantitative approach can be formulated for assessing the confidence (or uncertainties) associated with the classification of any object.
+
+DISCUSSION
+With the development of this feature-based asteroid taxonomy, we are providing the field with a new tool for the characterization of asteroid spectra that takes fuller advantage of the sensitivity and spectral resolution now obtainable with CCD spectrographs. However, the development of a taxonomy necessarily requires a number of subjective choices, as described in previous sections and in depth by Bus (1999). Here we expand on some of those choices and discuss some initial science results derived from the taxonomic classification of the SMASSII data set. As a substantial portion of the SMASSII observations were directed at asteroid families, a thorough analysis of the families is warranted and will be presented in a future paper.
+Albedo Even though albedo was used in the first taxonomic catego-
+rization of asteroids (e.g., Zellner 1973, Morrison 1974) and plays a role for distinguishing some of the classes within the Tholen (1984) taxonomy, albedo is not utilized in the development of this new feature-based taxonomy. The primary reason for this is one of practicality as there is currently a lack of albedo information for the majority of the asteroids sampled in SMASSII.
+The relationship between IRAS albedos (from IMPS final product files 102 and 103, Tedesco et al. 1992) for 658 SMASSII asteroids and PC2 (the strength of the 1-µm absorption feature) is shown in Fig. 16. The bimodal nature of albedos is clearly seen with a pronounced separation between the C- and S-complexes.
+FIG. 16. A log-linear plot showing the relationship between IRAS albedo and the magnitude of spectral features (primarily the depth of the 1-µm band) as described by PC2 for 658 SMASSII asteroids. The bimodal distribution of albedos is clearly seen in the separation of asteroids belonging to the C- and S-complexes. Also evident is the highly diverse range of albedos for asteroids belonging to the X-complex.
+
+164
+
+BUS AND BINZEL
+
+Within the S-complex there is an apparent relationship between the albedo and depth of the 1-µm silicate absorption band. The K- and L-type asteroids have 1-µm bands that are essentially nonexistent, and as a result, have the highest values of PC2 . On average, these asteroids also have the lowest IRAS albedos. By comparison, asteroids belonging to the A- and R-classes have the deepest 1-µm bands and, on average, have the highest albedos. The X-complex shows the widest range of albedos, even among objects that have the same spectral features and hence fall into the same taxonomic class. Thus the X-complex illustrates the incongruous mix between feature-based and albedo-based taxonomies. Our conclusion is that albedo is best considered as a separate quantitative parameter that can be analyzed in conjunction with spectral class.
+Comparison with Tholen Taxonomy
+As stated at the outset, one of the goals of this new taxonomy is to build upon previous work, most notably that of Tholen (1984). Table IV provides a comparison between the SMASSII spectral classes and the taxonomic designations assigned by Tholen (1989) for 462 asteroids that are in common between both the SMASSII and ECAS surveys. For each spectral class, the full distribution of Tholen designations is listed, with the number of objects assigned to each designation given in parentheses. Examination of this table reveals trends that, for the most part, should be expected given the continuous nature by which spectral properties vary, and the strategies used in defining the two taxonomies. In the Tholen system, asteroids are more likely to be assigned multiple designations when the classes involved are small, and in close proximity in spectral space. This is clear in the distribution of Tholen classes assigned to asteroids contained in our C-complex, particularly the B-, C-, and Ch-classes, where the number of objects classified in both taxonomies is greatest. In the X-complex, there is similarly a large dispersion of Tholen classes that is compounded by the inclusion of the E-, M-, and P-classes, defined by Tholen based on albedo. In contrast, asteroids belonging to the S-complex (the A-, K-, L-, Q-, R-, S-, Sa-, Sk-, Sl-, Sq-, and Sr-classes) compare very consistently with the Tholen classifications with relatively few multiple, or discrepant designations due to the large size (and corresponding spectral diversity) of Tholen's S-class.
+Previous Classifications of the S-Types
+Our description of six separate classes (the S-, Sa-, Sk-, Sl-, Sq-, and Sr-classes) within the core of the S-complex is not the first subdivision of the S-class to be proposed. Due to the large spectral diversity among the S-types, there have been several previous attempts to identify subclasses within this group (e.g., Chapman and Gaffey 1979, Barucci et al. 1987, Chapman 1987, unpublished manuscript, Gaffey et al. 1993, Howell et al. 1994). Often these subdivisions were based on mineralogical considerations that are justified by the presence of silicate absorption
+
+TABLE IV Comparison with Tholen (ECAS) Class Assignments
+
+SMASSII class
+
+Fraction classified by Tholen
+
+Distribution by Tholen classes
+
+A
+
+5/17
+
+A (5)
+
+B
+
+24/63
+
+F (5) B (3) C (3) CP (2) BC: (1) BFC (1)
+
+BFU:: (1) BFX (1) CF (1) FBCU:: (1) FC (1)
+
+FCB (1) FP (1) FX (1) XFU (1)
+
+C
+
+43/145 C (21) X (4) CX (2) F (2) PC (2) B (1)
+
+BCF (1) CF (1) CP (1) CU (1) FC (1) FXU: (1)
+
+G (1) P (1) PU (1) XC (1) XDC (1)
+
+Cb
+
+13/35
+
+C (4) CD (2) B (1) CF (1) CX (1) I (1) M (1)
+
+XC: (1) XFCU (1)
+
+Cg
+
+3/9
+
+C (3)
+
+Cgh
+
+3/15
+
+C (2) G (1)
+
+Ch
+
+72/138 C (42) G (5) C: (3) CG (3) CX (3) XC (3)
+
+BU (1) CP (1) CPF (1) CU (1) DCX (1)
+
+FC (1) GC (1) PD (1) S (1) SCTU (1) STU (1)
+
+X (1) XD (1)
+
+D
+
+2/9
+
+D (1) DU (1)
+
+K
+
+16/31
+
+S (13) I (1) T (1) TSD (1)
+
+L
+
+16/35
+
+S (11) D (1) ST (1) STGD (1) SU (1) T (1)
+
+Ld
+
+1/13
+
+S (1)
+
+O
+
+0/4
+
+Q
+
+1/10
+
+Q (1)
+
+R
+
+1/4
+
+R (1)
+
+S
+
+112/410 S (104) SR (2) C (1) D (1) DU: (1) GU (1)
+
+SU (1) QSV (1)
+
+Sa
+
+4/36
+
+S (3) SU (1)
+
+Sk
+
+8/19
+
+S (8)
+
+Sl
+
+21/51
+
+S (19) AU: (1) SU (1)
+
+Sq
+
+11/77
+
+S (10) CSU (1)
+
+Sr
+
+3/21
+
+S (2) SQ (1)
+
+T
+
+5/15
+
+T (2) D (1) PCD (1) ST (1)
+
+V
+
+1/39
+
+V (1)
+
+X
+
+42/115 M (12) X (8) P (6) CX (4) C (2) CP (2)
+
+XC (2) B (1) C: (1) D (1) E (1) XB: (1) XD (1)
+
+Xc
+
+23/64
+
+C (7) P (3) CX (2) E (2) X (2) CDX: (1)
+
+CP (1) CPU: (1) F (1) M (1) XSCU (1) SU (1)
+
+Xe
+
+14/29
+
+E (5) M (3) CD (1) GC: (1) MU (1) S (1)
+
+TS (1) X (1)
+
+Xk
+
+18/39
+
+M (6) C (4) D (1) E (1) P (1) S (1) T (1) X (1)
+
+XD: (1) XF (1)
+
+bands in the S-type spectrum. While only one of the two primary silicate absorption features (the 1-µm band) is partially sampled in the SMASSII spectra, and even though our approach in subdividing the core of the S-complex was strictly analytical, there may be trends resulting from our analysis of the SMASSII data that have some mineralogical significance. We have shown that it is possible to differentiate the A-, K-, L-, Q-, and R-types (with their inferred mineralogies, ranging from the olivine-rich A-types to the more pyroxene-rich Q-types, Gaffey et al. 1989) within the spectral component plane defined by PC2 and Slope (Fig. 5). It may therefore be possible to extend the spectral trends of these endmember classes into the core of the S-complex and separate those S-type asteroids whose compositions are more
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+165
+
+"olivine-rich" from those that are more "pyroxene-rich." To test this hypothesis, we compare the SMASSII results with previous classifications of S-types provided by Chapman (1987, unpublished manuscript), Gaffey et al. (1993), and Howell et al. (1994).
+The analysis of Chapman (1987, unpublished manuscript) involved the combination of several different data sets, including broad band UBV colors, 24-color spectrophotometry (Chapman and Gaffey 1979), ECAS colors (Zellner et al. 1985), and IRAS albedos (Tedesco et al. 1992). Using the spectral parameters of BEND, DEPTH, and IR (Chapman and Gaffey 1979), together with albedo, Chapman classified the S-type asteroids as being either silicate-rich or silicate-poor (rich in metal or opaques). Those S-types considered to be silicate-rich were further classified as being either olivine-rich or pyroxene-rich. In frame A of Fig. 17, the spectral components PC2 and Slope have been plotted for 57 SMASSII asteroids that had been previously identified as olivine- or pyroxene-rich S-types by Chapman. This plot shows the olivine-rich ("o") and pyroxene-rich ("p") objects to be well mixed in component space, with olivine-rich objects being slightly more dominant in the lower-right corner of this spectral component plane.
+The analysis of S-type asteroids by Gaffey et al. (1993) used the combined spectrophotometric data from ECAS, the 24-color survey, and the 52-color survey (Bell et al. 1988), providing spectral coverage over the wavelength interval from 0.32 to 2.5 µm. Using the positions of the 1- and 2-µm band centers, the 1-µm band depth, and the ratio of areas between the 2- and 1-µm bands, Gaffey et al. estimated the olivine-to-pyroxene abundance ratios, as well as determined the Ca2+ and Fe2+ content of the pyroxenes (differentiating the clinopyroxenes and orthopyroxenes) for 39 S-type asteroids. Based on this work, these S-type asteroids were divided into seven classes, ranging from the olivine-rich S(I) class to the most orthopyroxene-rich S(VII) class. Frame B of Fig. 17 contains the spectral component plot for 24 SMASSII asteroids classified by Gaffey et al. (1993). For clarity, not all seven of the Gaffey subclasses are represented in this figure. We have included those objects classified by Gaffey et al. as being particularly olivine-rich ("o," representing the S(I)- and S(II)-classes) and orthopyroxene-rich ("p," representing the S(VI)- and S(VII)-classes). Objects belonging to the S(IV)-class, whose spectra are indicative of olivinepyroxene mixtures, have also been included (plotted using the symbol "+") since this class has received much attention for being spectrally analogous to the ordinary chondrite meteorites. This plot shows a tendency for the orthopyroxene-rich asteroids to be concentrated on the left-hand side of the distribution, while the olivine-rich objects tend to concentrate on the righthand side.
+Howell et al. (1994) used an artificial neural network to analyze the combined ECAS and 52-color data sets. In their analysis, Howell et al. found two endmember subclasses among the S-type asteroids that were interpreted as being compositionally distinct: the olivine-rich "So"-class and the
+
+FIG. 17. Comparison of previous classifications of S-types. In frame A, asteroids that were classified by Chapman (1987, unpublished manuscript), and which were observed during SMASSII, are plotted by their first two spectral components (Slope and PC2 ). Only those objects for which Chapman used the "p" (pyroxene) or "o" (olivine) discriminators are shown. Similarly, in frame B, asteroids classified by Gaffey et al. (1993) are shown. For clarity, not all seven of the Gaffey et al. subclasses are shown. Objects classified as types S(I) or S(II) (olivine-rich) are shown with the label "o," while objects in classes S(VI) or S(VII) (orthopyroxene-rich) are plotted with the label "p." Members of the intermediate class, S(IV) have also been included using the symbol "+." In frame C, those S-types classified by Howell et al. (1994) in the subclass Sp (pyroxene-rich) are plotted as "p," while So-types (olivine-rich) are plotted with the label "o."
+
+166
+
+BUS AND BINZEL
+
+pyroxene-rich "Sp"-class. In frame C of Fig. 17, the spectral components PC2 and Slope are plotted for 33 asteroids observed during SMASSII that had been at least partially classified as So- or Sp-types in the Howell taxonomy. Similar to the results derived from the Gaffey et al. classifications shown in frame B, this plot shows a definite tendency for pyroxenerich objects to be concentrated in the left half of the distribution, while the olivine-rich objects tend to plot on the right-hand side.
+The increased spectral coverage available to Gaffey et al. and Howell et al. with the addition of the 52-color data may partially explain the better agreement of their results with our spectral component analysis as seen in frames B and C of Fig. 17. These plots suggest that there is some correlation between the spectral slope and mineralogy. Those objects classified as being pyroxene-rich tend to cluster toward lower values of the spectral component Slope, while the more olivinerich objects plot at higher values of Slope. Even though there is overlap between the olivine-rich and pyroxene-rich objects near the middle of the S-complex, it appears that spectral slope can be used to estimate the mineralogy for some S-type asteroids. In particular, we suggest that asteroids in the Sk- and Sq-classes are more likely to be pyroxene-rich, while asteroids in the Sa- and Sl-classes are more likely to be olivinerich.
+
+FIG. 18. The spectral component plane defined by PC2 and PC3 , plotted with the same limits as used in Fig. 9. Twenty-eight SMASSII asteroids are plotted for which a hydration state has been determined, based on observations of the 3-µm band associated with water of hydration. Objects are labeled as "W" (wet) or "D" (dry), as listed in Table I of Merenyi et al. (1997). The tendency for hydrated objects (wet) to plot toward the upper left of this plot, while dry objects tend to plot to the lower right appears to be correlated with increased strengths of both the UV absorption shortward of 0.55 µm and the 0.7-µm feature.
+
+Hydrated C-Type Asteroids
+Over the past two decades, there has been growing interest in determining the hydration state of asteroids by looking for the presence of hydrated minerals on their surfaces (Lebofsky 1978, Feierberg et al. 1981, Jones et al. 1990). In particular, a series of absorption features, centered around 3 µm, has been observed in the reflectance spectra of many asteroids and is interpreted as resulting from the presence of both structural OH ions and interlayer H2O molecules in hydrated silicates. An investigation by Jones et al. (1990) showed that among low-albedo asteroids the hydration state of these objects, as determined from the 3-µm feature, is related to heliocentric distance. Asteroids in the middle of the main belt are more likely to have spectral signatures of hydration than inner and outer main-belt objects. Due to the difficult nature of observations at 3 µm, including lower flux levels and the strong presence of telluric absorption bands, measurements of the 3-µm band can be challenging. Because of this, Merenyi et al. (1997) investigated whether the hydration state of asteroids could be predicted based on spectral features shortward of 3 µm, using artificial neural network techniques. In the case of C-type asteroids, Vilas (1994) found a strong correlation between the presence of a 3-µm hydration band and the presence of the 0.7-µm phyllosilicate band, affirming the idea that the 0.7-µm band results from aqueous alteration processes.
+In Fig. 18, the position of 26 SMASSII asteroids are plotted in the component plane defined by PC2 and PC3 , where these as-
+
+teroids have been labeled as either "W"(wet) or "D"(dry), based on the compilation in Table I of Merenyi et al. (1997). While the separation between wet and dry asteroids is not perfect, the tendency for wet objects to plot in the upper-left portion of this plane, while dry objects cluster toward the lower-right half, is significant. This plot confirms the correlation found by Vilas (1994), with 10 out of the 11 SMASSII asteroids classified as Ch- or Cgh-types being designated as wet, based on 3-µm band observations. The fact that some objects not classified as Chor Cgh-types are also "wet" based on 3-µm observations indicates that this correlation is not perfect. Thus, we should not conclude, based on the absence of a 0.7-µm feature, that an object is "dry."
+Distribution over Heliocentric Distances
+One of the fundamental insights into the compositional structure of the asteroid belt is the distribution of asteroid types as a function of heliocentric distance, as illustrated by Gradie and Tedesco (1982). Examining the SMASSII data set for these trends requires that the data set be bias corrected to account for the uneven sampling throughout the asteroid zone and for effects due to differences in albedo (darker asteroids are fainter and less easily observed.) To illustrate the results for the SMASSII data set, we use the bias correction method described by Bus (1999), which follows the general approach used by Chapman et al. (1975) and later adopted by Zellner (1979) and Chapman (1987, unpublished manuscript). This method uses the entire set
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+167
+
+CONCLUSIONS
+
+FIG. 19. Bias-corrected heliocentric distribution for asteroids with diameters 20 km for each of the spectral complexes. These results are fully consistent with the original findings of Gradie and Tedesco (1982), but show more detailed structure owing to the larger sample size provided by the SMASSII survey.
+of numbered asteroids as the foundation for estimating the true population and distribution of objects in the main belt. The belt is divided into zones of semimajor axis, and each zone is divided into bins of absolute magnitude. The bias correction factor for a particular zone and magnitude bin is calculated as the ratio of the total number of asteroids in that bin to the number of classified asteroids in the bin. For SMASSII, our analysis of the population is confined to the region of the asteroid belt between 2.10 and 3.278 AU and includes only asteroids with diameters 20 km, as estimated using the mean IRAS albedos for each spectral class.
+Our analysis based on the larger SMASSII sample size confirms the basic results of Gradie and Tedesco (1982) but reveals finer detailed structure in the distribution of asteroid classes as shown in Fig. 19. These smoothed curves contain secondary peaks in the distributions of objects belonging to the Cand S-complexes. The curve representing the C-complex contains a secondary peak at 2.6 AU, closely corresponding to a plateau in the individually plotted points (not the fitted curve) for C-types shown in Fig. 1 of Gradie et al. (1989). Similarly, a secondary peak in the curve for the S-complex, located at 2.85 AU, corresponds to a feature in the bias-corrected distribution of S-type asteroids calculated by Chapman (1987, unpublished manuscript), and shown in Fig. 3 of Gradie et al. (1989).
+
+Advances in observational techniques have prompted a continual progression in the development of asteroid taxonomy. The availability of a large data set consisting of 1447 visiblewavelength CCD spectra, coupled with the widespread application of CCD spectroscopy to asteroid research, provides a new milestone in this progression. A new asteroid taxonomy that utilizes the richness of information contained in CCD spectra is now available. Most importantly, this new classification system builds upon current, well-established conventions in asteroid taxonomy and thereby represents an evolutionary step, not a radical departure from past efforts. We present detailed descriptions and quantitative characterizations for 26 spectral classes so that this feature-based taxonomy might be easily applied to new data.
+Preliminary results indicate that the spectral component plane defined by PC2 and Slope reveals a trend by which some S-type asteroids might be distinguished, based only on their visiblewavelength spectra, as being either olivine-rich or pyroxenerich. This result helps to affirm the existence of a spectral continuum across the S-complex, where classes around the perimeter (such as the pyroxene-rich Q-types and olivine-rich A-types) represent spectral end members. Within the plane defined by PC2 and PC3 , those asteroids in the C-complex having confirmed 3-µm water of hydration bands are generally separable from those that do not. To a large extent, this separation between hydrated and nonhydrated C-types relies on the presence or absence of a 0.7-µm phyllosilicate band, an indicator of aqueous alteration previously recognized by Vilas (1994). Among the X-type asteroids, a number of subtle but irrefutable spectral features have been recognized that allow these objects to be subdivided into smaller spectral classes. This step may help set the stage, along with other physical studies of X-type asteroids, for finally unraveling the enigmatic nature of this spectral class.
+The SMASSII survey has produced the largest internally consistent set of asteroid spectra currently available. We hope that the taxonomy described here, along with the classifications for 1443 asteroids based on this new taxonomic scheme, will provide a new foundation that will contribute to further progress in the field of asteroid science.
+APPENDIX A
+Taxonomic Classifications for the SMASSII Asteroids
+Taxonomic classifications are presented for 1443 of the total 1447 asteroids observed during the second phase of the Small Main-belt Asteroid Spectroscopic Survey. The first column gives the asteroid number and name (or provisional designation). When available, the second column contains the classification from Tholen (1989). Classifications based on the Tholen system that were made during the SMASSI survey (Xu et al. 1995) are denoted by ( ). Classifications based on this feature-based taxonomy are listed in the third column.
+
+168
+Asteroid
+1 Ceres 2 Pallas 3 Juno 4 Vesta 5 Astraea 6 Hebe 7 Iris 10 Hygiea 11 Parthenope 12 Victoria 13 Egeria 14 Irene 15 Eunomia 16 Psyche 17 Thetis 18 Melpomene 19 Fortuna 20 Massalia 21 Lutetia 22 Kalliope 23 Thalia 24 Themis 25 Phocaea 26 Proserpina 27 Euterpe 28 Bellona 29 Amphitrite 30 Urania 31 Euphrosyne 32 Pomona 33 Polyhymnia 34 Circe 35 Leukothea 37 Fides 38 Leda 39 Laetitia 40 Harmonia 41 Daphne 42 Isis 43 Ariadne 44 Nysa 45 Eugenia 46 Hestia 47 Aglaja 48 Doris 49 Pales 50 Virginia 51 Nemausa 52 Europa 54 Alexandra 55 Pandora 56 Melete 57 Mnemosyne 58 Concordia 59 Elpis 60 Echo 61 Danae 62 Erato
+
+Tholen class
+G B S V S S S C S S G S S M S S G S M M S C S S S S S S C S S C C S C S S C S S E FC P C CG CG X CU CF C M P S C CP S S BU
+
+BUS AND BINZEL
+
+APPENDIX A Taxonomic Classifications for the SMASSII Asteroids
+
+SMASSII class
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+Asteroid
+
+C
+
+63 Ausonia
+
+S
+
+Sa
+
+127 Johanna
+
+B
+
+64 Angelina
+
+E
+
+Xe
+
+128 Nemesis
+
+Sk
+
+65 Cybele
+
+P
+
+Xc
+
+129 Antigone
+
+V
+
+66 Maja
+
+C
+
+Ch
+
+130 Elektra
+
+S
+
+67 Asia
+
+S
+
+S
+
+131 Vala
+
+S
+
+69 Hesperia
+
+M
+
+X
+
+132 Aethra
+
+S
+
+70 Panopaea
+
+C
+
+Ch
+
+133 Cyrene
+
+C
+
+71 Niobe
+
+S
+
+Xe
+
+134 Sophrosyne
+
+Sk
+
+74 Galatea
+
+C
+
+C
+
+135 Hertha
+
+L
+
+75 Eurydike
+
+M
+
+Xk
+
+136 Austria
+
+Ch
+
+76 Freia
+
+P
+
+X
+
+139 Juewa
+
+S
+
+77 Frigga
+
+MU
+
+Xe
+
+140 Siwa
+
+S
+
+78 Diana
+
+C
+
+Ch
+
+141 Lumen
+
+X
+
+79 Eurynome
+
+S
+
+S
+
+142 Polana
+
+Sl
+
+80 Sappho
+
+S
+
+S
+
+143 Adria
+
+S
+
+81 Terpsichore
+
+C
+
+Cb
+
+144 Vibilia
+
+Ch
+
+82 Alkmene
+
+S
+
+Sq
+
+145 Adeona
+
+S
+
+83 Beatrix
+
+X
+
+X
+
+146 Lucina
+
+Xk
+
+84 Klio
+
+G
+
+Ch
+
+147 Protogeneia
+
+X
+
+85 Io
+
+FC
+
+B
+
+148 Gallia
+
+S
+
+87 Sylvia
+
+P
+
+X
+
+150 Nuwa
+
+B
+
+88 Thisbe
+
+CF
+
+B
+
+151 Abundantia
+
+S
+
+89 Julia
+
+S
+
+K
+
+152 Atala
+
+S
+
+90 Antiope
+
+C
+
+C
+
+153 Hilda
+
+S
+
+91 Aegina
+
+CP
+
+Ch
+
+154 Bertha
+
+S
+
+92 Undina
+
+X
+
+Xc
+
+156 Xanthippe
+
+S
+
+93 Minerva
+
+CU
+
+C
+
+158 Koronis
+
+Sl
+
+94 Aurora
+
+CP
+
+C
+
+159 Aemilia
+
+Cb
+
+95 Arethusa
+
+C
+
+Ch
+
+160 Una
+
+S
+
+96 Aegle
+
+T
+
+T
+
+161 Athor
+
+Sq
+
+98 Ianthe
+
+CG
+
+Ch
+
+162 Laurentia
+
+Ch
+
+99 Dike
+
+C
+
+Xk
+
+163 Erigone
+
+C
+
+100 Hekate
+
+S
+
+S
+
+164 Eva
+
+S
+
+101 Helena
+
+S
+
+S
+
+165 Loreley
+
+Cgh
+
+102 Miriam
+
+P
+
+C
+
+166 Rhodope
+
+S
+
+103 Hera
+
+S
+
+S
+
+167 Urda
+
+S
+
+104 Klymene
+
+C
+
+Ch
+
+168 Sibylla
+
+Ch
+
+105 Artemis
+
+C
+
+Ch
+
+169 Zelia
+
+L
+
+106 Dione
+
+G
+
+Cgh
+
+170 Maria
+
+Sk
+
+107 Camilla
+
+C
+
+X
+
+171 Ophelia
+
+Xc
+
+108 Hecuba
+
+S
+
+Sl
+
+172 Baucis
+
+C
+
+109 Felicitas
+
+GC
+
+Ch
+
+173 Ino
+
+Xc
+
+110 Lydia
+
+M
+
+X
+
+174 Phaedra
+
+B
+
+111 Ate
+
+C
+
+Ch
+
+175 Andromache
+
+Ch
+
+112 Iphigenia
+
+DCX
+
+Ch
+
+176 Iduna
+
+Ch
+
+113 Amalthea
+
+S
+
+S
+
+177 Irma
+
+Ch
+
+114 Kassandra
+
+T
+
+Xk
+
+178 Belisana
+
+Ch
+
+115 Thyra
+
+S
+
+S
+
+179 Klytaemnestra
+
+C
+
+116 Sirona
+
+S
+
+Sk
+
+180 Garumna
+
+C
+
+117 Lomia
+
+XC
+
+X
+
+181 Eucharis
+
+X
+
+118 Peitho
+
+S
+
+S
+
+182 Elsa
+
+Xk
+
+119 Althaea
+
+S
+
+Sl
+
+183 Istria
+
+S
+
+120 Lachesis
+
+C
+
+C
+
+184 Dejopeja
+
+Ch
+
+121 Hermione
+
+C
+
+Ch
+
+185 Eunike
+
+B
+
+122 Gerda
+
+ST
+
+L
+
+186 Celuta
+
+S
+
+123 Brunhild
+
+S
+
+S
+
+187 Lamberta
+
+S
+
+124 Alkeste
+
+S
+
+S
+
+188 Menippe
+
+Ch
+
+125 Liberatrix
+
+M
+
+X
+
+189 Phthia
+
+Tholen class
+CX C M G SU (C) M SR C M M CP P CPF F C C C C C GU CX S D P
+C S C CX M STU C CX CD GC: S C S S C S C S C G C: S S S S S S X C S C S S
+
+SMASSII class
+Ch C X Ch Xc Xe S Ch Xk Xe X Xc Ch B Xc Ch Ch Ch C S Cb Sl S X C Ch S Ch C Xc Ch Ch X Cb Xe Sk Ch Sl S C L Xk S Cg Ch Ch S Sk Sq Xk S S X C K Ch S Sa
+
+Asteroid
+190 Ismene 191 Kolga 192 Nausikaa 193 Ambrosia 194 Prokne 195 Eurykleia 196 Philomela 197 Arete 198 Ampella 199 Byblis 200 Dynamene 201 Penelope 205 Martha 206 Hersilia 207 Hedda 208 Lacrimosa 209 Dido 210 Isabella 211 Isolda 213 Lilaea 214 Aschera 216 Kleopatra 221 Eos 226 Weringia 228 Agathe 230 Athamantis 233 Asterope 234 Barbara 236 Honoria 237 Coelestina 238 Hypatia 240 Vanadis 241 Germania 242 Kriemhild 243 Ida 244 Sita 245 Vera 246 Asporina 247 Eukrate 250 Bettina 253 Mathilde 257 Silesia 258 Tyche 259 Aletheia 261 Prymno 263 Dresda 264 Libussa 266 Aline 267 Tirza 269 Justitia 272 Antonia 275 Sapientia 278 Paulina 279 Thule 281 Lucretia 282 Clorinde 284 Amalia 286 Iclea 288 Glauke
+
+Tholen class
+P XC: S
+C C S S S
+C M C C C S C CF C F E M S
+S S T S S S C C CP
+S
+S A CP M
+SCTU S CP B
+S C DU
+X
+D SU BFU:: CX CX S
+
+SMASSII class
+X Cb Sl Sk C Ch S S S X Ch X Ch C Ch Sk Xc Cb Ch B Xc Xe K S S Sl K Ld L S Ch C B Xc S Sa S A Xc Xk Cb Ch S X X S S Ch D Ld X C S X S B Ch Ch S
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+289 Nenetta
+
+A
+
+A
+
+295 Theresia
+
+S
+
+S
+
+301 Bavaria
+
+C
+
+304 Olga
+
+C
+
+Xc
+
+306 Unitas
+
+S
+
+S
+
+308 Polyxo
+
+T
+
+T
+
+310 Margarita
+
+S
+
+312 Pierretta
+
+S
+
+Sk
+
+317 Roxane
+
+E
+
+Xe
+
+321 Florentina
+
+S
+
+S
+
+322 Phaeo
+
+X
+
+X
+
+327 Columbia
+
+Sl
+
+331 Etheridgea
+
+CX
+
+C
+
+332 Siri
+
+Xk
+
+335 Roberta
+
+FP
+
+B
+
+336 Lacadiera
+
+D
+
+Xk
+
+337 Devosa
+
+X
+
+X
+
+338 Budrosa
+
+M
+
+Xk
+
+339 Dorothea
+
+S
+
+K
+
+342 Endymion
+
+C
+
+Ch
+
+345 Tercidina
+
+C
+
+Ch
+
+346 Hermentaria
+
+S
+
+S
+
+348 May
+
+X
+
+349 Dembowska
+
+R
+
+R
+
+352 Gisela
+
+S
+
+Sl
+
+353 Ruperto-Carola
+
+S
+
+354 Eleonora
+
+S
+
+Sl
+
+355 Gabriella
+
+S
+
+358 Apollonia
+
+Ch
+
+359 Georgia
+
+CX
+
+X
+
+360 Carlova
+
+C
+
+C
+
+363 Padua
+
+XC
+
+X
+
+365 Corduba
+
+X
+
+C
+
+366 Vincentina
+
+Ch
+
+371 Bohemia
+
+QSV (S)
+
+S
+
+372 Palma
+
+BFC
+
+B
+
+374 Burgundia
+
+S
+
+S
+
+375 Ursula
+
+C
+
+Xc
+
+376 Geometria
+
+S
+
+Sl
+
+377 Campania
+
+PD
+
+Ch
+
+378 Holmia
+
+S
+
+S
+
+379 Huenna
+
+B
+
+C
+
+381 Myrrha
+
+C
+
+Cb
+
+383 Janina
+
+B
+
+B
+
+384 Burdigala
+
+S
+
+S
+
+386 Siegena
+
+C
+
+C
+
+387 Aquitania
+
+S
+
+L
+
+388 Charybdis
+
+C
+
+C
+
+389 Industria
+
+S
+
+S
+
+391 Ingeborg
+
+S
+
+S
+
+392 Wilhelmina
+
+Ch
+
+393 Lampetia
+
+C
+
+Xc
+
+394 Arduina
+
+S
+
+S
+
+395 Delia
+
+C
+
+Ch
+
+396 Aeolia
+
+Xe
+
+397 Vienna
+
+S
+
+K
+
+398 Admete
+
+C
+
+399 Persephone
+
+X
+
+402 Chloe
+
+S
+
+K
+
+Asteroid
+403 Cyane 404 Arsinoe 405 Thia 409 Aspasia 410 Chloris 412 Elisabetha 413 Edburga 414 Liriope 416 Vaticana 417 Suevia 423 Diotima 425 Cornelia 431 Nephele 432 Pythia 433 Eros 434 Hungaria 441 Bathilde 442 Eichsfeldia 443 Photographica 444 Gyptis 446 Aeternitas 453 Tea 456 Abnoba 458 Hercynia 460 Scania 462 Eriphyla 464 Megaira 470 Kilia 471 Papagena 476 Hedwig 477 Italia 478 Tergeste 479 Caprera 481 Emita 484 Pittsburghia 485 Genua 490 Veritas 491 Carina 494 Virtus 496 Gryphia 503 Evelyn 504 Cora 507 Laodica 509 Iolanda 511 Davida 512 Taurinensis 513 Centesima 515 Athalia 516 Amherstia 519 Sylvania 521 Brixia 523 Ada 527 Euryanthe 531 Zerlina 532 Herculina 533 Sara 534 Nassovia 539 Pamina 541 Deborah
+
+Tholen class
+S C C CX C
+M C S X C
+B S S E M C S C A S (S) S
+S FXU: S S P S S
+C
+C
+C S XC
+S C S S I M S C
+S S S
+(C)
+
+169
+SMASSII class
+S Ch Ch Xc Ch C X Cg Sl Xk C C B S S Xe Xk Ch Sl C A S S L K S C S S X S L C Ch S S Ch C Ch S Ch X X S C S K Cb X S Ch X Cb B S S Sq Ch B
+
+170
+
+Asteroid
+543 Charlotte 545 Messalina 547 Praxedis 551 Ortrud 553 Kundry 554 Peraga 555 Norma 556 Phyllis 559 Nanon 560 Delila 563 Suleika 564 Dudu 569 Misa 570 Kythera 571 Dulcinea 572 Rebekka 578 Happelia 579 Sidonia 581 Tauntonia 584 Semiramis 586 Thekla 592 Bathseba 596 Scheila 597 Bandusia 598 Octavia 599 Luisa 600 Musa 601 Nerthus 604 Tekmessa 606 Brangane 611 Valeria 614 Pia 622 Esther 625 Xenia 626 Notburga 627 Charis 629 Bernardina 631 Philippina 633 Zelima 634 Ute 638 Moira 642 Clara 649 Josefa 653 Berenike 654 Zelinda 661 Cloelia 668 Dora 670 Ottegebe 671 Carnegia 673 Edda 674 Rachele 675 Ludmilla 677 Aaltje 678 Fredegundis 679 Pax 687 Tinette 688 Melanie 699 Hela 702 Alauda
+
+Tholen class
+CD XD: XC
+FC
+S C
+S CDX: C ST S XDC
+S
+S C:
+PCD
+C: S
+X
+TSD S
+S
+CX XB:
+S S
+S
+S C S
+S S S
+I X
+S C
+
+SMASSII class
+Xe Cb Xk C S Ch B S Xk B Sl Xc Cg T S C Xc K Xk Sl Ch K T S X K S C Xc K L C S Sa Xc X X S S X Ch L Sq K Ch K Ch S Xk S S S Sl X K X C Sq B
+
+BUS AND BINZEL
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+704 Interamnia
+
+F
+
+B
+
+705 Erminia
+
+X
+
+C
+
+706 Hirundo
+
+Cgh
+
+712 Boliviana
+
+C
+
+X
+
+713 Luscinia
+
+C
+
+C
+
+715 Transvaalia
+
+X
+
+716 Berkeley
+
+S
+
+S
+
+718 Erida
+
+X
+
+720 Bohlinia
+
+S
+
+Sq
+
+723 Hammonia
+
+C
+
+729 Watsonia
+
+STGD
+
+L
+
+731 Sorga
+
+CD
+
+Xe
+
+735 Marghanna
+
+C
+
+Ch
+
+737 Arequipa
+
+S
+
+S
+
+739 Mandeville
+
+X
+
+X
+
+741 Botolphia
+
+X
+
+X
+
+742 Edisona
+
+S
+
+K
+
+743 Eugenisis
+
+Ch
+
+747 Winchester
+
+PC
+
+C
+
+749 Malzovia
+
+S
+
+S
+
+751 Faina
+
+C
+
+Ch
+
+753 Tiflis
+
+S
+
+L
+
+754 Malabar
+
+XC
+
+Ch
+
+757 Portlandia
+
+XF
+
+Xk
+
+759 Vinifera
+
+X
+
+767 Bondia
+
+B
+
+771 Libera
+
+X
+
+X
+
+773 Irmintraud
+
+D
+
+T
+
+776 Berbericia
+
+C
+
+Cgh
+
+779 Nina
+
+X
+
+781 Kartvelia
+
+CPU:
+
+Xc
+
+782 Montefiore
+
+S
+
+Sl
+
+783 Nora
+
+C
+
+784 Pickeringia
+
+C
+
+785 Zwetana
+
+M
+
+Cb
+
+789 Lena
+
+X
+
+792 Metcalfia
+
+X
+
+793 Arizona
+
+DU:
+
+S
+
+795 Fini
+
+C
+
+796 Sarita
+
+XD
+
+X
+
+797 Montana
+
+S
+
+S
+
+804 Hispania
+
+PC
+
+C
+
+808 Merxia
+
+(S)
+
+Sq
+
+814 Tauris
+
+C
+
+C
+
+815 Coppelia
+
+Xe
+
+819 Barnardiana
+
+S
+
+821 Fanny
+
+C
+
+Ch
+
+824 Anastasia
+
+S
+
+L
+
+825 Tanina
+
+SR
+
+S
+
+826 Henrika
+
+C
+
+844 Leontina
+
+X
+
+845 Naema
+
+C
+
+847 Agnia
+
+S
+
+S
+
+853 Nansenia
+
+XD
+
+Ch
+
+856 Backlunda
+
+C
+
+860 Ursina
+
+M
+
+X
+
+862 Franzia
+
+S
+
+863 Benkoela
+
+A
+
+A
+
+866 Fatme
+
+X
+
+Asteroid
+868 Lova 870 Manto 872 Holda 886 Washingtonia 895 Helio 897 Lysistrata 898 Hildegard 905 Universitas 907 Rhoda 908 Buda 910 Anneliese 912 Maritima 913 Otila 919 Ilsebill 924 Toni 925 Alphonsina 929 Algunde 930 Westphalia 934 Thuringia 941 Murray 945 Barcelona 950 Ahrensa 951 Gaspra 961 Gunnie 965 Angelica 970 Primula 971 Alsatia 973 Aralia 980 Anacostia 984 Gretia 985 Rosina 994 Otthild 997 Priska 1007 Pawlowia 1011 Laodamia 1014 Semphyra 1015 Christa 1016 Anitra 1017 Jacqueline 1020 Arcadia 1021 Flammario 1022 Olympiada 1024 Hale 1025 Riema 1032 Pafuri 1034 Mozartia 1036 Ganymed 1039 Sonneberga 1041 Asta 1045 Michela 1046 Edwin 1048 Feodosia 1052 Belgica 1055 Tynka 1056 Azalea 1058 Grubba 1065 Amundsenia 1069 Planckia 1071 Brita
+
+Tholen class C: M FCB S C
+CX S
+CX S S
+SU
+S C
+F E
+XC S S S (X)
+
+SMASSII class
+Ch S X C B Sl Sl S Xk L Ch C Sa C X S S Ch Ch X Sq Sa S X Xc S C Xk L Sr S S Ch K Sr Xe Xc S C S B X Ch Xe X S S X C S Xe Ch S S S S S S Xk
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+171
+
+Asteroid
+1076 Viola 1086 Nata 1088 Mitaka 1094 Siberia 1098 Hakone 1102 Pepita 1103 Sequoia 1104 Syringa 1106 Cydonia 1107 Lictoria 1110 Jaroslawa 1114 Lorraine 1126 Otero 1128 Astrid 1131 Porzia 1134 Kepler 1135 Colchis 1139 Atami 1140 Crimea 1147 Stavropolis 1148 Rarahu 1152 Pawona 1155 Aenna 1176 Lucidor 1181 Lilith 1185 Nikko 1186 Turnera 1187 Afra 1188 Gothlandia 1189 Terentia 1196 Sheba 1201 Strenua 1204 Renzia 1212 Francette 1214 Richilde 1222 Tina 1228 Scabiosa 1234 Elyna 1248 Jugurtha 1251 Hedera 1252 Celestia 1262 Sniadeckia 1263 Varsavia 1264 Letaba 1271 Isergina 1272 Gefion 1277 Dolores 1278 Kenya 1284 Latvia 1293 Sonja 1294 Antwerpia 1300 Marcelle 1301 Yvonne 1304 Arosa 1316 Kasan 1323 Tugela 1324 Knysna 1327 Namaqua 1329 Eliane
+
+Tholen class F S C E
+(S)
+S S S
+S S
+P
+E S X (C) C T
+S
+
+SMASSII class
+C Ch S Xk Xe S Xk Xk S Xc S Xc A C S S Xk S S S K Sl Xe C X S Sq X S Ch X Xc S X Xk X S K S X S C Xc C C Sl Cb S L Sq C Cg C X Sr Xc Sq X S
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+1331 Solvejg
+
+BC:
+
+B
+
+1332 Marconia
+
+Ld
+
+1336 Zeelandia
+
+S
+
+S
+
+1343 Nicole
+
+C
+
+1348 Michel
+
+Sl
+
+1350 Rosselia
+
+S
+
+Sa
+
+1351 Uzbekistania
+
+Xk
+
+1352 Wawel
+
+X
+
+1360 Tarka
+
+Ch
+
+1372 Haremari
+
+L
+
+1373 Cincinnati
+
+Xk
+
+1374 Isora
+
+Sq
+
+1385 Gelria
+
+S
+
+1386 Storeria
+
+Ch
+
+1403 Idelsonia
+
+Cgh
+
+1406 Komppa
+
+Ld
+
+1407 Lindelof
+
+X
+
+1414 Jerome
+
+Ch
+
+1420 Radcliffe
+
+X
+
+1423 Jose
+
+S
+
+1424 Sundmania
+
+X
+
+1427 Ruvuma
+
+C
+
+1428 Mombasa
+
+Xc
+
+1433 Geramtina
+
+S
+
+1458 Mineura
+
+S
+
+1471 Tornio
+
+(D)
+
+T
+
+1474 Beira
+
+FX
+
+B
+
+1480 Aunus
+
+(S)
+
+S
+
+1483 Hakoila
+
+Sq
+
+1484 Postrema
+
+B
+
+1490 Limpopo
+
+Xc
+
+1493 Sigrid
+
+F
+
+Xc
+
+1494 Savo
+
+Sa
+
+1502 Arenda
+
+Xc
+
+1508 Kemi
+
+BCF
+
+C
+
+1510 Charlois
+
+C
+
+1517 Beograd
+
+X
+
+1520 Imatra
+
+C
+
+1534 Nasi
+
+(C)
+
+Cgh
+
+1539 Borrelly
+
+B
+
+1541 Estonia
+
+Xc
+
+1542 Schalen
+
+D
+
+1545 Thernoe
+
+K
+
+1548 Palomaa
+
+Xk
+
+1549 Mikko
+
+S
+
+1550 Tito
+
+S
+
+1553 Bauersfelda
+
+S
+
+1560 Strattonia
+
+C
+
+1562 Gondolatsch
+
+S
+
+1563 Noel
+
+Sa
+
+1565 Lemaitre
+
+Sq
+
+1567 Alikoski
+
+PU
+
+C
+
+1587 Kahrstedt
+
+Sa
+
+1592 Mathieu
+
+X
+
+1593 Fagnes
+
+S
+
+1594 Danjon
+
+S
+
+1600 Vyssotsky
+
+A
+
+1601 Patry
+
+S
+
+Sl
+
+1603 Neva
+
+Ch
+
+Asteroid
+1604 Tombaugh 1613 Smiley 1618 Dawn 1620 Geographos 1627 Ivar 1629 Pecker 1634 Ndola 1635 Bohrmann 1638 Ruanda 1640 Nemo 1642 Hill 1653 Yakhontovia 1655 Comas Sola 1659 Punkaharju 1660 Wood 1662 Hoffmann 1664 Felix 1667 Pels 1680 Per Brahe 1685 Toro 1692 Subbotina 1695 Walbeck 1702 Kalahari 1705 Tapio 1706 Dieckvoss 1715 Salli 1716 Peter 1724 Vladimir 1726 Hoffmeister 1729 Beryl 1730 Marceline 1734 Zhongolovich 1738 Oosterhoff 1747 Wright 1751 Herget 1766 Slipher 1768 Appenzella 1777 Gehrels 1783 Albitskij 1785 Wurm 1795 Woltjer 1796 Riga 1797 Schaumasse 1798 Watts 1799 Koussevitzky 1807 Slovakia 1830 Pogson 1831 Nicholson 1836 Komarov 1839 Ragazza 1847 Stobbe 1848 Delvaux 1856 Ruzena 1857 Parchomenko 1858 Lobachevskij 1860 Barbarossa 1862 Apollo 1864 Daedalus 1865 Cerberus
+
+Tholen class XSCU S S
+(C) XFU
+S D
+FBCU::
+AU: F
+XFCU (S) S
+Q SQ S
+
+SMASSII class
+Xc Cgh S S S S S S X S S X B S S Sr S Sa S S Cg Cg L B S X C B Cb S Xe Ch S Sl S C C Sq Ch S Ch Cb S S K S S S Ch S Xc S S S L X Q Sr S
+
+172
+
+Asteroid
+1866 Sisyphus 1882 Rauma 1888 Zu Chong-Zhi 1891 Gondola 1903 Adzhimushkaj 1904 Massevitch 1917 Cuyo 1923 Osiris 1929 Kollaa 1930 Lucifer 1932 Jansky 1936 Lugano 1948 Kampala 1951 Lick 1968 Mehltretter 1970 Sumeria 1977 Shura 1980 Tezcatlipoca 1989 Tatry 1998 Titius 2001 Einstein 2019 van Albada 2022 West 2029 Binomi 2035 Stearns 2038 Bistro 2040 Chalonge 2042 Sitarski 2045 Peking 2053 Nuki 2056 Nancy 2060 Chiron 2062 Aten 2063 Bacchus 2064 Thomsen 2065 Spicer 2073 Janacek 2078 Nanking 2085 Henan 2086 Newell 2087 Kochera 2088 Sahlia 2089 Cetacea 2099 Opik 2100 Ra-Shalom 2102 Tantalus 2106 Hugo 2107 Ilmari 2118 Flagstaff 2131 Mayall 2141 Simferopol 2147 Kharadze 2152 Hannibal 2157 Ashbrook 2161 Grissom 2167 Erin 2169 Taiwan 2185 Guangdong 2189 Zaragoza
+
+Tholen class
+(V)
+SU X E
+B S
+(S)
+S S C (S) S
+
+SMASSII class
+S K S X K R Sl C V Cgh Sl Ch S A S Ch Sq Sl C Xc Xe S S S Xe Sa Ch Sq V S S Cb Sr Sq S Xc X Sq L Xc S S Sq Ch Xc Q C S S S Sl Ch Ch S C S C S S
+
+BUS AND BINZEL
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+2194 Arpola
+
+Xc
+
+2201 Oljato
+
+Sq
+
+2231 Durrell
+
+C
+
+2234 Schmadel
+
+A
+
+2244 Tesla
+
+C
+
+2246 Bowell
+
+D
+
+D
+
+2251 Tikhov
+
+Cb
+
+2258 Viipuri
+
+C
+
+2268 Szmytowna
+
+S
+
+2271 Kiso
+
+T
+
+2280 Kunikov
+
+Sa
+
+2282 Andres Bello
+
+S
+
+2305 King
+
+S
+
+2306 Bauschinger
+
+X
+
+2308 Schilt
+
+S
+
+2316 Jo-Ann
+
+C
+
+2317 Galya
+
+S
+
+2328 Robeson
+
+C
+
+2331 Parvulesco
+
+C
+
+2335 James
+
+Sa
+
+2340 Hathor
+
+CSU
+
+Sq
+
+2346 Lilio
+
+C
+
+2349 Kurchenko
+
+Xc
+
+2353 Alva
+
+S
+
+2354 Lavrov
+
+L
+
+2369 Chekhov
+
+S
+
+2370 van Altena
+
+Cb
+
+2371 Dimitrov
+
+R
+
+2373 Immo
+
+S
+
+2378 Pannekoek
+
+Cgh
+
+2380 Heilongjiang
+
+S
+
+2382 Nonie
+
+B
+
+2386 Nikonov
+
+S
+
+2390 Nezarka
+
+X
+
+2396 Kochi
+
+Sa
+
+2401 Aehlita
+
+S
+
+2402 Satpaev
+
+Sl
+
+2409 Chapman
+
+S
+
+2410 Morrison
+
+Sl
+
+2423 Ibarruri
+
+A
+
+2427 Kobzar
+
+Sq
+
+2428 Kamenyar
+
+Ch
+
+2430 Bruce Helin
+
+S
+
+Sl
+
+2438 Oleshko
+
+S
+
+2444 Lederle
+
+(X)
+
+C
+
+2446 Lunacharsky
+
+B
+
+2448 Sholokhov
+
+L
+
+2451 Dollfus
+
+S
+
+2455 Somville
+
+C
+
+2465 Wilson
+
+Ch
+
+2467 Kollontai
+
+Sl
+
+2468 Repin
+
+V
+
+2478 Tokai
+
+S
+
+2482 Perkin
+
+S
+
+2493 Elmer
+
+S
+
+2501 Lohja
+
+A
+
+A
+
+2504 Gaviola
+
+Sq
+
+2507 Bobone
+
+Xe
+
+2508 Alupka
+
+V
+
+Asteroid
+2509 Chukotka 2511 Patterson 2521 Heidi 2527 Gregory 2547 Hubei 2559 Svoboda 2560 Siegma 2566 Kirghizia 2567 Elba 2569 Madeline 2575 Bulgaria 2579 Spartacus 2582 Harimaya-Bashi 2598 Merlin 2604 Marshak 2606 Odessa 2625 Jack London 2629 Rudra 2631 Zhejiang 2635 Huggins 2640 Hallstrom 2653 Principia 2659 Millis 2675 Tolkien 2681 Ostrovskij 2703 Rodari 2704 Julian Loewe 2708 Burns 2709 Sagan 2715 Mielikki 2720 Pyotr Pervyj 2724 Orlov 2730 Barks 2732 Witt 2733 Hamina 2736 Ops 2737 Kotka 2744 Birgitta 2746 Hissao 2748 Patrick Gene 2750 Loviisa 2754 Efimov 2762 Fowler 2763 Jeans 2772 Dugan 2778 Tangshan 2789 Foshan 2791 Paradise 2795 Lepage 2801 Huygens 2807 Karl Marx 2809 Vernadskij 2813 Zappala 2816 Pien 2818 Juvenalis 2827 Vellamo 2834 Christy Carol 2840 Kallavesi 2850 Mozhaiskij
+
+Tholen class
+S SU BFX
+
+SMASSII class
+C V S B V Xk Xc V Xc D Sr V Xc Ch Sa Xk S B S S V V B S Xk S V B S A C K C A Ld Xc S S Sr S S Sa Cb V B Cb S Sa V S C B T B S S S Sl Ld
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+173
+
+Asteroid
+2851 Harbin 2852 Declercq 2855 Bastian 2857 NOT 2861 Lambrecht 2864 Soderblom 2872 Gentelec 2873 Binzel 2874 Jim Young 2875 Lagerkvist 2879 Shimizu 2881 Meiden 2892 Filipenko 2902 Westerlund 2905 Plaskett 2906 Caltech 2911 Miahelena 2912 Lapalma 2917 Sawyer Hogg 2925 Beatty 2929 Harris 2930 Euripides 2934 Aristophanes 2949 Kaverznev 2952 Lilliputia 2953 Vysheslavia 2955 Newburn 2956 Yeomans 2957 Tatsuo 2973 Paola 2977 Chivilikhin 2988 Korhonen 2996 Bowman 3000 Leonardo 3007 Reaves 3020 Naudts 3028 Zhangguoxi 3037 Alku 3040 Kozai 3060 Delcano 3065 Sarahill 3074 Popov 3085 Donna 3090 Tjossem 3096 Bezruc 3103 Eger 3121 Tamines 3122 Florence 3137 Horky 3151 Talbot 3155 Lee 3169 Ostro 3170 Dzhanibekov 3175 Netto 3179 Beruti 3181 Ahnert 3192 A'Hearn 3197 Weissman 3198 Wallonia
+
+Tholen class
+(J) TS
+
+SMASSII class
+V Ch Sl T Xc Ch D Sq S S X S C Sq S Xc S V S Cgh T C Ch S Cb S S Sr K B S S Xc B X Sl K C S S Ch B Sl Cg C Xe S S C S V Xe S S C S C Cgh S
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+3199 Nefertiti
+
+S
+
+Sq
+
+3200 Phaethon
+
+F
+
+B
+
+3209 Buchwald
+
+S
+
+3214 Makarenko
+
+Xc
+
+3216 Harrington
+
+S
+
+3224 Irkutsk
+
+X
+
+3248 Farinella
+
+D
+
+3249 Musashino
+
+S
+
+3254 Bus
+
+T
+
+3255 Tholen
+
+S
+
+3256 Daguerre
+
+X
+
+3258 Somnium
+
+S
+
+3262 Miune
+
+X
+
+3265 Fletcher
+
+V
+
+3287 Olmstead
+
+L
+
+3306 Byron
+
+S
+
+3307 Athabasca
+
+V
+
+3309 Brorfelde
+
+S
+
+3311 Podobed
+
+T
+
+3314 Beals
+
+S
+
+3317 Paris
+
+T
+
+3320 Namba
+
+S
+
+3340 Yinhai
+
+S
+
+3345 Tarkovskij
+
+C
+
+3349 Manas
+
+L
+
+3352 MCAuliffe
+
+A
+
+3363 Bowen
+
+Sq
+
+3364 Zdenka
+
+S
+
+3365 Recogne
+
+C
+
+3367 Alex
+
+X
+
+3371 Giacconi
+
+Sq
+
+3375 Amy
+
+C
+
+3376 Armandhammer
+
+Sq
+
+3385 Bronnina
+
+S
+
+3389 Sinzot
+
+C
+
+3394 Banno
+
+S
+
+3395 Jitka
+
+Sr
+
+3401 Vanphilos
+
+S
+
+3406 Omsk
+
+X
+
+3416 Dorrit
+
+Sa
+
+3417 Tamblyn
+
+S
+
+3430 Bradfield
+
+Sq
+
+3435 Boury
+
+C
+
+3440 Stampfer
+
+X
+
+3443 Leetsungdao
+
+T
+
+3451 Mentor
+
+X
+
+3458 Boduognat
+
+Sl
+
+3474 Linsley
+
+Sa
+
+3491 Fridolin
+
+Sq
+
+3493 Stepanov
+
+S
+
+3498 Belton
+
+V
+
+3507 Vilas
+
+Ch
+
+3511 Tsvetaeva
+
+S
+
+3526 Jeffbell
+
+Ch
+
+3527 MCCord
+
+S
+
+3533 Toyota
+
+Xk
+
+3534 Sax
+
+S
+
+3536 Schleicher
+
+V
+
+3542 Tanjiazhen
+
+C
+
+Asteroid
+3545 Gaffey 3546 Atanasoff 3563 Canterbury 3566 Levitan 3567 Alvema 3575 Anyuta 3576 Galina 3579 Rockholt 3581 Alvarez 3587 Descartes 3592 Nedbal 3611 Dabu 3627 Sayers 3628 Boznemcova 3630 Lubomir 3635 1981 WO1 3636 Pajdusakova 3640 Gostin 3642 Frieden 3645 Fabini 3647 Dermott 3654 AAS 3658 Feldman 3669 Vertinskij 3670 Northcott 3671 Dionysus 3674 Erbisbuhl 3678 Mongmanwai 3684 Berry 3686 Antoku 3687 Dzus 3691 Bede 3700 Geowilliams 3701 Purkyne 3704 Gaoshiqi 3710 Bogoslovskij 3712 Kraft 3713 Pieters 3730 Hurban 3734 Waland 3737 Beckman 3744 Horn-d'Arturo 3753 Cruithne 3759 Piironen 3762 Amaravella 3767 DiMaggio 3775 Ellenbeth 3782 Celle 3788 1986 QM3 3792 Preston 3796 Lene 3800 Karayusuf 3809 Amici 3813 Fortov 3819 Robinson 3824 Brendalee 3827 Zdenekhorsky 3829 Gunma 3831 Pettengill
+
+Tholen class
+(O)
+(S)
+(C) (S)
+
+SMASSII class
+Sa Sa Ch B Xc X Sl B B C S Ch B O Ch S S S C C B Sq S S X Cb Sk S C X Ch Xc Sk S Xk Cgh S K Xk Ld S Ch Q X X Sa Ch V S S C S S S Sr S C Ch S
+
+174
+
+Asteroid
+
+Tholen SMASSII
+
+class
+
+class
+
+3833 Calingasta
+
+Cb
+
+3841 Dicicco
+
+S
+
+3844 Lujiaxi
+
+L
+
+3849 Incidentia
+
+V
+
+3850 Peltier
+
+V
+
+3853 Haas
+
+S
+
+3858 Dorchester
+
+Sa
+
+3860 Plovdiv
+
+S
+
+3861 Lorenz
+
+S
+
+3862 Agekian
+
+S
+
+3865 1988 AY4
+
+Xc
+
+3873 Roddy
+
+S
+
+3885 Bogorodskij
+
+Cg
+
+3886 Shcherbakovia
+
+C
+
+3900 Knezevic
+
+V
+
+3903 Kliment Ohridski
+
+Sq
+
+3908 Nyx
+
+V
+
+3910 Liszt
+
+S
+
+3920 Aubignan
+
+Sa
+
+3949 Mach
+
+Sq
+
+3958 Komendantov
+
+Xc
+
+3971 Voronikhin
+
+Ch
+
+3972 Richard
+
+S
+
+3976 Lise
+
+X
+
+3985 Raybatson
+
+X
+
+4001 Ptolemaeus
+
+S
+
+4033 Yatsugatake
+
+S
+
+4036 1987 DW5
+
+Cg
+
+4037 Ikeya
+
+Sq
+
+4039 Souseki
+
+S
+
+4051 Hatanaka
+
+Sq
+
+4072 Yayoi
+
+S
+
+4082 Swann
+
+Ch
+
+4096 Kushiro
+
+Sl
+
+4107 Rufino
+
+C
+
+4116 Elachi
+
+Sl
+
+4124 Herriot
+
+B
+
+4135 Svetlanov
+
+Ch
+
+4142 Dersu-Uzala
+
+A
+
+4156 1988 BE
+
+(C)
+
+Cgh
+
+4157 Izu
+
+Ch
+
+4179 Toutatis
+
+(S)
+
+Sk
+
+4182 Mount Locke
+
+Sr
+
+4183 Cuno
+
+Sq
+
+4188 Kitezh
+
+V
+
+4194 Sweitzer
+
+Cb
+
+4197 1982 TA
+
+Sq
+
+4200 Shizukagozen
+
+S
+
+4205 David Hughes
+
+Xe
+
+4215 Kamo
+
+(J)
+
+V
+
+4222 Nancita
+
+S
+
+4256 Kagamigawa
+
+Xc
+
+4261 Gekko
+
+Sq
+
+4265 Kani
+
+C
+
+4272 Entsuji
+
+S
+
+4276 Clifford
+
+Cb
+
+4280 Simonenko
+
+S
+
+4284 Kaho
+
+Ch
+
+4287 Trisov
+
+S
+
+BUS AND BINZEL
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen SMASSII
+
+class
+
+class
+
+4292 Aoba
+
+C
+
+4297 Eichhorn
+
+Cb
+
+4299 WIYN
+
+S
+
+4304 Geichenko
+
+C
+
+4305 Clapton
+
+S
+
+4311 Zguridi
+
+V
+
+4327 Ries
+
+Sk
+
+4332 Milton
+
+Xe
+
+4340 Dence
+
+S
+
+4341 Poseiden
+
+O
+
+4342 Freud
+
+Xc
+
+4343 Tetsuya
+
+Ch
+
+4352 Kyoto
+
+S
+
+4353 Onizaki
+
+(X)
+
+Xe
+
+4369 Seifert
+
+Xk
+
+4372 Quincy
+
+S
+
+4374 Tadamori
+
+S
+
+4382 Stravinsky
+
+Sa
+
+4387 Tanaka
+
+S
+
+4390 Madreteresa
+
+Cgh
+
+4396 Gressmann
+
+B
+
+4407 Taihaku
+
+Sa
+
+4417 Lecar
+
+S
+
+4422 Jarre
+
+S
+
+4424 Arkhipova
+
+Xk
+
+4426 Roerich
+
+L
+
+4434 Nikulin
+
+V
+
+4435 Holt
+
+S
+
+4456 Mawson
+
+Ld
+
+4461 Sayama
+
+X
+
+4479 1985 CP1
+
+S
+
+4491 Otaru
+
+Sa
+
+4512 Sinuhe
+
+Sa
+
+4516 Pugovkin
+
+Sa
+
+4523 MIT
+
+Ch
+
+4534 Rimskij-Korsakov
+
+Cb
+
+4536 1987 DA6
+
+S
+
+4547 Massachusetts
+
+X
+
+4548 Wielen
+
+Xc
+
+4558 Janesick
+
+S
+
+4570 Runcorn
+
+Sa
+
+4584 Akan
+
+C
+
+4591 Bryantsev
+
+Cgh
+
+4604 1987 SK
+
+S
+
+4607 Seilandfarm
+
+L
+
+4610 Kajov
+
+Sl
+
+4611 Vulkaneifel
+
+S
+
+4619 Polyakhova
+
+L
+
+4628 Laplace
+
+S
+
+4649 Sumoto
+
+S
+
+4650 Mori
+
+S
+
+4678 Ninian
+
+S
+
+4682 Bykov
+
+S
+
+4686 Maisica
+
+B
+
+4701 Milani
+
+Xe
+
+4702 Berounka
+
+S
+
+4706 1988 DR
+
+S
+
+4711 Kathy
+
+S
+
+4713 Steel
+
+A
+
+Asteroid
+
+Tholen SMASSII
+
+class
+
+class
+
+4718 Araki
+
+Sl
+
+4719 Burnaby
+
+C
+
+4726 Federer
+
+L
+
+4733 ORO
+
+Sq
+
+4737 Kiladze
+
+L
+
+4744 1988 RF5
+
+D
+
+4748 Tokiwagozen
+
+S
+
+4750 Mukai
+
+X
+
+4767 Sutoku
+
+S
+
+4774 Hobetsu
+
+S
+
+4786 Tatianina
+
+Xc
+
+4796 Lewis
+
+V
+
+4804 Pasteur
+
+C
+
+4817 1984 DC1
+
+Sl
+
+4824 Stradonice
+
+Sr
+
+4838 Billmclaughlin
+
+Xc
+
+4839 Daisetsuzan
+
+Xc
+
+4844 Matsuyama
+
+S
+
+4845 Tsubetsu
+
+X
+
+4849 Ardenne
+
+S
+
+4853 1979 ML
+
+S
+
+4884 Bragaria
+
+S
+
+4900 Maymelou
+
+V
+
+4909 Couteau
+
+S
+
+4910 Kawasato
+
+S
+
+4917 Yurilvovia
+
+Ld
+
+4923 Clarke
+
+S
+
+4942 1987 DU6
+
+X
+
+4944 Kozlovskij
+
+Cb
+
+4945 Ikenozenni
+
+S
+
+4947 Ninkasi
+
+Sq
+
+4950 House
+
+Sq
+
+4951 Iwamoto
+
+S
+
+4954 Eric
+
+S
+
+4957 Brucemurray
+
+S
+
+4968 Suzamur
+
+Sq
+
+4969 Lawrence
+
+C
+
+4977 Rauthgundis
+
+V
+
+4982 Bartini
+
+A
+
+4993 1983 GR
+
+V
+
+4995 1984 QR
+
+S
+
+4997 Ksana
+
+B
+
+5008 Miyazawakenji
+
+S
+
+5010 Amenemhet
+
+S
+
+5013 1964 VT1
+
+Sl
+
+5038 Overbeek
+
+S
+
+5051 Ralph
+
+Sr
+
+5067 Occidental
+
+L
+
+5069 Tokeidai
+
+S
+
+5079 1975 DB
+
+B
+
+5081 1976 WC1
+
+Ch
+
+5087 Emel'yanov
+
+X
+
+5091 Isakovskij
+
+C
+
+5102 Benfranklin
+
+B
+
+5103 Divis
+
+X
+
+5108 Lubeck
+
+S
+
+5111 Jacliff
+
+R
+
+5131 1990 BG
+
+S
+
+5133 Phillipadams
+
+B
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+175
+
+Asteroid
+5134 Ebilson 5142 Okutama 5143 Heracles 5159 Burbine 5184 Cavaille-Coll 5195 Kaendler 5196 Bustelli 5208 Royer 5214 Oozora 5222 Ioffe 5227 1986 PE 5230 Asahina 5234 Sechenov 5240 Kwasan 5242 Kenreimonin 5243 Clasien 5253 1985 XB 5261 Eureka 5275 Zdislava 5294 Onnetoh 5318 Dientzenhofer 5329 1989 YP 5330 Senrikyu 5333 Kanaya 5344 Ryabov 5348 1988 BB 5349 Paulharris 5364 1980 RC1 5379 Abehiroshi 5392 Parker 5397 1988 VB5 5401 Minamioda 5407 1992 AX 5416 1978 VE5 5438 Lorre 5448 Siebold 5467 1988 AG 5482 1990 DX 5485 Kaula 5492 Thoma 5510 1988 RF7 5534 1941 UN 5552 Studnicka 5553 Chodas 5563 1991 VZ1 5565 Ukyounodaibu 5576 Albanese 5585 Parks 5587 1990 SB 5588 1990 SW3 5591 Koyo 5595 Roth 5610 Balster 5622 1990 TL4 5626 1991 FE 5632 Ingelehmann 5641 McCleese 5646 1990 TR 5647 1990 TZ
+
+Tholen class
+(V)
+
+SMASSII class
+Sl Sq O S S Sl S S S B S S B V Sq C S Sr Sa X Sk Cb B Ch B Ch C C V Sl Sl S Sk C C S X Sa S L S S S Ch S S Xk Ch Sq X Cb S S Sq S Xc A
+S
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+5649 Donnashirley
+
+S
+
+5660 1974 MA
+
+Q
+
+5678 DuBridge
+
+C
+
+5685 Sanenobufukui
+
+S
+
+5690 1992 EU
+
+B
+
+5732 1988 WC
+
+S
+
+5751 Zao
+
+X
+
+5817 Robertfrazer
+
+S
+
+5836 1993 MF
+
+S
+
+5840 1978 ON
+
+Ld
+
+5892 1981 YS1
+
+S
+
+5956 d'Alembert
+
+C
+
+5965 1990 SV15
+
+Sa
+
+6005 1989 BD
+
+C
+
+6047 1991 TB1
+
+S
+
+6053 1993 BW3
+
+Sq
+
+6071 Sakitama
+
+S
+
+6077 Messner
+
+Sq
+
+6078 Burt
+
+S
+
+6086 1987 VU
+
+Sl
+
+6129 Demokritos
+
+Ch
+
+6146 Adamkrafft
+
+Sq
+
+6192 1990 KB1
+
+S
+
+6211 Tsubame
+
+Sr
+
+6230 1984 SG1
+
+C
+
+6233 Kimura
+
+Ch
+
+6249 Jennifer
+
+Xe
+
+6283 1980 VX1
+
+Ch
+
+6354 Vangelis
+
+Cb
+
+6364 1981 ET
+
+S
+
+6386 1989 NK1
+
+S
+
+6410 Fujiwara
+
+Ch
+
+6455 1992 HE
+
+S
+
+6489 Golevka
+
+Q
+
+6500 Kodaira
+
+B
+
+6509 1983 CQ3
+
+Ch
+
+6569 1993 MO
+
+Sr
+
+6582 Flagsymphony
+
+Ch
+
+6585 O'Keefe
+
+Sk
+
+6592 Goya
+
+Sq
+
+6611 1993 VW
+
+V
+
+6669 Obi
+
+S
+
+6704 1988 CJ
+
+K
+
+6716 1990 RO1
+
+C
+
+6782 1990 SU10
+
+Cb
+
+6847 Kunz-Hallstein
+
+Sk
+
+6906 1990 WC
+
+C
+
+6907 1990 WE
+
+C
+
+6908 Kunimoto
+
+S
+
+7056 Kierkegaard
+
+Sq
+
+7081 Ludibunda
+
+K
+
+7110 1983 XH1
+
+Ch
+
+7170 1987 MK
+
+S
+
+7211 Xerxes
+
+S
+
+7224 Vesnina
+
+Sq
+
+7225 Huntress
+
+S
+
+7245 1991 RN10
+
+L
+
+7304 Namiki
+
+Ld
+
+7336 Saunders
+
+Sq
+
+Asteroid
+7341 1991 VK 7358 1995 YA3 7397 1986 QS 7402 1987 YH 7404 1988 AA5 7405 1988 FF 7451 Verbitskaya 7480 Norwan 7482 1994 PC1 7512 Monicalazzarin 7562 Kagiroino-Oka 7564 1988 CA 7604 1995 QY2 7728 Giblin 7753 1988 XB 7763 1990 UT5 7817 1988 RH10 7822 1991 CS 7888 1993 UC 7977 1977 QQ5 8008 1988 TQ4 8176 1991 WA 8333 1982 VF 8334 1984 CF 8450 1977 QL1 8513 1991 PK11 8516 1991 TW1 8566 1996 EN 9400 1994 TW1 9970 1992 ST1 10165 1995 BL2 10199 Chariklo 10473 1981 EL21 10504 1987 UF5 10563 Izhdubar 11311 Peleus 11500 1989 UR 11785 1973 AW3 11906 1992 AE1 12281 1990 WA5 12711 1991 BB 13651 1997 BR 16657 1993 UB 16960 1998 QS52 17480 1991 PE10 17511 1992 QN 18514 1996 TE11 19356 1997 GH3 20255 1998 FX2 22449 1996 VC 23548 1994 EF2 26209 1997 RD1 31345 1998 PG
+1989 UQ 1989 VA 1991 VH 1992 BF 1993 TQ2 1994 AB1
+
+Tholen class (S)
+(S)
+
+SMASSII class
+Sq Sq S Ch Cb Ch S S S Ch Ld S C Sq B L C S
+S C Q Sq S C D S
+Sr Cb L D K Sl Q Sq S Xc Sq X Sr S Sr Sq S X Xc S Sq S Q Sq Sq B Sq Sk Xc Sa Sq
+
+176
+
+Asteroid
+1994 AW1 1995 BC2 1995 BM2 1995 WQ5 1995 WL8 1996 BZ3 1996 FG3 1996 FQ3 1996 PW 1996 UK 1997 AC11 1997 AQ18
+
+Tholen class
+
+SMASSII class
+Sa X Sq Ch Sq X C Sq Ld Sq Xc C
+
+BUS AND BINZEL
+
+APPENDIX A--Continued
+
+Asteroid
+
+Tholen class
+
+SMASSII class
+
+1997 BQ
+
+S
+
+1997 CZ5
+
+S
+
+1997 GL3
+
+V
+
+1997 RT
+
+O
+
+1997 SE5
+
+T
+
+1997 TT25
+
+Sq
+
+1997 UH9
+
+Sq
+
+1997 US9
+
+Q
+
+1998 FM5
+
+S
+
+1998 KU2
+
+Cb
+
+1998 MQ
+
+S
+
+Asteroid
+1998 QR15 1998 SG2 1998 UT18 1998 VR 1998 VO33 1998 WM 1998 WS 1998 WZ6 1999 EE5 1999 FA 1999 FB
+
+Tholen class
+
+SMASSII class
+Sq Sq C Sk V Sq Sr V S S Q
+
+ACKNOWLEDGMENTS
+We thank Tom Burbine, Clark Chapman, and Jessica Sunshine for many influential discussions during the course of developing this taxonomy. E. Howell and M. A. Barucci provided many useful comments for improving this manuscript. This work was supported by NASA Grant NAG5-3939.
+REFERENCES
+Barucci, M. A., M. T. Capria, A. Coradini, and M. Fulchignoni 1987. Classification of asteroids using G-mode analysis. Icarus 72, 304­324.
+Bell, J. F. 1988. A probable asteroidal parent body for the CV or CO chondrites. Meteoritics 23, 256­257.
+Bell, J. F., P. D. Owensby, B. R. Hawke, and M. J. Gaffey 1988. The 52-color asteroid survey: Final results and interpretation. Lunar Planet. Sci. 19, 57­58.
+Binzel, R. P., and S. Xu 1993. Chips off of asteroid 4 Vesta: Evidence for the parent body of basaltic achondrite meteorites. Science 260, 186­191.
+Binzel, R. P., S. Xu, S. J. Bus, M. F. Skrutskie, M. R. Meyer, P. Knezek, and E. S. Barker 1993. Discovery of a main-belt asteroid resembling ordinary chondrite meteorites. Science 262, 1541­1543.
+Binzel, R. P., S. J. Bus, T. H. Burbine, and J. M. Sunshine 1996. Spectral properties of near-Earth asteroids: Evidence for sources of ordinary chondrite meteorites. Science 273, 946­948.
+Bobrovnikoff, N. T. 1929. The spectra of minor planets. Lick Obs. Bull. 14, 18­27.
+Bowell, E., C. R. Chapman, J. C. Gradie, D. Morrison, and B. Zellner 1978. Taxonomy of asteroids. Icarus 35, 313­335.
+Britt, D. T., and L. A. Lebofsky 1992. Spectral variation within asteroid classes. Lunar Planet. Sci. 23, 161­162.
+Burbine, T. H. 1991. Principal Component Analysis of Asteroid and Meteorite Spectra from 0.3 to 2.5 µm. Master's thesis, University of Pittsburgh.
+Burbine, T. H., and J. F. Bell 1993. How diverse is the asteroid belt? Lunar Planet. Sci. 24, 223­224.
+Burbine, T. H., E. A. Cloutis, S. J. Bus, A. Meibom, and R. P. Binzel 1998. The detection of troilite (FeS) on the surfaces of E-class asteroids. Bull. Amer. Astron. Soc. 30, 1025­1026.
+Bus, S. J. 1999. Compositional Structure in the Asteroid Belt: Results of a Spectroscopic Survey. Doctoral thesis, Massachusetts Institute of Technology.
+Bus, S. J., and R. P. Binzel 2002. Phase II of the small main-belt asteroid spectroscopic survey: The observations. Icarus 158, 106­145.
+Chapman, C. R., and M. J. Gaffey 1979. Reflectance spectra for 277 asteroids. In Asteroids (T. Gehrels, Ed.), pp. 655­687. Univ. of Arizona Press, Tucson.
+
+Chapman, C. R., T. V. Johnson, and T. B. McCord 1971. A review of spectrophotometric studies of asteroids. In Physical Studies of Minor Planets (T. Gehrels, Ed.), pp. 51­65. NASA SP-267.
+Chapman, C. R., D. Morrison, and B. Zellner 1975. Surface properties of asteroids: A synthesis of polarimetry, radiometry, and spectrophotometry. Icarus 25, 104­130.
+Feierberg, M. A., L. A. Lebofsky, and H. P. Larson 1981. Spectroscopic evidence for aqueous alteration products on the surfaces of low-albedo asteroids. Geochim. Cosmochim. Acta 45, 971­981.
+Gaffey, M. J., J. F. Bell, and D. P. Cruikshank 1989. Reflectance spectroscopy and asteroid surface mineralogy. In Asteroids II (R. P. Binzel, T. Gehrels, and M. S. Matthews, Eds.), pp. 98­127. Univ. of Arizona Press, Tucson.
+Gaffey, M. J., J. F. Bell, R. H. Brown, and T. H. Burbine 1990. Mineralogical variations within the S-asteroid population. Lunar Planet. Sci. 21, 399­400.
+Gaffey, M. J., J. F. Bell, R. H. Brown, T. H. Burbine, J. L. Piatek, K. L. Reed, and D. A. Chaky 1993. Mineralogical variations within the S-type asteroid class. Icarus 106, 573­602.
+Gradie, J., and E. F. Tedesco 1982. Compositional structure of the asteroid belt. Science 216, 1405­1407.
+Gradie, J. C., C. R. Chapman, and E. F. Tedesco 1989. Distribution of taxonomic classes and the compositional structure of the asteroid belt. In Asteroids II (R. P. Binzel, T. Gehrels, and M. S. Matthews, Eds.), pp. 316­335. Univ. of Arizona Press, Tucson.
+Greenberg, R., and C. R. Chapman 1983. Asteroids and meteorites: Parent bodies and delivered samples. Icarus 55, 455­481.
+Hiroi, T., F. Vilas, and J. M. Sunshine 1996. Discovery and analysis of minor absorption bands in S-asteroid visible reflectance spectra. Icarus 119, 202­208.
+Howell, E. S., E. Merenyi, and L. A. Lebofsky 1994. Classification of asteroid spectra using a neural network. J. Geophys. Res. 99, 10,847­10,865.
+Jones, T. D., L. A. Lebofsky, J. S. Lewis, and M. S. Marley 1990. The composition and origin of the C, P, and D asteroids: Water as a tracer of thermal evolution in the outer belt. Icarus 88, 172­192.
+King, T. V. V., and W. I. Ridley 1987. Relation of the spectroscopic reflectance of olivine to mineral chemistry and some remote sensing implications. J. Geophys. Res. 92, 11,457­11,469.
+Lebofsky, L. A. 1978. Asteroid 1 Ceres: Evidence for water of hydration. Mon. Not. R. Astron. Soc. 182, 17­21.
+McCord, T. B., J. B. Adams, and T. V. Johnson 1970. Asteroid Vesta: Spectral reflectivity and compositional implications. Science 168, 1445­1447.
+Merenyi, E., E. S. Howell, A. S. Rivken, and L. A. Lebofsky 1997. Prediction of water in asteroids from spectral data shortward of 3 µm. Icarus 129, 421­439.
+
+SMASSII FEATURE-BASED ASTEROID TAXONOMY
+
+177
+
+Morrison, D. 1974. Radiometric diameters and albedos of 40 asteroids. Astrophys. J. 194, 203­212.
+Mueller, B. E. A., D. J. Tholen, W. K. Hartmann, and D. P. Cruikshank 1992. Extraordinary colors of asteroidal object (5145) 1992 AD. Icarus 97, 150­154.
+Sawyer, S. R. 1991. A High Resolution CCD Spectroscopic Survey of Low Albedo Main Belt Asteroids. Doctoral thesis, University of Texas.
+Sunshine, J. M., R. P. Binzel, T. H. Burbine, and S. J. Bus 1998. Is Asteroid 289 Nenetta compositionally analogous to the Brachinite meteorites? Lunar Planet. Sci. 29, 1430 (abstract).
+Tedesco, E. F., J. G. Williams, D. L. Matson, G. J. Veeder, J. C. Gradie, and L. A. Lebofsky 1989. A three-parameter asteroid taxonomy. Astron. J. 97, 580­606.
+Tedesco, E., G. Veeder, J. Fowler, and J. Chillemi 1992. The IRAS Minor Planet Survey. Phillips Lab PL-TR-92-2049, Hanscom Air Force Base, MA.
+Tholen, D. J. 1984. Asteroid Taxonomy from Cluster Analysis of Photometry. Doctoral thesis, University of Arizona.
+Tholen, D. J. 1989. Asteroid taxonomic classifications. In Asteroids II (R. P. Binzel, T. Gehrels, and M. S. Matthews, Eds.), pp. 1139­1150. Univ. of Arizona Press, Tucson.
+Tholen, D. J., and M. A. Barucci 1989. Asteroid taxonomy. In Asteroids II (R. P. Binzel, T. Gehrels, and M. S. Matthews, Eds.), pp. 298­315. Univ. of Arizona Press, Tucson.
+Vilas, F. 1994. A cheaper, faster, better way to detect water of hydration on Solar System bodies. Icarus 111, 456­467.
+
+Vilas, F., and M. J. Gaffey 1989. Phyllosilicate absorption features in main-belt and outer-belt asteroid reflectance spectra. Science 246, 790­792.
+Vilas, F., S. M. Larson, E. C. Hatch, and K. S. Jarvis 1993. CCD reflectance spectra of selected asteroids. II. Low-albedo asteroid spectra and data extraction techniques. Icarus 105, 67­78.
+Vilas, F., A. L. Cochran, and K. S. Jarvis 2000. Vesta and the Vestoids: A new rock group? Icarus 147, 119­128.
+Williams, J. G. 1979. Proper elements and family memberships of the asteroids. In Asteroids (T. Gehrels, Ed.), pp. 1040­1063. Univ. of Arizona Press, Tucson.
+Wisdom, J. 1983. Chaotic behavior and the origin of the 3/1 Kirkwood gap. Icarus 56, 51­74.
+Wood, J. H., and G. P. Kuiper 1963. Photometric studies of asteroids. Astrophys. J. 137, 1279­1285.
+Xu, S., R. P. Binzel, T. H. Burbine, and S. J. Bus 1995. Small main-belt asteroid spectroscopic survey: Initial results. Icarus 115, 1­35.
+Zappala, V., A. Cellino, P. Farinella, and Z. Knezevic 1990. Asteroid families: I. Identification by hierarchical clustering and reliability assessment. Astron. J. 100, 2030­2046.
+Zellner, B. 1973. Polarimetric albedos of asteroids. Bull. Amer. Astron. Soc. 5, 388.
+Zellner, B. 1979. Asteroid taxonomy and the distribution of the compositional types. In Asteroids (T. Gehrels, Ed.), pp. 783­806. Univ. of Arizona Press, Tucson.
+Zellner, B., D. J. Tholen, and E. F. Tedesco 1985. The eight-color asteroid survey: Results for 589 minor planets. Icarus 61, 355­416.
+
+

@@ -1,0 +1,355 @@
+Acta Astronautica 143 (2018) 1­8
+Contents lists available at ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+
+Sintering of micro-trusses created by extrusion-3D-printing of lunar regolith inks
+Shannon L. Taylor a,b, Adam E. Jakus a,b, Katie D. Koube a,b, Amaka J. Ibeh a, Nicholas R. Geisendorfer a,b, Ramille N. Shah a,b,c, David C. Dunand a,*
+a Northwestern University, Department of Materials Science and Engineering, 2200 Campus Dr. Cook 2036, Evanston, IL 60208, USA b Simpson Querrey Institute for BioNanotechnology in Medicine, 303 E. Superior, Suite 11-131, Chicago, IL 60611, USA c Department of Surgery (Transplant Division), Northwestern University, 251 E. Huron St. Galter 3-150, Chicago, IL 60611, USA
+
+ARTICLE INFO
+Keywords: Lunar regolith JSC-1A 3D printing Sintering Reduction Additive manufacturing
+
+ABSTRACT
+The development of in situ fabrication methods for the infrastructure required to support human life on the Moon is necessary due to the prohibitive cost of transporting large quantities of materials from the Earth. Cellular structures, consisting of a regular network (truss) of micro-struts with ~500 m diameters, suitable for bricks, blocks, panels, and other load-bearing structural elements for habitats and other infrastructure are created by direct-extrusion 3D-printing of liquid inks containing JSC-1A lunar regolith simulant powders, followed by sintering. The effects of sintering time, temperature, and atmosphere (air or hydrogen) on the microstructures, mechanical properties, and magnetic properties of the sintered lunar regolith micro-trusses are investigated. The air-sintered micro-trusses have higher relative densities, linear shrinkages, and peak compressive strengths, due to the improved sintering of the struts within the micro-trusses achieved by a liquid or glassy phase. Whereas the hydrogen-sintered micro-trusses show no liquid-phase sintering or glassy phase, they contain metallic iron 0.1­2 m particles from the reduction of ilmenite, which allows them to be lifted with magnets.
+
+1. Introduction
+Due to the very high costs of transporting equipment and raw materials from Earth, the establishment of human bases on the Moon for scientific lunar investigations and further explorations of the solar system will require in situ fabrication using local, abundant materials, to create the infrastructure needed to support human life and laboratory equipment. Building materials must provide protection from the extreme thermal cycles and the vacuum environment of the Moon as well as solar and cosmic radiation [1­3]. Lunar regolith (lunar dust) is a promising material that could be utilized for the construction of the lunar infrastructure due to its abundance, ease of collection, ability to withstand the extreme lunar thermal cycles, and radiation shielding abilities [4,5]. The use of binder materials such as sulfur and the direct melting or sintering of the lunar regolith are two approaches that have been reported for the fabrication of lunar regolith objects. Numerous studies have focused on the use of lunar sulfur concrete, which uses sulfur as the binding agent for the lunar regolith rather than a water and cement mixture, as is used in hydraulic concrete on Earth. However, the use of this technology is limited by the narrow working temperature range for sulfur concrete
+
+(~130­140 C), the sublimation of sulfur in lunar vacuum, the limited geometries and complexity of objects produced by the casting process, and the additional steps associated with sulfur supply (discovery, mining, transport, beneficiation, and reduction to elemental sulfur of sulfurbearing ore) [6­8]. Recently, Khoshnevis et al. reported Contour Crafting, an additive manufacturing (AM) process based on extrusion, of lunar sulfur concrete to produce large scale domes and walls [9,10]. Although this method is capable of rapidly producing large scale structures on the Moon, sulfur concrete performs poorly when subjected to simulated lunar temperature cycles due to the large differences in the coefficients of thermal expansion between the lunar regolith and the sulfur [7]. Additions of fly ash or recycled aggregates have been reported to improve the thermal cycling capabilities of terrestrial sulfur concrete [11].
+Additive manufacturing or 3D-printing (3DP) of objects from pure regolith powders, which are densified by sintering or fusing rather than by the addition of sulfur or water as in concrete or cement, is another viable manufacturing technique for the in situ fabrication of lunar regolith parts on the Moon [1,12­19]. Balla et al. first demonstrated AM of lunar regolith cylinders using Laser Engineering Net Shaping [12]. Cesaretti et al. reported a feasibility study of a lunar habitat using the
+
+* Corresponding author. E-mail address: dunand@northwestern.edu (D.C. Dunand).
+https://doi.org/10.1016/j.actaastro.2017.11.005 Received 25 July 2017; Received in revised form 14 September 2017; Accepted 6 November 2017 Available online 7 November 2017 0094-5765/© 2017 IAA. Published by Elsevier Ltd. All rights reserved.
+
+S.L. Taylor et al.
+D-shape process, which selectively sprays a liquid binder onto a layer of lunar regolith to bind the printed structures together via a chemical reaction of magnesium oxide with magnesium chloride, to produce large scale parts [13]. Blocks, gears, nuts, and mesh grids with high surface hardness values [14,15] and multi-layered structures and lattices [16­18] have been produced via selective laser melting of lunar regolith. Zhang and Khoshnevis proposed Selective Separation Sintering of JSC-1A simulant to produce interlocking parts using alumina as the separation coating [19]. The use of AM techniques allows the fabrication of a wide variety of both simple and complex part geometries without the use of molds. Additionally, AM techniques can be used to produce a variety of different ordered, truss-based microarchitectures within a part. Such micro-trusses are lightweight with high specific strengths and stiffnesses and high surface areas [20­26].
+In this work, we characterize the microstructures, mechanical properties, and physical properties of lunar regolith micro-trusses produced via a combination of extrusion-based 3DP of liquid inks containing JSC1A lunar regolith simulant powders, followed by sintering in either air or hydrogen atmospheres (Fig. 1). The as-printed micro-trusses are thermally processed to remove the polymer binder and to sinter the lunar regolith particles to form oxide struts. Two atmospheres were considered for sintering: air and hydrogen. Several studies, including current NASA projects, have proposed the reduction of the ilmenite (FeTiO3) mineral in lunar regolith using hydrogen to produce the water, or subsequently oxygen, required for human survival on the Moon [27­33]. For the micro-trusses sintered in hydrogen, the iron-oxide-containing minerals present in the lunar regolith are reduced to metallic iron, creating microtrusses whose struts show a ceramic-metal composite structure, which could have an increased toughness or strength compared to the purely ceramic counterpart [34]. Thus, sintering in a hydrogen atmosphere may be used not only to create stronger, tougher building materials, but also for oxygen extraction. Although robotic fabrication in high vacuum outside a lunar habitat may occur, we consider here the scenario where 3DP and post-printing reduction and sintering of parts is done by humans within the habitat. Thus, an air atmosphere was chosen for comparison. Similar 3D printing platforms involving the extrusion of liquid particle-containing inks can also be used to produce metals and alloys [35­40], ceramics and ceramic-based composites [41­44], electronic materials [45,46], materials for bone regeneration and tissue engineering [45,47,48], and graphene for tissue engineering and electronics [45,49],
+
+Acta Astronautica 143 (2018) 1­8
+making extrusion 3D-printing a suitable option for the production of additional materials on the Moon with the same printer. Flexible ceramic-loaded elastomer composites have also been fabricated using the same extrusion-based 3DP of liquid inks containing lunar or Martian regolith particles that is used in the present work [50]. A complete description of this 3D-printing process and a discussion of its suitability for a lunar environment are provided by Jakus et al. [50]. Moreover, the lactic acid and the glycolic acid monomers used to prepare the poly(lactic-co-glycolic acid) copolymer binder in the inks may be derived from urine [51,52] and the solvents used in the ink synthesis can be recovered after thermal processing, and distilled, making the present processing method particularly appropriate for lunar outposts with limited ex situ resources.
+2. Methods
+Fig. 1 shows a schematic of the 3D fabrication process. Lunar regolith inks were synthesized through physical mixing of (i) poly(lactic-coglycolic acid) copolymer (PLGA, 85:15 PLA-PLG (poly-lactic acid ­ poly-glycolic acid) by mass, from Boehringer Ingelheim, Germany), (ii) JSC-1A bulk lunar mare regolith simulant (sieved to <50 m, from Orbitec, Madison, WI, USA) and (iii) a 15:2:1 by mass mixture of dichloromethane (DCM), ethylene glycol butyl ether (EGBE), and dibutyl phthalate (DBP) (all from Sigma-Aldrich, St. Louis, MO, USA) using the methods described previously [35,50,53]. The lunar regolith simulant is composed of olivine, plagioclase, Ca-pyroxene, glass, and ilmenite (FeTiO3) mineral phases [54,55]. The oxide compositions of each mineral as well as the overall composition from the technical specification sheet are shown in Table 1 [56,57]. The bulk density of the lunar simulant determined via helium pycnometry is 2.95 g/cm3. The solid component of the ink contains 74% JSC-1A simulant and 26% PLGA by volume. For every cm3 (corresponding to 2.95 g) of JSC-1A powder, 16.2 g of solvent mixture were used. The PLGA was dissolved in approximately half of the solvent mixture in the ink cartridge (Nordson EFD 30 cc fluid dispensing system). The JSC-1A powder was added to the remaining solvent mixture in a separate 50 mL Falcon tube. After the PLGA dissolved, the powder suspension was poured into the ink cartridge and mixed using a mini vortex mixer. The ink was thickened under ambient conditions via DCM evaporation, with occasional hand stirring, until its viscosity reached 30­35 Pa s.
+
+Fig. 1. Schematic of the 3D fabrication process for lunar regolith cellular structures. Inks are comprised of lunar regolith powder, PLGA, and three solvents (DCM, EGBE, and DBP). The liquid ink is direct-extrusion 3D-printed at room temperature into green bodies consisting of layers of parallel struts. The green bodies are then sintered in air or in hydrogen to produce a ceramic (air) or a ceramic-metal composite (hydrogen) micro-truss. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+2
+
+S.L. Taylor et al.
+
+Table 1 Composition (wt.%) of JSC-1A lunar regolith simulant powders (from orbitec) [56].
+
+Oxide
+
+Mineral Phase Compositions (%)
+
+Plagioclase
+
+Silica Glass
+
+Ca-Pyroxene
+
+SiO2 Al2O3 Fe2O3 FeO TiO2 MnO MgO CaO Na2O K2O P2O5 Cr203
+
+49.8 31.4 ­ 0.9a 0.1 <0.1 0.2 14.2 3.2 0.1 <0.1 <0.1
+
+46.1 14.9 ­ 12.7a 2.8 0.2 5.1 10.0 4.0 1.4 1.0 <0.1
+
+47.2 5.6 ­ 10.3a 2.5 0.2 12.3 20.3 0.6 <0.1 0.3 <0.1
+
+The compositions in bold indicate the majority (>20%) constituents of each mineral phase. a Total Fe calculated as FeO.
+
+Olivine
+37.7 0.6 ­ 23.2a 0.2 0.4 36.1 0.7 0.1 <0.1 0.4 <0.1
+
+Acta Astronautica 143 (2018) 1­8
+
+Titanomagnetite/Ilmenite
+1.9 6.1 ­ 65.4a 14.4 0.5 4.8 0.5 0.2 <0.1 <0.1 1.1
+
+Overall Composition
+46.7 15.8 3.4 [57,66] 7.6 [57,66] 1.7 0.2 9.4 9.9 2.8 0.8 0.7 ­
+
+All micro-trusses were 3D-printed using a 3D-BioPlotter (EnvisionTEC, Germany) at extrusion speeds of 5­6 mm/s and extrusion pressures ranging from 450 to 550 kPa, using a nozzle with a 510 m inner diameter tip (Nordson EFD). Cylindrical micro-trusses measuring 10 mm in diameter and 20 mm in height were 3D-printed with layers of parallel, cylindrical struts spaced 1.0 mm apart. Each subsequent layer was rotated by 90 from the previous layer, resulting in a 0/90 truss containing 64 layers.
+A two-stage heat treatment was performed in either an air or a hydrogen atmosphere: (i) a pyrolysis stage at 300 C for 1 h to remove the PLGA and (ii) a sintering stage at 1050 C for 4 h or 1100 C for 4 or 24 h. The hydrogen-sintered micro-trusses were sintered in a hydrogen tube furnace (MTI Corporation GSL-1500X-50HG) using 99.999% pure H2 gas (Airgas) at a flow rate of ~160­200 mL/min and the air-sintered microtrusses were sintered in a box furnace (SentroTech St-1600C-445) in laboratory air. Heating and cooling in the furnaces was performed at 10 and 5 C/min, respectively. The micro-truss dimensions and masses were measured before and after sintering. Radial cross-sections of the sintered micro-trusses were mounted in epoxy, polished using 320, 400, 600, 800, and 1200 grit SiC paper followed by 3 and 1 m diamond and 0.05 m alumina polishing suspensions, and imaged using a Nikon Eclipse MA200 inverted light microscope. The polished cross-sections were then coated
+
+with ~15 nm of Au/Pd and imaged using a Hitachi SU8030 scanning
+
+electron microscope (SEM) equipped with an Oxford X-max 80 SDD en-
+
+ergy dispersive spectroscopy (EDS) detector at an accelerating voltage of
+
+15 kV and a current of 15 A. The strut porosity was determined using
+
+ImageJ image analysis on optical micrographs obtained from the pol-
+
+ished cross-sections. The relative density of the sintered micro-truss,
+
+* s
+
+,
+
+(where * is the density of the micro-truss and s is the density of the solid
+
+lunar regolith taken as 2.95 g/cm3), was calculated from the mass and
+
+overall volume measurements (measured with calipers).
+
+After sintering, the top and bottom faces of the micro-trusses used for
+
+the compression tests were polished using 400 m SiC paper until they
+
+were flat and parallel. Compression tests on the sintered micro-trusses
+
+were performed using a piston-in-sleeve compression cage with carbide
+
+inserts on an MTS Sintech 20G with an 89 kN (20,000 lb) load cell at a
+
+displacement rate of 2 mm/min until a strain of ~50% was reached or the
+
+micro-truss completely fractured. Strain was measured using the cross-
+
+head displacement, corrected for the machine compliance. X-Ray
+
+diffraction (XRD) was conducted using a Scintag XDS2000 XRD machine
+
+at a voltage of 20 kV and a current of 15 mA. One sample for each of the
+
+four heat treatment conditions tested in compression as well as the as-
+
+sieved powders were measured to identify the mineral phases and, in
+
+the case of the hydrogen-sintered samples, metallic iron.
+
+Fig. 2. Photographs of the as-printed lunar compression micro-trusses (left image in each box) and the same micro-trusses after sintering at 1100 C in either air or hydrogen for 4 or 24 h (right image in each box). Scale bars are 1 cm. The 3DP z-direction is up.
+3
+
+S.L. Taylor et al.
+
+Table 2 Relative density, linear shrinkage, ferromagnetic response of 3DP lunar regolith micro-trusses.
+
+Material/Sintering Atmosphere
+
+Sintering Temperature (C)
+
+Sintering Time(h)
+
+Truss Relative Density(%)
+
+JSC-1A Powder
+
+­
+
+­
+
+­
+
+Truss Linear Shrinkage (%)
+­
+
+Strut Relative Density (%)
+­
+
+As-printed Air Air Air Air Air Air Air Hydrogen
+
+­ 1050 1100 1100 1100 1100 1100 1100 1050
+
+­
+
+­
+
+4
+
+­
+
+4
+
+43
+
+4
+
+27
+
+4
+
+24
+
+24
+
+30
+
+24
+
+37
+
+24
+
+40
+
+4
+
+­
+
+­ ­ 6.5 ± 2.4 3.8 ± 0.3 5.8 ± 1.0 1.1 ± 2.6 3.4 ± 1.0 1.3 ± 2.4 ­
+
+­ 36 ± 4 53 ± 8
+87 ± 4
+35 ± 3
+
+Hydrogen Hydrogen Hydrogen Hydrogen Hydrogen Hydrogen
+
+1100 1100 1100 1100 1100 1100
+
+4
+
+18
+
+4
+
+26
+
+4
+
+24
+
+24
+
+19
+
+24
+
+21
+
+24
+
+24
+
+16.7 ± 1.8 10.2 ± 3.9 13.6 ± 0.2 17.1 ± 2.9 12.4 ± 0.6 14.9 ± 0.9
+
+39 ± 2 40 ± 2
+
+a Strong: could lift sample with magnet; weak: could move, but not lift, sample with magnet; none: could not move sample with magnet.
+
+Acta Astronautica 143 (2018) 1­8
+
+Ferromagnetic Responsea strong strong weak weak
+none
+strong strong
+strong
+
+Color
+dark gray black red red
+red
+dark gray dark gray
+dark gray
+
+3. Results and discussion
+3.1. Microstructure of sintered lunar regolith
+Fig. 2 shows examples of the micro-trusses used for the compression testing before and after sintering. The air-sintered micro-trusses have a reddish color as a result of a change in the FeO to Fe2O3, which is red. The micro-trusses sintered in air for 24 h at 1100 C also have a shiny, glassy appearance. The color of the hydrogen-sintered micro-trusses remains relatively unchanged from the color of the JSC-1A simulant powers (dark gray). The relative densities of the six micro-trusses sintered in hydrogen at 1100 C range from 18 to 26% with no significant differences between the micro-trusses sintered for 4 h and those sintered for 24 h. The relative densities of the six air-sintered micro-trusses range from 24 to 43% with the micro-trusses sintered at 1100 C for 24 h denser (34 ± 4%) than those sintered for 4 h (31 ± 10%). Table 2 lists the relative densities, as well as the linear shrinkages, strut densities, and color changes after sintering for all of the micro-trusses presented in this work. The wide range of relative densities for the micro-trusses may be due to the
+
+heterogeneous composition, non-uniform size distribution, and irregular shape of the regolith powder, which could lead to variations in extrusion and sintering behaviors.
+On average, the linear shrinkage of the hydrogen-sintered microtrusses is <5% after sintering, but the linear shrinkage of the air-sintered micro-trusses is ~10­15% (see Table 2). This is because the struts of the air-sintered micro-trusses are better sintered, as illustrated in the optical micrographs of the cross-sections of the struts of the micro-trusses after sintering in either air or hydrogen shown in Fig. 3. At 1050 C, the densities of the struts are similar for the micro-trusses sintered in air or hydrogen (36 ± 4% vs. 35 ± 3%). As expected, the density of the struts increases to 53 ± 8% and 39 ± 2% for air and hydrogen, respectively, as the sintering temperature increases from 1050 to 1100 C. The density of the air-sintered struts increases more than the density of the hydrogensintered struts as a function of temperature. When the sintering time increases to 24 h, the density of the hydrogen-sintered struts is only slightly higher than after 4 h of sintering (39 ± 2% vs. 40 ± 2%), while the density of the air-sintered struts significantly increases from 53 ± 8% to 87 ± 4%. The significant increase in the strut densities of the air-
+
+Fig. 3. Low magnification stereoscope images of micro-trusses sintered in air and hydrogen and optical micrographs of polished cross-sections of the struts in micro-trusses sintered in air or hydrogen. M represents the mineral grains comprising the micro-truss strut, E represents epoxy-filled pores, and P represents pores not infiltrated by the mounting epoxy or closed porosity within a mineral grain. The numbers in the insets are the strut relative densities calculated via image analysis of the cross-sections; they do not include 3DP porosity from the spacing between the struts. The 3DP z-direction is into the page.
+4
+
+S.L. Taylor et al.
+
+Acta Astronautica 143 (2018) 1­8
+
+Fig. 4. SEM backscatter images of the polished cross-sections with the constituent phases labeled for (a) an as-received JSC-1A lunar regolith simulant powder, (b) a 3DP micro-truss sintered in air at 1100 C for 4 h, and (c) a 3DP micro-truss sintered in hydrogen at 1100 C for 4 h. Phases are marked, with M representing the Ca-pyroxene and glass matrix. Back scatter SEM images and corresponding EDS maps for oxygen, iron, and titanium of the cross-sections of 3DP lunar regolith micro-trusses sintered in (d) air and (e) hydrogen. In the hydrogen-sintered micro-trusses, ilmenite is reduced to form metallic iron particles, but in the air-sintered micro-trusses the iron oxides remain in the oxide form as indicated by the red circles. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+sintered micro-trusses with increased sintering time is likely due to the melting of one or more mineral phases which provides liquid phase sintering [54]. Some melting occurs in the micro-trusses sintered in air at 1100 C for 4 h, as indicated by the glassy appearance of the samples in some regions, but significantly more melting occurs in the micro-trusses sintered in air at 1100 C for 24 h, as indicated by the smooth strut microstructure shown in Fig. 3. No indications of melting are observed in the microstructures of the micro-trusses sintered in hydrogen at the same temperature, most likely because of the reduction of iron oxide which is then unavailable for the formation of low-melting mixed oxides [5]. The sintering of the struts could be further improved by increasing the temperature; however, significant melting occurred in the micro-trusses sintered at 1110 C (a melting point of 1120 C has been reported for the JSC-1A simulant [58]) in air and resulted in slumping and a loss of the 3DP microarchitecture.
+XRD and EDS analysis of the as-sieved powders and the sintered micro-trusses was performed to identify the constitutive phases based on mineral compositions given in the technical specifications for the regolith simulant [56]. Fig. 4(a)-(c) shows the SEM backscatter images of the cross-sections of the sintered micro-trusses as well as the as-sieved powders. The olivine, plagioclase, Ca-pyroxene, and glassy phases are present in all micro-trusses, as confirmed by EDS compositional analysis and XRD phase analysis. However, in the hydrogen-sintered micro-trusses, the ilmenite is reduced to form metallic iron particles, but in the air-sintered micro-trusses the iron oxide-containing minerals, including ilmenite, remain in the oxide (hematite) form (Fig. 4(d)-(e)).
+3.2. Magnetic properties
+Both the as-sieved lunar regolith simulant powders and the 3DP green bodies (~1­1.5 g) can be moved and picked up with a 2.5 Â 2.5 Â 1.2 cm3 Nd­Fe­B magnet. This is due to the presence of ferromagnetic ilmenite and iron oxide phases within the powders. When
+
+the sintered micro-trusses were placed near the Nd­Fe­B magnet, the air-sintered micro-trusses (~0.5­1 g) could be moved around but not lifted, while the hydrogen-sintered micro-trusses (~0.5­1 g) could both be moved around and lifted. Thus, the presence of the metallic iron (vs. iron oxides which may also be ferromagnetic depending on the oxidation state of Fe) increases the ferromagnetic response of the sintered microtrusses. Several studies have also reported ferromagnetic behavior of raw materials from the Moon, suggesting that a similar increase in the magnetic response of 3DP objects sintered in a hydrogen atmosphere fabricated using real lunar regolith rather than the terrestrial simulant would be observed [59­62]. The magnetic properties of the green bodies and the hydrogen-sintered objects could be utilized to transport and handle the objects on the Moon via electromagnetic grippers.
+3.3. Compressive properties of sintered lunar regolith structures
+The compressive stress-strain curves for the micro-trusses sintered at 1100 C are shown in Fig. 5(a)-(d). The micro-trusses sintered at 1050 C were not tested in compression due to their low degree of sintering. The serrated shapes of the stress-strain curves are characteristic of brittle cellular materials which undergo internal damage or spalling during compression [23]. The peak compressive stresses for the sintered 3DP micro-trusses as well as the compressive yield strengths for AM lunar regolith objects from literature are shown in Fig. 5(e)-(f). The peak compressive stresses range from ~1 to 19 MPa and increase sharply with increasing relative density, as is expected for porous materials [23]. The hydrogen-sintered micro-trusses are weaker than the air-sintered micro-trusses, which is likely due to their lesser degree of sintering and higher porosity. The partial melting and glass formation improves the sintering of the air-sintered micro-trusses, which thus increases the relative density and strengthens the micro-trusses. In general, spalling began at strains of ~5% in all of the micro-trusses, resulting in the sharp serrations in the stress-strain curves, but significantly more spalling
+
+5
+
+S.L. Taylor et al.
+
+Acta Astronautica 143 (2018) 1­8
+
+Fig. 5. Compressive stress-strain curves for micro-trusses with various relative densities, sintered at 1100 C in (a) air for 4 h, (b) air for 24 h, (c) hydrogen for 4 h, and (d) hydrogen for 24 h. (e) Plot of peak compressive stress vs. relative density showing present data with a power law fit and (f) literature data for lunar regolith simulant blocks sintered (relative density not reported, but assumed to be between 0.5 and 0.9) at 1000 and 1050 C in vacuum (red box) [9], pressed and sintered regolith bricks (purple oval) [63], chemically bonded D-shaped regolith blocks (green star) [13], commercial ceramic foams (yellow line) [23], and terrestrial clay bricks (blue rectangle) [64]. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+occurred in the hydrogen-sintered micro-trusses. Significant splitting of the air-sintered micro-trusses results in a significant, sharp decrease in the engineering compressive stress at strains of ~2­4% (due to the reduced cross-sectional area of the micro-trusses). No splitting was observed in the hydrogen-sintered micro-trusses, which may be due to crack bridging by the metallic iron particles formed upon reduction of the ilmenite.
+The maximum compressive stresses for all the micro-trusses are similar to those for commercial ceramic foams with relative densities of ~10­25% (0.8­1.2 MPa) [23], despite the fact that the lunar regolith simulant is an unrefined, raw material rather than a refined powder typically used in sintered ceramics. Bricks fabricated by sintering (at 1100 C) of pressed MLS-1 lunar regolith simulant had compressive strengths of ~14 MPa, with porosity not reported but below the as-pressed density of 29% [63]. Compressive strengths of 7­10 MPa for regolith blocks fabricated with JSC-1A simulant sintered at 1000 and
+
+1050 C, which are within the range of values achieved here, have been reported [9]. However, the relative densities of these sintered blocks, while not reported by the authors [9,63], are likely much higher (assumed between 0.5 and 0.9) than those of the 3DP micro-trusses because the present 3DP micro-trusses contain a significant amount of 3DP porosity from the spacing between the printed struts in addition to the porosity from sintering, while the sintered blocks only contain porosity from sintering. A compressive yield strength of ~20 MPa was reported for non-sintered, chemically bonded, D-shaped lunar regolith simulant blocks with a relative density of 87% [13]. Increasing the relative density of the cellular structures by decreasing the strut spacing would likely improve the compressive strength. For comparison, clay bricks (>75% relative density) used for terrestrial construction have compressive strengths of 10­20 MPa [64]. Given that the lunar gravity is ~1/6 of Earth's gravity, this would correspond to a required strength of ~1.7­3.3 MPa, which is within the range of the peak compressive
+
+6
+
+S.L. Taylor et al.
+stresses reported here for the micro-trusses, making them suitable for bricks and other load-bearing elements.
+The hydrogen-sintered micro-trusses did not display an increase in the peak strength, and/or energy absorption during crushing from the presence of the metallic iron inclusions. However, this could be because of the poor sintering from the lack of liquid or glassy phase formation or because the Fe2O3 þ FeO content (~12%) in the JSC-1A simulant was not high enough to form a percolating network of metallic iron upon reduction [58]. The addition of metallic particles to the inks may improve the strength and toughness of the sintered lunar regolith [9]. Increasing the sintering temperature could also improve the degree of sintering and, thus, the strength; however, for micro-trusses sintered in air at 1110 C, large-scale melting resulted in slumping and a loss of the 3DP microarchitecture. These melting temperatures are consistent with values reported in the literature [54,58,63,65]. Beneficiation, enrichment (e.g. magnetically), and sieving of the lunar regolith may also improve the sintering of the resulting concentrates, from which micro-trusses with increased strength could be sintered. Additionally, the oxygen/water produced during the reduction of the ilmenite minerals in the micro-trusses sintered in hydrogen could be collected for human use [27­33].
+4. Conclusions
+This work investigates the microstructures, compressive properties, and ferromagnetic properties of porous lunar regolith micro-trusses (with 18­43% relative density) produced via direct-extrusion 3D-printing and subsequent polymer removal and sintering in either air or hydrogen. Strut densification and relative density improved when the sintering temperature was increased from 1050 to 1100 C in both air and hydrogen. Improvements were particularly marked for sintering in air when time increased from 4 to 24 h. The increased relative density, linear shrinkage, and peak compressive stresses in the air-sintered microtrusses, as compared to the hydrogen-sintered micro-trusses, are due to liquid phase sintering from the formation of a glassy phase. The further oxidation of the iron-containing minerals in the air-sintered microtrusses results in a reduced magnetization compared to the hydrogensintered micro-trusses, which contain metallic iron. This method could be used for the in situ fabrication of micro-truss structures for construction materials such as bricks, blocks or support materials for communication, energy, and transportation systems, as well as habitats on the Moon.
+Author contribution statement
+SLT, KDK, RNS, and DCD designed the experiments. AEJ and NRG 3Dprinted the micro-trusses. NRG performed the XRD experiments. SLT and AJI performed all the other experiments. SLT analyzed the data and wrote the manuscript under the guidance of DCD. All authors contributed to discussions of the data and were involved with revisions of the manuscript.
+Competing financial interests
+The authors declare no competing financial interests.
+Acknowledgements
+The authors acknowledge use of the following Northwestern University (NU) facilities supported by NSF NNCl-1542205 and NSF DMR1121262: the EPIC facility (NUANCE Center), the Materials Characterization and Imaging Facility (MatCl), the Jerome B. Cohen X-Ray Diffraction facility, and the Central Laboratory for Materials Mechanical Properties. This research was supported by a gift from Google. SLT was supported by the NSF Graduate Research Fellowship Program; AEJ was supported by a postdoctoral fellowship from The Hartwell Foundation.
+
+Acta Astronautica 143 (2018) 1­8
+References
+[1] S. Wilhelm, M. Curbach, Review of possible mineral materials and production techniques for a building material on the moon, Struct. Concr. 15 (2014) 419­428, https://doi.org/10.1002/suco.201300088.
+[2] T. Rousek, K. Eriksson, O. Doule, SinterHab, Acta Astronaut. 74 (2012) 98­111, https://doi.org/10.1016/j.actaastro.2011.10.009.
+[3] F. Ruess, J. Schaenzlin, H. Benaroya, Structural design of a lunar habitat, J. Aerosp. Eng. 19 (2006) 133­157, https://doi.org/10.1061/(ASCE)0893-1321(2006)19: 3(133).
+[4] J. Miller, L. Taylor, C. Zeitlin, L. Heilbronn, S. Guetersloh, M. DiGiuseppe, Y. Iwata, T. Murakami, Lunar soil as shielding against space radiation, Radiat. Meas. 44 (2009) 163­167, https://doi.org/10.1016/j.radmeas.2009.01.010.
+[5] B.J. Pletka, Processing of lunar basalt materials, Resour. Near Earth Sp. (1993) 325­350. http://www.uapress.arizona.edu/onlinebks/ResourcesNearEarthSpace/ resources13.pdf.
+[6] H.A. Toutanji, S. Evans, R.N. Grugel, Performance of lunar sulfur concrete in lunar environments, Constr. Build. Mater. 29 (2012) 444­448, https://doi.org/10.1016/ j.conbuildmat.2011.10.041.
+[7] R.N. Grugel, Integrity of sulfur concrete subjected to simulated lunar temperature cycles, Adv. Sp. Res. 50 (2012) 1294­1299, https://doi.org/10.1016/ j.asr.2012.06.027.
+[8] R.N. Grugel, H. Toutanji, Sulfur "concrete" for lunar applications - sublimation concerns, Adv. Sp. Res. 41 (2008) 103­112, https://doi.org/10.1016/ j.asr.2007.08.018.
+[9] B. Khoshnevis, J. Zhang, Extraterrestrial construction using Contour crafting, Solid free. Fabr. (2012) 250­259.
+[10] B. Khoshnevis, X. Yuan, Z. Behnam, B. Xia, Construction by Contour Crafting using sulfur concrete with planetary applications, Rapid Prototyp. J. 22 (2016) 848­856, https://doi.org/10.1108/RPJ-11-2015-0165.
+[11] M. Shin, K. Kim, S.W. Gwon, S. Cha, Durability of sustainable sulfur concrete with fly ash and recycled aggregate against chemical and weathering environments, Constr. Build. Mater. 69 (2014) 167­176, https://doi.org/10.1016/ j.conbuildmat.2014.07.061.
+[12] V. Krishna Balla, L.B. Roberson, G.W. O'Connor, S. Trigwell, S. Bose, A. Bandyopadhyay, First demonstration on direct laser fabrication of lunar regolith parts, Rapid Prototyp. J. 18 (2012) 451­457, https://doi.org/10.1108/ 13552541211271992.
+[13] G. Cesaretti, E. Dini, X. De Kestelier, V. Colla, L. Pambaguian, Building components for an outpost on the Lunar soil by means of a novel 3D printing technology, Acta Astronaut. 93 (2014) 430­450, https://doi.org/10.1016/j.actaastro.2013.07.034.
+[14] M. Fateri, A. Gebhardt, M. Khosravi, Experimental investigation of selective laser melting of lunar regolith for in-situ applications, in: Proc. 2013 ASME Int. Mech. Eng. Congr. Expo, 2013, https://doi.org/10.1017/CBO9781107415324.004.
+[15] M. Fateri, A. Gebhardt, Process parameters development of selective Laser Melting of lunar regolith for on-site manufacturing applications, Int. J. Appl. Ceram. Technol. 12 (2015) 46­52, https://doi.org/10.1111/ijac.12326.
+[16] A. Goulas, R.J. Friel, 3D printing with moondust, Rapid Prototyp. J. 22 (2016) 864­870, https://doi.org/10.1108/RPJ-02-2015-0022.
+[17] A. Goulas, J.G.P. Binner, R.A. Harris, R.J. Friel, Assessing extraterrestrial regolith material simulants for in-situ resource utilisation based 3D printing, Appl. Mater. Today 6 (2017) 54­61, https://doi.org/10.1016/j.apmt.2016.11.004.
+[18] A. Goulas, R.A. Harris, R.J. Friel, Additive manufacturing of physical assets by using ceramic multicomponent extra-terrestrial materials, Addit. Manuf. 10 (2016) 36­42, https://doi.org/10.1016/j.addma.2016.02.002.
+[19] B. Khoshnevis, J. Zhang, Selective separation sintering (SSS) a new layer based additive manufacturing approach for metals and ceramics, in: AIAA Sp. 2015 Conf. Expo, 2015. https://arc.aiaa.org/doi/10.2514/6.2015-4450.
+[20] A. Torrents, T.A. Schaedler, A.J. Jacobsen, W.B. Carter, L. Valdevit, Characterization of nickel-based microlattice materials with structural hierarchy from the nanometer to the millimeter scale, Acta Mater. 60 (2012) 3511­3523, https://doi.org/10.1016/j.actamat.2012.03.007.
+[21] T.A. Schaedler, A.J. Jacobsen, A. Torrents, A.E. Sorensen, J. Lian, J.R. Greer, L. Valdevit, W.B. Carter, Ultralight metallic microlattices, Science 334 (2011) 962­965, https://doi.org/10.1126/science.1211649.
+[22] S. Ho, C. Ravindran, G.D. Hibbard, Magnesium alloy micro-truss materials, Scr. Mater. 62 (2010) 21­24, https://doi.org/10.1016/j.scriptamat.2009.09.016.
+[23] L.J. Gibson, F. Ashby, Michael, Cellular Solids: Structure and Properties, second ed., Cambridge University Press, Cambridge, UK, 1997.
+[24] A.G. Evans, J.W. Hutchinson, N.A. Fleck, M.F. Ashby, H.N.G. Wadley, The topological design of multifunctional cellular metals, Prog. Mater. Sci. 46 (2001) 309­327, https://doi.org/10.1016/S0079-6425(00)00016-5.
+[25] L.M. Gordon, B.A. Bouwhuis, M. Suralvo, J.L. McCrea, G. Palumbo, G.D. Hibbard, Micro-truss nanocrystalline Ni hybrids, Acta Mater. 57 (2009) 932­939, https:// doi.org/10.1016/j.actamat.2008.10.038.
+[26] A.J. Jacobsen, W. Barvosa-Carter, S. Nutt, Micro-scale truss structures with threefold and six-fold symmetry formed from self-propagating polymer waveguides, Acta Mater. 56 (2008) 2540­2548, https://doi.org/10.1016/j.actamat.2008.01.051.
+[27] C.C. Allen, R.V. Morris, D.S. McKay, Oxygen extraction from lunar soils and pyroclastic glass, J. Geophys. Res. 101 (1996) 26085, https://doi.org/10.1029/ 96JE02726.
+[28] U. Hegde, R. Balasubramaniam, S. Gokoglu, Analysis of thermal and reaction times for hydrogen reduction of lunar regolith, System 195 (2008) 195­202, https:// doi.org/10.1063/1.2844967.
+
+7
+
+S.L. Taylor et al.
+[29] C.C. Allen, R.V. Morris, D.S. Mckay, Experimental reduction of lunar mare soil and volcanic glass, J. Geophys. Res. 99 (1994) 23173­23185, https://doi.org/10.1029/ 94JE02321.
+[30] C. Schwandt, J.A. Hamilton, D.J. Fray, I.A. Crawford, The production of oxygen and metal from lunar regolith, Planet. Space Sci. 74 (2012) 49­56, https://doi.org/ 10.1016/j.pss.2012.06.011.
+[31] Y. Zhao, F. Shadman, Reduction of ilmenite with hydrogen, Ind. Eng. Chem. Res. 30 (1991) 2080­2087, https://doi.org/10.1021/ie00057a005.
+[32] K.A. Lee, L. Oryshchyn, A. Paz, M. Reddington, T.M. Simon, The ROxygen Project: outpost-scale lunar oxygen production system development at johnson space center, J. Aerosp. Eng. 26 (2013) 67­73, https://doi.org/10.1061/(ASCE)AS.19435525.0000230.
+[33] D.L. Clark, B.W. Keller, J.A. Kirkland, Field test results of the PILOT hydrogen reduction reactor, in: AIAA Sp. 2009 Conf. Expo., American Institute of Aeronautics and Astronautics, 2009.
+[34] J.A. Yeomans, Ductile particle ceramic matrix composites - scientific curiosities or engineering materials? J. Eur. Ceram. Soc. 28 (2008) 1543­1550, https://doi.org/ 10.1016/j.jeurceramsoc.2007.12.009.
+[35] A.E. Jakus, S.L. Taylor, N.R. Geisendorfer, D.C. Dunand, R.N. Shah, Metallic architectures from 3D-printed powder-based liquid inks, Adv. Funct. Mater 25 (2015) 6985­6995, https://doi.org/10.1002/adfm.201503921.
+[36] E. Hong, B.Y. Ahn, D. Shoji, J.A. Lewis, D.C. Dunand, Microstructure and mechanical properties of reticulated titanium scrolls, Adv. Eng. Mater. 13 (2011) 1122­1127, https://doi.org/10.1002/adem.201100082.
+[37] B.Y. Ahn, D. Shoji, C.J. Hansen, E. Hong, D.C. Dunand, J.A. Lewis, Printed origami structures, Adv. Mater. 22 (2010) 2251­2554, https://doi.org/10.1002/ adma.200904232.
+[38] J.P. Li, J.R. De Wijn, C.A. Van Blitterswijk, K. De Groot, Porous Ti6Al4V scaffolds directly fabricated by 3D fibre deposition technique: effect of nozzle diameter, J. Mater. Sci. Mater. Med. 16 (2005) 1159­1163, https://doi.org/10.1007/s10856005-4723-6.
+[39] J.P. Li, J.R. de Wijn, C.A. Van Blitterswijk, K. de Groot, Porous Ti6Al4V scaffold directly fabricating by rapid prototyping: preparation and in vitro experiment, Biomaterials 27 (2006) 1223­1235, https://doi.org/10.1016/ j.biomaterials.2005.08.033.
+[40] J.P. Li, J.R. De Wijn, C.A. Van Blitterswijk, K. de Groot, The effect of scaffold architecture on properties of direct 3D fiber deposition of porous Ti6Al4V for orthopedic implants, J. Biomed. Mater. Res. Part A 92 (2009) 33­42, https:// doi.org/10.1002/jbm.a.32330.
+[41] N. Travitzky, A. Bonet, B. Dermeik, T. Fey, I. Filbert-Demut, L. Schlier, T. Schlordt, P. Greil, Additive manufacturing of ceramic-based materials, Adv. Eng. Mater. 16 (2014) 729­754, https://doi.org/10.1002/adem.201400097.
+[42] J.E. Smay, J. Cesarano, J.A. Lewis, Colloidal inks for directed assembly of 3-D periodic structures, Langmuir 18 (2002) 5429­5437, https://doi.org/10.1021/ la0257135.
+[43] Y.W. Moon, I.J. Choi, Y.H. Koh, H.E. Kim, Porous alumina ceramic scaffolds with biomimetic macro/micro-porous structure using three-dimensional (3-D) ceramic/ camphene-based extrusion, Ceram. Int. 41 (2015) 12371­12377, https://doi.org/ 10.1016/j.ceramint.2015.06.069.
+[44] M.M.M. Carrijo, H. Lorenz, I. Filbert-Demut, G.M. De Oliveira Barra, D. Hotza, X. Yin, P. Greil, N. Travitzky, Fabrication of Ti3SiC2-based composites via threedimensional printing: influence of processing on the final properties, Ceram. Int. 42 (2016) 9557­9564, https://doi.org/10.1016/j.ceramint.2016.03.036.
+[45] A.E. Jakus, E.B. Secor, A.L. Rutz, S.W. Jordan, M.C. Hersam, R.N. Shah, ThreeDimensional printing of high-content graphene scaffolds for electronic and biomedical applications, ACS Nano 9 (2015) 4636­4648, https://doi.org/10.1021/ acsnano.5b01179.
+[46] B.Y. Ahn, E.B. Duoss, M.J. Motala, X. Guo, S.-I. Park, Y. Xiong, J. Yoon, R.G. Nuzzo, J.A. Rogers, J.A. Lewis, Omnidirectional printing of flexible, stretchable, and
+
+Acta Astronautica 143 (2018) 1­8
+apanning silver microelectrodes, Science 323 (2009) 1590­1593, https://doi.org/ 10.1126/science.1168375 (80-. ). [47] J.A. Lewis, Direct ink writing of 3D functional materials, Adv. Funct. Mater. 16 (2006) 2193­2204, https://doi.org/10.1002/adfm.200600434. [48] C. Wu, W. Fan, Y. Zhou, Y. Luo, M. Gelinsky, J. Chang, Y. Xiao, 3D-printing of highly uniform CaSiO3 ceramic scaffolds: preparation, characterization and in vivo osteogenesis, J. Mater. Chem. 22 (2012) 12288­12295, https://doi.org/10.1039/ c2jm30566f. [49] E. García-Tun~on, S. Barg, J. Franco, R. Bell, S. Eslava, E. D'Elia, R.C. Maher, F. Guitian, E. Saiz, Printing in three dimensions with Graphene, Adv. Mater. 27 (2015) 1688­1693, https://doi.org/10.1002/adma.201405046. [50] A.E. Jakus, K.D. Koube, N.R. Geisendorfer, R.N. Shah, Robust and elastic lunar and martian structures from 3D-printed regolith inks, Sci. Rep. 7 (2017), https:// doi.org/10.1038/srep44931. [51] S.H. Liljestrand, D.W. Wilson, Lactic acid in urine after muscular exercise, J. Biol. Chem. 65 (1925) 773­782. [52] D.J. Dietzen, R. Wilhite, Timothy, D.N. Kenagy, D.S. Milliner, C.H. Smith, M. Landt, Extraction of glyceric and glycolic acids from urine with tetrahydrofuran: utility in detection of primary hyperoxaluria, Clin. Chem. 43 (1997) 1315­1320. [53] S.L. Taylor, A.E. Jakus, R.N. Shah, D.C. Dunand, Iron and nickel cellular structures by sintering of 3D-printed oxide or metallic particle inks, Adv. Eng. Mater. (2016), https://doi.org/10.1002/adem.201600365. [54] P.E. Hintze, S. Quintana, Building a lunar or martian launch pad with in situ materials: recent laboratory and field studies, J. Aerosp. Eng. 26 (2013) 134­142, https://doi.org/10.1061/(ASCE)AS.1943-5525.0000205. [55] G. Corrias, R. Licheri, R. Orrù, G. Cao, Self-propagating high-temperature reactions for the fabrication of Lunar and Martian physical assets, Acta Astronaut. 70 (2012) 69­76, https://doi.org/10.1016/j.actaastro.2011.07.022. [56] Orbitec, Characterization Summary of JSC-1A Bulk Lunar Mare Regolith Simulant, 2007. [57] Orbitec, Characterization Summary of JSC-1AF Lunar Mare Regolith Simulant, 2006. [58] C.S. Ray, S.T. Reis, S. Sen, J.S. O'Dell, JSC-1A lunar soil simulant: characterization, glass formation, and selected glass properties, J. Non. Cryst. Solids 356 (2010) 2369­2374, https://doi.org/10.1016/j.jnoncrysol.2010.04.049. [59] N.C. Richmond, L.L. Hood, A preliminary global map of the vector lunar crustal magnetic field based on Lunar Prospector magnetometer data, J. Geophys. Res. E Planets 113 (2008), https://doi.org/10.1029/2007JE002933. [60] P. Rochette, J. Gattacceca, A.V. Ivanov, M.A. Nazarov, N.S. Bezaeva, Magnetic properties of lunar materials: meteorites, Luna and Apollo returned samples, Earth Planet. Sci. Lett. 292 (2010) 383­391, https://doi.org/10.1016/j.epsl.2010.02.007. [61] Y. Liu, J.R. Thompson, L.A. Taylor, J. Park, Magnetic properties of unique apollo 17 soil 70051, Lunar Planet. Sci. XXXVII (2006) 7­8. [62] D.J. Lawrence, Iron abundances on the lunar surface as measured by the Lunar Prospector gamma-ray and neutron spectrometers, J. Geophys. Res. 107 (2002), https://doi.org/10.1029/2001JE001530. [63] C.C. Allen, J.A. Hines, D.A. Altemir, D.S. Mckay, Sintering of lunar simulant basalt, Abstr. Lunar Planet. Sci. Conf. 23 (1992) 19­20, https://doi.org/10.1017/ CBO9781107415324.004. [64] The Brick Industry Association, Specifications for and Classification of Brick, 2007. Reston, VA. [65] S. Allan, J. Braunstein, I. Baranova, N. Vandervoort, M. Fall, H. Shulman, Computational modeling and experimental microwave processing of JSC-1A lunar simulant, J. Aerosp. Eng. (2012) 189, https://doi.org/10.1061/(ASCE)AS.19435525.0000245. [66] E. Hill, M.J. Mellin, B. Deane, Y. Liu, L.A. Taylor, Apollo sample 70051 and highand low-Ti lunar soil simulants MLS-1A and JSC-1A: implications for future lunar exploration, J. Geophys. Res. E Planets 112 (2007) 1­11, https://doi.org/10.1029/ 2006JE002767.
+
+8
+
+

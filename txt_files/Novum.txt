@@ -1,0 +1,937 @@
+Novum
+A Unified Architecture for Extreme Environments
+Canaan Skye Martin
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Canaan Skye Martin
+M.S. Space Architecture Sasakawa International Center for Space Architecture Cullen College of Engineering - University of Houston B. Architecture College of Architecture - University of Arizona
+This work is subject to copyright. All rights are reserved, whether the whole or part of the material is
+concerned, specifically those of translation, reprinting, re-use of illustrations, broadcasting, reproduction by photocopying machines
+or similar means, and storage in data banks.
+The use of registered names, trademarks, etc. in this publication does not imply, in the absence of a specific statement, that such names are exempt from the relevant protective laws and regulations
+and therefore free for general use.
+Concept by the author.
+©2016 Canaan Skye Martin
+
+Abstract
+Project `Novum' is a comprehensive study of the steps required for humans to most efficiently transform a feral site into a habitable base. This project utilizes current technology and in-use Earth based industrial infrastructures for the construction of the required elements and as a foundation keeping the design from being pushed the realm of science fiction.
+Focused on the development of a modular system of augmentable elements, `Novum' creates a Unified Architecture for the Extreme Environments of Earth, the Moon, Mars, and beyond. The project's end focus is a design in which any realistic site across the known universe can be blanketed with an expanding habitable environment.
+As single flaws within any link of a project chain can transform it from a solid concept into a non-starter, each stage of this project's chronology was analyzed and used to iteratively re-influence the design through repeated development loops. Launch, Orbital Assembly, Microgravity Transit, Orbital Separation, Landing, Surface Transit, Deployment, Surface Assembly, Environment Establishment, Human Intervention, and Habitat Expansion where all investigated throughout the course of Project `Novum'.
+This project beings with a brief overview of the industry today, including precedent studies and analysis of past and current similar design projects. The focus then switches to the development of the `Novum' design and showcases a catalog of the Architecture's required elements. Using this library of modules, an example base was designed to showcase the project's ability to blanket an undulating surface of an unlivable world with habitable pressurized vessels and connection tunnels.
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Contents
+
+00 - Title Page 01 - Abstract 02 - Contents 03 - Introduction - The Space Industrial Revolution
+04 - Precedent Overview 05 - Counterpoint 06 - ISRU in the Design 07 - MarsOne & MarsPolar 08 - NASA Lunar Outpost 09 - NASA Mars Base 10 - Partial Gravity Habitat 11 - Lunar Base Scenarios 12 - Random Precedents
+13 - Boundaries 13.1 - Constraints & Possibility 13.2 - ISRU & Mining 13.3 - Technology & Economy 13.4 - Assumptions
+14 - Novum Design 14.1 - Foundation Elements 14.2 - NASA's Space Launch System 14.3 - NASA's Orion Crew Module 14.4 - The Human Body
+15 - Spaces Reserved 15.1 - Fairings, Habitats, & Expansions in Plan 15.2 - Volumes within the Fairing in Section 15.3 - The Rearrangement of Elements 15.4 - PUC Volumes in Section
+16 - Module Unification 16.1 - Unified Module Design 16.2 - Grid Geometry Development 16.3 - Hatch Number Study 16.4 - MilSpec Types & Sizes
+17 - Internal Volumes 17.1 - Floor Parcels Study 17.2 - Volume Balance
+18 - Interior Options 18.1 - Program Insertion 18.2 - Design Variety 18.3 - Hatch Number vs Program
+
+19 - Inflatables 19.1 - Inflatable Structures 19.2 - Deployment Method 19.3 - Diagrams of Inflation 19.4 - Inflatable Floor Parcels
+20 - System Attributes 20.1 - Growth Grid 20.2 - PUC Sizes 20.3 - Horizontal Connections 20.4 - Vertical Connections 20.5 - Inflatables & Rigids 20.6 - Rails 20.7 - Lifters 20.8 - Levelers
+21 - Connection Components 21.1 - Rail Clamp Hinge 21.2 - Structural Jamb Cage 21.3 - Rail Clamp Truss (compressed) 21.4 - EVA Jamb Cage 21.5 - Rail Clamp Truss (expanded) 21.6 - Expandable Connection Tunnel
+22 - Rassor Types 22.1 - Modified KSC SwampWork's Dig Rassor 22.2 - Modified Utility Rassor 22.3 - Modified 3D Printer Rassor 22.4 - Modified Transport Rassor
+23 - Microgravity Operations 24 - Landing Events 25 - Landed & Moving 26 - Recycling Graveyard 27 - Systems & Stacking 28 - Rassor Business 29 - Repair, Processing, & Power 30 - Connecting Tunnels 31 - Terrain Adaptation 32 - Habitat Climbing 33 - Rover Connection 34 - Base Plan 35 - Expanded Base 36 - Exterior Perspective
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Introduction
+
+The Space Industrial Revolution In this, the first half of 2016, we stand on the edge of a new era in space industry, technology, and availability. There are regularly new commercial space start-up companies competing for NASA contracts against the old aerospace giants, like Boeing and Lockheed Martin. They are striving to meet the upcoming demands of other corporations or individuals seeking to utilize space operations. Today, space startup companies push to a full spectrum of foci. Some bring together multiple industries, such as 3D printing and rocket motor production, working to find their niche through technological or economical milestones. Other companies are present bold concepts for mining and/or habitation of other celestial bodies. Often though, these companies are only inter-focused with on-planet R&D and the collection of funding. Finally, as in all industries, there's also the bottom of the barrel hoax companies that promise the stars and deliver nothing more than disappointment. These are the companies that feed off of crowd funding with vague concepts and undefined business plans. They pull credibility from the legitimate space start-ups and money from the investors that would have funded a space fairing society. This last bit is sad, but all of this makes a lot of sense as first steps of a new Space Industrial Revolution.
+Excluding the awful living and working conditions, these years should closely mimic the decades of Industrial Revolutions before. The efforts of the Space Agencies on this planet, from their separate beginnings to the current conglomeration with International Space Station. All of these play a similar role to that which Thomas Newcomen did with his 1712 invention of the steam engine. Though it did not start the first Industrial Revolution, it was the foundation catalyst for it. It generated the idea to use the power of one element to drive another, or many others, all toward common and bigger goals. It wasn't until others could rapidly produce their own individual versions of the engine that they could begin to develop their own new machines and start the Industrial Revolution of the late 1700s. This
+
+pattern can be seen throughout history. It happened in the 12th century Renaissance with the Standing Wind Mill playing a pending roll to agricultural and architectural revolutions. It also happened in the Second Industrial Revolution with Bessemer steel in the 1860s leading to the automotive production lines near the turn of the century. All are similar to the decades of gap it's taken for new industry technology and knowledge to spread from their source, Space Agencies, to the public.
+Today, companies can start with all the billions of dollars of research and development compiled for free. Corporations are able to affordably begin on the foundations delivered to them by those Space Agencies. They have been given the motors, methods, materials, and the math to begin their own exploration and define themselves among the competition. What they do with information is of their own design, so the achievement is exactly what is happening now in 2016; a shotgun wielding tornado of space ideas and space possibilities blasting across social media, crowd funding sites, and conferences or events. Companies of all focuses and backgrounds are launching their concepts into the main stream, hoping to get caught. This too makes sense through the comparison with the Industrial Revolutions. These are the pivotal moments that companies who start as wispy flickers will explode into giants capable of catalyzing centuries of change and innovation.
+A selection of these companies stick out from the crowd of cube-sat delivery or low cost launch solutions. These companies are working on manned flight options. Most of these are following in the path of NASA and working towered manned modules like The Orion. This is shown with SpaceX working on their crewed Dragon module and Boeing pumping out their CST-100. Other companies are following more of a Space Shuttle design, similar to Virgin Galactic and Sierra Nevada with their SpaceShipTwo and Dream Chaser crafts, respectively. Bigelow is working on inflatable habitat technology and launching their BEAM module this
+
+spring. These are the current peaks of the industry at the moment, but all could change in an instant.
+A constant flow of new propulsion technologies, such as Quantum, Ion, and EM drives, are showcased regularly in notable publications. SpaceX's Mars mission plan is said to be released later this year. NASA is working on their Evolvable Path to Mars campaign. There is current talk of possible 3 day trips to Mars via powerful lasers. The European Union seems to be focusing on future lunar missions, though nothing is currently solidified. There are also the start-ups looking to do Mars missions as soon as possible, pushing for funding and volunteers. The unfortunate realization is that none of it is cohesive. Collectively it is an entirely impressive bundle of chaos. It presents the question if we are setting ourselves up for inefficient failure. There is a worry that the standard paths of business and human progression will cause roadblocks and delays in the expansion of our species into the stars. Then again, maybe this is how these revolutions always start. This could just be the chaos, before the calm, before a storm of invention and exploration.
+During a conference at the Lunar and Planetary Institute in Houston, a presenter proposed a question to our Space Architecture class and a visiting similar group from the EU. The question was more or less, "How do we get the crew from the Pressurized Rover into the Ascent Vehicle?" Ideas were pitched around the room for a while and a pattern of answers became clear. Every concept wouldn't work due to one of three things. The first was that we couldn't change the design of the rover. The second was that we couldn't change the design of the ascent vehicle. The third was that we couldn't build any ramps or realistically attach any tunnels to where the hatches needed to connect to each other. So, unless we brought extra equipment, which would cost at least one extra launch and a lot of money for development and construction, we could not connect those modules in this scenario.
+
+This problem is something that can be seen throughout the industry. NASA is always hunting for funding, so they have to spread their contracts out across the country to get promotion from multiple political districts. The goal is to raise the percentage of areas that care about space production enough to vote for higher NASA funding. This has created an infrastructure where each of these separate entities has developed their own little element or specialty. Each works fantastically within its specific parameters, but almost none of them interact nicely with any of the others. Hence the Pressurized Rover not linking up with the Ascent Module. Two different entities built two different devices. These two devices may function perfectly individually but without functioning perfectly together, the mission is a non-starter. Corporations have a higher capability to focus their efforts, but they often don't have the funding to build each piece of the puzzle. What we need is unification.
+Luck have it, steps are in place to do such a thing. We started with Apollo-Soyuz when two very separate nations made two very separate modules that shared a docking port architecture. We pushed that mentality further with the Common and International Docking Adapters for the ISS. Standards that are of public release enabling commercial companies the means to interface with Space Agency mechanisms. A beautiful start, but now it must be pushed further. Every element needs to be critiqued with a holistic view of possible mission parameters. They should strive to fit within an augmentable and modular system that can accommodate any site and mission plan. Each piece needs to find its place among the others and form the symbiotic relationships required to accomplish the endeavors posed by this Space Industrial Revolution. Without a Unified Architecture for these Extreme Environments, humans will never reach them or anything that may lay beyond.
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Precedent overview
+
+These studies focus on current and historic design concepts for habitats in extreme environments. As none yet exist beyond the International Space Station, all of these examples sit on a fictional plane. The goal of this study is to analyze the level of realism of each proposal and determine where it sits in the gradient between fiction and reality. Architectural and Mission analysis are to be used in determining if the construction of the base is possible and safe. Our species has spent a few hundred thousand years evolving for the conditions of this planet. When we depart the Earth's controlled environment and venture into the unknown, we disable ourselves. Identifying and overcoming these handicaps is our only way to ensure safe and efficient habitation.
+Areas of Interest: Emergency Egress Loops & Transitions Ergonomics & Anthropometrics Accommodations vs. ADA Standards Module Volume, Mass, & Geometry Site Modifications & Master Planning Growth Ability & Modularity Launch, Landing, and Deployment
+
+Precedent study has shown that often we are left with nothing more than a sea of questions.
+No closer to an answer.
+No more satisfied than we began.
+The same mistakes are made.
+The same problems occur.
+From design to design, throughout the ages.
+It is time to stop.
+It is time to move beyond.
+
+What levels of funding and technology are required?
+How are habitat elements moved and connected?
+What In Situ Resources are used and how?
+Are there Emergency Egress Loops?
+Can the base expand and grow?
+Are modules lauchable?
+Is there redundancy?
+Where are system paths?
+How is the site modified?
+What is the effect on the human?
+Is the crew forced to go E.V.A.?
+What equipment is brought for construction?
+How does crew transition between spaces?
+Can the structures maintain required pressure loads?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Counterpoint
+
+COUNTERPOINT: A LUNAR COLONY by: John R. Dossey & Guillermo L. Trotti The University of Houston, TX. May 1974
+This beautiful project doesn't extrapolate much on the mission planning or staging required to build such a base other than saying it will grow into the shown self-sufficient base in about 10 years. The authors push directly into the finalized master base design and its varied pieces of program.
+The design is said to be a linear corridor with areas plugged into it. This is an issue as any linear structure automatically does not accommodate a proper emergency egress loop between pressurized habitation modules. If a linear base experiences an emergency in any module, besides the end caps, the base will be split in two and people will be separated from necessities like food, communications, and life support.
+The scale of this project is well beyond anything capable today or any realistic future. The project is layered with dimension references such as digging 50 foot deep holes, 150 foot tunnels at 40 feet diameter, or building 9 story tall
+
+domes that span 225 feet. There is little to no mention of the materials specifications or equipment used for construction besides Basalt casting and a hydrogen thermal drill. We are left with zero information on how these elements would ever get to the surface, deploy, and begin ISR collection and construction.
+Almost every precedent leaves out information on the launch sequence and transition operations. This is true with landing, deploying, and initial setup of bases as well. Concepts are jumped to their final stages with little investigation of how they could ever even get there.
+Counterpoint's habitat tunnels and laboratory modules are based on a radial configuration of attached pieces to a central node. There is no safe egress loop. Everyone is in bad shape if the node has an emergency. Most elements of the base are connected via pressurized underground tunnels. The undertaking of creating this tunnel system alone is going to cost many trillions of dollars and require an existing infrastructure that will undoubtedly take over a decade to establish. Counterpoint is undeniably a masterful piece of sci-fi.
+
+How are these holes dug?
+
+How many launches?
+
+How are these Constructed?
+
+What Happens when There's an emergency?
+How much material is needed to build these tunnels?
+How are these pressurized?
+Is there safe egress if the nodes depressurize?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+ISRU in the Design
+
+In Situ Resource Utilization in the Design of Advanced Lunar Facilities by: Wise, Fahey, & Spana - June 1990
+This project focuses around the idea of digging holes and sintering the walls into an airtight pressure vessel. Then brought elements will be installed and the habitat will be covered with the regolith that was originally dug out. The sintering and digging element seems to be reusable and internal elements are positioned by a brought crane/rover. Brought airlocks are also installed and somehow have a sealed connection to the sintered cylinder.
+The design seems simple enough to understand and construct. A full scale base design isn't shown, but using the methodology they've created, egress loops could be installed without problem. The initial questions revolve around how they make sure the site is going to accommodate holes of this size being drilled in it. Are there boulders or material deposits that we can't drill through? Do we assume the drill can push through anything? How heavy is the drill? What is the mission plan and how many launches are required for initial setup?
+
+Another issue to be addressed is that there are sharp corners in the design of this pressure vessel. This will cause concentrated loads and require exponentially intensified structure. These corners are also the connections between the brought material and the sintered regolith, which brings up the question of how the two form a pressure seal. Also, there is nothing that shows how the material is moved out of the hole or where it is stored on the site.
+The boring and sintering machine would need to be heavily anchored to the surface to counter the rotational forces. It will also need to be able to generate a fair amount of down force to cut into the layers of rock. This lightweight deployable truss element will most likely spin in place or get itself stuck.
+There is little information addressing the person or how the habitats will be filled with equipment, furniture, and logistics. Also, there is little to no information on emergency egress or how the base would be master planned. The project seems incomplete, lacking a real mission plan beyond the construction of these underground cylinders.
+
+Can the drill cut through any material?
+How is this sealed and tested?
+
+How is the drill anchored?
+How are these connected?
+What is in the air-lock units?
+How is material removed?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+MarsOne & MarsPolar
+
+MarsOne and MarsPolar Both of these companies are pitching the idea of a one way trip to Mars in efforts to begin a permanent settlement. MarsOne is listed as a non-profit and MarsPolar says it's a private crowd-sourced initiative. Both survive off of volunteer work and donations. Neither have a solid mission plan nor design concept.
+First, MarsOne. The precursor mission they want to do will send their rover and a trailer to the surface for site selection and analysis. This is a good and widely accepted first step. The issue sits with the requirements they've put on this rover. It's supposed to traverse harsh terrain, transport the landers, establish communications, clear large areas for the placement of solar panels, and deposit Martian soil on the inflatables. The rover they have detailed seems incapable of much more than Spirit or Opportunity.
+Later, MarsOne's will launch a number of cargo missions to land a second rover, 2 living units, 2 life support units, and a supply unit. The rovers are then supposed to drive out to the landing zones, lift the landers on the trailers, and align them in position at the site.
+
+They say the ECLSS would produce atmosphere, water, and oxygen to be ready for the first crew. This means the rovers would also have to be able to connect the systems of the module, which is something not listed on the site.
+In 2026, when the habitats are ready, the crew will be launched and 6-8 months later will land on the surface. They then must go EVA and ride on the rover to the base, over a kilometer away. There they will deploy solar panels, install hallways, and set up food production. Each living unit is meant for 4 people. First mission is with 8 people. The second mission is the same and the process repeats with crews landing every two years.
+MarsPolar's plan uses inflatable habitats and is much less detailed. They only recently popped up on social media and are mainly just calling for money and volunteers. Neither group shows any type of realistic design. These vague and dangerous concepts cloud the public's perception of what is actually possible. They may get people excited about space exploration for a short time and unless drastic changes happen, they will ultimately fail in potential tragedy.
+
+How is regolith being collected and deposited on the habitats?
+Mars-One.com
+Is EVA the only option for safe emergency egress?
+How is any of this Launched, landed, deployed, or operated?
+MarsPolar.space
+Does anyone survive if something happened to the central node?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+NASA Lunar Outpost
+
+Lunar Outpost by: Alred, Bufkin, Kennedy, Petro, Roberts, Stecklein, & Sturm - 1989
+This project was produced by NASA at the Johnson Space Center in Houston. As expected, NASA went into much thorough detail on their mission planning than most of the other projects chosen for Novum's precedent study. They address precursor missions, site analysis, sample returns, orbital assembly, transit, landing, and deployment.
+The project does takes the assumption that the Space Station Freedom will be operating in LEO. Freedom itself is of good design being the first solid concept of a station designed with emergency egress loops in mind.
+Space Station
+AN EGRESS LOFreOedPom!
+
+The design of this project is very comprehensive but an issue arises with its scale. The Platform they have designed to be the first evolution of Phase 1 Space Station Freedom. This Platform is overly massive absolutely dwarfing anything we've ever attempted to put in space. It is estimated that the weight of their `Atrium' is at over 500 metric tons, the `Platform' is estimated at over 300 metric tons, and fuel storage being estimated at around 364 metric tons. This station is a monster requiring dozens of launches and hundreds of billions of dollars to even get into space.
+The habitat is based on the idea of digging a hole (how is not explained) and putting a 16m diameter inflatable inside. The inflatable would then be covered by a meter of regolith for protection. This becomes questionable as there is no habitable redundancy in creating one large element. Its size may allow for emergency egress loops to be formed within, but if something were to ultimately fail, there's little chance of survival. The base master planning also shows system elements crossing vehicles paths. It is very questionable of how Astronauts will move across the site safely.
+
+Why is this so oversized?
+
+Is deployment of all of this possible?
+
+is the tunnel unprotected?
+
+How does the rover drive over these systems?
+
+How does emergency egress work in the sphere?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+NASA Mars Base
+
+Mars Exploration Zones [Video] by: NASA - Dec 22, 2015
+This is the most recent animation done by NASA showing a Mars Surface Field Station, "...after nearly two decades of cargo and crewed missions." With this statement, assumption is made that this is something with decades of planning and development. The video is beautiful, full of clean graphics and detailed elements. Unfortunately, it seems more work was put into making the renderings look good rather than designing a base and habitats.
+The design does incorporate system redundancies and seems to be realistic with module design, up-mass constraints, and landing/deployment possibilities. Issues begin with how the crew actually get from the descent module to the pressurized rover. In this, as well as many other designs, a connection tunnel suddenly appears deployed giving almost no information on how. Habitat elements also seem to be getting off-loaded by a questionable crane onto a chariot chassis that is smaller than the elements it's carrying. It also has zero structure that describes element interaction.
+
+Systems and power lines are once again draped across the surface of the site. There is zero information on how they are initially installed or now vehicles and people are able to safely transition over them. They just sit on the surface, exposed to the elements, cluttering the base, and forcing long paths of transit.
+The base is almost a step backwards from earlier designs. It has zero emergency egress loops and even has a disconnected element. This disconnected habitat unit raises major questions about safety and redundancy. Forcing EVA will waste time and money while exponentially raising the risk factor of the mission.
+The interiors of the habitat seem dated. Human behavioral factors will be agitated by users constantly having to interact with tiny crawl-space sized transitions between elements. There looks to be almost no windows or accommodations for rest and relaxation.
+Finally, the ascent vehicle is located distant from the site for good reason. The question revolves again around how the astronauts get inside, unless it is just another magic connection tunnel.
+
+https://www.youtube.com/watch?v=94bIW7e1Otg&feature=youtu.be
+
+How does the tunnel deploy?
+
+Egress Loops?
+
+Or attach?
+
+Forced EVA? Why are we using these
+
+Or stay clean?
+How far does this rover drive
+to get to the other side?
+
+Square C.B.M. Hatches?
+How do you get inside this?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Partial Gravity Habitat
+
+Partial Gravity Habitat Study: With Application to Lunar Base Design by: Capps, Lorandos, Akhidime, Bunch, Lund, Moor, and Murakawa - 1989
+This is a solid study that explored many options for interior and exterior habitat and base design. They have devised two different types of modules. One of which is a Node, a short horizontally oriented cylinder with multiple hatches. The other type is a long horizontally oriented cylinder with 2 hatches. These long horizontal habitats are reconfigurable for living, working, or any other mission requirements.
+The study compared and contrasted multiple configurations using these two primary elements. They based much of their study on similar criteria to this precedent study. Indeed, this is one of the most thorough projects found.
+The biggest issue for this project is how they came to their final base design. It seems to fight the research conclusions they made earlier in the project. For example, the project identifies the requirements for egress loops but the final design only shows one real loop.
+
+The design also calls for elements to be underground and buried. There is no explanation of how this could take place or the equipment required to do such a task. There is little to no information on what launch systems would be able to carry modules of this size. They are also very vague on how these modules would land or be moved around the site.
+The designers recognized the need for expandable and adjustable pressurized tunnels connecting modules. Their design shows two coming out of each end of each module. There is little consideration for the pressure loads this type of configuration would create or the projected weight of such a design decision. There is also zero information on how these tunnels could actually connect to each other or the process required to secure and test the habitat.
+As realistic and thorough as this design is, it still is a non-starter. There amount of missing information drastically outweighs the concept. Current design cannot be solid as there are too many variables from unaddressed topics that will easily change in place design decisions.
+
+No egress loop.
+Egress Loops!
+How does the last module
+get positioned and connect?
+
+What is done with this wasted
+space?
+Why stop making egress loops?
+How do the tunnels work?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Lunar Base Scenarios
+
+Space Architecture: Lunar Base Scenarios by: Schnarsky, Cordes, Crabb, and Jacobs - 1988
+This project is a compilation of base ideas that are all compared and contrasted to each other. Each design was done in unison with the others and all are based upon the same set of site and environment analysis. The designers thoroughly identified the complications of the extreme environments their projects were to sit upon. The issues begin with the design solutions for these complications.
+Each project proposes that habitats should be buried to protect against micrometeorites and radiation. This idea is solid, but none of the projects explain how it would be done. There is no reference to the design of the equipment, capability of launch, or process of digging a hole, inserting a module, connecting it to other modules, or covering it back up.
+Most of these massive designs are well beyond any current launch technology, and these were developed about 30 years ago. There is zero consideration to the
+
+requirements and sizes of construction equipment. This builds a huge gap between project validity and sci-fi fun.
+There were very few projects that incorporated any type of safety measures. Almost no egress loops were found through all the designs. Instead, impossible to construct structures were positioned so that emergency egress would force the crew to go EVA to survive.
+Each project seems to begin well after decades of work were done to create an acceptable site. Still, no information is given on how this would be capable. They assume that construction equipment will be sent to the surface of other worlds and able to make the site however they want. This assumption is not applicable as we don't yet have the technology to do such a thing.
+In no way can we just assume that current construction equipment for site modification here on Earth would work on any other planetary body. In fact, we know it will not. If off-planet projects are to be taken seriously, site modification and the technology required need to be addressed and detailed.
+
+No egress loops in horizontal.
+Egress Loops
+In Vertical!
+
+How are these Constructed?
+How is Pressure Restrained?
+How are these cleaned and prepared?
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Random Precedents
+
+A Random Collection of Precedents This compilation of projects found across the internet gives a holistic view of the general concepts and mentality we have for extreme environment habitation. These are concepts and a mentality that drastically need to be augmented and updated. There needs to be a refocus on safety and realistic constructability.
+
+Lego Made
+An Egress Loop!
+https://ideas.lego.com/projects/13162
+
+How do brick buildings contain pressure?
+No egress loop.
+
+No egress loop. Why Symmetry?
+
+http://www.fosterandpartners.com/projects/lunar-habitation/
+How is all
+
+the
+
+regolith moved?
+
+http://pre15.deviantart.net/41b4/th/pre/f/2011/276/2/a/mars_base_by_spaceguy5-d4botz6.jpg
+No egress loop.
+
+How are these constructed?
+
+Where do the systems run?
+http://mondoart.net/
+
+Why force EVA?
+
+How are these positioned and deployed on the site?
+
+http://www.spacehabs.com/projects/#portfolio/7/
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Boundaries
+
+Constraints & Possibility
+
+ISRU & Mining
+
+Often, as seen throughout the precedent studies, space habitat design concepts fall short of being realistic or plausible. Project Novum works to address the issues regularly forgotten in extreme environment architectural engineering. Projects are non-starters unless they can meet every requirement along the way.
+Architectures must be launchable and able to berth or dock with each other if necessary. They must be capable of transport through microgravity space from one orbit to another as well as safely deploy cargo to the surface. Elements must pass through whatever atmosphere may be present and safely land on whatever surface has been chosen. Separately landed modules will need to transport across the surface and connect with each other, most likely remotely. The base will need to be set up and ready for humans prior to their arrival. At the end of all of it, there's also a return trip.
+Lacking detail at any of these stages will break the architectural unification, jeopardizing the potential success of the mission as a whole.
+
+Projects often claim to build their habitats and structures using In-Situ Resource Utilization [ISRU]. There are numerous reasons why this always is a good plan, but it is also a huge commitment. Rarely do these type of designs show any of the equipment necessary for collecting, processing, or utilizing the in situ resources. If they are shown, rarely will they meet all the launch, land, and in between requirements that were previously addressed.
+It all becomes a balance between the quantity of equipment required and the quality of the output desired. It would be perfect to make 3D printed titanium habitats from ISRs, but the amount of infrastructure and levels of technology needed to do such a thing make the idea completely unfeasible. There are many steps required before we get to that level of construction.
+Mining doesn't work the same on either the Moon, Mars, or Asteroids. Variations in gravity, materiality, and atmosphere all alter standard methods. Currently, we have not mined anything off Earth.
+
+Technology & Economy
+
+Assumptions
+
+It is important to address that financial, political, and technological changes will drastically influence the funding, locations, durations, and crew sizes of every mission. Project Novum exists under the assumption that no mission plan is impervious to alteration. The ideal design architecture will allow for easy adaptation to mission modifications while yielding little impact on budget or timing.
+Project Novum delivers a foundational kit-of-parts to assemble and augment as needed. This differs from most projects which propose a specific, single use, mission architecture. The concept aligns with NASA's Evolvable Mars Campaign and highlights the value of preparing for inevitable changes to the mission or elements of its architecture.
+Novum's design is concentrated on the interfacing between programmatic elements. This approach insures that no matter how these individual elements evolve or become upgraded, they will all continue to fit and work with each other as a complete and unified system. This is the solution for other world habitation.
+
+There will be a 3D printable material that has zero toxic off-gassing, holds significant strength in compression and/or tension, and is safe/comfortable to the touch. It will also be capable of being removed, added to feed stock, and reprocessed for reuse in re-printing.
+Space-rated mining and processing equipment will be capable of extracting iron, silicate, sulphur, and other high percentage elements from collected regolith. These elements will be capable of being transformed into structures through additive manufacturing.
+Choices for seed landing and habitation sites will focus on safety and mission success, opposed to the `quality' of available scientific interests areas. The act of inhabiting another world and provides more than enough scientific options for the first set of missions.
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Novum Design
+
+Foundation Elements
+
+NASA's Space Launch System
+
+The 3 primary influences on design are the SLS, the Orion, and the Human Body. These are the elements that will confine any current off-world project. These will define the boundaries of the design.
+NASA's Space Launch System isn't the only system available, but it has set the standard for the growing commercial market. Fairing sizes across the commercial board align with those presented initially by NASA. Launch capabilities are also similar.
+
+SLS-MNL-201 Version1 August 22, 2014 - NASA
+
+NASA's Orion Crew Module and the ESA's Orion Service Module aren't the only available options either. But again, they do set the new standard for these types of craft elements. Commercial industry Crew Modules differ varied amounts in geometry and pressurized volume, but in generality, they are all about the same.
+
+SLS-MNL-201 Version1 August 22, 2014 - NASA
+
+The Human Body is the key defining factor for the Orion's design. Accommodating for every sized human is important as everyone gets to go to space. Focuses were Ergonomics, anthropometrics, and the effects of different gravities.
+
+SLS- Exploration, Science, Security Booklet January 2014-3 - Boeing, ATK, Lockeed, & Aerojet
+
+NASA's Orion Crew Module
+http://ww4.hdnux.com/photos/33/32/03/7184635/3/1024x837.jpg nasa.gov
+
+The Human Body
+http://arc.aiaa.org | DOI: 10.2514/6.2013-5433
+http://www.arch.mcgill.ca/prof/castro/arch304/winter2001/dander3/frame/ergonomics1.gif
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Spaces Reserved
+
+Fairings, Habitats, and Expansions in Plan Volumes within the Fairing in Section
+
+Area is reserved inside 3 different sized fairing diameters carrying 2 types of Pressurized Utility Capsules [PUCs], Rail Structure, and 3 sizes of Expansion Slots.
+2.15m dia Slots [9 options] 1.45m dia Slots [13 options] 0.60m dia Slots [107 options]
+#In: 28 #Mid: 35 #Out: 44
+
+The Novum connection systems enable PUCs and Expansions to collect and stack in a variety of different combinations, all depending on the launch vehicle selected.
+Branches
+
+*all dims subject to change*
+*it's the system's logic that matters*
+
+4.5m dia PUC [ICPS H2 Tank] 4.6m dia SLS Block 1 Fairing
+6.0-6.2m dia Structure Strip
+7.7m dia PUC [EUS H2 Tank] 7.8m dia SLS Block 1B Fairing
+9.1m dia SLS Block 2 Fairing
+
+SLS Block 1
+
+SLS Block 1B
+
+SLS Block 2
+Maximum Volumetric Capacities
+
+The Rearrangement of Elements
+
+PUC Volumes in Section
+
+The Novum design creates a new set of categories of launch elements. External systems units, such as propulsion and structural lifts, have been pushed to the perimeter. They are all meant to fit within some combination of Expansion Slots
+
+PUCs are based on the currently available pressure vessels of the Interim Cryogenic Propulsion Stage and Exploration Upper Stage's hydrogen tanks. These two elements come in 4.5m and 7.7m diameter barrel sections.
+
+The primary focus of these launches, and the end goal for mission requirements, is to efficiently establish a working habitat somewhere in the universe. This is why Novum programmatically centers the PUCs and a vertical structure with horizontal support for systems and connections.
+This habitable and structural trunk provides a connection architecture for all external branch systems. System unity is maintained through the regulation of designing components. This, in turn, lets Project Novum blanket any site with an ever-expanding habitable environment.
+The Novum system accounted to be self flexible within each given dimension set. Sets are established as a set of guidelines that, if followed, will always yield a safe, redundant, and easily expandable system
+
+3
+
+2
+
+7 4
+
+1 H. Hatch 2 V. Hatch 3 Structural Trunk
+
+5
+
+4 Ceiling
+
+1
+
+5 Hab. Volume
+
+6
+
+6 Floor
+
+8
+4.5m
+
+7 2
+
+7 Systems/Storage 8 Pressure Vessel 9 Rail System
+
+Floor Area = 14.5m^2. Pressurized Volume = 75m^3. Shell Mass = 1,285kg
+
+3
+
+2
+
+7 4
+
+2.75m
+
+6m
+
+5 1
+6
+7 8
+2
+
+6m
+
+3m
+
+7.7m
+Floor Area = 44m^2. Pressurized Volume = 220m^3. Shell Mass = 2,571kg.
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+6.5m
+
+Module Unification
+
+Unified Module Design
+
+Grid Geometry Development
+
+The PUC is envisioned to be a unified module with `mil spec' option lists of different configurations such as hatch number and location. Plug-and-play turn-key elements maximize efficiency and economy through their interactions as a unified system.
+Once a grid geometry was developed, a Hatch Number Study was done to determine the best number of hatch options for a `mil spec' module, the PUC. This is critical as the number of hatches and their locations directly effects the connection options between PUCs, how they can lay across the site in a grid, and how the internal volumes will work in balancing egress and program.
+The Hatch Number Study showed that 6 hatch options was the best. This is based on the number of modules required to make a direct egress loop as well as the amount of dead space that's created in making that loop. This study also showed the importance of building vertically as sprawl alters space, time, safety, and money. With a known number of hatches, we also have framed the interior options.
+
+A mid-sized 6 meter diameter module was used for the grid geometry study.
+
+5
+
+9
+
+6 3 47
+
+12
+
+8 10
+
+1 - PUC Structure [6m d] From SLS and Human dimensions
+2 - Hatch Swing & Tunnel Connection Area [2.33m] From Hatch and Connection Tunnel dimensions
+3 - Closest Proximity to Connected PUC [10.67m d] Based on Hatch and Connection Tunnel dimensions
+4 - PUC Connection Zone [2.67m] Area where PUCs can connect to each other freely
+5 - Farthest Proximity to Connected PUC [16m] Based on maximum length of packaged Connection Tunnel
+6 - Primary Connection Axis Grid Shows the system's initial geometry
+7 - Secondary Connection Axis Grid Shows the system's alternate geometry when PUCs are stacked
+8 - Connection Points Where Connection Tunnels can begin to bend
+9 - Connection Angles To determine most extreme Connection Tunnel angles
+10 - Potential Dead Zones
+Areas that could become inaccessible
+
+Hatch Number Study 2
+
+Dead Zone Area for Close:
+
+N/A
+
+Dead Zone Area for Far:
+
+N/A
+
+Minimum Site Area: 316 m^2
+
+Maximum Site Area:
+
+714 m^2
+
+Direct Egress Loop Number: Impossible
+
+Angled Egress Loop Number:
+
+24
+
+CG & Balance Issues:
+
+Medium
+
+Primary Grid Quality:
+
+Poor
+
+Secondary Grid Quality: Very Poor
+
+Non-Direct Connection Angles (deg):
+
+90.0
+
+Non-Direct Connection Distances (m): 10.67, 16.0
+
+Expansion Possibilities: Linear & Limited
+
+3
+117 m^2 263 m^2 654 m^2 1497 m^2
+6 5 High Above Average Below Average 60.0 5.33, 10.67
+Limited
+
+4
+25 m^2 55 m^2 382 m^2 860 m^2
+4 3 Minimal Excellent Excellent 45.0, 90.0 3.12, 8.46, 10.67, 16.0 Excellent
+
+5
+64 m^2 142 m^2 600 m^2 1349 m^2
+6 3 High Poor & Limited Poor & Limited 36.0, 72.0 2.04, 7.37, 12.70
+Chaotic
+
+6
+5 m^2 11 m^2 273 m^2 614 m^2
+3 3 Minimal Excellent Excellent 30.0, 60.0, 90.0 1.43, 5.33, 6.67, 10.67, 16.0 Excellent
+
+7
+93 m^2 208 m^2 629 m^2 1415 m^2
+6 3 Definite Poor Very Poor 25.7, 51.4, 77.1 1.06, 4.02, 6.39, 8.29, 9.35, 13.63 Limited & Chaotic
+
+8
+25 m^2 55 m^2 382 m^2 860 m^2
+4 3 Minimal Excellent Very Poor 22.5, 45.0, 67.5. 90.0 0.81, 3.12, 6.15, 6.58, 8.46, 10.67, 11.92, 16.0 Above Average
+
+Close
+
+Far
+
+MilSpec Types & Sizes
+
+Min Areas
+
+Max Areas
+
+Connections
+
+Skylab's utilization of the existing infrastructure to create a new habitat was a game changing concept. Today we have the infrastructure to build 4.5m and 7.7m diameter aluminum pressure vessels within transportable vicinity of desired launch locations. These are the barrel diameters for the hydrogen tanks from the Interim Cryogenic Propulsion Stage and the Exploration Upper Stage, respectively.
+
+The idea is to complete all of the required engineering analysis for the 24 possible
+
+hatch configurations of the module. Once complete, pre-engineered habitat volumes
+
+will be available on demand for any desired configuration. This will enforce the
+
+Project Novum's capability to adapt to any mission or configuration, all while
+
+remaining economically and chronologically efficient.
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Internal Volumes
+
+Floor Parcels Study
+Area within both PUCs divides into similar parcels when unified by hatch number. This study bounds the locations and geometries of real estate within the PUCs. The study reserved areas for structure, systems, insulation, and human operation. This helps rapidly plan interior PUC volumes with either the program or hatch humber being the primary variable.
+7.50m
+4.40m
+1.66m
+1.10m
+
+1.55m^2 [6] 0.17m^2 [6] 0.40m^2 [12] 0.04m^2 [12] 2.12m^2 [6] 0.10m^2 [6]
+0.16m^2 [6] 0.20m^2 [12] 1.17m^2 [6] 0.09m^2 [6] 0.13m^2 [12] 0.04m^2 [6] 0.04m^2 [6] 0.10m^2 [6] 0.03m^2 [6] 0.04m^2 [6] 0.02m^2 [6] 1.05m^2 [1]
+
+Volume Balance
+
+There are two main areas within each PUC: an area for egress and an area for
+
+program. Because this system allows for verticality, two trade studies were done on
+
+this balance of area. One is with a central space reserved for the vertical connection
+
+and circulation. The other is without that reserved space as some PUCs may not be
+
+stacked. This Volume Balance Study shows all the different ways PUCs can be
+
+arranged depending on how many and where the hatches are placed. This study was
+
+based on the division of space inside the PUCs as shown in the Graphic PUC Plan.
+
+Stacking PUCs vertically may become a mission requirement, so the study was done
+
+6 both with and without reserved space for vertical human and systems movement.
+
+Egress & Program
+
+Key
+
+with assumed wall thicknesses
+4.4m i.dia = 15.19m2 7.5m i.dia = 44.18m2
+
+12.80 / 2.39 28.48 / 15.70
+
+5
+
+14.21 / 0.98 29.88 / 14.30
+
+10.11 / 5.08 23.17 / 21.01
+
+4
+
+12.64 / 2.55 25.70 / 18.48
+
+m2
+Egress / Program [4.5mPUC] Egress / Program [7.7mPUC]
+
+10.11 / 5.08 20.56 / 23.62
+
+10.11 / 5.08 20.56 / 23.62
+
+7.98 / 7.21 18.42 / 25.76
+
+3
+
+10.67 / 4.52 21.16 / 23.02
+
+11.07 / 4.12 21.50 / 22.68
+
+11.07 / 4.12 12.51 / 22.68
+
+10.11 / 5.08 17.95 / 26.23
+
+7.98 / 7.21 15.81 / 28.37
+
+5.84 / 9.35 13.68 / 30.50
+
+2
+
+8.67 / 6.52 16.50 / 27.68
+
+9.10 / 6.09 16.93 / 27.25
+
+9.50 / 5.69 17.33 / 26.85
+
+7.98 / 7.12 13.20 / 30.98
+
+5.84 / 9.35 11.07 / 33.11
+
+central program
+
+3.71 / 11.48 8.93 / 35.25
+
+1
+
+6.67 / 8.52 11.90 / 32.28
+
+7.10 / 8.09 12.32 / 31.86
+
+7.12 / 8.07 12.35 / 31.83
+
+central egress
+
+1.57 / 13.62 4.19 / 39.99
+
+4.68 / 10.51 7.29 / 36.89
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Interior Options
+
+Program Insertion
+
+Design Variety
+
+Inside the PUCs, a robotic arm will additively manufacture primary structural elements, parts, and pieces. These internal forms will be 3D printed from a material brought and internally stored below the floor. Various stored fabrics, foams, connections, and cables will be used in a variety of combinations to refine and divide the spaces.
+
+Through the act of unifying Architecture for extreme environments, this project has created a vast and constantly increasing number of interior options. Novum is designed so the internal environments of the habitats are only governed by the size of the pressure vessel, the number of hatches it has, and the programmatic requirements it holds.
+
+By compacting all the internal elements into tanks and vacuum packed fabrics, a majority of the PUCs volume can be utilized for logistics or a folded inflatable structure. This method also allows for an infinite variety of interior designs to work with each program type.
+There is an additional set of benefits in using this design method. Positive results will yield behaviorally if residents are able to destroy, reprocess, redesign, and reconstruct new versions of their environment. These are premium ways to release stress, express creativity, improve efficiency, and build a physical change in atmosphere and experience. All while allowing the insertion and adaptation of new mission priorities.
+
+Unfortunately, an over-abundance of options is not always a benefit. Time and money could easily be wasted digging through and designing varieties of impossible options. Decisions could be made that break the systematic expansion or decrease the safety of the habitat would fight against the very foundation of the Novum design.
+Trade studies were done to narrow these paths and limit overwhelming option number. The idea is to capable of rapidly identifying if a PUC of certain size with a certain hatch number will fit a specific program. The answer should either be a simple "Yes", "No", or a "Why?" that would require an explanation for potentially altering the master plan.
+
+Hatch Number vs Program
+
+This study was done to determine how well common types of program could fit into every different type of hatch configuration. The chart below displays the plausibility of program adaptation for both the 4.5m and the 7.7m diameter PUCs. Base expansion, egress loops, volumes requirements, use duration, crew necessity, interaction repetition, programmatic proximities, and experience were all considered factors.
+165432
+
+Hatch # Leisure Exercise Medical
+
+Labs
+
+Airlock Command Hygiene Systems Wardroom Galley Hydroponics Quarters Logistics
+
+Yes.
+
+Why?
+
+No.
+
+Works Well Situational Will Not Work
+
+7.7m 4.5m
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Inflatables
+
+Inflatable Structures
+
+Deployment Method
+
+The total thickness of the TransHab structure is 33.26cm, with 30.48cm being Polyurethane Foam for insulation. This foam is capable of spray application and could be brought in compact liquid form to save internal volume. The rest of the 2.76cm wall is composed mainly of structural Kevlar weaves and redundant air-tight bladders.
+Currently the up-mass of inflatable structures of this type is nearly identical to that of rigid aluminum structures clocking in close to 12.85875kg/m^2. This means there are only 2 real benefits to inflatable structures. The first is the ability to build habitats larger than current launch systems can fit in their fairings. The second is through folding and packaging these elements, massive amounts of volume within launch payloads will be saved for alternate use.
+If the pressure vessel for the inflatable is printed from ISRs, then the air-tight bladder can be ultra-thin and will allow for even greater internal volumes to become available for additional logistics or systems depending on mission needs.
+
+Inflatable structures can be housed within the PUC elements or completely separate units that are later attached to PUC hatches. Both ways deploy similarly. An extendable ladder/truss will vertically lift the rigid oculus to the distance of the sphere's diameter. This happens while the element begins to pressurize allowing forces to work in concert with each other. Once at the preferred height, the inflatable expands horizontally into its predefined and fully pressurized shape.
+The floors will structurally be hung from the inflatable's rigid oculus and anchored on the vertical truss. These tension lines will also work as systems branches. Once inflated, sets of tensile structures will unfold and create a fabric bed in which floors and structure can begin to print on. As the 3D printed floors thicken and their geometries take form, they will begin to structurally support themselves and eventually everything else the mission intends for the volume. If 3D printing of this nature is still impossible, floors and elements can be constructed by crew similarly through anchoring from the truss and hanging from the rigid oculus.
+
+Diagrams of Inflation
+
+Inflatable Floor Parcels
+
+A 10m Diameter Inflatable Packaged for Launch
+At full inflation of a 10m dia: 1st Floor Area = 44m^2 2nd Floor Area = 63m^2 Pressurized Volume = 435m^3 Shell Mass = 16,150kg
+Telescoping Columns Ascend
+Subsystems Unfold
+Inflatable Expands
+Floor Structure Lowers
+
+To maintain a Unified Architecture, Novum applies identical logic to the floors of the Inflatables as was done with Rigids. This enforces a consistent geometry for parcels and insures the ability for parceled elements to be transported between inflatable and rigid modules. Because this type of inflatable module only has vertical hatches, it will assume volume balancing calculations based on central program diagrams. The program of that central area will be vertical human and systems movement.
+
+Habitat Pressure Tests Floor Structure Deploys
+Floors, Equipment, and Furniture Structure are 3D Printed by an Internal Robotic Arm from a stock of Brought Materials
+
+The 10m diameter inflatable habitat diagramed to the left has two floors with an average height of 2.6m between finished floor and bottom of structure. The floors are positioned so that the bottom is equal in diameter to that of the 7.7m PUC. The top floor equals the diameter of the SLS Block 2's payload volume at 9.1m. By maintaining similar floor diameters between rigid and inflatable modules, interior designs will be granted plug-and-playability for both types of habitat.
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+System Attributes
+
+Growth Grid
+
+Horizontal Connections
+
+Inflatables & Rigids
+
+Man Hatch
+Systems Hatch
+
+Top Deck
+1m^2 Lift Equal Areas
+
+PUC Sizes
+
+Vertical Connections Radial Ribs
+I.D.A.
+
+4.5m
+
+7.7m
+
+10m
+
+Floor Area = 14.5m^2
+
+Floor Area = 44m^2
+
+1st Floor Area = 44m^2
+
+P.Int.Volume = 75m^3
+
+P.Int.Volume = 220m^3.
+
+2nd Floor Area = 63m^2
+
+Shell Mass = 1,285kg
+
+Shell Mass = 2,571kg.
+
+Pressurized Volume = 435m^3
+
+Mass Calculation Based on Atomic Weight of Aluminum:
+
+Shell Mass = 16,150kg
+
+( ) ( ) 2.27g cm^3
+
+x
+
+0.47625cm
+
+1 = 1.285875g/cm^2 = 12.85875kg/m^2
+
+Rails 3m 3m 3m
+
+Lifters
+Levelers
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Connection Components
+
+Rail Clamp Hinge
+
+Rail Clamp Truss (compressed)
+
+Rail Clamp Truss (expanded)
+
+Structural Jamb Cage
+
+EVA Jamb Cage
+
+Expandable Connection Tunnel
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Rassor Types
+Modified KSC SwampWorks' Dig Rassor
+
+Modified 3D Printer Rassor
+
+Modified Utility Rassor
+
+Modified Transport Rassor
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Microgravity Operations
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Landing Events
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Landed & Moving
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Recycling Graveyard
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Systems & Stacking
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Rassor Business
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Repair, Processing, & Power
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Connecting Tunnels
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Terrain Adaptation
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Habitat Climbing
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Rover Connection
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Base Plan
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Expanded Base
+
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+Exterior Perspective
+Canaan Skye Martin
+Master's Thesis - Spring 2016 Cullen College of Engineering
+University of Houston
+
+

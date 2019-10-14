@@ -1,0 +1,215 @@
+RESEARCH
+
+Downloaded from http://science.sciencemag.org/ on June 13, 2018
+
+PLANETARY SCIENCE
+Organic matter preserved in 3-billion-year-old mudstones at Gale crater, Mars
+
+Jennifer L. Eigenbrode1*, Roger E. Summons2, Andrew Steele3, Caroline Freissinet1, Maëva Millan4, Rafael Navarro-González5, Brad Sutter6,7, Amy C. McAdam1, Heather B. Franz1, Daniel P. Glavin1, Paul D. Archer Jr.6, Paul R. Mahaffy1, Pamela G. Conrad1§, Joel A. Hurowitz8, John P. Grotzinger9, Sanjeev Gupta10, Doug W. Ming7, Dawn Y. Sumner11, Cyril Szopa4, Charles Malespin1, Arnaud Buch12, Patrice Coll13
+Establishing the presence and state of organic matter, including its possible biosignatures, in martian materials has been an elusive quest, despite limited reports of the existence of organic matter on Mars. We report the in situ detection of organic matter preserved in lacustrine mudstones at the base of the ~3.5-billion-year-old Murray formation at Pahrump Hills, Gale crater, by the Sample Analysis at Mars instrument suite onboard the Curiosity rover. Diverse pyrolysis products, including thiophenic, aromatic, and aliphatic compounds released at high temperatures (500° to 820°C), were directly detected by evolved gas analysis. Thiophenes were also observed by gas chromatography­mass spectrometry. Their presence suggests that sulfurization aided organic matter preservation. At least 50 nanomoles of organic carbon persists, probably as macromolecules containing 5% carbon as organic sulfur molecules.
+
+O rganic matter preservation is central to understanding biological potential on Mars through time. Whether it holds a record of ancient life, is the food for extant life, or has existed in the absence of life, organic matter in martian materials holds chemical clues to planetary conditions and processes.
+Prior reports of organic matter indigenous to martian sediments include 150 to 300 parts per billion (ppb) of chlorobenzene, with lesser amounts of C2 to C4 dichloroalkanes, detected in Sheepbed mudstone upon heating to <400°C by the Sample Analysis at Mars (SAM) instrument suite of the Mars Science Laboratory (MSL) mission (1). Martian organic carbon may have also contributed to CO and CO2 pyrolysis and combustion products evolved below 700°C from various sediments by SAM (2, 3). Chloromethanes detected in Viking's pyrolysis gas chromatography­mass spectrometry (GC-MS) analysis of martian regolith have been reinterpreted as having a martian origin (4). Additionally, indigenous organic matter in martian meteorites [e.g., (5)] is related to a deep igneous domain excavated by impact events. Although these reports indicate the presence of martian organic matter, they do not constrain our understanding of ancient organic matter in sediments.
+Exploration of the lowermost exposed sedimentary rocks at the base of Aeolis Mons in Gale crater by the Curiosity rover has led to the discovery of a finely laminated mudstone succession, the Murray formation, that is interpreted to record deposition in a long-lived ancient circumneutral to alkaline lake fed by a fluviodeltaic sedimentary system (6­8). Mudstones are composed of basaltic minerals mixed with phyllosilicate, sulfate, iron oxide, and x-ray amorphous
+
+components (7). The ~3.5-billion-year-old Gale lake environment(s) are expected to have been ideal settings for concentrating and preserving organic matter (9).
+Drilled samples delivered to SAM were heated at ~35°C/min to ~860°C. Evolved gas analysis (EGA) continuously and directly measured bulk gas composition during heating with the mass spectrometer. A portion of the evolved gas from the same sample was trapped and analyzed by GC-MS for molecular identifications (10, 11). Here we report the analysis of gases evolved at high temperatures (>500°C) from the Mojave and Confidence Hills sites. We also make comparisons with Sheepbed and other Murray mudstones.
+Figure 1, A and B, shows mass-to-charge ratio (m/z) profiles for the release of organic sulfur compounds from Mojave samples. The profiles, which are indicative of particular compounds or fragments of similar structures, reached their peak between 500° and 820°C, consistent with the presence of thiophene (C4H4S), 2- and 3methylthiophenes (C5H6S), methanethiol (CH4S), and dimethylsulfide (C2H6S). The presence of benzothiophene (C8H6S), a bicyclic thiophene that usually co-occurs with thiophenes, is also suggested by a weak peak in both Mojave (Fig. 1A) and Confidence Hills (fig. S1F) EGA data. Other volatiles--carbonyl sulfide (COS), CS2, H2S, SO2, O2, CO, and CO2 but not H2--evolved concurrently (Fig. 1, C to E). A similar release of organic sulfur compounds and related volatiles was observed for Confidence Hills (fig. S1).
+Other, nonthiophenic, aromatic compounds were also detected in EGA of Mojave (Fig. 2B) and Confidence Hills (fig. S2F) samples. The temperatures of peak release and the correspond-
+
+ing representative molecular groups are ~800°C for benzene (C6H6) and ~750°C for toluene (or tropylium ion C7H7+), with two peaks at 625° and 790° to 820°C for alkylbenzenes (C8H9 or benzoate ion C7H5O-) and possible chlorobenzene (C6H5Cl) (supplementary text). A peak near detection limits in the Mojave data suggests that naphthalene (C10H8) may also be present, assuming that the Confidence Hills blank (fig. S2E) is representative of noise levels.
+EGA mass profiles for m/z 15, 26, 27, 29c [where "c" indicates a profile correction to remove contributions from other volatiles (11)], 30, 41 to 43, 55 to 57, and 69 to 71 from Mojave (Fig. 2A) and Confidence Hills (fig. S2B) samples are consistent with a 550° to 820°C evolution of aliphatic compound products composed of C1 to C5 chains or their branched moieties. Correlation and relative intensities of peaks suggest molecular structures that differ by single carbon additions (­CH­, ­CH2­, and ­CH3 additions), which are characteristic of an array of aliphatic fragments from larger molecules (12) and commonly observed in high-temperature pyrolysis products of terrestrial kerogens and coals (13) and carbonaceous chondrites (14). Some structures may contain N- and O-bearing groups, such as amides or carboxyl or carbonyl groups, but these cannot be clearly identified in EGA because mass spectra are not resolvable in EGA and other molecules share the diagnostic m/z values.
+Three temperatures or ranges characterize the peaks of the aliphatic compound signals in the Mojave data (Fig. 2A): 625°C (square), 750°C (circles), and 790° to 820°C (triangles). Immediately preceding the 750°C peak set is a notable O2 release from sulfate decomposition (3), with an increase in CO2 (Fig. 1E) suggesting that combustion limited to the most ignitable volatiles (12) occurred in parallel with pyrolysis. It is also possible that portions of the CO2 and CO (Fig. 2A) were derived from the decarboxylation (2, 3) and decarbonylation of larger organic compounds, which have been observed for Murchison macromolecular isolates (15). The same three peaks are present but less discernable in Confidence Hills data, where the 750°C O2 peak is lower, suggesting that combustion was less influential on hydrocarbon evolution (fig. S1 and S2).
+Abundance estimates for thiophenes, C1 and C2 sulfur, and aromatic and aliphatic compounds in Mojave and Confidence Hills samples are in the nanomolar C range (Table 1) (11). The total organic carbon (TOC) abundance in these samples (10 to 100 nmol of C) reflects only the portion detected in EGA and does not account for any char remaining in the samples after heating. Calculated TOC abundances are considered lower limits for the actual amounts of organic carbon in the samples.
+Organic sulfur and aromatic and aliphatic components evolve between 550° and 820°C and share peak maxima (noted by symbols in Figs. 1 and 2 and figs. S1 and S2). This matching indicates the presence of diverse molecular structures in organic matter of the Mojave and Confidence Hills samples. Peaks for aromatic or thiophenic volatiles in the Sheepbed and other
+
+Eigenbrode et al., Science 360, 1096­1101 (2018) 8 June 2018
+
+1 of 5
+
+RESEARCH | REPORT
+
+Downloaded from http://science.sciencemag.org/ on June 13, 2018
+
+Murray mudstones (fig. S1 to S6) are weaker and less defined and have inconsistent temperatures, despite a clear indication of aliphatic compound presence. Thiophenic and aromatic compound abundances for these mudstones are less than 50%, as observed for Mojave and Confidence Hills samples (table S1). In the Cumberland sample of the Sheepbed mudstone, thiophene abundances are equivalent to or less than values for blanks, indicating their absence.
+GC-MS analysis of the 226° to 860°C cut of gases released from Mojave (Fig. 3) confirms the presence of thiophene, 2-methylthiophene, and 3-methylthiophene. Dimethylsulfide was observed in all GC-MS analyses (table S2). The abundance of thiophenes detected in Mojave by GC-MS is 20 (±5) pmol of molecules (table S2), which is equivalent to ~100 pmol of C, indicating 10 times less thiophenic C than in EGA. The difference reflects a combination of contributions from other unknown molecules [e.g., for the m/z 84c profile (Fig. 1A), other thiophenic or sulfur aromatic compounds and C6H12 fragments from aliphatic chains with fewer than six carbons, and for the m/z 97 profile, C7H13 fragments or HSO4- cleaved from aliphatic and aromatic sulfates] (12, 16) in EGA, leading to inflation of calculated EGA abundances; incomplete hydrocarbon trapping by the SAM hydrocarbon and injection traps of the GC system because of interference from other volatiles; and incomplete release from flash heating of the injection trap.
+GC-MS confirmations of molecular identities assigned to EGA aromatic signals are limited. Benzene, alkylbenzenes, naphthalene, and chlorobenzene are observed in GC-MS data for Mojave and Confidence Hills, but molecules from the GC instrument background contribute to these signals, and the GC detections likely include contributions evolved at low temperatures (<500°C) because of the broad GC cut (table S2). Sample-to-sample carryover is also known to affect low GC-MS signals (1). Together, these issues make distinction among small amounts of high-temperature, sample-derived aromatic molecules difficult. Moreover, because peaks in EGA profiles reflect the sum of hydrocarbon fragments with a characteristic structure that are contributed by numerous, low-abundance pyrolysis products, signals of individual molecules can be significantly lower in GC-MS. Such diverse molecular contributions are consistent with the complex chemistry of meteoritic and geological organic matter and the interactions that occur during pyrolysis of sediments (12). The Mojave and Confidence Hills GC-MS data do not and are not expected to provide unequivocal molec-
+
+ular identifications for the small amounts of aromatic compounds indicated by the EGA data.
+Aliphatic compound identifications in GC-MS data for Mojave and Confidence Hills do not reflect those observed in EGA. Generally, the strongest m/z values in mass spectra of aliphatic compounds are from the C2 to C5 fragments of parent molecules with larger carbon structures. Thus, the disparity between EGA and GC-MS data is largely attributable to C2 to C5 fragment contributions from a large molecular pool in EGA, which renders identification of any one molecule below detection limits by GC-MS, as previously described for aromatic compounds.
+The SAM EGA instrument background is not the source of the molecular diversity observed at high temperatures (supplementary text). Sample signals are significantly greater than blanks. Laboratory tests demonstrate that in the presence of silicates and perchlorates, instrument background has little effect on signals above 550°C
+
+(fig. S7). Other possible but unlikely contamination sources cannot account for the temperature breadth and the molecular diversity observed. Lastly, C5 structures suggested by m/z profiles cannot be explained by SAM's instrument background, which is limited to C1 to C4 backbones.
+The diversity, composition, and temperatures of coevolving volatiles observed in the Mojave and Confidence Hills analyses above 500°C are consistent with the pyrolysis of geologically refractory organic macromolecules that are typically found in carbonaceous chondrites (14, 15), kerogens (17), and coals (18, 19). The more stable these macromolecules are, the higher the temperature needed to thermally cleave fragments from them. Pyrolysis of organic matter-laden sediments with co-occurring inorganic materials that also decompose or act as catalysts can result in a complex array of chemical reactions during heating, including sulfurization, addition, cyclization, and condensation (Diels-Alder
+Fig. 1. Mojave EGA profiles for volatiles. Profiles for thiophenes (A), thiols and sulfides (B and C), other volatiles (D), and O2 and CO2 (E) are shown. The identity of the volatile, the m/z, and the scaling factor are listed for each profile. Profiles within panels are multiplied by scaling factors. Symbols mark correlations between panels in peak maxima within an error of ±25°C due to signal smoothing: squares, 625°C; circles, 750°C; and triangles, 790 to 820°C. Axes and the placement of symbols relative to the temperature are the same in Fig. 2 and figs. S1 to S6. The x axis is scaled linearly relative to the run time, and the corresponding sample temperature is shown. The y-axis scale bar in counts per second (cps) is for all panels. Profiles in (A) are shifted along the y axis to show peaks clearly. In m/z values, "c" indicates corrections to profiles to remove contributions from other volatiles (11). i, isotopologue.
+
+1Solar System Exploration Division, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA. 2Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, MA 02139, USA. 3Geophysical Laboratory, Carnegie Institution of Washington, Washington, DC 20015, USA. 4Laboratoire Atmosphères, Milieux, Observations Spatiales, Université Pierre et Marie Curie, Université Versailles Saint-Quentin and CNRS, Paris, France. 5Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de México, Ciudad Universitaria, Cuidad de México 04510, México. 6Jacobs Technology, Houston, TX 77058, USA. 7Astromaterials Research and Exploration Science Division, NASA Johnson Space Center, Houston, TX 77058, USA. 8Department of Geosciences, Stony Brook University, Stony Brook, NY 11794, USA. 9Division of Geological and Planetary Sciences, California Institute of Technology, Pasadena, CA 91125, USA. 10Department of Earth Science and Engineering, Imperial College London, London SW7 2AZ, UK. 11Department of Earth and Planetary Sciences, University of California, Davis, CA 95616, USA. 12Laboratoire Génie des Procédés et Matériaux, Centrale Supélec, Gif-sur-Yvette, France. 13Laboratoire Inter-Universitaire des Systèmes
+Atmosphériques, Université Paris-Est Créteil, Université Paris Diderot and CNRS, Créteil, France.
+*Corresponding author. Email: jennifer.l.eigenbrode@nasa.gov Present address: Laboratoire Atmosphères, Milieux, Observations Spatiales, Institut Pierre Simon Laplace, CNRS, Guyancourt, France.
+Present address: Department of Biology, Georgetown University, Washington, DC 20057, USA. §Present address: Geophysical Laboratory, Carnegie Institution of Washington, Washington, DC 20015, USA.
+
+Eigenbrode et al., Science 360, 1096­1101 (2018) 8 June 2018
+
+2 of 5
+
+RESEARCH | REPORT
+
+Downloaded from http://science.sciencemag.org/ on June 13, 2018
+
+type) reactions that may produce cyclic structures (thiophenes and other aromatics). Sufficient He flow mitigates these secondary reactions. In spite of this complexity, larger molecular fragments can maintain structural information regarding the parent organic matter (12, 13). In Mojave, CO, COS, CS2, CH4S, and C2H6S likely reflect cleavage directly from the precursor organic structures and reaction products. Similarly, CO2, H2S, H2, and H2O may be derived partly from organic matter in addition to mineral decomposition (3, 20). However, under SAM oven conditions at high temperatures and low pressure under flowing He, entropic factors govern reactions (12, 21, 22), and the formation of thiophenic and other aromatic volatiles in the oven is not favored. This conclusion is supported by EGA blank analyses that indicate the absence of cyclic structures (fig. S2) despite
+Fig. 2. Mojave EGA profiles for aliphatic and aromatic compounds. CO and CO2 profiles are included with aliphatic profiles in (A). Profiles in (A) are grouped by carbon number and shifted along the y axis for clarity. Profiles for aromatic compounds in (B) are similarly shifted. Plotting details are as described in the legend to Fig. 1 (11).
+
+available reactants from the background organic molecules (fig. S7) and by the absence of thiophenes in EGA data for the sulfide-bearing Cumberland sample of the Sheepbed mudstone, indicating that no cyclization occurred (table S1). Thus, the thiophenic and aromatic volatiles likely reflect compounds directly released from organic matter in the Murray mudstones. It is very plausible that aliphatics and some portion of the C1 and C2 sulfur compounds also reflect the in situ sample chemistry. Even if some portion of these compounds are not direct pyrolysis products from sediments, their carbon must largely be derived from organic matter indigenous to martian sediments.
+The weaker and less diverse organic signals of the Sheepbed and other Murray mudstones indicate that the sediments had less organic input at the time of deposition or that the organic
+
+inputs were more substantially degraded over geological time. Organic materials in the lacustrine mudstones at Yellowknife Bay and in the lower Mount Sharp group strata have survived multiple aqueous diagenetic events (6­8), though the number and extent of these are difficult to constrain. Further, direct and indirect reactions induced by ionizing cosmic rays degrade organic matter (23), and SAM measurements of noble gas isotopes in the Sheepbed mudstones indicate that the sediments have been irradiated for ~80 million years, implying substantial degradation (24). It is possible that the Murray mudstones experienced less exposure.
+Within the lower Murray mudstones at Pahrump Hills, sulfide minerals were likely altered to jarosite (1 to 3% in Mojave and Confidence Hills) by acidic diagenetic fluids (pH 2 to 6) ~2.1 billion years ago (25), though it is unclear whether these fluids were localized to sediment grains (8) or were more pervasive in the strata, leaching mafic minerals of metals and increasing in pH as they passed downward through the section (7). In either case, the exposure must have been limited in time and space, as pH-sensitive minerals such as apatite and olivine persist. Acidic fluids can effectively oxidize exposed organics; however, acidic diagenesis in the lower Murray may have had a small effect on organics, as it did on pH-sensitive minerals. If these fluids moved downward through the Pahrump Hills section as proposed by Rampe et al. (7), Confidence Hills and Mojave would have been exposed to only mildly acidic fluids (pH 6), resulting in milder organic degradation than that of overlying Murray mudstones. Alternatively, variations in organic matter abundance and composition in Murray mudstones may reflect geological inputs from transported detritus that was already in a refractory state, which would support the survival of organic detritus exposed to varied lake redox conditions (8). Ultimately, the fate of organic matter is determined by both degradation and preservation mechanisms. Both are likely important to the mudstones in Gale crater. By what preservation mechanisms did the martian organic matter survive?
+Macromolecules on their own are self-preserving because surface organics shield interior organics from oxidation and stabilize the bulk organic mass (26). Ancient biomacromolecules deposited in lake sediments may have been transformed into geomacromolecules (kerogen) over time. Other possible sources of recalcitrant macromolecules include interplanetary dust particles (IDPs) (27) and abiotic organic materials from igneous rocks (5). In an effort to better constrain the composition and possible origin of organic matter in the mudstones, we conducted SAM test bed EGA of the Murchison meteorite, a proxy for IDP composition, and laboratory EGA of the Tissint martian meteorite, which hosts igneous rock­related organics. Both show the evolution of C1-C2 sulfur volatiles and aliphatic, aromatic, and thiophenic pyrolysis products during EGA above 500°C (fig. S9 and S10), but the profiles related to these molecular groups are distinctive for each sample type. These results are consistent with the known
+
+Eigenbrode et al., Science 360, 1096­1101 (2018) 8 June 2018
+
+3 of 5
+
+RESEARCH | REPORT
+
+Downloaded from http://science.sciencemag.org/ on June 13, 2018
+
+Fig. 3. Example of SAM GC-MS identification of S-containing pyrolysis products compared with results from a high-fidelity SAM-like GC run in the same manner but in the laboratory. (A) SAM GC-MS chromatograms summing m/z 47 and 62 from 0 to 300 s for Cumberland7 of the Sheepbed mudstone and a blank showing methanethiol and dimethylsulfide. (B) SAM GC-MS chromatograms summing m/z 84, 97, and 98 from 300 to 1000 s for Mojave and a blank showing the presence of thiophene, 2-methylthiophene, and 3-methylthiophene. 2,5-Dimethylthiophene was not identifiable.
+
+(C) Chromatograms from GC run in the laboratory. Chromatograms were smoothed, and the off-nominal GC run from Mojave resulted in the 20-s offset for the thiophene retention time as observed in (B) (11). The 2,2,2trifluoro-N-methyl-acetamide peak in (B) is a derivatization reaction product that is part of the instrument background (11). GC-MS identifications are based on both SAM and laboratory retention times (table S3) compared to standards and mass spectra in a reference database (33). Axis breaks denote a change in the x-axis scale.
+
+presence of refractory organic matter in each meteorite but indicate differences in the organic chemistry and mineral associations of the meteorites. The supplemental EGAs do not provide constraints on organic matter origin. However, they do support the interpretation that the mudstones host refractory organic matter that is most likely macromolecular.
+Minerals can further aid preservation by several mechanisms: occlusion by minerals, organicmineral interactions (e.g., organic binding to phyllosilicate and Al-Fe oxyhydroxide surfaces), and the establishment of chemically reducing microenvironments that host organics (28). If organic matter entering sediments was labile, such as autochthonous biomolecules (e.g., carbohydrates, amino acids, and fatty acids), then reactions with mineral surfaces or sedimentary chemicals would have been favored. Phyllosilicate, iron oxyhydroxide, and amorphous materials are prevalent in all of the studied mudstones (7, 8). Further, iron sulfides detected in the Sheepbed mudstone (29) and suspected in the original Murray mudstone detritus (7, 8) may have aided organic matter preservation by providing an additional oxygen sink during diagenesis.
+Reduced permeability limits the exposure of organics to migrating fluids and gas. Permeability is generally reduced by abundant fine-grained
+
+sediments and precipitates (e.g., sulfate cement, vein fill, and nodules). All mudstones studied exhibit indications of groundwater alteration (6­8, 30); however, the timing of cementation and postdepositional aqueous alteration is not well constrained, so the extent of organic exposure to these fluids is unknown.
+Macromolecules, mineral interactions, and permeability factors were all likely contributors to organic matter preservation in the Murray mudstone, but sulfurization of organic molecules was probably the principal preservation mechanism responsible for the distinct record in Mojave and Confidence Hills given the presence of 3 to 10 times as much thiophenic and total organic sulfur in these samples as in the other mudstones (tables S1 and S4). Natural vulcanization results in an enhanced refractory state for organic materials. The addition of sulfur structurally links the organic components into a macromolecular form and provides an additional oxidative sink for degradation reactions. On Earth, sulfurization enhances initial preservation while also imparting long-term recalcitrance to structural transformations and oxidation, such as during acidic diagenesis. Sulfurization probably occurred during early diagenesis in the presence of reduced sulfur (HS- or H2S) gas (31) more than 3 billion years ago. The large sulfur isotopic fractionation ob-
+
+served in the SO2 evolved via EGA from the mudstones indicates that sulfide was transported via hydrothermal groundwater to the Gale lake basin (32). Alternatively, organic sulfur was native to the detritus deposited in the lake.
+SAM's molecular observations do not clearly reveal the source of the organic matter in the Murray formation. Biological, geological, and meteoritic sources are all possible. Certainly, if ancient life was the organic source, then despite sulfur incorporation, the material has been altered sufficiently, such as by diagenesis or ionizing radiation (23), to obscure original molecular features more consistent with life (e.g., a greater diversity of molecules or patterns of limited structural variation within compound classes, such as hydrocarbon chains), or an insufficient amount of organic matter was deposited to allow detection by pyrolysis­GC-MS.
+Past habitability interpreted for the Sheepbed lacustrine mudstones focused on chemolithoautotrophy (8, 30), but observations of geologically refractory organic matter in Murray lacustrine mudstones opens the door for past and present habitability for heterotrophy as well. Organic matter can directly or indirectly fuel both energy and carbon metabolisms and in doing so can support carbon cycling at the microbial community level.
+
+Eigenbrode et al., Science 360, 1096­1101 (2018) 8 June 2018
+
+4 of 5
+
+Downloaded from http://science.sciencemag.org/ on June 13, 2018
+
+RESEARCH | REPORT
+
+Table 1. Organic carbon abundance estimates for EGA signals above 500°C. See table S1 for abundances of individual molecules and abundances in other mudstones. Errors are propagated from integration uncertainty (30%, ±1s SD, n  3 analyses), smoothing error (5%, ±1s SD, n  3 analyses), and ionization cross-section uncertainties (reported in the literature). The total for thiophenic compounds is the sum of thiophene and methyl thiophene abundances. The total for other aromatic compounds is the sum of abundances of benzene, toluene, and benzoic acid (a proxy for benzoate ion or alkylbenzene contributions). The total for aliphatic compounds is the sum of C1 to C3 alkanes and C2 to C5 alkenes determined from modeling. The total for C1 and C2 sulfur compounds is the sum of methanethiol, dimethylsulfide, carbonyl sulfide, and carbon disulfide abundances (11).
+
+Sample
+
+Thiophenic
+
+Organic carbon abundance (nmol of C) in compound class(es)
+
+Aromatic
+
+Aliphatic
+
+Thiophenic, aromatic,
+and aliphatic
+
+C1 and C2 sulfur
+
+Total organic carbon (nmol of C)
+
+Mojave
+
+2.20 ± 0.93
+
+6.99 ± 1.99
+
+38.4 ± 5.63
+
+47.61 ± 6.04
+
+43.8 ± 11.6
+
+91.4 ± 13.1
+
+............................................................................................................................................................................................................................................................................................................................................
+
+Confidence Hills
+
+2.02 ± 0.84
+
+8.03 ± 2.11
+
+20.8 ± 2.79
+
+30.8 ± 3.60
+
+29.3 ± 7.61
+
+60.2 ± 8.42
+
+............................................................................................................................................................................................................................................................................................................................................
+
+Confidence Hills blank 0.49 ± 0.18
+
+3.04 ± 0.86
+
+5.35 ± 0.83
+
+8.88 ± 1.21
+
+1.49 ± 0.42
+
+10.4 ± 1.28
+
+............................................................................................................................................................................................................................................................................................................................................
+
+Our results suggest that it is likely that organic matter from various sources may be widely distributed in the martian rock record. Even if life was not a key contributor, meteoritic and igneous or hydrothermal sources have a strong potential to be broadly emplaced. Our detection of organic matter at the martian surface, where ionizing and oxidizing conditions are extreme, suggests that better-preserved molecular records may be present below the surface, where the effects of radiation are small, or in materials exposed in the last several thousand years.
+REFERENCES AND NOTES
+1. C. Freissinet et al., J. Geophys. Res. Planets 120, 495­514 (2015). 2. D. W. Ming et al., Science 343, 1245267 (2014). 3. B. Sutter et al., J. Geophys. Res. Planets 122, 2574­2609 (2017). 4. R. Navarro-González, E. Vargas, J. de la Rosa, A. C. Raga,
+C. P. McKay, J. Geophys. Res. Solid Earth 115 (E12), E12010 (2010). 5. A. Steele, F. M. McCubbin, M. D. Fries, Meteorit. Planet. Sci. 51,
+2203­2225 (2016). 6. J. P. Grotzinger et al., Science 350, aac7575 (2015). 7. E. Rampe et al., Earth Planet. Sci. Lett. 471, 172­185 (2017). 8. J. A. Hurowitz et al., Science 356, eaah6849 (2017). 9. R. E. Summons et al., Astrobiology 11, 157­181 (2011). 10. P. R. Mahaffy et al., Space Sci. Rev. 170, 401­478 (2012). 11. Materials and methods are available as supplementary materials. 12. S. C. Moldoveanu, Pyrolysis of Organic Molecules with Applications
+to Health and Environmental Issues. S. C. Moldoveanu, Ed., Techniques and Instrumentation in Analytical Chemistry (Elsevier, New York, 2010), vol. 28, pp. 724. 13. S. C. Moldoveanu, Analytical Pyrolysis of Natural Organic Polymers. S. C. Moldoveanu, Ed., Techniques and instrumentation in analytical chemistry (Elsevier, New York, 1998), vol. 20, pp. 496.
+
+14. F. Okumura, K. Mimura, Geochim. Cosmochim. Acta 75, 7063­7080 (2011).
+15. L. Remusat, L. S. Derenne, F. Robert, H. Knicker, Geochim. Cosmochim. Acta 69, 3919­3932 (2005).
+16. F. W. McLafferty, F. Tureek, Interpretation of Mass Spectra (University Science Books, 1993).
+17. J. S. Sinninghe Damsté, T. I. Eglinton, J. W. De Leeuw, P. A. Schenck, Geochim. Cosmochim. Acta 53, 873­889 (1989).
+18. B. P. Baruah, P. Khare, Energy Fuels 21, 3346­3352 (2007). 19. L. Xu, J. Yang, Y. Li, Z. Liu, Fuel Process. Technol. 85,
+1013­1024 (2004). 20. A. C. McAdam et al., J. Geophys. Res. Planets 119, 373­393
+(2014). 21. R. F. C. Brown, Pyrolytic Methods in Organic Chemistry:
+Application of Flow and Flash Vacuum Pyrolytic Techniques (Academic Press, 1980). 22. M. Bajus, Sulfur Rep. 9, 25­66 (1989). 23. D. M. Hassler et al., Science 343, 1244797 (2014). 24. K. A. Farley et al., Science 343, 1247166 (2014). 25. P. E. Martin et al., J. Geophys. Res. Planets 122, 2803­2818 (2017). 26. L. Mayer, Mar. Chem. 92, 135­140 (2004). 27. G. J. Flynn, L. R. Nittler, C. Engrand, Elements 12, 177­183 (2016). 28. R. G. Keil, L. M. Mayer, Org. Geochem. 12, 337 (2014). 29. D. T. Vaniman et al., Science 343, 1243480 (2014). 30. J. P. Grotzinger et al., Science 343, 1242777 (2014). 31. Y. Hebting et al., Science 312, 1627­1631 (2006). 32. H. B. Franz et al., Nat. Geosci. 10, 658­662 (2017). 33. P. J. Linstrom, W. G. Mallard, Eds., NIST Chemistry WebBook, NIST Standard Reference Database Number 69 (National Institute of Standards and Technology); https://webbook.nist. gov/chemistry/.
+ACKNOWLEDGMENTS
+We thank reviewers for their constructive comments, the MSL and SAM teams for successful operations of SAM on Mars
+
+and thoughtful science discussions, and K. Irikura for calculating ionization cross sections. Funding: This work was funded by NASA's Mars Exploration Program. NASA's MSL Participating Scientist program supported J.L.E., R.E.S., and D.P.G. for this effort. S.G. acknowledges funding from the UK Space Agency. R.N.-G. was funded by the Universidad Nacional Autónoma de México and the Consejo Nacional de Ciencia y Tecnología de México. Author contributions: J.L.E. developed data processing methods, calculated and interpreted EGA data, and wrote most of the manuscript and supplementary materials. R.E.S, A.S, B.S., and P.R.M. wrote sections of text on pyrolysis, meteorites, geological context, and methods, respectively. C.F., M.M., D.P.G., A.S., and C.S. calculated and interpreted GC-MS data. M.M. performed SAM GC breadboard tests. H.B.F., P.D.A., and B.S. contributed to analysis of EGA data. R.N-G. performed laboratory analyses necessary to understand the SAM background. All authors participated in data acquisition, discussion of results, and/or editing of the manuscript. Competing interests: The authors declare no competing financial interests. Data and materials availability: Reduced data records (RDRs) from SAM flight experiments are archived in the Planetary Data System (https://pds.nasa.gov) and are identifiable by the sol or test identification (TID) numbers listed in table S6. All processed data are available in the text or the supplementary materials.
+SUPPLEMENTARY MATERIALS
+www.sciencemag.org/content/360/6393/1096/suppl/DC1 Materials and Methods Supplementary Text Figs. S1 to S11 Tables S1 to S10 References (34­58)
+4 January 2018; accepted 29 March 2018 10.1126/science.aas9185
+
+Eigenbrode et al., Science 360, 1096­1101 (2018) 8 June 2018
+
+5 of 5
+
+Downloaded from http://science.sciencemag.org/ on June 13, 2018
+
+Organic matter preserved in 3-billion-year-old mudstones at Gale crater, Mars
+Jennifer L. Eigenbrode, Roger E. Summons, Andrew Steele, Caroline Freissinet, Maëva Millan, Rafael Navarro-González, Brad Sutter, Amy C. McAdam, Heather B. Franz, Daniel P. Glavin, Paul D. Archer Jr., Paul R. Mahaffy, Pamela G. Conrad, Joel A. Hurowitz, John P. Grotzinger, Sanjeev Gupta, Doug W. Ming, Dawn Y. Sumner, Cyril Szopa, Charles Malespin, Arnaud Buch and Patrice Coll
+Science 360 (6393), 1096-1101. DOI: 10.1126/science.aas9185
+Measuring martian organics and methane The Curiosity rover has been sampling on Mars for the past 5 years (see the Perspective by ten Kate).
+Eigenbrode et al. used two instruments in the SAM (Sample Analysis at Mars) suite to catch traces of complex organics preserved in 3-billion-year-old sediments. Heating the sediments released an array of organics and volatiles reminiscent of organic-rich sedimentary rock found on Earth. Most methane on Earth is produced by biological sources, but numerous abiotic processes have been proposed to explain martian methane. Webster et al. report atmospheric measurements of methane covering 3 martian years and found that the background level varies with the local seasons. The seasonal variation provides an important clue for determining the origin of martian methane.
+Science, this issue p. 1096, p. 1093; see also p. 1068
+
+ARTICLE TOOLS
+SUPPLEMENTARY MATERIALS
+RELATED CONTENT
+REFERENCES
+PERMISSIONS
+
+http://science.sciencemag.org/content/360/6393/1096
+http://science.sciencemag.org/content/suppl/2018/06/06/360.6393.1096.DC1
+http://science.sciencemag.org/content/sci/360/6393/1054.full http://science.sciencemag.org/content/sci/360/6393/1068.full http://science.sciencemag.org/content/sci/360/6393/1093.full This article cites 46 articles, 14 of which you can access for free http://science.sciencemag.org/content/360/6393/1096#BIBL
+http://www.sciencemag.org/help/reprints-and-permissions
+
+Use of this article is subject to the Terms of Service
+Science (print ISSN 0036-8075; online ISSN 1095-9203) is published by the American Association for the Advancement of Science, 1200 New York Avenue NW, Washington, DC 20005. 2017 © The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. The title Science is a registered trademark of AAAS.
+
+

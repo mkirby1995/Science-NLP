@@ -1,0 +1,301 @@
+Acta Astronautica 143 (2018) 76­81
+Contents lists available at ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+
+Meteorite as raw material for Direct Metal Printing: A proof of concept study
+Karel Lietaert a,b,*, Lore Thijs a, Bram Neirinck a, Thomas Lapauw b,c, Brian Morrison d, Chris Lewicki e, Jonas Van Vaerenbergh a
+a 3D Systems LayerWise NV, Grauwmeer 14, 3001 Leuven, Belgium b KU Leuven Department of Materials Engineering, Kasteelpark Arenberg 44 pb2450, 3001 Leuven, Belgium c Belgian Nuclear Research Centre SCK-CEN, Boeretang 200, 2400 Mol, Belgium d ATI Powder Metals Robinson Operations, 6515 Steubenville Pike, Pittsburgh, PA 15205-1005, USA e Planetary Resources, Inc., 6742 185th Ave, NE Redmond, WA 98052, USA
+
+ARTICLE INFO
+Keywords: Additive manufacturing Laser powder bed manufacturing Direct metal printing Asteroid mining Meteorite In-situ resource utilization
+
+ABSTRACT
+Asteroid mining as such is not a new concept, as it has been described in science fiction for more than a century and some of its aspects have been studied by academia for more than 30 years. Recently, there is a renewed interest in this subject due the more and more concrete plans for long-duration space missions and the need for resources to support industrial activity in space. The use of locally available resources would greatly improve the economics and sustainability of such missions. Due to its economy in material, use of additive manufacturing (AM) provides an interesting route to valorize these resources for the production of spare parts, tools and largescale structures optimized for their local microgravity environment. Proof of concept has already been provided for AM of moon regolith. In this paper the concept of In-Situ Resource Utilization is extended towards the production of metallic objects using powdered iron meteorite as raw material. The meteorite-based powder was used to produce a structural part but further research is needed to obtain a high density part without microcracks.
+
+1. Introduction
+If the standard of living all around the world continues to increase as it has done the last decades, there will be an ever increasing need for resources. This means that prices for the scarcest resources will rise and that mining of these elements will happen at more and more marginal orebodies. As a result, the cost of mining these elements will rise. At some point in the future, it could become profitable to start mining much richer orebodies on asteroids and ship processed products to Earth. Some of the products mined in space will also be used to support activities in space and include rocket fuel, life support, and raw materials for in-space manufacturing.
+Asteroid mining is not a new concept: different aspects have been studied by academia, there is commercial activity in this field and different space agencies have shown interest. Andrews et al. sketch a general overview of an asteroid mining system and discuss the readiness level of different technologies involved. They also discuss the profitability of asteroid mining and conclude that a discounted return on investment of 35% can be expected on a 20 year time horizon [1]. The United States and other countries have recognized the right of private citizens to own resources they obtain from asteroids and non-government
+
+organizations are working to develop industry standards to assist in the stability of operations [2]. Probst et al. outline a method for the selection of a mission concept for asteroid mining in Ref. [3]. Other researchers present a novel way to find metal-rich asteroids or calculate how many assay probes will be needed to find an ore-rich asteroid [4], [5]. There is not only academic interest in Asteroid Mining; at least two companies are currently active in this field: Planetary Resources and Deep Space Industries. The recent interest from academia, several companies and space agencies (NASA [6], DLR [3], JAXA [7]) shows that asteroid mining is relevant and has a lot of potential.
+Three properties that are key for the successful application of Additive Manufacturing (AM) in aerospace industry are (i) its efficient use of (high value) material, (ii) its potential to manufacture low-weight, high performance, structures and (iii) its potential to manufacture objects locally (factory in a box) [8]. The latter has been touched in several publications where e.g. AM of lunar regolith to support human activities on the moon [9­12] or AM of surgical instruments during long-duration space missions [13] are discussed. The use of AM for In-Situ Resource Utilization (ISRU) has also been considered in the asteroid mining literature [6] but so far, no proof of concept study on this subject has been published. This research provides a proof of concept for laser AM of
+
+* Corresponding author. 3D Systems LayerWise NV, Grauwmeer 14, 3001 Leuven, Belgium. E-mail address: karel.lietaert@3dsystems.com (K. Lietaert).
+https://doi.org/10.1016/j.actaastro.2017.11.027 Received 24 July 2017; Received in revised form 10 October 2017; Accepted 22 November 2017 Available online 23 November 2017 0094-5765/© 2017 IAA. Published by Elsevier Ltd. All rights reserved.
+
+K. Lietaert et al.
+
+Abbreviations
+
+AM ISRU PGE OERU DMP SEM XRF XRD
+
+Additive Manufacturing In-Situ Resource Utilization Platinum Group Element On Earth Resource Utilization Direct Metal Printing Scanning Electron Microscopy X-Ray Fluorescence X-Ray Diffraction
+
+Fig. 1. Fragments from the Campo del Cielo meteorite were used to produce powder and a direct metal printed part in this study.
+M-type asteroid material by using an iron meteorite as raw material. It is shown that laser AM of this material is possible but further research into optimization of process parameters and chemical composition will be necessary. Future research should also study this material in other production systems, which could be more suitable for in-space use (eg Ref. [14]).
+2. Materials and methods
+The raw material used in this research were fragments from the Campo del Cielo meteorite, found in the 16th century in Argentina, following an impact in pre-history. The bulk composition of the Campo del Cielo meteorite is principally iron (93%), nickel (6%), with cobalt, carbon and phosphorous the last elements present above trace levels [15], [16]. This meteorite type is generally linked to M-type asteroids, the asteroids considered most promising for Fe, Ni and platinum group element (PGE) mining [17]. Fe and Ni are considered for ISRU while the PGEs could be shipped to Earth and used there (On Earth Resource Utilization, OERU). Fig. 1 shows the meteorite fragments before processing.
+As the meteorite is of the iron type and thus purely metallic, conventional (developed for metals mined on Earth) gas atomization can be used for powder production. The meteorite was melted in a refractory lined furnace in a research powder production unit at ATI Powder Metals (Pittsburgh, Pennsylvania, USA) and was atomized using Ar gas in a close coupled setup. The same procedures as for terrestrial material of similar composition were followed. All fragments were melted together and were assumed to have the same chemical composition. Generally, powder particles with a diameter smaller than 80 m are used in the Direct Metal Printing (DMP, laser-based powder bed fusion [18]) process [19]. In this case however, particles with a diameter up to 100 m were used in
+
+Acta Astronautica 143 (2018) 76­81
+order to maximize the amount of powder for production of a proof of concept component [20]. Particles with a diameter smaller than 25 m were removed by sieving and not used, as these can disturb the deposition of a smooth powder layer.
+A customized ProX® DMP 320 machine and DMP Control software (3D Systems, Leuven, Belgium) were used for AM. An extensive review of the DMP process can be found in Ref. [21]. Given the large number of parameters which influence the outcome of the DMP process [22], parameter optimization to obtain fully dense parts would require excessive amounts of powder for this proof of concept study. Therefore, parameter optimization was based on a visual observation of the production process and was halted when a stable process was obtained. The samples described in this study were produced on a steel base plate with a laser power of 125 W, a laser scan speed of 1500 mm/s, a hatch spacing of 100 m and a layer thickness of 40 m. The hatch pattern consisted of stripes and was rotated 115 every layer. No preheating of the build plate was used. With these settings, one 10 Â 10 Â 10 mm3 cube and two `thin walls' of 1 mm and 0.5 mm width and 10 mm height were produced. The cube was used for metallography and the thin walls were used to assess possible process limitations.
+The particle size distribution of the powder was measured by laser diffraction with a Beckman Coulter LS13320 with Tornado Dry Powder System module. The powder flow rate was measured with a Hall flow meter according to the ASTM B213 standard [23].
+The laser reflection of the powder was measured with a Perkin Elmer Lambda 950 with integrating sphere. The reference material for 100% reflection was Spectralon (LabSphere). The reflection was measured for wavelengths between 1000 and 1100 nm with a special interest for 1070 m, the wavelength of the DMP laser. The absorption was calculated as (1-reflection) and a commercial grade 1 Ti powder sample was measured as a reference.
+Both the powder and the DMP sample were visualized with an FEI XL 40 Scanning Electron Microscope (SEM). In order to study the microstructure of the powder and the DMP part, samples were ground with SiC paper (320­4000 grit) and polished with diamond and colloidal silica suspensions. The powder was etched with Marble's reagent (10 g CuSO4 in 50 ml HCl and 50 ml H2O) and the part with nital (5% concentrated HNO3 in ethanol) to reveal the microstructure. A Nikon Eclipse MA100 microscope was used for imaging.
+The overall chemical composition of the powder and part was measured by X-Ray Fluorescence (XRF). A more detailed measurement for the PGEs and some structurally useful elements was obtained by Glow Discharge Mass Spectrometry (Evans Analytical Group, France) for the powder. The lighter elements were analyzed by Instrumental Gas Analysis (Evans Analytical Group, France) for both the powder and the part.
+An X-Ray Diffraction (XRD) analysis was carried out for both the powder and the DMP sample using Cu K radiation (40 kV and 40 mA) in a Seifert 3003 diffractometer. The diffraction pattern was measured in the 20­120 range with a step size of 0.02 and for 2s per step. A flat graphite crystal monochromator was installed in front of the scintillation detector to deal with the fluorescent radiation due to the interaction of Cu-K radiation with the Fe containing sample. The lattice parameter of the constituent phase was calculated by Rietveld refinement using the Topas Academic software.
+3. Results and discussion
+Fig. 2a shows that most of the powder particles are spherical while Fig. 2b shows that not all particles smaller than 25 m were removed. This observation was confirmed by the particle size distribution measurement, shown in Fig. 2c. These small particles were present either as loose particles or as satellite particles (attached to the surface of larger particles). The first group reduces the powder flowability by the large Van der Waals forces they cause, the second group causes mechanical interlocking between powder particles. Despite the presence of these small particles, the powder flowed through the Hall flow funnel at
+
+77
+
+K. Lietaert et al.
+
+Acta Astronautica 143 (2018) 76­81
+
+Fig. 2. a) The powder shape is mostly spherical and thus suitable for DMP. b) Not all particles smaller than 25 m were removed by sieving. Some are attached to larger particles as satellites. c) The powder has a wide particle size distribution with a D10 of 18 m, D50 of 42 m and D90 of 81 m d) There is only little internal porosity in the powder. e) The microstructure revealed after etching is cellular/dendritic and similar to atomized binary FeNi powders. f) The powder consists of a single bcc phase.
+
+2.37 g/s. This is in the same range as commercial stainless steel powder (%2.5 g/s) and smooth layers of meteorite powder were deposited in the ProX® DMP 320 machine.
+Metallographic analysis showed little porosity in the powder, see Fig. 2d. Fig. 2e shows the cellular/dendritic microstructure, which is also visible on the outer surface of the particle shown in Fig. 2b. This microstructure is very similar to some of the Fe-15Ni powders studied by Thoma and Perepezko [24]. With a grain size of several micrometers, the undercooling before solidification of the droplets should be around 225­275 K [25].
+The synthesized powder is a single body centered cubic phase, as Fig. 2f shows. This XRD spectrum is very similar to the spectra of gas atomized FeNi powders with <21 wt% Ni reported by Zambon et al. [26]. The bcc crystal structure of rapidly cooled Fe-rich FeNi alloys can either
+
+be formed directly from the melt and retained to room temperature or be formed via a martensitic transformation from a face centered cubic phase [27]. The exact formation mechanism depends on the level of impurities and processing method and was not studied in detail here [27]. The determined lattice parameter a ¼ 2.8696(1) Å is close to the reported lattice parameter for pure bcc Fe [28]. The small effect of Ni on the unit cell can be attributed to the similar atomic radii of both elements.
+The laser absorption of the powder at 1070 nm is 70%, which is the same as measured for the commercial Ti grade 1 DMP powder. This is also close to the value reported for pure Fe in Ref. [29]. Differences can be caused by chemical composition, surface roughness, particle size and shape, etc. [30], [31].
+The results considered above show that conventional gas atomization can be used for powder production with a meteorite as raw material.
+
+Table 1 The powder is produced from an octahedrite meteorite. It contains a higher concentration of Co and PGEs than terrestrial ore bodies, the opposite is true for the other elements.
+
+Element
+
+Fe
+
+Ni
+
+Co
+
+P
+
+Cr
+
+wt%
+
+wt%
+
+wt%
+
+wt%
+
+ppm
+
+W
+
+Mo
+
+Pt
+
+Os
+
+ppm
+
+ppm
+
+Ppm
+
+ppm
+
+Concentration
+
+Bal.
+
+7.29
+
+0.49
+
+0.35
+
+74
+
+25
+
+15
+
+6.9
+
+4.4
+
+Element
+
+Ru
+
+Ir
+
+Pd
+
+Rh
+
+O
+
+S
+
+C
+
+N
+
+H
+
+ppm
+
+ppm
+
+ppm
+
+ppm
+
+ppm
+
+ppm
+
+ppm
+
+ppm
+
+ppm
+
+Concentration
+
+3.7
+
+3.2
+
+2.8
+
+1.4
+
+2100
+
+260
+
+61
+
+19
+
+11
+
+78
+
+K. Lietaert et al.
+
+Acta Astronautica 143 (2018) 76­81
+
+Fig. 3. a): The process parameters used to make the part were not fully optimized and therefore the part is not fully dense. b) Cracks are formed during solidification. An optimization of process parameters and/or chemical composition is necessary to avoid these cracks. c) As the DMP process parameters were not fully optimized, some unmelted powder particles can be observed in the microstructure of the part. d) The grains grow from the bottom towards the center and top of the meltpool (top right). e) The grain orientation changes at the bottom of the melt pool. f) XRD spectrum of the part.
+
+Whether and how powder can be made for ISRU is another question. In at least a first stage of in-space AM it might be advisable to use wire based AM systems or welding [32]­ [34]. However, the geometries and details which can be produced with these systems differ from powder bed based systems. Therefore, the research into DMP for in-space use should not be halted until it is entirely clear which products should be producible and why DMP would not be a viable option.
+Table 1 shows that the Ni concentration in the meteorite powder is between 6 and 14 wt%, typical of Iron meteorites [35]. The powder is relatively rich in Co compared to terrestrial deposits. One of the major Co sources on Earth (the Central African Copperbelt) consists of deposits with 0.17­0.25 wt% Co, half of what this meteorite contains [36]. The P in the powder is not of use in space and/or scarce on Earth and can be considered as an impurity. Its concentration might need to be controlled strictly before ISRU as it can influence the atomization and/or AM process by its oxygen affinity [37]. The Cr content of the meteorite is low compared to terrestrial deposits, which can contain up to 48 wt% Cr2O3 and thus 32.8 wt% Cr [38]. The W content of the meteorite is also lower than what can be found on Earth and thus not interesting for OERU [39]. The same is true for Mo, which is available at a concentration of 0.25 wt%
+
+in some terrestrial ore bodies [40]. The total concentration of PGEs in the powder is 22.4 ppm, more than double of what is found in ore bodies on earth (10 ppm in exceptional cases [41]). Given the low H content of the powder, there is little to no water adsorbed to the particle surface and most of the oxygen is present as a (surface) oxide. These data give an average result for the powder composition but no conclusions concerning the chemical homogeneity of the powder can be drawn.
+Fig. 3a shows that the process is sufficiently under control to produce relatively small features as both the 1 mm and 0.5 mm `thin walls' were successfully produced. However, there are many pores in the top surface of the DMP part. These have a typical lack-of-fusion shape, which indicates that the energy input for fully dense parts should be higher than the value used in this study. The SEM analysis also shows that the material forms cracks during solidification, Fig. 3b. Similar cracks were observed during electron beam welding of meteorite fragments with comparable composition as Table 1 [33]. According to the authors of [33], the relatively high P content of the meteorite is the cause of microcrack formation (0.19 wt% in Ref. [33]). This theory is based on experience in welding of high P and high S steels, where these elements partition to the liquid phase during solidification. This creates a weak
+
+79
+
+K. Lietaert et al.
+
+Table 2 The chemical composition from the part, as measured by XRF, is not significantly different from the powder.
+
+Element
+
+Fe
+
+Ni
+
+Co
+
+P
+
+wt%
+
+wt%
+
+wt%
+
+wt%
+
+Concentration
+
+Bal.
+
+7.28
+
+0.51
+
+0.43
+
+Fig. 4. The part produced in this study as it is removed from the AM machine. It is the first additively manufactured object with meteorite as raw material. It was designed by Evan Kuester as a proof of concept and is not a functional part.
+grain boundary, which is easily cracked by solidification stresses. Asteroid material would normally be refined before processing in any AM system in order to separate the lucrative PGEs from the rest. This research suggest that a further optimization of chemical composition could be necessary to obtain an alloy with suitable composition for DMP. One of the chemical compositions which could be used, is Fe-36 wt%Ni. This material is also known as Invar36 and is already used in space applications today. Qiu et al. have recently shown that it is possible to use DMP to obtain crack-free parts with a relative density higher than 99.5% for this material [42].
+The metallographic analysis confirms that the energy density used for production of this part is not high enough. Fig. 3c shows that some of the material on the outside of the part was only partially melted, as the original powder microstructure is still visible. Fig. 3c shows an unmelted particle inside the part. In fully dense regions, the microstructure of the part is similar to other DMP and welding microstructures [43]. Cellular grains start growing from the curved bottom of the meltpool and grow towards the center. This is caused by the directional heat extraction from the solidifying meltpool, in the direction of the previously solidified layers below (conduction). This is clearly shown by Fig. 3d and e.
+Table 2 shows that the chemical composition of the part, as measured by XRF, is not significantly different from the powder. This means that there has been no preferential evaporation of main alloying elements or reaction with the gas in the machine, as was for example reported for a Mg-Zn-Zr alloy in Ref. [44] and AISI 420 stainless steel in Ref. [45].
+Fig. 3f compares the X-ray diffraction spectrum of the sample (side surface) with the powder. The relative intensities as well as the positions of the peaks of the powder and the printed sample are almost identical. This is in agreement with the observed chemical similarity shown by the XRF analysis and the high cooling rate typical for both processes. Considering the crystallographic texture, there is no indication of a preferred grain orientation in the measured direction.
+Fig. 4 shows the part produced in the study described above, as it is removed from the AM machine. It was presented at the Consumer Electronics Show in Las Vegas in 2016 and is the first additively manufactured object with meteorite as raw material [46], [47].
+
+Acta Astronautica 143 (2018) 76­81
+4. Conclusion
+This research shows that it is possible to produce a structural part with iron-meteorite powder. The powder produced from meteorite melt does not differ from other gas atomized metal powder and can be used as raw material for Direct Metal Printing. The part produced in this research did not reach full relative density and cracks were observed across some of the meltpools. Therefore, future research should focus on further optimization of process parameters and/or chemical composition to produce parts with high relative density without cracks. Future research should also study this material in other production systems, which could be more suitable for in-space use.
+Funding
+This research was supported by funding of Flanders Innovation and Entrepreneurship through projects `IWT 140257' and `IWT 131081'.
+Acknowledgments
+The authors would like to acknowledge the contribution of the entire ATI Powder Metals Robinson Operations team to this research. Their expertise enabled the first-time-right production of suitable powder from the meteorite melt.
+The authors acknowledge the contribution of Evan Kuester to this research, as he designed the part shown in Fig. 4.
+References
+[1] D.G. Andrews, et al., Defining a successful commercial asteroid mining program, Acta Astronaut. 108 (Mar. 2015) 106­118.
+[2] T. Masson-Zwaan, Regulation of space resource rights: meeting the needs of States and private parties, Quest. Int. Law 35 (Jan. 2017) 5­18.
+[3] A. Probst, G. Gonzalez Peytaví, B. Eissfeller, R. Forstner, Mission concept selection for an asteroid mining mission, Aircr. Eng. Aerosp. Technol. 88 (3) (May 2016) 458­470.
+[4] A.W. Harris, L. Drube, How to find metal-rich asteroids, Astrophys. J. Lett. 785 (2014).
+[5] M. Elvis, T. Esty, How many assay probes to find one ore-bearing asteroid? Acta Astronaut. 96 (Mar. 2014) 227­231.
+[6] D.D. Mazanek, R.G. Merrill, J.R. Brophy, R.P. Mueller, Asteroid Redirect Mission concept: a bold approach for utilizing space resources, Acta Astronaut. 117 (Dec. 2015) 163­171.
+[7] A. Lele, Japan's space programme, in: Asian Space Race: Rhetoric or Reality?, Springer, India, 2013.
+[8] J. Coykendall, M. Cotteleer, J. Holdowsky, and M. Mahto, 3D Opportunity in Aerospace and Defense, Deloitte University Press. [Online]. Available: https:// dupress.deloitte.com/content/dam/dup-us-en/articles/additive-manufacturingdefense-3d-printing/DUP_1064-3D-Opportunity-DoD_MASTER1.pdf. [Accessed: 01Feb-2017].
+[9] V. Krishna Balla, L.B. Roberson, G.W. O'Connor, S. Trigwell, S. Bose, A. Bandyopadhyay, First demonstration on direct laser fabrication of lunar regolith parts, Rapid Prototyp. J. 18 (6) (Sep. 2012) 451­457.
+[10] M. Fateri, A. Gebhardt, M. Khosravi, Experimental investigation of selective laser melting of lunar regolith for in-situ applications, in: Proceedings of the 2013 ASME International Mechanical Engineering Congress and Exposition, Nov. 2013.
+[11] G. Cesaretti, E. Dini, X. De Kestelier, V. Colla, L. Pambaguian, Building components for an outpost on the Lunar soil by means of a novel 3D printing technology, Acta Astronaut. 93 (Jan. 2014) 430­450.
+[12] A. Goulas, J.G.P. Binner, R.A. Harris, R.J. Friel, Assessing extraterrestrial regolith material simulants for in-situ resource utilisation based 3D printing, Appl. Mater. Today 6 (Mar. 2017) 54­61.
+[13] J.Y. Wong, A.C. Pfahnl, 3D printing of surgical instruments for long-duration space missions, Aviat. Space Environ. Med. 85 (7) (Jul. 2014) 758­763.
+[14] K.M. Taminger, R.A. Hafley, Electron Beam Freeform Fabrication for Cost Effective Near-net Shape Manufacturing, 2016 [Online]. Available, https://ntrs.nasa.gov/ archive/nasa/casi.ntrs.nasa.gov/20080013538.pdf. (Accessed 28 April 2017).
+[15] W.A. Cassidy, L.M. Villar, T.E. Bunch, T.P. Kohman, D.J. Milton, Meteorites and Craters Campo del Cielo, Argentina, Science 149 (3688) (Sep. 1965) 1055­1064.
+[16] V.F. Buchwald, Handbook of Iron Meteorites, University of California Press, 1975. [17] L. Keszthelyi, et al., Feasibility Study for the Quantitative Assessment of Mineral
+Resources in Asteroids, U.S. Geological Survey, Reston, VA, 2017. USGS Numbered Series 2017­1041. [18] ASTM International, ASTM Standard F2792, 2012a, `Standard Terminology for Additive Manufacturing Technologies, ASTM International, West Conshohocken, PA, 2012.
+
+80
+
+K. Lietaert et al.
+[19] B.M. Sharratt, Non-destructive Techniques and Technologies for Qualification of Additive Manufactured Parts and Processes: a Literature Review, Defence Research and Development Canada ­ Atlantic Research Center, 2015 [Online]. Available, http://cradpdf.drdc-rddc.gc.ca/PDFS/unc200/p801800_A1b.pdf. (Accessed 1 February 2017).
+[20] N. Ingraham, This Is the First Object 3D-printed from Alien Metal, Engadget, 2016 [Online]. Available, www.engadget.com/2016/01/07/planetary-resourcesmeteorite-print-3d-systems/. (Accessed 1 February 2017).
+[21] W.E. King, et al., Laser powder bed fusion additive manufacturing of metals; physics, computational, and materials challenges, Appl. Phys. Rev. 2 (4) (Dec. 2015).
+[22] O. Rehme, Cellular Design for Laser Freeform Fabrication, PhD thesis, University of Technology, Hamburg, Germany, 2010.
+[23] ASTM International, ASTM Standard B213, 2013, `Standard Test Methods for Flow Rate of Metal Powders Using the Hall Flowmeter Funnel, ASTM International, West Conshohocken, PA, 2013.
+[24] D.J. Thoma, J.H. Perepezko, Microstructural transitions during containerless processing of undercooled Fe-Ni alloys, Metall. Trans. A 23 (4) (Apr. 1992) 1347­1362.
+[25] Y.Z. Chen, G.C. Yang, F. Liu, N. Liu, H. Xie, Y.H. Zhou, Microstructure evolution in undercooled Fe-7.5at% Ni alloys, J. Cryst. Growth 282 (3) (Sep. 2005) 490­497.
+[26] A. Zambon, B. Badan, A.F. Norman, A.L. Greer, E. Ramous, Development of solidification microstructures in atomized Fe-Ni alloy droplets, Mater. Sci. Eng. A 226 (Jun. 1997) 119­123.
+[27] A. Zambon, et al., Microstructure and phase selection in containerless processing of Fe­Ni droplets, Acta Mater. 46 (13) (Aug. 1998) 4657­4670.
+[28] C.S. Roberts, Effect of carbon on the volume fractions and lattice parameters of retained austenite and martensite, Trans. TMS- AIME 197 (1953) 203.
+[29] N. Tolochko, Y. Khlopkov, S. Mozzharov, M. Ignatiev, T. Laoui, V. Titov, Absorptance of powder materials suitable for laser sintering, Rapid Prototyp. J. 6 (3) (2000) 155­161.
+[30] D. Bergstrom, A. Kaplan, Mathematical modelling of laser absorption mechanisms in metals: a review, in: M4PL16-16th Meeting on Mathematical Modelling of Materials Processing with Lasers, 2003.
+[31] C.D. Boley, S.A. Khairallah, A.M. Rubenchik, Calculation of laser absorption by metal powders in additive manufacturing, Appl. Opt. 54 (9) (Mar. 2015) 2477.
+[32] K.M. Taminger, Additive Manufacturing In Space: How And Why?, 20-Apr-2016 [Online]. Available, https://camal.ncsu.edu/wp-content/uploads/2016/05/KarenTaminger-CAMAL-presentation-2016.pdf. (Accessed 9 February 2017).
+
+Acta Astronautica 143 (2018) 76­81
+[33] J.W. Elmer, C.L. Evans, J.J. Embree, G.F. Gallegos, L.T. Summers, Electron beam weldability of a group IAB iron meteorite, Sci. Technol. Weld. Join. 19 (4) (May 2014) 295­301.
+[34] W.T. Evans, K.E. Neely, A.M. Strauss, G.E. Cook, Weldability of an iron meteorite by friction stir spot welding: a contribution to in-space manufacturing, Acta Astronaut. 140 (Nov. 2017) 452­458.
+[35] J.S. Lewis, Asteroid Mining 101: Wealth for the New Space Economy, Deep Space Industries, 2014.
+[36] Cobalt, British Geological Survey Natural Environmental Research Council. [Online]. Available: http://www.bgs.ac.uk/downloads/start.cfm?id¼1400 [Accessed: 02-Feb-2017].
+[37] D.D. Gu, Y.F. Shen, Influence of phosphorus element on direct laser sintering of multicomponent Cu-based metal powder, Metall. Mater. Trans. B 37 (6) (Dec. 2006) 967­977.
+[38] R.H. Nafziger, A review of the deposits and beneficiation of lower-grade chromite, J. South Afr. Inst. Min. Metall. (1982) 205­226.
+[39] Tungsten, British Geological Survey Natural Environmental Research Council. [Online]. Available: https://www.bgs.ac.uk/downloads/start.cfm?id¼1981. [Accessed: 02-Feb-2017].
+[40] International Molybdenum Association, Molybdenum Mining, 08-Feb-2017 [Online]. Available, www.imoa.info/molybdenum. (Accessed 8 February 2017).
+[41] G. Gunn, A. Benham, A. Minks, Platinum, British Geological Survey Natural Environmental Research Council, 2009 [Online]. Available, https://www.bgs.ac. uk/downloads/start.cfm?id¼1401. (Accessed 2 February 2017).
+[42] C. Qiu, N.J.E. Adkins, M.M. Attallah, Selective laser melting of Invar 36: microstructure and properties, Acta Mater. 103 (Jan. 2016) 382­395.
+[43] S. Kou, Welding Metallurgy, second ed., Wiley-Interscience, Hoboken, N.J, 2003. [44] K. Wei, Z. Wang, X. Zeng, Influence of element vaporization on formability,
+composition, microstructure, and mechanical performance of the selective laser melted Mg­Zn­Zr components, Mater. Lett. 156 (Oct. 2015) 187­190. [45] X. Zhao, B. Song, Y. Zhang, X. Zhu, Q. Wei, Y. Shi, Decarburization of stainless steel during selective laser melting and its influence on Young's modulus, hardness and tensile strength, Mater. Sci. Eng. A 647 (Oct. 2015) 58­61. [46] 3D Systems, 3D Systems to Demonstrate Transformative Power of 3D Technology at CES 2016, 05-Jan-2016 [Online]. Available, https://www.3dsystems.com/pressreleases/3d-systems-demonstrate-transformative-power-3d-technology-ces-2016. (Accessed 28 April 2017). [47] Planetary Resources, Planetary Resources & 3d Systems Reveal First Ever 3d Printed Object from Asteroid Metals, 07-Jan-2016 [Online]. Available, http:// www.planetaryresources.com/2016/01/planetary-resources-and-3d-systemsreveal-first-ever-3d-printed-object-from-asteroid-metals/. (Accessed 28 April 2017).
+
+81
+
+

@@ -1,0 +1,1083 @@
+AIAA SPACE Forum 4-7 August 2014, San Diego, CA AIAA/AAS Astrodynamics Specialist Conference
+Small Spacecraft System-level Design and Optimization for Interplanetary Trajectories
+
+10.2514/6.2014-4125
+
+Sara Spangelo  Derek Dalle  and Benjamin Longmier 
+
+The feasibility of an interplanetary mission for a CubeSat, a type of miniaturized spacecraft, that uses an emerging technology, the CubeSat Ambipolar Thruster (CAT) is investigated. CAT is a high delta-V propulsion system that uses a high-density plasma source that has been miniaturized for small spacecraft applications. An initial feasibility assessment that demonstrated escaping Low Earth Orbit (LEO) and achieving Earth-escape trajectories with a 3U CubeSat and this thruster technology was demonstrated in previous work. We examine a mission architecture for a small spacecraft that begins in Earth orbits such as LEO and Geostationary Earth Orbit (GEO) which escapes Earth orbit and travels to Mars, Jupiter, or Saturn. The goal was to minimize travel time to reach the destinations and considering trade-offs between spacecraft dry mass, fuel mass, and solar power array size. Sensitivities to spacecraft dry mass and available power are considered. CubeSats are extremely size, mass, and power constrained, and their subsystems are tightly coupled, limiting their performance potential. System-level modeling, simulation, and optimization approaches are necessary to find feasible and optimal operational solutions to ensure system-level interactions are modeled. Thus, propulsion, power/energy, attitude, and orbit transfer models are integrated to enable systems-level analysis and trades. The CAT technology broadens the possible missions achievable with small satellites. In particular, this technology enables more sophisticated maneuvers by small spacecraft such as polar orbit insertion from equatorial orbits, LEO to GEO transfers, Earth-escape trajectories, and transfers to other interplanetary bodies. This work lays the groundwork for upcoming CubeSat launch opportunities and supports future development of interplanetary and constellation CubeSat and small satellite mission concepts.
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+I. Introduction
+CubeSats are no longer constrained to Low Earth Orbit (LEO) and now have the potential to escape Earth orbit due to innovations in small satellite propulsion systems, as well as communication system, electronics, and attitude control. This is enabling small spacecraft platforms to perform far more interesting exploration and science missions. In the past, CubeSats have not had propulsion systems due to size, power, and launch constraints, therefore constrained to minimal maneuvering from the launch vehicle insertion orbit [1]. Fundamental limitations on CubeSats in terms of size, mass, power, or cost, that limit the ability of small spacecraft to escape Earth orbit, and go beyond, are explored in this paper. Beyond a feasibility study, we also investigate the most efficient approaches to achieve different objectives, for example propellant-optimal, time-optimal, or solutions that minimize the exposure to radiation, are investigated.
+CubeSats have evolved from educational tools to a platform for technology demonstrations and capable of performing high-value science missions [2, 3, 4]. The National Science Foundation has a dedicated program funding nanosatellites to study space weather [5, 6], NASA has a dedicated launching opportunity through their CubeSat Launch Initiative [7], and NASA research centers are also developing a variety of CubeSats for both near-Earth [8, 9] and interplanetary [10, 11, 12, 13] applications. An increasing number of CubeSats are being proposed for constellation applications [14, 15], where propulsion capabilities are required or highly desired. Micropropulsion has been identified as a necessary technology to enable these spacecraft to maneuver and perform formation flying, create constellations, and travel to interesting interplanetary destinations [16, 17]. Interplanetary orbit transfers are particularly challenging for small spacecraft low-thrust propulsion systems because typical high-thrust maneuvers can not be utilized and small spacecraft are extremely mass, volume, and power constrained [1]. Furthermore, CubeSats do not typically operate at the high power or high voltage levels required to support propulsion systems, nor do they have solutions for managing the resulting high thermal loads (most CubeSats use passive thermal control techniques).
+Existing electric propulsion systems exceed the mass or volume envelopes for CubeSats, have low efficiency or
+Formulation Systems Engineer, Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, CA 91109 Researcher, Aerospace Engineering, University of Michigan, 1320 Beal Ave, Ann Arbor, MI 48109. Assistant Professor, Aerospace Engineering, University of Michigan, 1320 Beal Ave, Ann Arbor, MI 48109. CEO of Aether Industries.
+
+1 of 15
+
+Copyright © 2014 by Sara Spangelo.
+
+American Institute of Aeronautics and Astronautics
+
+Published by the American Institute of Aeronautics and Astronautics, Inc., with permission.
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+low thrust, or are designed for precise pointing maneuvers. The CubeSat Ambipolar Thruster (CAT), a new thruster technology that uses a high-density plasma source to achieve high V and high thrust-to-power ratios, and fits within a small spacecraft form-factor (<0.1 U, where a U is 10 cm x 10 cm x 10 cm) [18, 19]. The CAT engine will change the CubeSat paradigm from drifters to explorers by providing 11 km/s delta-V to a 3U CubeSat, or 20 km/s to a 6U CubeSat. The CAT design focuses on maximizing the thrust-to-power ratio at an Isp on the lower end of electric propulsion devices. It achieves a higher thrust-to-power ratio by efficiently ionizing a relatively high flow rate of propellant, about 2-3x higher flows rates than Hall effect thrusters [20]. A magnetized helicon discharge is used for this highly efficient ionization process without the need for a separate electron source such as a hollow cathode [21]. This system is designed to provide no resultant magnetic dipole. Our team has a dedicated NASA launch to test this thruster technology in space for the first time, and we will be collaborating with the University of Michigan and NASA Ames [7].
+There are several interesting features and complexities in the design of an interplanetary for such a small satellite using the CAT. The CAT technology has a wide power range, thus can be used to achieve different amounts of thrust throughout the mission. The desired thrust level at a given time is a trade-off between the thrust level, duration of the maneuver, and available energy at that point in the trajectory. The available power is a function of the instantaneous power from solar arrays and energy that is stored in the battery. This depends on the dynamic distance and angle to the sun, which is related back to the trajectory design. This is particularly challenging in this problem as it is traveling away from the sun, for example a spacecraft at Jupiter (5.2 AU) may receive just 4% of the amount we do at the Earth (e.g. Juno). For CAT, the thrust scales linearly with power, as discussed in Section III. This results in a challenging optimization problem with a set of highly interdependent decision variables.
+There are other propulsion systems that have been proposed for CubeSats and small spacecraft, including Aerojet's Rocketdyne, Busek's Micro-Electrospray Thruster, MIT's ion Electrospray Propulsion System (iEPS), Clyde Space's CubeSat Pulse Plasma Thruster, and JPL's Micro Electrospray Propulsion (MEP) thruster. The techniques presented in this paper are applicable to these other technologies, although they are not specifically studied in this paper.
+Past work has demonstrated representative mission scenarios for a 3U CubeSat and demonstrated the feasibility of escaping Earth orbit with the conventional constant thrust strategy that results in spiral-out orbit-raising trajectories using the CAT thruster [22]. Follow-on work compared conventional constant-thrusting spiral-out approaches to optimal thrusting near perigee [23] and applied and compared these strategies when performed by different CubeSatclass thrusters [24]. Refs. [22, 23] considered system-level constraints such as volume, mass, power management, and radiation exposure, and determined that the optimal approach depends greatly on the system objectives and constraints.
+The goal is to evaluate the feasibility of using a small spacecraft form-factor for Earth-escape and travel to interplanetary destinations. We aim to establish what the key constraints and trade-offs are in these types of orbit transfers. A systems-level perspective that considers realistic vehicle as well as operational constraints is critical to ensure relevance of proposed solutions to realistic mission scenarios, particularly for CubeSat architectures that are extremely mass, volume, and power constrained. We develop a systems-level model that includes propulsion, orbit dynamics, energy dynamics (solar powered collection, eclipse) and battery capacity. The model is used to study trajectories starting in LEO and escape Earth's Sphere of Influence (SOI). Secondly, we examine orbits starting in Geostationary Earth Orbit (GEO) that escape Earth orbit and travel to Mars, Jupiter, and Saturn considering realistic power, mass, and volume constraints. Sensitivity analysis are performed relative to spacecraft mass and power towards understanding the key trade-offs with transfer times and to identify feasible mission architectures.
+II. Mission and System Architecture
+CubeSats are typically launched as secondary payloads into LEOs with altitudes ranging from 350-900 km and with near-polar inclinations (> 60) [25]. Therefore, to demonstrate Earth-escape trajectories, we discuss orbits that begin in 500 km polar and equatorial orbits are considered in our analysis. There are also some opportunities for some Sun-synchronous LEOs, where the orbital plane is nearly orthogonal to the vector to the Sun so the spacecraft is nearly always in the Sun (i.e. does not experience eclipses), so these orbits are also considered in the analysis. There are also launch opportunities beginning to emerge to take small spacecraft as secondary payloads to equatorial GEOs, for example through Spaceflight Services, a company that works with Launch Services Providers including SpaceX, Orbital Sciences, Virgin Galactic, Kosmotras (Dnepr), and Progress (Soyuz). Therefore, for small spacecraft that travel to interplanetary destinations, we consider orbits starting in equatorial GEOs. Other initial and final target combinations, such as starting in LEO or Earth escape orbit (C3 = 0 orbit) and targeting an interplanetary destination, can be assessed using a similar approach to the one presented in this paper.
+Small spacecraft, and specifically CubeSats, are extremely mass and volume constrained. For example, the most common CubeSat size, a 3 U, is constrained to the form-factor of approximately 30 cm x 10 cm x 10 cm, and usually
+2 of 15
+American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+constrained to a mass of less than 5 kg, particularly to satisfy the standard Poly-PicoSatellite Orbital Deployer (PPOD) launcher system. Satisfying conventional P-POD launch constraints may not be a requirement for interplanetary CubeSats, for example mass waivers allowing heavier small spacecraft systems may be allowed. However; a lighter system is always desirable for orbit-boosting, as more acceleration is achieved for the same thrust. The desire for a low-mass system drives the selection of the thruster, propellant tank, propellant, solar panels, attitude control system, and battery and power system components.
+CubeSats are constrained in their ability to collect, store, and distribute power. Typical CubeSats that have flown in LEO with body-mounted solar panels generate less than 10 W, while spacecraft with state-of-the-art deployable panels and the ability to continually point them at the Sun may be able to generate up to 30 W. Furthermore, onboard CubeSat battery systems typically store only 50-100 kJ and existing CubeSat electric power systems (EPSs) typically operate with low voltage and power values. Thus, although collecting power and storing the energy for high-powered short-duration thrusts may be feasible, supplemental battery and power management systems may be required to support these types of maneuvers (which require additional volume, mass, cost, and complexity). The typical Lithium-Ion batteries that fly on CubeSat systems experience significant battery degradation[23] throughout their operation, limiting their ability to support multiple hundred cycles on longer-duration missions. Radiation is often a concern for CubeSat missions because the low-cost commercial off-the-shelf (COTS) components are typically not radiation-tolerant, thus susceptible to failures and can not reliably support long-duration missions. Mission trajectories are preferred that avoid the radiation belts as much as possible, either by operating at polar (instead of equatorial) inclinations, or by boosting their orbits to high altitudes quickly to avoid radiation exposure. Developing fault-tolerant failures and adding radiation shielding is also an option, however may add system complexity, mass, and cost.
+Towards assessing the feasibility of achieving Earth-escape with a CubeSat form-factor, we consider a 6U CubeSat, which is required for interplanetary applications, which is a volume of approximately 10 cm x 20 cm x 30 cm. A representative list of components, mass, volume, and power, is provided in Table 1, where all components are included except propellant, as this is considered later in the orbit-raising analysis. Consistent with the CubeSat design philosophy and to obtain a low mass and cost solution, mainly Commercial Off-The-Shelf (COTS) components have been selected to support the mission.
+The Blue Canyon XB1 bus provides most major CubeSat subsystems including a and state-of-the-art Guidance, Navigation, and Control system (GNC) systems, Command and Data Handling (CDH), and Electric Power System (EPS). The active attitude determination and control system is required to control the spacecraft orientation and resulting thrust vector. Their system, although currently designed to operate in LEO, is being designed for extended missions in interplanetary locations. The IRIS transponder is selected as it is the lowest mass, volume, and power navigation and communication solution for interplanetary small spacecraft, which communicates to the Deep Space Network (DSN) on X-Band frequencies. This is required because existing UHF, S-Band, and X-Band systems do not currently have the capability to return data at meaningful rates to Earth on small spacecraft form-factors. The solar panels are sized to generates approximately 75 W at 1 AU, which was determined necessary to perform the desired orbit transfers and a reasonable volume and mass to store from a 6U CubeSat form-factor. Power collection potential will be reduced due to eclipses experienced in earth orbit and will degrade as the panels age and the system drifts far from Earth. The total battery capacity was also sized with insight into the design solution and the amount of energy required to survive eclipses as the spacecraft spirals out from an initial equatorial orbit. It was established that the battery in the Blue Canyon bus, with 25 Whr, needed to be augmented by four Li-Ion 18650s, which provide an additional 60 Whr.
+
+Table 1. Representative Master Equipment List (MEL) for a 6U spacecraft, where a 1 U is 1000 cm3
+
+Component
+
+Mass (kg) Volume (1 U fraction) Max Power (Watts)
+
+Thruster
+
+0.5
+
+0.1
+
+Propellant Tank
+
+1.0
+
+0.1
+
+IRIS Transponder
+
+0.4
+
+0.4
+
+Antennas (Telecom)
+
+0.05
+
+0.05
+
+Blue Canyon XB1 Bus (Telecom, GNC, CDH, EPS) 1.2
+
+1.0
+
+Extra Batteries (4 x 18650 Li-Ions)
+
+0.04
+
+0.05
+
+Structure/Shielding
+
+0.9
+
+0.19
+
+Deployable Solar Panels
+
+0.8
+
+0.5
+
+3-300 0
+12.5 2.5 -
+
+Dry Spacecraft Total
+
+6.15
+
+3.68
+
+17-315
+
+3 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+III. Model
+A systems-level model is essential to capture all dynamics and constraints of this problem, particularly because CubeSats are highly-integrated and have limited available resources. The multi-disciplinary model consists of analytic representations of the propulsion system, orbital dynamics, and energy collection and management system.
+The spacecraft configuration is such that the thrusters always point in the anti-velocity direction to maximize the thrusting efficiency. The solar panels are assumed to be always pointed at the Sun when in sunlight. Attitude control is used to offset the solar panels slightly throughout maneuvers to reduce or offset solar pressure effects and prevent reaction wheel saturation (particularly because conventional de-saturation techniques are not appropriate for interplanetary spacecraft). A. Propulsion The CAT thruster uses a high plasma density RF helicon source with a converging-diverging throat combined with an expanding magnetic nozzle. A wide variety of propellants are possible due to the electrodeless nature of the helicon plasma source, including propellants stored as liquids or solids. Iodine (nominal propellant), liquid water, ionic fluids, Galinstan, ammonia, butane, alcohols, ethylene glycol, and others are possible options.
+To obtain a large accelerating electric field (ambipolar acceleration), an efficient helicon RF plasma source is used to generate a very high plasma density (1020 m-3) and high electron temperature (20-30 eV) with a variety of propellants, see Fig. 2), and allows the plasma to expand in a magnetic nozzle. Initial optimization has started for a permanent magnet nozzle, which promises to have a nozzle efficiency of > 90%. We expect a system efficiency of > 50%, significantly exceeding the system efficiency of previous electrospray thrusters, RF double-layer thruster concepts, and miniature ion and Hall effect thrusters for CubeSats.
+Figure 1. CAT Thruster Specifications
+B. Orbit Transfers The orbit transfer within the Earth and Sun systems are treated separately in this section. This is because the low-thrust maneuvers in the Earth system will change the orbit over many hundreds of orbital periods, while the interplanetary transfers will occur on time scales much smaller than the periods of the final orbits. In both cases we consider a simplified two-body model.
+Within the Earth system, the low-thruster system fires continuously and achieves the conventional spiraling-out orbit trajectory.
+4 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+a) Thruster efficiency versus Specific Impulse (Isp)
+
+b) Thrust versus Power
+
+c) Thrust versus Power
+
+d) Thrust/Power versus Specific Impulse (Isp)
+
+Figure 2. CAT Thruster Performance Curves for Te,max = 30eV
+
+r3
+
+r = 2a ,
+
+(1)
+
+µ
+
+a = - m Vex ,
+
+(2)
+
+m
+
+Vex = gIsp,
+
+(3)
+
+where a is the acceleration, r is the current radius from the center of the Earth, µ is the Earth's gravitational constant, m is the propellant flow rate, Vex is the exhaust velocity, m is the spacecraft mass, g is the gravitational acceleration, and Isp is the specific impulse. For CAT, m scales linearly with power, where  is the mass flow rate to power ratio (e.g. 0.1 mg/s at 10 W),
+
+m = P,
+
+(4)
+
+Once the spacecraft has escaped the Earth's SOI, we model the two-body Sun spacecraft system where there is a boost and cruise phase. During the boost phase, when the spacecraft has left Earth's SOI and is firing the engine in order to increase its distance from the Sun, it is assumed that the thrust vector is aligned with the velocity. This boost phase must be simulated as a system of differential equations because neither the assumption that near-instantaneous transfer maneuvers nor the assumption of a nearly circular orbit is appropriate. Aligning the thrust and velocity is a good assumption because it will result in the greatest V for a fixed amount of fuel. The thrust is assumed to always
+
+5 of 15 American Institute of Aeronautics and Astronautics
+
+be aligned with the velocity vector and the equations of motion are given in Eqs. 5-7. The rate of change of the radial velocity, vr, tangential velocity, v, and rate of change of the angular location along the orbit, , are given by,
+
+vr
+
+=
+
+v2 r
+
+-
+
+µ r2
+
++ a sin ,
+
+(5)
+
+v = a cos  - vr,
+
+(6)
+
+ = v ,
+
+(7)
+
+r
+
+where µ is the gravitational constant in the Sun system,  is the flight path angle as in Eq. 8, and a is the acceleration as in Eq. 2, m is the mass flow rate as in Eq. 4, and m is the spacecraft mass.
+
+ = tan-1 ( vr ).
+
+(8)
+
+v
+
+The perihilion and aphelion, rp and ra, are a function of the radius from the sun, rs and the orbit eccentricity, e, which are computed in Eqs. 9-13, where v is the total velocity and h is the angular momentum.
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+v = vr2 + v2,
+
+(9)
+
+h = vr,
+
+(10)
+
+e = (2µ - rv2)rvr2 + (µ - rv2)2 ,
+
+(11)
+
+µ
+
+h2
+
+ra
+
+=
+
+µ(1
+
+, - e)
+
+(12)
+
+h2
+
+rp
+
+=
+
+µ(1
+
+. + e)
+
+(13)
+
+C. Energy
+The energy model consist of two key energy constraints, which are related to ensuring sufficient battery capacity for thrust maneuvers during eclipse and ensuring overall energy balance. This is a conservative approximation and energy is not modeled as a continuous function throughout the orbit to simplify the overall model dynamics and facilitate optimization of upcoming problems.
+First, the spacecraft must be able to sustain eclipses assuming nominal and constant thrust power consumption,
+
+Ebatt  (Pt,i + Pn,i)te,i,
+
+i  I,
+
+(14)
+
+where Pt,i is the thrust power setting, Pn,i is the energy consumed by nominal operations, and te,i is the eclipse time for every orbit i  I.
+Second, we enforce that there must be a positive energy balance every orbit,
+
+Ps,its,i  (Pt,i + Pn,i)tt,i,
+
+i  I,
+
+(15)
+
+where Ps,i is the average power generated in the sun, tt,i is the orbital period, tt,i = ts,i + te,i, and ts,i is the time in sun every orbit.
+
+IV. Orbit-Raising in Earth System
+Figure 3 shows velocity as a function of altitude in the Earth system, which can be used to determine how much V is needed to get from low LEO, to high LEO, GEO, the Moon, or the Earth's SOI. This provides a useful worst-case guide, particularly if performing the conventional constant-thrust maneuvers that result in a spiraling out trajectory. However; in many cases improvements over these V values can be attained using thrust-at-perigee maneuvers, as modeled and demonstrated in cite [23].
+We first consider a 3U CubeSat with 2.5 kg of dry mass for an orbit-boost from LEO to escape Earth orbit. The results in Tables 2 and 3 demonstrate it's possible to escape Earth's Sphere of Influence with only 2.5 kg of propellant
+
+6 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+Velocity, km/sec
+
+8
+
+Max LEO GEO Moon Earth SOI
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+102
+
+103
+
+104
+
+105
+
+106
+
+107
+
+108
+
+Distance from Earth (Altitude), km
+
+Figure 3. Orbital velocity as a function of distance from Earth, where lines indicate maximum LEO, GEO, Moon Orbit, Earth Sphere of Influence (SOI).
+
+Table 2. Propellant mass required for different destinations and propellant types, assuming initial orbit of LEO 500 km altitude with 10 W constant thrust and a spacecraft dry mass of 2.5 kg.
+
+Parameter
+
+Units Maximum LEO GEO Mean Moon Earth's SOI
+
+Distance from Earth km
+
+V
+
+km/s
+
+I2 Propellant
+
+kg
+
+Ga Propellant
+
+kg
+
+H20 Propellant
+
+kg
+
+2,000 0.6 0.3 0.2 0.1
+
+35,700 4.4 1.8 1.4 0.8
+
+384,000 6.5 2.4 1.9 1.1
+
+925,000 6.9 2.5 2.0 1.1
+
+and in less than one year (259 days) using I2 propellant and 10 W of thrust. The amount of propellant and times to achieve high LEO and GEO orbits are also impressive. From this simple analysis, I2 is clearly the most time and propellant efficient, thus it will be used for the remaining analysis.
+Fig. 4 shows sensitivity of the CAT thruster integrated into a small spacecraft to propellant mass and power levels. In particular, Fig. 4a shows how the V varies with increase in dry mass and propellant mass, and Fig. 4b shows how the dry mass and power influence the total time to escape Earth orbit starting in LEO.
+Emerging deployable solar arrays extend the total power collection area such that CubeSats may be able to collect as much as 20 or 30 W when in the sun. Table 4 shows the effects of different power levels on total escape time, showing how higher power levels can significantly reduce escape time and as a result total accumulated radiation dose in the first years. The time to achieve a given orbit boost is a power-law function of the power level, as in Fig. 5 and is independent of propellant mass (i.e. all cases in Fig. 5 require the same amount of propellant mass). This is because the mass flow rate scales linearly with power.
+The ability to continually provide sufficient power to maintain a certain thrust value is limited by eclipses. Typically CubeSats are initially placed into high-latitude orbits that have eclipses on the order of one third the orbit at altitudes (500-700 km). Worst-case eclipse fraction of orbit and total eclipse time are shown in Fig. 6 for different orbital altitudes considering circular orbits. The results shown are worst-case because they assume the line-of-sight to the Sun lies in the orbit plane, so maximum eclipse is always experienced. Eclipse fractions vary throughout the year due to orbital precession, see Ref. [26]. The interesting eclipse trends observed in Fig. 6, and particularly Fig. 6b are because the eclipse duration is a product of the orbital period and eclipse fraction, which vary as a function of altitude differently.
+
+7 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+Table 3. Time required for different destinations and propellants, assuming orbit starts in 500 km circular orbit with 10 W constant thrust and a spacecraft dry mass of 2.5 kg.
+
+Parameter
+
+Units Maximum LEO GEO Mean Moon Earth's SOI
+
+Distance from Earth V I2 Propellant Ga Propellant H20 Propellant
+
+km km/ sec
+days days days
+
+2,000 0.6 32 36 202
+
+35,700 4.4 194 226 1,369
+
+384,000 6.5 259 308
+1,933
+
+925,000 6.9 269 321 2,026
+
+ V, km/s
+
+12
+
+md= 3 kg
+
+10
+
+m = 5 kg
+d
+
+m = 10 kg
+d
+
+8
+
+md= 20 kg
+
+m = 30 kg
+
+6
+
+d
+
+4
+
+2
+
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+Fuel Mass, kg
+
+a) V with a dry spacecraft mass of 2.5 kg
+
+102
+
+Time to Escape Earth Orbit, months
+
+101
+
+100
+
+10-1
+
+5
+
+0
+
+3 W 5 W 10 W 20 W 30 W
+
+5
+
+10
+
+15
+
+20
+
+25
+
+Dry Mass, kg
+
+b) Earth escape time for initial 500 km circular orbits (requires V = 6.96 km/s)
+
+Figure 4. Sensitivity of CAT thruster to propellant mass and power level assuming I2 propellant.
+
+104
+
+m = 8.1 kg, m = 4 kg
+
+i
+
+d
+
+mi= 10.1 kg, md= 5 kg
+
+103
+
+m = 12.1 kg, m = 6 kg
+
+i
+
+d
+
+m = 14.1 kg, m = 7 kg
+
+i
+
+d
+
+m = 20.2 kg, m = 10 kg
+
+i
+
+d
+
+102
+
+Time from LEO to Earth SOI, months
+
+101
+
+100 0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+Power Level, W
+
+Figure 5. Earth escape time for initial 500 km circular orbits (requires V = 6.96 km/s)
+The selected thrust power level must be selected as a fraction of the maximum instantaneous power collection, and batteries must be sized accordingly to support thrusting throughout eclipse. Thrusting only during sunlight times could be a strategy to minimize the required battery size, but would result in a non-symmetric spiral effect and more complex mission design.
+8 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+Table 4. Properties of Solutions using Constant Thrusting in Velocity Direction to achieve Earth starting in 500 km circular orbit with 10 W constant thrust, assuming a total initial spacecraft mass of 5 kg and I2 propellant
+
+Power Value
+
+10 W
+
+20 W
+
+25 W
+
+Propellant Quantity Number of Orbits Number of Days Total Accumulated Ionizing Dose (with 82.5 Mils after 1 year)
+
+2.5 kg 1322 269 29.99 krad
+
+2.5 kg 681 134 15.01 krad
+
+2.5 kg 545 108
+12.12 krad
+
+Eclipse Fraction
+
+0.45
+
+160
+
+Eclipse Duration, mins
+
+0.4
+
+140
+
+0.35
+120 0.3
+
+0.25
+
+100
+
+0.2
+
+80
+
+0.15 60
+0.1
+
+0.05
+
+40
+
+0
+
+20
+
+102
+
+103
+
+104
+
+105
+
+106
+
+102
+
+103
+
+104
+
+105
+
+106
+
+Altitude, km
+
+Altitude, km
+
+a) Eclipse Fraction
+
+b) Eclipse Time
+
+Figure 6. Worst-case eclipse properties for circular polar LEOs.
+
+Altitude with no eclipse, km
+
+105
+
+104
+
+103
+
+102
+
+101
+
+100 0
+
+10 20 30 40 50 60 70 80 90 , degrees
+
+a) Altitudes with no eclipses
+
+Altitude with no eclipse, km
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+60
+
+65
+
+70
+
+75
+
+80
+
+85
+
+90
+
+, degrees
+
+b) Altitudes with no eclipses (Sun Sync LEOs)
+
+Figure 7. Required altitudes and time to avoid eclipses, assuming a total initial spacecraft mass of 5 kg and I2 propellant.
+
+In the special case that the spacecraft is launched into a Sun-synchronous orbit, the spacecraft will experience reduced or no eclipse times. Thus, the spacecraft will be more capable of continuously sustaining a higher power level. This reduces or eliminates the need for significant on-board battery storage. There is, however, a limitation because a terminator sun-synchronous orbit (always in the Sun) is impossible for LEO spacecraft because they are limited to inclinations between 97 - 102 (for altitudes between 300-1400 km). Therefore, the  angle, the angle between the spacecraft orbit plane and the line-of-sight to the Sun, varies between 60 - 90 throughout the year. Thus, depending on the time of year the spacecraft begins its maneuver, there will be an associated required altitude gain
+
+9 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+(see Fig. 7b) to no longer experience eclipses. Note that for the  = 90 case, there is no required altitude gain, so the spacecraft does not experience eclipses, so this would be the best time to start boosting an orbit operationally. The time associated with achieving this altitude increase is shown in Fig. 7, depending on the power level (which must accommodate for the fraction of time the spacecraft is in eclipse).
+
+V. Interplanetary Orbit Transfers
+The potential for small spacecraft to start in GEO and escape Earth orbit and travel to interplanetary destinations, in particular, Mars, Jupiter, Saturn is investigated. These results focus on starting in GEO as this is a feasible starting orbit for small secondary payloads with upcoming launch opportunities, and significantly reduces the amount of time and propellant required relative to starting in LEO, as described in the previous section.
+Results for travel from GEO to the three proposed planets are summarized in Table 5 and the trajectories are shown in Fig. 8. For each case, the spacecraft is assumed to generate 70 W and a reasonable starting mass is selected such that the dry mass is about 6.2 kg, see orbit transfer details in Table 1. There are three phases to these trajectories: 1) the orbit boost from GEO to escape Earth's SOI, 2) the boost phase, which is the time until the aphelion reaches the desired distance from the Sun, and 3) the cruise phase, which is the time until the radius reaches the aphelion. For missions other than a flyby, a fourth phase involving a capture maneuver will be required. A detailed view of the orbit transfer to Jupiter is shown in Fig. 10. The boost phase takes approximately a quarter of an orbit, confirming the assumption that near-instantaneous transfer maneuvers nor the assumption of a nearly circular orbit is appropriate to model this problem.
+
+x 105 10
+
+8
+
+Distance from Earth, km
+
+6
+
+4
+
+2
+
+0
+
+0
+
+0.05 0.1 0.15 0.2 0.25 0.3 0.35
+
+Time, years
+
+a) GEO to SOI Transfer (with 25 kg spacecraft for Jupiter)
+
+Distance from Sun, AU
+
+1.7
+
+1.6
+
+1.5
+
+1.4
+
+1.3
+
+1.2
+
+1.1
+
+Radius
+
+Aphelion
+1 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+Time, years
+
+c) Earth's SOI to Mars
+
+Distance from Sun, AU
+
+Distance from Sun, AU
+
+5.5
+
+5
+
+4.5
+
+4
+
+3.5
+
+3
+
+2.5
+
+Radius
+
+Aphelion 2
+
+1.5
+
+1 0 0.5 1 1.5 2 2.5 3 3.5 4
+Time, years
+
+b) Earth's SOI to Jupiter
+
+10
+
+9
+
+8
+
+7
+
+6
+
+5
+
+4
+
+Radius
+
+Aphelion 3
+
+2
+
+1
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+Time, years
+
+d) Earth's SOI to Saturn
+
+Figure 8. Transfer time from GEO to Earth's SOI and interplanetary bodies, assuming initial power collection of 70 W, a dry spacecraft mass of 6.2 kg and I2 propellant.
+
+10 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125 Spacecraft Mass, kg Solar Power, W
+
+While the engine is turned on during the boost phase, a critical metric is the spacecraft's instantaneous aphelion, which is plotted as a dotted line in Figs. 8b, 8c, and 8d. This parameter is the answer to the following question: If the spacecraft turns its engine off at that point, how great of a distance from the Sun would it attain before heading back towards Earth's orbit? As soon as the engine turns off, the spacecraft will be in an elliptic orbit about the Sun, and that orbit will have an aphelion. Once that aphelion matches the orbit of the target planet, the spacecraft has enough energy to glide on a path that will intersect the planet's orbit. When that happens, the engine turns off, and the spacecraft enters the cruise phase of the trajectory.
+
+Table 5. Properties of travel to interplanetary destinations assuming starts in equatorial GEO, assuming initial power collection of 70 W at 1 AU, a dry spacecraft mass of 6.2 kg and I2 propellant, and worst-case travel distances.
+
+Planet Destination Distance from Earth Travel Time GEO to Earth's SOI Travel Time to Destination Initial Spacecraft Mass Propellant Mass Solar Power Percentage at Destination
+
+Mars 0.52 AU 0.15 years 0.83 years 11.00 kg 4.56 kg 44.1%
+
+Jupiter 4.20 AU 0.33 years 3.54 years 25.00 kg 12.50 kg
+3.7%
+
+Saturn 8.54 AU 0.55 years 9.69 years 42.00 kg 35.68 kg
+1.1%
+
+Properties of the orbit transfer from GEO to Jupiter are shown in Figs. 9-10. The dotted line in Fig. 9 separates phases 1, GEO to Earth Escape, and phase 2, boost phase to Jupiter. The available power level for continuous thrusting decreases as the orbit altitude increases from GEO to 500,000 km because the eclipse durations increase (see Fig. 6b) and the constraint that the spacecraft must be able to have a positive energy balance every orbit and not deplete on-board battery storage. When the altitude increases from 500,000 km to Earth escape (925,000 km), the eclipse durations decrease, resulting in an increase in available power (resulting in the slight increase in available power immediately before the dotted line). After the spacecraft escapes Earth orbit (dotted line), it begins its spiral orbit to Jupiter as in Fig. 10, where eclipses are no longer modeled as the spacecraft is traveling away from the Earth. After this point, the power also decreases as a function of the solar intensity decreasing as one over the distance squared (solar eclipses no longer occur during this phase).
+
+30
+25
+20
+15
+10
+5 0 0.5 1 1.5 2 2.5 3 3.5 4 Time, years
+a) Spacecraft Mass
+
+70 60 50 40 30 20 10
+0 0 0.5 1 1.5 2 2.5 3 3.5 4 Time, years
+b) Available Solar Power
+
+Figure 9. Properties of trajectories from GEO to Jupiter, assuming a total initial spacecraft mass of 25 kg, the spacecraft generates a maximum power of 70W, and uses I2 propellant.
+The results to a sensitivity analysis relative to spacecraft mass for the GEO to Jupiter orbit transfer case are shown in Fig. 11. Transfer time and propellant mass increase monotonically with increasing spacecraft mass. Both the 60 W and 70 W (at 1 AU) cases are shown in Fig. 11 to demonstrate both an optimistic case (70 W) where nearly all of the solar power can go to directly supporting the spacecraft thruster, and a more pessimistic case (60 W), where the solar panels are not perfectly aligned with the vector to the Sun, the solar panels are not generating their maximum, and/or power is required for the other spacecraft systems, particularly the transponder for navigation and communication. In reality, the spacecraft is likely to operate somewhere between 60 and 70 W, particularly because the transponder is likely to be required to operate 4 hours/day. Even this small decrease in power can increase the transfer time from
+11 of 15
+American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125 y, AU
+
+5
+
+4
+
+Orbit Transfer (boost)
+
+3
+
+Orbit Transfer (coast)
+
+Earth Orbit
+
+2
+
+Jupiter Orbit
+
+1
+
+0
+
+-1
+
+-2
+
+-3
+
+-4
+
+-5
+
+-6
+
+-4
+
+-2
+
+0
+
+2
+
+4
+
+6
+
+x, AU
+
+Figure 10. Trajectory from Earth Escape to Jupiter, assuming a total initial spacecraft mass of 25 kg,the spacecraft generates a maximum power of 70 W at 1 AU, and uses I2 propellant.
+3.9 years (70 W) to 5.7 years (60 W), and change the required propellant mass accordingly. A less powerful system requires more time, thus more propellant mass, and as a result significantly more initial mass, for example the 70 W system requires an initial total mass of 25 kg, and the 60 W system requires an initial total mass of 33 kg (to support a 6.2 kg dry mass spacecraft). There is a knee in the curve in both Figs. 11a and 11a, where an increase in spacecraft mass does not significantly impact transfer time (greater than about 25 kg for the 60 W case and 30 kg for the 70 W case). For a given power level, adding mass to the spacecraft decreases the transfer time until it reaches a certain level, and adding additional mass above that increases dry mass.
+The results to a sensitivity analysis relative to spacecraft power for the GEO to Jupiter orbit transfer is shown in Fig. 12. The general trend is that as power availability increases, the transfer time and propellant requirements decrease, although it is a non-smooth relationship. These results indicate that increasing the power between 35 W and 50 W may does not reduce transfer time or propellant mass, while increasing the power beyond 55 W can reduce both transfer times and propellant mass significantly.
+Both Figs. 11 and 12 are useful for extracting feasible mission scenarios given dry mass and/or transfer time constraints. For example, for the dry mass of a typical interplanetary 6U CubeSat, which has a minimum mass of approximately 6.2 kg (see Table 1), at least 70 W of continuous power is required, which also provides a reasonable transfer time (< 4 years).
+VI. Conclusion and Future Work
+This paper has developed a modeling framework and simulation environment for evaluating orbit transfers from LEO to GEO, LEO to Earth escape, and GEO to interplanetary destinations. We have used these tools to demonstrate the feasibility for a small spacecraft form factor (in particular a 6U CubeSat) to perform orbit transfers using the CAT thruster technology. Systems-level constraints such as availability of power, energy, mass, and volume, which limit these small, highly-integrated spacecraft, have been considered. The key constraints and sensitivities of using small spacecraft for interplanetary orbit transfers have been identified and quantified. The main results of this paper have demonstrated that it is feasible to perform orbit transfers from LEO to Earth escape and from GEO to interplanetary destinations using small spacecraft, such as those in a 6U CubeSat form-factor. This work lays the ground
+12 of 15
+American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+Transfer Time, years
+
+10
+
+40
+
+Propellant Mass
+
+35
+
+Dry Mass
+
+8 30
+
+6
+
+25
+
+Mass, kg
+
+20
+
+4
+
+15
+
+10 2
+
+Earth to Jupiter
+
+5
+
+Boost Phase
+
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+Initial Spacecraft Mass, kg
+
+Initial Spacecraft Mass, kg
+
+a) Transfer Time to Jupiter (60 W)
+
+b) Required Propellant (60 W)
+
+9
+
+40
+
+Propellant Mass
+
+8
+
+35
+
+Dry Mass
+
+7
+
+30
+
+Mass, kg
+
+6 25
+5 20
+4
+15 3
+
+2
+
+10
+
+1
+
+Earth to Jupiter
+
+5
+
+Boost Phase
+
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+Initial Spacecraft Mass, kg
+
+Initial Spacecraft Mass, kg
+
+c) Transfer Time to Jupiter (70 W)
+
+d) Required Propellant (70 W)
+
+Transfer Time, years
+
+Figure 11. Sensitivity of transfer properties relative to spacecraft mass for orbit transfers from GEO to Jupiter, assuming the spacecraft generates a maximum power of 60 W and 70 W at 1 AU, and uses I2 propellant.
+
+Transfer Time, years
+
+12
+
+10
+
+Earth to Jupiter
+
+8
+
+Boost Phase
+
+6
+
+4
+
+2
+
+0 20 30 40 50 60 70 80 90 100
+Collected Power, W
+a) Transfer Time to Jupiter
+
+Mass, kg
+
+16
+14
+12
+10 Propellant Mass Dry Mass
+8
+6
+4
+2 20 30 40 50 60 70 80 90 100
+Collected Power, W
+b) Required Propellant
+
+Figure 12. Sensitivity of transfer properties to spacecraft initial solar panel power collection for orbit transfers from GEO to Jupiter, assuming an initial total spacecraft mass of 25 kg, the spacecraft generates a maximum power of 70 W at 1 AU, and uses I2 propellant.
+
+13 of 15 American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+work for more sophisticated orbit-transfer maneuvers both in LEO, such as orbit changes and constellation design, as well as ways to improve the efficiency to reach interplanetary destinations using lunary and planetary flybys and the Interplanetary Highway within a small spacecraft form-factor.
+There are many interesting areas of future work to further optimize the vehicle and trajectory to achieve significant orbit changes by small spacecraft systems. An important first step is to formulate and solve an integrated vehicle and trajectory optimization problem, where the decision variables will be spacecraft parameters such as solar panel area and number of batteries and the trajectory variables will be the time, direction, and magnitude of the thrusts. This approach will yield improvements in overall system performance relative to the conventional iterative approaches used to size spacecraft components and develop trajectories. More sophisticated mission design approaches should also be considered, particularly those involving lunar and planetary flybys, as these can significantly improve overall transfer times and propellant requirements. There are several additional systems-level concerns that should be considered, such as managing high voltage and thermal loads, mitigating radiation concerns, tolerating solar panel degradation over time, and minimizing/accommodating battery capacity degradation with discharge and charge cycles. These issues should also be analyzed for their impact on mission performance, and incorporated into the models and trade space for the design and optimization of future mission concepts.
+Acknowledgments
+The authors acknowledge support by NASA cooperative agreement NNX13AR18A. Part of the research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration.
+References
+[1] Hofer R. Mueller, J. and J. Ziemer. Survey of propulsion technologies applicable to cubesats. In Proceedings of the 57th Joint Army-Navy-NASA-Air Force (JANNAF) Propulsion Meeting, Colorado Springs, CO, 2010.
+[2] Daniel Selva and David Krejci. A survey and assessment of the capabilities of cubesats for earth observation. Acta Astronautica, 74(0):50 ­ 68, 2012.
+[3] Kirk Woellert, Pascale Ehrenfreund, Antonio J. Ricco, and Henry Hertzfeld. Cubesats: Cost-effective science and technology platforms for emerging and developing nations. Advances in Space Research, 47(4):663 ­ 684, 2011.
+[4] Daniel N. Baker and S. Pete Worden. The large benefits of Small-Satellite missions. Transactions American Geophysical Union, 89(33):301+, August 2008.
+[5] Therese Moretto and Robert M. Robinson. Small Satellites for Space Weather Research. Space Weather Journal, 6(5):S05007+, May 2008.
+[6] G. Crowley, C. S. Fish, G. S. Bust, C. Swenson, A. Barjatya, and M. F. Larsen. Dynamic Ionosphere Cubesat Experiment (DICE). American Geophysical Union (AGU) Fall Meeting, pages A6+, December 2009.
+[7] Garrett Skrobot. ElaNa educational launch of nanosatellite: Enhance education through space flight. In Proceedings of the 25th Annual Small Satellite Conference, August 2011.
+[8] M.F. Diaz-Aguado, S. Ghassemieh, C. Van Outryve, C. Beasley, and A. Schooley. Small class-D spacecraft thermal design, test and analysis - pharmasat biological experiment. In Proceedings of the IEEE Aerospace Conference, pages 1­9, 2009.
+[9] Les Johnson, Mark Whorton, Andy Heaton, Robin Pinson, Greg Laue, and Charles Adams. Nanosail-D: A solar sail demonstration mission. Acta Astronautica, 68(5-6):571 ­ 575, 2011. Special Issue: Aosta 2009 Symposium.
+[10] Matt Sorgenfrei and Brian Lewis. Biosentinel: Enabling cubesat-scale biological research beyond low earth orbit. In Interplanetary Small Satellite Conference, Pasadena, CA, 2014.
+[11] Les Johnson Jared Dervan Andreas Frick, Julie Castillo Rogez. Nea scout: A cubesat architecture for near earth asteroid (nea) exploration. In Interplanetary Small Satellite Conference (ISSC), Pasadena, CA, 2014.
+14 of 15
+American Institute of Aeronautics and Astronautics
+
+Downloaded by University of Michigan - Duderstadt Center on December 13, 2017 | http://arc.aiaa.org | DOI: 10.2514/6.2014-4125
+
+[12] Barbara Cohe Robert Staehle Payam Banazadeh, Paul Hayne. Lunar FlashLight: A cubesat architecture for deep space exploration, 2014.
+[13] Julie CastilloRogez Lauren Halatek Neil Murphy Carol Raymond Brent Sherwood John Bellardo James Cutler Glenn Lightsey Andrew Klesh, John Baker. Inspire: Interplanetary nanospacecraft pathfinder in relevant environment. In Proceedings of the Annual Small Satellite Conference, Logan, Utah, August 2013.
+[14] A. Ridley, J. Forbes, J. Cutler, A. Nicholas, J. Thayer, T. Fuller-Rowell, T. Matsuo, W. Bristow, M. Conde, D. Drob, L. Paxton, S. Chappie, M. Osborn, M. Dobbs, J. Roth, and Armada Mission Team. The Armada mission: Determining the dynamic and spatial response of the thermosphere/ionosphere system to energy inputs on global and regional scales. American Geophysical Union (AGU) Fall Meeting, pages A7+, December 2010.
+[15] C. Swenson, M. Larsen, J. Sojka, and C. Fish. CubeSat Constellations for Measurements of High Latitude Energy Input. American Geophysical Union (AGU) Fall Meeting, pages C1584+, December 2009.
+[16] Hamid Hemmati Dayton Jones Andrew Klesh Paulett Liewer Joseph Lazio Martin Wen-Yu Lo Pantazis Mouroulis Neil Murphy Paula J. Pingree Thor Wilson Brian Anderson C. Channing Chow II Bruce Betts Louis Friedman Jordi Puig-Suari Austin Williams Robert L. Staehle, Diana Blaney and Tomas Svitek. Interplanetary cubesats: Opening the solar system to a broad community at lower cost. Journal of Small Satellites, 2(1), 2013.
+[17] Michael M. Micci Andrew D. Ketsdever. Micropropulsion for Small Spacecraft. American Institute of Aeronautics and Astronautics, 2000.
+[18] B. Longmier and J. P. Sheehan. A new low power plasma thruster for nanosatellites. In Joint Propulsion Conference (JPC), San Jose, CA, 2013.
+[19] B. Longmier and J. P. Sheehan. A large delta-v plasma thruster for nanosatellites, interplanetary smallsatellite conference. In Interplanetary Small Satellite Conference, Pasadena, CA, 2014.
+[20] E. A. Bering C. S. Olsen J. P. Squire M. G. Ballenger M.D. Carter L. D. Cassady F. R. Chang Daz T. W. Glover J. P. Sheehan, B. W. Longmier and A. V. Ilin. Temperature gradients due to adiabatic plasma expansion in a magnetic nozzle. Plasma Sources Science and Technology, 23, 2014.
+[21] B. Longmier and J. P. Sheehan. Initial experiments of a new permanent magnet helicon thruster. In International Electric Propulsion Conference, Washington, DC, 2013.
+[22] Sara Spangelo and Benjamin Longmier. Bravosat: Optimizing the delta-v capability of a cubesat mission with novel plasma propulsion technology. In Interplanetary Small Satellite Conference, Pasadena, CA, 2013.
+[23] Sara Spangelo and Benjamin Longmier. Optimizing orbit transfer time using thrust and attitude control for a cubesat with interplanetary applications. In Interplanetary Small Satellite Conference (ISSC), Pasadena, CA, 2014.
+[24] Kristina Lemmer Daniel Kolosa, Sara Spangelo and Jennifer Hudson. Mission analysis for a micro RF ion thruster for cubesat orbital maneuvers. In Joint Propulsion Conference, Cleveland, OH, July 2014.
+[25] Zachary Itkoe. Understanding the needs of the cubesat community. In Summer CubeSat Workshop, Logan, Utah, August 2011.
+[26] Sara Spangelo and James Cutler. Analytical modeling framework and applications for space communication networks. Journal of Aerospace Information Systems, 10(10):452­466, 2013.
+15 of 15 American Institute of Aeronautics and Astronautics
+
+

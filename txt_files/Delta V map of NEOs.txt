@@ -1,0 +1,927 @@
+Acta Astronautica 146 (2018) 73­82
+Contents lists available at ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+
+A Delta-V map of the known Main Belt Asteroids
+Anthony Taylor *, Jonathan C. McDowell, Martin Elvis
+Harvard-Smithsonian Center for Astrophysics, 60 Garden St., Cambridge, MA, USA
+
+ARTICLE INFO
+Keywords: Asteroid mining Main belt NEO Delta-v Shoemaker-Helin
+
+ABSTRACT
+With the lowered costs of rocket technology and the commercialization of the space industry, asteroid mining is becoming both feasible and potentially profitable. Although the first targets for mining will be the most accessible near Earth objects (NEOs), the Main Belt contains 106 times more material by mass. The large scale expansion of this new asteroid mining industry is contingent on being able to rendezvous with Main Belt asteroids (MBAs), and so on the velocity change required of mining spacecraft (delta-v). This paper develops two different flight burn schemes, both starting from Low Earth Orbit (LEO) and ending with a successful MBA rendezvous. These methods are then applied to the $700,000 asteroids in the Minor Planet Center (MPC) database with well-determined orbits to find low delta-v mining targets among the MBAs. There are 3986 potential MBA targets with a deltav < 8 km sÀ1, but the distribution is steep and reduces to just 4 with delta-v < 7 km s-1. The two burn methods are compared and the orbital parameters of low delta-v MBAs are explored.
+
+1. Introduction
+For decades, asteroid mining and exploration has been largely dismissed as infeasible and unprofitable. However in recent years, a combination of technological and economic factors have injected new realism into the field, hinting at a distinct possibility of reliable human exploration and science initiatives directed at asteroids, as well as profitable and large scale asteroid mining. Mining will begin with the lowest delta-v near Earth objects (NEOs) [1], but will eventually expand to the Main Belt Asteroids (MBAs), if feasible.
+Although the mining of NEOs is already feasible with current launchers, such as the Atlas V 551 (see Section 7.1), a new generation of more powerful launchers is in development. The SpaceX Falcon Heavy1 the Blue Origin New Glenn2 and the ULA VuclanþACES should greatly decrease mission costs and, crucially for mining [1], may allow access to higher delta-v locations.
+A basic step in the creation of this new industry is an examination of known asteroids to find easy to reach targets that allow large masses of ore to be extracted and so are potentially profitable. The $15,000 known NEOs have already been analyzed both analytically [1] and numerically
+
+[2]. A running tabulation of the accessibility of NEOs is maintained online by Lance Benner3 and identifies 65 NEOs with delta-v< 4:5 km s-1. A separate database based on intensive numerical trajectory calculations is maintained by NASA at JPL in the NEO Human Space Flight Accessible Targets Study (NHATS).4
+However, the largest known NEO, Ganymed, is only $33 km in diameter. The asteroid Main Belt between Mars and Jupiter contains $1000 asteroids larger than this diameter [3]. The Main Belt has roughly 1,000,000 times the mass of the NEOs [4] and so would be more attractive for mining if it were accessible. However, the Main Belt has not received as much attention as the NEOs in terms of accessibility studies. This is likely because the MBAs are further away ($2­5 AU) and mostly more costly to access in propellant and transit time. The sheer number of known MBAs (over 720,000 compared to around 15,000 NEOs5), means that a small tail of accessible MBAs may contain rich mining targets. No analysis or tabulation of MBA accessibility has yet been published. Our goal in this paper is to remedy this lack.
+The energy cost of reaching an asteroid is the most crucial factor in assessing accessibility and strongly affects the payload that can be delivered. The energy cost is measured in delta-v (V), the total velocity
+
+* Corresponding author. E-mail addresses: anthonytaylor@college.harvard.edu (A. Taylor), jmcdowell@cfa.harvard.edu (J.C. McDowell), melvis@cfa.harvard.edu (M. Elvis).
+1 http://www.spacex.com/falcon-heavy (Accessed Jan 1, 2018). 2 http://ec2-174-129-141-77.compute-1.amazonaws.com/new-glenn (Accessed Jan 1, 2018). 3 https://echo.jpl.nasa.gov/~lance/delta_v/delta_v.rendezvous.html. 4 cneos.jpl.nasa.gov/nhats/intro.html. 5 http://www.minorplanetcenter.net/iau/MPCORB/NEA.txt (Accessed May 2017).
+https://doi.org/10.1016/j.actaastro.2018.02.014 Received 9 August 2017; Received in revised form 4 January 2018; Accepted 7 February 2018 Available online 14 February 2018 0094-5765/© 2018 IAA. Published by Elsevier Ltd. All rights reserved.
+
+A. Taylor et al.
+
+change that a spacecraft must undergo from Earth orbit to match orbits
+
+and rendezvous with another body, in this case, an asteroid. The rocket
+
+equation [5] is given by:
+
+
+
+V ¼ ve ln
+
+mi mf
+
+(1)
+
+Where ve is the velocity of the rocket's exhaust, mi is the rocket's initial mass, and mf is the rocket's final mass. This equation governs the delta-v rating of a spacecraft as a function of the ratio of initial (with propellant) to final (propellant excluded) mass of the spacecraft. Solving for this ratio
+
+gives:
+
+
+
+mi ¼ exp V
+
+(2)
+
+mf
+
+ve
+
+Equation (2) demonstrates that a linear change in delta-v causes an exponential change in the necessary propellant for a mission. Equivalently, for a fixed capability rocket, the delivered payload (mf ) is reduced comparably.
+The restrictions imposed by the rocket equation strongly motivate searches for the set of discrete rocket burns requiring the least amount of delta-v to reach a given target. The optimal delta-v from LEO to a specific target depends on that target's specific orbit. Delta-v can be calculated approximately for NEOs using the Shoemaker-Helin formalism [6], as in Benner's list, or by calculating trajectories at closely spaced intervals ($3 days) for some long time in the future ($20 years) as in NHATS. Neither approach works for MBAs: the Shoemaker-Helin assumptions do not apply, and the NHATS compute time, which was already considerable for the NEOs, becomes infeasible for the$50 times more numerous known MBAs.
+This paper quantifies the accessibility of the known MBAs as a guide to their exploration and identifies those MBAs that are most accessible. An analytic approach, in the Shoemaker-Helin spirit, is adopted here. This allows consideration of both two and three burn trajectories without excessive resource demands on computation.
+The paper is organized as follows: Section 2: provides an overview of the mechanics used in deriving the orbital burns. Section 3 discusses different sets of orbital burns. Section 4 applies the orbital burn methods to the Main Belt dataset. Section 5 discusses the two methods and their comparative efficiencies. Section 6 analyzes the delta-v results for MBAs, NEOs, and Outer Asteroids. Section 7 presents a listing of MBAs with delta-v < 7:3 km s-1 and analyses a hypothetical mission to the lowest delta-v MBA known to date, using an Atlas V 551 launch vehicle. Section 8 summarizes the investigation's results and relevant future projects.
+
+2. Orbital mechanics
+
+Rendezvous orbits from LEO to the asteroid orbit were considered. To develop LEO to asteroid flight paths, the Patched Conics approximation of orbital mechanics, in which the orbiting object is gravitationally affected by only one gravity well at a time6 [7] was used. Such an orbit, known as an Osculating Orbit, is characterized by a series of parameters or "orbital elements" [8]. These are derived from Kepler's Laws of Planetary Motion and, when all six are known in addition to the orbital epoch, an object's orbit and position on its orbit is completely determined. The six elements are the semi-major axis a, eccentricity e, argument of the periapsis , inclination i, longitude of the ascending node , and true anomaly  at epoch 0. The six orbital elements describe the six degrees of freedom in an orbit. A computationally equivalent, yet less intuitively clear, alternate set of parameters to use are an ðx; y; zÞ position
+
+6 I.e. an object orbiting Earth will only be subject to Earth's gravity, with no interference from the Sun or Moon, or an object in a solar orbit will be affected only by the Sun, ignoring the gravitational effects of the planets and all other objects.
+
+Acta Astronautica 146 (2018) 73­82
+vector and a ðvx; vy; vzÞ velocity vector. The Keplerian approach uses purely classical mechanics and does not take into account relativistic effects. At reasonable distances from the Sun (i.e. at the Earth's orbit or beyond) these effects on solar orbits are entirely negligible.
+In our approach, orbital changes are achieved through the operation of reaction engines in a series of burns. Continuous low-thrust regimes, such as ion engines [9], were not considered. Instead all burns were performed with a high thrust, brief operation, engine, in the approximation that all changes in velocity due to burns are instantaneous. There is no unique set of burns necessary to reach a MBA. Any number of different burns can be used for a successful rendezvous, though a minimum of two burns are required. To rendezvous with an asteroid, the spacecraft must match both its velocity and position (and therefore its orbit) vectorially. This differs from a rendezvous with a planet or other large body, as the gravity of the target object is then much larger than that of an asteroid, requiring at least entry into a capture orbit, and a controlled descent, if desired. For a Main Belt asteroid, even the most massive; Ceres has gCeres ¼ 0:03g [10], so the effects of the asteroid's gravity are negligible for delta-v calculations.
+
+3. Multiple Burn approaches
+
+The Shoemaker-Helin Equations [6] for NEOs provide a good approximation for the minimum delta-v. However, these equations were developed for Earth Crossing Asteroids. As a result they make approximations that may not hold to sufficient precision and efficiency for MBAs. For example, the Shoemaker-Helin equations disregard the target asteroid's argument of periapsis , which is important for accurate estimates of low delta-v rendezvous.
+In response to this, two different series of burns capable of achieving rendezvous with Main Belt asteroids were developed here, each with its own strengths and efficiencies. The first uses two burns, the second uses three burns. Both methods assume that the spacecraft starts in a low (100 km) circular equatorial parking orbit around the Earth, and are designed to end with a successful asteroid rendezvous. The principles of each are described below.
+
+3.1. Two Burn method
+
+In the Two Burn Method, the spacecraft performs 2 orbital burns to rendezvous with the asteroid. The delta-v of the mission is the sum of the delta-v's of each burn, given by:
+
+V2 ¼ v1;2 þ v2;2
+
+(3)
+
+3.1.1. Burn 1 In the Two Burn Method, Burn 1 is performed when the ecliptic
+longitude of the Earth is 180 from the ecliptic longitude of the asteroid's ascending or descending node. Burn 1 is chosen to place the spacecraft's apoapsis at the ascending or descending node of the asteroid. The node further from the sun is selected to decrease delta-v in accordance with the Oberth effect [11].7 The timing of the launch is chosen such that the spacecraft and asteroid reach that intersection point at the same time. The equation for the delta-v of Burn 1 is given by
+
+v1;2 ¼
+
+ 2 aEarth
+
+À
+
+rnode
+
+2
+
+1=2
+
+þ aEarth
+
+!2
+
+!1=2
+
+À vEarth þ v2esc
+
+À vpark
+
+(4)
+
+7 The Oberth effect demonstrates that it is most efficient to raise the apoapsis at the periapsis. Since a rocket is a momentum engine, the acceleration it generates is independent of the rocket's current orbital speed. Because kinetic energy increases as the square of the speed, acceleration at a high velocity results in a greater kinetic energy increase than at lower velocity. As velocity is maximized at the periapsis, it is the most efficient position from which to raise the apoapsis.
+
+74
+
+A. Taylor et al.
+
+Where  ¼ GM which is the standard gravitational parameter for the sun, aEarth is the semi-major axis of the Earth's orbit (assumed to be circular), vpark is the velocity of the spacecraft in its parking orbit around the Earth, vesc is the escape velocity of the spacecraft in its parking orbit around the Earth, vEarth is the velocity of the Earth in its orbit around the sun, a is the semi-major axis of the asteroid, e is the eccentricity of the asteroid's orbit, and rnode is the orbital radius of the higher node, determined by the asteroid's orbital elements.
+
+3.1.2. Burn 2
+
+Burn 2 is performed at the apoapsis of the spacecraft transfer orbit established by Burn 1. By Burn 1's design and timing, this will also be the ascending or descending node of the asteroid's orbit, and the asteroid will
+
+also be at this position when Burn 2 is performed. This timing is designed to be optimal, and it may take a long time for this alignment to occur.
+
+However, as these burns are designed to provide an estimate of minimum delta-v to rendezvous, the idealized timing is necessary. Burn 2 chooses the burn magnitude and direction to match the spacecraft and asteroid
+
+velocities, thereby achieving rendezvous. The delta-v for Burn 2 is given by:
+
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+
+v2;2 ¼ v2craft þ v2ast À 2vcraft vast cosðÞ
+
+(5)
+
+Where vast is the asteroid's velocity at apoapsis, vcraft is the spacecraft's velocity at apoapsis, and  is that angle between the asteroid's and spacecraft's pre-burn velocity vectors.
+
+3.2. Three Burn method
+
+In the Three Burn Method, the spacecraft performs 3 orbital burns to rendezvous with the asteroid. The delta-v of the mission is the sum of the delta-v's of each burn, given by:
+
+V3 ¼ v1;3 þ v2;3 þ v3;3
+
+(6)
+
+3.2.1. Burn 1 Burn 1 is identical in function to Burn 1 in the Two Burn Method,
+except that the alignment is different. Burn 1 is performed when the ecliptic longitude of the Earth is 180 from the ecliptic longitude of the asteroid at apoapsis. Burn 1 must also be performed at a time such that both the spacecraft and the asteroid will reach the asteroid's apoapsis at the same time. This will make maximum use of the Oberth effect, decreasing mission delta-v by setting the new apoapsis by burning at the periapsis [11]. Burn 1 will cause the spacecraft to escape Earth with a velocity in excess of the required escape velocity, such that the apoapsis of the spacecraft above the Sun is the same distance and ecliptic longitude as the apoapsis of the asteroid. The orbit of the spacecraft after Burn 1 is in the ecliptic plane, but it is now much more eccentric. The delta-v for Burn 1 is given by:
+
+v1;3 ¼
+
+ 2 aEarth
+
+À
+
+að1
+
+þ
+
+2 eÞ þ
+
+1=2 aEarth
+
+!2
+
+!1=2
+
+À vEarth þ v2esc
+
+À vpark
+
+(7)
+
+Note that this equation is the same as Eq. (4) except that "rnode" is replaced with "að1 þ eÞ" where að1 þ eÞ is the asteroid's apoapsis radius. All other symbols are the same.
+
+3.2.2. Burn 2 Burn 2 is performed at true anomaly  ¼ 90 relative to the argument
+of the periapsis of the asteroid. Burn 2 changes the direction but not the magnitude of the spacecraft's velocity, rotating the velocity vector and orbital trajectory out of the ecliptic plane. This rotation is performed such that the apoapsides of the spacecraft and asteroid coincide in 3D space. This is done so that the spacecraft and asteroid will arrive at the same place at the same time at apoapsis, allowing Burn 3 to match their ve-
+
+Acta Astronautica 146 (2018) 73­82
+
+locities achieving rendezvous. The location of the spacecraft at the time of Burn 2 then defines the ascending or descending node of the spacecraft's final transfer orbit.
+
+The delta-v of Burn 2 is given by:
+
+
+
+v2;3 ¼ 2v¼90 sin
+
+ 2
+
+(8)
+
+Where v¼90 is the spacecraft's initial velocity at  ¼ 90, and  is the angle between the spacecraft's pre-burn and post-burn velocity vectors. 
+is given by:
+
+cosðÞ ¼ cosðÞcos2ðÞ þ sin2ðÞ
+
+(9)
+
+ is the ecliptic latitude of the asteroid given by sinðÞ ¼ sinðÞsinðiÞ, where  is the asteroid's argument of periapsis, and i is the asteroid's orbital inclination.  is the spacecraft's flight path angle, the angle between the spacecraft's velocity vector and the velocity vector of an object at the same radius moving in a circular orbit about the Sun.
+
+3.2.3. Burn 3 Burn 3 is executed near the time when the spacecraft encounters the
+asteroid at apoapsis. At initial approach the spacecraft and the asteroid
+
+will have different velocity vectors. Burn 3, by design, imparts the vector velocity (magnitude and direction) that must be added to the spacecraft velocity so that it matches that of the asteroid, thereby matching their
+
+orbits and achieving rendezvous. This will change both the inclination and periapsis of the spacecraft's orbit to match that of the asteroid.
+
+The delta-v of Burn 3 is given by:
+
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi v3;3 ¼ v2ast þ v2craft À 2vast vcraft cosð Þ
+
+(10)
+
+Where vast is the asteroid's velocity at apoapsis, vcraft is the spacecraft's velocity at apoapsis, and  is that angle between the asteroid's and spacecraft's pre-burn velocity vectors.  is given by:
+
+cosðÞ ¼ qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffifficffiffioffiffisffiffiðffiffiiffiÞffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+
+(11)
+
+cos2ðÞ þ cos2ðiÞsin2ðÞ
+
+Where  and i are the asteroid's argument of periapsis and inclination.
+
+4. Data analysis
+
+The dataset used for the orbital analysis is the Minor Planet Center Orbit Database (MPCORB) accessed on April 15, 2017.8 This dataset is the product of individual observers' data on solar system objects and contains data on $720,000 asteroid orbits, including both the numbered objects and objects with only provisional designations. Both the numbered and provisional objects were used in this study. We required that all asteroids had orbit solutions well determined enough to have an MPC orbit code U,9 and so accurate orbits. This criterion eliminated $100,000 objects ($14%). The MPC provided datafile is an ASCII based text file. The data read in were: object designation (Des'n), argument of periapsis (Peri.), inclination (Incl.), eccentricity (e), semi-major axis (a), and orbit uncertainty parameter (U). For a discussion of the code used in the data analysis, see Appendix A.
+The output data for each object is: object designation, argument of periapsis, inclination, eccentricity, semi-major axis, delta-v and one-way
+
+8 This dataset is available and updated daily at http://www. minorplanetcenter.org/iau/MPCORB/MPCORB.DAT.
+9 U is the Minor Planet Center's (MPC) Uncertainty Parameter for a perturbed orbital solution where 0 indicates very small uncertainty and 9 indicates a very large uncertainty. For a full description of the U Parameter, see http://www. minorplanetcenter.net/iau/info/UValue.html accessed May 2017.
+
+75
+
+A. Taylor et al.
+
+Acta Astronautica 146 (2018) 73­82
+
+Fig. 1. Two Burn Method: 3D view of the orbits of the asteroid (red), Earth (blue), and the spacecraft after Burn 1 (green). The z-axis is normal to the ecliptic plane, x and y are arbitrary, but consistent in Figs. 1­4. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+transit time for the Two Burn and Three Burn Methods, the lower delta-v value, the corresponding travel time, and the number of the Method that produced the lower delta-v value.
+5. Comparison of the two methods
+The methods were deliberately designed with different flight plans to explore how each set of burns affected the resulting delta-v to each asteroid. The comparison of the two provides insight into their relative efficiencies and inefficiencies for different orbital parameters.
+The only time the two methods would be the same is for an orbit with the argument of the periapsis  of exactly 0 or 180, as each method would execute a single Earth escape burn to apoapsis, and correct inclination and periapsis in a second burn at rendezvous, matching orbits.
+The two rendezvous methods provide similar results when applied to the dataset. There are some clear differences however.
+The more efficient method is defined as one that minimizes the total delta-v. Fig. 5 shows the delta-v distributions for each method. For all MBA's, the Three Burn Method was more efficient for 13.4% of targets, and the Two Burn Method was more efficient for the remaining 86.6%.
+However, at the low delta-v end (6:8 À 9 km s-1), which is of
+
+Fig. 3. Three Burn Method: 3D diagram of the orbits of the asteroid (red), Earth (blue), and the spacecraft after Burn 1 (green). (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+particular interest, the Three Burn Method is more efficient for 28% of MBAs, and the Two Burn Method is more efficient for 72% of MBAs. Below 7.93 km s-1, the Three Burn Method is better for more MBAs than the Two Burn Method, as illustrated in Fig. 6.
+Using the better of the two for each MBA decreases the average deltav by 10% (1.35 km s-1) compared to the Three Burn Method alone, and by 0.8% (0.084 km s-1) when compared to the Two Burn Method alone.
+There is a long tail of MBAs with delta-v > 12 km s-1. For these, the Two Burn Method is preferred for almost all (98.5%) targets. These MBAs tend to have an argument of periapsis  of 90 Æ 60 or 270 Æ 60 (Fig. 7). These disfavored arguments of periapsis result in Burn 2 of the Three Burn Method causing the majority of the inclination change. These inclination changes are relatively costly in delta-v as they are not performed at apoapsis where the velocity vector is minimal.
+To investigate whether specific types of orbits give lower delta-v for a particular method, Fig. 8 plots the inclination and semi-major axis of the asteroids best reached by each of the two methods separately in a heat map.
+Fig. 8 demonstrates that the Three Burn Method is strongly preferred for orbits with low orbital inclination (i < 5). This is understandable, as the Three Burn Method is most efficient in its first and third burns as explained below.
+The first burn is efficient because it sets the apoapsis of the orbit while at the periapsis, making maximum use of the Oberth effect [11] with respect to both the Earth and the Sun.
+The second burn is inefficient, as it is performed purely to change inclination, and is not performed at the periapsis. Thus the velocity of the spacecraft is not minimized (as it would be at the periapsis) and
+
+Fig. 2. Two Burn Method: After Burn 2, the asteroid and spacecraft orbits (red and green) are fully aligned. The blue orbit is Earth's orbit for reference. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+
+Fig. 4. Three Burn Method: After Burn 2, the apoapsides of the asteroid and transfer orbits (red and green) coincide. The blue orbit is Earth's orbit for reference. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+
+76
+
+A. Taylor et al.
+
+Acta Astronautica 146 (2018) 73­82
+
+Fig. 5. Distributions of MBA (non-Main Belt objects have been filtered out) delta-v in the dataset for the Three Burn Method (green), the Two Burn Method (blue) and the best method for each datapoint (red), divided into 0.1 km s-1 bins. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+Fig. 6. Cumulative plot of MBA (non-Main Belt objects have been filtered out) delta-v in the dataset for the Three Burn Method (green) and the Two Burn Method (blue) at delta-v less than 8 km s-1. This illustrates the importance of the Three Burn Method for the lowest delta-v targets. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+proportionally more delta-v is needed to adjust the orbital inclination. The third burn is efficient for the following reasons:
+1. The periapsis is raised at the apoapsis. When the simultaneous inclination change is small, this is efficient because all of the rocket's deltav is added directly to the current velocity vector. Burns at an angle to the velocity vector are inherently inefficient, as the magnitude of the resulting vector is less than or equal to the sum of magnitudes of the original velocity vector and the burn vector.
+2. Orbital inclination is adjusted at the apoapsis. This is important, because an inclination change involves changing the direction of the velocity vector. Thus, it is most efficient to do this when the velocity is minimal. The apoapsis, where Burn 3 is applied, is the point in the orbit with the lowest velocity, thus it is the best place to perform inclination changes. The third burn combines these two desirable features. Since an
+inclination change burn is performed at an angle to the velocity vector and a periapsis raising burn is performed parallel to the velocity vector at
+
+Fig. 7. Distribution of MBAs with Three Burn v >12 km s-1 as a function of argument of periapsis, divided into 1 bins.
+apoapsis, performing both at the same time is more efficient than performing them individually due to vector addition.
+For MBA orbits with low inclination (i < 5), the inclination change performed in Burn 2, and thus the inefficient part of the Three Burn Method, is minimized.
+Each of the Two Burn Method's burns carry a degree of efficiency and inefficiency.
+Burn 1 is efficient through its use of the Oberth effect, as it raises the transfer orbit apoapsis to the higher orbital radius ascending/descending node. However, unlike the Three Burn Method, it does not establish the full apoapsis of the asteroid's orbit, and thus make full use of the Oberth effect. The final apoapsis is set later in Burn 2, away from the periapsis.
+Burn 2 is more difficult to judge, as it combines several changes in a single burn: setting the apoapsis, setting the periapsis, and adjusting the inclination. Burn 2 gains efficiency through vector addition and by fixing the inclination in a single burn as opposed to the two burns used in the Three Burn Method. However, Burn 2 does not set the apoapsis at the periapsis and vice versa, and so does not gain from the Oberth effect, leading to inefficiency in kinetic energy gain. As previously stated, although the Two Burn Method is more efficient for 86.6% of the dataset, at the low delta-v end (6:8 À 9 km s-1), which is of particular interest, the Three Burn Method is more efficient for 28% of MBAs, and the Two Burn Method is more efficient for 72% of MBAs.
+6. Delta-V distributions
+6.1. Delta-V distribution: all objects
+The MPC dataset contains all known small bodies in the solar system, including comets, NEOs, KBOs, Trojans, and other bodies. For this paper, groups of interest (NEOs and MBAs) are grouped as follows and summarized in Table 1:
+ NEOs have a periapsis less than 1.3 AU, and an apoapsis greater than 0.983 AU.
+ MBAs have their orbit entirely contained within Mars' and Jupiter's semi-major axes [12].
+Fig. 9 plots the delta-v distributions of these two classes of objects. The V > 12 km s-1 tail of the NEO distribution represents a group of NEOs with a median orbital inclination of 25. Using the two sets of orbital maneuvers, the delta-v required to perform a inclination change decreases with increasing semi-major axis. At a given eccentricity and true anomaly, the spacecraft's orbital velocity decreases with increasing semi-major axis. Thus a lower semi-major axis target will require a higher
+
+77
+
+A. Taylor et al.
+
+Acta Astronautica 146 (2018) 73­82
+Fig. 8. MBA orbit inclination plotted against semi-major axis. Left: Fraction of MBAs at a given ða; iÞ best reached by the Two Burn Method divided into 0.01 AU bins and 0.1 bins. Right: Fraction of MBAs at a given ða; iÞ best reached by the Three Burn Method divided into divided into 0.01 AU bins and 0.1 bins.
+
+Table 1 MPC objects with defined U.
+
+Object Class
+
+Periapsis
+
+NEOs Main Belt
+
+< 1:3AU > aMars
+
+Apoapsis
+> 0:983AU < aJup
+
+Objects
+15,922 596,713
+
+Median Delta-V
+9.22 km s-1 9.96 km s-1
+
+Fig. 9. The distribution of asteroid delta-v in the dataset, using the lowest value from the two methods per asteroid. Each curve is normalized such that it integrates to unity.
+delta-v for a given orbital inclination change than a higher semi-major axis target will for the same inclination change.
+Fig. 10 compares the NEO distribution calculated from the Two Burn/ Three Burn method to Benner's NEO distribution.3
+The Two Burn/Three Burn methods produce far greater delta-v's for NEOs (median V ¼ 9:22 km s sÀ1) than Benner's method (median V ¼ 7:04 km s-1). This difference is partially because of the assumption in the Shoemaker-Helin equations, used by Benner, that the argument of periapsis of all NEOs is zero ð ¼ 0Þ [6]. Making this approximation and re-calculating the NEO delta-v's using the Two Burn/Three Burn Methods yields a distribution and median delta-v of 7.59 km s-1 that is quite similar to Benner's (Fig. 10). The remaining difference in delta-v is likely attributable to the Shoemaker-Helin equations' specialized burn methods for Apollos, Amors, and NEOs with a < 1. This specialization allows for more efficient trajectories, as the trajectory is tailored to a specific group of objects. In contrast, the Two Burn/Three Burn methods are designed to
+
+Fig. 10. The distributions of NEO delta-v in the dataset, using the lowest value from the two methods per asteroid (red). The blue distribution is Benner's distribution. The green curve is the Two Burn/Three Burn distribution recalculated such that  ¼ 0 for all objects, as for Benner's calculation. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+reach objects with a periapsis > 1 AU.
+6.2. Comparison to NHATS
+The NHATS survey only contains trajectories for 2279 NEOs10, but is a useful standard of comparison for the Two Burn/Three Burn Methods. Fig. 11 plots the difference between the minimum NHATS outgoing delta-v and the Two Burn/Three Burn delta-v for all objects in the NHATS dataset.
+The range of delta-v for all objects in the NHATS database is 3.37­10.21 km s-1 for NHATS and 3.47­12.63 km s-1 for the Two Burn/ Three Burn Methods. The instances in which NHATS calculates a lower delta-v reinforces that the Two Burn/Three Burn Methods are not designed for NEOs. The instances in which the Two Burn/Three Burn Methods calculate a lower delta-v than NHATS are likely due to the
+10 As of January 3rd, 2018.
+
+78
+
+A. Taylor et al.
+
+Table 2 Low Delta-V MBAs.
+Delta-V
+<8.5 km s-1 <8.0 km s-1 <7.5 km s-1 <7.0 km s-1
+
+Acta Astronautica 146 (2018) 73­82
+MBAs with defined "U" 34,760 3986 96 4
+
+Fig. 11. The distribution of the difference between the minimum NHATS out-
+going delta-v and the Two Burn/Three Burn delta-v for each object in the NHATS database. The average difference in delta-v is À0.54 km s-1 and the standard deviation is 1.79 km s-1.
+
+accessible. The distribution of delta-v in ða; iÞ space is shown in Fig. 14. Clearly delta-v is minimized in orbits with a < 2:5 AU, and i < 10. A
+favored asteroid family is the Flora group, while groups such as the
+Hungaria and Phocaea are disfavored due to their high inclination. It is
+also clear that a minimal orbital inclination is more important than a
+minimal semi-major axis in a low delta-v target. Even at distances near Jupiter (5.2 AU), at i < 15 the delta-v does not exceed $13 km s-1. Instead, high inclination MBAs are much more costly to reach, with v % 13 km s-1 by i % 25 and climbing to $16 km s-1 by i % 30.
+Less intuitively, the argument of periapsis, , also has a significant
+
+Fig. 12. Left: The distribution of MBA delta-v's, using the lowest value for delta-v from the two methods per MBA divided into 50 km s-1 bins. Right: Cumulative plot of the fraction of MBAs that can be reached for a given delta-v, using the lowest value for delta-v from the two methods per asteroid. Note the small tail of V < 8 km s1 objects.
+
+assumption of ideal alignment in the Two Burn/Three Burn Methods that is not present in NHATS0 calculations that use real alignments that will occur until the year 2040.
+6.3. Delta-V distribution: Main Belt
+Fig. 12 shows that the median delta-v of the MBAs is 9.96 km sÀ1. There is a small tail (0.7%) of MBAs to lower delta-v, $8 km s-1 (summarized in Table 2), and a long tail (0.8%) to higher delta-v, $14 km s-1.
+Fig. 13 compares the distribution of the lowest delta-v MBAs with that for NEOs.11 The number of accessible known MBAs exceeds the number of known accessible NEOs at v % 8.0 km s-1. This demonstrates that there are plenty of potential asteroid targets (both NEOs and MBAs) for research and mining, if a threshold delta-v of v % 8.0 km s-1 can be reached.
+
+effect on delta-v.
+Fig. 15 shows that both orbital methods prefer the argument of the periapsis to be either at 0 or 180. These argument of periapsis values
+correspond to the case in which both methods are the same (as mentioned at the beginning of Section 5). In the Three Burn Method, as  approaches 0 or 180, the inclination change in Burn 2 decreases, and
+the inclination change in Burn 3 increases. As Burn 2 is the least efficient in the Three Burn Method, the overall delta-v decreases as  approaches 0 or 180. In the Two Burn Method, as  approaches 0 or 180, the location of Burn 2 approaches the apoapsis, the most efficient place for it
+to occur. This also explains the low delta-v bias in the Shoemaker-Helin equations which use the approximation  ¼ 0. By the inverse reasoning, arguments of the periapsis of 90 and 270 are highly unfavorable for both methods. On average, MBA orbits with  2 ½160; 200 have a deltav that is 1.15 km s-1 lower than MBA orbits with  2 ½70; 110.
+
+6.4. Orbital parameters of low Delta-V MBAs It is of interest to examine the types of MBA orbits that are most
+11 Calculated with the Two Burn/Three Burn Methods, for consistency.
+
+7. The lowest Delta-V Main Belt Asteroids
+Table 3 lists some properties of all of the 19 known MBAs with delta-v < 7:30 km s-1 that have defined MPC "U" values, listed in order of deltav. The 7.30 km s-1 cutoff was chosen to keep the list to a reasonable length for publication. As expected the inclinations are all very low (median
+
+79
+
+A. Taylor et al.
+
+Acta Astronautica 146 (2018) 73­82
+
+Fig. 13. Logarithmic cumulative plot of the number of MBAs and NEOs that can be reached for a given delta-v, using the lowest value for delta-v from the two methods per asteroid.
+
+Fig. 15. MBA orbital inclination i plotted against MBA argument of periapsis , with delta-v in km sÀ1 as a color scale. MBAs with a delta-v of 18 km sÀ1 or greater are not included on this plot. These objects make up < 1% of the dataset. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+Virtually no other information is available for the MBAs in Table 3. The JPL Small-Body Database Browser14 has only one of these objects with physical parameters. (155287) has an albedo measured by NEOWISE of pv ¼ 0:117 Æ 0:068, implying a diameter of 1:617 Æ 0:349 km. This albedo lies between the C-class and S-class asteroids [14] [15], so the composition of (155287) remains unknown.
+
+Fig. 14. Asteroid inclination plotted against semi-major axis (a), with delta-v in km sÀ1 as a color scale. MBAs with a delta-v of 18 km sÀ1 or greater are not included on this plot. These objects make up < 1% of the dataset. Approximate locations of major asteroid families are labeled. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+1:23), and the semi-major axes are at the inner edge of the Main Belt. Transfer times (time elapsed from the start of Burn 1 to successful rendezvous) are $1­2 years, with launch windows separated by $2­3 years. The approximate launch windows are calculated from the synodic period [13] of the MBAs. Due to the eccentricities of the asteroids' orbits, the synodic period does not represent the precise time between optimal launch windows, but is a reasonable approximation for low eccentricity, low inclination orbits. All of the orbits are well-defined with a U value of 4 or less. 12 out of these 19 MBAs have a lower delta-v using the Three Burn Method, demonstrating that although the Two Burn Method is more efficient for 72% of MBAs, the Three Burn Method is important for verifying or further minimizing delta-v.
+Estimated diameters were calculated using the MPC provided H-mag and the MPC's conversion chart for albedo values (0.50, 0.05).12 The diameters of the 19 most accessible MBAs are small for known MBAs (none are greater than 5 km), but still have a median diameter of 300­900 m, a substantial size compared with most NEOs (median diameter 100­300 m).13
+
+7.1. Current mission feasibility
+To test the short term practicality of reaching an MBA with a substantial payload, a hypothetical mission is proposed using the Atlas V 551 to rendezvous with the lowest delta-v MBA, (271774).
+The Two Burn Method is preferred for (271774). (271774) has its higher node at 1.83 AU, and the semi-major axis of the Two Burn transfer orbit is 1.42 AU. This corresponds to a spacecraft C3 (characteristic energy)15 [16] of 16.97 km2 s-2. Using Atlas V 551 payload ratings as function of C3 [17], a mass of 4830 kg can be launched to a C3 of 16.97 km2 s-2. This uses the Atlas V 551 to launch and perform the entirety of Burn 1. The 4830 kg spacecraft must then perform Burn 2. The delta-v of Burn 2 is 2.56 km s-1.
+The RL-10 and J2X LH2/LOX engines of the Atlas V have ve ¼ 4:4 km s-1[1]. Using these values in the rocket equation, the delivered mass to (271774) is: mf ¼ 2700 kg. For reference, the Rosetta Orbiter had a dry mass of 1180 kg [18]. The LEO to asteroid rendezvous transit would take just under a year, 352 days.
+8. Conclusions and future directions
+8.1. Conclusions
+This examination of Main Belt asteroids as prospective targets for mining and exploration missions has found that within a delta-v of 8 km sÀ1, starting from LEO, one can access 3986 MBAs. The number declines steeply with delta-v, however. There are 96 MBAs that can be reached with a delta-v of less than 7.5 km sÀ1, but only 19 with delta-v less than 7.3 km s-1. As more MBAs are discovered, additional targets may be found.
+Additionally, two simple, but different, sets of orbital burns have been
+
+12 http://www.minorplanetcenter.net/iau/Sizes.html accessed May 2017. 13 https://cneos.jpl.nasa.gov/stats/size.html Accessed Jan 4, 2018.
+
+14 https://ssd.jpl.nasa.gov/sbdb.cgi. 15 C3 is equivalent to v2, where v is the asymptotic velocity at infinite distance.
+
+80
+
+A. Taylor et al.
+
+Acta Astronautica 146 (2018) 73­82
+
+Table 3 Main Belt Asteroids with Delta-V< 7:30 km s-1
+
+Designation
+
+v
+
+
+
+(km s-1)
+
+( )
+
+i
+
+e
+
+( )
+
+a
+
+U
+
+Transfer Time
+
+Burns
+
+Synodic Period
+
+H-mag
+
+Est. diameter
+
+(AU)
+
+(days)
+
+(days)
+
+(m)
+
+271774
+
+6.83
+
+2006 TG9
+
+6.87
+
+257471
+
+6.94
+
+396707
+
+7.00
+
+339147
+
+7.03
+
+2016 CU137
+
+7.06
+
+155287
+
+7.08
+
+297125
+
+7.09
+
+2007 TC383
+
+7.15
+
+186393
+
+7.18
+
+2006 PB33
+
+7.19
+
+2002 GZ191
+
+7.22
+
+2006 QD8
+
+7.24
+
+2016 NC33
+
+7.24
+
+407740
+
+7.25
+
+122358
+
+7.28
+
+91227
+
+7.29
+
+2015 MK116
+
+7.29
+
+452391
+
+7.29
+
+Minimum
+
+6.83
+
+Maximum
+
+7.29
+
+Median
+
+7.18
+
+352.01
+
+1.56
+
+0.15
+
+1.83
+
+0
+
+352
+
+157.85
+
+0.51
+
+0.18
+
+1.90
+
+1
+
+377
+
+201.85
+
+1.64
+
+0.06
+
+1.73
+
+0
+
+305
+
+211.56
+
+4.04
+
+0.03
+
+1.63
+
+1
+
+282
+
+196.41
+
+0.39
+
+0.17
+
+1.93
+
+0
+
+381
+
+312.06
+
+0.84
+
+0.21
+
+1.94
+
+4
+
+395
+
+178.40
+
+2.34
+
+0.27
+
+2.11
+
+0
+
+456
+
+180.67
+
+1.23
+
+0.27
+
+2.15
+
+0
+
+467
+
+8.85
+
+0.17
+
+0.34
+
+2.31
+
+3
+
+535
+
+348.30
+
+0.59
+
+0.32
+
+2.28
+
+0
+
+519
+
+166.64
+
+0.87
+
+0.27
+
+2.16
+
+1
+
+470
+
+183.47
+
+0.89
+
+0.27
+
+2.19
+
+4
+
+474
+
+179.99
+
+1.60
+
+0.26
+
+2.16
+
+3
+
+462
+
+356.39
+
+1.29
+
+0.31
+
+2.28
+
+2
+
+516
+
+340.51
+
+1.32
+
+0.29
+
+2.17
+
+1
+
+478
+
+176.64
+
+1.42
+
+0.32
+
+2.31
+
+0
+
+528
+
+56.56
+
+0.57
+
+0.25
+
+2.11
+
+0
+
+449
+
+338.43
+
+0.49
+
+0.25
+
+2.14
+
+3
+
+454
+
+358.49
+
+1.33
+
+0.28
+
+2.24
+
+1
+
+491
+
+­
+
+0.17
+
+0.03
+
+1.63
+
+0
+
+282
+
+­
+
+4.04
+
+0.34
+
+2.31
+
+4
+
+535
+
+­
+
+1.23
+
+0.27
+
+2.15
+
+1
+
+462
+
+2
+
+613
+
+3
+
+591
+
+2
+
+653
+
+2
+
+703
+
+3
+
+581
+
+3
+
+580
+
+2
+
+541
+
+2
+
+534
+
+3
+
+510
+
+3
+
+515
+
+3
+
+533
+
+3
+
+528
+
+2
+
+533
+
+3
+
+514
+
+3
+
+531
+
+3
+
+510
+
+3
+
+542
+
+3
+
+535
+
+2
+
+520
+
+2
+
+510
+
+3
+
+703
+
+3
+
+534
+
+18.9 19.4 19.4 20.0 18.7 19.6 16.9 17.8 19.1 17.8 19.0 19.0 19.4 18.3 16.4 16.1 16.3 19.3 15.7 15.7 20.0 18.9
+
+300­940 240­740 240­740 190­590 300­940 190­590 750­2400 470­1500 300­940 470­1500 300­940 300­940 240­740 530­1200 940­3000 1200­3700 940­3000 240­740 1500­4700 190­590 1500­4700 300­940
+
+developed. These orbital burn methods can be used for simple rendezvous calculations and may prove useful tools for further orbital applications and serve as viable replacements for the Shoemaker-Helin equations in the Main Belt.
+8.2. Future directions
+This project merely lays the groundwork for mining analysis of the Main Belt. Follow up projects could include cross referencing this dataset with Main Belt asteroid size and composition data to further focus on optimal mining targets. More observations to determine the physical parameters of the most accessible MBAs are desirable. An expansion of the orbital code should investigate the length of launch windows for given allowed increases in delta-v.
+The next steps in this project involve the application of the results, such as comparing of the results to specific rocket systems specifications to estimate the deliverable payload with current and future hardware (expanding on the exercise in Section 7.1) and cross-referencing the target list with known asteroid compositional data. Each of these analyses will refine, but also restrict, the optimum target list.
+Acknowledgements
+This research did not receive any grant from funding agencies in the public, commercial, or not-for-profit sectors. We thank Dr. Matthew Holman for his valuable advice during the development of this paper. This research has made use of data and/or services provided by the International Astronomical Union's Minor Planet Center. We thank our reviewers for their feedback and input. Anthony Taylor is grateful to the Harvard Astronomy Department for the award of the Leo Goldberg Prize for work on this paper.
+Appendix B. Supplementary data
+Supplementary data related to this article can be found at https://doi. org/10.1016/j.actaastro.2018.02.014.
+Appendix A. Code
+Both orbital rendezvous methods were implemented in Python 3.6. The code is contained in a.py file. The code first downloads and imports
+
+the MPC Database into the Python environment. The code then runs the delta-v calculations for both methods in parallel to reduce processing time, and generates an output datafile. The code uses only 1­3 processing threads and was run on a late 2011 1500 MacBook Pro (MacBookPro8,2) running MacOS 10.12.4. The code ran for 4 min and used no more than 1 GB of RAM. Due to the parallelization component of the code, it will not run on non-UNIX kernels such as Windows. The code is fully functional on macOS and Ubuntu Linux. The code is publicly available at https:// dataverse.harvard.edu/dataverse/ElvisMBA.
+References
+[1] M. Elvis, J. McDowell, et al., Ultra-low delta-v objects and the human exploration of asteroids, Planet. Space Sci. 59 (2011) 1408­1412.
+[2] S. Ieva, E. Dotto, D. Perna, M.A. Barucci, F. Bernardi, S. Fornasier, F. De Luise, E. Perozzi, A. Rossi, J.R. Brucato, Low delta-v near-earth asteroids: a survey of suitable targets for space missions^a, A&A 569 (2014) A59, https://doi.org/ 10.1051/0004-6361/201322283. https://doi.org/10.1051/0004-6361/ 201322283.
+[3] E.F. Tedesco, A. Cellino, V. Zappala, The statistical model. i. the main-belt population for diameters greater than 1 kilometer, Astron. J. 129 (2005) 2869­2886.
+[4] M. Elvis, Asteroids: Prospective Energy and Material Resources, Springer-Verlag Berlin Heidelberg, 2003, pp. 81­82.
+[5] R.L. Forward, A Transparent Derivation of the Relativistic Rocket Equation, 1995. http://www.relativitycalculator.com/images/rocket_equations/AIAA.pdf.
+[6] E. Shoemaker, E. Helin, Asteroids: an Exploration Assessment, NASA CP-2053, 1978, pp. 245­256.
+[7] W. Hohmann, reportThe Availability of Heavenly Bodies, NASA report NASA-TT-F44.
+[8] W. Dobson, V. Huff, A. Zimmerman, Elements and Parameters of the Osculating Orbit and Their Derivatives, NASA Technical Note D-1106. URL https://hdl.handle. net/2027/uiug.30112106591669.
+[9] V. Coverstone-Carroll, J. Hartmann, W. Mason, Optimal multi-objective low-thrust spacecraft trajectories, Comput. Meth. Appl. Mech. Eng. 186 (1999) 287­402.
+[10] NASA, Ceres: by the Numbers, 2016 [cited Dec 06 2016], http://solarsystem.nasa. gov/planets/ceres/facts.
+[11] R. Adams, G. Richardson, Using the Two-burn Escape Maneuver for Fast Transfers in the Solar System and beyond, URL https://ntrs.nasa.gov/archive/nasa/casi.ntrs. nasa.gov/20100033146.pdf
+[12] A. Morbidelli, W.B. Jr, C. Froeschle, P. Michel, Origin and Evolution of Near-earth Objects [cited May 2017]. URL http://www.boulder.swri.edu/~bottke/Reprints/ Morbidelli-etal_2002_AstIII_NEOs.pdf.
+[13] J. Law, R. Rennie, A Dictionary of Physics, 7 ed., Oxford University Press, 2016. [14] C. Desira, M. Elvis, Spectral Classification of NEOWISE Observed Near-earth
+Asteroids, American Astronomical Society, 2017. AAS Meeting #229, id.147.07. [15] A. Mainzer, J. Bauer, et al., Preliminary results from neowise: an enhancement to
+the wide-field infrared survey explorer for solar system science, Astrophys. J. 731 (1) (2011) 53. http://stacks.iop.org/0004-637X/731/i¼1/a¼53.
+
+81
+
+A. Taylor et al.
+[16] B. Wie, Space Vehicle Dynamics and Control, second ed., American Institute of Aeronautics and Astronautics, 2008 https://doi.org/10.2514/4.860119. https:// doi.org/10.2514/4.860119.
+[17] M. Wise, J. Lafleur, J. Saleh, Regression Analysis of Launch Vehicle Payload Capability for Interplanetary Missions, Tech. Rep. IAC-10.D2.P06, GIT, 2010 [cited May 2017], http://www.ssdl.gatech.edu/sites/default/files/papers/ conferencePapers/IAC-2010-D2.P06.pdf.
+[18] K. Glassmeier, et al., The rosetta mission: flying towards the origin of the solar system, Space Sci. Rev. 128 (2007) 1­21.
+Anthony Taylor is an undergraduate student at Harvard College studying Astrophysics and Physics. His research so far has been focused on asteroids (working with Dr. Martin Elvis and Dr. Jonathan McDowell), as well as supernova remnants (working with Dr. Dan Patnaude and Dr. Dan Milisavljevic). He serves on the board of STAHR (Student Astronomers at Harvard-Radcliffe), Harvard College's student astronomy organization, and helps manage the Loomis-Michael Telescope (10-inch refractor). He expects to graduate in the spring of 2018, and pursue a Ph.D. in Astrophysics.
+
+Acta Astronautica 146 (2018) 73­82
+Jonathan McDowell is an astrophysicist at the Harvard-Smithsonian Center for Astrophysics in Cambridge, MA, USA. He studies black holes, quasars and X-ray sources in galaxies, as well as developing data analysis software for the X-ray astronomy community. He currently leads the group which plans and tests the science analysis software for the Chandra X-ray Observatory. He obtained his PhD at Cambridge University in 1987. McDowell's scientific publications include studies of cosmology, black holes, merging galaxies, quasars, and asteroids. Minor planet (4589) McDowell is named after him.
+Martin Elvis is a highly cited astrophysicist (over 25,000 peer citations) who has worked for many years on supermassive black holes seen as quasars out to the edge of the universe. Lately, concerned about the growing cost of space telescopes, he has turned to researching the astronomy needed to enable asteroid mining. He obtained his PhD in X-ray astronomy in 1978, is a fellow of the American Association for the Advancement of Science, is pastChair of the Hubble Space Telescope Users Committee and of the High Energy Division of the American Astronomical Society. Asteroid (9283) Martinelvis is named after him.
+
+82
+
+
